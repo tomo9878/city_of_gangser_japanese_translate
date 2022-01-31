@@ -1,0 +1,1 @@
+# city_of_gangser_japanese_translate
