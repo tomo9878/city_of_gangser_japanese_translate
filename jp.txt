@@ -2,6 +2,8 @@
 __id	jp	en
 __name	日本語	English
 
+﻿__id	jp
+__name	日本語
 button.play	プレイ
 button.ok	OK
 button.cancel	キャンセル
@@ -117,17 +119,17 @@ ui.turns	{num}ターン
 ui.turns.1	{num}ターン
 ui.trade.sellonce	<sprite name="ui sell">
 ui.trade.sellonce.text	売却する
-ui.trade.sellonce.up-to	({qtyString}個まで買い取ってくれます)
+ui.trade.sellonce.up-to	({qtyString}個まで購入可)
 ui.trade.sellonce.sales	販売価格: {price}
 ui.trade.buyonce	<sprite name="ui buy">
 ui.trade.buyonce.text	買取する
-ui.trade.buyonce.up-to	({qtyString}個まで販売してくれます)
+ui.trade.buyonce.up-to	({qtyString}個まで売却可)
 ui.trade.buyonce.costvcash	価格: {price}.   現金: {cash}
 ui.trade.buysell	<sprite name="ui buy sell">
 ui.trade.delivery.sell	Sold {resdesc} to {bizdesc} per our scheduled order.
 ui.trade.delivery.sinfo	{status} {extra}\n\n{cash}受け取った。
 ui.trade.delivery.buy	Bought {resdesc} from {bizdesc} per our scheduled order.
-ui.trade.delivery.binfo	{status} {extra}\n\nTotal cost: {cash}.
+ui.trade.delivery.binfo	{status} {extra}\n\n総コスト: {cash}.
 ui.trade.transfer	金の移動
 ui.qty	{qty}
 ui.percentage	{x}%
@@ -284,7 +286,7 @@ ui.personinfo.dialog.header	<size=150%>{name}</size>\n{workplace}\n{details}
 ui.stationinfo.header	{groupname}\n{precinct}
 ui.stationinfo.loc	場所:\n{cornerinfo}
 ui.stationinfo.status.coop	Status:\nCooperating
-ui.stationinfo.status.noop	Status:\nNot cooperating
+ui.stationinfo.status.noop	ステータス:\n非協力的
 ui.stationinfo.officers	巡回中の警官:
 ui.stationinfo.officers.card.influenced	\n<i>(あなたの影響下)</i>
 ui.stationinfo.officers.card.name	{name} {influenced}
@@ -408,7 +410,7 @@ ui.crewmgmt.growth.is-family	<i>（自分の家族を助けると感謝される
 ui.resdestroy.mo	この在庫の一部を捨てる
 ui.resdestroy.header	在庫を捨てる
 ui.resdestroy.top	インベントリにある次のアイテムを捨てようとしている:{res}\n\n廃棄する数量は？
-ui.resdestroy.bottom	These items will be discarded and you will not be compensated for them. Afterwards you will have: {res} stored in this building.
+ui.resdestroy.bottom	これらのアイテムは廃棄され、元には戻りません。その後、あなたは この建物には{res}が保管されているだろう
 ui.resdestroy.plusminus.mo	<b>ctrl</b> キーで10ずつ増減\n <b>shift</b> キーで100ずつ増減.\n <b>ctrl + shift</b> キーで1000ずつ増減
 ui.deliveries.stop-job.mo	この配達を停止
 ui.deliveries.start-job.mo	この配達を開始\n\n少なくとも2つのステップ、ドライバー\nと良好な状態の車両が必要
@@ -451,7 +453,7 @@ ui.deliveries.actions.mo.collect-front	フロントからみかじめ徴収
 ui.deliveries.actions.mo.bottle-pickup	空き瓶の回収
 ui.deliveries.actions.mo.repair-vehicle	自動車の修理
 ui.deliveries.actions.collect-front.desc	{bizname} ( {peepname}によって運用中)
-ui.deliveries.cash.agreed	agreed amount， if ready
+ui.deliveries.cash.agreed	準備できた場合、金額に合意
 ui.deliveries.cash.all-available	すべての現金
 ui.deliveries.cash.exact	ぴったり{amount}
 ui.deliveries.cash.up-to	{quantity}まで
@@ -637,17 +639,17 @@ ui.cornerinfo.street.bold	<b>Location:</b> {name} Street
 ui.cornerinfo.corner.short	Corner of {hname} & {vname}
 ui.cornerinfo.street.short	{name} Street
 ui.cornerinfo.corner.shorter	{hname} & {vname}
-ui.cornerinfo.control.yours	This corner is part of your territory
-ui.cornerinfo.control.npc	This corner is controlled by {owner}
+ui.cornerinfo.control.yours	このコーナーはあなたのテリトリーの一部です
+ui.cornerinfo.control.npc	このコーナーは {owner}によって支配されている
 ui.inventory.header	Collect Items
 ui.inventory.summary.scavenge	Collect items left behind by {name}， as many as you can fit in your car.
-ui.inventory.yourcar	Your vehicle\n{percent} full
-ui.inventory.theircar	Their vehicle\n{percent} full
-ui.inventory.yourbldg	Your storage\n{percent} full
-ui.inventory.theirbldg	Their storage\n{percent} full
+ui.inventory.yourcar	あなたの車\n{percent} 積載中
+ui.inventory.theircar	彼らの車\n{percent} 積載中
+ui.inventory.yourbldg	あなたの倉庫\n{percent} 積載中
+ui.inventory.theirbldg	彼らの倉庫\n{percent} 積載中
 ui.inventory.item	{name}\n<size=75%>{units}</size>
-ui.inventory.move.mo	Press to move item.\nHold <b>ctrl</b> key to move 10 per click.\nHold <b>shift</b> to move 100 per click.\nHold <b>ctrl + shift</b> to move 1000 per click.
-ui.inventory.moveall.mo	Press to move all items.
+ui.inventory.move.mo	押すとアイテムが移動。\n<b>ctrl</b> キーで10ずつ増減\n <b>shift</b> キーで100ずつ増減.\n <b>ctrl + shift</b> キーで1000ずつ増減
+ui.inventory.moveall.mo	全てのアイテムを移動
 ui.itemorder.move.mo	Press to move item.\nHold <b>ctrl</b> key to move 10 per click.\nHold <b>shift</b> to move 100 per click.\nHold <b>ctrl + shift</b> to move 1000 per click.
 ui.itemorder.movefail.mo	This item will not fit!
 ui.command.heal.icon	<sprite name="ui health" tint=1>
@@ -1512,8 +1514,8 @@ ui.tickers.loot.retracted.below-threshold.message	An offer made to you has been 
 ui.tickers.loot.retracted.expired.message	An offer made to you no longer stands.
 ui.tickers.loot.retracted.raided.message	An offer you had in the works has been disrupted by local police activity.
 ui.tickers.loot.ready.message	An offer made to you has come through. Head over to pick up the fruits of your investment.
-ui.tickers.outpost-exp	Your front is working hard on increasing your reputation in the neighborhood. A new corner should join your territory soon.
-ui.tickers.outpost-expyes	A new corner joined your territory!\n\nVisit your front to start expanding in another direction.
+ui.tickers.outpost-exp	あなたのフロントは、近隣での評価を高めるために努力している。もうすぐ新しいコーナーがあなたのテリトリーに加わるはずだ。
+ui.tickers.outpost-expyes	あなたのテリトリーに新しいコーナーが加わりった！\n\n自分のフロントを訪れ、別の方向への拡大を開始しよう。
 ui.tickers.outpost-expno	You've reached the limits of this front's growth potential.\n\nSet up a new front to expand your territory in a different direction.
 ui.tickers.outpost.steal-protected	Your crew protected one of your fronts from subversion!
 ui.tickers.outpost.will-steal	A rival is thinking about attacking one of your fronts. \n\nYou might want to post some muscle at your fronts if you want to keep them.
@@ -1540,7 +1542,7 @@ ui.tickers.feds-startprison	{crewname} has been found guilty of flagrant violati
 ui.tickers.feds-endprison	{crewname} has been released， after serving {years} in federal prison.\n\nAfter an appropriate amount of celebration， you should find a suitable role for your loyal lieutenant， and let them get back into the swing of things.
 ui.tickers.crew-arrested	Police arrested one of your crew members， {name}.\n\nEverything in the vehicle was confiscated. {describe}
 ui.tickers.cop-descend	Police are descending at: {location}! They are detaining anyone who looks remotely suspicious
-ui.tickers.new-corner-control	Your respect is rising! You've gained control over a new corner of the city.
+ui.tickers.new-corner-control	あなたのリスペクトが高まっている あなたは街の新しい一角を支配するようになった。
 ui.tickers.corner-control-lost	Your respect is falling! You've just lost control over one of your former corners.
 ui.tickers.biz-tribute-lost	Businesses you were protecting at this node are no longer under your influence.
 ui.tickers.vehicle.junk	One of your vehicles is pretty completely junked!\n\nHeavily damaged vehicles cannot be used for work. It can only taken to the shop - or the scrap yard.
@@ -1849,7 +1851,7 @@ ui.viewdescribemodule.expansion.delete.confirm	Would you like to remove this exp
 ui.viewdescribemodule.expansion.icon	+
 ui.viewdescribemodule.expansion.select	Select an expansion
 ui.viewdescribemodule.expansion.select.header	The following expansions are available:
-ui.viewdescribemodule.expansion.desc.req	Requirements:\n
+ui.viewdescribemodule.expansion.desc.req	必要条件:\n
 ui.viewdescribemodule.expansion.desc.req.none	None
 ui.viewdescribemodule.expansion.desc.cost	Cost:\n
 ui.viewdescribemodule.expansion.desc.format	<b>{name}</b>\n\n{describe}\n\n{explainReqs}\n{explainCost}
@@ -1880,7 +1882,7 @@ ui.viewinventory.invcard.cash.icon	$
 ui.viewinventory.invcard.cash.desc	Dollars
 ui.viewinventory.invcard.cash.icon-and-word	$ cash
 ui.viewinventory.invcard.res.desc	{resname}\n<size=75%>{unitname}</size>
-ui.viewinventory.invcard.mo.default	Click for details
+ui.viewinventory.invcard.mo.default	クリックして詳細を見る
 ui.viewinventory.invcard.mo.junk	Cannot load due to vehicle condition!
 ui.viewinventory.invcard.mo.cantfit	This item will not fit!
 ui.viewinventory.invcard.mo.weapon	ダメージ: {value}
@@ -2371,8 +2373,8 @@ convo.buysell-details-buying	実は、今、買いたいものがあるんです
 convo.buysell-details-selling	興味があれば、売りますよ：{slist}。
 convo.buysell-details-buysell	もし興味があれば、私は次のものを売ります：{slist}。もしこちらがあれば買取します:{blist}
 convo.buysell-button-header.0	あまりないですね、ここは。
-convo.buysell-button-header.1	ひとつ思いつきました:
-convo.buysell-button-header	これは面白そうですね。:
+convo.buysell-button-header.1	こちらはどうでしょう:
+convo.buysell-button-header	とても興味深いですな
 convo.buysell-button-sell	I want to sell <sprite name="ui sell">: {items}
 convo.buysell-button-buy	I want to buy <sprite name="ui buy">: {items}
 convo.buysell-button-footer	Never mind.
@@ -2415,9 +2417,9 @@ convo.sell-select-npc	That sounds interesting.\n<indent=15><i>(Offers to buy at 
 convo.sell-select-button-now	I might have some in the car right now.
 convo.sell-select-button-tied	Let's talk about an exclusive trade arrangement. I think it might benefit us both.
 convo.sell-select-button-price	Let's talk about the cost.
-convo.sell-select-button-later	I changed my mind.
-convo.sell-select.gouge	; {price} over standard price
-convo.sell-select-button-now.npc	Let's see.
+convo.sell-select-button-later	気が変わったんです。
+convo.sell-select.gouge	; {price} 標準価格より高い
+convo.sell-select-button-now.npc	見てみよう。
 convo.sell-select-button-pickup.npc	I'll be looking forward to it. I'd be interested in {maxunits} {every-x-days}.
 convo.sell-select-button-pickup.say	Got it， I'll see what I can do.
 convo.sell-price-state	I believe we're set for {unitprice} per {unitname}.
@@ -2426,7 +2428,7 @@ convo.sell-price-any-button.epilogue	You are an honest person who does not stand
 convo.sell-price-any-button.mo	Suggest a fair price
 convo.sell-price-neg-button	I need to ask you for a bit more than usual. Times are tough all around， you know how it is.\n<indent=15><i>(Get {percentoff} over market price.)</i></indent>
 convo.sell-price-neg-button.epilogue	This is not ideal. But fine. {unitprice} it is.
-convo.sell-price-neg-button.mo	Ask for a higher price than expected
+convo.sell-price-neg-button.mo	予想以上に高い値段を要求する
 convo.sell-price-pos-button	I'm willing to let this go for cheap because I like you， but remember this moment.\n<indent=15><i>(Sell at {percentoff} discount from market price.)</i></indent>
 convo.sell-price-pos-button.epilogue	That was a generous gesture. Perhaps in the future I can return the favor.\nSo， can I buy any from you at {unitprice}?
 convo.sell-price-pos-button.mo	Offer them a good deal
@@ -2601,7 +2603,7 @@ convo.vehicle-buy-car-button	I'm looking to get rid of this car. Interested?
 convo.vehicle-buy-car-button.mo	中古車の売却について相談する
 convo.vehicle-buy-truck-button	このトラックを処分したい。興味あるか？
 convo.vehicle-buy-truck-button.mo	中古車の売却について相談する
-convo.vehicle-sell-button	車には興味があるかもしれませんね。何かあれば教えてください。
+convo.vehicle-sell-button	車を探しているんだ。何かよさそうなやつあるうなら見せてもらおうかな。
 convo.vehicle-sell-button.mo	車やトラックの販売についてたずねる
 convo.vehicle-back	後でまた来るよ。
 convo.vehicle-repair-npc	ええ、問題ありませんよ、すぐに修理できます。費用は全部で{rprice}$です。どうです？
@@ -3043,7 +3045,7 @@ convo.delivery-items-some-button.mo	You don't have enough， but you can drop of
 convo.delivery-items-none-button	I don't have any {icon-and-res} right now. I'll bring the remaining {remaining-resources} next time.
 convo.delivery-items-none-button.mo	You don't have enough in your vehicle
 convo.delivery-items-back-button	また後ほど。
-convo.delivery-quest-pending-npc	ありがとうございます。あと少しです、続きがあったら教えてください。
+convo.delivery-quest-pending-npc	ありがとうございます。あと少しです、残りを手に入れたらまたお願いしますよ。
 convo.delivery-quest-pending-button	やります
 convo.delivery-quest-pending-epilogue-npc	いい感じですね。居場所は分かりますよね？
 convo.delivery-quest-done-npc	決まりました！今度は私が約束を守ります。
@@ -3093,43 +3095,43 @@ convo.ticket-building-request-ok-button	I like this idea. Let's make it happen.
 convo.ticket-building-request-ok-button.mo	Invest into this business， as a front for your various endeavors.
 convo.ticket-building-request-later-button	I'll think about it.
 convo.ticket-building-done-npc	Wonderful news! I will go get the paperwork taken care of. In the meantime， make yourself at home! It's your business too， now.
-convo.ticket-building-done-ok-button	Here's to doing business together.
+convo.ticket-building-done-ok-button	一緒にビジネスをしていきましょう。
 convo.cop-effect.at-node.icon	<color=#a0a0a0><sprite name="ui buy sell" tint=1></color>
-convo.cop-effect.at-node.button	So， let's talk business.
-convo.cop-effect.at-node.blurb	I'd love to talk， but the cops nearby have me nervous. Can we talk a bit later?
-convo.cop-effect.at-node.leave.button	I understand. I'll be back in a bit.
+convo.cop-effect.at-node.button	では、仕事の話をしましょう。
+convo.cop-effect.at-node.blurb	話をしたいが、近くに警官がいるので緊張している。もう少し後で話さないか？
+convo.cop-effect.at-node.leave.button	了解しました。もう少ししたら、また来ます。
 convo.cop-effect.at-node.leave.button.mo	Leave the conversation for a later time
-convo.initiative-qreq-npc.any	I hear you're a well connected person. Perhaps I could ask you about something?
-convo.initiative-qreq-npc.neg	Since you're here， perhaps we should talk. 
-convo.initiative-qreq-npc.pos	Hello! Do you have a moment for a quick chat?
-convo.initiative-qreq-ok-button	I'm listening.
-convo.initiative-qreq-ok-button.mo	Learn more about what they need
-convo.initiative-qreq-notnow-button	I'm in a hurry， remind me later.
+convo.initiative-qreq-npc.any	あなたは人脈の広い方だと聞いています。お願いしたいことがあるんですが
+convo.initiative-qreq-npc.neg	せっかく来たのだから、話をしようじゃないか。
+convo.initiative-qreq-npc.pos	こんにちは。ちょっとお話しする時間ありますか？
+convo.initiative-qreq-ok-button	聞いています。
+convo.initiative-qreq-ok-button.mo	ニーズについてもっと知る
+convo.initiative-qreq-notnow-button	急いでるから、後で教えてください。
 convo.initiative-qreq-notnow-button.mo	Snooze this request
-convo.initiative-qreq-notnow-npc	Understood.
-convo.initiative-qreq-no-button	No， thanks.
-convo.initiative-qreq-no-button.mo	Decline request
-convo.initiative-qreq-no-npc	Ah， that is too bad.
-convo.initiative-qreqdone-npc	I'm glad you were able to help me.
-convo.initiative-qreqdone-ok-button	Always happy to help friends.
+convo.initiative-qreq-notnow-npc	了解だ。
+convo.initiative-qreq-no-button	いいえ、結構です。
+convo.initiative-qreq-no-button.mo	要求を拒否する
+convo.initiative-qreq-no-npc	ああ、それは残念です。
+convo.initiative-qreqdone-npc	助けてもらってよかったです。
+convo.initiative-qreqdone-ok-button	いつも友人を助けるのが嬉しい。
 convo.initiative-qreqdone-npc-unhappy	So much for your word， huh?
-convo.initiative-qreqdone-ok-button-unhappy	What do you mean?
-convo.initiative-qreqdone-notnow-button	I'm in a hurry right now.
-convo.initiative-qreqdone-notnow-button.mo	Delay till later
-convo.initiative-qreqdone-notnow-npc	Understood.
+convo.initiative-qreqdone-ok-button-unhappy	どういうことですか？
+convo.initiative-qreqdone-notnow-button	今、急いでいるんです。
+convo.initiative-qreqdone-notnow-button.mo	後日談
+convo.initiative-qreqdone-notnow-npc	了解だ。
 convo.initiative-qreq-choice	{choicetext}
-convo.initiative-heal	You're looking a little worse for the wear these days. Maybe you should lay low for a while， and <sprite name="ui health"> recuperate?
-convo.initiative-heal-ok-button	Good idea， I'll hang out here for a while， until I've regained my health.
-convo.initiative-heal-ok-npc	Just be patient， recovery takes time.
-convo.initiative-heal-no-button	Maybe some other time.
-convo.initiative-heal-no-npc	You're always welcome to stay here and recuperate.
+convo.initiative-heal	"最近、少し調子が悪いようですね。しばらく休んで、<sprite name=""ui health"">療養したほうがいいのでは？"
+convo.initiative-heal-ok-button	いい考えだ、体調が回復するまでしばらくここで待ってみるよ。
+convo.initiative-heal-ok-npc	ただ、回復には時間がかかるので、辛抱してください。
+convo.initiative-heal-no-button	また別の機会にでも。
+convo.initiative-heal-no-npc	ここで療養するのはいつでも大歓迎です。
 convo.expired-quest.button	Let's talk about our arrangement.
-convo.expired-quest.button.mo	Bring up the task they've asked you to handle.
+convo.expired-quest.button.mo	相手から依頼された仕事を持ち出す。
 convo.expired-quest.template	;;\n{choicetext}
-convo.expired-goon-quest.finish.blurb	Did you handle them? I haven't seen them in a while.
-convo.expired-goon-quest.finish.button	I've taken care of things. You can relax now.
-convo.expired-goon-quest.finish.post.blurb	What a relief! I don't know how to thank you.
-convo.expired-goon-quest.finish.post-protected.blurb	Good to see someone is actually protecting the neighborhood.
+convo.expired-goon-quest.finish.blurb	彼らをうまく処理しましたか？しばらく現れてないけど。
+convo.expired-goon-quest.finish.button	もう処理済みだ。もう安心していい。
+convo.expired-goon-quest.finish.post.blurb	なんということでしょう。なんとお礼を言っていいかわかりません。
+convo.expired-goon-quest.finish.post-protected.blurb	近隣を守っている人がいてよかった。
 convo.expired-homebooze-quest.finish.blurb	These events， they happen on a schedule. And， well， you were off schedule. Sorry. I'm going to have to keep some of the money you gave me. Let's just call the remainder the cost of my enduring friendship.
 convo.expired-homebooze-quest.finish.button	Well， with friends this expensive it makes me wonder-
 convo.expired-homebooze-quest.finish.post.blurb	I'd stop wondering， my friend. That can get dangerous.
@@ -3148,7 +3150,7 @@ convo.outpost-outside1-npc.new	What exactly is involved with running one of thes
 convo.outpost-outside1-say.new	It's pretty simple. First， we need to get locals on our side， and gain some <i>respect</i> as benevolent protectors.\nSo keep your ear to the ground for any opportunities to throw some money around for a good cause. Got it so far?
 convo.outpost-outside1-later	I'll come back with more details later.
 convo.outpost-outside2-npc	I sure do. What happens then， once your respect has spread?
-convo.outpost-outside2-say	Once people know about us and we <i>control</i> a new corner， our outfit will extend an offer of protection to local businesses. We will help protect our friends from misfortune.\nIn exchange， they will come here to drop off some envelopes. I'll need you to collect them for me and not ask any questions.\nI know you're hesitant， so I'll also throw in {install} to sweeten this deal.
+convo.outpost-outside2-say	私たちのことが知られ、私たちが新しいコーナーを<i>支配</i>するようになれば、私たちの組織は地元の企業に対して保護の申し出をすることができる。私たちの友人を災難から守る手助けをするのだ。\nそれと引き換えに、彼らはここに封筒を置きに来るだろう。その際、何も聞かずに封筒を回収してほしい。\n躊躇しているようだから、この取引を有利にするために{install}も入れておくよ。
 convo.outpost-outside3-npc	I see what you mean.\n<indent=15><i>(Hesitates.)</i></indent>\nI'm sorry， I don't think I'm the person you're looking for.
 convo.outpost-outside3-say	It appears I misjudged you and your abilities. That's a shame.
 convo.outpost-outside4-npc	It would be an honor to work for you.
@@ -3342,19 +3344,19 @@ convo.gangs.truce-2.later	I'll get back to you.
 convo.gangs.truce-2.epi	I'll be here.
 convo.gangs.truce-price.npc	If you want a cease fire， I'm not opposed， but it'll cost you. My price for peace is {amt}.\n<i>(Truces last {days} days during which they will not engage in hostilities against you.)</i>
 convo.gangs.truce-price.yes	Yeah， I can work with that. Deal?\n<indent=15><i>(Pay {amt} and start a truce for {days} days.)</i></indent>
-convo.gangs.truce-price.yes-epi	Deal.
-convo.gangs.truce-price.no	You must be joking.\n<indent=15><i>(Decline.)</i></indent>
-convo.gangs.truce-price.no-epi	Everything has a cost.
-convo.gangs.truce-fail.npc	I figured you'd be coming here asking for that. Yeah， I'm not interested in a cease fire.
-convo.gangs.truce-fail.say	Well then we have nothing to talk about.
-convo.gangs.truce-fail.epi	I didn't think so.
-convo.gangs.truce-broken.npc	So， after intentionally violating our previous cease fire， you have the gall to come back and ask for another one?
-convo.gangs.truce-broken.say	Oh， that wasn't intentional. I assure you， I will deal with this mistake on my end.\nLet this be water under the bridge， what do you say?
-convo.gangs.truce-broken.epi	I don't think so.
-convo.gangs.initiative	I hear you wanted to talk to me?
-convo.gangs.init-truce-1.npc	Yeah. We've been at each other's throats for a while now， haven't we?
-convo.gangs.init-truce-1.say	Sure.
-convo.gangs.init-truce-2.npc	And I'm sure you've noticed， it's not helping either of us. 
+convo.gangs.truce-price.yes-epi	ディール
+convo.gangs.truce-price.no	冗談でしょ\n<indent=15><i>(拒否.)</i></indent>
+convo.gangs.truce-price.no-epi	全てに費用があります
+convo.gangs.truce-fail.npc	それを聞きに来たんですな。ああ、停戦に興味はないよ。
+convo.gangs.truce-fail.say	それなら、話すことは何もないな。
+convo.gangs.truce-fail.epi	そうは思わないね。
+convo.gangs.truce-broken.npc	それで、前回の停戦を意図的に破った後、また停戦を要求する勇気があるのか？
+convo.gangs.truce-broken.say	あ、わざとじゃないんです。このミスは私のほうで処理することを保証します。\nこの件は水に流してほしいです。どうですかね？
+convo.gangs.truce-broken.epi	そんなことはないだろう。
+convo.gangs.initiative	私に話があるそうですね？
+convo.gangs.init-truce-1.npc	そうですね 私たちは、しばらくお互い喉から手が出るほど欲しい存在だったでしょう？
+convo.gangs.init-truce-1.say	確かに
+convo.gangs.init-truce-2.npc	そして、お気づきのように、私たち二人の助けにはならないのです。
 convo.gangs.init-truce-2.say	Speak for yourself.
 convo.gangs.init-truce-3.npc	Look， both of us are getting distracted by this conflict， while business deals keep passing us by. What do you say we put it on hold for a while?
 convo.gangs.init-truce-3.say	And why would I do that?
@@ -3666,14 +3668,14 @@ resevents.dinner-party.later-npc	It would be a pleasure. I will be hosting one s
 resevents.dinner-party.later-you	I would love to. What can I bring?
 resevents.dinner-party.later-npc2	To make certain that the right caliber of guest attends， I ask everyone to make a substantial contribution to a charity of my choice. If you show yourself to be charitable， I know you'll fit right in.\n<indent=15><i>(You will need to spend {price} right now on party preparation， and come back on the specified date.)</i></indent>
 resevents.dinner-party.later-you2	It would be a pleasure. See you then!\n<indent=15><i>(Pay {price} and commit to return.)</i></indent>
-resevents.dinner-party.later-npc3	Don't forget: {date}. I'll see you then.
-resevents.dinner-party.later-cancel	Unfortunately I can't make it this time.
+resevents.dinner-party.later-npc3	{date}を忘れないでください。その時に会いましょう。
+resevents.dinner-party.later-cancel	今回は残念ながら行けません。
 resevents.dinner-party.skipped-npc	Hmm， there won't be one for a while. But ask me again in a few weeks.
 resevents.dinner-party.denied-npc	You're not welcome at my parties.
 resevents.dinner-party.waiting-you	Just wanted a reminder when the dinner party is happening?
 resevents.dinner-party.waiting-npc	Mark your calendar for {date}. Hope to see you there.
-resevents.dinner-party.active-you	I understand the dinner party is happening tonight?
-resevents.dinner-party.active-npc2	Yes， and you're just in time. Come on in! Say hello to everyone.
+resevents.dinner-party.active-you	今夜はディナーパーティーがあるそうですね？
+resevents.dinner-party.active-npc2	はい、間に合いましたね。さあ、入ってください。みんなに挨拶して
 resevents.dinner-party.active-you2	Thank you!\n<indent=15><i>(Attend the party.)</i></indent>
 resevents.dinner-party.active-npc3	<i>You have a swell evening with some interesting people. Before everyone leaves， {name} asks:</i>\n{eventresult}
 resevents.poker-night.icon	<sprite name="ui peep">
@@ -3710,8 +3712,8 @@ resevents.bourbon-smuggling.later-npc	I do indeed. They're supposed to stop by o
 resevents.bourbon-smuggling.later-you	I just might.
 resevents.bourbon-smuggling.later-npc2	You will need some cash in advance to show you're serious.\n<indent=15><i>(You will need to spend {price} right now to secure your spot on the guest list， and come back on the specified date.)</i></indent>
 resevents.bourbon-smuggling.later-you2	Seems lucrative.\n<indent=15><i>(Pay {price} and commit to return.)</i></indent>
-resevents.bourbon-smuggling.later-npc3	Don't forget: {date}. I'll see you then.
-resevents.bourbon-smuggling.later-cancel	Unfortunately I can't make it this time.
+resevents.bourbon-smuggling.later-npc3	{date}を忘れないでください。その時に会いましょう。
+resevents.bourbon-smuggling.later-cancel	今回は残念ながら行けません。
 resevents.bourbon-smuggling.skipped-npc	Events with this caliber of guests can't happen every day. Ask me in a few weeks and we'll see.
 resevents.bourbon-smuggling.denied-npc	I would never introduce someone like you to those fine people from Kentucky.
 resevents.bourbon-smuggling.waiting-you	When is your meeting thing again? I need to make sure my good suit is clean.
@@ -4276,12 +4278,12 @@ module.add.default	Select a module on the left for more details
 module.occupied.tag-biz-front.mo	This unassuming street-level storefront provides perfect cover.
 module.occupied.tag-biz-back.mo	Nobody needs to know about the business operating out back.
 module.occupied.tag-inventory-small.mo	この建物には、ちょっとした収納スペースがある。
-module.occupied.tag-inventory-medium.mo	This building has a considerable amount of storage space.
-module.occupied.tag-inventory-large.mo	This building has a lot of storage space.
+module.occupied.tag-inventory-medium.mo	この建物には、かなりの量の収納スペースがある。
+module.occupied.tag-inventory-large.mo	この建物には、多くの収納スペースがある。
 module.available.tag-biz-front.mo	You have an empty street-level storefront that could be put to good use.
-module.available.tag-biz-back.mo	There's a lot of space in the back of the building， away from prying eyes.
-module.available.tag-inventory-small.mo	This building has a bit of storage space that could be used for something.
-module.available.tag-inventory-medium.mo	This building has a considerable amount of unused storage space.
+module.available.tag-biz-back.mo	人目を避けるために、建物の奥に広いスペースを確保した。
+module.available.tag-inventory-small.mo	この建物にはちょっとした収納スペースがあり、何かに使えそうだ。
+module.available.tag-inventory-medium.mo	この建物には、かなりの量の未使用の収納スペースがある。
 module.available.tag-inventory-large.mo	This building has a lot of storage space， and it's being completely wasted.
 module.inventory-back-room.name	Hidden closet
 module.inventory-back-room.desc	This closet is hidden and can store small quantities of things.
@@ -4332,8 +4334,8 @@ module.row.manu.quiet	This quiet storefront operation runs entirely by the book.
 module.row.manu.cost.time	Production only takes time
 module.row.manu.text	every {produceConsumeDays} days\n({produceConsumeTurns} turns)
 module.row.manu.text.mo	Production cycle: every {produceConsumeDays} days ({produceConsumeTurns} turns)
-module.row.requirements	\n<b>Requirements:</b>\n
-module.row.purchase.cost	\n<b>Costs and materials</b>\nInstalling this operation will cost you the following:
+module.row.requirements	\n<b>必要条件:</b>\n
+module.row.purchase.cost	\n<b>費用と材料</b>\nこの事業を導入すると以下の費用が発生:
 module.row.purchase.text	{buildDays} days\n({buildTurns} turns)
 module.row.purchase.text.mo	Construction time: {buildDays} days ({buildTurns} turns)
 module.row.purchase.ready-location	\n<i>(Materials and cash need to be ready <b>in storage inside this building</b> for installation to proceed.)</i>
@@ -4346,7 +4348,7 @@ module.desc.mo.cost	Cost: {cashtext}
 module.desc.mo.cash	\nYou have: {textOnHand}
 module.desc.cash.symbol	$
 module.desc.locname	<b>{name}</b>
-module.desc.prod-details	\n<b>Production details:</b>
+module.desc.prod-details	\n<b>生産物詳細:</b>
 module.desc.op-details	\n<b>Operation details:</b>
 module.desc.sold	Sold last turn:
 module.desc.last-prod	\nLast production:
@@ -4406,18 +4408,18 @@ module.flavor-bowling.name	ボウリング場
 module.flavor-bowling.desc	地域のボウリングリーグなどの親睦会に利用できるローカルレーン。
 module.flavor-bank	銀行
 module.production-homebooze-moonshine.name	バックルームムーンシャイン製造
-module.production-homebooze-moonshine.desc	飲めない変性アルコール、工業用アルコールを飲める密造酒にする
-module.production-homebooze-moonshine.details	工業用アルコールとせっ器製の壷が手に入れば、小さな密造酒製造工場ができる。工業用アルコールを密造酒に変換したら、小さな酒場や密造酒販売者に卸し、一般大衆に販売することができる。
+module.production-homebooze-moonshine.desc	飲めない変性アルコール、工業用アルコールを飲めるムーンシャインにする
+module.production-homebooze-moonshine.details	工業用アルコールとせっ器製の壷が手に入れば、小さなムーンシャイン製造工場ができる。工業用アルコールをムーンシャインに変換したら、小さな酒場や密造酒販売者に卸し、一般大衆に販売することができる。
 module.production-homebooze-moonshine-improved.name	発展したムーンシャイン製造
 module.production-homebooze-corn-moonshine-improved.name	発展したムーンシャインスティル
 module.production-homebooze-moonshine-improved.desc	通常のムーンシャイン製造に比べて50％製造量が増加
 module.production-homebooze-corn-moonshine-improved.desc	通常のバックルームムーンシャインスティルより50%多くムーンシャインを生産可能
-module.production-homebooze-moonshine-improved.details	ノウハウが身についたことで、密造酒製造のキャパシティが広がった。
+module.production-homebooze-moonshine-improved.details	ノウハウが身についたことで、ムーンシャイン製造のキャパシティが広がった。
 module.production-homebooze-moonshine-dock.name	駐車場ムーンシャイン製造
 module.production-homebooze-corn-moonshine.name	バックルームムーンシャインスティル
 module.production-homebooze-corn-moonshine.desc	この地方では、技術と資源が揃っているので、入手しやすいトウモロコシを簡単なスチルに入れれば、簡単にムーンシャインを作ることができる。
 module.production-homebooze-corn-moonshine.details	地元の工夫とオハイオ川沿いの豊富な穀物取引により、ありふれた材料で簡単にバックルームにムーンシャイン醸造装置を作ることができる。
-module.production-homebooze-cider.name	バックルームシードル作戦
+module.production-homebooze-cider.name	バックルームシードル事業
 module.production-homebooze-cider.desc	一般的なリンゴジュースをハードシードルに変換する
 module.production-homebooze-cider.details	リンゴジュースの供給を受けると、小さなシードル工場を運営することができる。一般的な酵母を加えて数週間待つだけで、酔わせるようなハードシードルを作ることができる。
 module.production-homebooze-cider-improved.name	発展したシードル製造
@@ -4652,9 +4654,9 @@ module.butcher-starter.name	精肉店
 module.pool-hall.name	プールホール
 module.pool-hall.details	フェルトで覆われたテーブル、手玉の音が響く。地元の人たちの憩いの場として親しまれているビリヤード場。
 module.pool-hall.desc	禁酒法時代のプールホールは、違法行為で悪名高かった。
-module.cigarette-bootlegger.name	タバコの密輸作戦
+module.cigarette-bootlegger.name	タバコの密輸事業
 module.cigarette-bootlegger.desc	この小さな裏稼業で、タバコの密輸入を行う。
-module.cigarette-bootlegger.details	この奥の部屋で、疑わしいあるいは存在しない収入印紙を使って密輸タバコを調達する小さな作戦を立てる。この特殊な商売は、ある程度の収入を得ることができ、また、地元の人と知り合いになれる。もちろん、密輸されたタバコを手に入れる必要がある。
+module.cigarette-bootlegger.details	この奥の部屋で、疑わしいあるいは存在しない収入印紙を使って密輸タバコを調達する小さな事業を立てる。この特殊な商売は、ある程度の収入を得ることができ、また、地元の人と知り合いになれる。もちろん、密輸されたタバコを手に入れる必要がある。
 module.source-carshop-small.name	車整備工場
 module.source-carshop-small.desc	壊れた車を修理してくれる地元のスポット。また、有用な化合物や材料を購入することができるかもしれません。
 module.source-cannery.name	フルーツ缶詰工場
@@ -4697,24 +4699,24 @@ module.production-fruit-brandy.details	All of the immigrants from certain parts 
 module.production-fruit-brandy-upgraded.name	Upgraded Rakija Still
 module.production-fruit-brandy-upgraded.details	Since you've learned about how to keep things nice and sterile so that only the good types of yeast grow， you can build operation to make even more rakija.
 module.production-fruit-brandy-upgraded.desc	Increase the production at this still by upgrading a few things.
-module.production-fruit-brandy-upgraded-upgrade.details	Since you've learned about how to keep things nice and sterile so that only the good types of yeast grow， you can expand your operation to make even more rakija.
-module.production-corn-whiskey.name	Corn Whiskey Still
-module.production-corn-whiskey.desc	A backroom still for producing corn whiskey.
-module.production-corn-whiskey.details	The abundance of corn in Cincinnati comes from its position on the Ohio River and the local stockyards. Here you can use this cheap and plentiful grain to make corn whiskey.
-module.production-corn-whiskey-upgraded	Large Corn Whiskey Still
-convo.ticket-intro-flavor.module.production-homebooze-fruit-wine	Let me know if you need any assistance with the fruit wine that you're working on at your operation. I might know someone that you should meet.
-module.production-makeshift-still.details	With some surplus barrels and some other materials and you could definitely turn this back room into a makeshift still and make some bottled booze. It wouldn't be exactly the same as the real stuff， but these days， who's too picky?
-convo.ticket-intro-flavor.module.production-makeshift-still	On the hunt for anything to use in any of your makeshift stills? Might know someone who can help.
-module.production-makeshift-still-whiskey.name	Makeshift Whiskey Still
-module.production-makeshift-still-whiskey.desc	Convert moonshine into something that people can convince themselves is whiskey using some spices and dyes.
-module.production-makeshift-still-brandy.name	Makeshift Brandy Still
-module.production-makeshift-still-brandy.desc	Convert bushels of fruit and some sugar into something that people can convince themselves is brandy.
-module.production-makeshift-still-vodka.name	Makeshift Vodka Still
-module.production-makeshift-still-vodka.desc	Convert excess backroom beer via some corn syrup into something people can convince themselves is vodka.
-module.production-makeshift-still-rum.name	Makeshift Rum Still
-module.production-makeshift-still-rum.desc	Convert neutral alcohol and sugar into something people can convince themselves is rum.
-module.conversion-booze-barrels-small-whiskey.name	Small Whiskey Distiller
-module.conversion-booze-barrels-small-whiskey.desc	This small still makes barrels of whiskey out of grains.
+module.production-fruit-brandy-upgraded-upgrade.details	良い酵母だけが育つように無菌状態を維持する方法を学んだので、さらに多くのラキヤを作るために作業を効率化することができる。
+module.production-corn-whiskey.name	コーンウイスキー蒸留
+module.production-corn-whiskey.desc	コーンウイスキーを作るためのバックルーム蒸留
+module.production-corn-whiskey.details	シンシナティはオハイオ川に面し、ストックヤードがあるため、トウモロコシが豊富に採れる。ここでは、この安くて豊富な穀物を使って、コーンウィスキーを作ることができる。
+module.production-corn-whiskey-upgraded	大型コーンウイスキー蒸留
+convo.ticket-intro-flavor.module.production-homebooze-fruit-wine	あなたのオペレーションで取り組んでいるフルーツワインについて、何かサポートが必要であれば教えてください。私はあなたが会うべき人を知っているかもしれません。
+module.production-makeshift-still.details	余った樽と材料があれば、この奥の部屋を即席の蒸留器にして、瓶詰めの酒を作ることができますよ。本物と全く同じというわけにはいかないだろうが、このご時世、こだわりのある人はいないだろう。
+convo.ticket-intro-flavor.module.production-makeshift-still	その場しのぎの蒸留に使うものをお探しですか？誰か助けてくれる人がいるかもしれませんよ。
+module.production-makeshift-still-whiskey.name	その場しのぎのウイスキー蒸留
+module.production-makeshift-still-whiskey.desc	ムーンシャインをスパイスや染料を使って、ウイスキーだと思わせるようなものに変える。
+module.production-makeshift-still-brandy.name	その場しのぎのブランデー蒸留
+module.production-makeshift-still-brandy.desc	大量の果実と砂糖を、ブランデーだと思わせるようなものに変換する。
+module.production-makeshift-still-vodka.name	その場しのぎのウォッカ蒸留
+module.production-makeshift-still-vodka.desc	余ったバックルームビールとコーンシロップでウォッカと錯覚させる。
+module.production-makeshift-still-rum.name	その場しのぎのラム蒸留
+module.production-makeshift-still-rum.desc	中性のアルコールと糖分を、ラム酒と思わせるようなものに変換する。
+module.conversion-booze-barrels-small-whiskey.name	小さなウイスキー蒸留器
+module.conversion-booze-barrels-small-whiskey.desc	この小さな蒸留器では、穀物から樽詰めウイスキーをつくっている。
 module.conversion-booze-barrels-small-whiskey.details	Wheat or barley can be used to make barrels of whiskey that can be transported elsewhere to be bottled and sold to bootleggers and speakeasies.
 module.conversion-booze-barrels-small-brandy.name	Small Brandy Distiller
 module.conversion-booze-barrels-small-brandy.desc	This small still makes barrels of brandy out of fruit.
@@ -6052,7 +6054,7 @@ trait-cautious.short	<sprite name="trait cautious"> More trust required for ille
 trait-cautious.gambling	<sprite name="trait cautious"> Not a big spender. Great at games that require careful， precise strategy.
 trait-cautious.icon	<sprite name="trait cautious">
 trait-organized.name	Organized
-trait-organized.desc	An organized person member is a better operation manager and will find ways to increase production.
+trait-organized.desc	組織化された人物は、優れたオペレーション・マネージャーであり、生産量を増やす方法を見つけることができる。
 trait-organized.short	<sprite name="trait organized"> Faster experience gain while managing operations.
 trait-organized.gambling	<sprite name="trait organized"> Higher chance of success playing games that require counting or planning.
 trait-organized.icon	<sprite name="trait organized">
@@ -6348,37 +6350,37 @@ skill.ice-making.conv	There's a new-fangled technology these days that makes ice
 skill.ice-making-quest.name	Ice Making
 skill.ice-making-quest.desc	{$firstname} {$lastname} will get you the knowhow to make and move ice if you deliver the requested cash and materials.
 skill.basic-tobacco-processing.name	Basic Tobacco Processing
-skill.basic-tobacco-processing.desc	Learning the basics of tobacco processing work will allow you to make and package counterfeit cigarettes and then sell them around town.
-skill.basic-tobacco-processing.conv	Time was that I knew how to make some mighty fine cigarettes - so good that no one could tell them from the big name brands. For a price， I could remember how and teach you how to do the same.
-skill.improved-homebooze-cider.name	Pressing Matters
+skill.basic-tobacco-processing.desc	タバコの加工作業の基本を学ぶことで、偽物のタバコを作って包装し、街中で販売することができるようになる。
+skill.basic-tobacco-processing.conv	その昔、私は有名ブランドのタバコと見分けがつかないほど上等なタバコを作る方法を知っていました。値段は高いが、私はその方法を覚えていて、あなたにも教えることができます。
+skill.improved-homebooze-cider.name	圧縮技法
 skill.improved-homebooze-cider.icon	<sprite name="skill cider-upgrade">
-skill.improved-homebooze-cider.desc	Learning this skill allows you to <b>upgrade</b> your existing Backroom Cider Operations into Expanded Cider Operations. Once upgraded， hard cider production will increase by 50%.
-skill.improved-homebooze-cider.conv	Before this silly new law， our family made a lot of cider. Now that it's illegal， we have gotten out of the business. But I still have some tricks of the trade I could impart to you. If you drop off some cider that you've been making， I can probably give you some pointers on how to increase your production.
-skill.improved-homebooze-cider-quest.name	Pressing Matters
-skill.improved-homebooze-cider-quest.desc	Bring some hard cider to {$firstname} {$lastname} to learn how to improve your cider output.
-skill.improved-homebooze-moonshine.name	Extra Extraction
+skill.improved-homebooze-cider.desc	このスキルを習得すると、既存の「バックルームシードル事業」を「拡張サイダー作戦」に<b>アップグレード</b>することができる。アップグレードすると、ハードシードルの生産量が50％増加する。
+skill.improved-homebooze-cider.conv	この愚かな新しい禁酒法ができる前は、我が家はたくさんのシードルを作っていました。それが違法になったので、私たちはこのビジネスから手を引きました。しかし、私はまだあなたに伝授することができる取引のいくつかの技法を持っています。もし、あなたが作っているリンゴ酒を差し入れしてくれれば、生産量を増やすためのヒントを差し上げられると思います。
+skill.improved-homebooze-cider-quest.name	圧縮技法
+skill.improved-homebooze-cider-quest.desc	ハードサイダーを{$firstname} {$lastname}に持参して、サイダーの出方を改善する方法を学ぶ。
+skill.improved-homebooze-moonshine.name	追加抽出
 skill.improved-homebooze-moonshine.icon	<sprite name="skill moonshine-upgrade">
-skill.improved-homebooze-moonshine.desc	Learning this skill allows you to <b>upgrade</b> your existing Backroom Moonshine Operations into Expanded Moonshine Operations. Once upgraded， moonshine production will increase by 50%.
-skill.improved-homebooze-moonshine.conv	Having been working with neutral alcohol for a while， I've got some ideas about how you might increase your moonshine production. I can take some time away from my business to show you how if you can pay a bit...
-skill.improved-homebooze-moonshine-quest.name	Extra Extraction
-skill.improved-homebooze-moonshine-quest.desc	A payment to {$firstname} {$lastname} will allow you to increase your moonshine production by 50%.
+skill.improved-homebooze-moonshine.desc	このスキルを習得すると、既存の「バックルームムーンシャイン事業」を「拡張ムーンシャイン事業」に<b>アップグレード</b>することができるようになる。アップグレードすると、ムーンシャインの生産量が50％増加する。
+skill.improved-homebooze-moonshine.conv	中性アルコールに携わってきた経験から、ムーンチャイルドの生産量を増やすにはどうしたらいいか、いくつか考えてみました。もし、あなたがお金を払ってくれるなら、私は自分の仕事から少し離れて、あなたに方法を教えることができます。
+skill.improved-homebooze-moonshine-quest.name	追加抽出
+skill.improved-homebooze-moonshine-quest.desc	{$firstname} {$lastname}に支払うことで、ムーンシャインの生産量を50%増やすことができる。
 skill.improved-homebooze-corn-moonshine.name	Superior Stills
-skill.improved-homebooze-corn-moonshine.desc	Learning this skill allows you to <b>upgrade</b> your existing Backroom Moonshine Operations into Expanded Moonshine Operations. Once upgraded， moonshine production will increase by 50%.
+skill.improved-homebooze-corn-moonshine.desc	このスキルを習得すると、既存の「バックルームムーンシャイン事業」を「拡張ムーンシャイン事業」に<b>アップグレード</b>することができるようになる。アップグレードすると、ムーンシャインの生産量が50％増加する。
 skill.improved-homebooze-corn-moonshine.conv	Now that I know a bit more about the simple moonshine still that you've got going， I'm sure that my family has the expertise to help you expand your stills. That is， if you're interested.
 skill.improved-homebooze-corn-moonshine-quest.name	Superior Stils
-skill.improved-homebooze-corn-moonshine-quest.desc	A payment to {$firstname} {$lastname} will allow you to increase your moonshine production by 50%.
-skill.improved-homebooze-home-brew.name	Much More Malt
+skill.improved-homebooze-corn-moonshine-quest.desc	{$firstname} {$lastname}に支払うことで、ムーンシャインの生産量を50%増やすことができる。
+skill.improved-homebooze-home-brew.name	もっとたくさんの麦芽
 skill.improved-homebooze-home-brew.icon	<sprite name="skill more-malt">
-skill.improved-homebooze-home-brew.desc	Learning this skill allows you to <b>upgrade</b> your existing Home Brew Operations into Expanded Home Brew Operations. Once upgraded， homemade beer production will increase by 50%.
-skill.improved-homebooze-home-brew.conv	Beer. I miss beer. But I've been playing with this malt extract that the former breweries have been selling and I have some ideas on how you could make even more of this near beer. I could be persuaded to share provided the proper incentives.
-skill.improved-homebooze-home-brew-quest.name	Much More Malt
-skill.improved-homebooze-home-brew-quest.desc	A payment to {$firstname} {$lastname} will allow you to increase your homemade beer production by 50%.
-skill.improved-homebooze-brick-wine.name	Bonus Bricks
+skill.improved-homebooze-home-brew.desc	このスキルを習得すると、既存の自家製ビール事業を<b>拡張自家製ビール事業</b>にアップグレードすることができるようになる。アップグレードすると、自家製ビールの生産量が50％増加する。
+skill.improved-homebooze-home-brew.conv	ビールです。ビールが恋しいです。しかし、私は元ビール会社が販売しているこのモルトエキスで遊んでいたのですが、どうすればこの近くのビールをさらに多く作ることができるのか、いくつかアイデアがあるんです。適切なインセンティブがあれば、共有するよう説得できるのですが。
+skill.improved-homebooze-home-brew-quest.name	もっとたくさんの麦芽
+skill.improved-homebooze-home-brew-quest.desc	$firstname} {$lastname} への支払いで、自家製ビールの生産量を50%増やすことができます。
+skill.improved-homebooze-brick-wine.name	ブリックワイン増産
 skill.improved-homebooze-brick-wine.icon	<sprite name="skill brick-wine-upgrade">
-skill.improved-homebooze-brick-wine.desc	Learning this skill allows you to <b>upgrade</b> your existing Backroom Wine Operations into Expanded Brick Wine Operations. Once upgraded， brick wine production will increase by 50%.
-skill.improved-homebooze-brick-wine.conv	Heard about your small brick wine operation. I might have some ideas on how you could be making more of it. Bring some of your current supply over so I can see how good it is. Then I can probably give you some pointers on how you can increase your production.
-skill.improved-homebooze-brick-wine-quest.name	Bonus Bricks
-skill.improved-homebooze-brick-wine-quest.desc	Bring some brick wine to {$firstname} {$lastname} to see if your brick wine production can be increased.
+skill.improved-homebooze-brick-wine.desc	このスキルを習得すると、既存の「ブリックワイン事業」を「拡張ブリックワイン事業」に<b>アップグレード</b>することができるようになる。アップグレードすると、ブリックワインの生産量が50％増加する。
+skill.improved-homebooze-brick-wine.conv	ちいさなブリックワインの事業について聞いたことがあります。もっとたくさん作るにはどうしたらいいか、いくつかアイディアがあるかもしれない。今あるワインをいくつか持ってくれば、その良さがわかると思います。そうすれば、どうすれば生産量を増やすことができるのか、いくつかヒントを与えることができるかもしれません。
+skill.improved-homebooze-brick-wine-quest.name	ブリックワイン増産
+skill.improved-homebooze-brick-wine-quest.desc	{$firstname} {$lastname} にブリックワインを持参して、ブリックワインの生産量を増やすことができるかどうか確認する。
 skill.improved-homebooze-fruit-wine.name	Fruitful Operations
 skill.improved-homebooze-fruit-wine.desc	Learning this skill allows you to <b>upgrade</b> your existing Backroom Fruit Wine Operations into Expanded Fruit Wine Operations. Once upgraded， fruit wine production will increase by 50%.
 skill.improved-homebooze-fruit-wine.conv	You know what this town could use? More fruit wine. In the old days， it was just something that we made at home， but I think you've got a profitable thing going there with that stuff. I can show you how to make more.
@@ -6598,37 +6600,37 @@ skill.bootleg-rum-quest.name	Bootleg Rum
 skill.bootleg-rum-quest.desc	Get your friend some money and hard cider to learn about making something resembling rum.
 skill.whiskey-still.name	Small Whiskey Stills
 skill.whiskey-still.icon	<sprite name="skill whiskey-still">
-skill.whiskey-still.desc	Learn how to build a proper whiskey still to increase production.\n\nAcquiring this skill allows you to <b>build</b> a <i>small whiskey still</i> in a building controlled by your outfit.
-skill.whiskey-still.conv	Want to really start to take over whiskey production not only in the neighborhood， but maybe for the entire city? You'll need to build better stills to make better whiskey to get those better deals. I just happen to know someone who can do that. He won't get involved with anyone he doesn't know， but he'll teach me. And then I'll teach you. I just need the materials so that we can build a test still out in the country， away from prying eyes.
-skill.whiskey-still-quest.name	Small Whiskey Stills
-skill.whiskey-still-quest.desc	Get your friend some materials and cash to finance an experimental whiskey still in the country. Then you'll be able to make your own.
-quest.whiskey-still.beforechoice	Success! In fact， rampant success. These new stills produce so much whiskey that you'll need to put it in barrels. Then later you can bottle it. If you don't know how to bottle booze， I'll show you how right now. No charge.
-skill.brandy-still.name	Small Brandy Stills
+skill.whiskey-still.desc	生産量を増やすための適切なウイスキー蒸留器の作り方を学ぶ。\n\nこの技術を獲得すると小さな<i>ウイスキー蒸留器</i>を支配済みの建物中に<b>作る</b>ことができる。
+skill.whiskey-still.conv	近隣だけでなく、街全体のウイスキーづくりを本格的に始めてみたいですか？より多くの儲けを得るためには良いウイスキーを作る事が必要で、そのためにはより良い蒸留器を作る必要があります。私はたまたま、それができる人を知っていますよ。彼は知らない人とは関わらないだろうが、私に教えてくれるだろう。そして、私があなたに教える。 試験装置を作るための材料が必要なんだ。詮索されないようにね
+skill.whiskey-still-quest.name	ウイスキー用小型蒸留器
+skill.whiskey-still-quest.desc	友人に材料と資金を調達して、田舎で実験用のウイスキー蒸留器を作ってもらう。そうすれば、自分でも作れるようになる。
+quest.whiskey-still.beforechoice	成功! 実際、大成功です。この新しい蒸留器では、樽に入れる必要があるほど多くのウイスキーが生産されます。そして後で瓶詰めにするのだ。もし、酒の瓶詰め方法を知らないなら、今すぐ教えてあげよう。無料です。
+skill.brandy-still.name	小型ブランデー蒸留機
 skill.brandy-still.icon	<sprite name="skill brandy-still">
-skill.brandy-still.desc	Learn how to build a proper brandy still to increase production.\n\nAcquiring this skill allows you to <b>build</b> a <i>small brandy still</i> in a building controlled by your outfit.
-skill.brandy-still.conv	Want to really start to take over brandy production not only in the neighborhood， but maybe for the entire city? You'll need to build better stills to make better brandy to get those better deals. I just happen to know someone who can do that. She won't get involved with anyone she doesn't know， but she'll teach me. And then I'll teach you. I just need the materials so that we can build a test still out in the woods， away from prying eyes.
-skill.brandy-still-quest.name	Small Brandy Stills
-skill.brandy-still-quest.desc	Get your friend some materials and cash to finance an experimental brandy still in the woods. Then you'll be able to make your own.
-quest.brandy-still.beforechoice	Success! In fact， rampant success. These new stills produce so much brandy that you'll need to put it in barrels. Then later you can bottle it. If you don't know how to bottle booze， I'll show you how right now. No charge.
-skill.rum-still.name	Small Rum Stills
+skill.brandy-still.desc	生産量を増やすための適切なブランデー蒸留器の作り方を学ぶ。\n\nこの技術を獲得すると小さな<i>ブランデー蒸留器</i>を支配済みの建物中に<b>作る</b>ことができる。
+skill.brandy-still.conv	近隣だけでなく、街全体のブランデーづくりを本格的に始めてみたいですか？より多くの儲けを得るためには良いブランデー作る事が必要で、そのためにはより良い蒸留器を作る必要があります。私はたまたま、それができる人を知っていますよ。彼は知らない人とは関わらないだろうが、私に教えてくれるだろう。そして、私があなたに教える。 試験装置を作るための材料が必要なんだ。詮索されないようにね
+skill.brandy-still-quest.name	小型ブランデー蒸留機
+skill.brandy-still-quest.desc	友人に材料と資金を提供し、森の中でブランデーの実験的な蒸留器を作る資金を調達してください。そうすれば、自分でも作れるようになる。
+quest.brandy-still.beforechoice	成功! 実際、大成功です。この新しい蒸留器からは、樽に入れなければならないほど多くのブランデーが生産されます。そして、後で瓶詰めするのです。もし、あなたがお酒の瓶詰めを知らないなら、今すぐ教えてあげます。無料です。
+skill.rum-still.name	小型ラム酒蒸留器
 skill.rum-still.icon	<sprite name="skill rum-still">
-skill.rum-still.desc	Learn how to build a proper rum still to increase production.\n\nAcquiring this skill allows you to <b>build</b> a <i>small rum still</i> in a building controlled by your outfit.
-skill.rum-still.conv	Want to really start to take over rum production not only in the neighborhood， but maybe for the entire city? You'll need to build better stills to make better rum to get those better deals. I just happen to know someone who can do that. He won't get involved with anyone he doesn't know， but he'll teach me. And then I'll teach you. I just need the materials so that we can build a test still out in the woods， away from prying eyes.
-skill.rum-still-quest.name	Small Rum Stills
-skill.rum-still-quest.desc	Get your friend some materials and cash to finance an experimental rum still in the woods. Then you'll be able to make your own.
-quest.rum-still.beforechoice	Success! In fact， rampant success. These new stills produce so much rum that you'll need to put it in barrels. Then later you can bottle it. If you don't know how to bottle booze， I'll show you how right now. No charge.
-skill.vodka-still.name	Small Vodka Stills
+skill.rum-still.desc	生産量を増やすための適切なラム酒蒸留器の作り方を学ぶ。\n\nこの技術を獲得すると小さな<i>ラム酒蒸留器</i>を支配済みの建物中に<b>作る</b>ことができる。
+skill.rum-still.conv	近隣だけでなく、街全体のラム酒づくりを本格的に始めてみたいですか？より多くの儲けを得るためには良いラム酒を作る事が必要で、そのためにはより良い蒸留器を作る必要があります。私はたまたま、それができる人を知っていますよ。彼は知らない人とは関わらないだろうが、私に教えてくれるだろう。そして、私があなたに教える。 試験装置を作るための材料が必要なんだ。詮索されないようにね
+skill.rum-still-quest.name	小型ラム酒蒸留器
+skill.rum-still-quest.desc	友人に材料と資金を調達してもらい、森の中でラム酒蒸留器の実験をしてみましょう。そうすれば、自分でも作れるようになる。
+quest.rum-still.beforechoice	成功! 実際、大成功です。この新しい蒸留器からは、樽に入れなければならないほど多くのラム酒が生産されます。そして、後で瓶詰めにするのです。もし、酒の瓶詰めを知らないなら、今すぐ教えてあげよう。無料です。
+skill.vodka-still.name	小型ウォッカ蒸留器
 skill.vodka-still.icon	<sprite name="skill vodka-still">
-skill.vodka-still.desc	Learn how to build a proper vodka still to increase production.\n\nAcquiring this skill allows you to <b>build</b> a <i>small vodka still</i> in a building controlled by your outfit.
-skill.vodka-still.conv	Want to really start to take over vodka production not only in the neighborhood， but maybe for the entire city? You'll need to build better stills to make better vodka to get those better deals. I just happen to know someone who can do that. She won't get involved with anyone she doesn't know， but she'll teach me. And then I'll teach you. I just need the materials so that we can build a test still out at her family's farm， away from prying eyes.
-skill.vodka-still-quest.name	Small Vodka Stills
-skill.vodka-still-quest.desc	Get your friend some materials and cash to finance an experimental vodka still down at the farm. Then you'll be able to make your own.
-quest.vodka-still.beforechoice	Success! In fact， rampant success. These new stills produce so much vodka that you'll need to put it in barrels. Then later you can bottle it. If you don't know how to bottle booze， I'll show you how right now. No charge.
-skill.booze-bottling.name	Booze Bottling
+skill.vodka-still.desc	生産量を増やすための適切なウォッカ蒸留器の作り方を学ぶ。\n\nこの技術を獲得すると小さな<i>ウォッカ蒸留器</i>を支配済みの建物中に<b>作る</b>ことができる。
+skill.vodka-still.conv	近隣だけでなく、街全体のウォッカづくりを本格的に始めてみたいですか？より多くの儲けを得るためには良いウォッカ作る事が必要で、そのためにはより良い蒸留器を作る必要があります。私はたまたま、それができる人を知っていますよ。彼は知らない人とは関わらないだろうが、私に教えてくれるだろう。そして、私があなたに教える。 試験装置を作るための材料が必要なんだ。詮索されないようにね
+skill.vodka-still-quest.name	小型ウォッカ蒸留器
+skill.vodka-still-quest.desc	友人に材料と資金を提供し、森の中でウォッカの実験的な蒸留器を作る資金を調達してください。そうすれば、自分でも作れるようになる。
+quest.vodka-still.beforechoice	成功! 実際、大成功です。この新しい蒸留器からは、樽に入れなければならないほど多くのウォッカが生産されます。そして、後で瓶詰めするのです。もし、あなたがお酒の瓶詰めを知らないなら、今すぐ教えてあげます。無料です。
+skill.booze-bottling.name	酒の瓶詰め
 skill.booze-bottling.icon	<sprite name="skill booze-bottling">
 skill.booze-bottling.desc	Learn how put booze in bottles， with labels and everything.\n\nAcquiring this skill allows you to <b>build</b> a <i>small bottling operation</i> in a building controlled by your outfit.
 skill.booze-bottling.conv	Putting booze in a bottle. Sounds simple， right? But if you want to make the public believe they're buying the real McCoy， well， that takes some skill. Getting the label just right. Finding the right lid. Getting the color just so. I'm sure you'll catch on. Just send some cash and I'll put together a catalog that you can use to get each bottle looking perfect.
-skill.booze-bottling-quest.name	Booze Bottling
+skill.booze-bottling-quest.name	酒の瓶詰め
 skill.booze-bottling-quest.desc	Fund your friend's efforts to catalog booze bottles so that you can reproduce them and build your own bottling operation.
 skill.backroom-distillation.name	Makeshift Stills
 skill.backroom-distillation.icon	<sprite name="skill backroom-distillation">
@@ -6928,8 +6930,7 @@ victory.trade-train.goal.name	Player with Railroads
 victory.trade-train.goal.desc	Goal: smuggling by rail. You pulled a train depot into your territory， and used it to strike at least one illegal business deal.
 victory.trade-train.1sub.desc	Number of train depots that did business with you
 victory.trade-boats.goal.name	Nation's Freight Handler
-victory.trade-boats.goal.desc	Goal: smuggling by boat. You pulled a longshoremen's hall into your territory， and used it to strike at least one illegal business deal.
-victory.trade-boats.1sub.desc	Number of <sprite name="biz union hall"> longshoremen's halls that did business with you
+victory.trade-boats.goal.desc	Goal: smuggling by boat. You pulled a longshoremen's hall into your territory， and usedahall"> longshoremen's halls that did business with you
 victory.producer.goal.name	Producer of Alcohols
 victory.producer.goal.desc	Goal: your outfit has the most profitable manufacturing. Rankings use total value of booze produced in the previous month， across all of your operations.
 victory.producer.1sub.desc	Manufacturing value
@@ -7089,44 +7090,44 @@ quest.apple-jack-producer.human1	She sounds like she could help to expand my app
 quest.apple-jack-producer.c2	Making applejack is fine. But what if we could make something even better?
 quest.apple-jack-producer-bonus.npc1	There's this regular that comes in. She yaps constantly about her family's woes. They used to have these orchards where they made a lot of brandy. Now they're hard up and she's always asking if I know anyone who would buy their old equipment. So I thought of you.
 quest.apple-jack-producer-bonus.human1	Thoughtful. I think I'd consider helping her family out.
-quest.apple-jack-producer-bonus.c2	She knows how to make some good rakija by chance?
+quest.apple-jack-producer-bonus.c2	彼女はもしかして、おいしいラキヤの作り方を知っているのか？
 quest.fruit-wine-producer-bonus.name	Cherry on Top
-quest.fruit-wine-producer-bonus.desc	Learn about ways to improve or augment your fruit wine making operations.
-quest.fruit-wine-producer-bonus.npc1	My family， well， we own orchards up north. Way up north. Away from the prying eyes of the law and we've really got making fruit wine down to a science. Since we're really not in competition down here， I could share some of what we've learned.
-quest.fruit-wine-producer-bonus.human1	I've been wanting to expand my little fruit wine making operation. So yes， tell your family I'd be happy to get my hands on that knowledge.
-quest.fruit-wine-producer-bonus.c7	What I need is to know how to make more fruit wine. 
-quest.brick-wine-producer-bonus.name	Heard Through the Grapevine
-quest.brick-wine-producer-bonus.desc	Learn about ways to improve or augment your wine making operations.
-quest.brick-wine-producer.npc1	News has spread that you're making brick wine. And news has also spread that we're on good terms.
-quest.brick-wine-producer.npc2	Ah， yes! A proposition! If you drop off some brick wine， I'll move it among my regular， trusted customers.
+quest.fruit-wine-producer-bonus.desc	フルーツワイン製造のオペレーションを改善・増強する方法について学ぶ。
+quest.fruit-wine-producer-bonus.npc1	私の家は、北の方に果樹園を持っています。ずっと北の方です。法律の目を逃れて、私たちはフルーツワインを科学的に作り上げたんです。ここでは競争相手ではないので、私たちが学んだことをいくつかお話します。
+quest.fruit-wine-producer-bonus.human1	小さなフルーツワイン作りの幅を広げたいと考えていました。そうだ、その知識を手に入れることができたら幸せだと君のグループにに伝えてくれ。
+quest.fruit-wine-producer-bonus.c7	必要なのは、もっとフルーツワインを作る方法を知ることです。
+quest.brick-wine-producer-bonus.name	巷で聞いた話
+quest.brick-wine-producer-bonus.desc	ワイン製造のオペレーションを改善・増強する方法について学ぶ。
+quest.brick-wine-producer.npc1	あなたがブリックを造っているというニュースが伝わってきました。そして、私たちが仲良くしているというニュースも広まりました。
+quest.brick-wine-producer.npc2	ああ、そうだ！提案だ! ブリックワインを届けてくれたら、私の信頼する常連客の間で分配させるわ。
 quest.brick-wine-producer.c2	My supplies of grape concentrate can't really keep up. I really should look into making my own. Perhaps you know how?
-quest.brick-wine-producer.c3	You're Italian. I bet you know a few wine making tricks from the old country， right?
-quest.brick-wine-producer.c4	I've been trying to figure out how to make more brick wine in my current space. Perhaps you know how to improve that operation?
-quest.brick-wine-producer-bonus.npc1	I've got some family that just arrived from California. While they lived there， they worked for a few wineries. They know what wine should look like， so perhaps they could show you how to take your current wine operations to a new level.
-quest.brick-wine-producer-bonus.human1	I've been wanting to expand my little wine making operation. So yes， tell your cousin I'd be happy to get my hands on that knowledge.
-quest.brick-wine-producer-bonus.c1	I could really use more grape concentrate， so why not make it on my own?
-quest.brick-wine-producer-bonus.c2	What I want to do is start making backroom wine and selling that to some more upscale customers with deeper pockets.
-quest.brick-wine-producer-bonus.c3	I've already figured out counterfeit wine. But how about sending some supplies for making the stuff my way?
-quest.home-brew-producer-bonus.name	Changes Brewing
-quest.home-brew-producer-bonus.desc	Learn about ways to improve or augment your beer making operations.
-quest.home-brew-producer.npc1	News has spread that you're making home brew. And news has also spread that we're on good terms.
-quest.home-brew-producer.npc2	Ah， yes! A proposition! If you drop off some home brew， I'll move it among my regular， trusted customers.
-quest.home-brew-producer.c2	My supplies of malt syrup can't really keep up. I really should look into making my own. Perhaps you know how?
-quest.home-brew-producer.c3	You're German. I bet you know a few brewing tricks from the old country.
-quest.home-brew-producer.c4	I've been trying to figure out how to make more homemade beer in my current space. Perhaps you know how to improve that operation?
-quest.home-brew-producer-bonus.npc1	A lot of my regular customers used to work at various breweries. One - we'll call him Joe - walked out with a lot of brewing supplies when it recently closed. Joe would like to sell that equipment and his brewing knowhow to the right people. And I was thinking that you might be the right people.
-quest.home-brew-producer-bonus.human1	Indeed. Could you arrange things with Joe? I'd very much like his skills and equipment.
-quest.home-brew-producer-bonus.c1	What I really need is to have a large， more reliable source of malt syrup， so if you could show me how to make that stuff， that would help a lot.
-quest.home-brew-producer-bonus.c2	I think I know enough about making homemade beer. It's time to start making a better product that's more like the beer we all remember.
-quest.home-brew-producer-bonus.c3	I've already figured out counterfeit beer. But how about sending some supplies for making the stuff my way?
-quest.producer-bonus.c4	I'd like to set up a small bootlegging operation to sell homemade booze directly to customers， so how about showing me how that's done?
-quest.producer-bonus.c5	If there was a way to reuse some of the crocks that get emptied at my bootlegging operations， I'd appreciate if you'd show me how that could work.
+quest.brick-wine-producer.c3	あなたはイタリア人じゃないか。ワイン作りのコツを知っているんだろう？
+quest.brick-wine-producer.c4	今のスペースでもっとブリックワインを作るにはどうしたらいいかと考えていたんです。もしかしたら、その運用を改善する方法を知っているのでは？
+quest.brick-wine-producer-bonus.npc1	カリフォルニアから来たばかりの家族がいるんだ。彼らはカリフォルニアに住んでいる間、いくつかのワイナリーで働いていたんだ。彼らはワインについてよく知っているので、現在のワインオペレーションを新しいレベルに引き上げる方法を教えてくれるかもしれません。
+quest.brick-wine-producer-bonus.human1	私は自分の小さなワイン作りを広げたいと考えていました。そうそう、あなたの従兄弟に、その知識を手に入れられたら幸せだと伝えてください。
+quest.brick-wine-producer-bonus.c1	ブドウの濃縮液をもっと使いたいので、自分で作ったらどうだろう？
+quest.brick-wine-producer-bonus.c2	私がやりたいのは、バックルームワインを作り、それを懐の深い高級なお客さんに売ることです。
+quest.brick-wine-producer-bonus.c3	偽ワインのことはもうわかったよ。だが それを作るための材料を 俺のとこに送るのは どうだ？
+quest.home-brew-producer-bonus.name	醸造の改善
+quest.home-brew-producer-bonus.desc	ビール製造のオペレーションを改善・増強する方法を学ぶ
+quest.home-brew-producer.npc1	あなたが自家製ビールを作っているというニュースが広まりました。そして私たちが仲良しだということも広まりました。
+quest.home-brew-producer.npc2	ああ、そうだ！提案だ! 自家製ビールを差し入れしてくれたら、信、私の信頼する常連客の間で分配させるわ。
+quest.home-brew-producer.c2	モルトシロップの供給が追いつかないんです。自分で作ることを検討しなければなりません。どうすればいいか知ってる？
+quest.home-brew-producer.c3	あなたはドイツ人だ。醸造のコツを知っているんだろう？
+quest.home-brew-producer.c4	今のスペースでもっと自家製ビールを作るにはどうしたらいいか、ずっと考えていたんです。もしかしたら、その運用を改善する方法をご存じかもしれませんね？
+quest.home-brew-producer-bonus.npc1	私の常連客の多くは、かつて様々な醸造所で働いていました。そのうちの一人（ジョーと呼ぶことにする）は、最近閉鎖されたときにたくさんの醸造用具を持って出て行ったんです。ジョーはその機材と醸造のノウハウを適切な人に売りたいと考えています。そして、その適任者があなた方ではないかと考えたのです。
+quest.home-brew-producer-bonus.human1	確かに。ジョーと話をつけてくれないか？彼の技術や機材がとても欲しいんだ。
+quest.home-brew-producer-bonus.c1	私が本当に必要としているのは、より信頼性の高いモルトシロップの大量生産です。
+quest.home-brew-producer-bonus.c2	自家製ビール作りについては十分理解しているつもりです。そろそろ、みんなの記憶に残っている本物のビールに近い、より良い製品を作りたいですね。
+quest.home-brew-producer-bonus.c3	ビールの偽造はもうわかったよ。でも、作るための材料をこっちに送るのはどう？
+quest.producer-bonus.c4	自家製の酒を直接お客さんに売る、小さな販売所を作りたいのですが、その方法を教えてください。
+quest.producer-bonus.c5	もし、私の密造酒製造工場で空になった樽を再利用する方法があれば、教えてほしいのですが。
 quest.producer-bonus.c6	How about a nice load of homemade booze for me to move as I see fit?
 quest.player-same-ethnicity-one.name	Common Ground
-quest.player-same-ethnicity-one.desc	Rely on a fellow countryman to help your homebooze production get off the ground
-quest.player-same-ethnicity-one.npc1	So we come to this country and then they ban alcohol. If we were back home， we could drink as much as we like. Also if we were back home， I could make as much as I want. 
-quest.player-same-ethnicity-one.human1	Make， you say? Perhaps you'd be willing to teach a countryman like me how to make some booze?
-quest.player-same-ethnicity-one.npc2	To be honest， I'd feel better if your outfit controlled more territory. If our people are going to take over this city， we should get started.
+quest.player-same-ethnicity-one.desc	自家製酒の生産を軌道に乗せるために、同胞を頼ろう
+quest.player-same-ethnicity-one.npc1	だから、この国に来て、お酒を禁止されたんです。もし国に帰れば、好きなだけ飲めるのに。また、母国に帰れば、好きなだけお酒を作ることができます。
+quest.player-same-ethnicity-one.human1	作る、だと？私のような田舎者に酒の作り方を教えてくれないかな？
+quest.player-same-ethnicity-one.npc2	正直なところ、あなたの組織がより多くのテリトリーを支配していれば、私はより良い気分です。もし、我々の仲間がこの街を征服するつもりなら、すぐにでも始めなければならない。
 quest.player-same-ethnicity-one.human2	Agreed. I'll come back once our outfit has taken over a few more corners. You'll see - our people are going to rule this city's underworld.
 quest.player-same-ethnicity-one.introending	It's a deal， then.
 quest.player-same-ethnicity-one.beforechoice	Good to see our people standing up for ourselves and taking control of corners. How can I help you expand?
@@ -7154,49 +7155,49 @@ quest.player-same-ethnicity-three.beforechoice	Your commitment to our little civ
 quest.player-same-ethnicity-three.c1	Charity is its own reward， but information is always welcome. Especially about different types of alcohol
 quest.player-same-ethnicity-three.c2	Perhaps they could help me expand my operations.
 quest.player-same-ethnicity-three.c3	How about a simple collection of cash to reimburse me for my trouble?
-quest.player-same-ethnicity-three-a.npc2	Some counterfeit wine would really set things off correctly at our upcoming festival.
-quest.player-same-ethnicity-three-b.npc2	Some sparkling cider would really set things off correctly at our upcoming festival.
-quest.player-same-ethnicity-three-c.npc2	Some backroom beer would really set things off correctly at our upcoming festival.
-quest.player-same-ethnicity-three-d.npc2	Some bathtub gin would really set things off correctly at our upcoming festival.
-quest.player-same-ethnicity-three-e.npc2	Some rakija would really set things off correctly at our upcoming festival.
-quest.player-same-ethnicity-four.name	A Place of Our Own
-quest.player-same-ethnicity-four.desc	Contribute to the construction of a civic club.
-quest.player-same-ethnicity-four.npc1	Have you heard? We're drawing up plans for our own civic club， just for us to have a place to be among ourselves in this sometimes strange land.
-quest.player-same-ethnicity-four.human1	I confess I'm sometimes nostalgic as well...
-quest.player-same-ethnicity-four.npc2	Then perhaps you could contribute some funding and materials to construction?
-quest.player-same-ethnicity-four.human2	I would be happy to.
-quest.player-same-ethnicity-four.introending	Excellent. I look forward to the groundbreaking!
-quest.player-same-ethnicity-four.beforechoice	Thank you very much. Your generosity will shine through the ages.
-quest.player-same-ethnicity-four.c1	I imagine that there will be quite a party when the club opens. I would appreciate it if a portion of the， um， provisions end up in my hands. 
-quest.player-same-ethnicity-four.c2	So after construction， I'd like you use our newly reinforced ethnic solidarity to arrange for a new， small delivery truck to show up outside my door.
-quest.native-born-one.name	Welcome to the Jungle
-quest.native-born-one.desc	Get your start in the homemade booze racket
-quest.native-born-one.npc1	Alcohol has been banned. But I don't know if you've noticed， the city is still plenty thirsty. 
-quest.native-born-one.human1	I have. In fact， my family has a bit of homemade booze we're moving. I just wish we could get more.
-quest.native-born-one.npc2	I happen to know a bit about making homemade booze. And coincidentally I'm also looking to expand my business. While I'm not sure I'd be willing to help someone I barely know， I'm sure I'd be willing to help an investor in my business if you catch my meaning.
-quest.native-born-one.human2	I do. So I'll bring by my investment and then we can discuss making my own homebooze.
-quest.native-born-one.introending	That's a deal. 
-quest.native-born-one.beforechoice	You've already got some supplies， so I can show you how to use those. Or if you want to bring by other materials， I'm happy to show you how to make those into homemade booze.
-quest.native-born-one.c5	You know I'm rather new in town， so anyone you know who could help advance my operations would be greatly appreciated.
-quest.native-born-one.afterchoice	I'm glad we got to know each other better. Here's to future ventures.
-quest.homebooze-starter.c1	I think I can get some apple juice. Can you show me how to turn it into hard cider?
-quest.homebooze-starter.c2	I think I know were to get some grape concentrate. Can you show me how to make brick wine with it?
-quest.homebooze-starter.c3	I've got a line on malt syrup. Can we figure out how to make it into homemade beer?
-quest.homebooze-starter.c4	A little birdie has told me where to get neutral alcohol. Can you show me how to turn it into drinkable moonshine?
-quest.homebooze-starter.c6	I'd be keen to learn the secrets of using ice to make something alcoholic from apples or apple juice.
-quest.homebooze-starter.c7	With all the orchards out in the countryside， I'm sure that fruit wine production could be worth my while in this town.
+quest.player-same-ethnicity-three-a.npc2	偽物のワインがあれば、今度のお祭りは正しく盛り上がるでしょう。
+quest.player-same-ethnicity-three-b.npc2	今度のお祭りでは、スパークリングシードルがあると盛り上がりますね。
+quest.player-same-ethnicity-three-c.npc2	バックルームビールがあれば、今度のフェスで正しく盛り上がれますね。
+quest.player-same-ethnicity-three-d.npc2	バスタブジンがあれば、今度のフェスでも正しく盛り上がるでしょう。
+quest.player-same-ethnicity-three-e.npc2	今度のお祭りでは、ラキヤがあれば、正しく盛り上がることでしょう。
+quest.player-same-ethnicity-four.name	自分たちの場所
+quest.player-same-ethnicity-four.desc	市民クラブの建設に貢献する。
+quest.player-same-ethnicity-four.npc1	ご存知ですか？私たちは、この見知らぬ土地に住む同胞ために、自分たちの市民クラブの計画を立てているんです。
+quest.player-same-ethnicity-four.human1	正直言って、私も時々懐かしくなります...。
+quest.player-same-ethnicity-four.npc2	それなら、建設に必要な資金や資材を提供することもできるのでは？
+quest.player-same-ethnicity-four.human2	喜んでさせていただきます。
+quest.player-same-ethnicity-four.introending	素晴らしい。着工式が楽しみです
+quest.player-same-ethnicity-four.beforechoice	ありがとうございました。あなたの寛大さは時代を超えて輝き続けるでしょう。
+quest.player-same-ethnicity-four.c1	クラブがオープンしたら、相当なパーティーが開かれるのでしょうね。その際、あー、えー代金の一部が私の手に渡ればありがたいのですが。
+quest.player-same-ethnicity-four.c2	だから、工事が終わったら、新しく強化された同胞の連帯感で、私の家の前に新しい小型の配送車を手配してほしいんだ。
+quest.native-born-one.name	ジャングルへようこそ
+quest.native-born-one.desc	自家製酒密売買でスタートを切る
+quest.native-born-one.npc1	アルコールは禁止されています。しかし、あなたは気づいているかどうかわかりませんが、街はまだ十分に喉が渇いています。
+quest.native-born-one.human1	ありますよ。実は、我が家には引っ越しの際に作る自家製酒が少しあるんです。もっと手に入ればいいんですけどね。
+quest.native-born-one.npc2	たまたま、自家製酒の作り方を少し知っているんです。そして偶然にも、自分のビジネスを拡大したいと考えています。私は知らない人を助けることはできませんが、私のビジネスへの投資家を助けることはできると思います。
+quest.native-born-one.human2	そう だから、私は自分の投資を持参しますので、我々は自家製酒を作ることを話し合いましょう
+quest.native-born-one.introending	それでOKです
+quest.native-born-one.beforechoice	すでに持っているものもあるでしょうから、その使い方を紹介しましょう。また、他の材料をお持ちいただければ、それを使って自家製酒を作る方法をお教えします。
+quest.native-born-one.c5	私はこの街では新参者なので、どなたか私の活動を助けてくださる方がいらっしゃれば、非常にありがたいです。
+quest.native-born-one.afterchoice	仲良くなれてよかったです。これからの活躍を期待しますよ。
+quest.homebooze-starter.c1	りんごジュースが手に入りそうです。ハードシードルにする方法を教えてください。
+quest.homebooze-starter.c2	ブドウの濃縮液はどこで手に入るかわかっているつもりです。それを使ってブリックワインを作る方法を教えてください。
+quest.homebooze-starter.c3	モルトシロップがあるんですが 自家製ビールにする方法を教えてくれませんか？
+quest.homebooze-starter.c4	小鳥さんが中性アルコールの入手先を教えてくれました。飲めるムーンシャインにする方法を教えてくれませんか？
+quest.homebooze-starter.c6	氷を使って、りんごやりんごジュースからお酒を作る秘訣をぜひ教えてほしいです。
+quest.homebooze-starter.c7	この町には果樹園がたくさんありますから、フルーツワインを作るのもいいかもしれませんね。
  	 
-quest.brick-wine-bonus.name	Wine Residue
-quest.brick-wine-bonus.desc	See if your connection has a line on bottled wine.
-quest.brick-wine-bonus.npc1	The brick wine that I make is fine， but it's nothing like the real thing， right?
-quest.brick-wine-bonus.npc2	That's true， my friend. But there is a lot of wine all over the city from before this stupid law. If you give me some cash， I can arrange for some to be delivered here.
-quest.brick-wine-bonus.beforechoice	Nothing opens doors like cash! I have indeed found some wine that has been lingering in various cellars.
-quest.brick-wine-bonus.c1	Excellent! Drop off a few cases and I'll see if I can sell it.
+quest.brick-wine-bonus.name	ワインの絞りカス
+quest.brick-wine-bonus.desc	人脈にボトルワイン製造のラインがあるかどうかを確認。
+quest.brick-wine-bonus.npc1	私が作るブリックワインもいいのですが、本物にはかないませんよね？
+quest.brick-wine-bonus.npc2	その通りだ。しかし、この馬鹿げた法律ができる前から、街中にたくさんのワインがあるんだ。もし金をくれるなら、ここに配達するよう手配することができる。
+quest.brick-wine-bonus.beforechoice	現金ほど扉を開くものはない! 確かに、いろいろなセラーで眠っていたワインを見つけました。
+quest.brick-wine-bonus.c1	素晴らしい！数ケースを投下してくれれば、売れるかどうか確認します。
 quest.cider-bonus.name	Brandy Dregs
-quest.cider-bonus.desc	See if your connection has a line on some bottled brandy.
-quest.cider-bonus.npc1	Warmed up cider is fine on cold days， but nothing warms up like brandy. Those were the days.
-quest.cider-bonus.npc2	Definitely. But there is a lot of brandy from before the ban that is all over the city. If you give me some cash， I can have some end up here.
-quest.cider-bonus.beforechoice	Motivated by some cash， people suddenly remember cases of brandy hiding out in basements.
+quest.cider-bonus.desc	人脈にブランデー製造のラインがあるかどうかを確認。
+quest.cider-bonus.npc1	寒い日には温めたシードルもいいですが、ブランデーほど体を温めてくれるものはないですよね。そんな時代でした。
+quest.cider-bonus.npc2	間違いなく。でも、禁止される前のブランデーが街中にたくさんあるんです。現金でくれるなら、ここに納めることができる。
+quest.cider-bonus.beforechoice	現金に動かされ、地下室に隠してあったブランデーのケースを突然思い出したのだ。
 quest.cider-bonus.c1	Terrific. Drop some off and we'll find some cold souls to warm up.
 quest.home-brew-bonus.name	Seeking Suds
 quest.home-brew-bonus.desc	See if your connection has a line on some bottled beer.
@@ -8283,8 +8284,8 @@ postcard.arrested	One of your people got arrested by the cops. Fortunately they 
 postcard.fedsraid	One of your businesses has been raided by the Federal Bureau of Prohibition!
 postcard.fedarrest	One of your crew members has been arrested by the Feds!
 postcard.corner.need	Businesses need to be inside your territory to do illegal business with you. You'll need to set up a new <i>front</i> to expand your territory. Try setting one up at your safehouse.
-postcard.corner.one	Your respect is rising in this city. Another new corner has been added to your crew's territory.
-postcard.corner.two	A new corner now acknowledges that you and your crew are in charge around here. Everyone knows who you are now and that you mean business.
+postcard.corner.one	あなたのリスペクトが高まっている。あなたは別の街の新しい一角を支配するようになった。
+postcard.corner.two	新しいコーナーでは、あなたとあなたのクルーがこの辺りを仕切っていることを認めている。誰もが、あなたが誰であるか、そしてあなたが本気であることを知っている。
 postcard.skill.one	It pays to know people who know things. You've learned a new skill that you can use to expand your outfit's operations.
 postcard.skill.two	There's a smart way and hard way. You've chosen the smart way and your crew now has a new skill at its disposal.
 postcard.construction.one	A new operation has come online in the back of a respectable business.
@@ -8541,117 +8542,117 @@ quest.player-expand-one.npc1	As you may have figured out， this new era of Proh
 quest.player-expand-one.human1	Couldn't agree more. That's why I've come to town. To run things.
 quest.player-expand-one.npc2	Have you， now? Well， then I think you should prove it by making sure that our family controls more territory. Show some mettle there and I'm sure the family can provide more help.
 quest.player-expand-one.human2	Mettle you want? Fine， then. Once those corners are under our control， I'll be back to see about that help.
-quest.player-expand-one.c1	I've got lots of customers out for more brick wine and I know that the family has a stash， so drop that at the safehouse and then we'll be square.
+quest.player-expand-one.c1	ワインを買いに来る客がいるんだ。家族が隠しているのも知っている。
 quest.player-expand-one.c2	Demand is out there for more hard cider and I know that the family has some lying around， so we'll be square once that's in my hands.
-quest.player-expand-one.c3	I've got lots of customers on the prowl for homemade beer. I've heard that a small stockpile of the stuff is around from before Prohibition. I'll just take that.
-quest.player-expand-one.c4	Moonshine is going to be crucial to our power base around here， so have the family bring anything that they've been hoarding to my safehouse right away.
-quest.player-expand-one.c5	Demand for applejack seems high and supply low. That's a recipe for profit and growth. Or so I've heard. Just get me as much applejack as you're able to.
+quest.player-expand-one.c3	自家製ビールを探しているお客さんがたくさんいるんです。禁酒法時代以前からの備蓄があるとか それをいただくよ
+quest.player-expand-one.c4	この辺りの権力基盤にはムーンシャインが欠かせないから、家買いだめしてあるものをすぐに私の隠れ家まで持ってこさせろよ。
+quest.player-expand-one.c5	アップルジャックの需要は高く、供給は少ないようです。これは利益と成長のためのレシピだと聞いたことがある。出来るだけアップルジャックを集めてくれ
 quest.player-expand-one.c7	I think our family has some knowledge that could help improve my homemade booze production. If so， I'd appreciate you sharing that with our outfit.
-quest.player-expand-one.c8	How about a bit of cash to help our people take over this town?
+quest.player-expand-one.c8	この街を乗っ取るために、少しばかり現金を用意してはどうだろうか？
 quest.player-expand-two.name	Cornering the Market
-quest.player-expand-two.desc	Work with a business partner to broaden your opportunities in homemade booze production.
-quest.player-expand-two.npc1	So chatter around the neighborhood is that you're an up-and-coming type， that your outfit will soon take over around here.
-quest.player-expand-two.human1	Well， while I wouldn't give much credence to rumors like that， I'm not going to deny them. What of it， then?
+quest.player-expand-two.desc	ビジネスパートナーと連携し、自家製酒製造の機会を広げる。
+quest.player-expand-two.npc1	そのため、近所では、あなたは新進気鋭のタイプで、あなたのグループはすぐにこのあたりを支配することになるだろうと噂されています。
+quest.player-expand-two.human1	まあ、そういう噂はあまり信用できないが、否定するつもりはない。では、どうなのでしょうか？
 quest.player-expand-two.npc2	To be honest， your outfit is， well， not that significant looking right now. But in our deals， I've seen a fire and drive in you. If you can prove yourself by taking over some more corners， I should be able to， shall we say， broaden your horizons a bit.
 quest.player-expand-two.human2	Sure. I'm going to take over corners anyway， so why not. Just be prepared to keep up your end of the deal when I get back.
 quest.player-expand-two.c1	I like the idea of my own bootlegging operation. Show me the ropes there， will ya?
-quest.player-expand-two.c2	You say that your customers like brick wine? Well， show me how to make it and I'll get you more than you need.
-quest.player-expand-two.c3	You say that your customers like hard cider? Well， show me how to make it and I'll get you more than you need.
-quest.player-expand-two.c4	You say that your customers like homemade beer? Well， show me how to make it and I'll get you more than you need.
-quest.player-expand-two.c5	You say that your customers like moonshine? Well， show me how to make it and I'll get you more than you need.
-quest.player-expand-two.c6	You say that your customers like applejack? Well， show me how to make it and I'll get you more than you need.
-quest.player-expand-three.name	New Markets
-quest.player-expand-three.desc	A local business owner that you deal with has offered to help you gain access to new market opportunities if you can expand your outfit's territory.
-quest.player-expand-three.npc1	Hello there. We've done some deals together. And I think that your outfit may one day control this town. And， well， I know there are opportunities out there that you just can't conceive of right now.
-quest.player-expand-three.human1	I don't know about that. I've got a pretty big imagination. Anything specific come to mind?
-quest.player-expand-three.npc2	Well， you're kind of small time now. If you were to start throwing your weight around a bit， gain some new corners， I could lean on friends to reveal new opportunities to you. Thoughts?
-quest.player-expand-three.human2	Yeah， I think some new corners are about to acknowledge a new boss. Be ready once they do.
-quest.player-expand-three.c1	Tell me all about who's on the hunt for some counterfeit wine. And if you can， get me some samples to help get things going.
-quest.player-expand-three.c2	Tell me all about who's on the hunt for some backroom beer. And if you can， get me some samples to help get things going. 
-quest.player-expand-three.c3	Tell me all about who's on the hunt for some sparkling cider. And if you can， get me some samples to help get things going.
-quest.player-expand-three.c4	Tell me all about who's on the hunt for some bathtub gin. And if you can， get me some samples to help get things going.
-quest.player-expand-three.c5	Tell me all about who's on the hunt for some rakija. And if you can， get me some samples to help get things going.
-quest.player-expand-three.c6	Tell me all about who's on the hunt for some corn whiskey. And if you can， get me some samples to help get things going.
-quest.player-expand-three.c7	This is a thirsty city. How about some more booze to slake its dry throats?
-quest.player-expand-three.c8	Take a collection and I'll take what you can come up with.
+quest.player-expand-two.c2	お客様はブリックワインがお好きだとおっしゃいますね？じゃあ、作り方を教えてくれたら、もっとたくさん買ってあげるよ。
+quest.player-expand-two.c3	お客さんはハードシードルが好きだと言っていますね？じゃあ、作り方を教えてくれたら、もっとたくさん買ってあげるよ。
+quest.player-expand-two.c4	お客様は自家製ビールがお好きだとおっしゃいますね？じゃあ、作り方を教えてくれたら、もっとたくさん買ってあげるよ。
+quest.player-expand-two.c5	お客様はムーンシャインがお好きだとおっしゃいますね？じゃあ、作り方を教えてくれたら、もっとたくさん買ってあげるよ。
+quest.player-expand-two.c6	お客様はアップルジャックがお好きだとおっしゃいますね？じゃあ、作り方を教えてくれたら、もっとたくさん買ってあげるよ。
+quest.player-expand-three.name	新しい市場
+quest.player-expand-three.desc	取引先の地元企業経営者から、組織のテリトリーを拡大すれば、新たな市場参入の機会を得られるとの申し出があった。
+quest.player-expand-three.npc1	こんにちは。私たちは一緒に取引をしたことがありますよ。あなたの組織はいつか この街を支配するかもしれませんね。そうすれば、まあ、私にもいろんな設けるチャンスがあると思ってます。 あなたは今、それを想像することはできませんでしょうけど。
+quest.player-expand-three.human1	それはどうでしょう。私、結構想像力豊かなんですよ。具体的に思いつくものはありますか？
+quest.player-expand-three.npc2	まあ、今のあなたは小者ですからね。もし、あなたが少し力を発揮して、新しいコーナーをテリトリーに獲得したら、友達を頼って、新しいチャンスを与えることができるかもしれません。どうです？
+quest.player-expand-three.human2	そうですね、新しいコーナーは、もうすぐ新しいボスの登場を認めざるを得なくなりそうですね。その時に備えたほうがよさそうです
+quest.player-expand-three.c1	誰が偽ワインを探しているのか、全部教えてくれ。できれば、サンプルも用意してくれ。
+quest.player-expand-three.c2	誰がバックルームビールを探しているのか、全部教えてくれ。できれば、サンプルも用意してくれ。
+quest.player-expand-three.c3	誰がスパーリンクシードルを探しているのか、全部教えてくれ。できれば、サンプルも用意してくれ。
+quest.player-expand-three.c4	誰がバスタブ・ジンを探しているのか、全部教えてくれ。できれば、サンプルも用意してくれ。
+quest.player-expand-three.c5	誰がラキアを探しているのか、全部教えてくれ。できれば、サンプルも用意してくれ。
+quest.player-expand-three.c6	誰がコーンウイスキーを探しているのか、全部教えてくれ。できれば、サンプルも用意してくれ。
+quest.player-expand-three.c7	この街は喉が渇いているのだ。乾いた喉を潤すために、もっとお酒を飲んだらどうでしょう？
+quest.player-expand-three.c8	集めてください、あなたが思いつくものをもらいます。
 quest.player-expand.introending	Of course. Just see me once we've expanded.
-quest.player-expand.beforechoice	Good to see the outfit growing to control even more of the city. So let's discuss how we can help your growing empire.
-quest.player-expand.afterchoice	Glad to help someone with a vision for the future of this town.
+quest.player-expand.beforechoice	街のさらに多くの場所を支配するために、この組織が成長するのを見るのは良いことです。では、どのようにあなたの成長する帝国を支援できるかを話し合いましょう。
+quest.player-expand.afterchoice	この街の未来のために、ビジョンを持つ人のお手伝いができてうれしいです。
 ;; staircases for refined booze	;; staircases for refined booze
-quest.refined-booze-unlock.human1	Yes， that's correct. I found some， just not quite sure what to do with it yet.
-quest.refined-booze-unlock.npc2	Well， bring a bottle by. I'll have one of my customers give it a try and if it passes muster， maybe we can work something out with that supply that you've found.
-quest.refined-booze-unlock.human2	Yeah， I can do that. What's to lose， right?
-quest.refined-booze-unlock.c1	Sure. Glad we can do business together. I'll bring some by.
-quest.refined-booze-unlock.afterchoice	Looking forward to seeing what comes of our new relationship!
-quest.refined-booze-unlock-bonus.human1	And what did this inebriated person say to your query?
-quest.refined-booze-unlock-bonus.human2	Absolutely. Let's get that secret out of them before they sober up.
-quest.refined-booze-unlock-bonus.introending	OK. Next time they've got a glass in front of them， I'll slip in the cash.
-quest.refined-booze-unlock-bonus.c1	Excellent. I'll see what I can do with this information.
-quest.refined-booze-construct.desc	Construct a new operation to deepen your ties in a budding business partnership.
-quest.refined-booze-construct.npc2	Well， we could. I could easily sell a lot. You could probably make a lot.
-quest.refined-booze-construct.human2	I see what you're getting at. So you want me to start up a new operation to make it?
-quest.refined-booze-construct.introending	That would be grand. I can see this as the start of a great new enterprise.
-quest.refined-booze-construct.beforechoice	Wow - so glad you got this going. How about I continue to assist?
-quest.refined-booze-construct.c1	Sure. How about a big down payment for supplies and other expenses?
-quest.refined-booze-construct.c2	Would you be willing to gather supplies for the new operation? I'd cover some of the cost， but you would get them together and drop them off.
-quest.refined-booze-construct.afterchoice	Glad to help!
-quest.refined-booze-supplies.desc	Work with your erstwhile partner to get supplies for your booze operation.
-quest.refined-booze-supplies.human1	Our operation?
-quest.refined-booze-supplies.npc2	Apologies. Yours. So let me know if you'd like me to gather supplies and drop them off.
-quest.refined-booze-supplies.human2	That would be appreciated. I'll have the money over shortly.
-quest.refined-booze-supplies.c1	Thank you. Have them sent to the usual spot.
-quest.refined-booze-supplies.afterchoice	My pleasure!
-quest.fake-wine-hint.name	Refined Rackets: Counterfeit Wine
-quest.fake-wine-hint.desc	Bring over a bottle of counterfeit wine so that a potential business partner can assess its quality.
-quest.fake-wine-hint.npc1	So I've heard that you recently came across a supply of counterfeit wine? Funny. I had a customer asking about just that thing the other day.
-quest.fake-wine-hint.introending	That's the idea. Bring the counterfeit wine bottle over and we'll go from there.
-quest.fake-wine-hint.beforechoice	Well， the counterfeit wine was a success. In fact， I'll take more. Just bring it by.
-quest.fake-wine-hint-bonus.name	Learning Opportunities: Counterfeit Wine
-quest.fake-wine-hint-bonus.desc	See if your new business partner can teach how to manufacture counterfeit wine.
-quest.fake-wine-hint-bonus.npc1	Someone drank the whole bottle of the counterfeit wine you left and started blabbing about how she could make the stuff. So I asked her to explain.
-quest.fake-wine-hint-bonus.npc2	She just started rattling off all this detail about the process. I'm sure if I slip her some cash， she'd show us how its done. Should we?
-quest.fake-wine-hint-bonus.beforechoice	And lo and behold， we've got specs for building our very own counterfeit wine operation.
-quest.fake-wine-hint-construct.name	Building a Future: Counterfeit Wine
-quest.fake-wine-hint-construct.npc1	So I've been thinking about the counterfeit wine business and how we might make more money together.
-quest.fake-wine-hint-construct.human1	Have you? Funny. I didn't know that <i>WE</i> had counterfeit wine business together.
-quest.fake-wine-hint-supplies.name	Supplies Demanded: Counterfeit Wine
-quest.fake-wine-hint-supplies.npc1	Need more supplies for our counterfeit wine operation?
-quest.fake-wine-hint-supplies.introending	Excellent. I'll have the labels and bottles over once you've paid up.
-quest.fake-wine-hint-supplies.beforechoice	Here's the labels and bottles as promised!
-quest.fake-beer-hint.name	Refined Rackets: Backroom Beer
-quest.fake-beer-hint.desc	Bring over a bottle of backroom beer so that a potential business partner can assess its quality.
-quest.fake-beer-hint.npc1	So I've heard that you recently came across a supply of backroom beer? Funny. I had a customer asking about just that thing the other day.
-quest.fake-beer-hint.introending	That's the idea. Bring the backroom beer bottle over and we'll go from there.
-quest.fake-beer-hint.beforechoice	Well， the backroom beer was a success. In fact， I'll take more. Just bring it by.
-quest.fake-beer-hint-bonus.name	Learning Opportunities: Backroom Beer
-quest.fake-beer-hint-bonus.desc	See if your new business partner can teach how to manufacture backroom beer.
-quest.fake-beer-hint-bonus.npc1	Someone drank all the backroom beer that you left the other day and started blabbing about how he could make the stuff. So I asked him to explain.
-quest.fake-beer-hint-bonus.npc2	He just started rattling off all this detail about the process. I'm sure if I slip him some cash， he'd show us how its done. Should we?
-quest.fake-beer-hint-bonus.beforechoice	And lo and behold， we've got specs for building our very own backroom beer operation.
-quest.fake-beer-hint-construct.name	Building a Future: Backroom Beer
-quest.fake-beer-hint-construct.npc1	So I've been thinking about the backroom beer business and how we might make more money together.
-quest.fake-beer-hint-construct.human1	Have you? Funny. I didn't know that <i>WE</i> had backroom beer business together.
-quest.fake-beer-hint-supplies.name	Supplies Demanded: Backroom Beer
-quest.fake-beer-hint-supplies.npc1	Need more supplies for our backroom beer operation?
+quest.refined-booze-unlock.human1	はい、その通りです。ちょっと見つけたんですが、まだどうしたらいいのかよくわからないんです。
+quest.refined-booze-unlock.npc2	では、1本持ってきてください。うちのお客さんにも試してもらうし、もし合格だったら、あなたが見つけた商品で何かできるかもしれないわ。
+quest.refined-booze-unlock.human2	ええ、できますよ。損をすることはないでしょう？
+quest.refined-booze-unlock.c1	もちろんだ、一緒に仕事ができるのは嬉しい。ちょっと持ってきますね。
+quest.refined-booze-unlock.afterchoice	私たちの新しい関係がどうなっていくのか、楽しみにしています。
+quest.refined-booze-unlock-bonus.human1	そして、そのよっぱらいは、あなたの問い合わせに何と答えたのでしょうか？
+quest.refined-booze-unlock-bonus.human2	もちろんです。酔いがさめないうちに、その秘密を聞き出そう。
+quest.refined-booze-unlock-bonus.introending	分かった。今度、彼らがグラスを前にしたら、現金を忍ばせておくよ。
+quest.refined-booze-unlock-bonus.c1	素晴らしい。この情報で何ができるか考えてみるよ。
+quest.refined-booze-construct.desc	新たな業務提携で絆を深めるために、新たな事業を構築する。
+quest.refined-booze-construct.npc2	そうですね、できますね。簡単にたくさん売ることができますから、もっとたくさん作ることがらいいのかもしれません。
+quest.refined-booze-construct.human2	なるほど、そういうことだったのか。じゃあ、それを作るために新しい事業を立ち上げろと？
+quest.refined-booze-construct.introending	それは壮大なことだ。これは素晴らしい新事業の始まりと言えるでしょう。
+quest.refined-booze-construct.beforechoice	わー、これは嬉しいですね。これからもお手伝いさせてください。
+quest.refined-booze-construct.c1	もちろん、消耗品などの頭金も多めに用意してはどうでしょうか？
+quest.refined-booze-construct.c2	新しい事業のための物資を集めていただけませんか？私が費用を一部負担するので、あなたはそれらを集めて置いてください。
+quest.refined-booze-construct.afterchoice	お役に立ててうれしいです
+quest.refined-booze-supplies.desc	かつてのパートナーと協力し、酒類を扱うための物資を調達する。
+quest.refined-booze-supplies.human1	私たちの事業？
+quest.refined-booze-supplies.npc2	申し訳ございません。あなたのです。物資を集めてきてほしいなら言ってください。
+quest.refined-booze-supplies.human2	それはありがたいことです。近日中にお金を用意します。
+quest.refined-booze-supplies.c1	ありがとうございます。いつものところに送ってもらいましょう。
+quest.refined-booze-supplies.afterchoice	どういたしまして。
+quest.fake-wine-hint.name	洗練された密売買：偽造ワイン
+quest.fake-wine-hint.desc	ビジネスパートナー候補に品質を評価してもらうために、偽物のワインを1本持ってくる。
+quest.fake-wine-hint.npc1	最近、偽物のワインが出回っていると聞きましたが？面白いですね。この間、お客さんからちょうどそのようなことを聞かれたんです。
+quest.fake-wine-hint.introending	そういうことです。偽物のワインボトルを持って来てくれ。それから話をはじめましょう
+quest.fake-wine-hint.beforechoice	さて、偽ワインは成功でした。実は、もっともらおうと思っているんだ。ちょっと持ってきてくれますか。
+quest.fake-wine-hint-bonus.name	学習のチャンス：偽造ワイン
+quest.fake-wine-hint-bonus.desc	新しいビジネスパートナーが、偽造ワインの製造方法を教えてくれるかどうかを確認する。
+quest.fake-wine-hint-bonus.npc1	あなたが置いていった偽ワインを全部飲み干した人がいて、どうやって作ったかペラペラしゃべりだしたんです。それで、彼女に説明を求めたんだ。
+quest.fake-wine-hint-bonus.npc2	彼女は、そのプロセスについて、これでもかというほど細かく説明し始めた。もし彼女に現金を渡したら、その方法を教えてくれると思うんだ。どうします？
+quest.fake-wine-hint-bonus.beforechoice	そしてなんと、私たち独自の偽造ワイン製造のための仕様書を手に入れたのです。
+quest.fake-wine-hint-construct.name	未来の構想：偽造ワイン
+quest.fake-wine-hint-construct.npc1	そこで、偽造ワインビジネスについて、どうしたらもっと儲かるか、一緒に考えてみたんです。
+quest.fake-wine-hint-construct.human1	あなたも？ おかしいな <i>私たち</i>が偽造ワインの商売をしていたなんて知らなかったわ。
+quest.fake-wine-hint-supplies.name	物資の要求：偽ワイン
+quest.fake-wine-hint-supplies.npc1	偽ワイン製造のための物資が必要ですか？
+quest.fake-wine-hint-supplies.introending	素晴らしい。お支払いが済んだら、ラベルとボトルをお持ちします。
+quest.fake-wine-hint-supplies.beforechoice	お約束のラベルとボトルはこちらです
+quest.fake-beer-hint.name	洗練された密売買：バックルームビール
+quest.fake-beer-hint.desc	ビジネスパートナー候補に品質を評価してもらうために、バックルームビールを1本持ってくる。
+quest.fake-beer-hint.npc1	最近、バックルームビールが出回っていると聞きましたが？面白いですね。この間、お客さんからちょうどそのようなことを聞かれたんです。
+quest.fake-beer-hint.introending	そういうことです。バックルームビールを持って来てくれ。それから話をはじめましょう
+quest.fake-beer-hint.beforechoice	さて、バックルームビールは成功でした。実は、もっともらおうと思っているんだ。ちょっと持ってきてくれますか。
+quest.fake-beer-hint-bonus.name	学習のチャンス：バックルームビール
+quest.fake-beer-hint-bonus.desc	新しいビジネスパートナーが、バックルームビールの製造方法を教えてくれるかどうかを確認する。
+quest.fake-beer-hint-bonus.npc1	あなたが置いていったバックルームビールを全部飲み干した人がいて、どうやって作ったかペラペラしゃべりだしたんです。それで、彼に説明を求めたんだ。
+quest.fake-beer-hint-bonus.npc2	彼は、そのプロセスについて、これでもかというほど細かく説明し始めた。もし彼女に現金を渡したら、その方法を教えてくれると思うんだ。どうします？
+quest.fake-beer-hint-bonus.beforechoice	そしてなんと、私たち独自のバックルームビール製造のための仕様書を手に入れたのです。
+quest.fake-beer-hint-construct.name	未来の構想：バックルームビール
+quest.fake-beer-hint-construct.npc1	そこで、バックルームビールビジネスについて、どうしたらもっと儲かるか、一緒に考えてみたんです。
+quest.fake-beer-hint-construct.human1	あなたも？ おかしいな <i>私たち</i>がバックルームビールの商売をしていたなんて知らなかったわ。
+quest.fake-beer-hint-supplies.name	物資の提供：バックルームビール
+quest.fake-beer-hint-supplies.npc1	物資の提供：バックルームビール
 quest.fake-beer-hint-supplies.introending	素晴らしい お支払いが済んだらホップと小瓶をお持ちしますよ。
-quest.fake-beer-hint-supplies.beforechoice	Here's the hops and small bottles as promised!
-quest.sparkling-cider-hint.name	Refined Rackets: Sparkling Cider
-quest.sparkling-cider-hint.desc	Bring over a bottle of sparkling cider so that a potential business partner can assess its quality.
-quest.sparkling-cider-hint.npc1	So I've heard that you recently came across a supply of sparkling cider? Funny. I had a customer asking about just that thing the other day.
-quest.sparkling-cider-hint.introending	That's the idea. Bring the sparkling cider bottle over and we'll go from there.
-quest.sparkling-cider-hint.beforechoice	Well， the sparkling cider was a success. In fact， I'll take more. Just bring it by.
-quest.sparkling-cider-hint-bonus.name	Learning Opportunities: Sparkling Cider
-quest.sparkling-cider-hint-bonus.desc	See if your new business partner can teach how to manufacture sparkling cider.
-quest.sparkling-cider-hint-bonus.npc1	Someone drank all of the sparkling cider that you left the other day and started blabbing about how he could make the stuff. So I asked him to explain.
-quest.sparkling-cider-hint-bonus.npc2	He just started rattling off all this detail about the process. I'm sure if I slip him some cash， he'd show us how its done. Should we?
-quest.sparkling-cider-hint-bonus.beforechoice	And lo and behold， we've got specs for building our very own sparkling cider operation.
+quest.fake-beer-hint-supplies.beforechoice	お約束のホップと小瓶です！
+quest.sparkling-cider-hint.name	洗練された密売買：スパークリングシードル
+quest.sparkling-cider-hint.desc	ビジネスパートナー候補に品質を評価してもらうために、スパークリングシードルを1本持ってくる。
+quest.sparkling-cider-hint.npc1	最近、スパークリングシードルが出回っていると聞きましたが？面白いですね。この間、お客さんからちょうどそのようなことを聞かれたんです。
+quest.sparkling-cider-hint.introending	そういうことです。スパークリングシードルを持って来てくれ。それから話をはじめましょう
+quest.sparkling-cider-hint.beforechoice	さて、スパークリングシードルは成功でした。実は、もっともらおうと思っているんだ。ちょっと持ってきてくれますか。
+quest.sparkling-cider-hint-bonus.name	学習のチャンス：スパークリングシードル
+quest.sparkling-cider-hint-bonus.desc	新しいビジネスパートナーが、スパークリングシードルの製造方法を教えてくれるかどうかを確認する。
+quest.sparkling-cider-hint-bonus.npc1	あなたが置いていったスパークリングシードルを全部飲み干した人がいて、どうやって作ったかペラペラしゃべりだしたんです。それで、彼に説明を求めたんだ。
+quest.sparkling-cider-hint-bonus.npc2	彼は、そのプロセスについて、これでもかというほど細かく説明し始めた。もし彼女に現金を渡したら、その方法を教えてくれると思うんだ。どうします？
+quest.sparkling-cider-hint-bonus.beforechoice	そしてなんと、私たち独自のスパークリングシードルのための仕様書を手に入れたのです。
 quest.sparkling-cider-hint-construct.name	Building a Future: Sparkling Cider
-quest.sparkling-cider-hint-construct.npc1	So I've been thinking about the sparkling cider business and how we might make more money together.
-quest.sparkling-cider-hint-construct.human1	Have you? Funny. I didn't know that <i>WE</i> had sparkling cider business together.
+quest.sparkling-cider-hint-construct.npc1	そこで、スパークリングシードルについて、どうしたらもっと儲かるか、一緒に考えてみたんです。
+quest.sparkling-cider-hint-construct.human1	あなたも？ おかしいな <i>私たち</i>がスパークリングシードルの商売をしていたなんて知らなかったわ。
 quest.sparkling-cider-hint-supplies.name	Supplies Demanded: Sparkling Cider
-quest.sparkling-cider-hint-supplies.npc1	Need more supplies for our sparkling cider operation?
-quest.sparkling-cider-hint-supplies.introending	Excellent. I'll have the sugar and small bottles over once you've paid up.
-quest.sparkling-cider-hint-supplies.beforechoice	Here's the sugar and small bottles as promised!
+quest.sparkling-cider-hint-supplies.npc1	スパークリングシードルの製造に必要な材料はありますか？
+quest.sparkling-cider-hint-supplies.introending	素晴らしい お支払いが済んだら、砂糖と小瓶をお持ちしますよ。
+quest.sparkling-cider-hint-supplies.beforechoice	お約束のお砂糖と小瓶です
 quest.bathtub-gin-hint.name	Refined Rackets: Bathtub Gin
 quest.bathtub-gin-hint.desc	Bring over a bottle of bathtub gin so that a potential business partner can assess its quality.
 quest.bathtub-gin-hint.npc1	So I've heard that you recently came across a supply of bathtub gin? Funny. I had a customer asking about just that thing the other day.
