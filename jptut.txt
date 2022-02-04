@@ -1,15 +1,12 @@
 KEY	VALUE	COMMENTS
 __id	jp
 
-
-		;; encyclopedia
-﻿__id	en
 pedia.dialog.title	禁酒法百科事典
 pedia.dialog.default-text	左のトピックを選択し、詳細をご覧ください。さらに詳しく知りたい方はリンクをたどって行くことも可能です
 pedia.dialog.entry	<b><size=120%>{name}</size></b>\n\n{desc}
 pedia.cat.resources	原材料
 pedia.cat.businesses	ビジネスタイプ
-pedia.cat.skills	スキル
+pedia.cat.skills	技術
 pedia.cat.gameplay	ゲームプレイ
 pedia.cat.gambling	ギャンブル
 pedia.cat.others	その他
@@ -26,10 +23,10 @@ info.sparkling-cider.name	スパークリングシードル
 info.sparkling-cider.desc	"砂糖を使って、ハードシードルに余分な利益と発泡を入れることができる。\n\nスパークリングシードルは、通常の<link=""cider"">ハードシードル</link>に<link=""sugar"">砂糖</link>を加え、で<link="refined-booze">精製酒</link>である。 sparkling-cider"">スパークリングシードル作業</link>， <link=""small-bottles"">小型瓶</link> に入れ、炭酸ガスが十分に発生し、シードルが発泡することを期待して待つのである。しかし、爆発するほど多すぎてもいけない。正しい知識があれば、<link=""production-sparkling-cider-upgraded"">スパークリングサイダー発酵器</link>で<link=""apples"">りんご</link>から直接スパークリングサイダーを作るようアップグレードすることが可能です。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell"> １ケース$25 </b></indent>\n\n<i><indent=30>昨日のパン、今日の肉、そして去年のシードルをくれ。.</i></indent>\n<indent=40>—ベンジャミン・フランクリン</indent>"
 info.bathtub-gin.icon	<sprite name="res bathtub-gin">
 info.bathtub-gin.name	バスタブ・ジン
-info.bathtub-gin.desc	"スパイスは、密造酒をカクテルにふさわしいものに変えてくれる。\n\n<link=""production-bathtub-gin"">バスタブ・ジン製造</link>では、<link=""moonshine"">ムーン・シャイン</link>を<link=""spices"">スパイス</link>で醸造し、<link=""small-bottle"">小瓶</link>に入れて街中の酒場に運び、この酒を<link="refined-booze">精製酒</link>にする。また、<link=""production-bathtub-gin-upgraded"">バスタブ・ジン スチル</link> で <link=""corn-syrup"">コーンシロップ</link> から直接作る方法を学び、密造酒を別の用途に使用することもできる。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell">ケース $24</b></indent>\n\n<i><indent=30>私は自己管理を徹底しています。朝食前にジンより強い酒を飲むこaとはない。.</i></indent>\n<indent=40>—W.C.フィールズ</indent>"
+info.bathtub-gin.desc	"スパイスは、ムーンシャインをカクテルにふさわしいものに変えてくれる。\n\n<link=""production-bathtub-gin"">バスタブ・ジン製造</link>では、<link=""moonshine"">ムーン・シャイン</link>を<link=""spices"">スパイス</link>で醸造し、<link=""small-bottle"">小瓶</link>に入れて街中の酒場に運び、この酒を<link="refined-booze">精製酒</link>にする。また、<link=""production-bathtub-gin-upgraded"">バスタブ・ジン スチル</link> で <link=""corn-syrup"">コーンシロップ</link> から直接作る方法を学び、ムーンシャインを別の用途に使用することもできる。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell">ケース $24</b></indent>\n\n<i><indent=30>私は自己管理を徹底しています。朝食前にジンより強い酒を飲むこaとはない。.</i></indent>\n<indent=40>—W.C.フィールズ</indent>"
 info.moonshine.icon	<sprite name="res moonshine">
 info.moonshine.name	ムーンシャイン
-info.moonshine.desc	Made from neutral alcohol in crocks or from corn， a potent libation.\n\nProhibition has forced everyone into being creative with spirits. <link="moonshine">Moonshine</link> is <link="homemade-booze">homemade booze</link> made at a <link="homebooze-moonshine">Backroom Moonshine Operation</link> by evaporating off the unpleasant (and poisonous) additives in <link="neutral-alcohol">neutral alcohol</link> and then selling the slightly refined product by the <link="crocks">crock</link>.\n\n<indent=15><b>Base price\n<sprite name="ui sell"> $20 per crock</b></indent>\n\n<i><indent=30>Prohibition only drives drunkenness behind doors and into dark places， and does not cure it or even diminish it.</i></indent>\n<indent=40>—Mark Twain</indent>
+info.moonshine.desc	"樽に入れた中性アルコール、またはトウモロコシから作られた、強力なお酒。\n\n禁酒法により、誰もが蒸留酒に工夫を凝らすことを余儀なくされた。<link=""moonshine"">ムーンシャイン</link> は、<link=""homebooze-moonshine"">バックルームムーンシャイン事業</link> で、<link=""nute-alcohol"">中性アルコール</link>中の不快（および毒）な添加物を蒸発させて作り、<link=""clocks"">壺</link> で少しだけ精製したお酒を販売する。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell"> １壺$20</b></indent>\n\n<i><indent=30>禁酒法は酔いを戸外や暗い場所に追いやるだけで、治すことも減らすこともしない。</i></indent>\n<indent=40>—マーク・トウェイン</indent>"
 info.brick-wine.icon	<sprite name="res brick-wine">
 info.brick-wine.name	ブリックワイン
 info.brick-wine.desc	Bricks of grape concentrate from California turned into crocks of brick Wine.\n\nVineyard owners in California started flooding the rest of the country with uniformly shaped bricks of dehydrated <link="grape-juice">grape concentrate</link> and some very specific instructions of what to do to prevent fermentation. That would be illegal. Just put it in <link="crocks">stoneware crocks</link> at a <link="homebooze-brick-wine">Backroom Brick Wine Operation</link> and mix with water and you're good to go sell the resulting <link="homemade-booze">homemade booze</link>.\n\n<indent=15><b>Base price\n<sprite name="ui sell"> $15 per crock</b></indent>\n\n<i><indent=30>Wine is the most healthful and most hygienic of beverages.</i></indent>\n<indent=40>—Louis Pasteur</indent>
@@ -43,43 +40,43 @@ info.grape-juice.icon	<sprite name="res grape-juice">
 info.grape-juice.name	濃縮ブドウジュース
 info.grape-juice.desc	Made from grapes and never to be left to ferment.\n\nVineyard owners faced some tough decisions in 1920. Some planted other things. Some went out of business entirely. But some kept growing. They just converted their harvests into concentrated bricks for easy shipment. Some included flavor packets for things like port or sherry. Can be made at a <link="conversion-grape-juice">Grape Press</link> from <link="grapes">grapes</link> and <link="half-barrel">small barrels</link>.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $12 per small barrel</b></indent>\n\n<i><indent=30>Each brick dissolved in gallon of water produces gallon of unfermented， non-alcoholic punch juice. To prevent fermentation add 1-10% benzoate of soda.</i></indent>\n<indent=40>—Directions on Vino Sano California Grape Bricks</indent>
 info.malt.icon	<sprite name="res malt">
-info.malt.name	Malt Syrup
+info.malt.name	麦芽シロップ
 info.malt.desc	Thick syrup made from sprouted barley that tends to ferment.\n\nBreweries faced a mortal crisis in 1920. Forbidden to make beer， some turned to making ice cream or soda. Some， however， kindled a new health kick， particular to the era when Americans discovered the unique health benefits of drinking malt syrup — which they <i>never</i> left to ferment into a beer-like beverage. Can be made at a <link="conversion-malt">Malt Processor</link> from <link="barley">barley</link>.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $5 per small barrel</b></indent>\n\n<i><indent=30>There are times when the brain draws so upon our vitality that we cannot digest our food， we gain no strength from what we eat. If we let this go on， we sow the seeds of weakness which will blossom in disease. Act at once! Pabst Malt Extract - the "Best" Tonic.</i></indent>\n<indent=40>—Pabst Malt Tonic Advertisement</indent>
 info.apple-juice.icon	<sprite name="res apple-juice">
-info.apple-juice.name	Apple Juice
+info.apple-juice.name	りんごジュース
 info.apple-juice.desc	Apple juice easily converts to hard cider with just a bit of common knowhow.\n\nBrandy and hard cider made from apples were once the most common forms of alcoholic beverage in the US. Now you can use the ubiquity of the humble apple to craft <link="cider">cider</link> for sale. Can be made in a <link="conversion-apple-juice">Apple Press</link> with <link="apples">apples</link> and <link="half-barrel">small barrels</link>.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $8 per small barrel</b></indent>\n\n<i><indent=30>A gentleman in New Haven County， Conn. has recently ordered a fine apple orchard to to be cut down "because the apples may be ground into cider， the cider may be distilled into a spiritous liquor and liquor， if drunken， will make a man drunk".</i></indent>\n<indent=40>—Phenix Gazette report on Temperance， July 10， 1829</indent>
 info.neutral-alcohol.icon	<sprite name="res alcohol-btl">
-info.neutral-alcohol.name	Neutral Alcohol
+info.neutral-alcohol.name	中性アルコール
 info.neutral-alcohol.desc	Alcohol made undrinkable， but suitable for commercial and industrial purposes.\n\nThe Volstead Act prohibited the production of alcohol intended for consumption， such as whiskey. But industrial ethanol was just too useful and necessary to so many things to ban. So the law required that legal alcohol be made unsuitable for consumption. However， that state is easily reversed if you want to turn it into moonshine. Can be made from <link="corn-syrup">corn syrup</link> and <link="bottles">bottles</link> at a <link="conversion-neutral-alcohol">Backroom Basic Distillery</link>.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $14 per case</b></indent>\n\n<i><indent=30>Liquor for nonbeverage purposes ... may be manufactured， purchased， sold， bartered， transported， imported， exported， delivered， furnished and possessed， but only as herein provided and the commissioner may， upon application， issue permits therefor.</i></indent>\n<indent=40>—The Volstead Act， Title II， Sec 3</indent>
 info.crocks.icon	<sprite name="res jugs">
-info.crocks.name	Stoneware Crocks
+info.crocks.name	せっ器の壺
 info.crocks.desc	A basic， common container for making basic homemade booze.\n\nStoneware crocks were used for just about everything. They're cheap， voluminous and easily transported.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $2 each</b></indent>\n\n<i><indent=30>I'm an idealist. I don't know where I'm going， but I'm on my way.</i></indent>\n<indent=40>—Carl Sandburg</indent>
 info.small-bottles.icon	<sprite name="res small-bottles">
 info.small-bottles.name	Small Bottles
 info.small-bottles.desc	Small liquor bottles for the more potent drinks.\n\nSmall bottles are for bottling some types of alcoholic beverages and other liquids.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $3 per case</b></indent>\n\n<i><indent=30>I'm an idealist. I don't know where I'm going， but I'm on my way.</i></indent>\n<indent=40>—Carl Sandburg</indent>
 info.bottles.icon	<sprite name="res bottles">
-info.bottles.name	Bottles
+info.bottles.name	瓶
 info.bottles.desc	Regular-sized bottles.\n\nBottles are for manufacture， transport and storage of some types of alcoholic beverages and other liquids.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $5 per case</b></indent>\n\n<i><indent=30>Drum on your drums， batter on your banjos， sob on the long cool winding saxophones. Go to it， O jazzmen.</i></indent>\n<indent=40>—Carl Sandburg</indent>
 info.sugar.icon	<sprite name="res sugar">
-info.sugar.name	Sugar
+info.sugar.name	砂糖
 info.sugar.desc	Saccharum officinarum\n\nYeast food. Sugar is useful for encouraging the production of yeast and getting things to fizz up.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $6 per case</b></indent>\n\n<i><indent=30>Hog Butcher for the World， Tool Maker， Stacker of Wheat， Player with Railroads and the Nation's Freight Handler;Stormy， husky， brawling， City of the Big Shoulders.</i></indent>\n<indent=40>—Carl Sandburg</indent>
 info.hops.icon	<sprite name="res hops">
-info.hops.name	Hops
+info.hops.name	ホップ
 info.hops.desc	Humulus lupulus\n\nWith yeast， barley and water they make beer. Hops add the fragrance and flavor to beer and can be used to infuse your brew with more beer-ness.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $25 per crate</b></indent>\n\n<i><indent=30>Hopfen und Malz Gott erhalt's.</i></indent>\n<indent=40>—German toast</indent>
 info.spices.icon	<sprite name="res spices">
-info.spices.name	Spices
+info.spices.name	香辛料
 info.spices.desc	To infuse flavor into different types of booze\n\nThe judicious use of spices can create many kinds of infusions that deliver the flavor and personality to cocktail and drinks at fancy speakeasies.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $15 per box</b></indent>\n\n<i><indent=30><i>Every inordinate cup is unbless'd， and the ingredient is a devil.</i></indent>\n<indent=40>—William Shakespeare</indent>
 info.labels.icon	<sprite name="res labels">
-info.labels.name	Bottle Labels
+info.labels.name	ボトルラベル
 info.labels.desc	A convincing label for many bottles of booze.\n\nThese counterfeit labels go on bottles to make the appear to be the real things. If you're making good booze， may as well add a little class with these labels.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $9 per box</b></indent>\n\n<i><indent=30><i>When the wine goes in， strange things come out.</i></indent>\n<indent=40>—Johann Schiller</indent>
 info.barley.icon	<sprite name="res barley">
-info.barley.name	Barley
+info.barley.name	大麦
 info.barley.desc	Hordeum vulgare\n\nThe basis for beer and malt syrup， barley has many nutritional uses and many more in the hands of a skilled brewer.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $9 per box</b></indent>\n\n<i><indent=30><i>Deep-seated preferences cannot be argued about — you cannot argue a man into liking a glass of beer.</i></indent>\n<indent=40>—Oliver Wendell Holmes</indent>
 info.half-barrel.icon	<sprite name="res half-barrel">
-info.half-barrel.name	Small Barrels
-info.half-barrel.desc	Small， wooden barrels for liquid transport.\n\nThese small barrels are for transporting things like juice and other raw materials for later manufacture.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $4 each</b></indent>\n\n<i><indent=30><i>Deep-seated preferences cannot be argued about — you cannot argue a man into liking a glass of beer.</i></indent>\n<indent=40>—Oliver Wendell Holmes</indent>
+info.half-barrel.name	小型樽
+info.half-barrel.desc	"液体輸送用の小型の木樽。\n\nこの小さな樽は、ジュースや後の製造のための原料などを運ぶためのもの。\n\n<indent=15><b>基礎価格\n<sprite name=""ui buy""> 各4ドル</b></indent>\n\n<i><indent=30><i>根強い嗜好は議論することができない。例えば、ビール一杯が好きな人を論破することはできない。</i></indent>\n<indent=40>—オリバー・ウェンデル・ホームズ</indent>"
 info.corn-syrup.icon	<sprite name="res corn-syrup">
-info.corn-syrup.name	Corn Syrup
+info.corn-syrup.name	コーンシロップ
 info.corn-syrup.desc	High in sugars and easy to distill.\n\nIndustrial production of corn syrup is a fairly new thing in the 1920s， but the ease with which it can be fermented and distilled makes it a key ingredient in manufacture of neutral alcohol.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $4 per barrel</b></indent>\n\n<i><indent=30>Lay me on an anvil， O God. Beat me and hammer me into a crowbar. Let me pry loose old walls. Let me lift and loosen old foundations.</i></indent>\n<indent=40>—Carl Sandburg</indent>
 info.grapes.icon	<sprite name="res grapes">
 info.grapes.name	Grapes
@@ -205,8 +202,8 @@ info.furniture.icon	<sprite name="res furniture">
 info.furniture.name	Furniture
 info.furniture.desc	<b>Construction material needed to build many kinds of operation.</b>\n\nSimple bootlegging operations can be run from simple counters or from back rooms. But to build more complex and more lucrative speakeasies and watering holes， you'll need to acquire things like bars， tables， chairs and other necessary furnishings.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $25 per crate</b></indent>
 info.canadian-whiskey.icon	<sprite name="res canadian whiskey">
-info.canadian-whiskey.name	Canadian Whiskey
-info.canadian-whiskey.desc	<b>Regional product not available in all cities.</b>\n\nCanadian whiskey is a much-desired quaff - either on its own or as an ingredient in a fine cocktail.\n\nWhile American distilleries were all prevented plying their trade during Prohibition， producers north (or in Detroit， south) of the border kept going， making a coveted product from the fruits of Canadian grain.\n\n<indent=15><b>Base price\n<sprite name="ui sell"> $60 per case</b></indent>\n\n<indent=30><i>To survive the Canadian winter， one needs a body of brass， eyes of glass， and blood made of brandy.</i></indent>\n<indent=40>—Louis Armand de Lom d'Arce Lahontan</indent>
+info.canadian-whiskey.name	カナディアンウイスキー
+info.canadian-whiskey.desc	<b>地域限定商品は、すべての都市で販売されているわけではありません</b>\n\nカナディアンウイスキーは、そのまま飲んでも、上質なカクテルの材料としても、多くの人に愛飲されている酒である。\n\n禁酒法時代、アメリカの蒸留所は軒並み操業を停止したが、国境の北側（デトロイトでは南側）の生産者は操業を続け、カナダの穀物の実から垂涎の逸品を作り出した。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell"> ケースあたり$60</b></indent>\n\n<indent=30><i>カナダの冬を乗り切るには、真鍮の体、ガラスの目、そしてブランデーの血が必要です。</i></indent>\n<indent=40>-ルイ・アルマン・ド・ロム・ダルセ・ラホンタン</indent>
 info.fruit-wine.icon	<sprite name="res fruit-wine">
 info.fruit-wine.name	Fruit Wine
 info.fruit-wine.desc	<b>Regional product not available in all cities.</b>\n\nMany <sprite name="res fruit"> <link="fruit-other">fruits</link> other than grapes can easily ferment into wine - especially when helped along with a bit of <sprite name="res sugar"> <link="sugar">sugar</link>.\n\nIn places where orchards abound but that are more inhospitable to grapes (like Michigan)， wine can be made from many different kinds of fruits.\n\n<indent=15><b>Base price\n<sprite name="ui sell"> $18 per case</b></indent>\n\n<indent=30><i>Si quaeris peninsulam amoenam circumspice.</i></indent>\n<indent=40>—Motto of the State of Michigan</indent>
@@ -422,7 +419,7 @@ info.trap-door.name	Trap Doors
 info.trap-door.desc	Prohibition presents barkeeps with a conundrum - the need to keep sufficient booze on hand for customers but not so much that in the event of a raid， the cops abscond with an undue amount. The answer? Secret doors. Learning this skill allows you to install <b>Trap Doors</b> in your bootleggers and speakeasies to increase the amount of booze they can sell each day.\n\n<indent=30><i>Nothing circulates so rapidly as a secret.</i></indent>\n<indent=40>—Letitia Elizabeth Landon</indent>
 info.printed-promotions.icon	<sprite name="skill expansions">
 info.printed-promotions.name	Printed Promotions
-info.printed-promotions.desc	Have you made friends with a printer or someone who consumes a large amount of printed material? You can take advantage of that by having them teach you the ins and outs of printing. Once you acquire this skill， you'll be able to build the <b>Printed Promotions</b> expansion in a speakeasy that you control to sell more booze per day.\n\n<indent=30><i>Though an angel should write， still 'tis devils must print.</i></indent>\n<indent=40>—Thomas Moore</indent>
+info.printed-promotions.desc	印刷師や印刷物を大量に消費する人と友達になったことがありますか？印刷のイロハを教えてもらえば、それを生かすことができます。このスキルを取得すると、自分が管理する酒場に<b>印刷広告</b>の新しい技術を導入し、1日に販売する酒量を増やすことができるようになります。\n\n<indent=30><i>たとえ天使が書くべきものであっても、悪魔が印刷しなければならないのだ。</i></indent>\n<indent=40>トーマス・ムーア</indent>。
 info.bootleg-whiskey.icon	<sprite name="skill whiskey-bottled">
 info.bootleg-whiskey.name	Bootleg Whiskey
 info.bootleg-whiskey.desc	Learn to make something that looks like <sprite name="res whisky"> <link="whiskey-bottled">whiskey</link>. You'll know it's not quite right. Your customers will know it's not quite right. But these are desperate times.\n\nAcquiring this skill allows you to <b>build</b> a <i>makeshift whiskey still</i> in a building controlled by your outfit.\n\n<indent=30><i>Perplexed and troubled at his bad success， the Tempter stood， nor had what to reply， discovered in his fraud， thrown from his hope.</i></indent>\n<indent=40>—John Milton</indent>
@@ -547,8 +544,8 @@ info.ethnic-bump-fruit-brandy.icon	<sprite name="skill ethnic">
 info.ethnic-bump-fruit-brandy.name	Old World Knowledge: Fruit Distillation
 info.ethnic-bump-fruit-brandy.desc	Learning this skill allows you to build the South Slavic Stills expansion in your <link="fruit-wine">fruit wine</link> operations， sharply increasing production.\n\n<indent=30><i>I cook with wine， sometimes I even add it to the food.</i></indent>\n<indent=40>—W.C. Fields</indent>
 info.better-bartending.icon	<sprite name="skill expansions">
-info.better-bartending.name	Better Bartending
-info.better-bartending.desc	Learning this skill allows you to upgrade your <link="corner-speakeasy">corner speakeasy</link> into a <link="small-speakeasy">small speakeasy</link>.\n\n<indent=30><i>The speakeasy has replaced the saloon; a vast army of lawbreakers has appeared; many of our best citizens have openly ignored Prohibition.</i></indent>\n<indent=40>—John D. Rockefeller</indent>
+info.better-bartending.name	より良いバーテンディング
+info.better-bartending.desc	"このスキルを習得すると、<link=""corner-speakeasy"">コーナースピークイージー</link>を<link=""small-speakeasy"">小酒場</link>にアップグレードすることができるようになる。\n\n<indent=30><i>スピークイージーがサルーンに取って代わり、法を犯す膨大な軍隊が出現し、優秀な市民の多くが公然と禁酒法を無視するようになった</i></indent>。\n<indent=40>-ジョン・D・ロックフェラー</indent>。"
 info.label-counterfeiting.icon	<sprite name="skill labels">
 info.label-counterfeiting.name	Label Counterfeiting
 info.label-counterfeiting.desc	Learning this skill allows you to build a <link="conversion-labels">Counterfeit Label Printer</link> in one of your controlled businesses. This operation allows you to convert paper into labels used in the production of various alcohols.\n\n<i><indent=30><i>When the wine goes in， strange things come out.</i></indent>\n<indent=40>—Johann Schiller</indent>
@@ -584,25 +581,25 @@ info.gambling-staff.name	Attentive Staff
 info.gambling-staff.desc	Learning this skill allows you to hire and train highly qualified， friendly staff at your gambling operations， unlocking several improvement features for you gambling houses.\n\n<i><indent=30><i>One should always play fairly when one has the winning cards.</i></indent>\n<indent=40>—Oscar Wilde</indent>
 info.starter-buildings.icon	<sprite name="skill ethnic">
 info.starter-buildings.name	Nice Building You've Got There.
-info.starter-buildings.desc	This skill makes you a building management expert， reducing the cost of new buildings， increasing the experience gain of your operation manager， and decreasing the heat produced by your operations.
+info.starter-buildings.desc	このスキルによって、あなたはビル管理のエキスパートとなり、新規ビルのコストを削減し、運用担当者の経験値を上げ、運用で発生する熱量を削減することができます。
 info.starter-crew.icon	<sprite name="skill ethnic">
 info.starter-crew.name	Organizing Crime
-info.starter-crew.desc	This skill makes you a smooth talker and effective leader， increasing your relationship boosts from shared ethnicity， buying/selling illegal goods， and increasing your mission cap.
+info.starter-crew.desc	このスキルを使用すると、口が達者で有能なリーダーになり、民族を共有することで人間関係が円滑になり、違法な物品を売買したり、ミッションの上限が増加したりします。
 info.starter-cops.icon	<sprite name="skill ethnic">
 info.starter-cops.name	Respect For the Law
-info.starter-cops.desc	This skill makes you more effective at dealing with the law， reducing bribery cost， increasing bribe duration， and making police less likely to raid your operations/territory.
+info.starter-cops.desc	賄賂のコストを下げ、賄賂の期間を長くし、警察が襲撃しにくくなるなど、より効果的に法律を扱うことができるようになるスキルです。
 info.starter-vehicles.icon	<sprite name="skill ethnic">
 info.starter-vehicles.name	Natural Mechanic
-info.starter-vehicles.desc	This skill makes your vehicles operate more smoothly， adding an extra truck slot， reducing the cost of vehicle repair， and reducing vehicle damage over time.
+info.starter-vehicles.desc	トラックスロットが1つ増え、車両の修理代が安くなり、車両のダメージが軽減されるなど、車両の運用がよりスムーズになるスキルです。
 info.starter-combat.icon	<sprite name="skill ethnic">
 info.starter-combat.name	Street Brawler
-info.starter-combat.desc	This skill makes you a scrappy fighter， increasing the damage and hit rate of all non-firearm weapons.
+info.starter-combat.desc	火器以外の武器のダメージと命中率が上昇し、強力なファイターとなる。
 info.starter-goons.icon	<sprite name="skill ethnic">
 info.starter-goons.name	Hooligan Respect
-info.starter-goons.desc	This skill makes you more easily beloved amongst the low level goons you encounter out on the streets， reducing the amount of cash required to buy them out， the cash the ask for opportunities， and the chance that they will defy your demands.
+info.starter-goons.desc	このスキルを使用すると、街で出会う低レベルのチンピラたちの間で愛されやすくなり、彼らを買収するために必要な現金の量や、彼らが機会を求めてくること、そして彼らがあなたの要求に逆らう可能性を減らすことができます。
 info.starter-territory.icon	<sprite name="skill ethnic">
 info.starter-territory.name	Getting Territorial
-info.starter-territory.desc	This skill makes you a more effective manager of territory， reducing the cost of starting new fronts and increasing the speed at which new corners join your territory.
+info.starter-territory.desc	このスキルにより、より効果的にテリトリーを管理できるようになり、新しいフロントを創設するコストを削減し、新しいコーナーが領地に加わる速度を向上させることができる。
 info.businesses.name	Legitimate Businesses
 info.businesses.desc	Behind each storefront window， beyond each loading dock， amid shelves and storage， businesses are the economic heart of the city.\n\nSome of the enterprises are not what they immediately seem - their legal pursuits belie other， less legal activities taking place in back rooms and basements. Businesses are where you buy raw materials， sell the fruits of your own illicit endeavors， deal with <link="vehicles">vehicles</link> and basically everything else.\n\nOnce you <sprite name="ui pip social expansion"> <link="controlled-buildings">gain control of a building</link>， someone keeps up appearances by continuing business as usual and your outfit is then free to use the backrooms and basements to establish a new operation.
 info.controlled-buildings.icon	<sprite name="ui pip social expansion">
@@ -628,7 +625,7 @@ info.fronts.name	Fronts
 info.fronts.desc	A business associate that agrees to represent your outfits interests to expand and maintain your territory.\n\nTo expand and maintain your outfit's <sprite name="ui respect"> <link="respect">respect</link> in an area， you need someone with ears and eyes on the street. You can redeem a <sprite name="ui tickets"> <link="favors">favor</link> to have a <link="businesses">business</link> serve as a front. They'll let you know what people in street-adjacent corners might respond to so that you can increase your respect level. Once your respect level rises sufficiently， that <sprite name="ui corner"> <link="corners">corner</link> becomes part of your <sprite name="ui pip territory expand"> <link="territory">territory</link>.\n\nBusiness that are paying you for <sprite name="ui tribute"> <link="protection">protection</link> will drop off their monthly contributions at your fronts. If you arrange for more protection money to be dropped off than your front needs to keep going， you can pick up the excess. If there's not enough protection cash coming in， you'll need to cover the difference to keep your front going.
 info.skills.icon	<sprite name="ui skills">
 info.skills.name	Skills
-info.skills.desc	Skills unlock new kinds of operations， upgrades and expansions for your operations， new <link="resources">resource</link> types and other bits of knowledge useful for your outfit.\n\nSometimes you'll make a very useful friend - the kind that is willing to teach you how do to new things. In exchange for a <sprite name="ui tickets"> <link="favors">favor</link> and some resources or cash， there's a universe of knowledge in this city and they'll tell you what they know. Improve your existing operations. Learn about building new ones. Be on the lookout for those useful friends that will help you extend your outfit's ability to meet the demands created by Prohibition.\n\n<indent=30><i>It is those who know little， and not those who know much， who so positively assert that this or that problem will never be solved by science.</i></indent>\n<indent=40>—Charles Darwin</indent>
+info.skills.desc	"スキルによって、新しい作戦の種類、作戦のアップグレードや拡張、新しい<link=""resource"">材料</link>の種類、その他あなたの服装に役立つ知識の断片が解除されます。\n\n時には、新しいことを教えてくれるような、とても役に立つ友人を作ることもできます。<sprite name=""ui tickets""> <link=""favors"">恩義</link>といくつかのリソースや現金と引き換えに、あなたに自分の知っていることを教えてくれるでしょう。既存のオペレーションを改善する、新しいものを作ることについて学ぶ、禁酒法がもたらす需要に対応するために、あなたの組織の能力を拡張してくれる有用な友人を探してください。\n\n<indent=30><i>この問題やあの問題は科学では決して解決されないと断言するのは、ほとんど知らない人であり、多くを知らない人ではないのです</i></indent>\n<indent=40>-チャールズ・ダーウィン</indent>。"
 info.crew.icon	<sprite name="ui crew list">
 info.crew.name	Crew
 info.crew.desc	The people in your outfit that you rely on to do everything in this town.\n\nIn <link="vehicles">vehicles</link> or managing an operation， your crew members make it all happen in your outfit. They can be put in charge of deliveries that will help you move goods around town. They can be armed with weapons to deal with recalcitrant <sprite name="ui goon defiant"> <link="goons">hooligans</link> or to send a message to a <link="rivals">rival outfit</link>.\n\nYour capacity for  crew members can be increased by expanding your <sprite name="ui pip territory expand"> <link="territory">territory</link> and gaining control of additional <sprite name="ui pip social expansion"> <link="controlled-buildings">buildings</link>\n\nLook for <link="businesses">businesses</link> where owners owe you <sprite name="ui tickets"> <link="favors">favors</link> and know <sprite name="ui pip social crew"> know someone who might be a good crew member. Be sure to make sure that their traits match up with the jobs you have in mind for your potential crew member.
@@ -726,12 +723,12 @@ info.regular-games.desc	<indent=10>High buy in， high payout games invite hardc
 tut.newgame.firstname	John
 tut.newgame.lastname	Smith
 tut.newgamepopup.name	<b>{name}</b>\n\n{ageinfo}
-tut.newgamepopup.text1	You finally arrive in the big city: <b>{cityname}.</b>
-tut.newgamepopup.text2	The year is 1920， dawn of the Gilded Age. The country is prosperous but divided. The National Prohibition Act just made it illegal to sell， manufacture， or transport alcoholic beverages anywhere in the country. The law is seen as an attack on city residents and immigrants who don't support the temperance movement. Naturally， nobody in the city takes this law seriously: illegal speakeasies and alcohol operations are popping up all over， and it's easy to persuade the police to look the other way.
-tut.newgamepopup.text3.m	You arrive into this melting pot with a few dollars in your pocket and a family connection. You're staying with your uncle， <b>{name}.</b> He has a small business in the city， and he's going to show you the ropes.
-tut.newgamepopup.text3.f	You arrive into this melting pot with a few dollars in your pocket and a family connection. You're staying with your aunt， <b>{name}.</b> She has a small business in the city， and she's going to take you under her wing.
-tut.newgamepopup.text4	But you don't want to run the family store. You dream about making it big， and this situation is full of opportunities for someone like you: someone who's not afraid to take risks.
-tut.newgamepopup.text5	As you get off the train， and take in the sights of skyscrapers and endless crowds， you already know: this is the beginning of something great.
+tut.newgamepopup.text1	あなたはついに大都市についた: <b>{cityname}.</b>
+tut.newgamepopup.text2	時は1920年、金ぴか時代の幕開け。国は繁栄しているが、分裂している。禁酒法が制定され、国内でのアルコール飲料の販売、製造、輸送が違法となった。この法律は、禁酒運動を支持しない都市住民や移民に対する攻撃と見なされている。もちろん、この法律を真に受ける人はいない。違法な酒場や酒類販売業があちこちにでき、警察を説得して目をつぶらせることも簡単だった。
+tut.newgamepopup.text3.m	あなたはこの人種のるつぼに、わずかなお金と家族のコネクションを持ってやってきたわけです。あなたは叔父<b>{name}</b>のところに滞在しています。彼はこの街で小さなビジネスをしていて、あなたに手ほどきをしてくれます。
+tut.newgamepopup.text3.f	あなたはこの人種のるつぼに、わずかなお金と家族のコネクションを持ってやってきたわけです。あなたは叔母<b>{name}</b>のところに滞在しています。彼はこの街で小さなビジネスをしていて、あなたに手ほどきをしてくれます。
+tut.newgamepopup.text4	しかし、あなたは家業の店を経営したいとは思っていません。この状況は、あなたのようなリスクを恐れない人にとって、チャンスに満ちているのです。
+tut.newgamepopup.text5	電車を降り、高層ビル群や果てしない人混みを目にしたとき、あなたはすでに「これは何か素晴らしいことの始まりだ」と感じていることでしょう。
 tut.fr.button-continue	Continue
 tut.fr.button-waiting	Waiting...
 tut.fr.button-understood	Understood
@@ -855,7 +852,7 @@ tut.lesson-9.3	You took the time to hang out on the corner and observe the comin
 tut.lesson-9.4	Once you start exploring the city， all businesses will start out unknown， and it's up to you to pick which ones to scope out.
 tut.lesson-9.5	Speaking of which - it's a big city， and it would be good for you to get out there and explore it a little bit!
 tut.lesson-9.6	Corners that you haven't explored yet show up as sepia colored， and you don't know what kinds of businesses are located there.\nIt's only after you explore a corner that you'll find out what's there.
-tut.lesson-9.7	Go ahead and drive to this unknown corner.\nBut just as a heads up - this will consume a lot of <sprite name="ui movement pts"> movement points! If you don't have enough， don't forget to advance to the next turn.\nGo and explore the new corner， and I'll wait.
+tut.lesson-9.7	"さあ、この未知のコーナーに車を走らせるのだ。\nただし、注意点として、これは<sprite name=""ui movement pts"">移動ポイントを大量に消費します! もし足りなければ、次のターンに進むことを忘れないでください。\n新しいコーナーを探検してきてください、私は待っています。"
 tut.lesson-9.8	So this is how map exploration works - bit by bit， corner by corner， you can drive around， identify new businesses， scope them out， and then talk to the owners to find out what they're buying and selling.\nBut if you can get warm intros， that's much better， because they already start out trusting you. Earning the trust of someone completely unknown is much harder.
 tut.lesson-9.9	Great， you're picking things up quickly.\nSo now I have another task for you.\nRemember all the beer stashed in the safehouse? Go ahead and sell it off， all of it! Afterwards we'll invest that money into some kind of a new operation. Maybe a brewery? Or a speakeasy?\nSo go around， try to sell more to {name} or anyone else who's buying， and if they introduce you to more people take them up on it!\nI'll wait until you have <b>{amt}</b> in total， and then we'll continue.
 tut.lesson-9.10	Well aren't you just hitting on all six today.\nNow that you have a nice pile of dough， we can start building a new life for ourselves in this city.
@@ -908,7 +905,7 @@ tut.lesson-12.10	Now let's have the new front start work on increasing your resp
 tut.lesson-12.11.m	Go back to cousin {name}， but this time ask him about <sprite name="ui pip front expansion ready"> expanding your territory.\nThen agree to his price， and he'll get started.
 tut.lesson-12.11.f	Go back to cousin {name}， but this time ask her about <sprite name="ui pip front expansion ready"> expanding your territory.\nThen agree to her price， and she'll get started.
 tut.lesson-12.12	Good， {name} is hard at work improving your name recognition in the neighborhood.\nIn seven or eight turns， that corner should recognize you and join your territory.\nI'll wait with you until it does.
-tut.lesson-12.13	<i>(Waiting for a new corner to join player's territory. It should only take a few turns. Meanwhile you can go about your business.)</i>
+tut.lesson-12.13	<i>(新しいコーナーがプレイヤーの領地に加わるのを待ちます。数ターンで完了するはずです。その間、あなたは自分の仕事をすることができます。)</i>
 tut.lesson-12.14	And there it is! You now have three corners under your control. Not bad， not bad at all.
 tut.lesson-12.15	Now here's something to remember. If your front is working on your behalf， it's going to have some costs. Make sure to visit them at least once a month， and cover their expenses (they will display this <sprite name="ui pip front needs"> or <sprite name="ui pip front needs urgent"> support icon if you're overdue).\nAlternatively， you could extort some businesses in the area. Then the front will collect payments， skim off the top to cover expenses， and give you the rest in cold hard cash.\nWe'll come back to this in a moment.
 tut.lesson-12.16	Now keep expanding until you've reached five corners total.\nYou should go back to {name} and pay to convert more corners， as many times as possible.\nAlternatively， you could set up a different front， but expanding around an existing front is more cost-efficient in the long term.\nI'll make a note for you， see the missions list on the left side of your screen.
@@ -969,7 +966,7 @@ tut.event.cop	You just met {groupname}!\nPolice officers will make surprise raid
 tut.event.prod.complete	One of your operations has completed its production cycle. Resulting product has been placed in the storage room at your building.
 tut.event.prod.stalled	One of your operations has stalled. This is often due to the lack of source materials. Inspect your operation and make sure it has all the materials it needs.
 tut.event.levelup	One of your crew members gained enough experience to gain a new level!\nClick on the <sprite name="xp general"> experience ticker to pick a new ability for them.
-tut.event.outpost-can-expand	One of your fronts is ready to expand your territory further.\nVisit your front and pay them to increase respect on a new corner. There's no such thing as having too much respect!
+tut.event.outpost-can-expand	あなたのフロントの1人は、あなたのテリトリーをさらに拡大する準備ができている。\nあなたのフロントを訪問し、新しいコーナーでリスペクトを高めるために彼らにお金を払おう。リスペクトは多いに越したことはない!
 tut.event.outpost-urgent	One of your fronts urgently needs your support!\nA front that cannot cover its expenses will eventually shut down， which will cause local corners to lose respect for you， and leave your territory!\nLook for a building with the <sprite name="ui pip front needs urgent"> envelope icon， and visit it immediately.
 tut.event.vehicle-junk	One of your vehicles is getting a little banged up. Damaged vehicles drive slower than vehicles in good condition， and at some point will stop working altogether.\nVisit a local repair shop to keep your vehicle fleet in good shape.
 tut.event.crew-injured	One of your people became injured!\nAn injured crew member can still do some work， but only up to a point.\nAs soon as possible， send them back to one of your buildings， and have them <b>recuparate</b> by clicking on the <sprite name="ui health"> recuperate button on their crew info card (in the upper right).
