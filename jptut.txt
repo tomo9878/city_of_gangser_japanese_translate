@@ -1,6 +1,7 @@
 KEY	VALUE	COMMENTS
 __id	jp
 
+﻿﻿__id	en
 pedia.dialog.title	禁酒法百科事典
 pedia.dialog.default-text	左のトピックを選択し、詳細をご覧ください。さらに詳しく知りたい方はリンクをたどって行くことも可能です
 pedia.dialog.entry	<b><size=120%>{name}</size></b>\n\n{desc}
@@ -13,7 +14,7 @@ pedia.cat.others	その他
 info.resources.name	原材料
 info.resources.desc	売買したり、生産・建設に使うもの。資源にはいくつかの種類があります。\n\n合法的な資源は、あなたがそれを知っている限り、誰からでも買うことができます。\n\n違法な資源は、特定の<link="businesses">企業</link>と売買する前に、<sprite name="ui pip social"> <link="relationships"> 信用レベル</link>が必要です。\n\n<sprite name="map resources HUD">原材料マップオーバーレイ</link> では、あなたの衣装が発見したリソースを販売している企業を見ることができます。\n\n<sprite name="ui skills"><link="skills">スキル</link> を習得し、<sprite name="ui tickets"><link="favors">恩義</link> を交換し、<sprite name="ui quests"><link="missions">ミッション</link> を達成すると、街にはたくさんの資源と機会が開放されることを待っていると分かるはずです。
 info.fake-beer.icon	<sprite name="res fake-beer">
-info.fake-beer.name	バックルームビール
+info.fake-beer.name	密造ビール
 info.fake-beer.desc	"自家製ビールとホップの出会いで、よりお得な飲み物に！\n\n自家醸造ビールは、禁酒法が始まる前に大手ビールメーカーが作っていたものを、より高品質に再現したものです。この <link="refined-booze">精製酒</link> は <link="production-fake-beer">自家製ビール製造</link>で<link="hops">ホップ</link> と <link=""home-brew"">自家製ビール</link> を組み合わせ、それを <link=""small-bottles"">小さな瓶</link> にパッケージして喉が乾いたお客さんに出荷して作られるものです。適切な知識とアップグレードがあれば、<link=""barley"">大麦</link>とホップから直接、<link=""production fake-beer-upgraded"">自家製醸造</link>で作ることも可能です。\n\n<indent=15><b>基本価格\n<sprite name="ui sell"> 1ケースあたり$25</b></indent>\n\n<i><indent=30>ビールを飲む者はすぐに眠くなり、長く眠る者は罪を犯さず、罪を犯さない者は天国に入る。だから、ビールを飲もう。</indent></i>\n<indent=40>—マルティン・ルター</indent>"
 info.fake-wine.icon	<sprite name="res fake-wine">
 info.fake-wine.name	偽造ワイン
@@ -26,21 +27,21 @@ info.bathtub-gin.name	バスタブ・ジン
 info.bathtub-gin.desc	"スパイスは、ムーンシャインをカクテルにふさわしいものに変えてくれる。\n\n<link=""production-bathtub-gin"">バスタブ・ジン製造</link>では、<link=""moonshine"">ムーン・シャイン</link>を<link=""spices"">スパイス</link>で醸造し、<link=""small-bottle"">小瓶</link>に入れて街中の酒場に運び、この酒を<link="refined-booze">精製酒</link>にする。また、<link=""production-bathtub-gin-upgraded"">バスタブ・ジン スチル</link> で <link=""corn-syrup"">コーンシロップ</link> から直接作る方法を学び、ムーンシャインを別の用途に使用することもできる。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell">ケース $24</b></indent>\n\n<i><indent=30>私は自己管理を徹底しています。朝食前にジンより強い酒を飲むこaとはない。.</i></indent>\n<indent=40>—W.C.フィールズ</indent>"
 info.moonshine.icon	<sprite name="res moonshine">
 info.moonshine.name	ムーンシャイン
-info.moonshine.desc	"樽に入れた中性アルコール、またはトウモロコシから作られた、強力なお酒。\n\n禁酒法により、誰もが蒸留酒に工夫を凝らすことを余儀なくされた。<link=""moonshine"">ムーンシャイン</link> は、<link=""homebooze-moonshine"">バックルームムーンシャイン事業</link> で、<link=""nute-alcohol"">中性アルコール</link>中の不快（および毒）な添加物を蒸発させて作り、<link=""clocks"">壺</link> で少しだけ精製したお酒を販売する。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell"> １壺$20</b></indent>\n\n<i><indent=30>禁酒法は酔いを戸外や暗い場所に追いやるだけで、治すことも減らすこともしない。</i></indent>\n<indent=40>—マーク・トウェイン</indent>"
+info.moonshine.desc	"樽に入れた中性アルコール、またはトウモロコシから作られた、強力なお酒。\n\n禁酒法により、誰もが蒸留酒に工夫を凝らすことを余儀なくされた。<link=""moonshine"">ムーンシャイン</link> は、<link=""homebooze-moonshine"">密造ムーンシャイン事業</link> で、<link=""nute-alcohol"">中性アルコール</link>中の不快（および毒）な添加物を蒸発させて作り、<link=""clocks"">壺</link> で少しだけ精製したお酒を販売する。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell"> １壺$20</b></indent>\n\n<i><indent=30>禁酒法は酔いを戸外や暗い場所に追いやるだけで、治すことも減らすこともしない。</i></indent>\n<indent=40>—マーク・トウェイン</indent>"
 info.brick-wine.icon	<sprite name="res brick-wine">
 info.brick-wine.name	ブリックワイン
-info.brick-wine.desc	Bricks of grape concentrate from California turned into crocks of brick Wine.\n\nVineyard owners in California started flooding the rest of the country with uniformly shaped bricks of dehydrated <link="grape-juice">grape concentrate</link> and some very specific instructions of what to do to prevent fermentation. That would be illegal. Just put it in <link="crocks">stoneware crocks</link> at a <link="homebooze-brick-wine">Backroom Brick Wine Operation</link> and mix with water and you're good to go sell the resulting <link="homemade-booze">homemade booze</link>.\n\n<indent=15><b>Base price\n<sprite name="ui sell"> $15 per crock</b></indent>\n\n<i><indent=30>Wine is the most healthful and most hygienic of beverages.</i></indent>\n<indent=40>—Louis Pasteur</indent>
+info.brick-wine.desc	"カリフォルニア産のブドウの濃縮物がブリックワインの壺になった。\n\nカリフォルニアのブドウ園のオーナーは、脱水した均一な形<link=""grape-juice"">ブドウ濃縮物</link>の塊と、発酵を防ぐために何をすべきかという非常に具体的な指示を、他の国々に押し寄せ始めたのです。それは違法ですが、<link=""homebooze-brick-wine"">密造ブリックワイン事業</link> で <link=""crocks"">せっ器の壺</link> に入れて水と混ぜれば、出来上がった <link=""homemade-booze"">自家製酒</link> を売れば良いのだから。\n\n<indent=15><b>基本価格\n<sprite name="ui sell"> １壺$15</b></indent>\n\n<i><indent=30>ワインは最も健康的で最も衛生的な飲み物である.</i></indent>\n<indent=40>—ルイ・パスツール</indent>"
 info.cider.icon	<sprite name="res cider">
 info.cider.name	ハードシードル
-info.cider.desc	Simple apple juice left in stoneware crocks will soon turn into hard cider.\n\nCider—and specifically hard， alcoholic cider—has is a type of <link="homemade-booze">homemade booze</link> with a long history in the US. During Prohibition， lots of family recipes and dimly remembered recipes for hard cider reemerged. At a <link="homebooze-cider">Backroom Cider Operation</link>， take <link="apple-juice">apple juice</link>， mix into <link="crocks">stoneware crocks</link> and await the magic of fermentation.\n\n<indent=15><b>Base price\n<sprite name="ui sell"> $12 per crock</b></indent>\n\n<i><indent=30>Give me yesterday's bread， this day's flesh， and last year's cider.</i></indent>\n<indent=40>—Benjamin Franklin</indent>
+info.cider.desc	せっ器の壺に入れたままのシンプルなリンゴジュースは、すぐにハードシードルになります。\n\nサイダーは、特にアルコール度数の高いハードサイダーは、アメリカでは長い歴史を持つ<link="homemade-booze">自家製酒</link>の一種である。禁酒法時代には、多くの家庭のレシピやおぼろげな記憶から、ハードサイダーのレシピが再興されました。<link="homebooze-cider">密造シードル事業</link>では、<link="apple-juice">りんごジュース</link>を、<link="crocks">せっ器の壺</link>に混ぜ、発酵の魔法を待つことになるのです。\n\n<indent=15><b>基本価格\n<sprite name="ui sell"> 1ケースあたり$12</b></indent>\n\n<i><indent=30>昨日のパン、今日の肉、そして去年のリンゴを私にください。</i></indent>\n<indent=40>—ベンジャミン・フランクリン</indent>
 info.home-brew.icon	<sprite name="res home-brew">
 info.home-brew.name	自家製ビール
-info.home-brew.desc	Malt syrup churned out by now dry breweries easily converts to homemade beer.\n\nWhen 1920 made the breweries all over the US suddenly obsolete， some began making <link="malt">malt syrup</link>. And they included careful instructions to help the general public avoid its unfortunate tendency to ferment into， well， beer. <link="homebooze-home-brew">Backroom Home Brew Operations</link> make use of <link="crocks">stoneware crocks</link> and malt syrup to produce large amounts of homemade beer.\n\n<indent=15><b>Base price\n<sprite name="ui sell"> $8 per crock</b></indent>\n\n<i><indent=30>Kde se pivo vaří， tam se dobře daří.</i></indent>\n<indent=40>—Czech proverb</indent>
+info.home-brew.desc	"乾式醸造所で製造されるモルトシロップは、自家製ビールに容易に転用できる。\n\n\n1920年にアメリカ中の醸造所が突然廃止されたとき、一部の醸造所は<link=""malt"">モルトシロップ</link>を作り始めた。そして、一般の人々が、発酵してビールになってしまうという不運を避けるために、丁寧な説明書を添えた。<link=""homebooze-home-brew"">密造自家製ビール事業</link>では、<link=""crocks"">せっ器の壺</link>とモルトシロップを使って、大量の自家製ビールを製造している。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell"> 1壺$8</b></indent>\n\n<i><indent=30>ビールが造られるところ、ビールが育つところ。</i></indent>\n<indent=40>—チェコの諺</indent>"
 info.grape-juice.icon	<sprite name="res grape-juice">
-info.grape-juice.name	濃縮ブドウジュース
-info.grape-juice.desc	Made from grapes and never to be left to ferment.\n\nVineyard owners faced some tough decisions in 1920. Some planted other things. Some went out of business entirely. But some kept growing. They just converted their harvests into concentrated bricks for easy shipment. Some included flavor packets for things like port or sherry. Can be made at a <link="conversion-grape-juice">Grape Press</link> from <link="grapes">grapes</link> and <link="half-barrel">small barrels</link>.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $12 per small barrel</b></indent>\n\n<i><indent=30>Each brick dissolved in gallon of water produces gallon of unfermented， non-alcoholic punch juice. To prevent fermentation add 1-10% benzoate of soda.</i></indent>\n<indent=40>—Directions on Vino Sano California Grape Bricks</indent>
+info.grape-juice.name	ぶどう濃縮物
+info.grape-juice.desc	"葡萄から作られ、決して発酵させてはいけない。\n\n1920年、ブドウ園のオーナーたちは厳しい決断を迫られた。ある者は他の植物を植えました。ある者は完全に廃業した。しかし、あるものは成長を続けた。彼らは収穫したブドウを出荷しやすいように濃縮したレンガに変えただけだった。ポートワインやシェリー酒などのフレーバーパックを同梱したものもあった。<link=""conversion-grape-juice"">ブドウ圧縮</link>で、<link=""grapes"">ブドウ</link>と<link=""half-barrel"">小型の樽</link>で作ることができます。</indent>\n\n<indent=15><b>基礎価格\n<sprite name="ui buy">小型の樽あたり$12 l</b></indent>\n\n<i><indent=30>1ガロンの水に溶かすと、1ガロンのノンアルコールパンチジュースができます。発酵を防ぐために、1-10%の安息香酸ソーダを加えてください。</i></indent>\n<indent=40>—Vino Sano カリフォルニア・グレープ・ブリックの説明書</indent>\n"
 info.malt.icon	<sprite name="res malt">
-info.malt.name	麦芽シロップ
+info.malt.name	モルトシロップ
 info.malt.desc	Thick syrup made from sprouted barley that tends to ferment.\n\nBreweries faced a mortal crisis in 1920. Forbidden to make beer， some turned to making ice cream or soda. Some， however， kindled a new health kick， particular to the era when Americans discovered the unique health benefits of drinking malt syrup — which they <i>never</i> left to ferment into a beer-like beverage. Can be made at a <link="conversion-malt">Malt Processor</link> from <link="barley">barley</link>.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $5 per small barrel</b></indent>\n\n<i><indent=30>There are times when the brain draws so upon our vitality that we cannot digest our food， we gain no strength from what we eat. If we let this go on， we sow the seeds of weakness which will blossom in disease. Act at once! Pabst Malt Extract - the "Best" Tonic.</i></indent>\n<indent=40>—Pabst Malt Tonic Advertisement</indent>
 info.apple-juice.icon	<sprite name="res apple-juice">
 info.apple-juice.name	りんごジュース
@@ -88,7 +89,7 @@ info.citrus.icon	<sprite name="res citrus">
 info.citrus.name	Citrus Fruit
 info.citrus.desc	Appealing fruit for a variety of uses\n\nCitrus has many uses. It can improve cocktails in both flavor and appearance. It's oil-laden rinds can also be used in a wide variety of infusions and other types of alcohol production.\n\n\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $2 per crate</b></indent>\n\n<i><indent=30><i>Knowest thou the land where the lemon-trees flourish， where amid the shadowed leaves the golden oranges glisten...Thither， thither， fain would I fly with thee， O my beloved!</i></indent>\n<indent=40>—Johann Wolfgang von Goethe</indent>
 info.fruit-other.icon	<sprite name="res fruit">
-info.fruit-other.name	Fruit
+info.fruit-other.name	フルーツ
 info.fruit-other.desc	As long as it contains a lot of sugar， it should ferment.\n\nFruit of various types is available by the bushel from markets， wholesalers and other vendors all over the city. With the right expertise， these humble berries and drupes can be distilled into a variety of alcoholic beverages or used to make a wide variety of fruity infusions.\n\n<indent=15><b>Base price\n<sprite name="ui buy"> $4 per bushel</b></indent>\n\n<i><indent=30><i>Give me juicy autumnal fruit， ripe and red from the orchard.</i></indent>\n<indent=40>—Walt Whitman</indent>
 info.wheat.icon	<sprite name="res wheat">
 info.wheat.name	Wheat
@@ -205,7 +206,7 @@ info.canadian-whiskey.icon	<sprite name="res canadian whiskey">
 info.canadian-whiskey.name	カナディアンウイスキー
 info.canadian-whiskey.desc	<b>地域限定商品は、すべての都市で販売されているわけではありません</b>\n\nカナディアンウイスキーは、そのまま飲んでも、上質なカクテルの材料としても、多くの人に愛飲されている酒である。\n\n禁酒法時代、アメリカの蒸留所は軒並み操業を停止したが、国境の北側（デトロイトでは南側）の生産者は操業を続け、カナダの穀物の実から垂涎の逸品を作り出した。\n\n<indent=15><b>基礎価格\n<sprite name="ui sell"> ケースあたり$60</b></indent>\n\n<indent=30><i>カナダの冬を乗り切るには、真鍮の体、ガラスの目、そしてブランデーの血が必要です。</i></indent>\n<indent=40>-ルイ・アルマン・ド・ロム・ダルセ・ラホンタン</indent>
 info.fruit-wine.icon	<sprite name="res fruit-wine">
-info.fruit-wine.name	Fruit Wine
+info.fruit-wine.name	フルーツワイン
 info.fruit-wine.desc	<b>Regional product not available in all cities.</b>\n\nMany <sprite name="res fruit"> <link="fruit-other">fruits</link> other than grapes can easily ferment into wine - especially when helped along with a bit of <sprite name="res sugar"> <link="sugar">sugar</link>.\n\nIn places where orchards abound but that are more inhospitable to grapes (like Michigan)， wine can be made from many different kinds of fruits.\n\n<indent=15><b>Base price\n<sprite name="ui sell"> $18 per case</b></indent>\n\n<indent=30><i>Si quaeris peninsulam amoenam circumspice.</i></indent>\n<indent=40>—Motto of the State of Michigan</indent>
 info.gasoline.icon	<sprite name="res gasoline">
 info.gasoline.name	Gasoline
@@ -241,7 +242,7 @@ info.weapon-switchblade.icon	<sprite name="ui weapon knife">
 info.weapon-switchblade.name	Switchblade
 info.weapon-switchblade.desc	Not likely to draw a lot of attention， but deadly all the same. The switchblade is a classic， not to be disrespected. In the right hands， this is plenty to get your point across.\n\nLow Hit:5 -- High Hit: 35\n\n<indent=10><b>Base price\n<sprite name="ui buy">$80 each</b></indent>
 info.homebooze-brick-wine.name	Backroom Brick Wine Operation
-info.homebooze-brick-wine.desc	<indent=10>Creates brick wine from grape concentrate and stoneware crocks.\n<b><sprite name="res grape-juice"> + <sprite name="res jugs"> <sprite name="ui arr sm right"> <sprite name="res brick-wine"></b>\n\n<b>Requires:</b>\n<sprite name="skill brick-wine"> <link="brick-wine-making">Brick Wine Production</link>，  <sprite name="res cash">700，  <sprite name="res lumber"> 4</indent>\n\nWhen installed and supplied with <link="grape-juice">grape concentrate</link> and <link="crocks">stoneware crocks</link>， this backroom operation produces <link="brick-wine">brick wine</link> that can be sold to businesses across the city or in your own <link="backroom-bootlegger">Backroom Bootleggers</link> or Corner Speakeasies. Brick wine can also be used to make <link="fake-wine">counterfeit wine</link> once you learn how to construct a <link="production-fake-wine">Backroom Wine Operation</link> or <link="production-fake-wine-upgraded">Backroom Winery</link>.\n\n<i><indent=30>WINE n. Fermented grape-juice known to the Women's Christian Union as liquor， sometimes as rum.</i>\n</indent><indent=40>—Ambrose Bierce</indent>
+info.homebooze-brick-wine.desc	"<indent=10>ブドウ濃縮物とせっ器の壺からブリックワインを作る。\n\n<b><sprite name="res grape-juice"> + <sprite name="res jugs"> <sprite name="ui arr sm right"> <sprite name="res brick-wine"></b>\n\n<b>必要なもの:</b>\n\n<sprite name="skill brick-wine"> <link="brick-wine-making">ブリックワイン製造所</link>，  <sprite name="res cash">700，  <sprite name="res lumber"> 4</indent>\n\n\n<link=""grape-juice"">ブドウ濃縮物</link> と <link=""crocks"">せっ器の壺</link> を供給すると、この密造所では <link=""brick-wine"">ブリックワイン</link> を生産し、街の商店や自分の <link=""backroom-bootlegger"">密売所</link> やコーナー スピークイージーで販売することが可能になる。\n\nブリックワインは、<link=""production-fake-wine"">ワイン密造所</link>や<link=""production-fake-wine-upgraded"">裏ワイナリー</link>の構築方法を習得すれば、<link=""fake-wine"">偽造ワイン</link>の製造にも使用できるようになる。\n\n<i><indent=30>ワイン</i>：ブドウの果汁を発酵させたもので、女性キリスト教連合会では酒、時にはラム酒として知られている。\n</indent><indent=40>-アンブローズ・ビアス</indent>。"
 info.homebooze-cider.name	Backroom Cider Operation
 info.homebooze-cider.desc	<indent=10>Creates hard cider from apple juice and stoneware crocks.\n<b><sprite name="res apple-juice"> + <sprite name="res jugs"> <sprite name="ui arr sm right"> <sprite name="res cider"></b>\n\n<b>Requires:</b>\n<sprite name="skill cider"> <link="cider-making">Cider Making</link>，  <sprite name="res cash">800，  <sprite name="res lumber"> 4</indent>\n\nWhen installed and supplied with <link="apple-juice">apple juice</link> and <link="crocks">stoneware crocks</link>， this backroom operation produces <link="cider">hard cider</link> that can be sold to businesses across the city or in your own <link="backroom-bootlegger">Backroom Bootleggers</link> or Corner Speakeasies. Hard cider can also be used to make <link="sparkling-cider">sparkling cider</link> once you learn how to construct a <link="production-sparkling-cider">Sparkling Cider Operation</link> or <link="production-sparkling-cider-upgraded">Sparkling Cider Fermenter</link>.\n\n<i><indent=30>An apple a day keeps the doctor away.</i>\n</indent><indent=40>—A marketing slogan adopted by orchard owners concerned by the temperance movement's impact on sales of hard cider</indent>
 info.homebooze-home-brew.name	Backroom Home Brew Operation
@@ -250,13 +251,13 @@ info.homebooze-moonshine.name	Backroom Moonshine Operation
 info.homebooze-moonshine.desc	<indent=10>Creates moonshine from neutral alcohol and stoneware crocks.\n<b><sprite name="res alcohol-btl"> + <sprite name="res jugs"> <sprite name="ui arr sm right"> <sprite name="res moonshine"></b>\n\n<b>Requires:</b>\n<sprite name="skill moonshine"> <link="moonshine-making">Moonshine Making</link>，  <sprite name="res cash">600，  <sprite name="res lumber"> 4</indent>\n\nWhen installed and supplied with <link="neutral-alcohol">neutral alcohol</link> and <link="crocks">stoneware crocks</link>， this backroom operation produces <link="moonshine">moonshine</link> that can be sold to businesses across the city or in your own <link="backroom-bootlegger">Backroom Bootleggers</link> or Corner Speakeasies. Moonshine can also be used to make <link="bathtub-gin">bathtub gin</link> once you learn how to construct a <link="production-bathtub-gin">Bathtub Gin Operation</link> or <link="production-bathtub-gin-upgraded">Bathtub Gin Still</link>.\n\n<i><indent=30>Well， between Scotch and nothin'， I suppose I’d take Scotch. It’s the nearest thing to good moonshine I can find.</i>\n</indent><indent=40>—William Faulkner</indent>
 info.homebooze-apple-jack.name	Backroom Applejack Operation
 info.homebooze-apple-jack.desc	<b>Regional operation only available in some cities.</b>\n\n<indent=10>Creates applejack from apples or apple juice， ice， and small bottles.\n<sprite name="res apples"> + <sprite name="res ice"> + <sprite name="res small-bottles"> <sprite name="ui arr sm right"> <sprite name="res apple-jack">\n<b><sprite name="res apple-juice"> + <sprite name="res ice"> + <sprite name="res small-bottles"> <sprite name="ui arr sm right"> <sprite name="res apple-jack"></b>\n\n<b>Requires:</b>\n<sprite name="skill applejacking"> <link="homebooze-apple-jack">Apple Jacking</link>，  <sprite name="res cash">900， <sprite name="res barrels"> 5</indent>\n\nWhen installed and supplied with <link="apples">apples</link> or <link="apple-juice">apple juice</link> and <link="small-bottles">small bottles</link>， produces <link="applejack">applejack</link> that can be sold to businesses across the city or in your own <link="backroom-bootlegger">Backroom Bootleggers</link> or Corner Speakeasies. Applejack can also be used to make <link="sparkling-cider">sparkling cider</link> once you learn how to construct a <link="production-sparkling-cider">Sparkling Cider Operation</link> or <link="production-sparkling-cider-upgraded">Sparkling Cider Fermenter</link>.\n\n<i><indent=30>An apple a day keeps the doctor away.</i>\n</indent><indent=40>—A marketing slogan adopted by orchard owners concerned by the temperance movement's impact on sales of hard cider</indent>
-info.production-fruit-brandy.name	Rakija Still
+info.production-fruit-brandy.name	ラキヤ蒸留
 info.production-fruit-brandy.desc	<b>Regional operation only available in some cities.</b>\n\n<indent=10>Creates rakija from plums， small bottles， and sugar.\n<b><sprite name="res plums"> + <sprite name="res small-bottles"> + <sprite name="res sugar"> <sprite name="ui arr sm right"> <sprite name="res rakija"></b>\n\n<b>Requires:</b>\n<sprite name="skill fruit brandy"><link="fruit-brandy-skill">Plum Brandy</link>， <sprite name="res cash"> 1600， <sprite name="steel barrels"> 10， <sprite name="res pipes"> 5</indent>\n\nWhen installed and supplied with <link="plums">plums</link>， <link="small-bottles">small bottles</link> and <link="sugar">sugar</link>， this operation produces <link="rakija">rakija</link> that can be sold to businesses across the city or in your own <link="backroom-bootlegger">Backroom Bootleggers</link> or Corner Speakeasies.
 info.production-corn-whiskey.name	Corn Whiskey Still
 info.production-corn-whiskey.desc	<b>Regional operation only available in some cities.</b>\n\n<indent=10>Creates corn whiskey from corn and bottles.\n<b><sprite name="res corn"> + <sprite name="res bottles"> <sprite name="ui arr sm right"> <sprite name="res corn whiskey"></b>\n\n<b>Requires:</b>\n<sprite name="skill corn distillation"><link="corn-whiskey-skill">Corn Whiskey Manufacture</link>， <sprite name="res cash"> 1800， <sprite name="res steel-barrels"> 5， <sprite name="res pipes"> 8</indent>\n\nWhen installed and supplied with <link="corn">corn</link> and <link="bottles">bottles</link>， this operation produces <link="corn-whiskey">corn whiskey</link> that can be sold to businesses across the city or in your own <link="backroom-bootlegger">Backroom Bootleggers</link> or Corner Speakeasies.
-info.conversion-grape-juice.name	Grape Press
-info.conversion-grape-juice.desc	<indent=10>Creates grape concentrate from grapes and small barrels.\n<b><sprite name="res grapes"> + <sprite name="res half-barrel"> <sprite name="ui arr sm right"> <sprite name="res grape-juice"></b>\n\n<b>Requires:</b>\n<sprite name="skill grape-press"> <link="grape-press">Grape Presses</link>，  <sprite name="res cash">750，  <sprite name="res pipes"> 5，  <sprite name="res barrels"> 25，  <sprite name="res bricks"> 6</indent>\n\nWhen installed and supplied with <link="grapes">grapes</link> and <link="half-barrel">small barrels</link>， this juice press produces <link="grape-juice">grape concentrate</link> that can be used to make <link="brick-wine">brick wine</link> and for other fermentations and infusions. Making your own grape concentrate can be more reliable and less expensive than purchasing it on the open market. A crew member that has gained the appropriate experience managing this operation will allow you to upgrade it to an Improved Grape Press.\n\n<i><indent=30>Uvaque conspecta livorem ducit ab uva.</i>\n</indent><indent=40>—Juvenal</indent>
-info.conversion-apple-juice.name	Apple Juice Press
+info.conversion-grape-juice.name	ブドウ圧縮
+info.conversion-grape-juice.desc	"<indent=10>ブドウと小樽からブドウ濃縮物を作る。\n<b><sprite name="res grapes"> + <sprite name="res half-barrel"> <sprite name="ui arr sm right"> <sprite name="res grape-juice"></b>\n\n<b>必要なもの:</b>\n<sprite name="skill grape-press"> <link="grape-press">ブドウ圧搾機</link>，  <sprite name="res cash">750，  <sprite name="res pipes"> 5，  <sprite name="res barrels"> 25，  <sprite name="res bricks"> 6</indent>\n\n<link=""grapes"">ブドウ</link>と<link=""half-barrel"">小樽</link>を供給すると、<link=""grape-juice"">ブドウ濃縮物</link>を生産し、<link=""brick-wine"">ブリックワイン</link>やその他の発酵や抽出に使用することができる。自分でブドウ濃縮物を作れば、市販のものを買うより確実で安価に入手できる。この作業を管理するのに適切な経験を積んだクルーは、これを改良ブドウ圧搾機にアップグレードすることができる。\n\n<i><indent=30>ブドウの紫は他のブドウの色を映しているのだ</i>\n</indent><indent=40>—ユウェナリス</indent>"
+info.conversion-apple-juice.name	りんごジュース圧搾
 info.conversion-apple-juice.desc	<indent=10>Creates apple juice from apples and small barrels.\n<b><sprite name="res apples"> + <sprite name="res half-barrel"> <sprite name="ui arr sm right"> <sprite name="res apple-juice"></b>\n\n<b>Requires:</b>\n<sprite name="skill apple-press"> <link="apple-press">Apple Presses</link>，  <sprite name="res cash">750，  <sprite name="res pipes"> 5，  <sprite name="res half-barrel"> 25，  <sprite name="res bricks"> 6</indent>\n\nWhen installed and supplied with <link="apples">apples</link> and <link="half-barrel">small barrels</link>， this juice press produces <link="apple-juice">apple juice</link> that can be used to make <link="cider">hard cider</link>. Making your own apple juice can be more reliable and less expensive than purchasing it on the open market. A crew member that has gained the appropriate experience managing this operation will allow you to upgrade it to an Improved Apple Juice Press.\n\n<i><indent=30>A wrinkled apple still smells good.</i>\n</indent><indent=40>—Breton proverb</indent>
 info.conversion-neutral-alcohol.name	Backroom Basic Distillery
 info.conversion-neutral-alcohol.desc	<indent=10>Creates neutral alcohol from corn syrup and bottles.\n<b><sprite name="res corn-syrup"> + <sprite name="res bottles"> <sprite name="ui arr sm right"> <sprite name="res alcohol-btl"></b>\n\n<b>Requires:</b>\n<sprite name="skill backroom-distillation"> <link="backroom-distillation">Makeshift Stills</link>，  <sprite name="res cash">1500，  <sprite name="res steel-barrels"> 25，  <sprite name="res sheet metal"> 25</indent>\n\nWhen installed and supplied with <link="corn-syrup">corn syrup</link> and <link="bottles">bottles</link>， this still produces <link="neutral-alcohol">neutral alcohol</link> that can be used to make <link="moonshine">moonshine</link> and as an ingredient in other potent beverages. Making your own neutral alcohol can be more reliable and less expensive than purchasing it on the open market. A crew member that has gained the appropriate experience managing this operation will allow you to upgrade it to an Improved Backroom Distillery.\n\n<i><indent=30>I drink when I have occasion， and sometimes when I have no occasion.</i>\n</indent><indent=40>—Miguel de Cervantes</indent>
@@ -267,21 +268,21 @@ info.conversion-ice-house.desc	<indent=10>Uses gasoline to power freezers that t
 info.conversion-labels.name	Counterfeit Label Printer
 info.conversion-labels.desc	<indent=10>Turns paper into counterfeit labels.\n<b><sprite name="res paper"> <sprite name="ui arr sm right"> <sprite name="res labels></b>\n\n<b>Requires:</b>\n<sprite name="skill labels"> <link="label-counterfeiting">Label Counterfeiting</link>， <sprite name="res sheet metal"> 5， <sprite name="res lumber"> 10， <sprite name="res bricks"> 10</indent>\n\nWhen installed and supplied with <link="paper">paper</link>， this operation produces <link="labels>labels</link> that are necessary to make various different types of bottled alcohols. Making your own labels can be more reliable and less expensive than purchasing it on the open market.\n\n<i><indent=30><i>When the wine goes in， strange things come out.</i></indent>\n<indent=40>—Johann Schiller</indent>
 info.production-fake-wine.name	Backroom Wine Operation
-info.production-fake-wine.desc	<indent=10>Creates counterfeit wine from brick wine， labels and bottles.\n<b><sprite name="res brick-wine"> + <sprite name="res bottles"> + <sprite name="res labels"> <sprite name="ui arr sm right"> <sprite name="res fake-wine"></b>\n\n<b>Requires:</b>\n<sprite name="skill fake-wine"> <link="fake-wine-skill">Backroom Winemaking</link>，  <sprite name="res cash">2000，  <sprite name="res barrels"> 20，  <sprite name="res pipes"> 5，  <sprite name="res bricks"> 7</indent>\n\n<link="homemade-booze">Homemade booze</link> can be sold directly or it can be used as the basis for <link="refined-booze">refined booze</link> that is considerably more profitable. This operation makes <link="fake-wine">counterfeit wine</link> by taking crocks of <link="brick-wine">brick wine</link>， putting it into <link="bottles">bottles</link> and then putting a <link="labels">label</link> on each one. The resulting product can be sold to numerous businesses around the city or you can move it yourself at one of your own <link="corner-speakeasy">corner speakeasies</link> or supper clubs. Can be upgraded to a <link="production-fake-wine-upgraded">Backroom Winery</link> to make counterfeit wine directly from <link="grapes">grapes</link>.\n\n<i><indent=30>Le vin n'est pas une fabrication régie par des règles scientifiques， mais un art dépendant uniquement du goût.</i>\n</indent><indent=40>—Raymond Dumay</indent>
+info.production-fake-wine.desc	"<indent=10>ブリックワインとラベルとボトルから偽造ワインを製造する。\n<b><sprite name="res brick-wine"> + <sprite name="res bottles"> + <sprite name="res labels"> <sprite name="ui arr sm right"> <sprite name="res fake-wine"></b>\n\n<b>必要なもの:</b>\n<sprite name="skill fake-wine"> <link="fake-wine-skill">裏ワイン醸造所</link>，  <sprite name="res cash">2000，  <sprite name="res barrels"> 20，  <sprite name="res pipes"> 5，  <sprite name="res bricks"> 7</indent>\n\n<link=""homemade-booze"">自家製酒</link>は直接販売することもできるし、かなり収益性の高い<link=""refined-booze"">精製酒</link>の基礎として使用することもできる。この作業は、<link=""brick-wine"">ブリックワイン</link>を<link=""bottle"">ボトル</link>に入れ、それぞれに<link=""labels"">ラベル</link>を貼ることで <link=""fake-wine""> 偽造ワイン</link> を作るものだ。出来上がった製品は、街中の多くの業者に売ったり、自分の<link=""corner-speakeasy"">コーナースピークイージー</link>やサパークラブで自分で動かしたりすることが可能だ。<link=""production-fake-wine-upgraded"">裏ワイナリー</link> にアップグレードして、<link=""grape"">ブドウ</link>から直接偽造ワインを作ることもできる。\n\n<i><indent=30>ワインは科学的なルールに従った製造ではなく、味覚にのみ依存する芸術である。\n</indent><indent=40>-レイモンド・デュメイ</indent>"
 info.production-fake-wine-upgraded.name	Backroom Winery
-info.production-fake-wine-upgraded.desc	<indent=10>Creates counterfeit wine from grapes， labels and bottles.\n<b><sprite name="res grapes"> + <sprite name="res bottles"> + <sprite name="res labels"> <sprite name="ui arr sm right"> <sprite name="res fake-wine"></b>\n\n<b>Requires:</b>\n<sprite name="skill fake-wine"> <link="fake-wine-skill">Backroom Winemaking</link> and <sprite name="skill grape-press"> <link="grape-press">Grape Presses</link>， <sprite name="res cat materials"> building materials</indent>\n\nThis upgrade installs a wine press directly onto your <link="production-fake-wine">Backroom Wine Operation</link> that can produce <link="fake-wine">counterfeit wine</link> directly from <link="grapes">grapes</link> instead of <link="brick-wine">brick wine</link>.\n\n<i><indent=30>Le vin n'est pas une fabrication régie par des règles scientifiques， mais un art dépendant uniquement du goût.</i>\n</indent><indent=40>—Raymond Dumay</indent>
+info.production-fake-wine-upgraded.desc	"<indent=10>ブドウとラベルとボトルから偽造ワインを作る。\n<b><sprite name="res grapes"> + <sprite name="res bottles"> + <sprite name="res labels"> <sprite name="ui arr sm right"> <sprite name="res fake-wine"></b>\n\n<b>必要なもの:</b>\n<sprite name="skill fake-wine"> <link="fake-wine-skill">裏ワイン醸造所</link> と <sprite name="skill grape-press"> <link="grape-press">ぶどう圧搾機</link>， <sprite name="res cat materials"> 建材</indent>\n\nこのアップグレードは、<link=""production-fake-wine"">裏ワイン製造所</link> に直接ワイン圧搾機を設置し、<link=""brick-wine"">ブリックワイン</link>ではなく <link=""grapes"">ぶどう</link> から直接 <link=""fake-wine""> 偽造ワイン</link> を生産できるようにするためのものである。\n\n<i><indent=30>ワインは科学的なルールに従った製造ではなく、味覚にのみ依存する芸術である。\n</indent><indent=40>-レイモンド・デュメイ</indent>。"
 info.production-sparkling-cider.name	Sparkling Cider Operation
 info.production-sparkling-cider.desc	<indent=10>Creates sparkling cider from hard cider， sugar and small bottles.\n<b><sprite name="res cider"> + <sprite name="res small-bottles"> + <sprite name="res sugar"> <sprite name="ui arr sm right"> <sprite name="res sparkling-cider"></b>\n\n<b>Requires:</b>\n<sprite name="skill sparkling-cider"> <link="sparkling-cider-skill">Sparkling Cider</link>，  <sprite name="res cash">2000，  <sprite name="res steel-barrels"> 25，  <sprite name="res pipes"> 4，  <sprite name="res bricks"> 8</indent>\n\n<link="homemade-booze">Homemade booze</link> can be sold directly or it can be used as the basis for <link="refined-booze">refined booze</link> that is considerably more profitable. This operation makes <link="sparkling-cider">sparkling cider</link> by taking crocks of <link="cider">cider</link>， putting it into <link="small-bottles">small bottles</link> and mixing some <link="sugar">sugar</link> into each one - enough sugar to cause some fizz， but not so much to cause some explosions. The resulting product can be sold to numerous businesses around the city or you can move it yourself at one of your own <link="corner-speakeasy">corner speakeasies</link> or supper clubs. Can be upgraded to a <link="production-sparkling-cider-upgraded">Sparkling Cider Fermenter</link> to make sparkling cider directly from <link="apples">apples</link>.\n\n<i><indent=30>What energy， what a fury of industry! All Pittsburgh at work before the dawn of day! This surpasses Chicago. What would luxurious St. Louis say of such reckless devotion to business as this?</i>\n</indent><indent=40>—James Parton</indent>
 info.production-sparkling-cider-upgraded.name	Sparkling Cider Fermenter
 info.production-sparkling-cider-upgraded.desc	<indent=10>Creates sparkling cider from apples， sugar and small bottles.\n<b><sprite name="res apples"> + <sprite name="res small-bottles"> + <sprite name="res sugar"> <sprite name="ui arr sm right"> <sprite name="res sparkling-cider"></b>\n\n<b>Requires:</b>\n<sprite name="skill sparkling-cider"> <link="sparkling-cider-skill">Sparkling Cider</link> and <sprite name="skill apple-press"> <link="apple-press">Apple Presses</link>， <sprite name="res cat materials"> building materials</indent>\n\nThis upgrade installs a cider press directly onto your <link="production-sparkling-cider">Sparkling Cider Operation</link> that can produce <link="sparkling-cider">sparkling cider</link> directly from <link="apples">apples</link> instead of <link="cider">cider</link>.\n\n<i><indent=30>What energy， what a fury of industry! All Pittsburgh at work before the dawn of day! This surpasses Chicago. What would luxurious St. Louis say of such reckless devotion to business as this?</i>\n</indent><indent=40>—James Parton</indent>
 info.homebooze-moonshine-still.name	Backroom Moonshine Still
 info.homebooze-moonshine-still.desc	<b>Regional operation only available in some cities.</b>\n\n<indent=10>Creates moonshine from corn， steel barrels and stoneware crocks.\n<b><sprite name="res corn"> + <sprite name="res steel-barrels"> + <sprite name="res jugs"> <sprite name="ui arr sm right"> <sprite name="res moonshine"></b>\n\n<b>Requires:</b>\n<sprite name="skill moonshine"> <link="moonshine-distillation">Moonshine Stills</link>  <sprite name="res cash">1000，  <sprite name="res steel-barrels"> 10，  <sprite name="res lumber"> 4</indent></indent>\n\nWhen installed and supplied with <link="corn">corn</link>， <link="steel-barrels">steel barrels</link> and <link="crocks">stoneware crocks</link>， this backroom operation produces <link="moonshine">moonshine</link> that can be sold to businesses across the city or in your own <link="backroom-bootlegger">Backroom Bootleggers</link> or Corner Speakeasies. Moonshine can also be used to make <link="bathtub-gin">bathtub gin</link> once you learn how to construct a <link="production-bathtub-gin">Bathtub Gin Operation</link> or <link="production-bathtub-gin-upgraded">Bathtub Gin Still</link>.\n\n<i><indent=30>Well， between Scotch and nothin'， I suppose I’d take Scotch. It’s the nearest thing to good moonshine I can find.</i>\n</indent><indent=40>—William Faulkner</indent>
-info.homebooze-fruit-wine.name	Backroom Fruit Wine Operation
+info.homebooze-fruit-wine.name	密造フルーツワイン事業
 info.homebooze-fruit-wine.desc	<b>Regional operation only available in some cities.</b>\n\n<indent=10>Creates fruit wine from fruit， sugar and small bottles.\n<b><sprite name="res fruit"> + <sprite name="res sugar"> + <sprite name="res small-bottles"> <sprite name="ui arr sm right"> <sprite name="res fruit-wine"></b>\n\n<b>Requires:</b>\n<sprite name="skill fruit-wine"> <link="fruitful-operations">Fruitful Operations</link>，  <sprite name="res cash">950，  <sprite name="res half-barrel"> 8</indent>\n\nWhen supplied with <link="fruit-other">fruit</link>， <link="sugar">sugar</link> and <link="small-bottles">small bottles</link>， this backroom operation produces <link="fruit-wine">fruit wine</link> that can be sold to businesses across the city or in you own <link="backroom-bootlegger">Backroom Bootleggers</link> or <link="corner-speakeasy">Corner Speakeasies</link>.\n\n<indent=30><i>I cook with wine， sometimes I even add it to the food.</i></indent>\n<indent=40>—W.C. Fields</indent>
 info.makeshift-whiskey.name	Makeshift Whiskey Still
 info.makeshift-whiskey.desc	<indent=10>Creates bottled whiskey from moonshine， spices， food dyes and bottles.\n<b><sprite name="res moonshine"> + <sprite name="res spices"> + <sprite name="res food-dye"> + <sprite name="res bottles"> <sprite name="ui arr sm right"> <sprite name="res whisky"></b>\n\n<b>Requires:</b>\n<sprite name="skill whiskey-bottled"> <link="bootleg-whiskey">Bootleg Whiskey</link>，  <sprite name="res cash">5000，  <sprite name="res steel-barrels"> 10，  <sprite name="res pipes"> 15，  <sprite name="res bricks"> 15，  <sprite name="res lumber"> 15</indent>\n\nWhen installed， this operation allows you to turn your excess <link="moonshine">moonshine</link> into <link="whiskey-bottled">bottled whiskey</link> by mixing in some <link="spices">spices</link> and <link="food-dyes"> food dyes</link> and then putting the resulting concoction into <link="bottles">bottles</link>. You can then pass those off to customers around the city or sell them yourself at one of your supper clubs or event venues.\n\n<indent=30><i>Love makes the world go round? Not at all. Whiskey makes it go round twice as fast.</i></indent>\n<indent=40>—Compton MacKenzie</indent>
 info.makeshift-brandy.name	Makeshift Brandy Still
-info.makeshift-brandy.desc	<indent=10>Creates bottled brandy from brick wine or fruit wine， fruit and bottles.\n<b><sprite name="res brick-wine">/<sprite name="res fruit-wine"> + <sprite name="res fruit"> + <sprite name="res bottles"> <sprite name="ui arr sm right"> <sprite name="res brandy"></b>\n\n<b>Requires:</b>\n<sprite name="skill brandy-bottled"> <link="bootleg-brandy">Bootleg brandy</link>，  <sprite name="res cash">4500，  <sprite name="res barrels"> 20，  <sprite name="res pipes"> 15，  <sprite name="res bricks"> 15，  <sprite name="res lumber"> 15</indent>\n\nWhen installed， this operation allows you to turn your excess <link="brick-wine">brick wine</link> or <link="fruit-wine">fruit wine</link> into <link="brandy-bottled">bottled brandy</link> by mixing in some <link="fruit-other">fruit</link>， leaving it for a bit and then putting the resulting concoction into <link="bottles">bottles</link>. You can then pass those off to customers around the city or sell them yourself at one of your supper clubs or event venues.\n\n<indent=30><i>A man may acquire a taste for wine or brandy， and so lose his love for water， but we should not pity him.</i></indent>\n<indent=40>—Henry David Thoreau</indent>
+info.makeshift-brandy.desc	"<indent=10>ブリックワインまたは果実酒、それに果実と瓶から瓶詰めのブランデーを作ることができる。\n<b><sprite name="res brick-wine">/<sprite name="res fruit-wine"> + <sprite name="res fruit"> + <sprite name="res bottles"> <sprite name="ui arr sm right"> <sprite name="res brandy"></b>\n\n<b>必要なもの:</b>\n<sprite name="skill brandy-bottled"> <link="bootleg-brandy">密造ブランデー</link>，  <sprite name="res cash">4500，  <sprite name="res barrels"> 20，  <sprite name="res pipes"> 15，  <sprite name="res bricks"> 15，  <sprite name="res lumber"> 15</indent>\n\nこの製造所を設置すると、余った<link=""brick-wine"">ブリックワイン</link>や<link=""fruit-wine"">フルーツワイン</link>に<link=""fruit-other"">果物を混ぜ、少し置いてから<link=""bottle"">ボトルに詰めて</link>ブランデーにすることが可能になる。顧客に渡したりサパークラブやイベント会場で自分で売ったりすることができる。\n\n<indent=30><i>人はワインやブランデーの味を覚え、水への愛情を失うかもしれない、しかし我々は彼を哀れむべきでない。\n<indent=40>-ヘンリー・デイヴィッド・ソロー</indent>。\n"
 info.makeshift-vodka.name	Makeshift Vodka Still
 info.makeshift-vodka.desc	<indent=10>Creates bottled vodka from homemade beer， corn syrup and bottles.\n<b><sprite name="res home-brew"> + <sprite name="res corn-syrup"> + <sprite name="res bottles"> <sprite name="ui arr sm right"> <sprite name="res vodka"></b>\n\n<b>Requires:</b>\n<sprite name="skill vodka-bottled"> <link="bootleg-brandy">Bootleg vodka</link>，  <sprite name="res cash">3500，  <sprite name="res half-barrel"> 24，  <sprite name="res sheet metal"> 12，  <sprite name="res bricks"> 12，  <sprite name="res lumber"> 12</indent>\n\nWhen installed， this operation allows you to ferment and distilled your excess <link="home-brew">homemade beer</link> into <link="vodka-bottled">bottled vodka</link>. By boosting the yeast into overdrive with some <link="corn-syrup">corn syrup</link> before distillation， you'll be able to fill <link="bottles">bottles</link> with some powerful booze. You can then pass those off to customers around the city or sell them yourself at one of your supper clubs or event venues.\n\n<indent=30><i>Money， like vodka， turns a person into an eccentric.</i></indent>\n<indent=40>—Anton Chekhov</indent>
 info.makeshift-rum.name	Makeshift Rum Still
@@ -338,7 +339,7 @@ info.refined-booze.name	Refined Booze
 info.refined-booze.desc	<indent=10>Homemade booze that has been further processed to make it more profitable</indent>\n\nThese more complicated types of booze are made by combining <link="homemade-booze">homemade booze</link> with other ingredients and then putting them into <link="bottles">bottles</link> or <link="small-bottles">small bottles</link>. These concoctions can be sold to other businesses or at your outfit's own <link="corner-speakeasy">corner speakeasies</link> or supper clubs. With the proper skills， you can also upgrade your refined booze operations to produce directly from source components rather than homemade booze.\n\n<indent=10><b>Types of refined booze:</b>\n<sprite name="res fake-wine"><link="fake-wine">Counterfeit wine</link>\n<sprite name="res sparkling-cider"><link="sparkling-cider">Sparkling cider</link>\n<sprite name="res fake-beer"><link="fake-beer">Backroom beer</link>\n<sprite name="res bathtub-gin"><link="bathtub-gin">Bathtub gin</link>\n<sprite name="res rakija"><link="rakija">Rakija</link> <i>(regional)</i>\n<sprite name="res corn whiskey"><link="corn-whiskey">Corn Whiskey</link> <i>(regional)</i></indent>\n\n<indent=30><i>Temperance is moderation in the things that are good and total abstinence from the things that are foul.</i></indent>\n<indent=40>—Frances E. Willard</indent>
 info.brick-wine-making.icon	<sprite name="skill brick-wine">
 info.brick-wine-making.name	Brick Wine Production
-info.brick-wine-making.desc	Acquiring this skill allows you to <b>build</b> a <link="homebooze-brick-wine">backroom brick wine</link> operation in a building controlled by your outfit. Once you've learned about the basics of making <sprite name="res brick-wine"> <link="brick-wine">brick wine</link>， you will be able to use <sprite name="res jugs"> <link="crocks">stoneware crocks</link> and small barrels of <sprite name="res grape-juice"> <link="grape-juice">grape concentrate</link> to make brick wine.\n\n<indent=30><i>LABOR， n. One of the processes by which A acquires property for B.</i></indent>\n<indent=40>—Ambrose Bierce</indent>
+info.brick-wine-making.desc	"このスキルを習得すると、自分の組織が管理する建物の中に<link="homebooze-brick-wine">裏ブリックワイン</link>の製造所を<b>構築</b>することができるようになる。<sprite name=""res brick-wine""> <link=""brick-wine"">ブリックワイン</link>の作り方の基礎を学んだら、<sprite name=""res jugs""> <link=""crocks"">せっ器の壺</link>と<sprite name=""res grape-juice""> <link=""grape-jice"">ブドウ濃縮物</link>の小樽で、ブリックワインを作ってみるといいだろう。\n\n<indent=30><i>労働， n. AがBのために財産を取得する過程の一つ</i></indent>。\n<indent=40>アンブローズ・ビアス</indent>"
 info.cider-making.icon	<sprite name="skill cider">
 info.cider-making.name	Cider Making
 info.cider-making.desc	Acquiring this skill allows you to <b>build</b> a <link="homebooze-cider">backroom cider operation</link> in a building controlled by your outfit. Learning about cider making will allow you to use <sprite name="res jugs"> <link="crocks">stoneware crocks</link> to convert small barrels of <sprite name="res apple-juice"> <link="apple-juice">apple juice</link> into <sprite name="res cider"> <link="cider">hard cider</link>.\n\n<indent=30><i>Let the future tell the truth and evaluate each one according to his work and accomplishments. The present is theirs; the future， for which I really worked， is mine.</i>\n</indent><indent=40>—Nikola Tesla</indent>
@@ -350,7 +351,7 @@ info.moonshine-making.name	Moonshine Manufacture
 info.moonshine-making.desc	Acquiring this skill allows you to <b>build</b> a <link="homebooze-moonshine">backroom moonshine operation</link> in a building controlled by your outfit. After learning this skill， you will be able to use <sprite name="res jugs"> <link="crocks">stoneware crocks</link> to convert <sprite name="res alcohol-btl"> <link="neutral-alcohol">neutral alcohol</link> into <sprite name="res moonshine"> <link="moonshine">moonshine</link>.\n\n<indent=30><i>One never notices what has been done; one can only see what remains to be done.</i>\n</indent><indent=40>—Marie Skłodowska Curie</indent>
 info.brick-wine-making-upgrade.icon	<sprite name="skill brick-wine-upgrade">
 info.brick-wine-making-upgrade.name	Bonus Bricks
-info.brick-wine-making-upgrade.desc	Learning this skill allows you to <b>upgrade</b> your existing <link="homebooze-brick-wine">Backroom Wine Operations</link> into Expanded Brick Wine Operations. Once upgraded， <sprite name="res brick-wine"> <link="brick-wine">brick wine</link> production will increase by 50%.\n\n<indent=30><i>Do I do business with Canadian racketeers? I don't even know what street Canada is on.</i>\n</indent><indent=40>—Al Capone</indent>
+info.brick-wine-making-upgrade.desc	このスキルを習得すると、既存の<link="homebooze-brick-wine">ワイン密造所</link> を拡張ワイン密造所に<b>アップグレード</b>することができるようになる。アップグレードすると、<sprite name="res brick-wine"><link="brick-wine">ブリックワイン</link>の生産量が50%増加する。\n\n<indent=30><i>カナダのヤバい連中と取引するのか？カナダが何番街にあるかも知らないのに。</i>\n</indent><indent=40>—アル・カポネ</indent>
 info.cider-making-upgrade.icon	<sprite name="skill cider-upgrade">
 info.cider-making-upgrade.name	Pressing Matters
 info.cider-making-upgrade.desc	Learning this skill allows you to <b>upgrade</b> your existing <link="homebooze-cider">Backroom Cider Operations</link> into Expanded Cider Operations. Once upgraded， <sprite name="res cider"> <link="cider">hard cider</link> production will increase by 50%.\n\n<indent=30><i>The unpunished crime is never regretted. We weep over the consequence， not over the fault.</i>\n</indent><indent=40>—Letitia Elizabeth Landon</indent>
@@ -361,23 +362,23 @@ info.moonshine-making-upgrade.icon	<sprite name="skill moonshine-upgrade">
 info.moonshine-making-upgrade.name	Extra Extraction
 info.moonshine-making-upgrade.desc	Learning this skill allows you to <b>upgrade</b> your existing <link="homebooze-moonshine">Backroom Moonshine Operations</link> into Expanded Moonshine Operations. Once upgraded， <sprite name="res moonshine"> <link="moonshine">moonshine production</link> will increase by 50%.\n\n<indent=30><i>When I sell liquor， they call it bootlegging. When my patrons serve it on silver trays on Lake Shore Drive， they call it hospitality.</i>\n</indent><indent=40>—Al Capone</indent>
 info.fake-wine-skill.icon	<sprite name="skill fake-wine">
-info.fake-wine-skill.name	Backroom Winemaking
+info.fake-wine-skill.name	密造ワイン製造
 info.fake-wine-skill.desc	This skill allows you to create more profitable bottles of <sprite name="res fake-wine"> <link="fake-wine">counterfeit wine</link> and expand your distribution. Acquiring this skill allows you to <b>build</b> a <link="production-fake-wine">backroom wine operation</link> in a building controlled by your outfit.\n\n<indent=30><i>LABOR， n. One of the processes by which A acquires property for B.</i></indent>\n<indent=40>—Ambrose Bierce</indent>
 info.sparkling-cider-skill.icon	<sprite name="skill sparkling-cider">
-info.sparkling-cider-skill.name	Sparkling Cider (Skill)
+info.sparkling-cider-skill.name	スパークリングシードル (スキル)
 info.sparkling-cider-skill.desc	This skill lets you put some fizz into your <sprite name="res cider"> <link="cider">cider</link>. People will pay more for fizz.Acquiring this skill allows you to <b>build</b> a <link="production-sparkling-cider">sparkling cider operation</link> in a building controlled by your outfit.\n\n<indent=30><i>Let the future tell the truth and evaluate each one according to his work and accomplishments. The present is theirs; the future， for which I really worked， is mine.</i>\n</indent><indent=40>—Nikola Tesla</indent>
 info.fake-beer-skill.icon	<sprite name="skill fake-beer">
-info.fake-beer-skill.name	バックルーム醸造
+info.fake-beer-skill.name	密造醸造
 info.fake-beer-skill.desc	This skill lets you elevate your <sprite name="res home-brew"> <link="home-brew">homemade beer</link> into something that's closer to the real thing. Acquiring this skill allows you to <b>build</b> a <link="production-fake-beer">backroom beer operation</link> in a building controlled by your outfit.\n\n<indent=30><i>Les villes sont le gouffre de l'espèce humaine.</i>\n</indent><indent=40>—Jean-Jacques Rousseau</indent>
 info.bathtub-gin-skill.icon	<sprite name="skill bathtub-gin">
-info.bathtub-gin-skill.name	Bathtub Ginworks
+info.bathtub-gin-skill.name	バスタブ・ジン製造
 info.bathtub-gin-skill.desc	Learn how to dilute and alter <sprite name="res moonshine"> <link="moonshine">moonshine</link> and convert it into something worthy of a cocktail shaker. Acquiring this skill allows you to <b>build</b> a <link="production-bathtub-gin">bathtub ginworks</link> in a building controlled by your outfit.\n\n<indent=30><i>When I sell liquor， they call it bootlegging. When my patrons serve it on silver trays on Lake Shore Drive， they call it hospitality.</i>\n</indent><indent=40>—Al Capone</indent>
 info.apple-press.icon	<sprite name="skill apple-press">
 info.apple-press.name	Apple Presses
 info.apple-press.desc	Learn how to convert <sprite name="res apples"> <link="apples">apples</link> to juice so you can make <sprite name="res apple-juice"> <link="apple-juice">apple juice</link> more cheaply and at larger， more industrial scale. Acquiring this skill allows you to <b>build</b> an <link="conversion-apple-juice">apple juice press</link> in a building controlled by your outfit.\n\n<i><indent=30><i>Surely the apple is the noblest of fruits.</i></indent>\n<indent=40>—Henry David Thoreau</indent>
 info.grape-press.icon	<sprite name="skill grape-press">
 info.grape-press.name	Grape Presses
-info.grape-press.desc	Learn how to convert <sprite name="res grapes"> <link="grapes">grapes</link> to <sprite name="res grape-juice"> <link="grape-juice">concentrate</link> so you can make <link="brick-wine">brick wine</link> more cheaply and at larger， more industrial scale.\nAcquiring this skill allows you to <b>build</b> a <link="conversion-grape-juice">grape press</link> in a building controlled by your outfit.\n\n<i><indent=30><i>Don't long for the unripe grape.</i></indent>\n<indent=40>—Horace</indent>
+info.grape-press.desc	<sprite name="res grapes"> <link="grapes">ブドウ</link>を <sprite name="res grape-juice"> <link="grape-juice">ブドウ濃縮物</link>に変える方法を学ぶことで<link="brick-wine">ブリックワイン</link>をより安く大量生産できるようになる。\nこのスキルを取得すると、自分の組織が管理する建物に<link="conversion-grape-juice">ブドウ圧搾機</link>を<b>設置</b>することができるようになる。\n\n<i><indent=30><i>青いブドウに焦がれるな</i></indent>\n<indent=40>—ホラティウス</indent>
 info.malt-making.icon	<sprite name="skill malt-making">
 info.malt-making.name	Malt Making
 info.malt-making.desc	Learn how to convert <sprite name="res barley"> <link="barley">barley</link> into <sprite name="res malt"> <link="malt">malt syrup</link> to supply your beer making operations. Acquiring this skill allows you to <b>build</b> a <link="conversion-malt">malt processor</link> in a building controlled by your outfit.\n\n<i><indent=30><i>Deep-seated preferences cannot be argued about — you cannot argue a man into liking a glass of beer.</i></indent>\n<indent=40>—Oliver Wendell Holmes</indent>
@@ -391,10 +392,10 @@ info.moonshine-distillation.icon	<sprite name="skill moonshine">
 info.moonshine-distillation.name	Moonshine Distillation
 info.moonshine-distillation.desc	<b>Regional skill only available in some cities.</b>\n\nLearn how to distill <sprite name="res moonshine"> <link="moonshine">moonshine</link> from <sprite name="res corn"> <link="corn">corn</link> using <sprite name="res steel-barrels"> <link="steel-barrels">steel barrels</link>. Once learned， you'll be able to <b>build</b> a Backroom Moonshine Still in any building controlled by your outfit.\n\n<i><indent=30><i>A good gulp of hot whiskey at bedtime — it’s not very scientific， but it helps.</i></indent>\n<indent=40>—Alexander Fleming</indent>
 info.fruit-brandy-skill.icon	<sprite name="skill fruit brandy">
-info.fruit-brandy-skill.name	Plum Brandy
+info.fruit-brandy-skill.name	プラムブランデー
 info.fruit-brandy-skill.desc	<b>Regional skill only available in some cities.</b>\n\nLearning this skill allows you to ferment and then distill <sprite name="res plums"> <link="plums">plums</link> into a seriously alcoholic concoction called <sprite name="res rakija"> <link="rakija">rakija</link>. Once acquired by your crew， you'll be able to <b>build</b> a Rakija Still in a building controlled by your outfit.\n\n<indent=30>Πολλὰ μεταξὺ πέλει κύλικος καὶ χείλεος ἄκρου.</indent>\n<indent=40>—Greek proverb</indent>
 info.corn-whiskey-skill.icon	<sprite name="skill whiskey-bottled">
-info.corn-whiskey-skill.name	Corn Whiskey Manufacture
+info.corn-whiskey-skill.name	コーンウイスキー製造
 info.corn-whiskey-skill.desc	<b>Regional skill only available in some cities.</b>\n\nThis skill lets you convert <sprite name="res corn"> <link="corn">corn</link> into <sprite name="res corn whiskey"> <link="corn-whiskey">corn whiskey</link> in cities where there's demand for it. Once your crew has learned this skill， you'll be able to <b>build</b> a Corn Whiskey Still.\n\n<indent=30><i>What whiskey will not cure， there is no cure for.</i></indent>\n<indent=40>—Irish Proverb</indent>
 info.bourbon-sources.icon	<sprite name="skill whiskey-bottled">
 info.bourbon-sources.name	Bourbon Demand
@@ -448,13 +449,13 @@ info.booze-bottling.icon	<sprite name="skill booze-bottling">
 info.booze-bottling.name	Booze Bottling
 info.booze-bottling.desc	Learn how put booze in <sprite name="res bottles"> <link="bottles">bottles</link>， with <sprite name="res labels"> <link="labels">labels</link> and everything.\n\nAcquiring this skill allows you to <b>build</b> a <i>small bottling operation</i> in a building controlled by your outfit.\n\n\n\n<indent=30><i>By night the skyscraper looms in the smoke and the stars and has a soul.</i></indent>\n<indent=40>—Carl Sandburg</indent>
 info.backroom-bootlegging.icon	<sprite name="skill backroom-bootlegging">
-info.backroom-bootlegging.name	Backroom Bootlegging
+info.backroom-bootlegging.name	密造密売店
 info.backroom-bootlegging.desc	This skill lets cut out the middleman and sell small amounts of homemade booze directly to thirsty customers.\n\nAcquiring this skill allows you to <b>build</b> a <i><link="backroom-bootlegger">backroom bootlegging operation</link></i> in a building controlled by your outfit.\n\n<indent=30><i>Sixty days ain't long if you can spend them as you choose. But this seems like jail than a cell where there ain't no booze. My life is all a misery when I cannot get my booze.</i></indent>\n<indent=40>—Ma Rainey</indent>
 info.local-speakeasies.icon	<sprite name="skill speakeasy">
 info.local-speakeasies.name	Corner Speakeasies
 info.local-speakeasies.desc	Upgrade your bootlegging operation to be a full speakeasy that can sell all types of homemade booze. And even a few other things.\n\nAcquiring this skill allows you to <b>build</b> a <i><link="corner-speakeasy">corner speakeasy</link></i> in a building controlled by your outfit or to <b>upgrade</b> one of your expanded back room bootlegging operations.\n\n<indent=30><i>The speakeasy has replaced the saloon; a vast army of lawbreakers has appeared; many of our best citizens have openly ignored Prohibition.</i></indent>\n<indent=40>—John D. Rockefeller</indent>
 info.small-speakeasy-skill.icon	<sprite name="skill speakeasy">
-info.small-speakeasy-skill.name	Speaking Easy
+info.small-speakeasy-skill.name	簡単な話
 info.small-speakeasy-skill.desc	Expand your speakeasies to sell a wide array of booze.\n\nAcquiring this skill and then building a small speakeasy or expanding your corner speakeasy allows you to sell things like whiskey， brandy， rum and vodka directly to a local clientele.\n\n<indent=30><i>The speakeasy has replaced the saloon; a vast army of lawbreakers has appeared; many of our best citizens have openly ignored Prohibition.</i></indent>\n<indent=40>—John D. Rockefeller</indent>
 info.supper-clubs.icon	<sprite name="skill supper-club">
 info.supper-clubs.name	Supper Clubs
@@ -463,13 +464,13 @@ info.large-clubs.icon	<sprite name="skill expanded-venues">
 info.large-clubs.name	Expansive Venues
 info.large-clubs.desc	Achieve the ultimate in prestige by opening your own top-flight entertainment venue. Dance hall? Jazz club? Fine dining restaurant? What ever you choose， it's sure to become the city's go-to destination.\n\n<indent=30><i>Blues musicians don't retire. They drop.</i></indent>\n<indent=40>—Buddy Guy</indent>
 info.upgraded-bootlegging.icon	<sprite name="skill upgraded-bootlegging">
-info.upgraded-bootlegging.name	Expanded Bootlegging
+info.upgraded-bootlegging.name	拡張した密売
 info.upgraded-bootlegging.desc	Acquiring this skill allows you to upgrade a <link="backroom-bootlegger">backroom bootlegging operation</link> to sell more than one type of <link="homemade-booze">homemade booze</link>. Once upgraded， it will also sell more of the type of homemade booze that it was initially built to sell.\n\n<indent=30><i>I saw you last evening standin' up against a tree; I heard you say you were sick but you looked sloppy drunk to me.</i></indent>\n<indent=40>—Lucille Bogan from "Sloppy Drunk Blues"</indent>
 info.superior-stills.icon	<sprite name="skill moonshine-upgrade">
 info.superior-stills.name	Superior Stills
 info.superior-stills.desc	<b>Regional skill only available in some cities.</b>\n\nLearning this skill allows you to <b>upgrade</b> your existing Backroom Moonshine Still into an Expanded Moonshine Still. Once upgraded， <sprite name="res moonshine"> <link="moonshine">moonshine production</link> will increase by 50%.\n\n<indent=30><i>When I sell liquor， they call it bootlegging. When my patrons serve it on silver trays on Lake Shore Drive， they call it hospitality.</i>\n</indent><indent=40>—Al Capone</indent>
 info.fruitful-operations.icon	<sprite name="skill fruit-wine">
-info.fruitful-operations.name	Fruitful Operations
+info.fruitful-operations.name	実りあるフルーツワイン事業
 info.fruitful-operations.desc	<b>Regional skill only available in some cities.</b>\n\nThis skill， once learned by your crew， will allow you to build a backroom fruit wine operation in a building controlled by your outfit. Once that's built， you'll be able to make <sprite name="res fruit-wine"> <link="fruit-wine">fruit wine</link> in <sprite name="res small-bottles"> <link="small-bottles">small bottles</link> by combining <sprite name="res fruit"> <link="fruit-other">fruit</link> and <sprite name="res sugar"> <link="sugar">sugar</link> and then leaving it to ferment.\n\n<indent=30><i>One must ask children and birds how cherries and strawberries taste.</i></indent>\n<indent=40>—Johann Wolfgang von Goethe</indent>
 info.champagne-making.icon	<sprite name="skill champagne">
 info.champagne-making.name	Champagne Methods
@@ -478,10 +479,10 @@ info.dark-rum-making.icon	<sprite name="skill dark-rum">
 info.dark-rum-making.name	Spiced Rum Manufacture
 info.dark-rum-making.desc	Learn this skill to unlock the ability to make spiced rum by building a Spiced Rum Manufacture in a building controlled by your outfit.\n\nRegular rum is fine. Spiced rum， however， that has panache and character. With an operation up and running， you can create <sprite name="res dark rum"> <link="dark-rum">spiced rum</link> from <sprite name="res barrel-rum"> <link="rum-barrel">barrels of rum</link>. You dump them into <sprite name="res oak-barrels"> <link="oak-barrels">oak barrels</link>， add some <sprite name="res spices"> <link="spices">spices</link> and then leave it for a while before putting in to <sprite name="res bottles"> <link="bottles">bottles</link> with a <sprite name="res labels"> <link="labels">label</link> for good measure.\n\n<indent=30><i>There’s naught， no doubt， so much the spirit calms as rum and true religion.</i></indent>\n<indent=40>—Lord Byron</indent>
 info.beer-kegs-skill.icon	<sprite name="skill beer-kegs">
-info.beer-kegs-skill.name	Beer by the Keg
+info.beer-kegs-skill.name	樽のビール
 info.beer-kegs-skill.desc	Gaining this skill allows your outfit to build a Large Brewery where you can ship out beer by the keg.\n\nBottled beer is cumbersome and doesn't scale well. But put it in steel barrels， now we're talking. And it's fairly straightforward. You'll need a supply of <sprite name="res fake-beer"> <link="fake-beer">backroom beer</link>， some <sprite name="res ice"> <link="ice">ice</link> and <sprite name="res steel-barrels"> <link="steel-barrels">steel barrels</link>. Just combine， chill and ship!\n\n<i><indent=30><i>Deep-seated preferences cannot be argued about — you cannot argue a man into liking a glass of beer.</i></indent>\n<indent=40>—Oliver Wendell Holmes</indent>
 info.aged-whiskey-skill.icon	<sprite name="skill aged-whiskey">
-info.aged-whiskey-skill.name	Years of Whiskey
+info.aged-whiskey-skill.name	ウイスキーの年代物
 info.aged-whiskey-skill.desc	This skill allows you to build an Aged Whiskey Manufacture in a building controlled by your outfit.\n\nFresh whiskey gets you drunk. But aged whiskey achieves that goal with a smooth， oak-laden finish. In your operation， this is fairly simple. Just take a few <sprite name="res whiskey-barrel"> <link="whiskey-barrel">whiskey barrels</link>， dump them into <sprite name="res oak-barrels"> <link="oak-barrels">oak barrels</link> and let time do its thing.\n\n<indent=30><i>Too much of anything is bad， but too much good whiskey is barely enough.</i></indent>\n<indent=40>—Mark Twain</indent>
 info.gin-making.icon	<sprite name="skill gin">
 info.gin-making.name	Proper Gin
@@ -541,13 +542,13 @@ info.ethnic-bump-liquor.icon	<sprite name="skill ethnic">
 info.ethnic-bump-liquor.name	Old World Knowledge: Spirits
 info.ethnic-bump-liquor.desc	Learning this skill allows you to build the Polish Spirit Stills expansion in your <link="moonshine">moonshine</link> operations， sharply increasing production.\n\n<i><indent=30>Well， between Scotch and nothin'， I suppose I’d take Scotch. It’s the nearest thing to good moonshine I can find.</i>\n</indent><indent=40>—William Faulkner</indent>
 info.ethnic-bump-fruit-brandy.icon	<sprite name="skill ethnic">
-info.ethnic-bump-fruit-brandy.name	Old World Knowledge: Fruit Distillation
+info.ethnic-bump-fruit-brandy.name	旧世界の知識：フルーツ蒸留
 info.ethnic-bump-fruit-brandy.desc	Learning this skill allows you to build the South Slavic Stills expansion in your <link="fruit-wine">fruit wine</link> operations， sharply increasing production.\n\n<indent=30><i>I cook with wine， sometimes I even add it to the food.</i></indent>\n<indent=40>—W.C. Fields</indent>
 info.better-bartending.icon	<sprite name="skill expansions">
 info.better-bartending.name	より良いバーテンディング
 info.better-bartending.desc	"このスキルを習得すると、<link=""corner-speakeasy"">コーナースピークイージー</link>を<link=""small-speakeasy"">小酒場</link>にアップグレードすることができるようになる。\n\n<indent=30><i>スピークイージーがサルーンに取って代わり、法を犯す膨大な軍隊が出現し、優秀な市民の多くが公然と禁酒法を無視するようになった</i></indent>。\n<indent=40>-ジョン・D・ロックフェラー</indent>。"
 info.label-counterfeiting.icon	<sprite name="skill labels">
-info.label-counterfeiting.name	Label Counterfeiting
+info.label-counterfeiting.name	ラベルの偽造
 info.label-counterfeiting.desc	Learning this skill allows you to build a <link="conversion-labels">Counterfeit Label Printer</link> in one of your controlled businesses. This operation allows you to convert paper into labels used in the production of various alcohols.\n\n<i><indent=30><i>When the wine goes in， strange things come out.</i></indent>\n<indent=40>—Johann Schiller</indent>
 info.ice-making.icon	<sprite name="skill ice making">
 info.ice-making.name	Ice Making
@@ -580,7 +581,7 @@ info.gambling-staff.icon	<sprite name="skill gambling">
 info.gambling-staff.name	Attentive Staff
 info.gambling-staff.desc	Learning this skill allows you to hire and train highly qualified， friendly staff at your gambling operations， unlocking several improvement features for you gambling houses.\n\n<i><indent=30><i>One should always play fairly when one has the winning cards.</i></indent>\n<indent=40>—Oscar Wilde</indent>
 info.starter-buildings.icon	<sprite name="skill ethnic">
-info.starter-buildings.name	Nice Building You've Got There.
+info.starter-buildings.name	素敵な建物ですね
 info.starter-buildings.desc	このスキルによって、あなたはビル管理のエキスパートとなり、新規ビルのコストを削減し、運用担当者の経験値を上げ、運用で発生する熱量を削減することができます。
 info.starter-crew.icon	<sprite name="skill ethnic">
 info.starter-crew.name	Organizing Crime
@@ -603,7 +604,7 @@ info.starter-territory.desc	このスキルにより、より効果的にテリ�
 info.businesses.name	Legitimate Businesses
 info.businesses.desc	Behind each storefront window， beyond each loading dock， amid shelves and storage， businesses are the economic heart of the city.\n\nSome of the enterprises are not what they immediately seem - their legal pursuits belie other， less legal activities taking place in back rooms and basements. Businesses are where you buy raw materials， sell the fruits of your own illicit endeavors， deal with <link="vehicles">vehicles</link> and basically everything else.\n\nOnce you <sprite name="ui pip social expansion"> <link="controlled-buildings">gain control of a building</link>， someone keeps up appearances by continuing business as usual and your outfit is then free to use the backrooms and basements to establish a new operation.
 info.controlled-buildings.icon	<sprite name="ui pip social expansion">
-info.controlled-buildings.name	Controlled Buildings
+info.controlled-buildings.name	支配されている建物
 info.controlled-buildings.desc	A business controlled by an outfit where operations can be established.\n\nAn outfit， either yours or a <link="rivals">rival outfit</link>， can redeem a <link="favors">favor</link> that was earned in doing business with them to expand into a nearby business. The business will only look for potential buildings to take over that are already within your outfit's <link="territory">territory</link>， so the more territory you control， the greater the number of potential buildings. The outfit provides the funding to get into the building and then your friendly business sends in a family member to run a a <link="businesses">legitimate business</link> while the outfit's operations hum along out of sight. Be on the lookout for owners that owe you a <sprite name="ui tickets"> favor and know about a potential <sprite name="ui pip social expansion"> take over opportunity.
 info.favors.icon	<sprite name="ui tickets">
 info.favors.name	Favors
@@ -729,245 +730,246 @@ tut.newgamepopup.text3.m	あなたはこの人種のるつぼに、わずかな�
 tut.newgamepopup.text3.f	あなたはこの人種のるつぼに、わずかなお金と家族のコネクションを持ってやってきたわけです。あなたは叔母<b>{name}</b>のところに滞在しています。彼はこの街で小さなビジネスをしていて、あなたに手ほどきをしてくれます。
 tut.newgamepopup.text4	しかし、あなたは家業の店を経営したいとは思っていません。この状況は、あなたのようなリスクを恐れない人にとって、チャンスに満ちているのです。
 tut.newgamepopup.text5	電車を降り、高層ビル群や果てしない人混みを目にしたとき、あなたはすでに「これは何か素晴らしいことの始まりだ」と感じていることでしょう。
-tut.fr.button-continue	Continue
-tut.fr.button-waiting	Waiting...
-tut.fr.button-understood	Understood
-tut.fr.button-agreed	Agreed
-tut.fr.button-skip	Skip this lesson
-tut.fr.button-hint-ok	Okay
-tut.fr.button-hint-skip	Don't show again
-tut.fr.header	Lesson {num}: {title}  <color=#aaaaaa>({i}/{n})</color>
-tut.fr.missiondone.m	One of your tutorial missions just finished!\n\nVisit your uncle {fr} for more details. See the missions list on the left for more details.
-tut.fr.missiondone.f	One of your tutorial missions just finished!\n\nVisit your aunt {fr} for more details. See the missions list on the left for more details.
-tut.lesson-1.title	Look Around
-tut.lesson-1.1.m	<i>{fr} approaches you as you get off the train.</i>\n{name}， my dear nephew! It's so good to see you. How do you like our neighborhood? Sure， it may not look like much， but it's ours.\nLet me show you around!
-tut.lesson-1.1.f	<i>{fr} approaches you as you get off the train.</i>\n{name}， my dear niece! It's so good to see you. How do you like our neighborhood? Sure， it may not look like much， but it's ours.\nLet me show you around!
-tut.lesson-1.2	The first thing to learn is looking around!\nPress <b>W， A， S， and D</b> keys to look around. You can also click and drag with the <sprite name="tut mouse left"> <b>left mouse button.</b>
-tut.lesson-1.3	Now to zoom in and out， use <b>F and R</b> keys， or use the <sprite name="tut mouse middle"> <b>mouse wheel</b>. Try it now.
-tut.lesson-1.4	Finally to rotate the map， use they keys <b>Q and E</b>， or click and drag with the <sprite name="tut mouse middle"> <b>middle mouse button</b>.
-tut.lesson-1.5	And by the way， the <sprite name="tut mouse right"> <b>right mouse button</b>， and the <b>ESC</b> key， can be used to close dialogs and popup windows (except for this dialog window).
-tut.lesson-2.title	Who Are You?
-tut.lesson-2.1	This blue marker represents <b>you</b> on the game map， and it will follow your car as you drive around.\nClick on it to select it.
-tut.lesson-2.2	Do you see the bright， orange column of light above your marker? That shows you that you're currently <b>selected</b> to perform various actions.
-tut.lesson-2.3	You can see all the information about the selected person on the right side of the UI.\nLet's examine it in order.
-tut.lesson-2.4	First is the person's mugshot， same as on the marker， so it's easy to identify who's who.
-tut.lesson-2.5	Second is the vehicle they're driving， assuming they're assigned to one.
-tut.lesson-2.6	Right next to that are your <sprite name="ui action pts"> action points， which determine how much you can do per turn， and...
-tut.lesson-2.7	... and <sprite name="ui movement pts"> movement points， which determine how far you can drive per turn.\nYou use those up， as you drive around and get things done.
-tut.lesson-2.8	If this person is assigned to a car， you will see its inventory right below.
-tut.lesson-2.9	Meanwhile， right below the person's portrait， you can see their traits and details of their past experience.\nMoving your mouse over any of these elements will reveal more details. Go ahead， try it!
-tut.lesson-2.10	Finally， to select somebody， you have three options: you can click on their marker (above the car)， or click on their crew card (in the upper right corner of your screen)， or press the number <b>1</b> key to select the first crew member.\nPressing a number key once will select the crew member， while a quick double-press will also pan the camera over.\nTry it out now! Press the number <b>1</b> key， or use either of the other methods.
-tut.lesson-3.title	Cars， Cash， and More
-tut.lesson-3.1	Now let's look at your cash and vehicles.
-tut.lesson-3.2	Up here you can see your <b>cash.</b> This is the total stored in all your buildings and vehicles.\nMove your mouse over it， to see how much you have in which location - and also， how much you've gained or lost last turn.
-tut.lesson-3.3	Next are your <b>vehicles</b>: <sprite name="ui car"> cars and <sprite name="ui truck"> trucks. Next to each you have the number owned， and the max number you can handle at the moment.\nYou will need parking spaces or repair shops to increase the max number.
-tut.lesson-3.4	And to the left of that are your <sprite name="ui corner"> <b>corners</b> and <sprite name="ui peep"> <b>crew size.</b> Right now your crew is just you， by yourself.\nYou will be able to hire more people once you expand your territory a bit.\nMouse over it to see more details.
-tut.lesson-3.5	These buttons on the far left show a variety of overlays and informational dialogs. We'll come back to them later.
-tut.lesson-3.6	Now if you look in the upper right， you will see the current date. Today is {date}.\nThis is a turn-based game， and each turn lasts {days} days.
-tut.lesson-3.7	If you ever run out of <sprite name="ui action pts"> action points or <sprite name="ui movement pts"> movement points， press the <b>'Next Turn'</b> button to advance to the next turn.\nGo ahead， press it now， and we'll continue once you've done that.
-tut.lesson-3.8	As you can see， the date advanced to {date}.\nOn each turn， all of your <sprite name="ui action pts"> action points and <sprite name="ui movement pts"> movement points get refilled as well.
-tut.lesson-4.title	The Safehouse
-tut.lesson-4.1	Now this building here is going to be your <b>safehouse.</b> Let's take a look inside.\nClick on the marker to open the building info dialog.
-tut.lesson-4.2.m	From the outside this looks like a regular business， operated by myself， your uncle {fr}.\nBut inside there's plenty of storage， and room to <b>start a new operation</b>.
-tut.lesson-4.2.f	From the outside this looks like a regular business， operated by myself， your aunt {fr}.\nBut inside there's plenty of storage， and room to <b>start a new operation</b>.
-tut.lesson-4.3	Let's look at this in order. First， click on this <b>business tab.</b>\nIt's a blue tab on the side of the dialog window.
-tut.lesson-4.4	This is the legitimate business that I've been running. It will provide good cover for whatever operation you'll want to set up.
-tut.lesson-4.5	Now click on the <b>storage tab.</b>
-tut.lesson-4.6	This panel shows what's stored in the basement. There's a lot of booze here， dating from before Prohibition!\nWe'll make good use of it in a bit.
-tut.lesson-4.7	Now click on the <b>back room tab.</b>
-tut.lesson-4.8	This panel shows what's set up in the back of the building.\nRight now it's empty， but you could start a new operation.
-tut.lesson-4.9	Now click on the <b>corner tab.</b>
-tut.lesson-4.10	This dialog shows information about the <b>corner</b> we're on.\nA corner is the basic unit of territory - every building belongs to some corner or another， and corners may belong to someone's territory.
-tut.lesson-4.11	These are the businesses at this corner.\nWhenever you're at some corner， you can visit all the businesses there.
-tut.lesson-4.12	This shows your <b>respect level</b> at this corner， and the respect of other people who are known around here.\nBecause you have very high respect level (thanks to me telling people about you)， this corner became part of your territory.
-tut.lesson-4.13	Conversely， this is the <b>heat level</b> at this corner. Mouse over it to get more details.\nIllegal activity generates heat， and heat attracts police attention.
-tut.lesson-4.14	Speaking of the devil， here is information about the <b>police precinct</b> we're in. Mouse over it to get more details.\nSo far， it's been quiet. And quiet is good for business.
-tut.lesson-4.15	Ok， let's close this now and get back to our safehouse.
-tut.lesson-4.16	Now click on the tab with my portrait.
-tut.lesson-4.17.m	This is me， your dear uncle {fr}. I told your parents I'll take you in and help you get started in the city.
-tut.lesson-4.17.f	This is me， your dear aunt {fr}. I told your parents I'll take you in and help you get started in the city.
-tut.lesson-4.18	Close this dialog for now.
-tut.lesson-4.19	I've been beating my gums for a while now. Let's go for a walk instead.
-tut.lesson-5.title	Paying a Visit
-tut.lesson-5.1	See this business here? It's on the same corner as we are. Let's pay them a visit.\nClick on the marker to visit the owner.
-tut.lesson-5.2	We are now visiting {name}， who runs {bizname}.\nWe'll go have a chat in one second， but first let's find out more about them.
-tut.lesson-5.3	Move your mouse over the portrait， and you will get a variety of useful details about them.\nTheir traits and temperament are useful to know， they will impact your dealings with them. Ethnicity is also important， as people of the same ethnicity as you will be more friendly towards you.
-tut.lesson-5.4	This meter shows how they feel about you. Mouse over it， to get more details.
-tut.lesson-5.5	This person also owes you a <b>favor</b> or two! You will be able to spend them later - but choose carefully， they don't come often.
-tut.lesson-5.6	Now let's look over here. This is how we can strike up a friendly conversation with this person.\nYou can see what they're saying on the left， and we can choose our response on the right.
-tut.lesson-5.7	Go ahead， select the first option to ask about buying and selling.
-tut.lesson-5.8	If you wanted to buy or sell something， this is how you'd go about it.\nBut there's another thing we should check out.
-tut.lesson-5.9	Let's see who they know. Click on that connections button， highlighted in the upper left part of your screen.
-tut.lesson-5.10	This dialog displays many more details about this person， including personal info and， most importantly， all the connections we know about - which are limited for the time being.
-tut.lesson-5.11	Connections are going to be crucial for you.\nIf you're trying to buy or sell any alcohol these days， you gotta know folks who like you， and who trust you.
-tut.lesson-5.12	You'll need to learn how to work those connections to get what you need. But， that's for later.\nFor now， close this dialog.
-tut.lesson-5.13	How about a change of scenery? Let's go for a ride. You drive.
-tut.lesson-6.title	Driving Around
-tut.lesson-6.1	Here's another nearby business. This one is one corner away.\nClick on its marker and let's see what happens.
-tut.lesson-6.2	As you can see， some information is displayed， but we're too far to visit.\nYou will need to drive over there to actually talk to the business owner.
-tut.lesson-6.3	This is something you will run into often: in order to get things done， you or one of your people need to actually physically go there and talk to somebody.
-tut.lesson-6.4	So let's drive there. Click on your marker to select yourself as the active crew member.
-tut.lesson-6.5	And now <b>right-click</b> on the location closest to that business.
-tut.lesson-6.6	If you didn't drive to the right place， that's okay. Just make sure you're selected， and then right-click on the location you want to drive to.
-tut.lesson-6.7	You can see that markers on businesses change color as you drive.\nThe businesses on the same corner as you turn green， to indicate that you can visit them.\nConversely， the businesses that are too far are dark gray.
-tut.lesson-6.8	Seeing as this is all copacetic， I have a task for you to try on your own!
-tut.lesson-6.9.m	Drive around until you find your cousin {name}. He runs {bizname} nearby. He'll be able to liquidate some of the illegal inventory we've got stashed in the basement.\nI won't tell you where {bizname} is located - that's your first task. But it's near here.
-tut.lesson-6.9.f	Drive around until you find your cousin {name}. She runs {bizname} nearby. She'll be able to liquidate some of the illegal inventory we've got stashed in the basement.\nI won't tell you where {bizname} is located - that's your first task. But it's near here.
-tut.lesson-6.10.m	Find him and pay him a visit. I'll leave you alone for now.\nAnd remember， if you ever run out of movement points， just hit the <b>'Next Turn'</b> button.
-tut.lesson-6.10.f	Find her and pay her a visit. I'll leave you alone for now.\nAnd remember， if you ever run out of movement points， just hit the <b>'Next Turn'</b> button.
-tut.lesson-6.11	<i>(Waiting for you to find {name} at {bizname}. Drive there， and start a conversation.)</i>
-tut.lesson-7.title	Buying and Selling
-tut.lesson-7.1.m	Great， you found your cousin {name}! Now ask him about buying and selling.
-tut.lesson-7.1.f	Great， you found your cousin {name}! Now ask her about buying and selling.
-tut.lesson-7.2.m	Looks like you can sell him some of the <sprite name="res home-brew" tint> homemade beer we've got stashed away.
-tut.lesson-7.2.f	Looks like you can sell her some of the <sprite name="res home-brew" tint> homemade beer we've got stashed away.
-tut.lesson-7.3	But you don't have any in your car. So we'll need to come back with the goods.\nClose this dialog for now.
-tut.lesson-7.4	Drive back to the safehouse， and let's pick up some homebrew.
-tut.lesson-7.5	<i>(Waiting for you to drive back to the safehouse.)</i>
-tut.lesson-7.6	Now open the safehouse dialog， and switch to the storage tab.
-tut.lesson-7.7	<i>(Waiting for you to view the storage panel.)</i>
-tut.lesson-7.8	The store room contents are on the left， and your car's trunk is on the right. Now click on <sprite name="res home-brew" tint> homemade beer in the store room， until you've loaded up 20 crocks into your car.
-tut.lesson-7.9	Good， we're done here. Close the dialog.
-tut.lesson-7.10.m	And now go back to {name}， and sell him as much <sprite name="res home-brew" tint> homemade beer as he's willing to take. I'll leave you alone until you're done.
-tut.lesson-7.10.f	And now go back to {name}， and sell her as much <sprite name="res home-brew" tint> homemade beer as she's willing to take. I'll leave you alone until you're done.
-tut.lesson-7.11	<i>(Waiting until you sold some <sprite name="res home-brew" tint> homemade beer to {name}.)</i>
-tut.lesson-8.title	Useful Friends
-tut.lesson-8.1.m	Now let's talk about relationships and introductions. In this town you really gotta know people in order to get things done!\nGo visit your cousin {name} and start a conversation with him.
-tut.lesson-8.1.f	Now let's talk about relationships and introductions. In this town you really gotta know people in order to get things done!\nGo visit your cousin {name} and start a conversation with her.
-tut.lesson-8.2	If you look in the upper left， you'll see that your relationship with {name} improved a lot.\nDoing business with people improves relationships， and especially if the business is of the illegal kind.
-tut.lesson-8.3	As your relationships improve， you start collecting <sprite name="ui tickets"> favors.\nBecause {name} has a high opinion of you， you now have a couple of <sprite name="ui tickets"> favors ready to use up.
-tut.lesson-8.4	Let's spend a favor. In the conversation with {name}， select the second option to talk about <sprite name="ui tickets"> favors and helping out.
-tut.lesson-8.5	Now select the first option - asking for <sprite name="ui social biz intro"> introduction to someone who's also buying these kinds of goods.
-tut.lesson-8.6	You're getting offered an introduction to {name}'s friend. Finish it and spend 1 <sprite name="ui tickets"> favor to get the introduction.
-tut.lesson-8.7.m	Great， you got introduced to {friendname}!\nThanks to a warm introduction from {name}， he already trusts you， and will be willing to talk about illegal goods with you. 
-tut.lesson-8.7.f	Great， you got introduced to {friendname}!\nThanks to a warm introduction from {name}， she already trusts you， and will be willing to talk about illegal goods with you. 
-tut.lesson-8.8	Introductions from trusted friends are going to be the foundation of your business.\nMake sure to keep an eye on your network， and take introductions when you can.
-tut.lesson-8.9.m	Now drive over to {friendname}， and sell him some <sprite name="res home-brew" tint> homemade beer as well. You know how to do this. I'll see you when you're done.
-tut.lesson-8.9.f	Now drive over to {friendname}， and sell her some <sprite name="res home-brew" tint> homemade beer as well. You know how to do this. I'll see you when you're done.
-tut.lesson-8.10	<i>(Waiting for you to finish selling more <sprite name="res home-brew" tint> homemade beer.)</i>
-tut.lesson-9.title	Exploration
-tut.lesson-9.1	Now let me direct your attention over here.\nSee this marker with the <sprite name="biz unscoped"> icon? That's a business that hasn't been scoped out yet.
-tut.lesson-9.2	We don't know what goes on in there， but we can find out.\nIf you're not there already， drive over to that corner so that the marker turns green.\nOnce you're there， click on the <sprite name="biz unscoped"> marker to scope it out. Go ahead， I'll wait.
-tut.lesson-9.3	You took the time to hang out on the corner and observe the comings and goings， so it took 1 <sprite name="ui action pts"> action point.\nBut now we learned that it's called <b>{bizname}，</b> and we got some idea about what it does: you can see all the details if you mouse over the notification at the top of the screen.
-tut.lesson-9.4	Once you start exploring the city， all businesses will start out unknown， and it's up to you to pick which ones to scope out.
-tut.lesson-9.5	Speaking of which - it's a big city， and it would be good for you to get out there and explore it a little bit!
-tut.lesson-9.6	Corners that you haven't explored yet show up as sepia colored， and you don't know what kinds of businesses are located there.\nIt's only after you explore a corner that you'll find out what's there.
+tut.fr.button-continue	続ける
+tut.fr.button-waiting	待機中…
+tut.fr.button-understood	了解
+tut.fr.button-agreed	同意
+tut.fr.button-skip	このレッスンをスキップ
+tut.fr.button-hint-ok	OK
+tut.fr.button-hint-skip	二度と表示しない
+tut.fr.header	レッスン {num}: {title}  <color=#aaaaaa>({i}/{n})</color>
+tut.fr.missiondone.m	チュートリアルミッションの1つが終了しました\n\n詳しくは叔父{fr}をご覧ください。詳しくは左のミッション一覧をご覧ください。
+tut.fr.missiondone.f	チュートリアルミッションの1つが終了しました\n\n詳しくは叔母{fr}を訪ねてください。詳しくは左のミッション一覧をご覧ください。
+tut.lesson-1.title	周りを見てみよう
+tut.lesson-1.1.m	<i>電車を降りると {fr} が近づいてくる。</i>\n{name}、私の愛する甥！ 会えて嬉しいよ。 私たちの近所はどうみえる？ それほど多くはないように見えるかもしれないが、間違いなくここは私たちのものだ。\n案内するよ！
+tut.lesson-1.1.f	<i>電車を降りると {fr} が近づいてくる。</i>\n{name}、私の愛する姪！ 会えて嬉しいよ。 私たちの近所はどうみえる？ それほど多くはないように見えるかもしれないが、間違いなくここは私たちのものだ。\n案内するよ！
+tut.lesson-1.2	"最初に学ぶことは周りを見回すことだ！\n<b>W， A， S， D</b> キーを押すと周りを見回すことができる。<sprite name=""tut mouse left""><b>左クリック</b>したままドラッグすることもできる。"
+tut.lesson-1.3	"次にズームインおよびズームアウトするには、<b>FまたはR</b>キーを使用するか、<sprite name=""tut mouse middle""><b>マウスホイール</b>を使用するんだ。試してみてくれ。"
+tut.lesson-1.4	"最後にマップを回転させるには、<b>Q または E</b>キーを使用するんだ。もしくは<sprite name=""tut mouse middle""><b>マウス真ん中ボタン</b>をクリックしてドラッグしてもいい。"
+tut.lesson-1.5	"他には <sprite name=""tut mouse right""> <b>右クリック</b>または <b>ESC</b> キーでダイアログとポップアップウィンドウ（このダイアログウィンドウを除く）を閉じるために使用できる。"
+tut.lesson-2.title	おまえは誰だ？
+tut.lesson-2.1	この青いマーカーはゲームマップ上で<b>あなた</b>を表します。あなたが運転するにつれてあなたの車に追尾します。\nクリックして選択してください。
+tut.lesson-2.2	明るいオレンジ色が見えますか？これはさまざまなアクションを実行するために<b>選択</b>していることを示しています。
+tut.lesson-2.3	選択した人に関するすべての情報がUIの右側に表示されます。\n順番に見ていきましょう。
+tut.lesson-2.4	最初にマーカーと同じ顔写真ですので、誰なのかを識別するのは簡単です。
+tut.lesson-2.5	2つ目は、運転する車です。
+tut.lesson-2.6	"その隣には、<sprite name=""ui action pts""> アクションポイントがあり、1ターンにどれだけのことができるかを決定します。それと…"
+tut.lesson-2.7	"<sprite name=""ui movement pts"">移動ポイント、これは1ターンに走れる距離を決めるものです。\n車で移動しながら色々なことをやっているうちに使い切ってしまうと思います。"
+tut.lesson-2.8	すぐ下には乗っている車に積んでいる物の内容が表示されます。
+tut.lesson-2.9	また、顔写真の下には、その人の特徴や過去の経験などが表示され、マウスを乗せると詳細が表示されます。\nさあ試してみて！
+tut.lesson-2.10	最後に、車の上にあるマーカーをクリックするか、画面右上にある構成員カードをクリックするか、<b>1</b>キーを押して構成員を選択することができます。\n1キーを1回押すとクルーが選択され、素早く2回押すとカメラも自動で移動します。試してみてください！\n<b>1</b>キーを押す、またはクリックで操作してください。
+tut.lesson-3.title	車、現金、その他
+tut.lesson-3.1	では、現金と車について見てみましょう。
+tut.lesson-3.2	ここでは建物や乗り物の中にある<b>現金</b>の残高を見ることができます。\nマウスを乗せると、どの場所にいくらあるのか、また前ターンにいくら得をしたのか、損をしたのかがわかります。
+tut.lesson-3.3	次はあなたの<b>車両</b>です : <sprite name="ui car"> 車と <sprite name="ui truck">トラック。\n最大数を増やすには、駐車場か整備工場が必要です。
+tut.lesson-3.4	そしてその左側には、あなたの<sprite name="ui corner"><b>コーナー</b>と<sprite name="ui peep"><b>構成員の人数</b>が表示されています。\n今あなたの構成員はあなた1人だけです。もう少しテリトリーを広げれば、もっと多くの人を雇うことができるようになります。\nマウスオーバーすると詳細が表示されます。
+tut.lesson-3.5	左端にあるこれらのボタンは、様々なオーバーレイや情報ダイアログを表示します。これらのボタンについては、後ほど紹介します。
+tut.lesson-3.6	右上を見ると現在の日付が表示されています。今日は{date}です。\nこれはターン制のゲームで、1ターンは{days}日続きます。
+tut.lesson-3.7	"<sprite name="ui action pts">アクションポイントや<sprite name=""ui movement pts"">移動ポイントが足りなくなったら、<b>次のターン</b>ボタンを押して次のターンに進みましょう。\n試しに今押してみてください。それが終わったら続きです。"
+tut.lesson-3.8	ご覧の通り、日付は{date}に進みました。\nターンのたびに<sprite name="ui action pts">アクションポイント、<sprite name="ui movement pts">移動ポイントが補充されます。
+tut.lesson-4.title	隠れ家
+tut.lesson-4.1	この建物はあなたの<b>隠れ家</b>になります。\nマーカーをクリックすると、建物情報ダイアログが表示されます。
+tut.lesson-4.2.m	外見上は普通の会社で、私やあなたの叔父{fr}が経営しています。\nしかし内部には十分な収納スペースがあり、<b>新しい事業</b>を始めるためのスペースもあります。
+tut.lesson-4.2.f	外見上は普通の会社で、私やあなたの叔母{fr}が経営しています。\nしかし内部には十分な収納スペースがあり、<b>新しい事業</b>を始めるためのスペースもあります。
+tut.lesson-4.3	順番に見ていきましょう。 まず、この<b>ビジネスタブ</b>をクリックします。\nダイアログウィンドウの横にある青いタブです。
+tut.lesson-4.4	これぞ正統派ビジネス。これはあなたがどんな事業を立ち上げようとも、良い隠れ蓑になるでしょう。
+tut.lesson-4.5	次に<b>ストレージ</b>タブをクリックします。
+tut.lesson-4.6	このパネルは地下に保管されているものです。禁酒法以前のお酒がたくさんあります！\nもう少しで有効活用できそうだ。
+tut.lesson-4.7	次に<b>バックルームタブ</b>をクリックします。
+tut.lesson-4.8	このパネルは、建物の奥に設置されているものが表示されます。\n今はまだ空っぽですが、新しい事業を始めることもできます。
+tut.lesson-4.9	次に<b>コーナータブ</b>をクリックします。
+tut.lesson-4.10	このダイアログは、現在いる<b>コーナー</b>に関する情報を表示します。\nコーナーはテリトリーの基本単位で、すべての建物はどこかのコーナーに属しており、コーナーは誰かのテリトリーに属している可能性があります。
+tut.lesson-4.11	このコーナーにあるビジネスです。\nこのコーナーに行くと、そこにあるすべてのビジネスを訪問することができます。
+tut.lesson-4.12	これは、このコーナーでのあなたの<b>リスペクトレベル</b>と、このコーナーで知られている他の人たちからのリスペクトを示しています。\n私があなたのことを人に話したおかげで、あなたはとてもリスペクトされています。結果としてこのコーナーはあなたのテリトリーの一部となりました。
+tut.lesson-4.13	逆に、このコーナーでの<b>ヒートレベル</b>です。マウスオーバーすると詳細が表示されます。\n違法行為はヒートが上昇し、警察の注意を引きます。
+tut.lesson-4.14	悪魔といえば、私たちがいる<b>警察管区</b>の情報です。マウスオーバーすると詳細が表示されます。\n今のところ静かなものです。そして静かであることは、ビジネスにとって良いことです。
+tut.lesson-4.15	よし、これで終わりにして、私の隠れ家に戻ろう。
+tut.lesson-4.16	次に、私の顔写真があるタブをクリックします。
+tut.lesson-4.17.m	これは私だ、あなたの叔父 {fr}。 両親には私があなたを引き取って、この街での生活をスタートさせる手助けをすると伝えてあるよ。
+tut.lesson-4.17.f	これは私だ、あなたの叔母 {fr}。 両親には私があなたを引き取って、この街での生活をスタートさせる手助けをすると伝えてあるよ。
+tut.lesson-4.18	このダイアログを一旦閉じましょう。
+tut.lesson-4.19	ダラダラ喋りすぎてしまったな。少し歩こうか。
+tut.lesson-5.title	訪問する
+tut.lesson-5.1	このビジネスを見てください。私たちと同じコーナーにあるんだ。ちょっと行ってみようか。\nマーカーをクリックすると、オーナーを訪問することができます。
+tut.lesson-5.2	マーカーをクリックすると、{bizname}を経営する{name}さんを訪問します。\nさっそく話を聞いてみようと思いますが、まずは彼らのことをもっと知りましょう。
+tut.lesson-5.3	ポートレートにマウスを乗せると、その人物に関するさまざまな情報を得ることができます。\nその人の特徴や気質を知っておくと、相手との付き合い方を工夫できるでしょう。民族性も重要で、同じ民族の人はより親しみやすいでしょう。
+tut.lesson-5.4	このメーターは、相手があなたに対してどのような感情を抱いているかを示しています。マウスオーバーすると詳細が表示されます。
+tut.lesson-5.5	この人はあなたにいくつも<b>恩義</b>があるようです。ただどう借りを返してもらうかは慎重に考えてください、簡単に得られるものではないでしょう。
+tut.lesson-5.6	次にこちらに注目してください。ここから時には親しげに会話をすることができます。\n左側に相手が話していることが表示され、右側でこちらの返答が選択できます。
+tut.lesson-5.7	試しに最初の選択肢を選んで、売買について質問してください。
+tut.lesson-5.8	何かを買いたい、売りたいと思ったとき、このような方法があります。\nしかし、もうひとつ確認すべきことがあります。
+tut.lesson-5.9	彼らの知り合いを見てみよう。画面左上の「コネクション」ボタンをクリックしてください。
+tut.lesson-5.10	このダイアログには、その人の個人情報や、最も重要である私たちが知っているすべてのコネクション（当面は制限付き）が表示されます。
+tut.lesson-5.11	コネクションはあなたにとって重要なものになります。\nお酒を買うにも、売るにも、あなたのことを好きでいてくれる人、信頼してくれる人を知っておかなくてはなりません。
+tut.lesson-5.12	必要なものを得るためには、そのコネクションを得る必要があるのです。でも、それは後回しにしましょう。\nとりあえずこのダイアログを閉じてください。
+tut.lesson-5.13	気分転換にドライブでもいこうか？お前が運転してくれ。
+tut.lesson-6.title	周辺をドライブする
+tut.lesson-6.1	これも近くのビジネスで、1つ先のコーナーにあります。\nそのマーカーをクリックして、何が起こるか見てみましょう。
+tut.lesson-6.2	ご覧のように、いくつかの情報は表示されますが、遠すぎて訪問することはできません。\n実際に車で行って、オーナーと話をする必要があります。
+tut.lesson-6.3	これはよくあることで、物事を成し遂げるためには、あなたやあなたの部下が実際にそこに行って、誰かと話をする必要があります。
+tut.lesson-6.4	では車で行ってみましょう。自分のマーカーをクリックして、アクティブな状態にします。
+tut.lesson-6.5	そして今度は、そのビジネスに最も近い場所を<b>右クリック</b>してください。
+tut.lesson-6.6	もし正しい場所にドライブできなかったとしても大丈夫です。自分が選択されていることを確認し、ドライブしたい場所を右クリックしてください。
+tut.lesson-6.7	走行中にビジネスのマーカー色が変わります。\n同じコーナーのお店が緑になったら、そのお店を訪問できることを示します。\n逆に、遠すぎる企業は濃いグレーになっています。
+tut.lesson-6.8	さて、そんなこんな所でいいか、課題を用意したよ。
+tut.lesson-6.9.m	いとこの{name}を見つけるまでドライブしてください。 彼は近くで{bizname}を経営しています。地下に隠した違法な在庫を整理してくれるだろう。\nただ{bizname}がどこにあるかは教えません、それが最初の仕事です。しかしこの近くにはあります。
+tut.lesson-6.9.f	いとこの{name}を見つけるまでドライブしてください。 彼女は近くで{bizname}を経営しています。地下に隠した違法な在庫を整理してくれるだろう。\nただ{bizname}がどこにあるかは教えません、それが最初の仕事です。しかしこの近くにはあります。
+tut.lesson-6.10.m	彼を見つけて訪問してください。今は一人にしておくよ。\nまた、移動ポイントが足りなくなったら、<b>「次のターン」</b>ボタンを押すだけです。
+tut.lesson-6.10.f	彼女を見つけて訪問してください。今は一人にしておくよ。\nまた、移動ポイントが足りなくなったら、<b>「次のターン」</b>ボタンを押すだけです。
+tut.lesson-6.11	<i>({name}を{bizname}で見つけるのを待っています。車で行って会話を始めてください。)</i>
+tut.lesson-7.title	購入と売却
+tut.lesson-7.1.m	よし、いとこの{name}を見つけたな。では、売買について聞いてみてくれ。
+tut.lesson-7.1.f	よし、いとこの{name}を見つけたな。では、売買について聞いてみてくれ。
+tut.lesson-7.2.m	私たちが隠し持っている <sprite name="res home-brew" tint> 自家製ビールを売ればいいようだな。
+tut.lesson-7.2.f	私たちが隠し持っている <sprite name="res home-brew" tint> 自家製ビールを売ればいいようだな。
+tut.lesson-7.3	ただあなたの車には何もないな。品物を持って戻ってくる必要があるんだ。\nこのダイアログを一旦閉じよう。
+tut.lesson-7.4	車で隠れ家に戻り、自家製ビールを持ってこよう。
+tut.lesson-7.5	<i>(隠れ家に戻るのを待っています)</i>
+tut.lesson-7.6	隠れ家のダイアログを開き、ストレージのタブを選択します。
+tut.lesson-7.7	<i>(ストレージパネルの表示を待っています。)</i>
+tut.lesson-7.8	左側が店の中身、右側が自分の車のトランクです。店内の <sprite name="res home-brew" tint> 自家製ビールをクリックし、20個の壺を車に積み込みます。
+tut.lesson-7.9	よし、これでいいです。タブを閉じてください。
+tut.lesson-7.10.m	{name} の所に戻って、 <sprite name="res home-brew" tint> 自家製ビールを彼が欲しがるだけ売ってきてくれ。それが終わるまで待っているよ。
+tut.lesson-7.10.f	{name} の所に戻って、 <sprite name="res home-brew" tint> 自家製ビールを彼女が欲しがるだけ売ってきてくれ。それが終わるまで待っているよ。
+tut.lesson-7.11	<i>({name} に <sprite name="res home-brew" tint> 自家製ビールを売却するまで待っています)</i>
+tut.lesson-8.title	役に立つ友人
+tut.lesson-8.1.m	では人間関係や紹介の話をしましょう。この街で物事を成し遂げるためには、住んでいる人々について知っておく必要があります。\nいとこの{name}を訪ねて、会話を始めてみてください。
+tut.lesson-8.1.f	では人間関係や紹介の話をしましょう。この街で物事を成し遂げるためには、住んでいる人々について知っておく必要があります。\nいとこの{name}を訪ねて、会話を始めてみてください。
+tut.lesson-8.2	左上を見ると、{name}との関係がずいぶん改善されたことがわかります。\n人と人との取引は人間関係を良くします、特にそれが違法な取引であればなおさらです。
+tut.lesson-8.3	人間関係が改善されると、<sprite name="ui tickets">恩義を集め始めます。\n{name}はあなたを高く評価しているため、<sprite name="ui tickets">を使うことができます。
+tut.lesson-8.4	恩義を使ってみよう。{name}との会話で、 <sprite name="ui tickets">恩義や助け合いについて話すには、2番目の選択肢を選んでください。
+tut.lesson-8.5	次に最初の選択肢を選んでみましょう。同じような商品も購入している人の <sprite name="ui social biz intro"> 紹介を求めます。
+tut.lesson-8.6	{name}の友達の紹介されます。 正式に紹介してもらうためには1つの<sprite name="ui tickets">恩義を使用してください。
+tut.lesson-8.7.m	いいね、{friendname}を紹介してもらえたんだな！\n友人である{name}の紹介であるため、彼はすでにあなたを信頼しており、違法な商品などについても喜んで話してくれることでしょう。
+tut.lesson-8.7.f	いいね、{friendname}を紹介してもらえたんだな！\n友人である{name}の紹介であるため、彼女はすでにあなたを信頼しており、違法な商品などについても喜んで話してくれることでしょう。
+tut.lesson-8.8	信頼できる友人からの紹介は、ビジネスの基礎になります。\n自分のネットワークに目を配り、できる限り紹介を受けるようにしましょう。
+tut.lesson-8.9.m	今度は{friendname}のところに車で行って、<sprite name="res home-brew" tint>自家製ビールも売ってきてくれ。やり方はわかっているはずだ。終わったらまた会おう。
+tut.lesson-8.9.f	今度は{friendname}のところに車で行って、<sprite name="res home-brew" tint>自家製ビールも売ってきてくれ。やり方はわかっているはずだ。終わったらまた会おう。
+tut.lesson-8.10	<i>(追加で<sprite name="res home-brew" tint>自家製ビールを売るのを待っています。)</i>
+tut.lesson-9.title	探検
+tut.lesson-9.1	今度はこっちを見てくれ。\nこのマーカーに<sprite name="biz unscoped">のアイコンが付いているのが見えるか？ それは、まだ内容が判明していないビジネスだ。
+tut.lesson-9.2	そこで何が行われているかはわからないが、調べることはできる。\nマーカーが青になったら、その角まで行ってみてくれ。\nそこで、<sprite name="biz unscoped">マーカーをクリックすれば調査できる。待っているよ。
+tut.lesson-9.3	あなたは時間をかけて街角を歩き、人の出入りを観察したことで、1<sprite name="ui action pts">アクションポイントを消費することになる。\nその結果それが<b>{bizname}</b>という名前であることがわかった。何をしているのか画面上部の通知にマウスオーバーすれば、すべての詳細を見ることができるようになったぞ。
+tut.lesson-9.4	街を探索し始めると、最初はすべての企業が未知数だ、どの企業を開拓するかはおまえ次第だ。
+tut.lesson-9.5	ここは大都会だ、ちょっと足を伸ばしてみるのもいいかもな。
+tut.lesson-9.6	未踏の地はセピア色で表示され、どのようなビジネスが行われているのか分からない。\nコーナーを探検して初めて、そこに何があるのかわかるぞ。
 tut.lesson-9.7	"さあ、この未知のコーナーに車を走らせるのだ。\nただし、注意点として、これは<sprite name=""ui movement pts"">移動ポイントを大量に消費します! もし足りなければ、次のターンに進むことを忘れないでください。\n新しいコーナーを探検してきてください、私は待っています。"
-tut.lesson-9.8	So this is how map exploration works - bit by bit， corner by corner， you can drive around， identify new businesses， scope them out， and then talk to the owners to find out what they're buying and selling.\nBut if you can get warm intros， that's much better， because they already start out trusting you. Earning the trust of someone completely unknown is much harder.
-tut.lesson-9.9	Great， you're picking things up quickly.\nSo now I have another task for you.\nRemember all the beer stashed in the safehouse? Go ahead and sell it off， all of it! Afterwards we'll invest that money into some kind of a new operation. Maybe a brewery? Or a speakeasy?\nSo go around， try to sell more to {name} or anyone else who's buying， and if they introduce you to more people take them up on it!\nI'll wait until you have <b>{amt}</b> in total， and then we'll continue.
-tut.lesson-9.10	Well aren't you just hitting on all six today.\nNow that you have a nice pile of dough， we can start building a new life for ourselves in this city.
-tut.lesson-10.title	Operations
-tut.lesson-10.1	Now let's talk about <b>operations.</b> The real money in this city comes from manufacturing and selling your own illegal alcohols.\nThe Prohibition Act made booze making and distribution illegal， and therefore incredibly profitable.\nAs long as you don't get pinched， that is.
-tut.lesson-10.2	To establish a new operation you need a building you control， with some empty space in the back.\nFortunately there's plenty of room in the back of the safehouse， so we can establish a new operation there.\nDrive back to the safehouse.
-tut.lesson-10.3	Good. First， let's unload some of this cash.\nOpen the safehouse dialog by clicking on its marker. Then switch to the storage tab.
-tut.lesson-10.4	Now move a bunch of cash from your vehicle and into the safehouse. Remember you can use <b>ctrl</b> and <b>shift</b> keys to move cash and resources faster.\nI'll wait here until you have <b>{amt}</b> stored in the safehouse.
-tut.lesson-10.5	Great. Now switch to the empty backroom tab.
-tut.lesson-10.6	As I mentioned， the backroom is available. Press the 'new operation' button.
-tut.lesson-10.7	These are the various operations you can set up.\nThese are just the ones you know how to run <i>right now</i>. In the future， you will learn about many more， but right now you only know how to make a few things.
-tut.lesson-10.8	Since you know several people who are interested in beer， let's build the <b>home brew</b> operation， and you'll be able to distribute it easily.\nMake sure that operation is selected， and then press 'Build'.
-tut.lesson-10.9	Great. It will take a few turns until it's operational. But in the meantime， here's an overview of how this will work.
-tut.lesson-10.10	Here you can see the brewery <b>consumes</b> malt syrup and empty stoneware crocks， in order to <b>produce</b> crocks full of homemade beer.\nMove your mouse over the different elements to see more details.
-tut.lesson-10.11	Also， you already have enough malt syrup in storage， but you're missing stoneware crocks! You'll have to go and buy more， because without supplies this operation won't amount to much.
-tut.lesson-10.12	And by the way， later on when you have more money and people， consider assigning a manager to this operation， or installing some upgrades and expansions. They can make a world of difference in improving your profit margins!
-tut.lesson-10.13.m	Well isn't this the bee's knees， you're already starting a new brewing operation， and with only a little bit of help from your uncle. Your parents would be so proud. Which reminds me， I should write them.
-tut.lesson-10.13.f	Well isn't this the bee's knees， you're already starting a new brewing operation， and with only a little bit of help from your aunt. Your parents would be so proud. Which reminds me， I should write them.
-tut.lesson-10.14	In the meantime， you should go and procure more stoneware crocks， so that the operation can start producing some goods for sale.\nI'm not sure who sells them， you'll have to drive around and figure that out yourself.
-tut.lesson-11.title	Overlays and Reports
-tut.lesson-11.1	Let's quickly take a look at some informational overlays and reports， which are going to help you in various ways.
-tut.lesson-11.2	In the upper left corner you can see a variety of drop-downs with additional information.\nClick on the first one.
-tut.lesson-11.3	This is the resources display. It shows you who you know that buys or sells specific resources.\nGo ahead and scroll down to 'Stoneware Crocks' and click on it， to see who trades in that resource. You can also look through the other resources.\nYou can also bring this overlay up quickly by pressing <b>Z</b>.
-tut.lesson-11.4	You can also select multiple resources， and then mark your selection as favorite by pressing the left highlighted button. These favorites will be remembered whenever you open this overlay.\nYou can then toggle your favorites by hitting the right highlighted button.\nFeel free to try it out. When you're done， close the overlay using the same top left button， and we'll continue.
-tut.lesson-11.5	Next to it is a list of informational overlays. Click to open it.
-tut.lesson-11.6	There are several overlays here， but we'll focus on just a few right now.
-tut.lesson-11.7	The <b>Respect</b> overlay shows your level of respect in the neighborhood.\nYour territory grows based on the respect you have on each block， so it's important to grow and keep respect levels high. We'll talk about how to do that a little bit later.\nYou can also bring this report up quickly by pressing <b>C</b>.\nFeel free to explore， and then click 'Continue' when ready.
-tut.lesson-11.8	The <b>Heat</b> overlay is also very important. It shows the amount of police attention on each corner， such as due to illegal activities or fights.\nThe higher the heat level， the higher the chance of a surprise police visit.\nYou can also bring this report up quickly by pressing <b>X</b>\nClick 'Continue' when ready.
-tut.lesson-11.9	The <b>Police Precincts</b> overlay shows which corner belongs to which precinct.\nEach precinct has one captain who patrols the area - it might be a good idea to befriend them.\nClick 'Continue' when ready.
-tut.lesson-11.10	At the bottom， the <b>Zoning</b> overlays show city zoning regulations.\nBusinesses are typically limited to industrial and commercial zones， but residential zones might have their own surprises too.\nClick 'Continue' when ready.
-tut.lesson-11.11	Below that， the <b>Population</b> overlays show the distribution of different ethnicities in the city.\nPeople of the same ethnicity are predisposed to like each other a bit more than average， so use that to your advantage.\nClick 'Continue' when ready.
-tut.lesson-11.12	Now the third drop-down is a collection of reports. Press that button to open it.
-tut.lesson-11.13	This drop-down lists a number of reports you can consult， related to different parts of the game.\nThe financial report is probably the most immediately interesting one， but the others are going to be very useful as well.\nFeel free to look through them， and then click 'Continue'.
-tut.lesson-11.14	Finally the fourth button shows the game encyclopedia， which contains information about various aspects of the game in one place. Take a look!
-tut.lesson-11.15	Whenever you have questions about some game element， check here first.\nFeel free to look around， and then click 'Continue'.
-tut.lesson-11.16	All right， I'll let you get back to your goal of gathering supplies.\nI'll be back a little bit later， to talk about territory. Growing your crew and your territory is going to be crucial， in order to maximize profits and also to protect yourself from rival outfits.
-tut.lesson-11.17	Oh yeah， did I say rivals?\nIf you haven't run into any rivals yet， don't worry， you will. But we can talk about that later as well.\nFor now， concentrate on getting some beer production going! Follow the goals in the upper left of your screen， and buy some more stoneware crocks and deliver them to your safehouse.\nBy the way， as you drive around and visit people， instead of a regular <b>left click</b> you can use <b>shift left click</b> to get right into a buying or selling conversation， skipping other topics.
-tut.lesson-12.title	Fronts and Territory
-tut.lesson-12.1	Let's talk about another important thing: <b>territory.</b>\nControl of street corners is the cornerstone of every successful outfit.\nYou need to have territory under your control before you can build more operations or hire any crew.
-tut.lesson-12.2	Right now you only have one corner under your control， the same one where your safehouse is.\nBut by my calculation， you will need about five or six before you can start hiring more people and growing your outfit.
-tut.lesson-12.3	Control over corners comes from respect. As locals learn about you， your respect rises， and if it's close to 100 the corner will switch over to pay allegiance to you. 
-tut.lesson-12.4	Territory brings many benefits. First， the more corners you have， the more people you can hire and buildings you can control.\nSecond， businesses inside your territory will be offering you all sorts of opportunities， so it's good to expand as much as possible.\nFinally， and maybe I shouldn't be telling you this， but businesses inside your territory can be extorted for cash. It's a brutal thing to do， and it might have repercussions， but it does produce a steady revenue stream.
-tut.lesson-12.5	In order to do any of that， you'll need to set up a <b>front.</b>\nA new front is how you get a foothold in a community， by grabbing a hold of a single corner first， and then using that front to bring all the surrounding corners into the fold as well.\nI'll show you how.
-tut.lesson-12.6.m	Go visit your cousin {name} and see if he'd be interested in running a front for you.
-tut.lesson-12.6.f	Go visit your cousin {name} and see if she'd be interested in running a front for you.
-tut.lesson-12.7	In this conversation， start with the <sprite name="ui tickets"> favors step， and then ask about <sprite name="ui tribute"> starting a front.\nFinish the conversation and pay the required cash and <sprite name="ui tickets"> favor to start a front.
-tut.lesson-12.8	Great! A new front has been set up. You can see this corner immediately joined your territory!
-tut.lesson-12.9	Fronts serve multiple purposes: they can be used to expand your territory， by increasing your respect in the neighborhood. Also， if you're extorting businesses， they will be collecting the cash for you to pick up.
-tut.lesson-12.10	Now let's have the new front start work on increasing your respect， to grow the territory even more.
-tut.lesson-12.11.m	Go back to cousin {name}， but this time ask him about <sprite name="ui pip front expansion ready"> expanding your territory.\nThen agree to his price， and he'll get started.
-tut.lesson-12.11.f	Go back to cousin {name}， but this time ask her about <sprite name="ui pip front expansion ready"> expanding your territory.\nThen agree to her price， and she'll get started.
-tut.lesson-12.12	Good， {name} is hard at work improving your name recognition in the neighborhood.\nIn seven or eight turns， that corner should recognize you and join your territory.\nI'll wait with you until it does.
+tut.lesson-9.8	このように地図探索の仕組みはこうなっている。そして新しいビジネスを発見し、それを調査し、オーナーと話し、何を売り買いしているのかを知ることができます。\nただ友人からの紹介があれば、最初から信頼を得られた状態となるため良い方法と言えます。全く知らない人の信頼を得るのは非常に大変です。
+tut.lesson-9.9	よし、おまえは物覚えがいいな。\nでは今度は別の仕事をお願いしよう。\n金庫に隠したビールを覚えているか？売ってしまえ、全部だ！その金で何か新しいビジネスを始めるんだ、ビール工場とか？酒場とか？\nだから{name}や他買ってくれる人にもっと売ってみて、もし紹介を受けられそうならそれに乗ってみてくれ。\n合計で<b>{amt}</b>になるまで待っているよ、続きはそれからだ。
+tut.lesson-9.10	大盛況じゃないか。\nこれで資金ができただろう、この街で新しい生活を始めることができそうだな。
+tut.lesson-10.title	事業
+tut.lesson-10.1	では、<b>事業</b>について説明するぞ。この街で本当に儲かるのは、自分たちで違法な酒を製造して売ることだ。\n禁酒法では、酒の製造と販売が違法とされ、そのため非常に大きな利益を得ることができた。\n捕まらない限りはね。
+tut.lesson-10.2	新しい事業を立ち上げるには、自分で管理できる建物とその裏にある空きスペースが必要だ。\n幸い隠れ家の裏手には十分なスペースがあるから、そこに新しい事業を作ることができそうだ。\n車で隠れ家に戻ろう。
+tut.lesson-10.3	よし。まずこの現金を少し下ろしてくれ。\n隠れ家のマーカーをクリックし、ダイアログを開きます。次にストレージタブに切り替えます。
+tut.lesson-10.4	あなたの車から隠れ家にたくさんの現金を移動します。 <b>ctrl</b>キーと<b>shift</b>キーを使用して、現金とリソースをまとめて移動できることを忘れないでください。\n隠れ家に<b>{amt}</b>が移動されるまで待っているよ。
+tut.lesson-10.5	素晴らしい。では、空のバックルームタブに切り替えてくれ。
+tut.lesson-10.6	さっき話していたバックルームを利用できそうだ。'新規事業'ボタンを押してくれ。
+tut.lesson-10.7	以上が、設定できるさまざまな操作です。\nこれらは<i>今</i>、あなたが実行するできるものだけです。将来的にはもっと多くのことを学ぶことになるだろうが、今あなたが知っているのはいくつかのものを作る方法だけです。
+tut.lesson-10.8	ビールに興味がある人が何人かいるので、<b>自家製ビール</b>の事業を構築して、簡単に流通させることができるようにしましょう。\n事業が選択されていることを確認し、'建築'ボタンを押します。
+tut.lesson-10.9	素晴らしい。運用開始まで数ターンかかる。その間にどのように動作するかの概要を説明しよう。
+tut.lesson-10.10	ここでは自家製ビールでいっぱいのせっ器製の壷を<b>生産</b>するために、醸造所が麦芽シロップと空のせっ器製の壷を<b>消費</b>しているのを見ることができる。\n詳細を表示するには、さまざまな要素の上にマウスを移動します。
+tut.lesson-10.11	また、モルトシロップの貯蔵は十分ですが、せっ器製の壷が足りませんね。このままでは生産できなくなってしまうため、買い足す必要があります。
+tut.lesson-10.12	また、将来的に資金と人員が増えたら、この業務にマネージャーを配置したり、アップグレードや拡張を導入したりすることも検討するといい。そうすれば利益率が格段に上がるぞ。
+tut.lesson-10.13.m	叔父の力を借りて、新しい酒造りを始めるなんて最高じゃないか。ご両親も喜んでいることだろう。そうだご両親に手紙を書こう。
+tut.lesson-10.13.f	叔母の力を借りて、新しい酒造りを始めるなんて最高じゃないか。ご両親も喜んでいることだろう。そうだご両親に手紙を書こう。
+tut.lesson-10.14	その間にもっとせっ器製の壷を買ってきて、販売用の商品を生産するようにしなさい。\nどこで売っているかはわからないから、自分で調べてみてくれ。
+tut.lesson-11.title	オーバーレイとレポート
+tut.lesson-11.1	それでは、様々な場面で役立つ情報オーバーレイとレポートをご紹介します。
+tut.lesson-11.2	左上には、追加情報を表示するさまざまなドロップダウンが表示されます。\n最初の1枚をクリックします。
+tut.lesson-11.3	これは資源の表示です。特定のリソースを売買している知り合いが表示されます。\n「せっ器製の壷」までスクロールし、クリックすると、そのリソースの取引参加者を見ることができます。また、他の資料にも目を通すことができます。\nまた、<b>Z</b>キーを押すことで、このオーバーレイを素早く表示させることができます。
+tut.lesson-11.4	また、複数のリソースを選択し、左のハイライトボタンを押すことで、選択したリソースをお気に入りとして登録することができます。お気に入り登録された資料は、このオーバーレイを開いたときに記憶されます。\nそして、右のハイライトボタンを押すことで、お気に入りを切り替えることができます。\n自由に試してみてください。終わったら、同じように左上のボタンでオーバーレイを閉じて、次に進みます。
+tut.lesson-11.5	その隣には、情報オーバーレイのリストがあります。クリックすると開きます。
+tut.lesson-11.6	このように、いくつものオーバーレイがありますが、ここではそのいくつかに絞って説明します。
+tut.lesson-11.7	<b>リスペクト</b>オーバーレイは、あなたの近所でのリスペクトの度合いを示しています。\nテリトリーは、各ブロックのリスペクトの高さに応じて広がっていくので、リスペクトの高さを維持しながら育てていくことが重要です。その方法については、後ほど説明します。\nまた、<b>C</b>キーを押すことで、このレポートを素早く表示させることができます。\n自由に探索し、準備ができたら「続行」をクリックしてください。
+tut.lesson-11.8	<b>ヒート</b>オーバーレイも非常に重要です。これは、違法行為や喧嘩などによる、各コーナーでの警察の注目度を示しています。\nヒートが高ければ高いほど、警察が突然やってくる可能性は高くなります。\nまた、このレポートは<b>X</b>を押すことですぐに表示させることができます。\n準備ができたら「続行」をクリックしてください。
+tut.lesson-11.9	<b>警察管区</b> のオーバーレイは、どのコーナーがどの管区に属しているかを示しています。\n各署に一人、地域を巡回している隊長がいるので、その人と仲良くなるのもいいかもしれませんね。\n準備ができたら「続行」をクリックします。
+tut.lesson-11.10	下部には、<b>ゾーニング</b>のオーバーレイがあり、都市のゾーニング規制が表示されます。\n一般的にビジネスは工業地域や商業地域に限定されていますが、住宅地域にも独自のサプライズがあるかもしれません。\n準備ができたら「続行」をクリックします。
+tut.lesson-11.11	その下の<b>人口</b>のオーバーレイは、都市におけるさまざまな民族の分布を表しています。\n同じ民族の人たちは、平均より少し好感を持つ傾向があるので、それを利用する。\n準備ができたら「続行」をクリックします。
+tut.lesson-11.12	さて、3つ目のドロップダウンは、レポートのコレクションです。そのボタンを押して開いてください。
+tut.lesson-11.13	このドロップダウンには、ゲームのさまざまな部分に関連する、参照可能なレポートがリストアップされています。\n決算報告書が一番わかりやすいと思いますが、他の報告書もとても役に立ちます。\n確認後「続行」をクリックしてください。
+tut.lesson-11.14	最後に4つ目のボタンは、ゲームに関するさまざまな情報をまとめた「禁酒法百科事典」を表示します。
+tut.lesson-11.15	ゲームの要素でわからないことがあったら、まずここで確認してください。\n確認後「続行」をクリックしてください。
+tut.lesson-11.16	では、物資の調達に戻りましょう。\n後ほど、テリトリーについてお話したいと思います。構成員とテリトリーを増やすことは、利益を最大化するためにも、ライバルから身を守るためにも、とても重要です。
+tut.lesson-11.17	そうそう、ライバルって言ったっけ？\nまだライバルに出会っていない人も、これから出会うでしょう。でもその話も後でしましょう。\n今はビールの製造に専念してください。画面左上の目標に沿って、せっ器製の壷を買い足して、隠れ家に届けましょう。\nちなみに、車で移動して人を訪ねるときは、通常の<b>左クリック</b>の代わりに、<b>シフト左クリック</b>を使用して、他の人をスキップして、売買の会話にすぐに入ることができます。
+tut.lesson-12.title	フロントとテリトリー
+tut.lesson-12.1	もうひとつ重要なこと、<b>テリトリー</b>について説明しましょう。\n街角のコントロールは、成功するため基礎となるものです。\nテリトリーを支配下に置いてからでないと、事業を増やしたり、構成員を雇ったりすることはできません。
+tut.lesson-12.2	今あなたのコントロール下にあるのは、隠れ家がある一角だけです。\n私の計算では、人を雇い、組織を大きくするためには5~6人は必要でしょう。
+tut.lesson-12.3	コーナーのコントロールは、リスペクトから生まれます。あなたのことを知れば知るほど、あなたのリスペクト度は上がり、それが100に近づくと、コーナーはあなたに忠誠を誓うようになります。
+tut.lesson-12.4	テリトリーには多くの利点があります。まず、コーナーが増えれば増えるほど、雇える人材やコントロールできる建物の数が増えます。\n次に、テリトリー内の企業からさまざまなオファーがあるため、できるだけ拡大するのがよいでしょう。\n最後にこれは言ってはいけないことかもしれませんが、あなたのテリトリー内の企業は、現金を強要することができます。残虐な行為ですし、反感を買うかもしれませんが、安定した収益源になります。
+tut.lesson-12.5	そのためには、<b>フロント</b>を設定する必要があります。\nフロントとは、地域の足場を固めるために、まず一角を押さえ、その力で周囲を巻き込んでいく方法です。\nその方法をお教えします。
+tut.lesson-12.6.m	いとこの{name}を訪ねて、あなたのためにフロントを張ることに興味があるかどうか聞いてきてください。
+tut.lesson-12.6.f	いとこの{name}を訪ねて、あなたのためにフロントを張ることに興味があるかどうか聞いてきてください。
+tut.lesson-12.7	この会話では、まず<sprite name="ui tickets">恩義ステップから始まり、<sprite name="ui tribute">フロントスタートについて質問しています。\n会話を終え、必要な現金と<sprite name="ui tickets">恩義を払ってフロントを依頼します。
+tut.lesson-12.8	素晴らしい！新しいフロントが組まれたな。このコーナーがすぐに自分のテリトリーに加わったのが解るだろう！
+tut.lesson-12.9	フロントは、自分のテリトリーを拡大するため、近隣からのリスペクトを集めるために使われます。また、ビジネスへの強要の場合は、彼らが現金を回収してくれる。
+tut.lesson-12.10	さて、新しいフロントには、もっともっと領地を大きくできるようにリスペクトを高める努力をしてもらおう。
+tut.lesson-12.11.m	いとこの{name}に戻って、今回は<sprite name="ui pip front expansion ready">あなたのテリトリーを拡大することについて彼に尋ねてみよう。\n彼が要求する金額に同意できれば、作業を開始してくれる。
+tut.lesson-12.11.f	いとこの{name}に戻って、今回は<sprite name="ui pip front expansion ready">あなたのテリトリーを拡大することについて彼女に尋ねてみよう。\n彼女が要求する金額に同意できれば、作業を開始してくれる。
+tut.lesson-12.12	よし、{name}は、近所での知名度アップを進めてくれている。\n7~8ターンすれば、そのコーナーがあなたを認識し、あなたのテリトリーに入るはずです。\nそれまで一緒に待っていよう。
 tut.lesson-12.13	<i>(新しいコーナーがプレイヤーの領地に加わるのを待ちます。数ターンで完了するはずです。その間、あなたは自分の仕事をすることができます。)</i>
-tut.lesson-12.14	And there it is! You now have three corners under your control. Not bad， not bad at all.
-tut.lesson-12.15	Now here's something to remember. If your front is working on your behalf， it's going to have some costs. Make sure to visit them at least once a month， and cover their expenses (they will display this <sprite name="ui pip front needs"> or <sprite name="ui pip front needs urgent"> support icon if you're overdue).\nAlternatively， you could extort some businesses in the area. Then the front will collect payments， skim off the top to cover expenses， and give you the rest in cold hard cash.\nWe'll come back to this in a moment.
-tut.lesson-12.16	Now keep expanding until you've reached five corners total.\nYou should go back to {name} and pay to convert more corners， as many times as possible.\nAlternatively， you could set up a different front， but expanding around an existing front is more cost-efficient in the long term.\nI'll make a note for you， see the missions list on the left side of your screen.
-tut.lesson-13.title	Extortion
-tut.lesson-13.1	I said something about extortion， didn't I?\nI guess it's time for me to fess up. I've never tried something like that myself. And I'm too much of a softie anyway， nobody's afraid of me.\nBut whenever I'm at my local joint， there's a couple of these goons， real tough guy types， boasting how much they're raking in from offering 'protection' to businesses all around.\nLet me tell you how it works.
-tut.lesson-13.2	First， you identify a vulnerable business. Like this one， for example.\nIt has to be inside your territory， and it has to be <i>very close to a front，</i> otherwise this won't work， they won't be afraid of you.
-tut.lesson-13.3	Then you drive over there， and strike up a conversation about <sprite name="ui pip front extortion"> protecting them. Be all smiles， but not friendly， you know?\nThey'll get it immediately. And some of them will cave right away， especially those that really respect you.\nBut if they don't， you'll have a new problem on your hands， and you'll have to do something about it， otherwise you'll have disrespect hanging over you.
-tut.lesson-13.4	And in any case， remember that extorting people is a nasty business. It will make them unhappy， and they'll complain to others about it.\nLike with every hurtful action， people will talk， and this might hurt your relationships with other people. And vice versa， if you do good by people， they will talk it up as well， and influence others.
-tut.lesson-13.5	I can see you're itching to give it a try. Go ahead， drive over to that business， try talking about <sprite name="ui pip front extortion"> protecting them from misfortune， and see what happens. I'll wait here.
-tut.lesson-13.6	<i>(Waiting for you to successfully <sprite name="ui pip front extortion"> extort a business inside your newly acquired territory.)</i>
-tut.lesson-13.7.m	And there you go. You threatened and hurt some innocent person， just to make a buck.\nIt's a good thing your poor mother doesn't know how her little boy turned out.
-tut.lesson-13.7.f	And there you go. You threatened and hurt some innocent person， just to make a buck.\nIt's a good thing your poor mother doesn't know how her little girl turned out.
-tut.lesson-13.8	But that's how this works. The people you extort will bring a little envelope to the nearest front every month. The front will then collect it all， subtract its operational expenses， and have the rest ready for you to pick up whenever you want.\nJust remember to visit your fronts regularly to pick up the money， or to cover their costs if necessary. If a front goes bankrupt， you will lose all the territory it accumulated!
-tut.lesson-13.9	And now let's go back to growing your territory， so you have a total of 5 corners.\nFirst， make sure to go and help out the owner of your front if they're in need of <sprite name="ui pip front needs"> support or <sprite name="ui pip front needs urgent"> urgent support.\nSecond， talk to the front owner， and get more <sprite name="ui pip front expansion ready"> corner expansions going!\nAnd since getting to 5 corners is going to take a while， continue to manufacture and sell some homemade beer， and keep looking for more introductions. I'll see you later!
-tut.lesson-14.title	Hiring
-tut.lesson-14.1	Now that you have a larger territory， you can start thinking about adding another crew member.\nThe more crew you have， the more you can do per turn. For example， you can send some of your people to run deliveries， while you personally take care of more important business.
-tut.lesson-14.2	Having larger crew will also help you defend against rival outfits. Once you run into them， that is.
-tut.lesson-14.3	To hire more crew， look for any business owners who have the <sprite name="ui pip social crew"> hire crew icon on their marker. They know someone interested.\nYou'll need to drive around and talk to them to find out more about that person.
-tut.lesson-14.4	As you talk to them， find out about the candidate's personality traits. They're very important， depending on the job.\nFor example， you wouldn't want to hire someone careless to be a manager， or someone weak to be a muscle man.\n(To see a list of everyone who might be interested in joining your crew， you can also open the <sprite name="ui info"> report dialogs and look at the <sprite name="ui crew list"> Crew List.)
-tut.lesson-14.5	Go ahead now and try to hire somebody. I'll wait.
-tut.lesson-14.6	<i>(Waiting for you to hire a second crew member.)</i>
-tut.lesson-14.7	Good! Your crew size just doubled!\nYou can see your new crew member in the list on the right hand side.
-tut.lesson-14.8	In the course of a regular game， you would also need to buy a new vehicle for this new hire.\nBut in this tutorial， I got a hold of an old truck that you can use.\nI dropped it off in front of your safehouse. Go ahead and assign this vehicle to the new hire. I trust you'll figure out how.
-tut.lesson-14.9	<i>(Waiting for you to assign the vehicle to the new hire.)</i>
-tut.lesson-14.10	And there you go! Now the new member is ready to work.\nIf you want to direct them manually， you can just click on their card in the list， and tell them where to go and what to do. They can do everything that you can.\nAlternatively， you can assign them a specific <b>delivery route，</b> and they will just follow a specific delivery schedule.\nWe'll get that set up in a moment.
-tut.lesson-14.11	Now finish your mission on the left hand side， by visiting me at the safehouse and starting a conversation.\nI have something waiting for you.
-tut.lesson-15.title	Deliveries
-tut.lesson-15.1	Now that you have a second crew member， you can delegate some of your work - such as selling off your product， buying up ingredients， or visiting your fronts.\nLet's try that now. In a few steps， your new hire will be running a basic delivery route to get your homemade beer out to thirsty customers.\nOn the far right hand side， click the button under <b>Deliveries</b> to get started.
-tut.lesson-15.2	First， we'll need to assign someone to run this delivery. Click on the <b>+</b> button.
-tut.lesson-15.3	Now select <b>Assign a driver</b> to put your new truck and crew member on this route. Be sure not to add yourself - you've got more important things to do than deliver booze， after all.
-tut.lesson-15.4	Great! Now we will create a delivery schedule. This will be a step-by-step instruction telling the driver to pick up beer from the safehouse， and then drive around to sell it.\nThe schedule is currently empty， so click <b>Add Next Step</b>.
-tut.lesson-15.5	A delivery step needs to specify what to do and where to go. We'll start by having them pick up some homemade beer from storage.\nSo first， change the initial step to <b>Storage pick up</b>.
-tut.lesson-15.6	Your safehouse is the default location for this action， but you need to select which resource they need to pick up.\nSelect <b>Homemade Beer</b> from the list.
-tut.lesson-15.7	At this point we could specify exactly how much to transfer into the vehicle. The current selection is <b>All</b>， meaning to take as much as can fit， which is exactly what we want.\nOther possibilities are to pick a specific amount (<b>Quantity</b>)， or to make sure that there is a certain amount remaining in storage and to take the rest (<b>All but</b>)， or to move things into their vehicle until their vehicle contains a set amount (<b>Until</b>).\nFor now， let's just have them fill up the truck with homemade beer， so we'll keep the <b>All</b> selection.\nNow that we chose quantity， click on the left-most button below to <b><sprite name="ui save step"> save this step and return</b> to the delivery schedule.
-tut.lesson-15.8	Now that we told them to pick up homemade beer， we should also tell them to start selling it. Click the highlighted <b>Add Next Step</b> button again， and we'll decide where to go with the merchandise.
-tut.lesson-15.9	Change the action to <b>Sell resources</b> and then select <b>Homemade Beer</b> from the list of resources.\nThe list of destinations will also change， to include all businesses you know that buy homemade beer. Once again， you can pick whether to sell them the maximum that they'll buy right now (<b>All</b>) or you can choose a quantity to try and sell (<b>Quantity</b>). For now， we'll try to sell them as much as they'll take.\nOnce things look good， click on the middle <b><sprite name="ui save add new"> save and add new step</b> button - it will save this step and then immediately create a duplicate one.
-tut.lesson-15.10	Now look at that - by clicking on "save and add"， you got a new step that has the same setup as the previous one. Of course we don't want to sell to the same business again， so let's change the destination.\nOn the map， you'll see that every business that wants to buy your homemade beer is being shown. You can select a new destination for this step by simply clicking on one of the businesses.\nGo ahead and give it a try! This is a great way to add a lot of steps to your deliveries very quickly and make sure that your drivers are following a sensible route. Once you're done， click the <b><sprite name="ui save add new"> save and add new step</b> button. 
-tut.lesson-15.11	Your driver is going to have a lot of cash on hand after selling all that beer， and you probably don't want them driving around with it. So let's add a step to drop the cash off back at your safehouse.\nIn the new step you just created， change the action to <b>Storage drop off</b>， then change the resource to <b>Cash</b>.\nOnce you're done with that， click on the leftmost <b><sprite name="ui save step"> save and return button</b> to save the step and return to the route overview.
-tut.lesson-15.12	There you have it - a simple delivery route! And now as soon as you hit the <b><sprite name="ui start job"> start button</b>， they'll start the job on the next turn， and they will follow your instructions step by step.\nThen once your driver reaches the last step on the list， they will start over again， and they'll keep doing this until you tell them to stop. Just please remember that your driver will use up their movement points and action points as they go about doing their assigned tasks， so make sure to choose the right person for the job and use their experience upgrades wisely.\nNow click the <b><sprite name="ui start job"> start button</b> to get going.
-tut.lesson-15.13	Let me share a few other tips about your delivery routes.\nYou can rename routes by clicking on the name. That might help to keep track of them.\nYou can change the order of delivery steps， by clicking on the step number and entering a new position， as well as clicking their up and down arrows.\nFinally， you can <sprite name="ui mute step"> toggle if an individual step is enabled or not， and <sprite name="ui start here"> force a driver to a specific step on the next turn.
-tut.lesson-15.14	So， I think you've got the basics of organizing a delivery job for a crew member. We got them set up to sell homemade beer， but you can have them do more - for example， they could also pick up the resources you need to make it.\nSo why don't you add a few more steps to buy stoneware crocks as well? Make sure to add a step to pick up a bit of cash， then add two or three stops at businesses where you can buy some crocks， and then drop them off back at your safehouse.
-tut.lesson-15.15	Once you've got that going， your crew will keep the homemade beer operation humming. This will free you up to do other things - exploring the city， meeting new people， working on missions， learning skills， expanding territory - well， there's just so much for a boss to do these days， isn't there?
-tut.lesson-16.title	Moving On
-tut.lesson-16.1.m	My dear nephew， I have a few final words of advice for you.
-tut.lesson-16.1.f	My dear niece， I have a few final words of advice for you.
-tut.lesson-16.2	First， try to get yourself an additional building. This will greatly increase your base of operations.\nLook for people who have the <sprite name="ui pip social expansion"> building expansion icon， they're actively looking for an opportunity.\nI added a new mission on your list as a reminder.
-tut.lesson-16.3	Second， keep <b>expanding</b> both your territory and your connections.\nThere are many opportunities here， but they only come to those who make their name known.
-tut.lesson-16.4	Third， there is still a lot you don't know. As you talk to people， try to learn new <b>skills</b>， and try to find out more about <b>resources</b> that you haven't explored yet. Some of those can be really profitable!
-tut.lesson-16.5	Fourth， expect <b>competition</b>. Over time you will meet cops， corner hooligans， and other outfits. I'll be back with more advice when that happens.
-tut.lesson-16.6	Finally， keep an eye on your <b>finances</b>. Money is the grease in the gears of commerce， as they say， and if you ever run out， this whole operation will come to a grinding halt.
-tut.lesson-16.7	Good luck， kid! Who knew you'd do so well so quickly.\nI'll be back with more advice if the situation calls for it， but otherwise you're on your own.\nHave fun in the big city!\n\n<i>(The main tutorial will now be turned off. You can turn it back on in settings in the main menu.)</i>
-tut.event.title	Gameplay Hint
-tut.event.movementpts	You ran out of <sprite name="ui movement pts"> movement points. They refill at the start of each turn. Press <b>'Next Turn'</b> at the top of the screen to advance to the next turn.
-tut.event.actionpts	You ran out of <sprite name="ui action pts"> action points. They refill at the start of each turn. Press <b>'Next Turn'</b> at the top of the screen to advance to the next turn.
-tut.event.goon	You just met {groupname}!\nThey are one of the many small-time troublemakers that can be found all over the city. Unlike outfits， these hooligans only occupy one corner， and while they can get very possessive of it， their ambitions are limited.\nIf you're on good terms， they might share access to some illegal goods， or help you in another way. However， if you want to get in a fight， just get into a conversation， start insulting them， and see what happens.
-tut.event.gang	You just met {groupname}!\nThis is one of the other organized outfits. Just like you they are interested in profiting from prohibition， and they will likely be competing with you for resources or customers.\nYou can approach them peacefully， or not so peacefully， that's up to you. Just pay attention to how strong you are relative to them， and remember that some insults and injuries are not quickly forgotten.
-tut.event.cop	You just met {groupname}!\nPolice officers will make surprise raids at corners with a lot of heat， and at other times they will patrol their district and arrest miscreants.\nIt might be beneficial to become good friends with your precinct officer， perhaps through a recommendation from a shared connection， and then pay them off to ignore your outfit's activities.
-tut.event.prod.complete	One of your operations has completed its production cycle. Resulting product has been placed in the storage room at your building.
-tut.event.prod.stalled	One of your operations has stalled. This is often due to the lack of source materials. Inspect your operation and make sure it has all the materials it needs.
-tut.event.levelup	One of your crew members gained enough experience to gain a new level!\nClick on the <sprite name="xp general"> experience ticker to pick a new ability for them.
+tut.lesson-12.14	これを見てくれよ！これで3つのコーナーを制圧したことになる。なかなか良いじゃないか。
+tut.lesson-12.15	さて、ここで覚えておいてほしいことがあります。フロントがあなたの代わりに働いてくれるなら、それなりのコストがかかります。少なくとも月に一度は訪問し、その費用を負担するようにしてください（支払いが滞っている場合は、<sprite name="ui pip front needs"> または <sprite name="ui pip front needs urgent"> というサポートアイコンが表示されます）。\nあるいはその地域のビジネスを買収する方法もある。そうすればフロントは代金を回収し、経費として上前をはねた上で残りを現金で渡してくれる。\nこれについては、また後ほど。
+tut.lesson-12.16	今度は、合計5つのコーナーになるまで広げ続けます。\nまた{name}に戻って、何度も現金を払ってコーナーを増やしてください。\nまた、別のフロントを立ち上げることもできますが、既存のフロントを中心に展開した方が長期的にはコスト的に有利になります。\n画面左のミッションリストにメモしておきます。
+tut.lesson-13.title	強要
+tut.lesson-13.1	強要についてそろそろ白状しましょうか。\n私自身はそんなことしないですよ。それに私はお人好しだから誰も私を怖がりません。\nでも、地元の店に行くとこの手のチンピラが何人かいて、本物のタフガイがそこらじゅうのビジネスを「保護」してどれだけ儲けているのかを自慢しているのを見かけます。\nその仕組みをお話ししましょう。
+tut.lesson-13.2	まず、脆弱性のあるビジネスを特定します。例えば、このようなものです。\n自分のテリトリーであり、かつ<i>フロントに近い場所でなければならない。</i> そうでなければ、彼らはあなたを恐れないでしょう。
+tut.lesson-13.3	そして、車でそこに行き、<sprite name="ui pip front extortion">保護について会話をするのです。笑顔で、でも親しげに、ね。\nすぐに理解されますよ。そして何人かはすぐに降参するでしょう、特にあなたを本当に尊敬している人たちはね。\nしかし、そうでなければ、新たな問題を抱えることになり、何か手を打たなければ、軽蔑の念を抱かれることになります。
+tut.lesson-13.4	いずれにせよ、強要は厄介なビジネスであることを忘れてはならない。相手が不幸になるし、そのことで他人に文句を言われる。\n人を傷つけるようなことをするとそれが噂になり、人間関係が悪くなるかもしれません。逆にあなたが人に良いことをすれば、その人はそのことを話題にし、他の人に影響を与えるでしょう。
+tut.lesson-13.5	試してみたくてウズウズしているようですね。ビジネスに乗り込んでいって、<sprite name="ui pip front extortion">不幸から守ることを話してみて、何が起こるか見てみましょう。私はここで待っています。
+tut.lesson-13.6	<i>(新しく獲得したテリトリーで、<sprite name="ui pip front extortion">うまくビジネスを強要するのを待っています。)</i>
+tut.lesson-13.7.m	結果的に、あなたは金儲けのために無実の人を脅し、傷つけた。\n可哀想なお母さんは、自分の坊やがどうなったか知らなくて良かったと思うよ。
+tut.lesson-13.7.f	結果的に、あなたは金儲けのために無実の人を脅し、傷つけた。\n可哀想なお母さんは、自分の娘がどうなったか知らなくて良かったと思うよ。
+tut.lesson-13.8	でも、これはそういうものなんです。あなたがゆすり取る人々は毎月最寄りのフロントに小さな封筒を持っていきます。フロントはそれを全て回収し、運営経費を差し引き、残りをいつでも受け取れるように用意してくれます。\nただ、定期的にフロントを訪問してお金を受け取ったり、必要であれば費用を負担することを忘れないでください。もし、フロントが倒産してしまったら、それまでに築いたテリトリーをすべて失うことになります。
+tut.lesson-13.9	今度は自分のテリトリーを増やしていき、合計で5つのコーナーを持つようにします。\nまず、自分のフロントのオーナーが<sprite name="ui pip front needs">サポートや<sprite name="ui pip front needs urgent">緊急サポートを必要としている場合、助けにいきましょう。\n次に、フロントのオーナーに相談して、<sprite name="ui pip front expansion ready">コーナーを拡大する準備を進めることです。\nそして、5コーナーまではまだ時間がかかりそうなので、引き続き自家製ビールを製造・販売し、さらなる紹介を得ましょう、期待しています。ではまた。
+tut.lesson-14.title	採用
+tut.lesson-14.1	そして、テリトリーが広くなったところで、もう一人構成員を増やそうかと考えています。\n構成員の数が多ければ多いほど、1ターンにできることが増えます。例えば、配達を担当させながら、自分が重要な仕事をすることも可能です。
+tut.lesson-14.2	また、構成員の人数が多ければ、ライバルから身を守ることもできます。一旦、敵に遭遇してしまえば、その時はその時です。
+tut.lesson-14.3	より多くの構成員を雇うには、マーカーに<sprite name="ui pip social crew"> 雇い人のアイコンがあるオーナーを探せばよいでしょう。彼らは興味のある人を知っています。\nその人のことをもっと知るためには、車で移動して話を聞く必要があります。
+tut.lesson-14.4	候補者と話しながら、その人の性格的な特徴を探ってください。仕事によっては、とても重要なことです。\n候補者と話しながら、その人の性格的な特徴を探ってください。例えば、管理職には無頓着な人を、筋肉マンには弱い人を採用したくないでしょう。\n(構成員になりそうな人のリストを見るには、<sprite name="ui info"> レポートダイアログを開き、<sprite name="ui crew list"> 構成員リストを見ることもできます。)
+tut.lesson-14.5	さあ、誰かを雇ってみてください。待っているよ。
+tut.lesson-14.6	<i>(2人目の構成員を雇うのを待っています。)</i>
+tut.lesson-14.7	よし！構成員の人数が2倍になったぞ！\n右側のリストに新しい構成員が表示されます。
+tut.lesson-14.8	通常のゲームでは、この新しい構成員のために新しい車両を購入する必要があります。\nしかし、このチュートリアルでは、古いトラックを手に入れたので、それを利用することができます。\nあなたの隠れ家の前に置いてきたので、この車両を新しい構成員に割り当ててみてくれ、どうすればいいか分かると信じてる。
+tut.lesson-14.9	<i>(新入りへの車両割り当てを待っています。)</i>
+tut.lesson-14.10	やったな！これで新しい構成員は活躍の場が広がりました。\n手動で指示したい場合は、リスト内のカードをクリックし、行き先や行動を指示すればよいのです。あなたができることは、すべて彼らにもできるのです。\nまた、特定の<b>配送ルート</b>を割り当てれば、特定の配送スケジュールに従って配送することも可能です。\nすぐに設定してみましょう。
+tut.lesson-14.11	左側のミッションが完了したら、隠れ家にいる私を訪ねてくれ。\nまた何かを用意しておくよ。
+tut.lesson-15.title	配達
+tut.lesson-15.1	2人目の構成員ができたので、仕事の一部を任せることができるようになりました。 商品の売り込み、材料の買い付け、フロントへの訪問などです。\nさあ、やってみましょう。新入社員は、喉が渇いたお客さんに自家製ビールを届けるための基本的な配達ルートを数ステップで走らせることができます。\n右側の<b>配達</b>のボタンをクリックすると開始されます。
+tut.lesson-15.2	まず、この配達を実行する人を割り当てる必要があります。 <b> + </b>ボタンをクリックします。
+tut.lesson-15.3	ここで<b>ドライバーの割り当て</b>を選択し、新しいトラックと構成員をこのルートに乗せます。自分自身を追加しないように注意してください。お酒の配達よりも大事なことがあるはずです。
+tut.lesson-15.4	素晴らしい！では、配送スケジュールを作成します。これは運転手が金庫からビールを受け取って、あちこちに売りに行くという手順書です。\n現在、スケジュールは空ですので、<b>次のステップを追加する</b>をクリックします。
+tut.lesson-15.5	納品ステップでは、何をするのか、どこに行くのかを指定する必要があります。まずは倉庫にある自家製ビールを受け取ってもらうところから始めます。\nそこでまず、最初のステップを<b>在庫から荷積み</b> に変更します。
+tut.lesson-15.6	このアクションは隠れ家で行われますが、どのリソースをピックアップする必要があるかを選択する必要があります。\nリストから<b>自家製ビール</b>を選択します。
+tut.lesson-15.7	この時点で、車両に転送する量を正確に指定できます。 現在の選択は<b>全部</b>です。これは、可能な限り多くのことを行うことを意味します。これはまさに私たちが望んでいることです。\n他の可能性は、特定の量（<b>数量</b>）を選択するか、ストレージに一定量が残っていることを確認して残りを取得する（<b>すべてを除く</b>）、または 車両に一定量が含まれるまで（<b>まで</b>）、物を車両に移動します。\nとりあえず、自家製ビールをトラックに積んでもらおうということで、<b>全部</b>のままにしています。\n数量を選択したので、下の左端のボタンをクリックして、<b><sprite name="ui save step"> このステップを保存して、配送スケジュールに戻る</b>をクリックします。
+tut.lesson-15.8	自家製ビールを買うように言ったので、販売を開始するように言う必要があります。 強調表示された<b>次のステップを追加</b>ボタンをもう一度クリックすると、商品をどこに置くかが決まります。
+tut.lesson-15.9	アクションを<b>材料の売却</b>に変更し、リソースのリストから<b>自家製ビール</b>を選択します。\n目的地のリストも変更され、自家製ビールを購入することを知っているすべての企業が含まれます。 繰り返しになりますが、現在購入する最大数（<b>全部</b>）を販売するか、試して販売する数量（<b>数量</b>）を選択するかを選択できます。 今のところ、私たちは彼らが取る限りそれらを売ろうとします。\nうまくいったら、真ん中の<b><sprite name="ui save add new"> 保存して新しいステップを追加</b> というボタンをクリックします。 - このステップを保存して、すぐに複製を作成します。
+tut.lesson-15.10	"では、その様子をご覧ください - ""保存して追加""をクリックすると、前のステップと同じ設定の新しいステップができました。もちろん、同じ企業に再び販売することはないので、販売先を変更しましょう。\n地図上には、あなたの自家製ビールを買い取りたいお店が表示されています。その中から好きなお店を選んでクリックするだけで、新しい目的地に行くことができます。\nさあ、試してみてください！ これは配達に多くのステップを簡単に追加し、ドライバーが賢明なルートをたどっていることを確認するための優れた方法です。 完了したら、<b> <sprite name="ui save add new">保存して新しいステップを追加</b>ボタンをクリックします。"
+tut.lesson-15.11	ドライバーはビールを売った後、多額の現金を手にすることになりますが、それを持ったまま運転されるのは困るでしょう。そこで、現金を隠れ家に置いてくるステップを追加しましょう。\n作成した新しいステップで、アクションを<b>在庫に荷降ろし</b>に変更してから、リソースを<b>現金</b>に変更します。\n左端の<b><sprite name="ui save step"> 保存して戻る</b>をクリックすると、ステップが保存され、経路の概要に戻ることができます。
+tut.lesson-15.12	シンプルな配送ルートだ！ 次に<b> <sprite name="ui start job">この配達を開始</b>を押すとすぐに、次のターンにジョブが開始され、指示に従います。\n次に、ドライバーがリストの最後のステップに到達すると、ドライバーは最初からやり直し、停止するように指示するまでこれを続けます。 ドライバーは割り当てられたタスクを実行するときに移動ポイントとアクションポイントを使い果たすことを忘れないでください。そのため、仕事に適した人を選択し、経験のアップグレードを賢く使用するようにしてください。\nでは、<b><sprite name="ui start job">この配達を開始</b>をクリックして、スタートします。
+tut.lesson-15.13	その他、配送ルートについて少しお話させてください。\nルート名をクリックすると、ルート名を変更することができます。これで管理しやすくなるかもしれませんね。\nステップ番号をクリックして位置を変更したり、上下の矢印をクリックすることで、配信ステップの順番を変更することができます。\n最後に、<sprite name="ui mute step">でステップの有効/無効を切り替えたり、<sprite name="ui start here">で次のターンで特定のステップに強制的に移動させることができます。
+tut.lesson-15.14	というわけで、構成員の配達業務の基本は理解できたと思う。今回は自家製ビールを売るという設定だったが、それ以外にも、例えば、ビールを作るのに必要な資材をピックアップしてもらうこともできる。\nでは、せっ器の壺も買うために、もう少しステップを増やしたらどうだろう。その際、現金の受け渡しをするステップを加え、さらに2~3カ所、せっ器の壺を売っている店に立ち寄り、そのせっ器の壺を自分の隠れ家まで持ってくるようにするんだ。
+tut.lesson-15.15	それができれば、自家製ビールの製造も順調に進むだろう。街を散策したり、新しい人と出会ったり、ミッションをこなしたり、スキルを身につけたり、テリトリーを広げたり…ボスがやるべきことはたくさんあるだろう。
+tut.lesson-16.title	卒業
+tut.lesson-16.1.m	親愛なる甥よ、最後に忠告しておこう。
+tut.lesson-16.1.f	親愛なる姪よ、最後に忠告しておきたいことがある。
+tut.lesson-16.2	まず、建物を増築するべきだ。そうすれば拠点が大幅に増える。\n<sprite name="ui pip social expansion"> 建物拡大アイコン、彼らは積極的に機会を探している人々を探しましょう。\n備忘録として、あなたのリストに新しいミッションを追加しておくよ。
+tut.lesson-16.3	次に、テリトリーと人脈の両方を<b>拡大</b>し続けるんだ。\nチャンスはたくさんあるだろうが、それは自分の名前を知られた人にしか訪れない。
+tut.lesson-16.4	第三に、あなたが知らないことがまだたくさんあるだろう。 人と話すときは、新しい<b>スキル</b>を学び、まだ調べていない<b>リソース</b>についてもっと調べてみてくれ。 いくつかは本当に有益な可能性があるだろう。
+tut.lesson-16.5	四つ目は、<b>競争</b>を期待することだ。そのうち、警官やフーリガンや他の人たちと出会うことになるでしょう。その時はまたアドバイスします。
+tut.lesson-16.6	最後に、<b>財務</b>に目を配ることだ。お金は商売の歯車の潤滑油と言われるように、もしお金が足りなくなったら、このビジネス全体が止まってしまうだろう。
+tut.lesson-16.7	こんなに早く成功するとは思わなかったよ、がんばってな。\nまた、必要であればアドバイスするけど、それまでは自分で頑張ってみてくれ。\n大都会を楽しんで！\n\n<i>(これでメインのチュートリアルがオフになります。メインメニューの設定からオンに戻すことができます。)</i>
+tut.event.title	ゲームプレイヒント
+tut.event.movementpts	<sprite name="ui movement pts"> 移動ポイントが無くなったんですね。 各ターンの開始時に回復します。画面上部の<b>次のターン</b> を押すと次のターンに進みます。
+tut.event.actionpts	<sprite name="ui action pts"> アクションポイントが無くなったんですね。  各ターンの開始時に回復します。画面上部の<b>次のターン</b> を押すと次のターンに進みます。
+tut.event.goon	{groupname}に会いましたね！\n彼らは、街のあちこちにいる小さなトラブルメーカーだ。組織とは違い一角を占拠しているため、独占欲が強い反面、野心も乏しい。\n仲が良ければ、違法な商品を分けてくれたり、別の方法で助けてくれたりするかもしれません。しかし、もし喧嘩をしたいのなら、ただ会話をして、相手を侮辱し、何が起こるか見てみることだ。
+tut.event.gang	{groupname}に会いましたね！\nこれは他の組織的な団体の1つです。あなたと同じように、禁酒法から利益を得ることに関心があり、資源や顧客をめぐってあなたと競争する可能性があります。\n平和的にアプローチするもよし、そうでない場合もよし、それはあなた次第です。ただ、相手に対して自分がどれだけ強いか、そして侮辱や怪我はすぐには忘れられないということは覚えておいてください。
+tut.event.cop	{groupname}に会いましたね！\n警察官は、ヒートが高いコーナーに突撃したり、地区を巡回して不良を捕まえたりします。\nそのためには、共通の友人から推薦された署員と仲良くなり、その署員を買収して、あなたの活動を無視するように仕向けることも有効でしょう。
+tut.event.prod.complete	あるビジネスの生産サイクルが終了しました。生産された製品は、あなたの建物の倉庫に保管されています。
+tut.event.prod.stalled	あるビジネスが停滞している。これは多くの場合、原料の不足が原因です。自分のビジネスをチェックして、必要な材料がすべて揃っていることを確認しましょう。
+tut.event.levelup	構成員が新しいレベルに到達しました！\n<sprite name="xp general">経験値テロップをクリックすると、新しい能力を選ぶことができます。
 tut.event.outpost-can-expand	あなたのフロントの1人は、あなたのテリトリーをさらに拡大する準備ができている。\nあなたのフロントを訪問し、新しいコーナーでリスペクトを高めるために彼らにお金を払おう。リスペクトは多いに越したことはない!
-tut.event.outpost-urgent	One of your fronts urgently needs your support!\nA front that cannot cover its expenses will eventually shut down， which will cause local corners to lose respect for you， and leave your territory!\nLook for a building with the <sprite name="ui pip front needs urgent"> envelope icon， and visit it immediately.
-tut.event.vehicle-junk	One of your vehicles is getting a little banged up. Damaged vehicles drive slower than vehicles in good condition， and at some point will stop working altogether.\nVisit a local repair shop to keep your vehicle fleet in good shape.
-tut.event.crew-injured	One of your people became injured!\nAn injured crew member can still do some work， but only up to a point.\nAs soon as possible， send them back to one of your buildings， and have them <b>recuparate</b> by clicking on the <sprite name="ui health"> recuperate button on their crew info card (in the upper right).
-tut.event.gambling	You can build a gambling operation!\nTalk to one of your fronts and have the owner scout out the area in neighboring corners for an available residential building to construct a gambling house.\nOnce it's built， you be able to start outfitting it with various typs of games that will provide rewards in cash and kind.
+tut.event.outpost-urgent	前線のひとつが、緊急にあなたのサポートを必要としています。\n経費をまかなえなくなったフロントは、やがて閉鎖され、テリトリーのコーナーからリスペクトを失い、あなたのシマから出て行ってしまうでしょう\n<sprite name="ui pip front needs urgent">の封筒アイコンがある建物を探して、すぐに訪問してください。
+tut.event.vehicle-junk	あなたの愛車の1台が、少しづつ傷んできています。傷ついたクルマは、状態の良いクルマよりも遅く走り、いつかは完全に動かなくなります。\n近くの修理工場に足を運び、車両を良好な状態に保ちましょう。
+tut.event.crew-injured	仲間が負傷しました！\n怪我をした構成員も、いくつかの仕事はできますが、ある程度しかできません。\nできるだけ早く自分の建物に戻し、右上の構成員情報カードにある<sprite name="ui health"> 回復ボタンをクリックして<b>回復</b>させてください。
+tut.event.gambling	ギャンブルする場所を作ることができそうです！\nフロントに相談し、オーナーに近隣のコーナーでギャンブルハウスを建設するための住宅用建物を探してもらいましょう。\nその後、現金や現物で報酬を得ることができる様々なタイプのゲームを設置することができます。
+を探してもらいましょう。\nその後、現金や現物で報酬を得ることができる様々なタイプのゲームを設置することができます。
