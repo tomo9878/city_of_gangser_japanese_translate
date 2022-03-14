@@ -339,7 +339,7 @@ ui.crewinfo.descpoints	<sprite name="ui action pts"> {actions}  <sprite name="ui
 ui.crewinfo.pickone	話し相手を選ぶ
 ui.crewinfo.pickone.safehouse	このセーフハウスを捜索する人を選ぶ。
 ui.crewinfo.pickone.biz	ここの店と話をする人を選ぶ。
-ui.crewinfo.newhire	New crew member: {name}.\n\nYour new crew member checked in at your main safehouse， eagerly awaiting orders.
+ui.crewinfo.newhire	新しいクルー：{name}\n\n新しいクルーはセーフハウスで待機し、あなたの指示を待っている。
 ui.crewinfo.module	{name}
 ui.crewinfo.nomodule	<i>事業なし</i>
 ui.crewinfo.manager	<b>{name}</b>， マネージャー.
@@ -352,7 +352,7 @@ ui.crewinfo.building.mo.nomanager	\n\nNo 管理者がいない。構成員から
 ui.crewinfo.building.mo.resultcash	<sprite name="ui arr big right"> <sprite name="res cash">
 ui.crewinfo.building.mo.resultres	<sprite name="ui arr big right">
 ui.crewinfo.building.mo.cycletime	\n毎{consumeDays} 日 ({consumeTurns} ターン)
-ui.crewinfo.building.mo.buildtime	Under construction\n{daysleft} more days ({turnsleft} turns)
+ui.crewinfo.building.mo.buildtime	建設中\nさらに{daysleft}日間必要  ({turnsleft} ターン)
 ui.crewinfo.desc-idle	仕事なし
 ui.crewinfo.desc-manager	{bizname}
 ui.crewinfo.desc-arrested	逮捕された， {date}の裁判待ち
@@ -551,7 +551,7 @@ ui.ownedcasino.amenity.needs-cash.mo	<sprite name="ui cross">  運用に必要�
 ui.ownedcasino.amenity.needs-manager.mo	<sprite name="ui cross">  運用にマネージャーが必要。
 ui.ownedcasino.amenity.needs-repair.mo	<sprite name="ui cross">建物が破損している間は開店できない。
 ui.ownedcasino.amenity.customers	近隣から時折飛び込みでお客さんが来る。\n現在の飛び込み客： {numPlayers} ，最大: {maxPlayers} \n(最大{potentialPlayers}に達するまですべての{amenityCount}低いレートゲームを遊ぶ。)
-ui.ownedcasino.amenity.customers.under-construction	Once construction is complete， occasional walk-in customers will frequent this feature.
+ui.ownedcasino.amenity.customers.under-construction	竣工後は、たまにウォークインで来店されるお客様にもご利用いただけるようになる。
 ui.ownedcasino.amenity.gamblers	このゲームにより、毎週通い続ける常連客を獲得。
 ui.ownedcasino.amenity.gamblers.under-construction	建設完了は、常連客の獲得につなげる予定。
 ui.ownedcasino.amenity.mod	この機能は、ギャンブルハウスの他の機能のパフォーマンスを向上させます。
@@ -632,7 +632,7 @@ ui.humandeath.title.simple	<b>\n\nレクウィエスカト・イン・パーチ�
 ui.humandeath.line.m	あなたは{date}日にわずか{years}歳の若さで亡くなりましたが、これもギャングの暴力の犠牲者だ。\n\n禁酒法が廃止され、金ぴかの時代が終わるのを見届けることができなかった。引退して労働の成果を享受することもできなかった。\n\nあなたは{enddate}日にあなたが故郷の{cityname}市営墓地埋葬された。
 ui.humandeath.line.f	あなたは{date}日にわずか{years}歳の若さで亡くなりましたが、これもギャングの暴力の犠牲者だ。\n\n禁酒法が廃止され、金ぴかの時代が終わるのを見届けることができなかった。引退して労働の成果を享受することもできなかった。\n\nあなたは{enddate}日にあなたが故郷の{cityname}市営墓地埋葬された。
 ui.demodone.title	<b>『シティ・オブ・ギャングスターズ』のデモをプレイしていただき、ありがとうございました！</b>
-ui.demodone.line	Thank you for playing the demo of <b>City of Gangsters!</b> This is the end of the time-limited demo session. You are well on your way to ruling this town!\n\nIn the full game you will have until the end of Prohibition， in December 1933， to establish your criminal empire， deal with eager competition， take over the city， and cement your legacy.\n\nIn the full game you will also find:\n· New city maps， each with various unique resources and opportunities\n· Procedurally generated city layouts， histories， and rivals\n· Customization of your character and starting situation\n· Deluxe edition also includes the Cincinnati map， unique operations， endgame goals， and more!\n\n<i>Pre-purchase <b>City of Gangsters</b> now to get 15% off and an exclusive bonus content pack.</i>\n\nFor more details， please see our Steam page!
+ui.demodone.line	<b>City of Gangsters</b>のデモをプレイしていただき、ありがとうございました。期間限定のデモセッションはこれで終了です。この街を支配するのはあなたです！\n\nゲーム本編では、禁酒法が終了する1933年12月までに、犯罪帝国を築き、熱心な競争相手に対処し、街を乗っ取って、自分の遺産を固めることになるのです。\n\nまた、ゲーム本編では、以下のようなことができます。\n- 新しい都市マップ、それぞれにユニークな資源と機会があります。\n- プロシージャルに生成される都市のレイアウト、歴史、ライバルたち\n- キャラクターやスタート時の状況をカスタマイズ可能\n- デラックス版には、シンシナティ・マップ、ユニークなオペレーション、終盤の目標などが含まれています。\n\n<i><b>City of Gangsters</b>を今すぐ予約すると、15％オフで購入できるほか、限定ボーナスコンテンツパックがもらえます。</i>\n\n詳しくはSteamのページをご覧ください！
 ui.demodone.button	閉じてSteamを開く
 ui.cornerinfo.corner.bold	<b>コーナー:</b> {hname} & {vname}
 ui.cornerinfo.street.bold	<b>場所:</b> {name} Street
@@ -748,7 +748,7 @@ ui.pip.kb-corner-cops-heat-up	このコーナーのヒートは低いが、注�
 ui.pip.kb-corner-cops-imminent	警察からの注意喚起が目立つ、何かが起きている
 ui.pip.kb-corner-cops-recent	最近の警察の捜査は、地元を震撼させている
 ui.pip.kb-can-start-goon-action	この地元のローファーなら、何か興味を惹かれるものがあるかもしれない。
-ui.pip.kb-can-get-goon-reward	Stop by to see the results of your mutual scheming.
+ui.pip.kb-can-get-goon-reward	お互いの策略の成果を見るために、ぜひお立ち寄りください。
 ui.pip.kb-cash-boost	現在の資金繰りの限界に手を貸してくれる。
 ui.pip.kb-civic-building	経営者に取り入ることができれば、このビルには数多くの大きなチャンスがある。
 ui.pip.cop-paidoff	あなたはこの署で働く警官を買収しました。
@@ -1569,7 +1569,7 @@ ui.tickers.debtor-escape.debtor	あなたのギャンブル場の常連だった
 ui.tickers-list.title	通知履歴
 ui.tickers-list.subtitle	最近30日間の出来事をタイムラインで表示
 ui.tickers-list.entry	<b>{title}</b>\n{date}\n\n{description}
-;; requirements	;; requirements
+;; requirements	
 ui.requirements.gameturn	必要なゲームターン: {value}
 ui.requirements.city.true	この都市で利用可能
 ui.requirements.city.false	この都市では使用できません
@@ -2767,7 +2767,7 @@ convo.imported-booze-favor-option-pass	面白い。ただ私は将来的な好�
 convo.imported-booze-favor-active	今は他の人の手伝いで手一杯なんだ、一段落したらまた来るかもしれません。
 convo.imported-booze-favor-friends-npc	商品はもうすぐ届くだろう友人よ。私はあなたとの友情が深まったように感じている。もしあなたの助けが必要なときは、あなたができる限り手助けしてくれると期待しているよ。
 convo.imported-booze-favor-friends	私はいつでも友人のためにできることをしたいと思っています。
-;; goon intros	;; goon intros
+;; goon intros	
 convo.ticket-boost.goon.button	地元のギャング団と接触させてくれないか？
 convo.ticket-boost.goon.button.mo	地元のギャング団との関係を改善する。
 convo.ticket-boost.goon.start.blurb	{relationship} 私は良い言葉をかけることができる。 {outofcharacter}
@@ -2778,7 +2778,7 @@ convo.ticket-boost.goon.leader	\n<indent=15><i>({name}は{groupname}という名
 convo.ticket-boost.goon.flavor.business	トラックの荷台から何か落ちると、たいてい彼らの手に渡るんです。
 convo.ticket-boost.goon.flavor.resource	彼らは他の誰よりもこの街を知っています。もし興味があるなら、入手困難なアイテムの情報を教えてくれるかもしれません。
 convo.ticket-boost.goon.flavor.obstacle-goon	彼らはできることなら毎日プール場で過ごすような、ただのローファーの集まりです。でも、もし彼らに気に入られたら、もしかしたら助けてもらえるかもしれない。それ以外にすることがないんだ。
-;; npc intros	;; npc intros
+;; npc intros	
 convo.ticket-intro-none-npc	あなたがまだ知らない人はいないと思う。
 convo.ticket-intro-none-button	それなら気にしないでください。
 convo.ticket-intro-confirm-npc	{introflavor}{relationship}二人は意気投合する気がします。{outofcharacter}
@@ -3101,7 +3101,7 @@ convo.cop-effect.at-node.button	では、仕事の話をしましょう。
 convo.cop-effect.at-node.blurb	話をしたいが、近くに警官がいるので緊張している。もう少し後で話さないか？
 convo.cop-effect.at-node.leave.button	了解しました。もう少ししたら、また来ます。
 convo.cop-effect.at-node.leave.button.mo	話を後回しにする
-convo.initiative-qreq-npc.any	あなたは人脈の広い方だと聞いています。お願いしたいことがあるんですが
+convo.initiative-qreq-npc.any	あなたは人脈の広い方だと聞いていますよ。お願いしたいことがあるんです。
 convo.initiative-qreq-npc.neg	せっかく来たのだから、話をしようじゃないか。
 convo.initiative-qreq-npc.pos	こんにちは。ちょっとお話しする時間ありますか？
 convo.initiative-qreq-ok-button	聞かせてくれ。
@@ -3321,7 +3321,7 @@ convo.goons.cop-effect.at-node.button	このコーナーは今日は少し忙し
 convo.goons.cop-effect.at-node.button.mo	現在の警察の存在について議論する
 convo.goons.cop-effect.at-node.blurb	シーッ！目立たないようにしないと 警察がどっかに行ったら戻って来い。
 convo.goons.cop-effect.at-node.leave.button	そうだな、注意を引かないようにしないとな。また後で来るよ。
-;; canada	;; canada
+;; canada	
 convo.goons.rewards.offer.blurb.business-entry.canada-money	川に浮かぶフェリーで働く友人がいます。彼女はカナダにいます。頻繁に。もし向こうで現金が必要なら、彼女が助けてくれるよ。500ドルでいいんだけど、ちょっと経費が必要なんだ。どうする？
 convo.goons.rewards.offer.blurb.business-entry.canada-goods	私のいとこは、鉄道会社で働いています。デトロイト行きの列車に荷を積んでるんだ。もしデトロイトにもって行くのに必要なものが あったら- 車に積んで持って来てくれ。後は従兄弟に任せよう。やるか？
 convo.gangs.goodbye	また会おう。
@@ -3479,7 +3479,7 @@ convo.resevents.toplevel.state.neg	それでは。
 convo.resevents.toplevel.state.any	他に何か？
 convo.resevents.goodbye	また今度。
 convo.resevents.seeyouthen	では、また。
-;; talking to a civic building NPC	;; talking to a civic building NPC
+;; talking to a civic building NPC	
 convo.train-station.icon	<sprite name="ui convo train">
 convo.train-station-start-good	この駅ではいろいろなことが起こっているようですが、あなたが責任者なんですね。その話をするために、よければあなたのオフィスへ案内してくれないか。
 convo.train-station-start-bad	誰も疑う気はないよ。ただ興味深いですね。私のことをもっとよく知ってくれれば、違った結果だったかもしれませんね。それでは良い一日を。
@@ -3519,7 +3519,7 @@ convo.train-station-mission-start-three-accept	はい、さっそく始めてみ
 convo.train-station-mission-start-four-selection	都会で酒をたくさん作っている。しかし、郊外の町では酒の入ったものに飢えているところもあると聞く。それに乗客自身に売ることもできるんだ。車掌さんや荷物係に働いてもらって、お酒を運べませんか？
 convo.train-station-mission-start-four-selection.mo	鉄道警察隊との協定により、9月～12月は酒類の密輸が可能です。
 convo.train-station-mission-pass	今すぐできることではありませんが、このような選択肢があることを知ってよかったです。
-convo.train-station-mission-start-four-selection-npc	Sure. And if we let them keep a bit of their sales， that should really motivate them， right?
+convo.train-station-mission-start-four-selection-npc	もちろん、売り上げの一部を還元すれば、モチベーションも上がりますよね？
 convo.train-station-mission-start-four-brick-wine	動かせるブリックワインがたくさんあります。それを運ぶよ。
 convo.train-station-mission-start-four-cider	運べるハードシードルがたくさんあるんです。それを運ぶよ。
 convo.train-station-mission-start-four-home-brew	自家製ビールがたくさんあるので、運べるよ。それを持っていくよ。
@@ -4807,7 +4807,7 @@ module.canada-barrels.name	カナダの倉庫
 module.canada-barrels.desc	卸売倉庫です。ここカナダでは、合法的なものをいろいろと卸しています。こちらでは合法的なもの、です。
 module.source-canadaian-whiskey.name	カナダのホテル
 module.source-canadaian-whiskey.desc	デトロイト川のカナダ側にあるこの立派な宿泊施設は、いくつかのチャンスを与えてくれます。
-;; module icons	;; module icons
+;; module icons	
 module.icons.storage-general	<sprite name="module storage general">
 module.icons.garage-small	<sprite name="module garage small">
 module.icons.apple-juice	<sprite name="res apple-juice">
@@ -4981,7 +4981,7 @@ recipe.biz-home-brewer.apple-jack	この場所では、氷とリンゴの製品�
 recipe.production-homebooze-moonshine	中性の工業用アルコール瓶がムーンシャインの樽に早変わりしている。
 recipe.production-homebooze-corn-moonshine	コーンとスチール製の樽と樽があれば、簡単にムーンシャインを作ることができる。
 recipe.source-warehouse-small	車の上に置き忘れるような、便利なものがここに届く。
-recipe.source-warehouse-medium	In a warehouse of this size， would anyone really notice if a few things (or more than a few things) went missing?
+recipe.source-warehouse-medium	この広さの倉庫で、数個（あるいは数個以上）の物がなくなっても、誰も気づかないのではないか？
 recipe.consumer-booze-medium	この場所の常連客は、酔っ払うための酒の消費量が多い。
 recipe.consume-tobacco-small	この施設では、かなりの量のたばこ関連製品を消費している
 recipe.consume-tobacco-medium	ここでは喫煙が盛んで、タバコの需要が多い
@@ -5092,7 +5092,7 @@ recipe.scopeout.source-tobacco-small	夜中に移動してくる大きな木箱�
 recipe.scopeout.source-labels	この印刷所のオーナーは著作権法をあまり気にしないようで、納得のいく偽ラベルを作ってくれるかもしれない。
 recipe.scopeout.source-hops	裏のゴミ箱にある空袋には、ドイツ語で「ホップ」の文字が大きく印刷されています。
 recipe.scopeout.source-farm	この事業のオーナーは、田舎から役に立つ農産物をたくさん仕入れてくる。
-recipe.scopeout.illegal-bottles	They move cases out with prominent Frank's Milk labels. We've never seen Frank's Milk in a store. Does milk usually come in dark bottles? Maybe we get in the dairy racket?
+recipe.scopeout.illegal-bottles	Frank's Milkのラベルが目立つケースを移動させる。店頭でFrank's Milkを見たことがない。牛乳は普通、濃い色の瓶に入っているのだろうか？もしかして、酪農騒動に巻き込まれるかもしれない？
 recipe.source-booze-barrels-small	この店の主人からは、瓶に詰める前の酒樽を数個手に入れることができる。
 recipe.source-industrial-alcohol	ここでは工業用アルコールの樽を合法的かつ公正な目的で使用している。
 recipe.scopeout.source-industrial-alcohol	ここで使っている工業用アルコールが、無認可の用途に流用されることもあるようです。
@@ -6720,7 +6720,7 @@ skill.gambling-furnishing.name	洗練された仕上がり
 skill.gambling-furnishing.desc	ギャンブル施設に高級な家具や什器を設置できるようにする。
 skill.gambling-service.name	心地よいサービス
 skill.gambling-service.desc	ギャンブル施設での飲食やその他の価値あるサービスの設置を可能にする。
-skill.gambling-staff.name	きめ細かな対応
+skill.gambling-staff.name	気の利くスタッフ
 skill.gambling-staff.desc	ギャンブル場のスタッフの改善も可能です。
 skill.starter-buildings.name	素敵な建物
 skill.starter-buildings.desc	新規建物の取得コストを20％削減し、建物管理者が毎ターン獲得する経験値を増加させ、管理する建物の運用で発生する熱量を削減
@@ -7101,7 +7101,7 @@ quest.brick-wine-producer-bonus.name	巷で聞いた話
 quest.brick-wine-producer-bonus.desc	ワイン製造の事業を改善・増強する方法について学ぶ。
 quest.brick-wine-producer.npc1	あなたがブリックワインを造っているというニュースが伝わってきました。そして、私たちが仲良くしているというニュースも広まりました。
 quest.brick-wine-producer.npc2	ああ、そうだ！提案だ! ブリックワインを届けてくれたら、私の信頼する常連客の間で分配させるわ。
-quest.brick-wine-producer.c2	My supplies of grape concentrate can't really keep up. I really should look into making my own. Perhaps you know how?
+quest.brick-wine-producer.c2	ブドウの濃縮物の供給が追いつかないんです。自分で作ることを検討しなければなりません。どうすればいいか知っていますか？
 quest.brick-wine-producer.c3	あなたはイタリア人じゃないか。ワイン作りのコツを知っているんだろう？
 quest.brick-wine-producer.c4	今のスペースでもっとブリックワインを作るにはどうしたらいいかと考えていたんです。もしかしたら、その運用を改善する方法を知っているのでは？
 quest.brick-wine-producer-bonus.npc1	カリフォルニアから来たばかりの家族がいるんだ。彼らはカリフォルニアに住んでいる間、いくつかのワイナリーで働いていたんだ。彼らはワインについてよく知っているので、現在のワインオ事業を新しいレベルに引き上げる方法を教えてくれるかもしれません。
@@ -7187,7 +7187,7 @@ quest.homebooze-starter.c3	モルトシロップがあるんですが 自家製�
 quest.homebooze-starter.c4	小鳥さんが中性アルコールの入手先を教えてくれました。飲めるムーンシャインにする方法を教えてくれませんか？
 quest.homebooze-starter.c6	氷を使って、りんごやりんごジュースからお酒を作る秘訣をぜひ教えてほしいです。
 quest.homebooze-starter.c7	この町には果樹園がたくさんありますから、フルーツワインを作るのもいいかもしれませんね。
- 	 
+ 	
 quest.brick-wine-bonus.name	ワインの絞りカス
 quest.brick-wine-bonus.desc	人脈にボトルワイン製造のラインがあるかどうかを確認。
 quest.brick-wine-bonus.npc1	私が作るブリックワインもいいのですが、本物にはかないませんよね？
@@ -7497,8 +7497,8 @@ quest.brick-wine-sink-one.human1	確かに。ブリックワインの在庫が�
 quest.brick-wine-sink-one.beforechoice	うーん、ワインとは言えないだろうけど、仕事には使えそうですね。一緒に何かビジネスができるかもしれません。
 quest.cider-sink-one.name	違法事業：ハードシードル
 quest.cider-sink-one.desc	お酒を作る腕前を証明するために、ハードシードルをちょっとだけ配達する。
-quest.cider-sink-one.human1	そうなんです。私の手元にあるハードシードルは…まあ…処分したいんだ。もし興味があれば教えてくれないか。
-quest.cider-sink-one.beforechoice	ひどいハードシードルも飲んだことがあるが、これは率直に言って飲めるレベルだと思う。心地よくもある。ビジネスを始めようか？
+quest.cider-sink-one.human1	そうなんです。私の手元にあるハードシードルを…まあ…処分したいんだ。もし興味があれば教えてくれないか。
+quest.cider-sink-one.beforechoice	ひどいハードシードルを飲んだことがありますが、これは率直に言って飲めるレベルだと思います。心地よくもある。ビジネスを始めませんか？
 quest.home-brew-sink-one.name	違法事業：自家製ビール
 quest.home-brew-sink-one.desc	あなたの醸造技術を証明するために、数バッチ分の自家製ビールを納品してください。
 quest.home-brew-sink-one.human1	そうなんだよ。自家製ビールが手に入るので、販売パートナーを探しているんだ。興味がありますか？
@@ -7531,10 +7531,10 @@ quest.neutral-alcohol-source-two.desc	簡単な蒸留器の作り方を友人と
 quest.neutral-alcohol-source-two.beforechoice	それでいいはずだ。かなり簡単なことがわかりましたね？
 quest.neutral-alcohol-source-two.c1	これでよし、爆発しないことを祈るばかりです。
 quest.neutral-alcohol-source-two.afterchoice	確かに。我々も落ち着くべきだな。
-quest.homebooze-sink.npc1	面白い効能のあるリキッドがあなたから手に入るという噂を聞いたことがあります。それは本当なのでしょうか？
-quest.homebooze-sink.npc2	そうかもしれませんね。いくつか壺を持ってきてくれれば、良い物かどうか分かるよ。
-quest.homebooze-sink.human2	わかった。持ってくるから試飲させてくれ。
-quest.homebooze-sink.introending	よかった。彼らと一緒に戻って話そう。
+quest.homebooze-sink.npc1	面白い効能のある飲み物があなたから手に入るという噂を聞いたんだ。それは本当ですか？
+quest.homebooze-sink.npc2	興味あるかもしれません。いくつか壺で持ってきてくれませんか、良いものかどうか確認してみたいんです。
+quest.homebooze-sink.human2	わかった。持ってくるから試飲してみてくれ。
+quest.homebooze-sink.introending	いいね。また戻ってきてくれたときに話しましょう。
 quest.homebooze-sink.c1	ぜひ一緒にビジネスをしていきましょう。
 quest.homebooze-sink.afterchoice	では今後の取引に乾杯。
 quest.sparkling-cider-sink-one.name	違法事業：スパークリングシードル
@@ -7860,11 +7860,11 @@ quest.npc-bootlegger-quest-3.human2	では乾杯。ムーンシャイン製造�
 quest.npc-bootlegger-quest-3.beforechoice	ムーンシャインは準備万端。では、乾杯 また、何か機会があれば教えてください。
 quest.npc-bootlegger-quest-4.npc1	私の顧客は、あなたのムーンシャインを楽しんでいます。かなりね。でも、この辺りでは自家製のハードシードルを欲しがっている人も多いんですよ。もしあなたがハードシードルを作る事業を立ち上げれば、私たち双方にとってかなり有益なものになると確信しています。
 quest.npc-bootlegger-quest-4.human2	では乾杯。ハードシードル製造所を立ち上げてみるよ。
-quest.npc-bootlegger-quest-4.beforechoice	All set with the hard cider. Here's to us， then! I did mention some extra opportunities， so let me know if anything interests you.
+quest.npc-bootlegger-quest-4.beforechoice	ハードシードルは準備万端。では、乾杯 また、何か機会があれば教えてください。
 quest.npc-bootlegger-quest-5.npc1	私の顧客はあなたのブリックワインを楽しんでいます。かなりね。でも、この辺りでは自家製ハードシードルも欲しがっている人が多いんですよ。もし、あなたがハードシードルを作る事業を立ち上げれば、お互いにとってかなり有益なものになると思いますよ。
 quest.npc-bootlegger-quest-6.npc1	私の顧客はあなたのハードシードルを楽しんでいます。かなりね。でも、この辺りでは自家製ブリックワインも欲しがっている人が多いんですよ。もし、あなたがブリックワインを作る事業を立ち上げれば、お互いにとってかなり有益なものになると思いますよ。
-quest.npc-bootlegger-quest-7.npc1	My customers have been enjoying your homemade beer. Quite a bit. But I also have a lot of people around here clamoring for homemade moonshine as well. I'm sure if you set up an operation making moonshine it would be quite profitable for both of us.
-quest.npc-bootlegger-quest-8.npc1	My customers have been enjoying your moonshine. Quite a bit. But I also have a lot of people around here clamoring for homemade beer as well. I'm sure if you set up an operation making homemade beer it would be quite profitable for both of us.
+quest.npc-bootlegger-quest-7.npc1	私の顧客は、あなたの自家製ビールを楽しんでいますよ。かなりね。でもこの辺りでは自家製の密造酒を欲しがっている人も多いんですよ。もしあなたが密造酒を作ったら…お互いにとってかなり有益なものになると思いますよ。
+quest.npc-bootlegger-quest-8.npc1	私の顧客は、あなたの密造酒を楽しんでいますよ。かなりね。でも、この辺りでは自家製ビールを欲しがる人も多いんですよ。自家製ビールを作ればお互いに利益が出るはずだ。
 quest.bootlegger-homebooze-grape-juice.name	充実した関係：ぶどう濃縮物
 quest.bootlegger-homebooze-grape-juice.desc	友人にブリックワイン作りを始めるのを勧められたそうですね。彼らは空の小樽にブドウの濃縮物を入れることができるそうです。
 quest.bootlegger-homebooze-grape-juice.beforechoice	綺麗にしてから入れて、すぐにお届けできるよ。
@@ -8491,7 +8491,7 @@ quest.build-small-garage-bonus-crew.name	自分でやる：構成員
 quest.build-small-garage-bonus-crew.desc	メカニックの友人に現金を渡し、ガレージにオフィスを構えてもらい、構成員のキャパシティを拡大する。
 quest.build-small-garage-bonus-crew.beforechoice	どうやら、新しいメカニックを雇うことになりそうです。
 quest.build-small-garage-bonus-crew.c1	素晴らしい。今度は参加する人を探します。
-;; civic building quests	;; civic building quests
+;; civic building quests	
 quest.train-station-bribe.name	鉄道の仕事
 quest.train-station-bribe.desc	必要な場所に賄賂を支払うために、駅長用の現金を手配する。
 quest.train-station-bribe.beforechoice	とても良いことです。駅構内では何でも手に入るが、あまり欲張らないように慎重になるべきだ。この事業は非常に儲かるだろう。ちょっと書類をまとめないといけないので、後で来てください、また話しましょう。
@@ -8576,10 +8576,10 @@ quest.player-expand-three.c5	誰がラキアを探しているのか、全部教
 quest.player-expand-three.c6	誰がコーンウイスキーを探しているのか、全部教えてくれ。できれば、サンプルも用意してくれ。
 quest.player-expand-three.c7	この街は喉が渇いているのだ。乾いた喉を潤すために、もっとお酒を飲んだらどうでしょう？
 quest.player-expand-three.c8	集めてください、あなたが思いつくものをもらいます。
-quest.player-expand.introending	Of course. Just see me once we've expanded.
+quest.player-expand.introending	もちろんです。拡大したらまた来てね。
 quest.player-expand.beforechoice	街のさらに多くの場所を支配するために、この組織が成長するのを見るのは良いことです。では、どのようにあなたの成長する帝国を支援できるかを話し合いましょう。
 quest.player-expand.afterchoice	この街の未来のために、ビジョンを持つ人のお手伝いができてうれしいです。
-;; staircases for refined booze	;; staircases for refined booze
+;; staircases for refined booze	
 quest.refined-booze-unlock.human1	はい、その通りです。ちょっと見つけたんですが、まだどうしたらいいのかよくわからないんです。
 quest.refined-booze-unlock.npc2	では、1本持ってきてください。うちのお客さんにも試してもらうし、もし合格だったら、あなたが見つけた商品で何かできるかもしれないわ。
 quest.refined-booze-unlock.human2	ええ、できますよ。損をすることはないでしょう？
@@ -8705,13 +8705,13 @@ quest.corn-whiskey-hint-supplies.name	物資の要求：コーンウィスキー
 quest.corn-whiskey-hint-supplies.npc1	コーンウィスキーの運営に必要な物資が足りない？
 quest.corn-whiskey-hint-supplies.introending	素晴らしい。支払いが済んだら、コーンと瓶をお持ちしますよ。
 quest.corn-whiskey-hint-supplies.beforechoice	お約束のコーンとボトルです！
-;; city specific quests: pittsburgh	;; city specific quests: pittsburgh
+;; city specific quests: pittsburgh	
 quest.bottle-rack-build.name	ラックエムアップ
 quest.bottle-rack-build.desc	フロントのオーナーに現金と建設資材を提供する。
 quest.bottle-rack-build.beforechoice	よし、誰かにラックを組み立ててもらい寄付を集めよう。最初の小瓶は1ヶ月くらいで集まるとおもう。
 quest.bottle-rack-build.c1	オッケーです。工事を始めて、地元の人たちに小瓶はここに返すようにと伝えておいてください。あとで第1弾を取りに来るよ。
 quest.bottle-rack-build.afterchoice	それではまた！
-;; city specific quests: Cincinnati	;; city specific quests: Cincinnati
+;; city specific quests: Cincinnati	
 quest.bourbon-unlock.name	ケンタッキー州のスピリッツ
 quest.bourbon-unlock.desc	地元の特産品の需要について教えてほしいという友人のリクエストに応えよう。
 quest.bourbon-unlock.human1	バーボンですか？はい、需要があるのか調べてみたいですね。検討する価値があるかどうか分かるかもしれない。何か手伝えることは？
@@ -8789,19 +8789,19 @@ quest.bourbon-dump-three.human2	彼女を信じるならバーボンを持って
 quest.bourbon-dump-four.name	商魂たくましい
 quest.bourbon-dump-four.npc1	私は新しいチャンスを求めているタイプなんです。あなたもそうだし、信頼できると思うし、バーボンを大量に手に入れられるかもしれない。
 quest.bourbon-dump-four.human2	彼女を信じるならバーボンを持ってくるよ。でももしうまくいかなかったら、あなたが責任を取ることになる、分かったか？
-quest.bourbon-dump-repeat.name	More for Josie
-quest.bourbon-dump-repeat.desc	Keep the bourbon flowing to your friend's now not so secret friend.
-quest.bourbon-dump-repeat.npc1	Josie's connection is still buying bourbon. You still in?
-quest.bourbon-dump-repeat.human1	It's quite lucrative， isn't it? Let's do it.
-quest.bourbon-dump-repeat.npc2	I'll let her know it's coming.
-quest.bourbon-dump-repeat.human2	I'll get the bottles over as soon as I can.
-quest.bourbon-dump-repeat.introending	I know that I can count on you， my friend.
-quest.canada.afterchoice	We Canadians don't get this Prohibition thing， so happy to help fight this inane law.
-quest.canada-access.name	Border Interests
-quest.canada-access.desc	Pay your Canadian friend to help you establish things in Detroit.
-quest.canada-access.beforechoice	That cash should do to get things going over in Windsor.
-quest.canada-access.c1	Since you've got the spare crew capacity， I can get things set up for you right now.
-quest.canada-access.c2	Since you don't have the space to take on another crew member right now， come back when you do and we can get things set up over there.
+quest.bourbon-dump-repeat.name	もっとジョシーと
+quest.bourbon-dump-repeat.desc	今では関係性をそれほど隠していない友達にバーボンを流し続ける。
+quest.bourbon-dump-repeat.npc1	ジョシーのコネでまだバーボン買ってる。まだ必要かな？
+quest.bourbon-dump-repeat.human1	結構儲かるんですね。やりましょう。
+quest.bourbon-dump-repeat.npc2	その旨を伝えておくよ。
+quest.bourbon-dump-repeat.human2	早速ボトルを届けるよ。
+quest.bourbon-dump-repeat.introending	あなたを頼りにしていますよ。
+quest.canada.afterchoice	私たちカナダ人は、この禁酒法というものを理解していないので、この無意味な法律と戦う手助けができてうれしいです。
+quest.canada-access.name	国境の利益
+quest.canada-access.desc	カナダ人の友人にお金を払って、デトロイトで物事を確立するのを手伝ってもらう。
+quest.canada-access.beforechoice	そのお金でウィンザーが元気になるはずだ。
+quest.canada-access.c1	構成員に余裕があるので、今すぐにでも準備することができるよ。
+quest.canada-access.c2	今はまだ構成員を増やすスペースがないので、枠が増えたらまた来てください、その時にまた準備しますよ。
 quest.canada-access-cash.name	国際送金
 quest.canada-access-cash.desc	現金を友人に届けると、オンタリオ州のあなたのビルに届きます。
 quest.canada-access-cash.beforechoice	よし、友よ。それは乗り越えよう。でも旅費がかかるし、お金が無事に届くように、いくらか手数料を払う必要がある。理解してもらえるかな？
@@ -8822,31 +8822,31 @@ quest.canada-transport-repeat.desc	友人が川を渡って密輸している間
 quest.canada-transport-repeat.beforechoice	ありがとうございます。準備が出来たらもっと在庫を送ることが出来ると思います。
 quest.canada-transport-repeat.c1	知っていると思いますが、私たちは必ず借金を返します。
 quest.canada-transport-repeat.afterchoice	長く有益な未来に乾杯。
-quest.canada-homebooze-unlock.name	Word on the Street
-quest.canada-homebooze-unlock.desc	Use some cash to acquire a new source of booze in Canada.
-quest.canada-homebooze-unlock.npc1	Word on the street is that you represent an outfit form over the river that's looking for a Canadian partner.
-quest.canada-homebooze-unlock.human1	Words travel fast on this side of the border. But what if we are?
-quest.canada-homebooze-unlock.npc2	Well， we'd be interested in some wholesale deals and perhaps helping get things over the river. We'd just need some cash to get our first batch together.
-quest.canada-homebooze-unlock.human2	I think I can arrange that. I'll be back with that.
-quest.canada-homebooze-unlock.introending	Looking forward to doing business with your and your American friends.
-quest.canada-quest-complete.name	Canadian Connections
-quest.canada-quest-complete.desc	Pay some cash to a friend of a friend to get more booze to ship north.
-quest.canada-quest-complete.npc1	At a recent family gathering， I heard that you're in the market for more booze to sell north of the River.
-quest.canada-quest-complete.human1	Perhaps you shouldn't listen to gossipy family. But all the same， if that were the case?
-quest.canada-quest-complete.npc2	Then I think we can make some money together. I have good wholesale connections. And since I know you can be trusted， I just need a small amount of cash to get things going.
-quest.canada-quest-complete.human2	Agreed. Maybe I can come to dinner sometime.
-quest.canada-bottling-unlock.name	Wholesale Production
+quest.canada-homebooze-unlock.name	街角の言葉
+quest.canada-homebooze-unlock.desc	現金を使って、カナダで新しいお酒の調達先を確保する。
+quest.canada-homebooze-unlock.npc1	巷の噂では、あなたはカナダでのパートナーを募集している企業の代表者だそうですね。
+quest.canada-homebooze-unlock.human1	言葉は国境のこちら側にもすぐに広まるよ。でも私たちがいる場合はどうなると思う？
+quest.canada-homebooze-unlock.npc2	まあ、卸売りの取引には興味があるし、川を越えるのを手伝うこともできるかもしれない。最初の荷物を用意するのに、いくらか資金が必要なんだ。
+quest.canada-homebooze-unlock.human2	手配できると思う。それを持ってくるよ。
+quest.canada-homebooze-unlock.introending	またアメリカの友人と一緒にビジネスをすることを楽しみにしているよ。
+quest.canada-quest-complete.name	カナダ人との人脈
+quest.canada-quest-complete.desc	友人の友人に現金を支払って、北に出荷するための酒をもっと手に入れる。
+quest.canada-quest-complete.npc1	最近の家族の集まりで、川の北側で売るためにもっと酒を集めていると聞いたよ。
+quest.canada-quest-complete.human1	家族の噂話は聞かない方がいいのかもしれませんね。でももしそうだとしたら？
+quest.canada-quest-complete.npc2	だとすれば一緒にお金を稼ぐことができると思うんです。私は卸売りの良いコネクションを持っています。あなたが信頼できることは分かっていますが、物事を進めるために少額の現金が必要なんだ。
+quest.canada-quest-complete.human2	同意だ。今度食事に行こう。
+quest.canada-bottling-unlock.name	卸売業
 quest.canada-bottling-unlock.desc	カナダのパートナー候補が、あなたの組織にどのようなスキルを提供できるかを調べよう。
-quest.canada-bottling-unlock.npc1	Perhaps you've been moving bottled booze from Canada. Perhaps I know of a better， more profitable way to get booze over the river.
-quest.canada-bottling-unlock.human1	That's a lot of "perhaps."
-quest.canada-bottling-unlock.npc2	Quite right. Let me be blunt. You can get barrels of booze over here. I can show you how to convert those barrels into bottled booze.
-quest.canada-bottling-unlock.human2	OK. I'll assume that you'll want money in exchange. I can do that.
-quest.canada-bottling-unlock.introending	Good. I know we can work together.
-quest.canada-bottling-unlock.beforechoice	So here's everything you'll need to know to set up your own bottling line.
-quest.canada-bottling-unlock.c1	Excellent. Much appreciated.
-quest.canada-bottling-unlock.afterchoice	Good luck with the bottling.
-quest.canada-barrels.name	Barreling Forward
-quest.canada-barrels.desc	See if you can convince a potential Canadian partner to part with barrels of booze.
+quest.canada-bottling-unlock.npc1	おそらくだけど、カナダから瓶入りのお酒を運んでいるんじゃないかな。もっといい方法、もっと儲かる方法を知っているのかもしれないよ。
+quest.canada-bottling-unlock.human1	それは「おそらく」が多いですね。
+quest.canada-bottling-unlock.npc2	全くもってその通りだな。単刀直入に言うと、こっちで樽酒を手に入れることができる。その樽を瓶詰めの酒に変える方法を教えることができるよ。
+quest.canada-bottling-unlock.human2	OK。引き換えに現金を要求するじゃないかな。私はそれでもいいよ。
+quest.canada-bottling-unlock.introending	よかった。私たちは一緒に仕事ができると思うよ。
+quest.canada-bottling-unlock.beforechoice	それでここでは瓶詰ラインを設置するために必要なことを教えるよ。
+quest.canada-bottling-unlock.c1	素晴らしい。とても感謝するよ。
+quest.canada-bottling-unlock.afterchoice	瓶詰めを頑張ってください。
+quest.canada-barrels.name	樽を送る
+quest.canada-barrels.desc	酒樽を譲り受けることができるかどうか、カナダのパートナー候補を説得する。
 quest.canadian-whiskey.name	カナディアン・ウイスキー・カウンシルからのメッセージ
 quest.canadian-whiskey.desc	カナディアン・ウイスキー・カウンシルの支部と契約し、本物のウイスキーを手に入れることができます。
 quest.canadian-whiskey.npc1	デトロイトとここオンタリオでの 君の行動の噂は広がっている。私はカナディアン・ウイスキー協会の支部の者です。私たちはあなたに提案したいことがあります 続けましょうか？
@@ -8857,36 +8857,36 @@ quest.canadian-whiskey.introending	では、それに乾杯しましょう。も
 quest.canadian-whiskey.beforechoice	必要な時に必要なウイスキーをここに用意する。
 quest.canadian-whiskey.c1	ありがとうございました。乾杯
 quest.canadian-whiskey.afterchoice	どういたしまして。ただ、覚えておいてほしい。公式非公式がこの新事業のモットーです。
-quest.imported-booze-favor.name	Bound Together in Common Interest
-quest.imported-booze-favor.desc	Provide some monetary support to a friendly family to garner some profitable favors.
-quest.imported-booze-favor.beforechoice	Thank you. That cash will indeed help us further both our goals and those of our people in this new land!
-quest.imported-booze-favor.c1	And I know that your family knows how to repay favors.
-quest.imported-booze-favor.afterchoice	Anytime， my friend.
-quest.imported-reveal.name	Revealing Opportunities
-quest.imported-reveal.npc1	So， I've heard that you've helped out our family. Word around family gatherings is that you're a good friend to have.
-quest.imported-reveal.human1	Oh yeah? Anything else being tossed around at these family gatherings that we should know about?
-quest.imported-reveal.human2	We'll see. You find out where your countrymen are buying the stuff and then we'll see. Need anything?
-quest.imported-reveal.introending	Well， nothing increases trust like a cash incentive， so a bit of walking around money.
-quest.imported-reveal.c1	Sounds like the start of valuable partnership.
-quest.imported-reveal.afterchoice	Here's hoping， my friend.
+quest.imported-booze-favor.name	共通の利益
+quest.imported-booze-favor.desc	友好的な家族に金銭的支援をして、いくつかの恩義を獲得する。
+quest.imported-booze-favor.beforechoice	ありがとうございます。そのお金はこの新しい土地で、私たちの目標も人々の目標も達成するために、本当に役に立つでしょう
+quest.imported-booze-favor.c1	それにあなたの家族への恩返しの仕方を理解しているよ。
+quest.imported-booze-favor.afterchoice	いつでもどうぞ、私の友人。
+quest.imported-reveal.name	チャンスをつかむ
+quest.imported-reveal.npc1	それで、我が家を助けてくれていると聞いています。家族の集まりでは、あなたは良い友人だと話しているよ。
+quest.imported-reveal.human1	そうなんですか？このような家族の集まりで、私たちが何か知っておくべきことはあるかな？
+quest.imported-reveal.human2	見てみよう。同胞がどこで買っているのか調べてくれないか。何か必要なものは？
+quest.imported-reveal.introending	まあ、現金のインセンティブほど信用を高めるものはありませんから、ちょっとした散歩代くらいにはなるでしょう。
+quest.imported-reveal.c1	貴重なパートナーシップの始まりだ。
+quest.imported-reveal.afterchoice	期待していますよ。
 quest.imported-reveal-canadian.desc	カナダの地域社会との新たなつながりを活かして、有利になる可能性のあるビジネスチャンスについて学ぶ。
-quest.imported-reveal-scottish.desc	Use this newfound connection to the local Scottish community to learn about some potentially lucrative opportunities.
-quest.imported-reveal-caribbean.desc	Use this newfound connection to the local Caribbean community to learn about some potentially lucrative opportunities.
-quest.imported-reveal-irish.desc	Use this newfound connection to the local Irish community to learn about some potentially lucrative opportunities.
-quest.imported-reveal-english.desc	Use this newfound connection to the local English community to learn about some potentially lucrative opportunities.
-quest.imported-reveal-german.desc	Use this newfound connection to the local German community to learn about some potentially lucrative opportunities.
+quest.imported-reveal-scottish.desc	スコットランドの地域社会との新たなつながりを活かして、有利になる可能性のあるビジネスチャンスについて学ぶ。
+quest.imported-reveal-caribbean.desc	カリブ海の地域社会との新たなつながりを活かして、有利になる可能性のあるビジネスチャンスについて学ぶ。
+quest.imported-reveal-irish.desc	アイルランドの地域社会との新たなつながりを活かして、有利になる可能性のあるビジネスチャンスについて学ぶ。
+quest.imported-reveal-english.desc	英国の地域社会との新たなつながりを活かして、有利になる可能性のあるビジネスチャンスについて学ぶ。
+quest.imported-reveal-german.desc	ドイツの地域社会との新たなつながりを活かして、有利になる可能性のあるビジネスチャンスについて学ぶ。
 quest.imported-reveal-canadian.npc2	例えば、カナダのウイスキーを国境を越えて入荷させる方法について線引きしたとしましょう。あなたには流通網がある。カナダ人の仲間からの信頼もある。誰が買うか調べれば もっと話をすすめることができる。
-quest.imported-reveal-scottish.npc2	Let's say that we've got a line on how to get some Scotch whisky to float over. You have the distribution network. We have the trust of our fellow Scots. We can find out who's buying and then we can talk more.
-quest.imported-reveal-caribbean.npc2	Let's say that we've got a line on how to get some Caribbean rum up from the islands. You have the distribution network. We have the trust of our fellow Caribbean compatriots. We can find out who's buying and then we can talk more.
-quest.imported-reveal-irish.npc2	Let's say that we've got a line on how to get some Irish whisky quietly onto boats. You have the distribution network. We have the trust of our Irish kin. We can find out who's buying and then we can talk more.
-quest.imported-reveal-english.npc2	Let's say that we've got a line on how to get some English gin to make its way across the Atlantic. You have the distribution network. We have the trust of our English friends. We can find out who's buying and then we can talk more.
-quest.imported-reveal-german.npc2	Let's say that we've got a line on how to get some German schnapps to arrive in town. You have the distribution network. We have the trust of our fellow Germans. We can find out who's buying and then we can talk more.
+quest.imported-reveal-scottish.npc2	例えば、スコットランドのスコッチウイスキーを国境を越えて入荷させる方法について線引きしたとしましょう。あなたには流通網がある。スコットランド人の仲間からの信頼もある。誰が買うか調べれば もっと話をすすめることができる。
+quest.imported-reveal-caribbean.npc2	例えば、カリブ海のカリビアン・ラムを国境を越えて入荷させる方法について線引きしたとしましょう。あなたには流通網がある。カリブ海の仲間からの信頼もある。誰が買うか調べれば もっと話をすすめることができる。
+quest.imported-reveal-irish.npc2	例えば、アイルランドのアイリッシュ・ウィスキーを国境を越えて入荷させる方法について線引きしたとしましょう。あなたには流通網がある。アイルランド人の仲間からの信頼もある。誰が買うか調べれば もっと話をすすめることができる。
+quest.imported-reveal-english.npc2	例えば、英国のジンを国境を越えて入荷させる方法について線引きしたとしましょう。あなたには流通網がある。英国人の仲間からの信頼もある。誰が買うか調べれば もっと話をすすめることができる。
+quest.imported-reveal-german.npc2	例えば、ドイツのジャーマン・シュナップスを国境を越えて入荷させる方法について線引きしたとしましょう。あなたには流通網がある。ドイツ人の仲間からの信頼もある。誰が買うか調べれば もっと話をすすめることができる。
 quest.imported-reveal-canadian.beforechoice	カナダ人とのネットワークを駆使して、街で本物のカナディアンウイスキーを売っている店をほとんど見つけ出した。いつかまた来てくれたら、北の大地からウイスキーを取り寄せる話をしよう。
-quest.imported-reveal-scottish.beforechoice	Worked our network of fellow Scots and found most of the places in town that sell real Scotch whisky on the sly. Come back at some point and we'll talk about getting some shipped over from the Highlands.
-quest.imported-reveal-caribbean.beforechoice	Worked our network of friends from our sunny home islands and found most of the places in town that sell real Caribbean rum on the sly. Come back at some point and we'll talk about getting to arrive in crates marked "SUGAR".
-quest.imported-reveal-irish.beforechoice	Worked our network of Irish compatriots and found most of the places in town that sell real Irish whisky on the sly. Come back at some point and we'll talk about getting some brought over.
-quest.imported-reveal-english.beforechoice	Worked our network of English friends and found most of the places in town that sell real English gin on the sly. Come back at some point and we'll talk about getting to arrive on an upcoming crossing.
-quest.imported-reveal-german.beforechoice	Worked our network of fellow Germans and found most of the places in town that sell real schnapps on the sly. Come back at some point and we'll talk about securing a few cases at our earliest convenience.
+quest.imported-reveal-scottish.beforechoice	スコットランド人とのネットワークを駆使して、街で本物のスコッチウイスキーを売っている店をほとんど見つけ出した。またそのうち来てくれたら、北の大地から取り寄せる話をしよう。
+quest.imported-reveal-caribbean.beforechoice	太陽の降り注ぐ故郷の島の友人たちのネットワークを駆使して、街で本物のカリビアンラム酒をこっそり売っている店をたくさん見つけたのです。またいつか来てください。「SUGAR」と書かれた木箱で届くように話をしましょう。
+quest.imported-reveal-irish.beforechoice	アイルランド人のネットワークを駆使して、街で本物のアイリッシュウイスキーをこっそり売っている店のほとんどを見つけたんだ。いつかまた来てください、取り寄せる話をしよう。
+quest.imported-reveal-english.beforechoice	英国人の友人たちのネットワークを駆使して、街で本物のイングリッシュジンを売っている店のほとんどを見つけたんだ。またいつか来てください。今度の横断で取り寄せるように話をしましょう。
+quest.imported-reveal-german.beforechoice	ドイツ人のネットワークを駆使して、街で本物のシュナップスをこっそり売っている店をほとんど見つけ出した。いつかまた来てくれ、早いうちに数ケースを確保することを話し合っておこう。
 quest.imported-acquire.name	インポート/エクスポート
 quest.imported-acquire.npc1	だから、さっきも言ったように、本国から私たちに代わって分配できる価値のある物資を確保することができるんです。
 quest.imported-acquire.human1	聞きますよ。話してくれ。
@@ -8894,57 +8894,57 @@ quest.imported-acquire.introending	もちろんです。本国での詳細が決
 quest.imported-acquire.c1	いよいよ本番を迎えるのが楽しみだ。
 quest.imported-acquire.afterchoice	同意見です。みんな準備万端だよ。
 quest.imported-acquire-canadian.desc	あなたとあなたの新しいパートナーがカナディアンウイスキーの輸入を開始できるよう、国境の北にあるネットワークに投資する。
-quest.imported-acquire-scottish.desc	Invest in a network around Scotland that will allow you and your new partners to begin importing Scotch whisky.
-quest.imported-acquire-caribbean.desc	Invest in a network scattered about the Caribbean that will allow you and your new partners to begin importing Caribbean rum.
-quest.imported-acquire-irish.desc	Invest in a network of connections in Ireland that will allow you and your new partners to begin importing Irish whisky.
-quest.imported-acquire-english.desc	Invest in a network of English dock workers that will allow you and your new partners to begin importing English gin.
-quest.imported-acquire-german.desc	Invest in a network throughout Germany that will allow you and your new partners to begin importing German schnapps.
+quest.imported-acquire-scottish.desc	あなたの新しいパートナーがスコッチウイスキーの輸入を開始できるよう、スコットランド周辺にあるネットワークに投資する。
+quest.imported-acquire-caribbean.desc	あなたの新しいパートナーがカリビアンラムの輸入を開始できるよう、カリブ海周辺にあるネットワークに投資する。
+quest.imported-acquire-irish.desc	あなたの新しいパートナーがアイリッシュウイスキーの輸入を開始できるよう、アイルランド周辺にあるネットワークに投資する。
+quest.imported-acquire-english.desc	イギリスの港湾労働者のネットワークに投資し、あなたの新しいパートナーがイギリスのジンの輸入を開始できるようする。
+quest.imported-acquire-german.desc	ドイツ全土のネットワークに投資し、あなたの新しいパートナーがドイツのシュナップスの輸入を開始できるようする。
 quest.imported-acquire-canadian.npc2	カナダにいる私の家族がすべての手配をします。ただ、国境の両側に基地を設置するための資金が少し必要なんだ。
-quest.imported-acquire-scottish.npc2	My family back in Scotland will make all the arrangements. We just need a bit of cash to make sure that the authorities on the docks are incentivized to look away at the right moment.
-quest.imported-acquire-caribbean.npc2	My family back in the Islands will make all the arrangements. We just need a bit of cash to get people to the right desolate beach with trucks on the right dark evening.
-quest.imported-acquire-irish.npc2	My family back in Ireland will make all the arrangements. We just need a bit of cash to make sure that the authorities on the docks are incentivized to look away at the right moment.
-quest.imported-acquire-english.npc2	My family back in England will make all the arrangements. We just need a bit of cash to make sure that the authorities on the docks are incentivized to look away at the right moment.
-quest.imported-acquire-german.npc2	My family back in Germany will make all the arrangements. We just need a bit of cash to make sure that the authorities on the docks are incentivized to look away at the right moment.
+quest.imported-acquire-scottish.npc2	スコットランドにいる私の家族がすべての手配をしてくれます。ただ、港にいる組合の目を適切なタイミングで目をそらすように、少しばかり現金が必要なんだ。
+quest.imported-acquire-caribbean.npc2	島にいる私の家族がすべての手配をしてくれるよ。ただ、暗い夜にトラックで人を集めて、荒涼としたビーチに行くためは資金が少し必要なんだ。
+quest.imported-acquire-irish.npc2	アイルランドにいる私の家族がすべて手配してくれます。ただ、波止場の組合が適切なタイミングで目をそらすようにするため、少しばかり資金が必要なんだ。
+quest.imported-acquire-english.npc2	英国にいる私の家族がすべての手配をしてくれます。ただ、港にいる組合の目を適切なタイミングで目をそらすように、少しばかり現金が必要なんだ。
+quest.imported-acquire-german.npc2	ドイツにいる私の家族がすべての手配をしてくれます。ただ、港にいる組合の目を適切なタイミングで目をそらすように、少しばかり現金が必要なんだ。
 quest.imported-acquire-canadian.human2	そして、実際にカナディアンウイスキーを持ち込む話をするのですか？
-quest.imported-acquire-scottish.human2	And then we can talk about actually brining in the Scotch whisky?
-quest.imported-acquire-caribbean.human2	And then we can talk about actually brining in the Caribbean rum?
-quest.imported-acquire-irish.human2	And then we can talk about actually brining in the Irish whisky?
-quest.imported-acquire-english.human2	And then we can talk about actually brining in the English gin?
-quest.imported-acquire-german.human2	And then we can talk about actually brining in the German schnapps?
+quest.imported-acquire-scottish.human2	それで実際にスコッチウィスキーを輸送する話をしますか？
+quest.imported-acquire-caribbean.human2	それで実際にカリビアン・ラムを輸送する話をしますか？
+quest.imported-acquire-irish.human2	それで実際にアイリッシュウイスキーを輸送する話をしますか？
+quest.imported-acquire-english.human2	それで実際にイングリッシュ・ジンを輸送する話をしますか？
+quest.imported-acquire-german.human2	それで実際にジャーマン・シュナップスを輸送する話をしますか？
 quest.imported-acquire-canadian.beforechoice	良いニュースです。カナダですべてが決まりました。近いうちにまた来て、最初の出荷の話をしよう。
-quest.imported-acquire-scottish.beforechoice	Good news. Everything's set in Scotland. Come back soon and we'll talk about our first shipment.
-quest.imported-acquire-caribbean.beforechoice	Good news. Everything's set with our Caribbean fisherman friends. Come back soon and we'll talk about our first shipment.
-quest.imported-acquire-irish.beforechoice	Good news. Everything's set in Ireland. Come back soon and we'll talk about our first shipment.
-quest.imported-acquire-english.beforechoice	Good news. Everything's set in England. Come back soon and we'll talk about our first shipment.
-quest.imported-acquire-german.beforechoice	Good news. Everything's set in Germany. Come back soon and we'll talk about our first shipment.
-quest.build-first-casino.name	Boardwalk Ventures
-quest.build-first-casino.desc	Build up a cash reserve to go into the casino business in Atlantic City.
+quest.imported-acquire-scottish.beforechoice	良いニュースです。スコットランドですべてが決まりました。近いうちにまた来て、最初の出荷の話をしよう。
+quest.imported-acquire-caribbean.beforechoice	良いニュースです。カリブ海の漁師の友人とすべてが決まりました。近いうちにまた来て、最初の出荷の話をしよう。
+quest.imported-acquire-irish.beforechoice	良いニュースです。アイルランドですべてが決まりました。近いうちにまた来て、最初の出荷の話をしよう。
+quest.imported-acquire-english.beforechoice	良いニュースです。英国ですべてが決まりました。近いうちにまた来て、最初の出荷の話をしよう。
+quest.imported-acquire-german.beforechoice	良いニュースです。ドイツですべてが決まりました。近いうちにまた来て、最初の出荷の話をしよう。
+quest.build-first-casino.name	ボードウォークのベンチャー
+quest.build-first-casino.desc	アトランティックシティでカジノ事業に参入するために、資金を蓄える。
 quest.build-first-casino.npc1	私たちの美しい街は観光客たちにとても人気があり、大勢の人が訪れているのです。私たちは、彼らから金を吸い上げる方法を考えるべきだと思うのです。賭博とかね。
 quest.build-first-casino.human1	私もそう思います。何らかの提携を考えていたのでしょうか？
-quest.build-first-casino.npc2	I can get the family together and we can invest as a family with you. I just need you to show us that your organization has the cash on hand to get things started and then we can talk.
-quest.build-first-casino.human2	OK - we'll start putting money aside and then I'll be back and we can discuss that investment.
-quest.build-first-casino.introending	I'll start teasing out who's interested in this and see you then!
-quest.build-first-casino.beforechoice	Ah， so I see that you've got some initial seed money put aside for a casino. Excellent.
-quest.build-first-casino.c1	Yeah， but I think I've decided that I'm just going to take that investment from the family as a donation. 
-quest.build-first-casino.c2	Yes， I think we're all set to start building a casino. I'll be back once it's done and we'll talk about that investment then.
-quest.build-first-casino.afterchoice	OK. The family trusts your decisions.
-quest.build-first-casino-bonus.name	Casino Construction
-quest.build-first-casino-bonus.desc	Build a casino and collect on the investment that your family has been setting aside for you.
+quest.build-first-casino.npc2	家族を集めて、あなたと一緒に投資することができます。ただ、あなたの組織が物事を始めるための現金を持っていることを示す必要があるんだ、話はそれからです。
+quest.build-first-casino.human2	OK、お金を貯めたらまた戻ってくるよ、その投資について話し合おう。
+quest.build-first-casino.introending	誰が興味を持っているのか吟味し始めますので、その時はお願いするよ！
+quest.build-first-casino.beforechoice	なるほど、カジノをやるための最初の資金は確保されているんですね。素晴らしい。
+quest.build-first-casino.c1	ああ、でも家族からの投資を寄付として受け取ることにしたと思うんだが。
+quest.build-first-casino.c2	そうですね、カジノ建設に着手する準備は万端だと思います。完成したらまた戻ってきますので、その時に投資の話をしましょう。
+quest.build-first-casino.afterchoice	OKです。家族はあなたの決断を信頼しているよ。
+quest.build-first-casino-bonus.name	カジノ建設
+quest.build-first-casino-bonus.desc	カジノを建設し、家族があなたのために用意した投資を回収する。
 quest.build-first-casino-bonus.beforechoice	あなたの組織と私たち家族の、ここアトランティックシティでの新しい賭博帝国の、素晴らしい始まりです。
-quest.build-first-casino-bonus.c1	Thank you. Now about that investment you've been making so much of...
-quest.amenity-upgrades.name	Family Visits
+quest.build-first-casino-bonus.c1	ありがとうございました。それで前から言っていた投資の件なんだけど…
+quest.amenity-upgrades.name	家族の訪問
 quest.amenity-upgrades.desc	コネを利用して、あなたの賭博事業に新しい出し物を追加する技術を獲得する。
 quest.amenity-upgrades.npc1	親戚があなたが運営する賭博場でとても楽しませてもらったことがあり、そのときの経験から、もう少し賭け金を上げてはどうかと考えていました。
-quest.amenity-upgrades.human1	How so?
+quest.amenity-upgrades.human1	どうして？
 quest.amenity-upgrades.npc2	まあ、便利なコネがあるのはあなただけではないと言っておきましょう。あなたの賭博事業についてはよく知ってるので、私たちの知識をお伝えして、借りをお返しできれば幸いです。
-quest.amenity-upgrades.human2	Agreed. And I assume that your connections will want paid. I'll be back with that.
-quest.amenity-upgrades.introending	Glad we're on the same page.
-quest.amenity-upgrades.beforechoice	What interests you， then?
-quest.amenity-upgrades.c1	I'd like to start adding plush， luxury furnishings to attract from a more discerning and lucrative level of clientele.
-quest.amenity-upgrades.c2	I'd like to add to the extras that I offer my gamblers. A bar or something like that.
-quest.amenity-upgrades.c3	What really makes the difference is staffing and their attention to detail. I'd like to improve those aspects.
-quest.amenity-upgrades.c4	Well， it appears that you didn't owe me favor after all. I guess you do now.
-quest.amenity-upgrades.afterchoice	Looking forward to visiting your gaming establishment myself doon. Until then!
+quest.amenity-upgrades.human2	同意見です。そして、あなたのコネクションが支払いを要求することも想定しています。それについては、また後日。
+quest.amenity-upgrades.introending	同じ意見で良かったよ。
+quest.amenity-upgrades.beforechoice	では、何に興味があるんだ？
+quest.amenity-upgrades.c1	今後は、より目の肥えた、より儲かる客層を取り込むために、豪華な調度品を揃えていきたいと思っています。
+quest.amenity-upgrades.c2	ギャンブラーに提供するサービスを追加したいんだ。バーとかそういうの。
+quest.amenity-upgrades.c3	本当に差が出るのは、スタッフの対応と細部へのこだわりです。そのあたりを改善していきたいですね。
+quest.amenity-upgrades.c4	どうやら恩を仇で返されたわけではなさそうだ。今はそうなんだろうけど。
+quest.amenity-upgrades.afterchoice	私もそこのゲーム施設を訪れるのを楽しみにしています。ではまた。
 newspaper-headline.murder	暴力が街を覆う！{cornername}に警察来襲
 newspaper-headline.outfitboss	裏社会に激震！ {bossname}が{groupname}の手綱を握る
 newspaper-headline.outfitgone	{groupname}がライバルに敗退！暴力団が街を震撼させる
@@ -8955,47 +8955,47 @@ newspaper-headline.release-paidoff	正義の茶番劇! 消えた証拠が有名�
 newspaper-headline.startprison	正義の鉄槌が下される! 有名な密造者{crewname}は懲役{years}年を得る。
 newspaper-headline.endprison	社会への負債を返済。有名な密輸業者{crewname}が{years}年後に釈放された。
 newspaper-headline.prohibition-ends	ついに禁酒法終了！14年間の禁酒時代が今日終わる
-newspaper-general	Flapper Craze Sweeps The Nation: Bobbed Hair The Hot New Look For The Summer
+newspaper-general	フラッパークレイズが国を席巻：ボブヘア夏のホットなニュールック
 newspaper-chicago	"クック郡に衝撃を与えた新裁判、「彼は私にナイフに突っさしてきた！10回も！」"" 殺人犯の主張"
-newspaper-pittsburgh	Mayor Dedicates Yet Another Bridge
-newspaper-dated-general.1920	A Talking Devil Box! First Radio Station Opens
-newspaper-dated-general.1921	New Electric Hair Dryer Blows Into Stores
-newspaper-dated-general.1922	Get Dragged Behind A Boat And Enjoy It - The Strange New Fad of Water Skiing
-newspaper-dated-general.1923	Smile! Instant Camera With Self-Developing Film Coming Soon
-newspaper-dated-general.1924	Culinary Breakthrough: Cheese Melts On Ground Beef Patty
-newspaper-dated-general.1925	Corny Reuben Sandwich Craze Causes Sauerkraut Shortage Pickle
-newspaper-dated-general.1926	Self-Rising Garage Door Wows Consumers
-newspaper-dated-general.1927	Automatic Bread Slicer Cuts Into Knife Market
-newspaper-dated-general.1928	Barbers Facing Competition From New Electric Shavers
-newspaper-dated-general.1929	Stop Squinting! New Sunglasses All The Rage
-newspaper-dated-pittsburgh.1920	KDKA Opens - America's First Radio Station
-newspaper-dated-chicago.1922	'The Flapper': New Magazine Celebrates Contemporary Fashion
-newspaper-dated-chicago.1927	The Miracle of Flight! Municipal Airport Opens 
+newspaper-pittsburgh	市長が新たな橋を寄贈
+newspaper-dated-general.1920	しゃべる悪魔の箱！初のラジオ局開局
+newspaper-dated-general.1921	新型電気ヘアドライヤーが店頭に登場
+newspaper-dated-general.1922	ボートの後ろに引きずり込まれて楽しむ - 水上スキーの奇妙な流行
+newspaper-dated-general.1923	スマイル！ 自己現像フィルム付きインスタントカメラが間もなく登場
+newspaper-dated-general.1924	料理の飛躍的進歩：牛ひき肉のパテにチーズが溶ける
+newspaper-dated-general.1925	ザウアークラウト不足の原因となるコーニー・ルーベン・サンドイッチの流行 ピクルス
+newspaper-dated-general.1926	消費者を驚かせた自動上昇式ガレージドア
+newspaper-dated-general.1927	自動パンスライサーがナイフ市場に参入
+newspaper-dated-general.1928	電気シェーバーとの競争に直面する理容師たち
+newspaper-dated-general.1929	目を細めるのはやめろ！ 話題の新型サングラス
+newspaper-dated-pittsburgh.1920	アメリカ初のラジオ局「KDKA」が開局
+newspaper-dated-chicago.1922	フラッパー：現代ファッションを紹介する新雑誌
+newspaper-dated-chicago.1927	飛行の奇跡！ 市営空港がオープン
 newspaper-dated-chicago.1925	シカゴ・カージナルスは、論争の中で優勝を勝ち取った。
 newspaper-dated-chicago.1930	世界最大のビル マーチャンダイズ・マート」がオープン
-newspaper-seq-general-elephant.1	Elephant Reported Missing From Circus Train
-newspaper-seq-general-elephant.2	Elephant Footprints Found In Local School Yard
-newspaper-seq-general-elephant.3	Editorial: Our Police Can't Even Find An Elephant
-newspaper-seq-general-elephant.4	Police Redouble Search As Elephant Fever Grips Locals
-newspaper-seq-general-elephant.5	Exclusive: Missing Elephant An Elaborate Insurance Hoax
-newspaper-seq-general-elephant.6	Greatest Sham On Earth: Circus Boss Admits To Fake Elephant
-newspaper-seq-chicago-barrel.1	Body Found In Floating Barrel Near Wolf Point
-newspaper-seq-chicago-barrel.2	Barrel Body Update: Victim Identified As Jimmy "The Rose" Conner， Known Gang Associate
-newspaper-seq-chicago-barrel.3	Police Report: Jimmy "The Rose" Conner's River Death Ruled Suicide
-newspaper-seq-chicago-barrel.4	Judge Questions Police Report: "He Sealed Himself in a Barrel and Threw Himself in the River?"
-newspaper-seq-chicago-barrel.5	Judge Investigating Conner Suicide Found Dead
-newspaper-seq-chicago-barrel.6	Judge Investigating Conner Suicide Gets Run Over By His Own Car， Twice; Death Ruled Accidental
-newspaper-seq-chicago-whiskey.1	Canadian Lumber Company Investigated For Shipping Whiskey Along With Logs
+newspaper-seq-general-elephant.1	サーカスの列車からゾウが消えたと報告される
+newspaper-seq-general-elephant.2	ゾウの足跡が学校の校庭で発見される
+newspaper-seq-general-elephant.3	社説：私たちの警察は象さえ見つけることができません
+newspaper-seq-general-elephant.4	ゾウへの関心が高まり、警察が捜索を強化
+newspaper-seq-general-elephant.5	独占取材：象が行方不明になったのは保険金目当ての巧妙ないたずらだった
+newspaper-seq-general-elephant.6	地球上で最も偉大な詐欺師：サーカスの団長、象の偽物を認める
+newspaper-seq-chicago-barrel.1	ウルフポイント付近で浮き樽の中に遺体が発見される
+newspaper-seq-chicago-barrel.2	"浮き樽の遺体情報更新：被害者はジミー・""ローズ""・コナー、ギャングの仲間であることが判明"
+newspaper-seq-chicago-barrel.3	"警察の報告書：ジミー・""ザ・ローズ""・コナーの川での死は自殺と断定される"
+newspaper-seq-chicago-barrel.4	"裁判官が警察の報告書を疑問視：""彼は樽に自分を封じ込め、川に身を投げたのか？"""
+newspaper-seq-chicago-barrel.5	コナー自殺を捜査していた判事が死体で発見される
+newspaper-seq-chicago-barrel.6	コナー自殺を調査していた判事が自分の車に2度轢かれ、事故死と判定される。
+newspaper-seq-chicago-whiskey.1	カナダの製材会社が丸太と一緒にウイスキーを出荷していると調査される
 newspaper-seq-chicago-whiskey.2	夜間の密造酒撲滅作戦で木材出荷船の沈没事故が発生
-newspaper-seq-chicago-whiskey.3	Breaking: Bottles Of Whiskey Wash Up On Lake Michigan Beaches; Source A Mystery
-newspaper-seq-chicago-whiskey.4	Day 7 Of Booze Beach: Locals Encouraged To Turn In Whiskey From Canadian Lumber Barge
-newspaper-seq-chicago-whiskey.5	Residents Comb Beaches For Shipwrecked Whiskey; None Turned In To Authorities
-newspaper-seq-pittsburgh-boss.1	Mob Murder: Bloomfield Crime Boss Found Face Down In Pasta Bowl
-newspaper-seq-pittsburgh-boss.2	Bloomfield Pasta Murder Twist: Did Mobster's Daughter Arrange For Hit?
-newspaper-seq-pittsburgh-boss.3	Murdered Bloomfield Boss Was On Police Payroll
-newspaper-seq-pittsburgh-boss.4	Late Crime Boss' Daughter To Police: "Stay Out. This Is My Neighborhood Now"
-newspaper-seq-pittsburgh-boss.5	Chief of Police: "We Enforce The Law - Even in Bloomfield"
-newspaper-seq-pittsburgh-boss.6	Police Chief Out After Feds Find Cops Running Booze in Bloomfield
+newspaper-seq-chicago-whiskey.3	速報：ミシガン湖の海岸にウイスキーのボトルが打ち上げられ、その出所は謎に包まれている。
+newspaper-seq-chicago-whiskey.4	密造酒ビーチの7日目：カナダの木材運搬船からウイスキーを引き取るよう地元住民に呼びかける
+newspaper-seq-chicago-whiskey.5	難破したウイスキーを海岸で探す住民たち、誰も当局に引き渡さず
+newspaper-seq-pittsburgh-boss.1	マフィア殺人事件：ブルームフィールドの犯罪組織のボスがパスタボウルに顔を埋めているのが発見された。
+newspaper-seq-pittsburgh-boss.2	ブルームフィールドパスタ殺人事件：マフィアの娘が暗殺を手配？
+newspaper-seq-pittsburgh-boss.3	ブルームフィールドで殺害された上司は警察の給与支払者であった
+newspaper-seq-pittsburgh-boss.4	犯罪組織のボスの娘から警察へ：「出ていけ。ここはもう私の縄張りだ。」
+newspaper-seq-pittsburgh-boss.5	警察署長：「我々は法を執行する-ブルームフィールドでさえも。」
+newspaper-seq-pittsburgh-boss.6	ブルームフィールドで酒を売っている警官を連邦警察が発見し、警察署長が辞職した。
 announce.steam	City of Gangstersをお楽しみいただいていますか？もしそうなら、Steamでレビューを書いてください。まだまだ1920年代アクションは続きますし、すべてのレビューが私たち小さな会社にとって大きな意味を持ちます。
 announce.button-steam	<sprite name="ui check"> もちろん、あなたの組織のお役に立ちたいと思います。
 announce.button-close	<sprite name="ui clock"> 後でね。組織を運営することになったんだ！
@@ -9055,14 +9055,14 @@ amenity.slot-machines.icon	<sprite name="amenity slot machines">
 amenity.slot-machines.name	スロットマシン
 amenity.slot-machines.desc	ペニースロットマシンをはじめとする機械式アミューズメント。これはひどい確率で小銭を賭ける小額プレーヤーから、安定した収入を得ることができます。\n\n<i>少額の賭け事で、近隣から多くの飛び込み客が集まり時々ベットする</i>
 amenity.policy-game.icon	<sprite name="amenity numbers game">
-amenity.policy-game.name	Policy Shop
-amenity.policy-game.desc	Collects bets on numbers drawn from a spinning policy wheel. The manufacturer denies any rumors that the wheel is outfitted with weights and magnets to rig the results.\n\n<i>This low-stakes feature draws in many walk-in players from nearby houses to place occasional bets.</i>
+amenity.policy-game.name	抽選クジショップ
+amenity.policy-game.desc	回転するポリシーホイールから抽選された数字に賭けるベットを回収する。メーカーは、このホイールに重りや磁石を取り付け、結果を不正に操作しているという噂を一切否定している。\n\n<i>このローステークスには、近隣の住宅から多くの飛び込み客が集まり時々ベットする</i>
 amenity.bookmaker.icon	<sprite name="amenity sports betting">
-amenity.bookmaker.name	Bookmaking
-amenity.bookmaker.desc	Simple game where players bet on the outcome of daily racetrack results. The game is hard to fix， so the house makes up for it by setting a really high edge given the odds.\n\n<i>This feature attracts nearby regulars to take a seat and play for a while.</i>
+amenity.bookmaker.name	馬券予想
+amenity.bookmaker.desc	毎日の競馬場の結果を予想して賭けるシンプルなゲーム。このゲームは修正が難しいので、ハウスはオッズを考えると実に高い掛け金を設定することでそれを補っている。\n\n<i>この機能により、近くの常連さんが席を取ってしばらく遊んでくれるようになります</i>
 amenity.poker-game.icon	<sprite name="amenity card game">
-amenity.poker-game.name	Poker Game
-amenity.poker-game.desc	High stakes poker table where players compete against each other for cash. You sponsor the table， so you get a nice percentage of the winnings， regardless of the results.\n\n<i>These games attract regulars who play competitively. Low risk and potentially higher reward.</i>
+amenity.poker-game.name	ポーカーゲーム
+amenity.poker-game.desc	プレイヤー同士が現金を賭けて競い合う高額ポーカーテーブル。テーブルのスポンサーになると、結果に関係なく、賞金の何割かを受け取ることができます。\n\n<i>これらのゲームには、競ってプレイする常連客が集まる。ローリスクでハイリターンの可能性あり</i>
 amenity.bar-small.icon	<sprite name="amenity bar">
 amenity.bar-small.name	小さなバー
 amenity.bar-small.desc	ゲームの合間に気軽に立ち寄れるバー。それ自体は儲からないが、客が他の賭博でもう少しお金を使おうという気にさせることができる。\n<i>この出し物は他の出し物のパフォーマンスが向上させる。</i>\n
@@ -9074,72 +9074,72 @@ amenity.faro-parlor.name	ファロ・パーラー
 amenity.faro-parlor.desc	昔々、ファロはこの国で最も人気のあるゲームだった。どこでも、誰にでもできるゲームだった。家にとっては何のデメリットもなく、誰も勝つことができないので、地元の人たちからお金を巻き上げるにはもってこいのゲームだ。なるほど。なぜ人気がなくなったのか不思議だな。\n\n<i>このローステークス機能は、近隣の住宅から多くのウォークインプレイヤーを引き寄せ、時折賭けを行われる。</i>
 amenity.high-stakes-slots.icon	<sprite name="amenity slot machines">
 amenity.high-stakes-slots.name	大型ジャックポットスロットマシン
-amenity.high-stakes-slots.desc	In Atlantic City， with the right connections， you can get your hands on some cutting edge gaming technology. Once up and running， chances are slim that someone will ever win that jackpot. But it happens enough to keep everyone hopeful.\n\n<i>This low-stakes feature draws in many walk-in players from nearby houses to place occasional bets.</i>
+amenity.high-stakes-slots.desc	アトランティックシティでは、コネクションがあれば、最先端のゲーム技術を手に入れることができる。一旦稼働すれば、誰かがジャックポットを獲得する可能性は低い。だが希望を持つには十分な出来事だ。\n\n<i>このローステークスには、近隣の住宅から多くの飛び込み客が集まり時々ベットする</i>
 amenity.card-tables.icon	<sprite name="amenity card game">
-amenity.card-tables.name	Card Tables
-amenity.card-tables.desc	It's easy enough to set up a few card tables and get some games going. They'll provide seats for a few regulars， but the income will be spotty. All the same， it's good way to get some locals on the hook.\n\n<i>This feature attracts nearby regulars to take a seat and play for a while.</i>
+amenity.card-tables.name	カードテーブル
+amenity.card-tables.desc	カードテーブルをいくつか置いて、ゲームをするのは簡単だ。数人の常連客に席を提供することになるが、収入は微々たるものである。とはいえ地元の人たちを釣るにはいい方法だ。\n\n<i>これにより近くの常連さんが席を取ってしばらく遊んでくれるようになります</i>
 amenity.otb-parlor.icon	<sprite name="amenity sports betting">
-amenity.otb-parlor.name	Off Track Betting Club
-amenity.otb-parlor.desc	With the right connections to the right people at the telegraph office， you can build a swanky club where high-rollers and lovers of the ponies can bet on races not only in New Jersey， but all over the East Coast and beyond.\n\n<i>This feature attracts nearby regulars to take a seat and play for a while.</i>
+amenity.otb-parlor.name	場外馬券購入クラブ
+amenity.otb-parlor.desc	電信局に適切な人脈があれば、大金持ちや馬券好きがニュージャージー州だけでなく東海岸全域のレースに賭けることができる、洒落たクラブを作ることができるのです。\n\n<i>これにより近くの常連さんが席を取ってしばらく遊んでくれるようになりました。</i>
 amenity.blackjack-tables.icon	<sprite name="amenity card game">
-amenity.blackjack-tables.name	Blackjack Tables
-amenity.blackjack-tables.desc	Ensured that you can handle the profits， you can upgrade your card tables to start dealing blackjack. You'll hook more regulars and make more money. Just watch out for shifty card counters.\n\n<i>This feature attracts nearby regulars to take a seat and play for a while.</i>
+amenity.blackjack-tables.name	ブラックジャックテーブル
+amenity.blackjack-tables.desc	収益が上がれば、カードテーブルをアップグレードして、ブラックジャックのディーリングができるようになります。常連客が増えて、儲けも増える。ただし、うさんくさいカードカウンターには気をつけましょう。\n\n<i>これにより近くの常連さんが席を取ってしばらく遊んでくれるようになります</i>
 amenity.table-games.icon	<sprite name="amenity table game">
-amenity.table-games.name	Small Table Games
+amenity.table-games.name	小さなテーブルゲーム
 amenity.table-games.desc	サイコロやカードなど、ギミックを駆使した最新のギャンブルで人々を魅了する。これらは常連客にとっては有益となるが、賭博場への悪影響は生じない。\n\n<i>この出し物により近隣の常連客が席を取って遊ぶ様になる。</i>
 amenity.roulette-wheels.icon	<sprite name="amenity table game">
-amenity.roulette-wheels.name	Roulette Wheels
-amenity.roulette-wheels.desc	The clank of the ball. The spin of the wheel. The cries of despair at the loss. Ah. Music to a pit boss' ears.\n\n<i>This feature attracts nearby regulars to take a seat and play for a while.</i>
+amenity.roulette-wheels.name	ルーレット盤
+amenity.roulette-wheels.desc	ボールのカチャカチャ音。車輪の回転。負けた時の絶望の叫び。ああ、ピットボスの耳には音楽が流れる。\n\n<i>これにより近隣の常連客が席を取って遊ぶ様になる</i>
 amenity.high-rollers-parlor.icon	<sprite name="amenity table game">
-amenity.high-rollers-parlor.name	High Rollers Salon
-amenity.high-rollers-parlor.desc	Now that you've got yourself on that mysterious list for the high-rollers junket， built a salon with the highest end finishes， the most well dressed dealers and croupiers and， of course， the best food and drink. Your casino will be talked about from coast to coast.\n\n<i>This feature attracts nearby regulars to take a seat and play for a while.</i>
+amenity.high-rollers-parlor.name	ハイローラー・サロン
+amenity.high-rollers-parlor.desc	このように、あなたは大物投資家のための神秘的なリストに名を連ねています。最高級の仕上げを施したサロン、最も着飾ったディーラーやクルーピアー、そしてもちろん最高の食事と飲み物。あなたのカジノは全米で話題になることだろう。\n\n<i>これにより近隣の常連客が席を取って遊ぶ様になる</i>
 amenity.dice-game.icon	<sprite name="amenity table game">
-amenity.dice-game.name	Dice Games
-amenity.dice-game.desc	Player compete against one another. They'll win. They'll lose. But no matter what， you'll get your cut. And a few of them will come crawling to your pit boss begging for a loan to cover their losses. And that's where things get interesting.\n\n<i>These games attract regulars who play competitively. Low risk and potentially higher reward.</i>
+amenity.dice-game.name	ダイスゲーム
+amenity.dice-game.desc	プレイヤー同士が競い合う。彼らは勝つでしょう。負けることもある。でも、何があっても、自分の取り分は確保する。そして、そのうちの何人かは、あなたのボスのところにやってきて、損失を補填するための融資を懇願するだろう。そこが面白いところだ。\n\n<i>これらのゲームには、競ってプレイする常連客がいる。ローリスクでハイリターンの可能性</i>
 amenity.baccarat-salon.icon	<sprite name="amenity card game">
-amenity.baccarat-salon.name	Baccarat Salon
-amenity.baccarat-salon.desc	Strange European game that has taken hold among the elite of high rollers. There are cards and exotic French words. Players compete against one another for very high stakes. Then you take a percentage to keep things on the up and up. Eventually one of these high rollers will come looking for financial support. Then， well， we've got something more interesting that this infernal game.\n\n<i>These games attract regulars who play competitively. Low risk and potentially higher reward.</i>
+amenity.baccarat-salon.name	バカラ・サロン
+amenity.baccarat-salon.desc	ハイローラーのエリートの間で定着しているヨーロッパの奇妙なゲーム。カードがあり、エキゾチックなフランス語がある。プレイヤーは高額な賭け金で互いに競い合う。そして、その賭け金を元に、プレイヤーが利益を得る。やがてこのような大金持ちの一人が資金援助を求めに来る。そうなると、この地獄のようなゲームよりも、もっと面白いものが出てくる。\n\n<i>これらのゲームには、競ってプレイする常連客がいる。ローリスクでハイリターンの可能性</i>
 amenity.telegraph-machine.icon	<sprite name="amenity extras">
-amenity.telegraph-machine.name	Telegraph Machines
-amenity.telegraph-machine.desc	A connection to a telegraph machine lets you add more slots for regulars to your Off Track Betting Club and increases the amount that you can make from each bet.\n\n<i>This feature improves the performance of other features.</i>
+amenity.telegraph-machine.name	電信機
+amenity.telegraph-machine.desc	電信機との接続により、場外馬券購入クラブの常連客の枠を増やし、1回のベットで稼げる金額を増やすことができます。\n\n<i>この機能により、他の機能のパフォーマンスが向上します。</i>
 amenity.card-parlor.icon	<sprite name="amenity extras">
-amenity.card-parlor.name	Card Parlor
-amenity.card-parlor.desc	Adding a room dedicated to card games allows you add new spots for regulars to all of your card games.\n\n<i>This feature improves the performance of other features.</i>
+amenity.card-parlor.name	カード・パーラー
+amenity.card-parlor.desc	カードゲーム専用の部屋を追加することで、すべてのカードゲームに常連客のための新しいスポットを追加することができます。\n\n<i>この機能により、他の機能のパフォーマンスが向上します。</i>
 amenity.plush-carpets.icon	<sprite name="amenity extras">
-amenity.plush-carpets.name	Luxury Carpets
-amenity.plush-carpets.desc	Adding these plush floor coverings will make your house the talk of the area and increase the number of weekly visitors.\n\n<i>This feature improves the performance of other features.</i>
+amenity.plush-carpets.name	高級カーペット
+amenity.plush-carpets.desc	このような豪華な床材を加えることで、あなたのハウスは地域の話題となり、毎週の来客数が増えるでしょう。\n\n<i>この機能により、他の機能のパフォーマンスが向上します。</i>
 amenity.imported-furniture.icon	<sprite name="amenity extras">
-amenity.imported-furniture.name	Imported Furniture
-amenity.imported-furniture.desc	Fancy furniture from overseas will be the talk of the town and will increase area of the city from where your establishment draws its weekly visitors.\n\n<i>This feature improves the performance of other features.</i>
+amenity.imported-furniture.name	輸入家具
+amenity.imported-furniture.desc	海外の高級家具は話題性があり、毎週の来客数が増えるでしょう。\n\n<i>この機能により、他の機能のパフォーマンスが向上します。</i>
 amenity.uniforms.icon	<sprite name="amenity extras">
-amenity.uniforms.name	Uniformed Attendants
-amenity.uniforms.desc	Putting your staff into fancy uniforms makes everyone feel more comfortable and decreases the amount of debt needed before you have to pay a regular a visit to discuss repayment terms.\n\n<i>This feature improves the performance of other features.</i>
+amenity.uniforms.name	制服を着た係員
+amenity.uniforms.desc	スタッフに派手な制服を着せることで、皆に安心感を与え、定期的に訪問して返済条件を相談するまでに必要な借金の額も減らすことができる。\n\n<i>この機能により、他の機能のパフォーマンスが向上します。</i>
 amenity.latest-lighting.icon	<sprite name="amenity extras">
-amenity.latest-lighting.name	Latest Lighting
-amenity.latest-lighting.desc	Investing in the installation of the latest generation of lighting keeps your establishment brightly light. This decreases the maintenance cost of all of your features.\n\n<i>This feature improves the performance of other features.</i>
+amenity.latest-lighting.name	最新の照明装置
+amenity.latest-lighting.desc	最新世代の照明器具の導入に投資することで、あなたの施設を明るく照らし続けます。これにより、すべての機能のメンテナンスコストを削減することができます。\n\n<i>この機能により、他の機能のパフォーマンスが向上します。</i>
 amenity.valet-parking.icon	<sprite name="amenity extras">
-amenity.valet-parking.name	Valet Parking
-amenity.valet-parking.desc	Hire valets and invest in nearby lots to increase the number of regular spots at all your features and increase the capacity for weekly visitors.\n\n<i>This feature improves the performance of other features.</i>
-convo-debt.level1.npcintro	Oh， hello. How can I help you?
-convo-debt.level1.humanblurb	I've been looking for you. My pit boss tells me you ran up quite the tab?
-convo-debt.level1.npc	Yeah， about that. Look， I'm good for the money! You know I am. I'm just having a little bit of a... liquidity problem right now.
-convo-debt.level2.npcintro	{fullname}? Come on in. What brings you at this hour?
-convo-debt.level2.humanblurb	Don't worry， I'll be quick. I hear your tab is getting longer?
-convo-debt.level2.npc	Oh， you found out? Look， I'll pay you back! Can you please give me just a little bit more time? My luck is going to turn around， I can feel it.
-convo-debt.level3.npcintro	{name}? Never heard of them... Oh， you mean {name}. Yeah. That's me. What can I do for you?
+amenity.valet-parking.name	バレットパーキング
+amenity.valet-parking.desc	配車係を雇い、近隣の土地に投資して、すべての機能の定期的なスポットを増やし、毎週の訪問者の収容者数を増やします。\n\n<i>この機能により、他の機能のパフォーマンスが向上します。</i>
+convo-debt.level1.npcintro	あ、こんにちは。どうされましたか？
+convo-debt.level1.humanblurb	探していたんだ。ボスの話だと、かなりの額を請求したようだな？
+convo-debt.level1.npc	ああ、そのことか。いいか、俺は金には困ってないんだ！わかってるだろ？ただちょっと…流動的な問題があってね。
+convo-debt.level2.npcintro	{fullname}？ さあ、入ってください。こんな時間に何しに来たんです？
+convo-debt.level2.humanblurb	心配しないでくれ、早く済ますつもりだ。あなたからの支払いが遅くなっているようだが？
+convo-debt.level2.npc	え、バレたんですか？いいですか、必ず取り返します！もうちょっとだけ時間をくれないか？運が向いている、そんな気がするんだ。
+convo-debt.level3.npcintro	{name}？聞いたことがない…。ああ、{name}のことですね。それは私です。何か用ですか？
 convo-debt.level3.humanblurb	かわいい！かわいいのは嫌いだ 大金を貸してるんだぞ どうする気だ？
 convo-debt.level3.npc	だから、こうなんです。仲直りするのはいいんだけどね。本当にそうだ 約束する でも、選択肢を検討できないか？
 convo-debt.response	必要なもの、何でもあります
 convo-debt.any.beforechoice	借金は借金です。でも、あなたのためを思って、現金以外の返済方法も考えています。
 convo-debt.any.beforechoice.mo	現物支給の要求
 convo-debt.repayment-pending	約束通り、約束の日までに用意する。
-convo-debt.repayment-ready	There， I did what you asked for. Just take it， and leave me alone.
+convo-debt.repayment-ready	ほら、頼まれたことはやったよ。これを持って行って、もう一人にしてくれ。
 convo-debt.repayment-ready.human	これ以上醜くならずに済んでよかった。もしよければ、二度と私の店であなたの顔を見たくありません。
 convo-debt.repayment-fail	{name}？そういえば、ここしばらく見かけませんね。私の知る限り、彼らは1週間前に町を出ました。
 convo-debt.repayment-fail.human	逃げ出したのか？もうこの街には顔を出さない方がいい。
 convo-debt.repayment-cash	{rollAmount}をかき集めるのが精一杯だった...。お願い、これを持って行って、一人にして
 convo-debt.repayment-cash.human-less	いいよ、これはもらうよ、でも今日は気前がいいからさ。私がどれだけ気前がいいか、みんなに教えてあげてね。
-convo-debt.repayment-cash.human-full	Do you think I'm an idiot? I told you I want my money back. And if I don't get my money， I get angry. And you don't want me angry.\n<indent=15><i>(Threaten attack.)</i></indent>
+convo-debt.repayment-cash.human-full	私をバカにしているのか？金を返せと言ったんだ。金が返ってこないんだ、当然怒る必要がある。ただあんたは私が怒ることを望んでいないよな。\n<indent=15><i>(脅迫する)</i></indent>
 convo-debt.repayment-cash.npc-full	わかった、わかった、傷つけないでくれ！母の古い宝石を捜して質に入れてみるよ。それで残りの借金は必ず返せる。
 convo-debt.repayment-cash.human-full.epilogue	ほらね？私たちは合意に達することができると思った。
 convo-repayment.generic.npcintro	はい？
@@ -9178,30 +9178,30 @@ convo-repayment.get-pickup-truck.humanblurb	新しいピックアップトラッ
 convo-repayment.get-pickup-truck.mo	ピックアップトラックを要求する。
 convo-repayment.get-pickup-truck.npcaccept	じゃあ、{days}日後にトラックを用意しますから、それでいいでしょう？
 convo-repayment.get-pickup-truck.humanaccept	トラックを渡して街を出てください。そうです。何かあったら困りますからね。
-convo-repayment.get-building.humanblurb	Our outfit， we're always looking for new space to expand our operations. Know of any suitable space， perhaps in the back part of a building controlled by your outfit? Don't really care what kind. You just get it for us.
-convo-repayment.get-building.mo	Attempt to use the debt owed to you to gain control of a nearby building.
-convo-repayment.get-building.ticker	{name} worked his family connections and you've got control of a new building.
+convo-repayment.get-building.humanblurb	私たちの組織は、事業を拡大するために常に新しいスペースを探しています。適当な場所を知っていないか？建物の裏側とか？どんな場所でもいいんです。本当に手に入れるだけでいいんだ。
+convo-repayment.get-building.mo	借金を利用して、近くの建物を支配しようとする。
+convo-repayment.get-building.ticker	{name}は彼の家族のコネクションを利用し、新しい建物を支配することに成功しました。
 convo-repayment.get-building-low.npcaccept	まあ、周りに聞けばいいんですけどね。正直なところ、ギャンブル依存症のことを家族に話したらどう思われるかも心配です。ああ、どうしてこんなことになっちゃったんだろう。こんなことになるなんて...。これは本当に嫌われるぞ。
-convo-repayment.get-building-low.humanaccept	I'm going to stop you right there. I'll be back in {days} days. If I have a building， we're all square. If I don't， well， your family trouble will be the least of your problems.
+convo-repayment.get-building-low.humanaccept	このへんでやめておこう。{days}日後にまた来るよ。もし私が建物を手に入れられるなら、私たちは公平な立場になるよ。そうでなければ、まあ、家族にあなたの問題を解決してもらうのが一番だろう。
 convo-repayment.get-building-med.npcaccept	ほら、こういうことです。私の家族は、私が金がかかる趣味を持っていることをほとんど知らないのです。それに、まあ、あまりいい反応はしてくれないでしょう。どうなんでしょうね。これが賭博なら五分五分といったところでしょう。
-convo-repayment.get-building-med.humanaccept	If? Well， when I get back in {days} days， I expect one of them to give me a tour of my new space. If not， well， the odds of you enjoying the consequences are indeed slim.
-convo-repayment.get-building-hi.npcaccept	So given what I owe you， I'm pretty sure I can convince my relatives that this isn't just a me problem but more of an us as a family type of situation. Not sure what's available， but it will be useful I'm sure.
-convo-repayment.get-building-hi.humanaccept	Yes， Given what you owe us， it had better be. See you in {days} days.
-convo-repayment.get-delivery-truck.humanblurb	You've seen all the delivery vans around town， right? Well， since you can't seem to find enough cash to repay us， get us one of those. And make it snappy. We'll be back in {days} days and you better have some keys for us.
-convo-repayment.get-delivery-truck.mo	Demand a delivery van
-convo-repayment.get-delivery-truck.npcaccept	I'm not sure I can find a way to get one of those big vans. There's no other way?
-convo-repayment.get-delivery-truck.humanaccept	Keys. Have keys when we get back. And make sure that they match the van. You don't want to disappoint us.
-convo-repayment.get-cargo-truck.humanblurb	Running this town means moving stuff all over. We gotta keep ahead of the cops and Feds. We hear that you know some people who drive big cargo trucks. Since you owe us， we'd very much like one. Arrange it and we'll forget this unpleasantness.
-convo-repayment.get-cargo-truck.mo	Demand a cargo truck
-convo-repayment.get-cargo-truck.npcaccept	That sounds like just a different kind of unpleasantness for me.
-convo-repayment.get-cargo-truck.humanaccept	It does. We'll be back in {days} days and will be expecting you to resolve all this and get us a truck. A big truck. We like black paint. {days} days. Tick tock.
-convo-repayment.get-sports-car.humanblurb	Seems like you've got a taste for the finer things in life. So do we. Since you owe us， how about you get us a sports car just like the one you have parked out front. <i>Exactly</i> like that one.
-convo-repayment.get-sports-car.mo	Demand a sports car
-convo-repayment.get-sports-car.npcaccept	That's imported!
-convo-repayment.get-sports-car.humanaccept	Even better. We'll be back in {days} days to check on you. It better be ready for us.
-convo-repayment.get-parking-spot-truck.humanblurb	So you owe us some cash. Want to help us out and maybe that debt goes away? I think you want to help us out. We need a place to park a truck overnight. So talk to friends and family and let someone know that we'll be using their driveway for a while. Got it?
-convo-repayment.get-parking-spot-truck.mo	Demand a parking spot to increase your truck capacity
-convo-repayment.get-parking-spot-truck.npcaccept	I think I can make that work. I just need some time to talk to people. Can I have a few weeks?
+convo-repayment.get-building-med.humanaccept	もし？まあ{days}日に戻ったら、そのうちの一人が新しいスペースに案内してくれることを期待してるよ。そうでなければ、まあ、あなたが嬉しくない結果になる可能性が高いよ。
+convo-repayment.get-building-hi.npcaccept	だから、借りたものを考えれば、これは私だけの問題ではなく、家族としての私たちの問題なのだと、親戚を説得することができると思うんだ。何があるかわからないけど、きっと役に立つと思う。
+convo-repayment.get-building-hi.humanaccept	そうだな、借りを返すためにもそうするべきだ。じゃあまた{days}日に会おう。
+convo-repayment.get-delivery-truck.humanblurb	街中で配達のバンを見かけることがあるよな？金を返せなくなったなら、一台買ってくれ。そして、それを洒落たものにするんだ。{days}日に戻ってくるから、鍵を用意しておいてくれ。
+convo-repayment.get-delivery-truck.mo	配達用バンを要求する
+convo-repayment.get-delivery-truck.npcaccept	あの大きなバンを一台手に入れる方法がわかりません。他に方法はないでしょうか？
+convo-repayment.get-delivery-truck.humanaccept	鍵だ。鍵を持って戻ってこい。車と一致するかどうか確認しろ。私たちをがっかりさせたくないだろ？
+convo-repayment.get-cargo-truck.humanblurb	この街を運営するということは、あちこちに物を運ぶということだ。警察やFBIの先を行くんだ。大きな貨物車を運転する人を何人か知ってるそうだな？あんたは俺たちに借りがあるんだ。だからぜひとも借りを返してほしい。手配してくれれば、この不愉快な状況を忘れられるはずだ。
+convo-repayment.get-cargo-truck.mo	カーゴトラックを要求する
+convo-repayment.get-cargo-truck.npcaccept	それは私にとっては、ただ単に違う種類の不愉快さにしか聞こえないんだが。
+convo-repayment.get-cargo-truck.humanaccept	そうだろうな。私たちは{days}日後に戻ってくるよ。あなたがすべてを解決し、私たちにトラックをもたらしてくれることを期待している。大きなトラックをね。黒塗りが好きなんだ。{days}日だ。時間がないぞ。
+convo-repayment.get-sports-car.humanblurb	あなたは人生の上質なものに囲まれているようだな。我々もそうだ。俺たちに借りがあるんだから、スポーツカーを用意してくれよ。表に停めてあるやつと同じようにな。<i>まさに</i>あの車だ。
+convo-repayment.get-sports-car.mo	スポーツカーを要求する
+convo-repayment.get-sports-car.npcaccept	それは輸入品なんだ！
+convo-repayment.get-sports-car.humanaccept	より良いじゃないか。{days}日後にまた確認に来る。準備万端であることを望んでいるよ。
+convo-repayment.get-parking-spot-truck.humanblurb	私たちにお金を借りているよな。私たちを助けてくれたら、その借金はなくなるかもしれないぞ？私たちを助けたいだろう？しばらくトラックを停める場所が必要なんだ。友人や家族に話して、しばらくの間、私道を使うことを誰かに伝えてくれ。わかったか？
+convo-repayment.get-parking-spot-truck.mo	トラックの収容台数を増やすために駐車場を要求する
+convo-repayment.get-parking-spot-truck.npcaccept	それなら実現できると思います。ただ人と話す時間が必要なんだ。数週間くれませんか？
 convo-repayment.get-parking-spot-truck.humanaccept	{days}日間ある。ではまた駐車場に関するニュースを期待している。
 convo-repayment.get-parking-spot-truck.ticker	{name}が駐車場を手配してくれたので、トラックの収容台数が増えた。
 convo-repayment.get-town-car-ac.humanblurb	この町は夏になると観光客で溢れかえる。そして彼らの車も。私はタウンカーに目をつけた。いつもよりちょっと大きいのがいい。それを買ってくれたらあんたの借金はチャラにしてやるよ。
@@ -9227,132 +9227,132 @@ convo-repayment.grant-family-intro.humanaccept	勉強熱心なんですね。ま
 convo-repayment.grant-family-intro.ticker	{name}が成功して彼らの家族全員とあなたの関係を改善した。
 convo-repayment.grant-homemade-booze-brick-wine.humanblurb	返せないの？よし、じゃあ、こうしよう。外に出て舗道を歩きブリックワインを作り我々の隠れ家まで届けてくれ。 {days}日かしたら、戻ってくる。
 convo-repayment.grant-homemade-booze-brick-wine.ticker	{name}は約束通り、かき集めたブリックワインを降ろしていった。
-convo-repayment.grant-homemade-booze-cider.humanblurb	Can't pay us back? OK， well， here's what you're going to do. You're going to get out there and pound the pavement and come up with hard cider and then deliver it to our safehouse. You've got {days} days， then we'll be back.
-convo-repayment.grant-homemade-booze-cider.ticker	{name} has dropped off the hard cider they scrounged up as agreed.
-convo-repayment.grant-homemade-booze-home-brew.humanblurb	Can't pay us back? OK， well， here's what you're going to do. You're going to get out there and pound the pavement and come up with homemade beer and then deliver it to our safehouse. You've got {days} days， then we'll be back.
-convo-repayment.grant-homemade-booze-home-brew.ticker	{name} has dropped off the homemade beer they scrounged up as agreed.
-convo-repayment.grant-homemade-booze-moonshine.humanblurb	Can't pay us back? OK， well， here's what you're going to do. You're going to get out there and pound the pavement and come up with moonshine and then deliver it to our safehouse. You've got {days} days， then we'll be back.
-convo-repayment.grant-homemade-booze-moonshine.ticker	{name} has dropped off the moonshine they scrounged up as agreed.
-convo-repayment.grant-homemade-booze-apple-jack.humanblurb	Can't pay us back? OK， well， here's what you're going to do. You're going to get out there and pound the pavement and come up with applejack and then deliver it to our safehouse. You've got {days} days， then we'll be back.
-convo-repayment.grant-homemade-booze-apple-jack.ticker	{name} has dropped off the applejack they scrounged up as agreed.
-convo-repayment.grant-homemade-booze-fruit-wine.humanblurb	Can't pay us back? OK， well， here's what you're going to do. You're going to get out there and pound the pavement and come up with fruit wine and then deliver it to our safehouse. You've got {days} days， then we'll be back.
-convo-repayment.grant-homemade-booze-fruit-wine.ticker	{name} has dropped off the fruit wine they scrounged up as agreed.
-convo-repayment.grant-homemade-booze.npcaccept	Only {days} days to get that? Can't I have more time?
-convo-repayment.grant-homemade-booze.humanaccept	Time is money and you're broke， so get cracking. We're expecting that delivery on time.
-convo-repayment.grant-homemade-booze.mo	Send this person out into the city to scrounge up some homemade booze that you can sell to settle their debt
+convo-repayment.grant-homemade-booze-cider.humanblurb	返せないの？よし、じゃあ、こうしよう。外に出て舗道を歩きハードシードルを作り我々の隠れ家まで届けてくれ。 {days}日かしたら、戻ってくる。
+convo-repayment.grant-homemade-booze-cider.ticker	{name}は約束通り、かき集めたハードシードルを降ろしていった。
+convo-repayment.grant-homemade-booze-home-brew.humanblurb	返せないの？よし、じゃあ、こうしよう。外に出て舗道を歩き自家製ビールを作り我々の隠れ家まで届けてくれ。 {days}日かしたら、戻ってくる。
+convo-repayment.grant-homemade-booze-home-brew.ticker	{name}は約束通り、かき集めた自家製ビールを降ろしていった。
+convo-repayment.grant-homemade-booze-moonshine.humanblurb	返せないの？よし、じゃあ、こうしよう。外に出て舗道を歩きムーンシャインを作り我々の隠れ家まで届けてくれ。 {days}日かしたら、戻ってくる。
+convo-repayment.grant-homemade-booze-moonshine.ticker	{name}は約束通り、かき集めたムーンシャインを降ろしていった。
+convo-repayment.grant-homemade-booze-apple-jack.humanblurb	返せないの？よし、じゃあ、こうしよう。外に出て舗道を歩きアップルジャックを作り我々の隠れ家まで届けてくれ。 {days}日かしたら、戻ってくる。
+convo-repayment.grant-homemade-booze-apple-jack.ticker	{name}は約束通り、かき集めたアップルジャックを降ろしていった。
+convo-repayment.grant-homemade-booze-fruit-wine.humanblurb	返せないの？よし、じゃあ、こうしよう。外に出て舗道を歩きフルーツワインを作り我々の隠れ家まで届けてくれ。 {days}日かしたら、戻ってくる。
+convo-repayment.grant-homemade-booze-fruit-wine.ticker	{name}は約束通り、かき集めたフルーツワインを降ろしていった。
+convo-repayment.grant-homemade-booze.npcaccept	たった{days}日しかないのか？もっと時間があってもいいんじゃないか？
+convo-repayment.grant-homemade-booze.humanaccept	時は金なり、金がないんだから、さっさとパクれよ。納期は厳守してくれよ。
+convo-repayment.grant-homemade-booze.mo	この人を街に送り出し、自家製の酒を調達させ、それを売って借金を清算させる。
 convo-repayment.grant-level-two-booze-fake-wine.humanaccept	盗みだなんて、ただ面倒な仕事ですよ。問題になるのでね。なのであなたに任せますよ。{days}日で偽造ワインを盗んできてください。それでは。
 convo-repayment.grant-level-two-booze-fake-wine.ticker	あなたが返済の穴埋めとして{name}に命じて盗ませた偽物のワインが届いた。
-convo-repayment.grant-level-two-booze-sparkling-cider.humanaccept	Theft is just such a messy business. Leads to problems. Now those are your problems. So you have {days} days to go steal that sparkling cider. Good day.
-convo-repayment.grant-level-two-booze-sparkling-cider.ticker	The sparkling cider that you tasked {name} with stealing to pay you back has arrived.
-convo-repayment.grant-level-two-booze-fake-beer.humanaccept	Theft is just such a messy business. Leads to problems. Now those are your problems. So you have {days} days to go steal that backroom beer. Good day.
-convo-repayment.grant-level-two-booze-fake-beer.ticker	The backroom beer that you tasked {name} with stealing to pay you back has arrived.
-convo-repayment.grant-level-two-booze-bathtub-gin.humanaccept	Theft is just such a messy business. Leads to problems. Now those are your problems. So you have {days} days to go steal that bathtub gin. Good day.
-convo-repayment.grant-level-two-booze-bathtub-gin.ticker	The bathtub gin that you tasked {name} with stealing to pay you back has arrived.
-convo-repayment.grant-level-two-booze-fruit-brandy.humanaccept	Theft is just such a messy business. Leads to problems. Now those are your problems. So you have {days} days to go steal that rakija. Good day.
-convo-repayment.grant-level-two-booze-fruit-brandy.ticker	The rakija that you tasked {name} with stealing to pay you back has arrived.
-convo-repayment.grant-level-two-booze-corn-whiskey.humanaccept	Theft is just such a messy business. Leads to problems. Now those are your problems. So you have {days} days to go steal that corn whiskey. Good day.
-convo-repayment.grant-level-two-booze-corn-whiskey.ticker	The corn whiskey that you tasked {name} with stealing to pay you back has arrived.
-convo-repayment.grant-level-two-reveal.humanblurb	You owe us a large sum of money. We expect a large sum of money to be repaid. But if you can't， how about spending the next three weeks looking for some lucrative opportunities for our organization?
-convo-repayment.grant-level-two-reveal.npcaccept	That sounds potentially dangerous! There's no other way?
-convo-repayment.grant-level-two-reveal.humanaccept	Come back with useful information or the next time you see one of us， the danger will be more than potential.
+convo-repayment.grant-level-two-booze-sparkling-cider.humanaccept	盗みだなんて、ただ面倒な仕事ですよ。問題になるのでね。なのであなたに任せますよ。{days}日でスパークリングシードルを盗んできてください。それでは。
+convo-repayment.grant-level-two-booze-sparkling-cider.ticker	あなたが返済の穴埋めとして{name}に命じて盗ませたスパークリングシードルが届いた。
+convo-repayment.grant-level-two-booze-fake-beer.humanaccept	盗みだなんて、ただ面倒な仕事ですよ。問題になるのでね。なのであなたに任せますよ。{days}日で偽造ビールを盗んできてください。それでは。
+convo-repayment.grant-level-two-booze-fake-beer.ticker	あなたが返済の穴埋めとして{name}に命じて盗ませた偽造ビールが届いた。
+convo-repayment.grant-level-two-booze-bathtub-gin.humanaccept	盗みだなんて、ただ面倒な仕事ですよ。問題になるのでね。なのであなたに任せますよ。{days}日でバスタブ・ジンを盗んできてください。それでは。
+convo-repayment.grant-level-two-booze-bathtub-gin.ticker	あなたが返済の穴埋めとして{name}に命じて盗ませたバスタブ・ジンが届いた。
+convo-repayment.grant-level-two-booze-fruit-brandy.humanaccept	盗みだなんて、ただ面倒な仕事ですよ。問題になるのでね。なのであなたに任せますよ。{days}日でラキヤを盗んできてください。それでは。
+convo-repayment.grant-level-two-booze-fruit-brandy.ticker	あなたが返済の穴埋めとして{name}に命じて盗ませたラキヤが届いた。
+convo-repayment.grant-level-two-booze-corn-whiskey.humanaccept	盗みだなんて、ただ面倒な仕事ですよ。問題になるのでね。なのであなたに任せますよ。{days}日でコーンウィスキーを盗んできてください。それでは。
+convo-repayment.grant-level-two-booze-corn-whiskey.ticker	あなたが返済の穴埋めとして{name}に命じて盗ませたコーンウィスキーが届いた。
+convo-repayment.grant-level-two-reveal.humanblurb	あなたは私たちに多額のお金を借りていますね。多額の返済を期待しているよ。ただもし返済できないのであれば、これから3週間、私たちの組織のために有利な機会を探してみるのはどうだろう？
+convo-repayment.grant-level-two-reveal.npcaccept	それは危険な気がする！他に方法はないのか？
+convo-repayment.grant-level-two-reveal.humanaccept	有益な情報を持って戻ってこないと、次に私たちの仲間に会ったとき、気がするだけじゃ済まないかもしれないぞ。
 convo-repayment.grant-level-two-reveal-fake-wine.mo	現金の返済の代わりに、偽造ワインを買っている人を調べさせる。
 convo-repayment.grant-level-two-reveal-fake-wine.ticker	{name}が仕事をこなしたことで偽造ワインの買い手たちが商談に応じるようになった。
-convo-repayment.grant-level-two-reveal-sparkling-cider.mo	In lieu of cash repayment， have this good for nothing find out who's buying sparkling cider
-convo-repayment.grant-level-two-reveal-sparkling-cider.ticker	{name} did their job and buyers of sparkling cider are now ready to talk business.
-convo-repayment.grant-level-two-reveal-fake-beer.mo	In lieu of cash repayment， have this good for nothing find out who's buying backroom beer
-convo-repayment.grant-level-two-reveal-fake-beer.ticker	{name} did their job and buyers of backroom beer are now ready to talk business.
-convo-repayment.grant-level-two-reveal-bathtub-gin.mo	In lieu of cash repayment， have this good for nothing find out who's buying bathtub gin
-convo-repayment.grant-level-two-reveal-bathtub-gin.ticker	{name} did their job and buyers of bathtub gin are now ready to talk business.
-convo-repayment.grant-level-two-reveal-fruit-brandy.mo	In lieu of cash repayment， have this good for nothing find out who's buying rakija
-convo-repayment.grant-level-two-reveal-fruit-brandy.ticker	{name} did their job and buyers of rakija are now ready to talk business.
-convo-repayment.grant-level-two-reveal-corn-whiskey.mo	In lieu of cash repayment， have this good for nothing find out who's buying corn whiskey
-convo-repayment.grant-level-two-reveal-corn-whiskey.ticker	{name} did their job and buyers of corn whiskey are now ready to talk business.
-convo-repayment.grant-level-two-booze.humanblurb	Don't have the money that you owe us? Well， here's what you're going to do， then. I'm going to give you an address. They've got a stash of booze. You're going to go pick it up for us. And let's just say that you won't exactly be expected.
-convo-repayment.grant-level-two-booze.mo	Instead of cash repayment， send this deadbeat to swipe some booze
-convo-repayment.grant-level-two-booze.npcaccept	You mean you want me to steal it? What have I gotten myself mixed up with!
-convo-repayment.reveal-bottled-booze.humanblurb	So， how about your work off your debt by coming to work for us for a while? We could use some help scouting out demand for booze in the city， find out who's buying stuff.
-convo-repayment.reveal-bottled-booze.mo	In exchange for giving a pass on their debt， they'll reveal demand for one type of bottled booze in {days} days
-convo-repayment.reveal-bottled-booze.npcaccept	Well， see， I have a job. And， well... OK. I see from your face that this isn't really a suggestion. What can I do for your organization?
-convo-repayment.reveal-bottled-booze.humanaccept	Glad we're on the same page. Go around town， ask around， observe. Find out who in town is buying illicit inventory and report back. You're watching them， so just remember who is watching you.
-convo-repayment.reveal-bottled-booze-whiskey.ticker	{name} did their part and has found out who in town is buying bottles of whiskey.
-convo-repayment.reveal-bottled-booze-brandy.ticker	{name} did their part and has found out who in town is buying bottles of brandy.
-convo-repayment.reveal-bottled-booze-rum.ticker	{name} did their part and has found out who in town is buying bottles of rum.
-convo-repayment.reveal-bottled-booze-vodka.ticker	{name} did their part and has found out who in town is buying bottles of vodka.
-convo-repayment.reveal-bottled-booze-aged-whiskey.ticker	{name} did their part and has found out who in town is buying bottles of aged whiskey.
-convo-repayment.reveal-bottled-booze-dark-rum.ticker	{name} did their part and has found out who in town is buying bottles of spiced rum.
-convo-repayment.reveal-bottled-booze-champagne.ticker	{name} did their part and has found out who in town is buying bottles of champagne.
-convo-repayment.reveal-bottled-booze-cordials.ticker	{name} did their part and has found out who in town is buying bottles of cordials.
-convo-repayment.reveal-bottled-booze-gin.ticker	{name} did their part and has found out who in town is buying bottles of gin.
-convo-repayment.grant-bottled-booze.humanblurb	No cash to repay us? Well， how about a job， then? We know about this shipment of booze coming into town. We would like it. But it would be inconvenient if its disappearance was traced back to someone associated with our outfit. And， well， you're not associated with our outfit， right?
-convo-repayment.grant-bottled-booze.mo	Relieve a truck driver of their cargo of booze bottles when it arrives in {days} days
-convo-repayment.grant-bottled-booze.npcaccept	That sounds， well， dangerous. Can I sleep on it?
-convo-repayment.grant-bottled-booze.humanaccept	You think we're not dangerous? No， you can't. Get that stuff to our safehouse and then get lost， like someplace where no one can find you.
-convo-repayment.grant-bottled-booze-whiskey.ticker	{name} did as promised and a load of bottled whiskey is now available at your safehouse.
-convo-repayment.grant-bottled-booze-brandy.ticker	{name} did as promised and a load of bottled brandy is now available at your safehouse.
-convo-repayment.grant-bottled-booze-rum.ticker	{name} did as promised and a load of bottled rum is now available at your safehouse.
-convo-repayment.grant-bottled-booze-vodka.ticker	{name} did as promised and a load of bottled vodka is now available at your safehouse.
-convo-repayment.grant-bottled-booze-champagne.ticker	{name} did as promised and a load of champagne is now available at your safehouse.
-convo-repayment.grant-bottled-booze-aged-whiskey.ticker	{name} did as promised and a load of aged whiskey is now available at your safehouse.
-convo-repayment.grant-bottled-booze-dark-rum.ticker	{name} did as promised and a load of spiced rum is now available at your safehouse.
-convo-repayment.grant-bottled-booze-cordials.ticker	{name} did as promised and a load of cordials is now available at your safehouse.
+convo-repayment.grant-level-two-reveal-sparkling-cider.mo	現金の返済の代わりに、スパークリングシードルを買っている人を調べさせる。
+convo-repayment.grant-level-two-reveal-sparkling-cider.ticker	{name}が仕事をこなしたことでスパークリングシードルの買い手たちが商談に応じるようになった。
+convo-repayment.grant-level-two-reveal-fake-beer.mo	現金の返済の代わりに、偽造ビールを買っている人を調べさせる。
+convo-repayment.grant-level-two-reveal-fake-beer.ticker	{name}が仕事をこなしたことで偽造ビールの買い手たちが商談に応じるようになった。
+convo-repayment.grant-level-two-reveal-bathtub-gin.mo	現金の返済の代わりに、バスタブ・ジンを買っている人を調べさせる。
+convo-repayment.grant-level-two-reveal-bathtub-gin.ticker	{name}が仕事をこなしたことでバスタブ・ジンの買い手たちが商談に応じるようになった。
+convo-repayment.grant-level-two-reveal-fruit-brandy.mo	現金の返済の代わりに、ラキヤを買っている人を調べさせる。
+convo-repayment.grant-level-two-reveal-fruit-brandy.ticker	{name}が仕事をこなしたことでラキヤの買い手たちが商談に応じるようになった。
+convo-repayment.grant-level-two-reveal-corn-whiskey.mo	現金の返済の代わりに、コーンウィスキーを買っている人を調べさせる。
+convo-repayment.grant-level-two-reveal-corn-whiskey.ticker	{name}が仕事をこなしたことでコーンウィスキーの買い手たちが商談に応じるようになった。
+convo-repayment.grant-level-two-booze.humanblurb	返す金がない？じゃあ、こうしよう、住所を教えるよ。酒を隠し持ってらしい。俺たちのためにそれを持ってきてくれ。ただお前に期待していないとだけ言っておくよ。
+convo-repayment.grant-level-two-booze.mo	現金の返済の代わりに、この怠け者に酒を盗みに行かせる。
+convo-repayment.grant-level-two-booze.npcaccept	盗めってこと？私は何に巻き込まれたんだ！
+convo-repayment.reveal-bottled-booze.humanblurb	だから、しばらくウチで働いて借金を返したらどうだ？街の酒需要を調査して、誰が買ってるか調べたいんだ。
+convo-repayment.reveal-bottled-booze.mo	借金の肩代わりをする代わりに、ある種類のお酒の需要を{days}日間で明らかにする。
+convo-repayment.reveal-bottled-booze.npcaccept	まあ、ほら、私には仕事がありますから。それに…まあ…わかりました。あなたの顔を見ると、これは提案じゃないことがわかります。私はあなたの組織のために何ができるのでしょうか？
+convo-repayment.reveal-bottled-booze.humanaccept	察しが良くて助かるよ。街に行って、尋ねて、観察する。街で誰が不正な在庫を買っているか調べて報告するんだ。君は彼らを監視してるんだ。誰が君を監視してるか思い出してくれ。
+convo-repayment.reveal-bottled-booze-whiskey.ticker	{name}は、誰が瓶詰めのウィスキーを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-bottled-booze-brandy.ticker	{name}は、誰が瓶詰めのブランデーを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-bottled-booze-rum.ticker	{name}は、誰が瓶詰めのラムを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-bottled-booze-vodka.ticker	{name}は、誰が瓶詰めのウォッカを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-bottled-booze-aged-whiskey.ticker	{name}は、誰が瓶詰めの年代物ウィスキーを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-bottled-booze-dark-rum.ticker	{name}は、誰が瓶詰めのスパイス・ラムを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-bottled-booze-champagne.ticker	{name}は、誰が瓶詰めのシャンパンを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-bottled-booze-cordials.ticker	{name}は、誰が瓶詰めのコーディアルを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-bottled-booze-gin.ticker	{name}は、誰が瓶詰めのジンを買っているかを見つけるという約束を守った。
+convo-repayment.grant-bottled-booze.humanblurb	返済のための現金がない？じゃあ、仕事をしないか？酒が街に運ばれてくるのは知っている。それが欲しいんだ。ただそれが消えることで私たちの組織に影響するとしたら、それは不味いことだ。 だけど、まあ、あなたは私たちの組織とは関係ないはずだ。
+convo-repayment.grant-bottled-booze.mo	{days}日後に到着するトラックの運転手から酒瓶の貨物を回収する
+convo-repayment.grant-bottled-booze.npcaccept	それは、まあ、危険な感じがしますね。少し考える時間をくれないかな？
+convo-repayment.grant-bottled-booze.humanaccept	私たちが危険じゃないと思っているのか？いや無理だ。それを隠れ家に届けてそれから、消えてくれ、誰も見つけられないところに。
+convo-repayment.grant-bottled-booze-whiskey.ticker	{name}が瓶詰めのウィスキーをあなたの隠れ家に届けた。
+convo-repayment.grant-bottled-booze-brandy.ticker	{name}が瓶詰めのブランデーをあなたの隠れ家に届けた。
+convo-repayment.grant-bottled-booze-rum.ticker	{name}が瓶詰めのラムをあなたの隠れ家に届けた。
+convo-repayment.grant-bottled-booze-vodka.ticker	{name}が瓶詰めのウォッカをあなたの隠れ家に届けた。
+convo-repayment.grant-bottled-booze-champagne.ticker	{name}がシャンパンをあなたの隠れ家に届けた。
+convo-repayment.grant-bottled-booze-aged-whiskey.ticker	{name}が年代物ウィスキーをあなたの隠れ家に届けた。
+convo-repayment.grant-bottled-booze-dark-rum.ticker	{name}がスパイス・ラムをあなたの隠れ家に届けた。
+convo-repayment.grant-bottled-booze-cordials.ticker	{name}がコーディアルをあなたの隠れ家に届けた。
 convo-repayment.reveal-imports-canadian.humanblurb	カナダ人なんでしょ？この街で本物のカナディアンウイスキーが手に入る場所を知っているに違いない。その人たちと知り合いたいから、誰が買ってくれるのか調べてみてよ、それでおあいこってことにしよう。
 convo-repayment.reveal-imports-canadian.ticker	{name}は、誰がカナダのウイスキーを買っているかを見つけるという約束を守った。
-convo-repayment.reveal-imports-scottish.humanblurb	You're from Scotland， right? I bet you know where to get some real Scotch whisky in this town. Those might be interesting people for me to know， so how about finding out who's buying that for me and then we'll call it even.
-convo-repayment.reveal-imports-scottish.ticker	{name} has come through on their word about finding who's buying Scotch whisky.
-convo-repayment.reveal-imports-caribbean.humanblurb	You're from the Islands in the Caribbean， right? I bet you know where to get some real Caribbean rum in this town. Those might be interesting people for me to know， so how about finding out who's buying that for me and then we'll call it even.
-convo-repayment.reveal-imports-caribbean.ticker	{name} has come through on their word about finding who's buying Caribbean rum.
-convo-repayment.reveal-imports-irish.humanblurb	You're Irish， right? I bet you know where to get some real Irish whisky in this town. Those might be interesting people for me to know， so how about finding out who's buying that for me and then we'll call it even.
-convo-repayment.reveal-imports-irish.ticker	{name} has come through on their word about finding who's buying Irish whisky.
-convo-repayment.reveal-imports-english.humanblurb	You're English， right? I bet you know where to get some real English gin in this town. Those might be interesting people for me to know， so how about finding out who's buying that for me and then we'll call it even.
-convo-repayment.reveal-imports-english.ticker	{name} has come through on their word about finding who's buying English gin.
-convo-repayment.reveal-imports-german.humanblurb	You're from Germany， right? I bet you know where to get some real German schnapps in this town. Those might be interesting people for me to know， so how about finding out who's buying that for me and then we'll call it even.
-convo-repayment.reveal-imports-german.ticker	{name} has come through on their word about finding who's buying German schnapps.
-convo-repayment.reveal-imports.npcaccept	Yeah. I can do that. Just give me about {days} to ask around for you.
-convo-repayment.reveal-imports.humanaccept	Good. Always looking for new opportunities to sell booze.
-convo-repayment.reveal-imports.mo	Find out some buyers of a new type of illegal alcohol
+convo-repayment.reveal-imports-scottish.humanblurb	スコットランドから来たんだろう？この街で本物のスコッチ・ウィスキーが手に入る場所を知っているに違いない。その人たちと知り合いたいから、誰が買ってくれるのか調べてみてよ、それでおあいこってことにしよう。
+convo-repayment.reveal-imports-scottish.ticker	{name}は、誰がスコッチウィスキーを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-imports-caribbean.humanblurb	カリブ海の島から来たんだろう？この街で本物のカリブ海のラム酒が手に入る場所を知っているに違いない。その人たちと知り合いたいから、誰が買ってくれるのか調べてみてよ、それでおあいこってことにしよう。
+convo-repayment.reveal-imports-caribbean.ticker	{name}は、誰がカリビアン・ラムを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-imports-irish.humanblurb	アイルランド人なんでしょ？この街で本物のアイリッシュウイスキーが手に入る場所を知っているに違いない。その人たちと知り合いたいから、誰が買ってくれるのか調べてみてよ、それでおあいこってことにしよう。
+convo-repayment.reveal-imports-irish.ticker	{name}は、誰がアイリッシュ・ウィスキーを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-imports-english.humanblurb	あなたはイギリス人でしょう？この街で本物のイングリッシュ・ジンが手に入る場所を知っているはずだ。その人たちと知り合いたいから、誰が買ってくれるのか調べてみてよ、それでおあいこってことにしよう。
+convo-repayment.reveal-imports-english.ticker	{name}は、誰がイングリッシュ・ジンを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-imports-german.humanblurb	あなたはドイツ人でしょう？この街で本物のジャーマン・シュナップスが手に入る場所を知っているはずだ。その人たちと知り合いたいから、誰が買ってくれるのか調べてみてよ、それでおあいこってことにしよう。
+convo-repayment.reveal-imports-german.ticker	{name}は、誰がジャーマン・シュナップスを買っているかを見つけるという約束を守った。
+convo-repayment.reveal-imports.npcaccept	ええ、できますよ。ただ、{days}ぐらいでお願いします。
+convo-repayment.reveal-imports.humanaccept	よし。常に酒を売る新しい機会を探しているよ。
+convo-repayment.reveal-imports.mo	新しいタイプの違法アルコール飲料の購入者を探す
 convo-repayment.grant-imports-canadian-low.humanblurb	あなたはカナダ出身ですよね？現金の代わりに、カナダ人が持っているカナディアンウイスキーを何ケースか頼んで、私の家に持ってきてはどうでしょうか？
 convo-repayment.grant-imports-canadian-med.humanblurb	まだカナダの故郷に友達がいるのか？電話をしてカナダのウイスキーを手に入れるんだ。そうすれば、今の借金を忘れてやる。分かったか？
 convo-repayment.grant-imports-canadian-hi.humanblurb	それでどうなるかというと、うちの組織に対する借金を返したいのなら カナダでコネを使ってカナダのウイスキーを手に入れるんだ それから 私達の隠れ家にそれを届けてくれ 分かったか？
-convo-repayment.grant-imports-scottish-low.humanblurb	You're from Scotland， correct? Instead of cash， how about you ask some of your fellow Scots for a few cases of Scotch that they've got laying around and drop them at my place?
-convo-repayment.grant-imports-scottish-med.humanblurb	Still got friends back home in Scotland? Work your connections in the homeland and get some Scotch whisky over here and we'll forget about your current debt. Understand?
-convo-repayment.grant-imports-scottish-hi.humanblurb	So here's what's going to happen if you want to clear your debts to our outfit. You're going to work your connections back in Scotland and you're going to get me a great deal on some Scotch. Then you're going to deliver it to our safehouse. Got it?
-convo-repayment.grant-imports-caribbean-low.humanblurb	You're from the Caribbean， correct? Instead of cash， how about you ask some of your fellow islanders for a few cases of Caribbean rum that they've got laying around and drop them at my place?
-convo-repayment.grant-imports-caribbean-med.humanblurb	Still got friends back in the Islands? Work your connections in the Caribbean and get some rum over here and we'll forget about your current debt. Understand?
-convo-repayment.grant-imports-caribbean-hi.humanblurb	So here's what's going to happen if you want to clear your debts to our outfit. You're going to work your connections down in the Islands and you're going to get me a great deal on some good Caribbean rum. Then you're going to deliver it to our safehouse. Got it?
-convo-repayment.grant-imports-irish-low.humanblurb	You're from Ireland， correct? Instead of cash， how about you ask some of your compatriots for a few cases of Irish whisky that they've got laying around and drop them at my place?
-convo-repayment.grant-imports-irish-med.humanblurb	Still got friends back home in Ireland? Work your connections in the homeland and get some Irish whisky over here and we'll forget about your current debt. Understand?
-convo-repayment.grant-imports-irish-hi.humanblurb	So here's what's going to happen if you want to clear your debts to our outfit. You're going to work your connections back in Ireland and you're going to get me a great deal on some Irish whisky. Then you're going to deliver it to our safehouse. Got it?
-convo-repayment.grant-imports-english-low.humanblurb	You're from England， correct? Instead of cash， how about you ask some of your fellow British friends for a few cases of English gin that they've got laying around and drop them at my place?
-convo-repayment.grant-imports-english-med.humanblurb	Still got friends back home in England? Work your connections in the homeland and get some English gin over here and we'll forget about your current debt. Understand?
-convo-repayment.grant-imports-english-hi.humanblurb	So here's what's going to happen if you want to clear your debts to our outfit. You're going to work your connections back in England and you're going to get me a great deal on premium English gin. Then you're going to deliver it to our safehouse. Got it?
-convo-repayment.grant-imports-german-low.humanblurb	You're from Germany， correct? Instead of cash， how about you ask some of your fellow Germans for a few cases of schnapps that they've got laying around and drop them at my place?
-convo-repayment.grant-imports-german-med.humanblurb	Still got friends back home in Germany? Work your connections in the homeland and get some German schnapps over here and we'll forget about your current debt. Understand?
-convo-repayment.grant-imports-german-hi.humanblurb	So here's what's going to happen if you want to clear your debts to our outfit. You're going to work your connections back in Germany and you're going to get me a great deal on some schnapps. Then you're going to deliver it to our safehouse. Got it?
+convo-repayment.grant-imports-scottish-low.humanblurb	あなたはスコットランド出身ですよね？現金の代わりに、スコットランド人が持っているスコッチを何ケースか頼んで、私の家に持ってきてくれないか？
+convo-repayment.grant-imports-scottish-med.humanblurb	まだスコットランドの故郷に友達がいるのか？電話をしてスコットランドのスコッチウイスキーを手に入れるんだ。そうすれば、今の借金を忘れてやる。分かったか？
+convo-repayment.grant-imports-scottish-hi.humanblurb	それでどうなるかというと、うちの組織に対する借金を返したいのなら、スコットランドでコネを使ってスコットランドのスコッチウィスキーを手に入れるんだ。それから私達の隠れ家にそれを届けてくれ。分かったか？
+convo-repayment.grant-imports-caribbean-low.humanblurb	あなたはカリブ海出身ですよね？現金の代わりに、島民が持っているラム酒を何ケースか頼んで、私の家に持ってきてくれないか？
+convo-repayment.grant-imports-caribbean-med.humanblurb	まだ島に友達がいるのか？カリブ海でコネを使って、ラム酒を手に入れれば借金も帳消しだ。わかったか？
+convo-repayment.grant-imports-caribbean-hi.humanblurb	それでどうなるかというと、うちの組織に対する借金を返したいのなら、島でコネを使ってカリブ海のラム酒を手に入れるんだ。そしてそれを我々の隠れ家に届けるんだ。分かったか？
+convo-repayment.grant-imports-irish-low.humanblurb	あなたはアイルランド出身ですよね？現金の代わりに、知人に頼んでアイリッシュウイスキーを何ケースか買ってきて、私の家に持ってきてくれないか？
+convo-repayment.grant-imports-irish-med.humanblurb	アイルランドにまだ友達がいる？本国にコネがあるんだろ？ それとアイリッシュウィスキーもな。そうすればお前の借金を帳消しにしてやるよ。わかったか？
+convo-repayment.grant-imports-irish-hi.humanblurb	それでどうなるかというと、うちの組織に対する借金を返したいのなら、アイルランドにコネを作って、アイリッシュウイスキーを安く手に入れるんだ。それを我々の隠れ家に届けるんだ。分かったか？
+convo-repayment.grant-imports-english-low.humanblurb	あなたはイギリス人ですよね？現金の代わりに、イギリスの友人たちに頼んで、イギリスのジンを何ケースか買ってきて、私の家に持ってきてくれないか？
+convo-repayment.grant-imports-english-med.humanblurb	まだイギリスに友達がいるのか？本国にコネがあるんだろう？こっちでイングリッシュ・ジンを飲めるようにしてくれれば、今の借金はチャラにしてやる。わかったか？
+convo-repayment.grant-imports-english-hi.humanblurb	だから、うちの会社への借金を返したいなら、こうすればいいんだ。英国でコネを使って高級なジンを手に入れるんだ。そして我々の隠れ家に届けるんだ。わかったか？
+convo-repayment.grant-imports-german-low.humanblurb	あなたはドイツ出身ですよね？現金の代わりに、ドイツ人の仲間に頼んで、シュナップスを何ケースか買ってきて、私の家に持ってきてくれないか？
+convo-repayment.grant-imports-german-med.humanblurb	まだドイツに友達がいるのか？本国にコネを作り、ドイツのシュナップスを手に入れろ。そうすれば、お前の借金をチャラにしてやる。わかったか？
+convo-repayment.grant-imports-german-hi.humanblurb	それでどうなるかというと、うちの会社に対する借金を返したいのなら、ドイツでのコネを使ってシュナップスを安く手に入れるんだ。それを我々の隠れ家まで届けるんだ。わかったか？
 convo-repayment.grant-imports-canadian.ticker	{name}がカナダのウィスキーをあなたの隠れ家に届けた。
-convo-repayment.grant-imports-scottish.ticker	{name} has delivered some Scotch whisky to your safehouse.
-convo-repayment.grant-imports-caribbean.ticker	{name} has delivered some Caribbean rum to your safehouse.
-convo-repayment.grant-imports-irish.ticker	{name} has delivered some Irish whisky to your safehouse.
-convo-repayment.grant-imports-english.ticker	{name} has delivered some English gin to your safehouse.
-convo-repayment.grant-imports-german.ticker	{name} has delivered some German schnapps to your safehouse.
-convo-repayment.grant-imports-low.npcaccept	Not that I have much choice. I'll ask around and have the stuff to you in {days} days.
-convo-repayment.grant-imports.npcaccept	Not that I have much choice. It's going to take some time to get it here， so I'll have the stuff to you in {days} days.
-convo-repayment.grant-imports.humanaccept	Good that we see things the same way.
-convo-repayment.grant-imports.mo	Get a supply of real， imported booze in exchange for forgetting about debt
-convo-repayment.pay-cash.humanblurb	Do I look like a bank to you? You need to come up with {amount} or there will be hell to pay.
-convo-repayment.pay-cash.humanblurb.mo	Demand immediate cash payment
-convo-repayment.pay-cash.npcaccept	I don't have that kind of cash! But... I will scrounge it up， I promise. I'll have it over to you in {days} days.
-convo-repayment.pay-cash.humanaccept	You better.
+convo-repayment.grant-imports-scottish.ticker	{name}がスコッチウィスキーをあなたの隠れ家に届けた。
+convo-repayment.grant-imports-caribbean.ticker	{name}がカリビアン・ラムをあなたの隠れ家に届けた。
+convo-repayment.grant-imports-irish.ticker	{name}がアイリッシュ・ウィスキーをあなたの隠れ家に届けた。
+convo-repayment.grant-imports-english.ticker	{name}がイングリッシュ・ジンをあなたの隠れ家に届けた。
+convo-repayment.grant-imports-german.ticker	{name}がジャーマン・シュナップスをあなたの隠れ家に届けた。
+convo-repayment.grant-imports-low.npcaccept	仕方ないんだけどね。いろいろ聞いてみて{days}で届くようにしますよ。
+convo-repayment.grant-imports.npcaccept	仕方ないんだけどね。届くまで時間がかかるので、{days}日後にお渡しします。
+convo-repayment.grant-imports.humanaccept	考え方が同じでよかったよ。
+convo-repayment.grant-imports.mo	借金を忘れるのと引き換えに本物の輸入酒を供給してもらう
+convo-repayment.pay-cash.humanblurb	私が銀行に見えるか？{amount}を出さないと地獄を見るぞ。
+convo-repayment.pay-cash.humanblurb.mo	即時の現金支払いを要求する
+convo-repayment.pay-cash.npcaccept	そんなお金ないんです！でも…必ずかき集めますから、{days}日以内にお渡しします。
+convo-repayment.pay-cash.humanaccept	そうしてくれ。
 convo-repayment.pay-cash.ticker	{name}による賭博の借金は返済されましたが、完全には返済されていないかもしれない。{amount}が入った封筒が隠れ家に届いた。ギャンブル依存症や人間関係の破綻についてのお涙頂戴の話、そして二度とあなたに逆らわないという約束について記した長い手紙も添えられていた。
-convo-repayment.extend-credit.humanblurb	I'm willing to take a gamble on you. I'll pay off your debt of {amount} and extend your credit to {newcredit}， but if you fail me again， you'll have to compensate me much more than this time around.
+convo-repayment.extend-credit.humanblurb	私はあなたに賭けるつもりです。あなたの{amount}という借金を返済し、{newcredit}まで信用を拡大するが、もしまた私の期待を裏切ったら、今回よりずっと多くの支払いをしてもらうからな。
 convo-repayment.extend-credit.humanblurb.mo	あなたの所持金で賭博の借金を支払うことで、さらに債権を増やす。
-convo-repayment.extend-credit.npcaccept	Oh how gracious of you! I promise I'll pay you back. My luck will turn around， I know it will.
-convo-repayment.extend-credit.humanaccept	That's what everybody says.
+convo-repayment.extend-credit.npcaccept	なんて親切なんだ！必ずお返しします、私の運もきっと向いてきます。
+convo-repayment.extend-credit.humanaccept	みんなそう言うんです。
 convo-repayment.extend-credit.ticker	あなたは自分の所持金から{amount}を支払うことによって{name}のツケ払いを増やした。もしやつがさらに負債を抱えたら、あなたはやつからもっと譲歩を引き出すことができるだろう。
-convo-repayment.grant-tied-houses.humanblurb	So instead of paying me back with cash， how about you agree to have a word with your family and tell them that they're only doing business with our outfit for a while? Just us. No other outfits.
-convo-repayment.grant-tied-houses.mo	All this individual's relatives who own business will agree to only do business with your outfit and not with rivals for a period of time
-convo-repayment.grant-tied-houses.npcaccept	I guess I could. Not that you've given me much choice. I'll just need {days} days to arrange this with my relatives.
-convo-repayment.grant-tied-houses.humanaccept	As long as it's done and they understand the deal that you've forced on your family， take your time. We'll be back to check up on you.
-convo-repayment.grant-tied-houses.ticker	{name} has arranged for businesses controlled by their family to only deal with your outfit for a while.
+convo-repayment.grant-tied-houses.humanblurb	それなら現金で返済する代わりに、あなたが自分の家族に一言話して、彼らが私たちの組織としばらくの間だけ独占取引をすると彼らに同意してもらうのはどうかな？ 私たちだけだ。他の組織はだめだ。
+convo-repayment.grant-tied-houses.mo	この個人の親族でビジネスをしている人は、一定期間、あなたの組織としか取引せず、ライバル組織とは取引しないことに同意させる
+convo-repayment.grant-tied-houses.npcaccept	それならできるかもしれません。選択肢を与えてくれたわけではありませんし。親族と調整するために{days}日必要です。
+convo-repayment.grant-tied-houses.humanaccept	それができて、あなたが家族に強要した契約を彼らが理解している限り、ゆっくりして貰って構わないよ。また様子を見に来ます。
+convo-repayment.grant-tied-houses.ticker	{name}は、彼らの一族が支配するビジネスに手配し、しばらくはあなたの組織だけと取引するようになりました。
 module.gambling-den-small.icon	<sprite name="biz gambling den small">
 module.gambling-den-small.name	賭博場
 module.gambling-den-small.desc	この狭い空間は、ちょっとしたゲームに適しています。席数が少ないので、遠方からの客はあまり来ないだろう。また、内装も必要最低限なので、常連客は少ないだろう。
