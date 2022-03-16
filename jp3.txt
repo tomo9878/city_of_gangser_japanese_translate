@@ -1,0 +1,1866 @@
+KEY	VALUE	COMMENTS
+__id	jp
+
+﻿ui.rename.random-nickname.m	傷顔
+ui.rename.random-nickname.m	恐怖
+ui.rename.random-nickname.m	賢者
+ui.rename.random-nickname.m	勇敢
+ui.rename.random-nickname.m	口八丁
+ui.rename.random-nickname.m	凄腕
+ui.rename.random-nickname.m	短気
+ui.rename.random-nickname.m	働き者
+ui.rename.random-nickname.m	老人
+ui.rename.random-nickname.f	危険物
+ui.rename.random-nickname.f	童顔
+ui.rename.random-nickname.f	凄腕
+ui.rename.random-nickname.f	短気
+ui.rename.random-nickname.f	フラッパー
+ui.rename.random-nickname.f	フクロウ
+ui.rename.random-nickname.f	豪華
+ui.rename.random-nickname.f	狐公
+ui.rename.random-nickname.f	シェバ
+ui.rename.random-nickname.f	スウェルダム
+ui.fight.quote	"""""この街は私たち二人のために十分な広さではない"""""
+ui.fight.quote	"""""あなたの仕事のやり方が嫌いなだけ"""""
+ui.fight.quote	"""""なめとったらあかんぞ"""""
+ui.fight.quote	"""""邪魔をするのはもうたくさんだ"""""
+ui.fight.quote	"""""あなたは私の忍耐力を十分に試してきました"""""
+ui.fight.quote	"""""お前みたいなのはもうたくさんだ"""""
+ui.customcity.newname	新{name}
+ui.customcity.newname	２番め{name}
+ui.customcity.newname	私自身の{name}
+ui.customcity.newname	カスタム{name}
+ui.tickers.category.loot-available	オファーがある
+ui.tickers.category.loot-available	オファーがある
+ui.requirements.biz.player.territory.expected	プレイヤーのテリトリーの中に無いといけない
+ui.requirements.biz.player.territory.unexpected	プレイヤーのテリトリーの中にあってはいけない
+ui.requirements.biz.player.territory.all	プレイヤーのテリトリーの中に無いといけない（全て）
+ui.requirements.biz.player.territory.any	プレイヤーのテリトリーの中に無いといけない（どれか）
+ui.requirements.biz.player.territory.none	プレイヤーのテリトリーの中にあってはいけない
+ui.requirements.biz.player.territory.expected	プレイヤーのテリトリーの中に無いといけない
+ui.requirements.biz.player.territory.unexpected	プレイヤーのテリトリーの中にあってはいけない
+ui.requirements.biz.player.territory.all	プレイヤーのテリトリーの中に無いといけない（全て）
+ui.requirements.biz.player.territory.any	プレイヤーのテリトリーの中に無いといけない（どれか）
+ui.requirements.biz.player.territory.none	プレイヤーのテリトリーの中にあってはいけない
+convo.toplevel-start.pos.1	こんにちは。ようこそ どうしたんだ？
+convo.toplevel-start.pos.1	お会いできてうれしいです。何か用ですか？
+convo.toplevel-train-passenger.pos.1	ごきげんよう。 私は駅長です。どのようなご用件でしょうか？\n\n<i>自分の組織のテリトリーに旅客駅があると、構成員の定員が1人増え、全構成員にアクションポイントが1点追加される。</i>。
+convo.toplevel-train-passenger.pos.1	お会いできてうれしいです。私は駅長です。来るのがわかっていたら、部屋を掃除していたのに\n\n<i>自分の組織のテリトリーに旅客駅があると、構成員の定員が1人増え、全構成員にアクションポイントが1点追加されます。</i>
+convo.toplevel-train-freight.pos.1	こんにちわ。私は駅長です。何か御用ですか？\n\n<i>自組織のテリトリーに貨物駅があると、トラックの容量が2増加し、全構成員に移動ポイントが2ポイント加算される。</i>
+convo.toplevel-train-freight.pos.1	お会いできてうれしいです。私は駅長です。来るのがわかっていたら、部屋を掃除していたのに\n\n<i>自組織のテリトリーに貨物駅があると、トラックの容量が2増加し、全構成員に移動ポイントが2ポイント加算されます。</i>
+convo.buysell-button	売買の話をしましょう。
+convo.buysell-button	売りたいもの、買いたいものは何ですか？
+convo.buysell-button	商業の話をしましょうか。モノを買ったり売ったりとか
+convo.buysell-button	売りたいもの、買いたいものの話をしましょう。
+convo.buysell-button	では・・・ここで何を買ったり売ったりするのでしょうか？
+convo.buysell-state.any	売買が私の仕事です。{details}
+convo.buysell-state.any	ああ・・・いい買い物ができたと思う。{details}
+convo.buysell-state.any	いつもお買い得品に目を光らせています。{details}
+convo.buysell-button-header	これは面白そうですね:
+convo.buysell-button-header	いくつかアイデアがあります:
+convo.sell-select-npc	それは面白そうですね。\n<indent=15><i>( {unitname}{priceshift}あたり{unitprice} で購入することを提案する.)</i></indent>
+convo.sell-select-npc	使えると思うんですけどね。\n<indent=15><i>({unitname}{priceshift}あたり{unitprice} で購入することを提案する)</i></indent>
+convo.outpost.nonhuman-defies-npc	気でも狂ったか？{gangname}に潰される！私はビジネスを守らなければならない
+convo.outpost.nonhuman-defies-npc	バカにしないでください! この辺りは{gangname}が支配してるんだ 首を突っ込まないよ。
+convo.moduleintro.inventory	確かに、その辺に転がっている酒を買ってくれる人を知っていますよ。
+convo.moduleintro.inventory	最近、処分しにくいかもしれない在庫があるそうですね。
+convo.ticket-skills-details-button	もっと詳しく教えてほしい。どういう意味か説明してください。
+convo.ticket-skills-details-button	では、具体的にはどのようなことを想定しているのでしょうか。
+convo.ticket-skills-details-button	詳しく教えてください。
+convo.ticket-skills-tellmore-button	これは便利そうですね。何が必要なのでしょうか？
+convo.ticket-skills-tellmore-button	これは便利そうだ。何が必要ですか？
+convo.ticket-building-details-npc	近所に{bizname}という会社があります。今のオーナーが引退したいので、全部売るそうです。
+convo.ticket-building-details-npc	近所に{bizname}という会社があります。今のオーナーがこの町から引っ越したいと言って、全部を売りたがってるそうです。
+convo.ticket-building-details-npc	近所に{bizname}という会社があるんです。今のオーナーは倒産したらしい・・・で、全部売るらしい。
+convo.ticket-building-done-ok-button	一緒にビジネスをしていきましょう。
+convo.ticket-building-done-ok-button	Here's to a successful future.
+convo.initiative-qreq-no-npc	Ah・・that is too bad.
+convo.initiative-qreq-no-npc	残念なことです。
+convo.initiative-qreq-no-npc	聞いてみようと思ったんだ。
+convo.goons.toplevel.start.any.1	あなたを知っているかしら？見かけたことがあるような
+convo.goons.toplevel.start.any.1	見覚えがあるね どこかで会ったような？
+convo.goons.toplevel.start.any	まあ・・・社会人でなければね。どうなんだ？
+convo.goons.toplevel.start.any	調子はどう？
+convo.goons.allowbiz-ask	あなたのコーナーにいる人たちと取引したいんだ。彼らはあなたに逆らうことを恐れているのだがなんとかならないか。
+convo.goons.allowbiz-ask	あなたのコーナーのお店をひいきにしてあげたいんです。彼らは、あなたがそれを快く思わないことを恐れているのでしょうが。
+convo.goons.allowbiz-npc	私のコーナーで商売をしたい・・・というのは正しい認識でしょうか？
+convo.goons.allowbiz-npc	私のテリトリーに入り込もうとしてるのか？
+convo.goons.allowbiz-npc	それはいいことだ・・・しかし、ここは私のコーナーだ・・・それはここにいる誰もが知っている。私に何の得があるんだ？
+convo.goons.allowbiz-npc	ここはお前の縄張りからはるか彼方にあるぜ・・・。ここは私のコーナーだ。ここのみんなは誰がボスか知っている。
+convo.goons.stopaggro-ask	また私や私の仲間を狙えば、その代償を払うことになる。
+convo.goons.stopaggro-ask	私の仲間を狙わないでくれ さもないと代償を払うことになる
+convo.goons.stopaggro-npc	そうなんですか？どうするんだ？
+convo.goons.stopaggro-npc	そうなんですか？それとも何？
+convo.goons.stopharassing-ask	この辺の経営者に嫌がらせをするのはやめてほしい。あなたがいると怖くて取引できないんです。
+convo.goons.stopharassing-ask	この辺りの企業に嫌がらせをするのはやめてほしい。あんたがいると取引ができない。
+convo.goons.stopharassing-npc	残念だ。ここは私の縄張りだ・・・私に指図することはできない。
+convo.goons.stopharassing-npc	そうなんですか？それともどうするんだ？
+convo.goons.stopstealing-npc	そうなんですか？どうするんだ？
+convo.goons.stopstealing-npc	そうなんですか？それとも何？
+convo.goons.defiant-npc	そうなんですか？
+convo.goons.defiant-npc	怖くなんかないわよ
+convo.goons.defiant-npc	<i>*笑い*</i>。
+convo.goons.defiant-npc	久々の馬鹿な話だ。
+convo.goons.defiant-npc	いやぁ、怖いですねぇ。
+convo.goons.compliant-npc	本気のようだな そうかい お前のような奴と問題を起こしたくない。\n<indent=15><i>(要求に応えてくれる。オーナーが安心できるようになれば、近くのコーナーで商売ができるようになる。)</i></indent>
+convo.goons.compliant-npc	待てよ、お前もその手の組織なのか？ほら、面倒なことは嫌なんだ。\n<indent=15><i>(要求に応えてくれる。オーナーが安心できるようになれば、近くのコーナーで商売ができるようになる。)</i></indent>
+convo.goons.paymore-2-npc	私はあなたと問題を起こしたくはない・・・しかし、あなたと一緒に仕事をすると、収入が減ってしまう。それに、誰だって食っていかなきゃならないんだ。
+convo.goons.paymore-2-npc	どんどん要求してきますね。面倒なことは嫌だ・・・でも費用もかかる・・・ほらね。
+convo.goons.paymore-2-npc	問題は・・・あなたの影響力の増大が私の収益を圧迫していることです。そして、誰もが食っていかなければならない・・・わかるだろ？
+convo.goons.paymore-3-npc	{price}を出せば角が立たないということにしておきましょう。
+convo.goons.paymore-3-npc	細かい交渉はやめて、全部で{price}としましょう。
+convo.goons.paytomove-3-npc	一日中ボクシングをするためにお金を払いたい？まあ・・・なんというか・・・ついに宝くじ当選が来たようです。\nええ・・・興味はあるんですが・・・でもお金が{amt}ほどかかるんですよね。
+convo.goons.paytomove-3-npc	俺を買収したいのか？その響きはいいね ボクシングクラブも悪くないな\n興味がある・・・でも{amt}ほどお金がかかる。
+convo.goons.fight.blurb	そうなんですか？ガチンコ勝負か？これはあなたにとって良い結果にはなりませんよ。
+convo.goons.fight.blurb	そうなのか？喧嘩したいのか？後悔することになるぞ
+convo.gangs.fight.blurb	そうなんですか？で、どうするつもりなんだ？
+convo.gangs.fight.blurb	今のは脅しのつもりだったのか？
+convo.gangs.fight.blurb	許される？私の存在？私はあなたにレッスンをする必要がありますか？
+convo.gangs.fight.blurb	<i>*笑い*</i>。
+convo.crew.hello	ボス・・最新情報は？？
+convo.crew.hello	会えてうれしいよ、ボス 何か用ですか？
+resresults.result-add-fireplace.eventresult.m	夕食後、お酒を飲んでいる時に、「暖炉が欲しい」「こんなのがあったら、オフィスが華やかになる」とおっしゃっていましたね。 まあ・・・{othername}がそれを立ち聞きして、いとこが裕福な顧客のために修復している、特に優雅な暖炉について偶然にも知っているのです。 もし、ご希望であれば・・オフィスに置き換えることができます ただ、設置するための材料が必要なんだそうです。
+resresults.result-add-fireplace.eventresult.m	夕食後、お酒を飲んでいる時に、「暖炉が欲しい」「こんなのがあったら、オフィスが華やかになる」とおっしゃっていましたね。 まあ・・・{othername}がそれを立ち聞きして、いとこが裕福な顧客のために修復している、特に優雅な暖炉について偶然にも知っているのです。 もし、ご希望であれば・・オフィスに置き換えることができます ただ、設置するための材料が必要なんだそうです。
+relbuff.gang.injury	あなたは彼らの1人を病院送りにした
+relbuff.gang.death	あなたは彼らの1人を安置所に送った
+relbuff.quest-same-biz	あなたは同じ違法行為に関心を持っているように見える。
+relbuff.gang.injury	あなたは彼らの1人を病院送りにした
+relbuff.gang.death	あなたは彼らの1人を安置所に送った
+relbuff.quest-same-biz	あなたは、同じ違法行為に関心を持っているように見える。
+module.flavor-bank	銀行
+module.flavor-bank	お金の流れを止めず、金庫を満杯にする金融機関。
+module.bootlegger-home-brew-brick-wine.desc	この事業では、この界隈の地元の人たちにブリックワインを少しばかり売っている。たくさん売れるわけでもなく、大金を手にするわけでもなく、かといって警察の目を引くわけでもなく......。
+module.bootlegger-home-brew-brick-wine.desc	この事業では、この界隈の地元の人たちに自家製ビールを少しばかり売っている。たくさん売れるわけでもなく、大金を手にするわけでもなく、かといって警察の目を引くわけでもなく......。
+module.production-beer-kegs.desc	大麦からビール樽を製造する小さなビール工場。
+module.production-beer-kegs.desc	Bottled beer is fine・・but kegs are much easier to distribute. This large brewery makes industrial quantities of suds.
+recipe.scopeout.illegal-homebrew	Regular malt syrup deliveries. Regular pick-ups of stone crocks. Something's brewing.
+recipe.scopeout.illegal-homebrew	The proprietor certainly enjoys these completely non-alcoholic malt beverages. Perhaps we should get a sip?
+recipe.scopeout.illegal-homebrew	The back room is full of stone crocks with hydrometers. Fascinating process for making sauerkraut.
+recipe.scopeout.illegal-cider	The owner makes the same error over and over again - leaving apple juice around until it goes 窶拊ad窶・
+recipe.scopeout.illegal-cider	Lots of neighbors seem to like coming here for the homemade applesauce. They often emphasize 窶捏auce窶・when ordering.
+recipe.scopeout.illegal-cider	No one likes apples this much.
+recipe.scopeout.illegal-moonshine	They seem to use a conspicuous amount of neutral alcohol here.
+recipe.scopeout.illegal-moonshine	They have stoneware crocks labeled XXX in the back. Curious.
+recipe.scopeout.illegal-moonshine	The crocks they sell here contain a remarkably clear and potent liquid.
+recipe.scopeout.illegal-homewine	We've heard they specialize in spiced grape juice. Perhaps it's a new trend? Or maybe they mean something else by 窶捏piced窶・
+recipe.scopeout.illegal-homewine	The garbage out back always includes a conspicuous number of crates from California・・stained purple.
+recipe.scopeout.illegal-homewine	Everyone in the neighborhood raves about the grape juice they make here. No one's grape juice is that good.
+recipe.scopeout.illegal-neutral-alcohol	The cases being delivered say 窶扼eutral Alcohol - Industrial Use Only窶・ This doesn't appear to be a factory.
+recipe.scopeout.illegal-neutral-alcohol	They use grain alcohol for 窶捏terilizing things窶・ It must be very・・very sterile in there.
+recipe.scopeout.illegal-fruit	We can probably talk them into selling some fruit as long as we assure them it will definitely not end up in a still. 
+recipe.scopeout.illegal-fruit	We may be able to arrange for some fresh fruits. Mind you・・strictly for the vitamins and health benefits...
+recipe.scopeout.illegal-source-warehouse-small	The inventory control at this warehouse is apparently not the tightest. We should see if they might lose some things onto our trucks.
+recipe.scopeout.illegal-source-warehouse-small	We've heard that when asked nicely・・the owner of this warehouse will show anyone around. And then conveniently leave you alone for a while to 窶挈ook around.窶・
+recipe.scopeout.illegal-source-warehouse-small	The proprietor of this warehouse has a reputation for losing things. There seems to be a correlation between forgetfulness and cash payments.
+recipe.scopeout.illegal-source-warehouse-medium	Employees at this sizable warehouse seem accident prone with goods being frequently misrouted. With the right motivation・・they may misroute things our way.
+recipe.scopeout.illegal-source-warehouse-medium	This warehouse is often very busy and sometimes doesn't really examine the paperwork very carefully. Sometimes they don't seem to read it at all for the right price.
+recipe.scopeout.illegal-source-warehouse-medium	Owners of warehouses understand that some product loss happens. Neighborhood gossip is that these owners are very understanding about losing products.
+recipe.scopeout.illegal-consume-homebrew	This establishment does a brisk business selling small packages. From the back door. In small・・dark bottles without labels.
+recipe.scopeout.illegal-consume-homebrew	Customers here frequently order 窶抖he Special窶・which comes from a hidden cupboard. Perhaps we could supply a new 窶抓pecial窶・for them to sell?
+recipe.scopeout.illegal-consume-homebrew	This business frequently has a lot of customers after their posted business hours. And they all seem quite happy. We could perhaps help them by furnishing some bottled happiness?
+recipe.scopeout.illegal-consume-booze-small	Unsurprisingly・・this establishment gets a lot of deliveries. Surprisingly・・lots of these deliveries happen at 2 am. Do we have things we could deliver in cases at 2 am?
+recipe.scopeout.illegal-consume-booze-small	Option one: they go through a lot of milk here. Option two: the crates that say 窶扨ILK窶・which arrive regularly don't actually contain milk.
+recipe.scopeout.illegal-consume-booze-small	Locals coming and going from this business leave with carefully guarded packages and always seem to look both ways before exiting. 
+recipe.scopeout.illegal-consume-booze-small	There is very little foot traffic in and out of the front door. The back door・・however・・seems more heavily used by bottle-toting patrons.
+recipe.scopeout.illegal-consume-booze-small	The glass bottles in their trash attract a lot of fruit flies. We may have some fruit fly feed that would could sell them?
+recipe.scopeout.illegal-consume-booze-small	A very brisk trade in 窶扎ealth Potions窶・is done here. If we get a line on a new supply of health potions・・we should keep them in mind.
+recipe.scopeout.legal-consume-tobacco	They move a lot of tobacco here. Perhaps they'd welcome a cheaper source?
+recipe.scopeout.legal-consume-tobacco	Cigarettes and cigars aplenty get sold here - a possible opportunity given the right circumstances.
+recipe.scopeout.legal-cafe	Coffee. Black as Hell. Strong as Death. Sweet as Love.
+recipe.scopeout.legal-cafe	Cakes and pies here are top-rate・・say the locals.
+recipe.scopeout.legal-cafe	Coffee and a pastry here can help with a long day of scoping out.
+recipe.scopeout.legal-restaurant	A wide variety of foodstuffs arrive at this restaurant every day.
+recipe.scopeout.legal-restaurant	Might be a good place for dinner after a long day of scoping out.
+recipe.scopeout.legal-restaurant	Locals rave about the menu here.
+recipe.scopeout.flavor-club	They consume a vast amount of ice here. This place is cool・・but that's likely because of the wide variety of liquids chilled by ice available here.
+recipe.scopeout.flavor-club	Rumor has it that you want to ask about the special coat check area at this club. The one in the basement next to the glassware and bottles.
+recipe.scopeout.flavor-club	Locals say that you should ask for a bartender named Phil here. And it turns out that every bartender is named Phil. What are the chances?
+recipe.scopeout.legal-flowers	Pretty posies and beautiful bouquets purveyed.
+recipe.scopeout.legal-flowers	Fine flowers and potted plants are sold here.
+recipe.scopeout.flavor-funeral	No one would stop a hearse bearing the dearly departed to their final resting place. Wait. That sounds like good cover...
+recipe.scopeout.flavor-funeral	So we suspect that they're moving more than mortal remains in their hearses.
+recipe.scopeout.flavor-funeral	We've tracked the hearses from this funeral home. They don't seem to visit the cemetery as often as you'd think.
+recipe.scopeout.legal-furniture	Settees. Sofas. Chaises. Lots of options for home lounging on sale at this shop.
+recipe.scopeout.legal-furniture	Beds. Dressers. Wardrobes. Armoires. Lots of furnishing options available here.
+recipe.scopeout.legal-jewelry	Watches sold and repaired. Brooches and pendants. Lots of fine jewelry sold here.
+recipe.scopeout.legal-jewelry	Sparkling rings. Glistening earrings. Fine watches and fobs. This store has some lovely gems and jewels.
+recipe.scopeout.legal-newspapers	All editions of the latest local news.
+recipe.scopeout.legal-newspapers	Press・・papers・・magazines and types of printed matter for sale here.
+recipe.scopeout.legal-candy	Bags of sugar. Boxes of chocolate. Things tied in ribbons carefully arranged in the storefront window.
+recipe.scopeout.legal-candy	From the aroma and the assortment of colorful treats in the windows・・this is likely a candy store.
+recipe.scopeout.legal-shoes	Fine footwear sold and serviced at this establishment.
+recipe.scopeout.legal-shoes	Dress shoes to work boots - all types and styles of footwear sold here.
+recipe.scopeout.legal-books	Fiction to reference works・・poetry to philosophy. This bookseller has it all.
+recipe.scopeout.legal-books	The latest bestsellers fly off the well-stocked shelves of this fine bookstore. 
+recipe.scopeout.legal-clothing	The latest styles of apparel fill the racks at this clothing shop.
+recipe.scopeout.legal-clothing	Clothes for work and fancy outfits for special occasions are in-stock and ready to wear.
+recipe.scopeout.flavor-laundry	This business specializes in the boring kind of laundering.
+recipe.scopeout.flavor-laundry	Soap. Hot water. Irons. Looks like some type of commercial laundry operation.
+recipe.scopeout.source-malt-small	We might be able to get our hands on malt syrup here that we'll only use for baking. Just baking.
+recipe.scopeout.source-malt-small	This business has excessive amounts of malt syrup just sitting around. If we ask nicely・・they may sell it to us.
+recipe.scopeout.building-materials-small	This business store doesn't appear too particular about permits to sell materials.
+recipe.scopeout.building-materials-small	We can probably get some construction materials here for building and expanding things.
+recipe.scopeout.source-tobacco-small	The large crates that move in at night smell suspiciously like raw tobacco even though the crates are labeled 窶戮OTTON窶・
+recipe.scopeout.source-tobacco-small	Trucks with license plates from the south show up and unload large crates late at night. Pretty sure it's raw tobacco.
+recipe.scopeout.source-labels	The owner of this print shop isn't too concerned about copyright laws and might be willing to sell us some convincing fake labels.
+recipe.scopeout.source-labels	A print shop with a pliable owner. Perhaps we could secure some convincing fake labels or other counterfeits.
+recipe.scopeout.source-farm	The owner of this business gets lots of produce from the countryside that could be useful.
+recipe.scopeout.source-farm	Because of frequent trips to farms outside of the city・・this business can access some potentially useful produce.
+recipe.scopeout.illegal-bottles	They move cases out with prominent Frank's Milk labels. We've never seen Frank's Milk in a store. Does milk usually come in dark bottles? Maybe we get in the dairy racket?
+recipe.scopeout.illegal-bottles	They bring in barrels that say Florida Orange Juice. They appear to be producing bottles without labels. Why would they skip labeling?
+recipe.scopeout.illegal-bottles	Cases of mineral water? Is this an unknown urban artesian spring? The liquid inside is sometimes clear・・but it's definitely not water.
+recipe.scopeout.illegal-bottles	Some nights trucks unload empty glass bottles. The bottles are being filled from barrels in the back room and then put back on the trucks. It's strangely well-guarded.
+recipe.scopeout.small-lumberyard	Lumberyards have lots of convenient hiding places. At this one・・they seem to be filled with stoneware. And that stoneware in turn is filled with interesting concoctions.
+recipe.scopeout.small-lumberyard	Lumberyards make lots of deliveries. In this particular case・・they seem to always have some stoneware crocks with curious liquids on their routes...
+recipe.scopeout.conversion-backroom-distillery	They use a conspicuous amount of corn syrup in this building and we can't figure out what they're making.
+recipe.scopeout.conversion-backroom-distillery	There is some strange equipment in the back of this building that looks a bit like a basic still.
+recipe.scopeout.source-bakery-small	Bakeries produce bread and other baked goods. Baking often involves yeast and fermentation just like making booze. Interesting.
+recipe.scopeout.source-bakery-small	The baked goods made here have ingredients that can be used for other fermented products.
+recipe.scopeout.source-bakery-small	Bakeries use yeast・・water and some grain to make bread. Those same ingredients can be used for other・・more lucrative products.
+recipe.scopeout.legal-soda-fountain	Fizzy drinks・・fruity malts・・creamy milkshakes are served from behind this soda fountain counter.
+recipe.scopeout.legal-soda-fountain	Soda fountains are always popular with locals seeking a bit of refreshment.
+recipe.scopeout.source-warehouse-homebooze	Several of the back rooms of this warehouse have 窶扛eep Out窶・signs. People go in and out with various sacks・・crates and stoneware crocks.
+recipe.scopeout.source-warehouse-homebooze	We stopped someone coming out with a few stoneware crocks and asked what goes on in there. Their slurred reply was that they didn't come for the pickles. Then they staggered off.
+recipe.scopeout.source-warehouse-homebooze	We suspect that the back rooms of this warehouse are doing more than storing stoneware crocks...
+recipe.scopeout.illegal-beer	At night・・they load cargo into delivery vehicles. Hey wait - is that smell... beer?
+recipe.scopeout.illegal-beer	In the middle of the night・・trucks pull up. A few have spilled and the contents look suspiciously amber-colored and fizzy.
+recipe.scopeout.illegal-beer	A liquid made from barley・・water・・yeast and hops. What could that be?
+recipe.scopeout.illegal-wine	The boxes coming in read 窶戮alifornia Grapes窶・ The barrels out the back curiously have no labels.
+recipe.scopeout.illegal-wine	Crates of grapes go in. Then trucks pick up barrels labeled 窶抉ICKLES窶・ Ever heard of pickled grapes? Maybe we should by some pickled grapes?
+recipe.scopeout.illegal-wine	Perhaps they're making raisins? What other uses could they have for that many grapes?
+recipe.scopeout.illegal-source-booze-small-bulk	A garbage truck stops here frequently. It picks up barrels and doesn't seem interested in collecting trash. Those must be some interesting barrels.
+recipe.scopeout.illegal-source-booze-small-bulk	Every few days・・a barrel is rolled out of the basement onto a waiting truck. At 3 am. With armed guards.
+recipe.scopeout.illegal-source-booze-small-bulk	There's a peculiar pick up every few days. Same truck. Same barrels. Same two lookouts on the corner.
+recipe.scopeout.illegal-bottles	They bring in barrels that say Florida Orange Juice. They appear to be producing bottles without labels. Why would they skip labeling?
+recipe.scopeout.illegal-bottles	Cases of mineral water? Is this an unknown urban artesian spring? The liquid inside is sometimes clear・・but it's definitely not water.
+recipe.scopeout.supper-club	This establishment appears to be more popular than others. The fine stemware・・corkscrews and other things indicate they serve more than iced tea.
+recipe.scopeout.supper-club	The linens that get picked up for cleaning have purple stains and sometimes smell a bit like beer. This supper club is clearly popular for a reason.
+recipe.scopeout.supper-club	This supper club gets a lot of late night and early morning deliveries from quite a few non-food service vendors.
+recipe.scopeout.illegal-consume-booze-large	The staff is always carefully removing labels from bottles before disposing of them. For some reason・・they don't seem keen to reveal the former contents of those bottles.
+recipe.scopeout.illegal-consume-booze-large	The side door to this establishment in the alley seems far busier than the main entrance out front.
+recipe.scopeout.illegal-consume-booze-large	Many of the bottles that are disposed of here look like that started out life in another country and then were brought here to be consumed.
+recipe.scopeout.sink-homebooze-industrial	Word around here is that the owner of this business uses their vehicles to deliver homemade booze to customers and establishments all over town.
+recipe.scopeout.sink-homebooze-industrial	The owner of this business loads a lot of crocks into their work vehicles. I think they're probably selling to various customers around town.
+recipe.scopeout.sink-homebooze-industrial	Talked with an employee. The owner is looking for homemade booze to sell from their work trucks. We should get to know them.
+recipe.scopeout.sink-booze-industrial	Word around here is that the owner of this business uses their vehicles to deliver illegal bottles of booze to customers and establishments all over town.
+recipe.scopeout.sink-booze-industrial	The owner of this business loads a lot of crates of bottles into their work vehicles. I think they're probably selling to various customers around town.
+recipe.scopeout.sink-booze-industrial	Talked with an employee. The owner is looking for bottled booze to sell from their work trucks. We should get to know them.
+recipe.scopeout.sink-industrial-barrels	A union hall. This union represents local employees and laborers in the transportation sector. Though this is a local・・it's connected to other locals around the country. A network of sorts. A potentially useful one.
+recipe.scopeout.sink-industrial-barrels	This union hall is a node in a national network. Getting an in here could mean access to a regional and national distribution system.
+recipe.scopeout.sink-industrial-barrels	The workers represented by this union load and unload trucks・・boats and trains. Perhaps we could use their connections to load and unload beneficial things.
+recipe.scopeout.legal-coal	A simple coal yard. But it looks like the owner might be delivering more than sacks of coal in those trucks...
+recipe.scopeout.legal-coal	They sell a lot of coal. But there is usually room in the delivery trucks for some 窶抛xtras窶・
+recipe.scopeout.flavor-candy	Sweet! It's a candy factory!
+recipe.scopeout.flavor-candy	Smells like chocolate. Must be a candy factory.
+recipe.scopeout.flavor-candy	The colorful boxes・・wrappers and packaging point to this being a candy factory.
+recipe.scopeout.cigarette-bootlegger	Cartons of cigarettes are sometimes unloaded from trucks here. At 4 am.
+recipe.scopeout.cigarette-bootlegger	The proprietor asks patrons what kind of cigarettes they're looking for・・and they don't mean what brand.
+recipe.scopeout.source-carshop-small	An auto mechanic by appearance. Lots of customers without cars. Interesting.
+recipe.scopeout.source-carshop-small	This looks like an auto repair shop. Some of the customers look like they should leave their vehicles behind for reasons other than their need for repair.
+recipe.scopeout.source-carshop-small	This car shop seems to repair a lot of vehicles very quickly. And they often finish by putting several packages in the trunk after a very cursory glance under the hood.
+recipe.scopeout.conversion-malt-syrup	The smell of malted barley wafts through the air. They must be making malted health drinks.
+recipe.scopeout.conversion-malt-syrup	A truck delivers large sacks of barley here every few days.
+recipe.scopeout.conversion-malt-syrup	This business appears to be meeting the surging demand for malted barley by home bakers all over the city. Baking with malted barley has curiously become extremely popular of late.
+recipe.scopeout.conversion-ice-house	The thick walls of this building seem to generate frost even on the hottest summer day.
+recipe.scopeout.conversion-ice-house	All the workers here are always very warmly dressed. Even in July.
+recipe.scopeout.junkyard	Vehicles in various states of repair and disassembly sit around this junkyard.
+recipe.scopeout.junkyard	Cars and trucks are being broken down for spare parts.
+recipe.scopeout.junkyard	There's probably some organization to these piles of vehicle parts and broken down cars.
+recipe.scopeout.junkyard-module	The proprietor of this scrapyard would probably help you get rid of unwanted vehicles or quietly repair a damaged one.
+recipe.scopeout.junkyard-module	The owner of this scrapyard is always looking for new sources of spare parts or to sell them for repairs.
+recipe.scopeout.junkyard-module	One man's junk is another's treasure. And vice versa. 
+recipe.scopeout.car-dealer-regular	New car smell wafts about.
+recipe.scopeout.car-dealer-regular	Shiny metal bodies. Clean rubber tires. Looks like new cars are on sale here.
+recipe.scopeout.truck-garage	This business has a lot of trucks coming and going.
+recipe.scopeout.truck-garage	They have so many trucks. Perhaps they wouldn't miss one?
+recipe.scopeout.truck-garage	Need a truck?
+recipe.scopeout.truck-garage	Trucks are good・・right? They've got quite a few.
+recipe.scopout.deli	Lots of people walk out of this place with tasty looking sandwiches.
+recipe.scopout.deli	They slice meat paper-thin. The cheese is always fresh. The bread always warm.
+recipe.scopout.deli	Lots of refrigerated display cabinets with meats・・cheeses and other delectables.
+recipe.scopeout.illegal-booze	We've noticed workmen carrying in barrels two at a time. Then at night・・it takes two men to load them onto a truck. What potent liquid could be filling these barrels?
+recipe.scopeout.illegal-booze	In the middle of the night・・trucks pull up・・and load cargo that looks barrel-shaped. Why would they be loading barrels at night?
+building.biz-poolhall.bizname	{$firstname}'s {#pool-hall}
+building.biz-poolhall.bizname	{#letter}{#letter} {#pool-hall}
+building.biz-poolhall.bizname	{$lastname}'s {#pool-hall}
+building.biz-poolhall.bizname	{#urban-features} {#pool-hall}
+building.biz-supperclub.bizname	{#pattern-possessive}
+building.biz-supperclub.bizname	{#pattern-possessive-first}
+building.biz-supperclub.bizname	The {#club-names} Room
+building.biz-drugstore.bizname	{$lastname} Drug Co.
+building.biz-drugstore.bizname	{$firstname} {$lastname}・・{#drug-store-one}
+building.biz-drugstore.bizname	{#pattern-one-name-biz}・・{#drug-store-one}
+building.biz-drugstore.bizname	{#geographic-features} {#drug-store-two}
+building.biz-drugstore.bizname	{#directions} {#drug-store-two}
+building.biz-restaurant.bizname	{$lastname} {$eth} Delights
+building.biz-restaurant.bizname	{#pattern-possessive-first}
+building.biz-restaurant.bizname	{#pattern-possessive}
+building.biz-restaurant.bizname	{$firstname}'s {$eth} Restaurant
+building.biz-restaurant.bizname	{#biz-names-one} Diner
+building.biz-restaurant.bizname	The {#urban-features}
+building.biz-restaurant.bizname	The {#colors} {#rest-fixture}
+building.biz-cafe.bizname	{$firstname}'s {#cafe-name}
+building.biz-cafe.bizname	{#pattern-possessive} {$eth} {#cafe-name}
+building.biz-cafe.bizname	{#urban-features} {#cafe-name}
+building.biz-cafe.bizname	{#flower-names} {#cafe-name}
+building.biz-cafe.bizname	Cafe {#eth-city}
+building.biz-cafe.bizname	Cafe {#zodiac-signs}
+building.biz-dairy.icon	<sprite name="biz dairy">
+building.biz-dairy.bizname	{#flower-names} Dairy
+building.biz-dairy.bizname	{$lastname} Family Dairy
+building.biz-dairy.bizname	{#geographic-features} Farms Dairy
+building.biz-dairy.bizname	{#midwestern-places} Creamery
+building.biz-dairy.icon	<sprite name="biz dairy">
+building.biz-dairy.bizname	{#flower-names} Dairy
+building.biz-dairy.bizname	{$lastname} Family Dairy
+building.biz-dairy.bizname	{#geographic-features} Farms Dairy
+building.biz-dairy.bizname	{#midwestern-places} Creamery
+building.biz-laundromat.bizname	Suds'n'Such
+building.biz-laundromat.bizname	{#pattern-possessive-first} {#laundry-name}
+building.biz-laundromat.bizname	{#flower-names} {#laundry-name}
+building.biz-laundromat.bizname	{#geographic-features} {#laundry-name}
+building.biz-laundromat.bizname	{#pattern-initials} {#laundry-name}
+building.biz-warehouse.bizname	{#pattern-three-letters} Corp
+building.biz-warehouse.bizname	{#pattern-one-name-biz}
+building.biz-warehouse.bizname	{$lastname} {#storage.names}
+building.biz-warehouse.bizname	{#directions} {#storage.names}
+building.biz-warehouse.bizname	{#midwestern-places} {#storage.names}
+building.biz-deli.bizname	{#pattern-possessive-first} {$eth} {#deli-name}
+building.biz-deli.bizname	{#pattern-possessive} {$eth} {#deli-name}
+building.biz-deli.bizname	{#pattern-possessive-first} {#urban-features} Deli
+building.biz-deli.bizname	{#cardinals} {$eth} {#deli-name}
+building.biz-deli.bizname	{#midwestern-places} {#deli-name}
+building.biz-tobacconist.bizname	{#pattern-one-name-biz}・・Tobacconist
+building.biz-tobacconist.bizname	{#pattern-possessive-first} {#tobacconist-name}
+building.biz-tobacconist.bizname	{#pattern-possessive} {#tobacconist-name}
+building.biz-tobacconist.bizname	{#urban-features} {#tobacconist-name}
+building.biz-carshop.bizname	{#car-adj} {#carshop-name}
+building.biz-carshop.bizname	{#pattern-possessive-first} {#car-adj} {#carshop-name}
+building.biz-carshop.bizname	{#pattern-possessive} {#car-adj} {#carshop-name}
+building.biz-carshop.bizname	{#pattern-possessive} {#carshop-name}
+building.biz-carshop.bizname	{#pattern-possessive-first} {#carshop-name}
+building.biz-carshop.bizname	{#urban-features} {#carshop-name}
+building.biz-lumberyard.bizname	{#pattern-possessive-first} {#lumber-yard-name}
+building.biz-lumberyard.bizname	{#pattern-possessive} {#lumber-yard-name}
+building.biz-lumberyard.bizname	{#colors} {#tree-names} {#lumber-yard-name}
+building.biz-lumberyard.bizname	{#biz-names-one} {#lumber-yard-name}
+building.biz-construction.bizname	The {$lastname} Company
+building.biz-construction.bizname	{#pattern-one-name-biz}
+building.biz-construction.bizname	{$lastname} {#construction-name}
+building.biz-construction.bizname	{#biz-names-one} {#construction-name}
+building.biz-coalyard.bizname	{#pattern-one-name-biz}
+building.biz-coalyard.bizname	{#midwestern-places} Coal Co.
+building.biz-coalyard.bizname	{$lastname} Colliers
+building.biz-coalyard.bizname	{#industrial-adj} Coal Ltd.
+building.biz-coalyard.bizname	{#pattern-initials} Coal Company
+building.biz-cardealer.bizname	{#pattern-initials} {#cardealer-name}
+building.biz-cardealer.bizname	{#pattern-possessive} {#cardealer-name}
+building.biz-cardealer.bizname	{#pattern-possessive} {#car-adj} {#cardealer-name}
+building.biz-cardealer.bizname	{#biz-names-one} {#cardealer-name}
+building.biz-cardealer.bizname	{#directions} {#cardealer-name}
+building.biz-truck-garage.bizname	{#pattern-initials} {#truck-repair-name}
+building.biz-truck-garage.bizname	{#pattern-initials} {#car-adj} {#truck-repair-name}
+building.biz-truck-garage.bizname	{#pattern-possessive-first} {#truck-repair-name}
+building.biz-truck-garage.bizname	{#pattern-possessive} {#truck-repair-name}
+building.biz-truck-garage.bizname	{#car-adj} {#truck-repair-name}
+building.biz-truck-garage.bizname	{#midwestern-places} {#truck-repair-name}
+building.biz-taxi-garage.bizname	{#colors} {#taxi-name}
+building.biz-taxi-garage.bizname	{#number}{#number}{#number} {#taxi-name}
+building.biz-taxi-garage.bizname	{#biz-names-one} {#taxi-name}
+building.biz-taxi-garage.bizname	{#tree-names} {#taxi-name}
+building.biz-tire-store.bizname	{#pattern-possessive-first} {#tire-name}
+building.biz-tire-store.bizname	{#pattern-possessive} {#tire-name}
+building.biz-tire-store.bizname	{#car-adj} {#tire-name}
+building.biz-tire-store.bizname	{#urban-features} {#tire-name}
+building.biz-gas-station.bizname	{#industrial-adj} {#gas-station}
+building.biz-gas-station.bizname	{#biz-names-one} {#gas-station}
+building.biz-gas-station.bizname	{#car-adj} {#gas-station}
+building.biz-gas-station.bizname	{#directions} {#gas-station}
+building.biz-mechanic-small.bizname	{#pattern-initials} {#truck-repair-name}
+building.biz-mechanic-small.bizname	{#pattern-initials} {#car-adj} {#car-repair-name}
+building.biz-mechanic-small.bizname	{#pattern-possessive-first} {#car-repair-name}
+building.biz-mechanic-small.bizname	{#pattern-possessive} {#car-repair-name}
+building.biz-mechanic-small.bizname	{#car-adj} {#car-repair-name}
+building.biz-mechanic-small.bizname	{#midwestern-places} {#car-repair-name}
+building.biz-still.bizname	{$eth} Import Export
+building.biz-still.bizname	{$lastname} Inc.
+building.biz-grocery.bizname	{#pattern-possessive} {$eth} {#grocery-stores}
+building.biz-grocery.bizname	{#urban-features} {#grocery-stores}
+building.biz-grocery.bizname	{#colors} {#geographic-features} {#grocery-stores}
+building.biz-grocery.bizname	{#directions} Market {$eth} Grocers
+building.biz-bakery.bizname	{#colors} {#misc-names-colored} {#bakery-name}
+building.biz-bakery.bizname	{#pattern-possessive-first} {$eth} {#bakery-name}
+building.biz-bakery.bizname	{#pattern-possessive} {$eth} {#bakery-name}
+building.biz-bakery.bizname	{#pattern-possessive-first} {#bakery-name}
+building.biz-bakery.bizname	{#pattern-possessive} {#bakery-name}
+building.biz-hardware.bizname	{$lastname} Family Hardware
+building.biz-hardware.bizname	{#pattern-possessive} {#hardware-name}
+building.biz-hardware.bizname	{#pattern-possessive-first} {#hardware-name}
+building.biz-hardware.bizname	{#midwestern-places} {#hardware-name}
+building.biz-haberdasher.bizname	{#eth-city} {#hat-shop}
+building.biz-haberdasher.bizname	{#pattern-initials} {#hat-shop}
+building.biz-haberdasher.bizname	{#geographic-features} {#hat-shop}
+building.biz-haberdasher.bizname	{#biz-names-one} {#hat-shop}
+building.biz-bookstore.bizname	{#pattern-possessive-first} {#bookstore-name}
+building.biz-bookstore.bizname	{#pattern-possessive} {$eth} {#bookstore-name}
+building.biz-bookstore.bizname	{#letter} {$lastname} {#bookstore-name}
+building.biz-bookstore.bizname	{#biz-names-one} {#bookstore-name}
+building.biz-florist.bizname	{#pattern-possessive-first} {#flower-shop}
+building.biz-florist.bizname	{#pattern-possessive} {#flower-shop}
+building.biz-florist.bizname	{#colors} {#flower-names} {#flower-shop}
+building.biz-florist.bizname	{#pattern-possessive-first} {$eth} {#flower-shop}
+building.biz-newsstand.bizname	{#pattern-possessive-first} {#newsstand}
+building.biz-newsstand.bizname	{#urban-features} {#newsstand}
+building.biz-newsstand.bizname	Little {#eth-city} {#newsstand}
+building.biz-meatpacker.bizname	{#pattern-possessive} {$eth} {#meat-packing-name}
+building.biz-meatpacker.bizname	{#industrial-adj} {#meat-packing-name}
+building.biz-meatpacker.bizname	{#midwestern-places} {#meat-packing-name}
+building.biz-butcher.bizname	{#pattern-possessive} {$eth} {#biz-butcher-name}
+building.biz-butcher.bizname	{#industrial-adj} {#biz-butcher-name}
+building.biz-butcher.bizname	{#midwestern-places} {#biz-butcher-name}
+building.biz-butcher.bizname	{$lastname} {#biz-butcher-name}
+building.biz-forge.bizname	{#industrial-adj} {#metal-names} {#metalsmith-name}
+building.biz-forge.bizname	{$lastname} {#metal-names} {#metalsmith-name}
+building.biz-forge.bizname	{#industrial-adj} {#metalsmith-name}
+building.biz-forge.bizname	{$lastname} {#metalsmith-name}
+building.biz-forge.bizname	{#midwestern-places} {#metal-names} {#metalsmith-name}
+building.biz-forge.bizname	{#midwestern-places} {#metalsmith-name}
+building.biz-mason.bizname	{$lastname}'s {#mason-name}
+building.biz-mason.bizname	{$lastname} {#mason-name}
+building.biz-mason.bizname	{#industrial-adj} {#mason-name}
+building.biz-mason.bizname	{$lastname} {#mason-name}
+building.biz-mason.bizname	{#midwestern-places} {#mason-name}
+building.biz-mason.bizname	{#urban-features} {#mason-name}
+building.biz-painters.bizname	{$lastname}'s {#painters-name}
+building.biz-painters.bizname	{$lastname} {#painters-name}
+building.biz-painters.bizname	{#industrial-adj} {#painters-name}
+building.biz-painters.bizname	{$lastname} {#painters-name}
+building.biz-painters.bizname	{#midwestern-places} {#painters-name}
+building.biz-painters.bizname	{#urban-features} {#painters-name}
+building.biz-sawmill.bizname	{$lastname} {#sawmill-name}
+building.biz-sawmill.bizname	{#pattern-one-name-biz}
+building.biz-sawmill.bizname	{#midwestern-places} {#sawmill-name}
+building.biz-sawmill.bizname	{#pattern-double-amp} {#sawmill-name}
+building.biz-textilemill.bizname	{#pattern-one-name-biz}
+building.biz-textilemill.bizname	{$lastname} {#textile-name}
+building.biz-textilemill.bizname	{#geographic-features} {#textile-name}
+building.biz-textilemill.bizname	{#pattern-initials} {#textile-name}
+building.biz-textilemill.bizname	{#directions} {#textile-name}
+building.biz-steelmill.bizname	{#pattern-one-name-biz}
+building.biz-steelmill.bizname	{#industrial-adj} {#steel-mill-name}
+building.biz-steelmill.bizname	{#directions} {#steel-mill-name}
+building.biz-steelmill.bizname	{$lastname} {#steel-mill-name}
+building.biz-printer.bizname	{#pattern-one-name-biz}・・Printers
+building.biz-printer.bizname	{$lastname} {#printer-name}
+building.biz-printer.bizname	{#biz-names-one} {#printer-name}
+building.biz-printer.bizname	{#urban-features} {#printer-name}
+building.biz-printer.bizname	{#pattern-initials} {#printer-name}
+building.biz-five-and-dime.bizname	{$lastname} 5ﾂ｢ and 10ﾂ｢ {#store-names}
+building.biz-five-and-dime.bizname	{#pattern-possessive} Variety {#store-names}
+building.biz-five-and-dime.bizname	{#pattern-possessive-first} Variety {#store-names}
+building.biz-five-and-dime.bizname	{#midwestern-places} 5ﾂ｢ and 10ﾂ｢ {#store-names}
+building.biz-funeral-home.bizname	{#pattern-one-name-biz} {#funeral-home}
+building.biz-funeral-home.bizname	{#pattern-initials} {#funeral-home}
+building.biz-funeral-home.bizname	{#pattern-full-name} {#funeral-home}
+building.biz-furniture-store.bizname	{#pattern-one-name-biz}
+building.biz-furniture-store.bizname	{#cardinals} {#directions} {#furniture-store}
+building.biz-furniture-store.bizname	{#pattern-possessive} Furniture {#store-names}
+building.biz-furniture-store.bizname	{#pattern-possessive} Furniture {#other-store}
+building.biz-jeweler.bizname	{#pattern-one-name-biz}
+building.biz-jeweler.bizname	{#pattern-two-name-biz}・・Jewelers
+building.biz-jeweler.bizname	{#pattern-full-name}・・Jeweler
+building.biz-jeweler.bizname	{#pattern-possessive} {#jeweler}
+building.biz-jeweler.bizname	{#pattern-possessive} {$eth} {#jeweler}
+building.biz-pawn-shop.bizname	{#pattern-two-name-biz}・・Pawnbrokers
+building.biz-pawn-shop.bizname	{#directions} {#pawn-shop}
+building.biz-pawn-shop.bizname	{#pattern-possessive} {#pawn-shop}
+building.biz-pawn-shop.bizname	{#pattern-full-name} {#pawn-shop}
+building.biz-pawn-shop.bizname	{#pattern-possessive-first} {#pawn-shop}
+building.biz-shoe-store.bizname	{#midwestern-places} {#shoe-store}
+building.biz-shoe-store.bizname	{#pattern-possessive} {#shoe-store}
+building.biz-shoe-store.bizname	{#biz-names-one} {#shoe-store}
+building.biz-shoe-store.bizname	{$cityname} {$eth} Shoes
+building.biz-shoe-store.bizname	{#pattern-two-name-biz}・・Shoe {#store-names}
+building.biz-shoe-store.bizname	{#pattern-two-name-biz}・・Shoe {#other-store}
+building.biz-restaurant-buffet.bizname	The {#colors} {#rest-fixture} {#buffet-rest}
+building.biz-restaurant-buffet.bizname	Amazing {#eth-city} {#buffet-rest}
+building.biz-restaurant-buffet.bizname	{#pattern-possessive-first}'s {$eth} {#buffet-rest}
+building.biz-lunch-counter.bizname	{$firstname}'s {#lunch-rest}
+building.biz-lunch-counter.bizname	The {#colors} Counter
+building.biz-lunch-counter.bizname	{#pattern-possessive-first} Corner
+building.biz-cafeteria.bizname	{#pattern-possessive-first} Cafeteria
+building.biz-cafeteria.bizname	{#pattern-possessive} Cafeteria
+building.biz-cafeteria.bizname	{#letter} & {#letter} Cafeteria
+building.biz-sandwich-shop.bizname	{#pattern-possessive-first} {#sandwich-rest}
+building.biz-sandwich-shop.bizname	{#pattern-possessive} {#sandwich-rest}
+building.biz-jazz-club.bizname	The {#colors} {#misc-names-colored}
+building.biz-jazz-club.bizname	{#club-names} Club
+building.biz-jazz-club.bizname	{#club-names} Lounge
+building.biz-dance-hall.bizname	The {#club-names} Ballroom
+building.biz-dance-hall.bizname	{#letter}{#letter}'s Ballroom
+building.biz-dance-hall.bizname	{#club-names} Hall
+building.biz-dance-hall.bizname	{#letter}{#letter}'s Dance Hall
+building.biz-theater.bizname	The {#zodiac-signs}
+building.biz-theater.bizname	The {#flower-names}
+building.biz-theater.bizname	The {#biz-names-one}
+building.biz-hotel.bizname	The Grand {#directions} Hotel
+building.biz-hotel.bizname	The Inn at {#midwestern-places}
+building.biz-hotel.bizname	The {#hotel.names} Hotel
+building.biz-bank.bizname	{#cardinals} {#directions} Bank
+building.biz-bank.bizname	{#cardinals} {#midwestern-places} Bank
+building.biz-bank.bizname	{$lastname} {#region} Bank
+building.biz-bank.bizname	{#cardinals} {#region} Bank
+building.biz-bank.bizname	The {$eth} Alliance
+building.biz-bank.bizname	The {#cardinals} {$eth} Union
+building.biz-barber-shop.bizname	{#pattern-possessive-first}
+building.biz-barber-shop.bizname	{#letter}{#letter}'s Barber Shop
+building.biz-barber-shop.bizname	{#pattern-possessive} Barber Shop
+building.biz-barber-shop.bizname	{#pattern-possessive-first} Beauty Shop
+building.biz-clothing.bizname	{#pattern-possessive}
+building.biz-clothing.bizname	{#biz-names-one} {#store-names}
+building.biz-clothing.bizname	{#biz-names-one} {#other-store}
+building.biz-clothing.bizname	{#pattern-two-name-biz}
+building.biz-fruit-stand.bizname	{#pattern-possessive-first} Fruit Co.
+building.biz-fruit-stand.bizname	{#cardinals} {$eth} Fruit and Vegetables
+building.biz-fruit-stand.bizname	{#midwestern-places} Fruit {#store-names}
+building.biz-fruit-stand.bizname	{#midwestern-places} Fruit {#other-store}
+building.biz-junkyard.bizname	{#midwestern-places} Junkyard
+building.biz-junkyard.bizname	Great {#directions} Junkyard
+building.biz-junkyard.bizname	{#industrial-adj} Scrapyard
+building.biz-cold-storage.bizname	{#industrial-adj} Cold Storage
+building.biz-cold-storage.bizname	{$lastname} {#generic-biz-endings}・・Cold Warehouse
+building.biz-cold-storage.bizname	{#cardinals} {$cityname} Cold Storage
+building.biz-candy-factory.bizname	{#pattern-double-amp} {#candy-name}
+building.biz-candy-factory.bizname	{#colors} {#letter} {#candy-name}
+building.biz-candy-factory.bizname	{#pattern-possessive} {#candy-name}
+building.biz-candy-store.bizname	{#pattern-possessive} {#candy-store}
+building.biz-candy-store.bizname	{#midwestern-places} {#candy-store}
+buidling.biz-candy-store.bizname	{#flower-names} {#candy-store}
+buidling.biz-candy-store.bizname	{#urban-features} {#candy-store}
+building.biz-factory-mill.bizname	{#industrial-adj} Mills
+building.biz-factory-mill.bizname	{#pattern-double-amp} Mills
+building.biz-factory-mill.bizname	{#pattern-one-name-biz}
+building.biz-cannery.bizname	{#industrial-adj} {#cannery-name}
+building.biz-cannery.bizname	{#directions} {#cannery-name}
+building.biz-cannery.bizname	{#letter} $ {#letter} {#cannery-name}
+building.biz-glass-works.bizname	{#midwestern-places} {#glass-name}
+building.biz-glass-works.bizname	{#pattern-three-letters} {#glass-name}
+building.biz-glass-works.bizname	{#industrial-adj} Works #{#number}
+building.biz-concrete.bizname	{#letter} & {#letter} {#concrete-name}
+building.biz-concrete.bizname	{$lastname} {#concrete-name}
+building.biz-concrete.bizname	{#midwestern-places} {#concrete-name}
+building.biz-bowling-alley.bizname	{#biz-names-one} {#bowling-alley-name}
+building.biz-bowling-alley.bizname	{#club-names} {#bowling-alley-name}
+building.biz-bowling-alley.bizname	{#geographic-features} {#bowling-alley-name}
+building.biz-soda-fountain.bizname	{$lastname}'s
+building.biz-soda-fountain.bizname	{#geographic-features}'s Soda Fountain
+building.biz-soda-fountain.bizname	{#colors} Cone
+building.train-station.bizname	The Great {#directions} {#rail-station}
+building.train-station.bizname	{#midwestern-places} & {#directions} {#rail-station}
+building.train-station.bizname	{#industrial-adj} Lines {#rail-station}
+building.train-station.bizname	The {#metal-names} Plate Road {#rail-station}
+building.boxing-gym.bizname	{$lastname}'s Gym
+building.boxing-gym.bizname	{$firstname}'s Boxing Gym
+building.boxing-gym.bizname	{$firstname}'s Training Center
+building.biz-union-hall.bizname	{#directions} Local United
+building.biz-union-hall.bizname	{#cardinals} {#union-adj} {#union-noun} of Longshoreman
+building.biz-union-hall.bizname	{#union-noun} of Longshoreman
+building.biz-union-hall.bizname	{#union-adj} Longshoreman's {#union-noun}
+letter	A
+letter	B
+letter	C
+letter	D
+letter	E
+letter	F
+letter	G
+letter	H
+letter	I
+letter	J
+letter	K
+letter	L
+letter	M
+letter	N 
+letter	O
+letter	P
+letter	Q
+letter	R
+letter	S
+letter	T
+letter	U
+letter	V
+letter	W
+letter	X
+letter	Y
+letter	Z
+lowercase	a
+lowercase	b
+lowercase	c
+lowercase	d
+lowercase	e
+lowercase	f
+lowercase	g
+lowercase	h
+lowercase	i
+lowercase	j
+lowercase	k
+lowercase	l
+lowercase	m
+lowercase	N 
+lowercase	o
+lowercase	p
+lowercase	q
+lowercase	r
+lowercase	s
+lowercase	t
+lowercase	u
+lowercase	v
+lowercase	w
+lowercase	x
+lowercase	y
+lowercase	z
+number	1
+number	2
+number	3
+number	4
+number	5
+number	6
+number	7
+number	8
+number	9
+store-names	Shop
+store-names	Store
+other-store	Market
+other-store	Emporium
+generic-biz-endings	& Co.
+generic-biz-endings	& Son
+generic-biz-endings	& Sons
+generic-biz-endings	Bros.
+generic-biz-endings	Brothers
+generic-biz-endings	Company
+funeral-home	・・Undertakers
+funeral-home	・・Funeral Home
+funeral-home	・・Funeral Parlor
+funeral-home	・・Morticians
+furniture-store	Furnishings
+furniture-store	Oriental Rugs
+furniture-store	Furniture
+furniture-store	Furniture {#store-names}
+jeweler	Jewelry
+jeweler	Jewelry {#store-names}
+jeweler	Jewelry & Fine Watches
+pawn-shop	Pawn Shop
+pawn-shop	Pawn Broker
+pawn-shop	Pawnbroker
+pawn-shop	Loan Office
+shoe-store	Shoe {#store-names}
+shoe-store	Shoe {#other-store}
+shoe-store	Shoe Repair {#store-names}
+shoe-store	Shoes
+shoe-store	Boot and Shoe {#store-names}
+buffet-rest	Buffet Restaurant
+buffet-rest	Buffet
+lunch-rest	Lunch Counter
+lunch-rest	Soda Fountain
+lunch-rest	Snack Spot
+lunch-rest	Sausage Stand
+sandwich-rest	Sandwiches
+sandwich-rest	Sandwich Restaurant
+sandwich-rest	Sandwich Counter
+sandwich-rest	Spot
+sandwich-rest	Place
+sandwich-rest	Joint
+club-names	Cat
+club-names	Cotton
+club-names	Royal
+club-names	Constellation
+club-names	Sunset
+club-names	Velvet
+club-names	Regal
+club-names	Palm
+club-names	Blue Bird
+club-names	Studio
+club-names	Star
+club-names	Solar
+hotel.names	Drake
+hotel.names	Bristol
+hotel.names	Clarence
+hotel.names	Saxony
+hotel.names	Allerton
+hotel.names	Palmer House
+hotel.names	Grand
+hotel.names	LaSalle
+hotel.names	Blackstone
+hotel.names	Congress
+storage.names	Storage
+storage.names	Storage Co.
+storage.names	Moving & Storage Co.
+storage.names	Warehouse & Storage
+storage.names	Storage & Van Co.
+storage.names	Fireproof Storage Co.
+candy-name	Confectionery
+candy-name	Candy Factory
+candy-name	Candies
+candy-name	Candy Company
+candy-name	Chocolate
+candy-store	Confectionery
+candy-store	Candies
+candy-store	Chocolatiers
+candy-store	Confections
+candy-store	Sweets
+candy-store	Candies and Gifts
+cannery-name	Foods
+cannery-name	Packing Company
+cannery-name	Cannery
+cannery-name	Canning Co.
+cannery-name	Food Co.
+glass-name	Glass Co.
+glass-name	Glass Works
+glass-name	Works
+glass-name	Glass Factory
+concrete-name	Concrete
+concrete-name	Concrete Co.
+concrete-name	Concrete & Cement Co.
+concrete-name	Materials・・Inc.
+concrete-name	Concrete・・Yard {#number}
+bowling-alley-name	Lanes
+bowling-alley-name	Bowl
+bowling-alley-name	Bowling Alley
+bowling-alley-name	Bowling
+bowling-alley-name	Lanes & Lounge
+bakery-name	Bakery
+bakery-name	Pastries
+bakery-name	Baking Co.
+bakery-name	Pastry Shop
+bakery-name	Bake Shop
+hardware-name	Hardware
+hardware-name	Hardware Store
+hardware-name	Tools
+hardware-name	Tool {#store-names}
+hardware-name	Supply Co.
+hardware-name	Hardware Supply
+deli-name	Delicatessen
+deli-name	Deli
+deli-name	Meats & Cheese Co.
+deli-name	Deli & Sausage {#store-names}
+deli-name	Meat Counter
+flower-shop	Flower {#store-names}
+flower-shop	Flowers & Gifts
+flower-shop	Florist
+flower-shop	Flowers
+hat-shop	Hat {#store-names}
+hat-shop	Hat {#other-store}
+hat-shop	Hatmakers
+hat-shop	Haberdashery
+hat-shop	Haberdashers
+hat-shop	Millinery
+hat-shop	Milliners
+newsstand	News
+newsstand	Newsstand
+newsstand	News Stand
+newsstand	Newspapers & Magazines
+grocery-stores	Grocery
+grocery-stores	Grocery {#store-names}
+grocery-stores	Market
+grocery-stores	Meat & Grocery
+grocery-stores	Food {#store-names}
+grocery-stores	Produce & Grocery
+drug-store-one	Druggist
+drug-store-one	Pharmacist
+drug-store-one	Registered Pharmacist
+drug-store-one	Prescription Druggist
+drug-store-two	Drug {#store-names}
+drug-store-two	Pharmacy
+drug-store-two	Drug Co.
+tobacconist-name	Tobacco Co.
+tobacconist-name	Tobacconist
+tobacconist-name	Cigar & Cigarette {#store-names}
+tobacconist-name	Tobacco {#store-names}
+bookstore-name	Books
+bookstore-name	Booksellers
+bookstore-name	Book Co.
+bookstore-name	Book {#store-names}
+bookstore-name	Book {#other-store}
+cafe-name	Cafe
+cafe-name	Tea {#store-names}
+cafe-name	Coffee & Tea {#store-names}
+cafe-name	Tea Room
+cafe-name	Coffee Shop
+steel-mill-name	Steel Mill
+steel-mill-name	Iron Works
+steel-mill-name	Steel Co.
+steel-mill-name	Works
+steel-mill-name	Smelting Co.
+sawmill-name	Sawmill
+sawmill-name	Lumber Co.
+sawmill-name	Lumber Company
+sawmill-name	Wood Products
+sawmill-name	Sawmills
+printer-name	Press
+printer-name	Printing
+printer-name	Printing Co.
+printer-name	Printers
+meat-packing-name	Packing Co.
+meat-packing-name	Packing House
+meat-packing-name	Meat Packers・・Inc.
+meat-packing-name	Meat Co.
+meat-packing-name	Packers
+biz-butcher-name	Butchers
+biz-butcher-name	Butcher Shop
+biz-butcher-name	Meat Company
+biz-butcher-name	Products
+biz-butcher-name	Meat Co.
+laundry-name	Laundry Co.
+laundry-name	Hand Washing
+laundry-name	Cleaners
+laundry-name	Laundromat
+laundry-name	Laundry Service
+metalsmith-name	Smiths
+metalsmith-name	Metalworks
+metalsmith-name	Metal Co.
+metalsmith-name	Metalsmith
+mason-name	Masons
+mason-name	Bricklayers
+mason-name	Brickyard
+mason-name	Stonework and Masonry
+painters-name	House Painting
+painters-name	Home Renovation
+painters-name	Painting and Construction
+painters-name	Painters
+painters-name	Painting Co.
+forge-name	Foundry
+forge-name	Metalworks
+forge-name	Blacksmith
+forge-name	Casting Co.
+forge-name	Die Casting Co.
+textile-name	Textile Mills
+textile-name	Textiles
+textile-name	Fabrics
+textile-name	Fabric Co.
+textile-name	Knitting Co.
+textile-name	Woolen Mill
+lumber-yard-name	Building Co.
+lumber-yard-name	Lumber Co.
+lumber-yard-name	Building Materials
+lumber-yard-name	Lumber
+lumber-yard-name	Lumber & Supply Co.
+construction-name	Construction Co.
+construction-name	Construction Company
+construction-name	Builders
+carshop-name	Auto Repair
+carshop-name	Auto Service
+carshop-name	Auto Body Shop
+carshop-name	Tire & Brake Service
+carshop-name	Service Center
+cardealer-name	Car Sales
+cardealer-name	Auto {#other-store}
+cardealer-name	Motors
+cardealer-name	Auto Sales
+cardealer-name	Car Co.
+taxi-name	Cab Co.
+taxi-name	Taxi Co.
+taxi-name	Livery Service
+taxi-name	Cabs
+taxi-name	Taxi
+tire-name	Tire {#store-names}
+tire-name	Tire {#other-store}
+tire-name	Tire & Service
+tire-name	Tire Sales & Repair
+tire-name	Tires
+truck-repair-name	Truck Garage
+truck-repair-name	Truck Repair
+truck-repair-name	Truck Service
+truck-repair-name	Truck Repair Co.
+truck-repair-name	Truck Body Co.
+car-repair-name	Mechanics
+car-repair-name	Auto Service
+car-repair-name	Garage
+car-repair-name	Auto Repair
+car-repair-name	Car Body Co.
+car-repair-name	Car Repair
+car-repair-name	Auto Body Co.
+gas-station	Service Station
+gas-station	Oil Co.
+gas-station	Petroleum Co.
+gas-station	Gasoline
+gas-station	Stations・・Inc.
+pool-hall	Billiards
+pool-hall	Pool Hall
+pool-hall	Snooker & Billiards
+industrial-adj	Union
+industrial-adj	Consolidated
+industrial-adj	Central
+industrial-adj	Amalgamated
+industrial-adj	Standard
+industrial-adj	General
+industrial-adj	American
+industrial-adj	Atlas
+industrial-adj	Illinois
+industrial-adj	Continental
+industrial-adj	Allied
+industrial-adj	Associated
+car-adj	Reliable
+car-adj	Complete
+car-adj	Expert
+car-adj	Accurate
+car-adj	Budget
+car-adj	Performance
+car-adj	Speedy
+region	State
+region	City
+region	County
+region	National
+geographic-features	River
+geographic-features	Lake
+geographic-features	Park
+geographic-features	Forest
+geographic-features	Hillside
+geographic-features	Lakeside
+geographic-features	Beach
+geographic-features	Lakeshore
+geographic-features	Meadow
+geographic-features	Valley
+urban-features	Corner
+urban-features	Parkside
+urban-features	Neighborhood
+urban-features	Station
+urban-features	Boulevard
+urban-features	Local
+urban-features	Midtown
+biz-names-one	Centennial
+biz-names-one	Olympia
+biz-names-one	Columbia
+biz-names-one	Midway
+biz-names-one	Plaza
+biz-names-one	Republic
+biz-names-one	Skyline
+biz-names-one	Atlantic
+biz-names-one	Titanic
+biz-names-one	Millennium
+midwestern-places	Great Lakes
+midwestern-places	{$cityname}
+midwestern-places	River
+midwestern-places	{$statename}
+midwestern-places	Prairie
+midwestern-places	Midway
+midwestern-places	Central
+midwestern-places	Park
+directions	Eastern
+directions	Western
+directions	Southern
+directions	Northern
+zodiac-signs	Gemini
+zodiac-signs	Aquarius
+zodiac-signs	Pieces
+zodiac-signs	Capricorn
+zodiac-signs	Libra
+zodiac-signs	Taurus
+zodiac-signs	Virgo
+cardinals	First
+cardinals	Second
+cardinals	Third
+cardinals	Fourth
+cardinals	Fifth
+cardinals	Sixth
+cardinals	Seventh
+cardinals	Eighth
+cardinals	Ninth
+colors	Red
+colors	Blue
+colors	Green
+colors	Yellow
+colors	Purple
+colors	Orange
+flower-names	Rose
+flower-names	Carnation
+flower-names	Chrysanthemum
+flower-names	Daisy
+flower-names	Violet
+flower-names	Lily
+flower-names	Lilac
+flower-names	Orchid
+tree-names	Oak
+tree-names	Maple
+tree-names	Pine
+tree-names	Ash
+tree-names	Birch
+metal-names	Iron
+metal-names	Copper
+metal-names	Nickel
+metal-names	Aluminum
+metal-names	Brass
+metal-names	Tin
+misc-names-colored	Arrow
+misc-names-colored	Door
+misc-names-colored	Roof
+misc-names-colored	Leaf
+misc-names-colored	Wheel
+misc-names-colored	Circle
+rest-fixture	Table
+rest-fixture	Plate
+rest-fixture	Fork
+rest-fixture	Spoon
+rest-fixture	Knife
+eth-city	Hamburg
+eth-city	Munich
+eth-city	Bremen
+eth-city	Prague
+eth-city	Pilsen
+eth-city	Cracow
+eth-city	Warsaw
+eth-city	Vienna
+eth-city	Linz
+eth-city	Stockholm
+eth-city	Gothenburg
+eth-city	Moscow
+eth-city	Kazan
+eth-city	Dublin
+eth-city	Cork
+eth-city	Naples
+eth-city	Palermo
+eth-city	Budapest
+eth-city	Szeged
+eth-city	Copenhagen
+eth-city	Vilnius
+eth-city	Glasgow
+eth-city	Oslo
+union-adj	International
+union-adj	National
+union-adj	Regional
+union-adj	American
+union-adj	North American
+union-noun	Brotherhood
+union-noun	Union
+union-noun	Federation
+union-noun	Organization
+rail-station	Terminal
+rail-station	Station
+rail-station	Depot
+pattern-one-name-biz	{$lastname} {#generic-biz-endings}
+pattern-one-name-biz	{#pattern-initials} {#generic-biz-endings}
+pattern-full-name	{$firstname} {#letter}. {$lastname}
+pattern-full-name	{$firstname} {$lastname}
+pattern-two-name-biz	{#pattern-double-amp} {$lastname} & Company
+pattern-two-name-biz	{#pattern-double-amp} {$lastname} & Company
+pattern-loafers	The {$lastname} Boys
+pattern-loafers	The {$lastname} Crew
+pattern-loafers	{$lastname} and the Crew
+pattern-loafers	{$lastname}'s Crew
+skill.homebooze-homemade-brandy-quest.name	Homemade Brandy Production
+skill.homebooze-homemade-brandy-quest.name	Provide {$firstname} {$lastname} with some materials to learn how to set up a very basic brandy still.
+skill.truck-garage-fruit-wine.conv	Want to run more trucks? I just a favor. I know you've got fruit wine and that your stuff is good. Send over enough so that I can share it with my work crew and they'll be happy to show you how to build places to fix your trucks so that you can get more of them.
+skill.truck-garage-fruit-wine.conv	Want to run more trucks? I just a favor. I know you've got homemade brandy and that your stuff is good. Send over enough so that I can share it with my work crew and they'll be happy to show you how to build places to fix your trucks so that you can get more of them.
+quest.apple-jack-producer.npc1	News has spread that you're making applejack. And new has also spread that we're on good terms.
+quest.apple-jack-producer.npc1	I've got a very chatty customer who grew up on an apple farm. She says that her family made a lot of applejack・・but the hard times mean that they need to sell off a lot of their equipment. Since you're making applejack・・perhaps you'd want to buy it and get her help?
+quest.crew-family-one.afterchoice	I'll make sure your invitation gets to you. See you at the party!
+quest.crew-family-one.afterchoice	It's good that our family sticks together.
+quest.protected-disliked-one.npc2	Really? Then how about proving that. The youth baseball team we sponsor could use some new bats and uniforms.
+quest.protected-disliked-one.npc2	Care to prove that? The baseball field in the park where our kids play is in terrible shape and could use fixed up.
+quest.protected-disliked-one.npc2	Oh is that so? Then why don't you sponsor our next block party if you're so into local spirit?
+quest.vehicle-quest-pickup-one-family.beforechoice	So・・our newly close distant cousin dropped off this envelope. It has everything you'll need. But because we're family・・it's been made clear to me that there are definitely other opportunities to be had with this delivery operation if you can provide some assistance.
+quest.vehicle-quest-pickup-one-family.beforechoice	Our cousin dropped off this envelope. It has everything you'll need. But because of our family connection・・it's been made clear to me that there are definitely other opportunities to be had with this delivery operation if you can provide some assistance.
+quest.skill-upgrade-rum-barrel.name	Still Working: Rum
+quest.skill-upgrade-rum-barrel.name	See if your loyal customer of bottled rum can help you increase production.
+quest.skill-upgrade-brandy-barrel.name	Still Working: Brandy
+quest.skill-upgrade-brandy-barrel.name	See if your loyal customer of bottled brandy can help you increase production.
+quest.skill-upgrade-whiskey-barrel.name	Still Working: Whiskey
+quest.skill-upgrade-whiskey-barrel.name	See if your loyal customer of bottled whiskey can help you increase production.
+quest.skill-upgrade-vodka-barrel.name	Still Working: Vodka
+quest.skill-upgrade-vodka-barrel.name	See if your loyal customer of bottled vodka can help you increase production.
+quest.booze-surplus-fruit-wine-bonus.name	Excess Fruit Wine
+quest.booze-surplus-fruit-wine-bonus.desc	Deliver more of your excess production of fruit wine to see what else your friend's connection can get for you.
+quest.booze-surplus-fruit-wine-bonus.npc1	I hear that your supply of fruit wine has one again grown considerable. If you'd like・・I can speak to my out of state friends again and see what we can arrange.
+quest.booze-surplus-fruit-wine-bonus.npc2	I'm glad we have this level of trust・・to be honest. Have your fruit wine sent over here when you can.
+quest.booze-surplus-fruit-wine-bonus.name	Excess Homemade Brandy
+quest.booze-surplus-fruit-wine-bonus.desc	Deliver more of your excess production of homemade brandy to see what else your friend's connection can get for you.
+quest.booze-surplus-fruit-wine-bonus.npc1	I hear that your supply of homemade brandy has one again grown considerable. If you'd like・・I can speak to my out of state friends again and see what we can arrange.
+quest.booze-surplus-fruit-wine-bonus.npc2	I'm glad we have this level of trust・・to be honest. Have your homemade brandy sent over here when you can.
+postcard.protection	Next morning・・staff came in to see that someone broke in through the back door and completely tore the place apart・・destroying inventory and business paperwork.
+postcard.protection	Next morning・・staff discovered the back door had been torn wide open. Everything inside was smashed to pieces・・but as far as they were able to ascertain・・nothing was actually taken.
+postcard.protection	Next morning・・staff discovered that overnight someone broke into storage in the basement・・poured gasoline all over everything・・and left a full box of matches placed carefully right in the middle of the floor.
+postcard.protection	Next morning・・staff came in to discover that overnight someone pelted all the windows with rocks and bricks・・in quantity excessive for even the most brazen hooligans.
+postcard.protection	Later that day・・someone drove by and threw a bottle filled with gasoline right through the front window. Only the owner's fast reaction stopped this from turning into a fiery disaster.
+postcard.protection	Later that day・・someone drove by and threw a bottle filled with gasoline right through the front window. Only a faulty wick stopped this from turning into a fiery disaster.
+postcard.gangaggro	Later that day・・you discover someone left a package at your front door: some dead fish wrapped in newspaper. You get a feeling you might've made an enemy recently.
+postcard.gangaggro	Later that day・・someone knocked on your door and left a package: some dead fish rolled in newspaper. You get a feeling someone has it out for you.
+postcard.arrested	One of your people got arrested by the cops. Fortunately they kept quiet through the interrogation・・so they've been released later that day・・minus cash and possessions which got 窶挈ost窶・in the process.
+postcard.arrested	The heat in the area attracted police attention. One of your people has been taken into custody・・but there was nothing to pin on them・・so they got released later that day・・minus cash and possessions.
+quest.fake-beer-delivery.c3	Well・・I've never figured out how to properly turn grapes into more useful grape concentrate. If I could do that・・I could expand my wine operations.
+quest.fake-beer-delivery.c3	Well・・I've never figured out how to properly turn barley into more useful malt syrup. If I could do that・・I could expand my counterfeit beer operation.
+quest.bourbon-drop-repeat-one.npc2	Great. Just the $500 and the materials and we'll be moving the bourbon in no time.
+quest.bourbon-drop-repeat-one.npc2	Great. Just the $750 and the materials and we'll be moving the bourbon in no time.
+chapter.arrest.ic-end.fail	I just couldn't shake the tail・・boss. But you know me. I'll never squawk.
+chapter.arrest.ic-end.fail	Well・・I guess I'm getting a break from these mean streets. Some time on the inside doesn't bother me. See you in a bit.
+chapter.arrest.ic-end.fail	I guess I got made・・boss. Can you make sure that someone feeds my cat while I'm doing time?
+chapter.arrest.ic-end.fail	I got found out! Not sure how・・but you can rest easy・・boss. I ain't the talking type.
+chapter.arrest.ic-end.fail	Someone has gone and done the 窶搜ight窶・thing and called the cops.
+chapter.arrest-or-kill.fail	The cops! They're here with guns. Lots of guns!
+chapter.arrest-or-kill.fail	Oh no・・boss. The police・・they -
+chapter.arrest-or-kill.fail	Things have gone badly・・boss. Very badly.
+chapter.justfail.ic-end.fail	Turns out there's nothing here・・boss.
+chapter.justfail.ic-end.fail	Well・・someone got spooked somewhere and it's best we just call this off.
+chapter.justfail.ic-end.fail	Well・・that didn't pan out.
+chapter.kill-crew.fail	I think I might need to go to the hospital.
+chapter.kill-crew.fail	Oh no・・boss!
+chapter.kill-crew.fail	Sorry・・boss. Did my best for you.
+chapter.kill-crew.fail	I don't think I'm getting out of this one・・boss.
+chapter.fail-general.ic-end.fail	Well・・that didn't pan out.
+chapter.fail-general.ic-end.fail	Things have not gone as planned・・boss. Not at all.
+chapter.fail-general.ic-end.fail	I know. I know. Not what we wanted.
+chapter.bank-take-over-fail	One of the bank guards earned their keep - they noticed your crew hanging around and called the cops.
+chapter.bank-take-over-fail	{name} should have been more careful recruiting for this robbery. Turns out one of them was a cop.
+chapter.get-plans.decide.fail	As soon as {name} started talking about getting plans・・some literal alarm bells went off.
+chapter.get-plans.decide.fail	It took them a while・・but after {name} asked about plans・・the cops were definitely tipped off.
+newspaper-headline.murder	Violence Sweeps The City! Police Descend At {cornername}
+newspaper-headline.murder	Police Responds To Violent Outburst At {cornername}
+newspaper-headline.murder	Police Investigate Homicide At {cornername}
+newspaper-headline.murder	Gangland Murder At {cornername} Shocks City
+newspaper-headline.murder	Shocking Killing Reported! Victim Related To {groupname}
+newspaper-headline.murder	Police Investigating Shocking Violence Targeting {groupname}
+newspaper-headline.outfitgone	{groupname} Eliminated By Rivals! Gang Violence Shocks The City
+newspaper-headline.outfitgone	{groupname} Eliminated By Rivals! Gangland Conflicts Trouble The Mayor
+newspaper-headline.outfitgone	{groupname} Eliminated By Rivals! Gangland Murders A New Police Priority
+newspaper-general	Flapper Craze Sweeps The Nation: Bobbed Hair The Hot New Look For The Summer
+newspaper-general	Flapper Craze Ruffles Feathers: Jazz And Liquor Blamed For Scandalous Behavior
+newspaper-general	Chief of Police Warns the City: 窶扣azz And Liquor Will Be Our Downfall窶・
+newspaper-general	Chief of Police Discusses City Problems: 窶抉eople Don't Mind Their Own Business Anymore窶・
+newspaper-general	Mayor Means Business During Tour To Promote Locally Produced Wares
+newspaper-general	Bad Booze: Tainted Moonshine Sends Dozens To Hospital
+newspaper-general	Seized! Feds Find Hoard of Canadian Booze Hidden In Shipment Of Fur Hats
+newspaper-general	Malt Syrup Health Drink Sales Hit New Record High
+newspaper-general	Church Wine Sales Soar; 窶抖he City Is Not Seeing A Religious Revival窶・Say Feds 
+newspaper-chicago	New Trial Shocks Cook County; 窶扎e Ran Into My Knife! Ten Times!窶・Murderess Claims
+newspaper-chicago	Chief of Police Laments: 窶戮hicago's Current State is Ill.窶・
+newspaper-chicago	Chief of Police Found Drunk and Asleep in Bridgeport; Investigation Halted
+newspaper-chicago	Feds Arrive: 窶戮hicago Will Have Prohibition Enforcement窶・
+newspaper-chicago	Book Review: New Book About Stockyards Confuses With Jungle Metaphors
+newspaper-chicago	Feds Beef Up Agricultural Inspections At Stockyards After Bad Meat Sickens Hundreds
+newspaper-pittsburgh	Mayor Dedicates Yet Another Bridge
+newspaper-pittsburgh	Darkness At Noon: Another Day Of Soot-Filled Skies Blacks Out Sun
+newspaper-pittsburgh	Fowl Weather: Winds Cause Chicken Barge To Capsize In Monongahela River
+newspaper-pittsburgh	Steel Worker Strike Idles Mills: 窶扼o Work Until Management Listens!窶・
+newspaper-pittsburgh	Feds Arrive: 窶抉ittsburgh Will Have Prohibition Enforcement窶・
+newspaper-pittsburgh	Moonshine Shack Explosions In Rural Allegheny County Skyrocket
+newspaper-dated-general.1920	A Talking Devil Box! First Radio Station Opens
+newspaper-dated-general.1920	Traffic Cops File Complaint As City Installs First Automatic Traffic Signal
+newspaper-dated-general.1921	New Electric Hair Dryer Blows Into Stores
+newspaper-dated-general.1921	Criminals Beware! Scientists Reveal New Lie Detecting Contraption
+newspaper-dated-general.1923	Smile! Instant Camera With Self-Developing Film Coming Soon
+newspaper-dated-general.1923	Clear Out! First Bulldozers Debut In City
+newspaper-dated-general.1924	Culinary Breakthrough: Cheese Melts On Ground Beef Patty
+newspaper-dated-general.1924	New Self-Locking Pliers Ease Pulling Things Out Of Other Things
+newspaper-dated-general.1925	Corny Reuben Sandwich Craze Causes Sauerkraut Shortage Pickle
+newspaper-dated-general.1925	Adhesive Miracle: Masking Tape Sales Start
+newspaper-dated-general.1926	Self-Rising Garage Door Wows Consumers
+newspaper-dated-general.1926	Eat In Your Car! Pull Up Drive Thru Restaurant Wows Driving Diners
+newspaper-dated-general.1927	Automatic Bread Slicer Cuts Into Knife Market
+newspaper-dated-general.1927	Self-Playing Record Machine Debuts With Silly Name: Jukebox
+newspaper-dated-general.1928	Barbers Facing Competition From New Electric Shavers
+newspaper-dated-general.1928	Barbers Report Spiking Demand As Bubblegum Mania Grips City Kids
+newspaper-dated-general.1929	Stop Squinting! New Sunglasses All The Rage
+newspaper-dated-general.1929	Fresh Peas In January! Frozen Food Craze Sweeps City
+newspaper-dated-chicago.1925	The Chicago Cardinals Win Championships Amidst Controversy
+newspaper-dated-chicago.1925	The New Union Station Ushers In The Age of High Speed Rail Travel
+streets.usfounders	Washington
+streets.usfounders	Adams
+streets.usfounders	Jefferson
+streets.usfounders	Madison
+streets.usfounders	Monroe
+streets.usfounders	Quincy
+streets.usfounders	Jackson
+streets.usfounders	Van Buren
+streets.usfounders	Harrison
+streets.usfounders	Tyler
+streets.usfounders	Polk
+streets.usfounders	Taylor
+streets.usfounders	Fillmore
+streets.usfounders	Pierce
+streets.usfounders	Buchanan
+streets.usfounders	Lincoln
+streets.usfounders	Johnson
+streets.usfounders	Grant
+streets.usfounders	Hayes
+streets.usfounders	Garfield
+streets.usfounders	Arthur
+streets.usfounders	Cleveland
+streets.usfounders	McKinley
+streets.usfounders	Roosevelt
+streets.famouspeople	Magellan
+streets.famouspeople	Galileo
+streets.famouspeople	Copernicus
+streets.famouspeople	Columbus
+streets.famouspeople	Marco Polo
+streets.famouspeople	Morse
+streets.famouspeople	Bell
+streets.famouspeople	Gutenberg
+streets.famouspeople	Pascal
+streets.famouspeople	Euclid
+streets.famouspeople	Pasteur
+streets.famouspeople	Curie
+streets.famouspeople	Da Vinci
+streets.famouspeople	Shakespeare
+streets.famouspeople	Bacon
+streets.famouspeople	Austen
+streets.famouspeople	Dickens
+streets.famouspeople	Chaucer
+streets.usstates	Alabama
+streets.usstates	Alaska
+streets.usstates	Arizona
+streets.usstates	Arkansas
+streets.usstates	California
+streets.usstates	Carolina
+streets.usstates	Colorado
+streets.usstates	Connecticut
+streets.usstates	Delaware
+streets.usstates	Florida
+streets.usstates	Georgia
+streets.usstates	Hawaii
+streets.usstates	Idaho
+streets.usstates	Illinois
+streets.usstates	Indiana
+streets.usstates	Iowa
+streets.usstates	Kansas
+streets.usstates	Kentucky
+streets.usstates	Louisiana
+streets.usstates	Maine
+streets.usstates	Maryland
+streets.usstates	Massachusetts
+streets.usstates	Michigan
+streets.usstates	Minnesota
+streets.usstates	Mississippi
+streets.usstates	Missouri
+streets.usstates	Montana
+streets.usstates	Nebraska
+streets.usstates	Nevada
+streets.usstates	New Hampshire
+streets.usstates	New Jersey
+streets.usstates	New Mexico
+streets.usstates	New York
+streets.usstates	North Carolina
+streets.usstates	North Dakota
+streets.usstates	Ohio
+streets.usstates	Oklahoma
+streets.usstates	Oregon
+streets.usstates	Pennsylvania
+streets.usstates	South Carolina
+streets.usstates	South Dakota
+streets.usstates	Tennessee
+streets.usstates	Texas
+streets.usstates	Vermont
+streets.usstates	Virginia
+streets.usstates	West Virginia
+streets.usstates	Wisconsin
+streets.usstates	Wyoming
+streets.usstates	Rhode Island
+streets.uscities	Plymouth
+streets.uscities	Philadelphia
+streets.uscities	New York
+streets.uscities	Chicago
+streets.uscities	Detroit
+streets.uscities	Cleveland
+streets.uscities	St Louis
+streets.uscities	Boston
+streets.uscities	Baltimore
+streets.uscities	Pittsburgh
+streets.uscities	Los Angeles
+streets.uscities	Buffalo
+streets.uscities	Cincinnati
+streets.uscities	Brooklyn
+streets.uscities	San Francisco
+streets.uscities	New Orleans
+streets.uscities	Milwaukee
+streets.smalltown	Bay
+streets.smalltown	Central
+streets.smalltown	Church
+streets.smalltown	County
+streets.smalltown	Division
+streets.smalltown	Evergreen
+streets.smalltown	Highland
+streets.smalltown	Hill
+streets.smalltown	Hillside
+streets.smalltown	Lake
+streets.smalltown	Main
+streets.smalltown	Meadow
+streets.smalltown	Park
+streets.smalltown	Pleasant
+streets.smalltown	Ridge
+streets.smalltown	River
+streets.smalltown	Sunrise
+streets.smalltown	Sunset
+streets.smalltown	View
+streets.generic	College
+streets.generic	Forest
+streets.generic	Timber
+streets.generic	Union
+streets.generic	Green
+streets.generic	River
+streets.generic	Bridge
+streets.generic	Ferry
+streets.generic	Church
+streets.generic	State
+streets.generic	North
+streets.generic	East
+streets.generic	South
+streets.generic	West
+streets.generic	Water
+streets.generic	School
+streets.generic	Canal
+streets.generic	Brook
+streets.generic	Liberty
+streets.generic	Grove
+streets.generic	Fairview
+streets.generic	Spring
+streets.generic	Terrace
+streets.generic	Garden
+streets.trees	Ash
+streets.trees	Birch
+streets.trees	Cedar
+streets.trees	Cherry
+streets.trees	Chestnut
+streets.trees	Elm
+streets.trees	Fir
+streets.trees	Holly
+streets.trees	Laurel
+streets.trees	Magnolia
+streets.trees	Maple
+streets.trees	Oak
+streets.trees	Pine
+streets.trees	Spruce
+streets.trees	Walnut
+streets.trees	Willow
+streets.trees	Wood
+streets.plants	Blossom
+streets.plants	Flower
+streets.plants	Iris
+streets.plants	Lavender
+streets.plants	Lily
+streets.plants	Magnolia
+streets.plants	Orchid
+streets.plants	Poppy
+streets.plants	Rose
+streets.plants	Sage
+streets.plants	Sunflower
+streets.plants	Tulip
+streets.plants	Vine
+streets.plants	Violet
+streets.birds	Quail
+streets.birds	Robin
+streets.birds	Sparrow
+streets.birds	Swallow
+streets.birds	Cardinal
+streets.birds	Finch
+streets.birds	Lark
+streets.birds	Pelican
+streets.birds	Turkey
+streets.birds	Bluebird
+streets.birds	Falcon
+streets.birds	Parrot
+streets.birds	Eagle
+streets.birds	Hawk
+streets.birds	Crow
+streets.birds	Swan
+streets.birds	Dove
+streets.birds	Swift
+streets.birds	Heron
+streets.birds	Owl
+streets.lastnames	Sherman
+streets.lastnames	Sheridan
+streets.lastnames	Bliss
+streets.lastnames	March
+streets.lastnames	Marshall
+streets.lastnames	Garland
+streets.lastnames	Sedgwick
+streets.lastnames	Banks
+streets.lastnames	Bidwell
+streets.lastnames	Buell
+streets.lastnames	Caldwell
+streets.lastnames	Scott
+streets.lastnames	Carter
+streets.lastnames	Chapin
+streets.lastnames	Crawford
+streets.lastnames	Cutler
+streets.lastnames	Dewey
+streets.lastnames	Dwight
+streets.lastnames	Finley
+streets.lastnames	Fisk
+streets.lastnames	Geary
+streets.lastnames	Harris
+streets.lastnames	Howard
+streets.lastnames	Judah
+streets.lastnames	Kane
+streets.lastnames	King
+streets.lastnames	Logan
+streets.lastnames	McArthur
+streets.lastnames	Meade
+streets.lastnames	Morgan
+streets.lastnames	Morton
+streets.lastnames	Nagle
+streets.lastnames	Osborn
+streets.lastnames	Patterson
+streets.lastnames	Potts
+streets.lastnames	Rice
+streets.lastnames	Reynolds
+streets.lastnames	Seward
+streets.lastnames	Shields
+streets.lastnames	Sullivan
+streets.lastnames	Tower
+streets.lastnames	Upton
+streets.lastnames	Ward
+streets.lastnames	Warren
+streets.lastnames	Whipple
+streets.lastnames	Wright
+streets.pitt	Allegheny
+streets.pitt	Allentown
+streets.pitt	Arlington
+streets.pitt	Banksville
+streets.pitt	Bedford
+streets.pitt	Beechview
+streets.pitt	Beltzhoover
+streets.pitt	Bloomfield
+streets.pitt	Bluff
+streets.pitt	Bon Air
+streets.pitt	Brighton
+streets.pitt	Brookline
+streets.pitt	Carrick
+streets.pitt	Lawrenceville
+streets.pitt	Northside
+streets.pitt	Oakland
+streets.pitt	Chartiers
+streets.pitt	Chateau
+streets.pitt	Crafton
+streets.pitt	Crawford
+streets.pitt	Duquesne
+streets.pitt	East Allegheny
+streets.pitt	Carnegie
+streets.pitt	Liberty
+streets.pitt	Elliott
+streets.pitt	Esplen
+streets.pitt	Fairywood
+streets.pitt	Fineview
+streets.pitt	Friendship
+streets.pitt	Garfield
+streets.pitt	Valley
+streets.pitt	Hilltop
+streets.pitt	Glen Hazel
+streets.pitt	Greenfield
+streets.pitt	Four Mile Run
+streets.pitt	Hays
+streets.pitt	Hazelwood
+streets.pitt	Highland
+streets.pitt	Homewood
+streets.pitt	Knoxville
+streets.pitt	Larimer
+streets.pitt	Manchester
+streets.pitt	Shadeland
+streets.pitt	Brunot Island
+streets.pitt	Middle Hill
+streets.pitt	Morningside
+streets.pitt	Mount Oliver
+streets.pitt	Mount Washington
+streets.pitt	Chatham
+streets.pitt	Point Breeze
+streets.pitt	North Shore
+streets.pitt	Northview
+streets.pitt	Oakwood
+streets.pitt	Overbrook
+streets.pitt	Perry 
+streets.pitt	Park Place
+streets.pitt	Polish Hill
+streets.pitt	Ridgemont
+streets.pitt	Saint Clair
+streets.pitt	Shadyside
+streets.pitt	Sheraden
+streets.pitt	Southshore
+streets.pitt	Station Square
+streets.pitt	Spring Garden
+streets.pitt	Spring Hill
+streets.pitt	Squirrel Hill
+streets.pitt	Summerset
+streets.pitt	Stanton
+streets.pitt	Summer Hill
+streets.pitt	Swisshelm
+streets.pitt	Duck Hollow
+streets.pitt	Terrace Village
+streets.pitt	Upper Lawrenceville
+streets.pitt	Westwood
+streets.pitt	Windgap
+streets.chicago	Albany
+streets.chicago	Altgeld
+streets.chicago	Andersonville
+streets.chicago	Archer
+streets.chicago	Armour
+streets.chicago	Ashburn
+streets.chicago	Auburn 
+streets.chicago	Gresham
+streets.chicago	Avalon
+streets.chicago	Avondale
+streets.chicago	Belmont 
+streets.chicago	Central
+streets.chicago	Beverly
+streets.chicago	Bowmanville
+streets.chicago	Brainerd
+streets.chicago	Brickyard
+streets.chicago	Bridgeport
+streets.chicago	Brighton
+streets.chicago	Bronzeville
+streets.chicago	Bucktown
+streets.chicago	Budlong
+streets.chicago	Buena
+streets.chicago	Burnside
+streets.chicago	Cabrini
+streets.chicago	Green
+streets.chicago	Calumet
+streets.chicago	Canaryville
+streets.chicago	Chatham
+streets.chicago	Clarendon
+streets.chicago	Clearing
+streets.chicago	Cottage Grove
+streets.chicago	Cragin
+streets.chicago	Crestline
+streets.chicago	Dearborn
+streets.chicago	Douglas
+streets.chicago	Dunning
+streets.chicago	Garfield Park
+streets.chicago	Hyde Park
+streets.chicago	Pilsen
+streets.chicago	Edgebrook
+streets.chicago	Edgewater
+streets.chicago	Englewood
+streets.chicago	Fernwood
+streets.chicago	Ford
+streets.chicago	Forest Glen
+streets.chicago	Fuller Park
+streets.chicago	Gage Park
+streets.chicago	Galewood
+streets.chicago	Gladstone Park
+streets.chicago	Golden Gate
+streets.chicago	Goose Island
+streets.chicago	Graceland
+streets.chicago	Gresham
+streets.chicago	Groveland Park
+streets.chicago	Hamilton Park
+streets.chicago	Hanson Park
+streets.chicago	Hegewisch
+streets.chicago	Hermosa
+streets.chicago	Hollywood Park
+streets.chicago	Homan
+streets.chicago	Humboldt Park
+streets.chicago	Hyde Park
+streets.chicago	Irving Park
+streets.chicago	Jackowo
+streets.chicago	Jackson Park
+streets.chicago	Jefferson Park
+streets.chicago	Kelvyn
+streets.chicago	Kensington
+streets.chicago	Kenwood
+streets.chicago	Kilbourn
+streets.chicago	Kosciuszko
+streets.chicago	Lake View
+streets.chicago	Balmoral
+streets.chicago	LeClaire
+streets.chicago	Lilydale
+streets.chicago	Longwood
+streets.chicago	Loyola
+streets.chicago	Margate
+streets.chicago	Marquette
+streets.chicago	Marshall
+streets.chicago	Marynook
+streets.chicago	Mayfair
+streets.chicago	Montclare
+streets.chicago	Morgan
+streets.chicago	Mount Greenwood
+streets.chicago	Noble Square
+streets.chicago	Austin
+streets.chicago	Halsted
+streets.chicago	Kenwood
+streets.chicago	Lawndale
+streets.chicago	Mayfair
+streets.chicago	O'Hare
+streets.chicago	Oakland
+streets.chicago	Oriole Park
+streets.chicago	Palmer
+streets.chicago	Parkview
+streets.chicago	Peterson
+streets.chicago	Portage
+streets.chicago	Prairie
+streets.chicago	Princeton
+streets.chicago	Pulaski
+streets.chicago	Pullman
+streets.chicago	Ravenswood
+streets.chicago	River
+streets.chicago	Riverdale
+streets.chicago	Rogers Park
+streets.chicago	Roscoe
+streets.chicago	Rosehill
+streets.chicago	Roseland
+streets.chicago	Rosemoor
+streets.chicago	Sauganash
+streets.chicago	Scottsdale
+streets.chicago	Sheffield
+streets.chicago	South Shore
+streets.chicago	State
+streets.chicago	Stony Island
+streets.chicago	Union
+streets.chicago	University
+streets.chicago	Vittum Park
+streets.chicago	Wentworth
+streets.chicago	DePaul
+streets.chicago	West Elsdon
+streets.chicago	Ridge
+streets.chicago	West Woodlawn
+streets.chicago	Wildwood
+streets.chicago	Woodlawn
+streets.chicago	Wrightwood
+streets.atlantic-city	Absecon
+streets.atlantic-city	Adriatic
+streets.atlantic-city	Albany
+streets.atlantic-city	Aliantro
+streets.atlantic-city	Anchorage
+streets.atlantic-city	Angney
+streets.atlantic-city	Anndover Gardens
+streets.atlantic-city	Arctic
+streets.atlantic-city	Atlantic
+streets.atlantic-city	Auburn
+streets.atlantic-city	Baltic
+streets.atlantic-city	Barrett
+streets.atlantic-city	Bay Street
+streets.atlantic-city	Beach
+streets.atlantic-city	Belfield
+streets.atlantic-city	Belmont
+streets.atlantic-city	Blaine
+streets.atlantic-city	Blake
+streets.atlantic-city	Boston
+streets.atlantic-city	Boulevard
+streets.atlantic-city	Brigantine
+streets.atlantic-city	Brooklyn
+streets.atlantic-city	Buffalo
+streets.atlantic-city	Carlton
+streets.atlantic-city	Caspian
+streets.atlantic-city	Caspian
+streets.atlantic-city	Centennial
+streets.atlantic-city	Center
+streets.atlantic-city	Central
+streets.atlantic-city	Church
+streets.atlantic-city	City
+streets.atlantic-city	Cleveland
+streets.atlantic-city	Clinton
+streets.atlantic-city	Columbia
+streets.atlantic-city	Commodore
+streets.atlantic-city	Connecticut
+streets.atlantic-city	Delta
+streets.atlantic-city	Delta
+streets.atlantic-city	Denny
+streets.atlantic-city	Dewey
+streets.atlantic-city	Disston
+streets.atlantic-city	Dover
+streets.atlantic-city	Drexel
+streets.atlantic-city	Elberon
+streets.atlantic-city	Emerson
+streets.atlantic-city	Erie
+streets.atlantic-city	Euclid
+streets.atlantic-city	Fairmount
+streets.atlantic-city	Fenton
+streets.atlantic-city	Filbert
+streets.atlantic-city	Fisher
+streets.atlantic-city	Flower
+streets.atlantic-city	Folsom
+streets.atlantic-city	Garfield
+streets.atlantic-city	George
+streets.atlantic-city	Grafton
+streets.atlantic-city	Grammercy
+streets.atlantic-city	Grant
+streets.atlantic-city	Green
+streets.atlantic-city	Greenbriar
+streets.atlantic-city	Halyard
+streets.atlantic-city	Hamilton
+streets.atlantic-city	Harbor
+streets.atlantic-city	Harlem
+streets.atlantic-city	Hartford
+streets.atlantic-city	Hillside
+streets.atlantic-city	Hobart
+streets.atlantic-city	Hobson
+streets.atlantic-city	Horace
+streets.atlantic-city	Howard
+streets.atlantic-city	Hummock
+streets.atlantic-city	Huron
+streets.atlantic-city	Illinois
+streets.atlantic-city	Island
+streets.atlantic-city	Jackson
+streets.atlantic-city	James
+streets.atlantic-city	Jefferson
+streets.atlantic-city	Keener
+streets.atlantic-city	Lafferty
+streets.atlantic-city	Landmark
+streets.atlantic-city	Leeds
+streets.atlantic-city	Lighthouse
+streets.atlantic-city	Lincoln
+streets.atlantic-city	Lincoln
+streets.atlantic-city	Logan
+streets.atlantic-city	Madison
+streets.atlantic-city	Magellan
+streets.atlantic-city	Mainsail Way
+streets.atlantic-city	Marina
+streets.atlantic-city	Marshall
+streets.atlantic-city	Maryland
+streets.atlantic-city	Maxwell
+streets.atlantic-city	Mediterranean
+streets.atlantic-city	Memorial
+streets.atlantic-city	Michigan
+streets.atlantic-city	Missouri
+streets.atlantic-city	Monroe
+streets.atlantic-city	Monterey
+streets.atlantic-city	Montgomery
+streets.atlantic-city	Morgan
+streets.atlantic-city	Morningside
+streets.atlantic-city	Murray
+streets.atlantic-city	Ocean
+streets.atlantic-city	Oceanic
+streets.atlantic-city	Ontario
+streets.atlantic-city	Oriental
+streets.atlantic-city	Pacific
+streets.atlantic-city	Park Place
+streets.atlantic-city	Pearl
+streets.atlantic-city	Penrose
+streets.atlantic-city	Pleasant
+streets.atlantic-city	Pocono
+streets.atlantic-city	Porter
+streets.atlantic-city	Reading
+streets.atlantic-city	Ridgeway
+streets.atlantic-city	Robinson
+streets.atlantic-city	Royal
+streets.atlantic-city	Saint Davids
+streets.atlantic-city	Schooner
+streets.atlantic-city	Senate
+streets.atlantic-city	Sextant
+streets.atlantic-city	Seymour
+streets.atlantic-city	Sheldon
+streets.atlantic-city	Sherman
+streets.atlantic-city	Sloop Court
+streets.atlantic-city	South
+streets.atlantic-city	St James Place
+streets.atlantic-city	Stewart
+streets.atlantic-city	Sunrise
+streets.atlantic-city	Sussex
+streets.atlantic-city	Taylor
+streets.atlantic-city	Texas
+streets.atlantic-city	Thompson
+streets.atlantic-city	Trenton
+streets.atlantic-city	Trinity
+streets.atlantic-city	Turner
+streets.atlantic-city	Van Nest
+streets.atlantic-city	Venice
+streets.atlantic-city	Ventnor
+streets.atlantic-city	Vermont
+streets.atlantic-city	Victoria
+streets.atlantic-city	Wabash
+streets.atlantic-city	Westminister
+streets.atlantic-city	Wilclaire
+streets.atlantic-city	Wilson
+streets.atlantic-city	Wine
+streets.atlantic-city.connections	Route 9
+streets.atlantic-city.connections	Route 10
+streets.atlantic-city.connections	Route 11
+streets.atlantic-city.connections	Route 12
+streets.atlantic-city.connections	Route 13
+streets.atlantic-city.connections	Route 14
+streets.atlantic-city.connections	Route 15
+streets.atlantic-city.connections	Route 18
+streets.atlantic-city.connections	Route 20
+streets.atlantic-city.connections	Route 30
+streets.atlantic-city.connections	Route 40
+streets.atlantic-city.connections	Route 50
+streets.atlantic-city.connections	Route 60
+streets.atlantic-city.connections	Route 211
+streets.atlantic-city.connections	Route 255
+streets.atlantic-city.connections	Route 565
+streets.atlantic-city.connections	Route 987
+streets.atlantic-city.connections	Route 44
+streets.atlantic-city.connections	Route 91
+streets.atlantic-city.connections	Route 75
+streets.atlantic-city.connections	Route 28
+streets.atlantic-city.connections	Route 78
+streets.atlantic-city.connections	Route 66
+streets.atlantic-city.connections	Route 79
+streets.atlantic-city.connections	Route 322
+streets.atlantic-city.connections	Route 1
+streets.atlantic-city.connections	Route 6
+district.procgen.prefix.com	Ash
+district.procgen.prefix.com	Birch
+district.procgen.prefix.com	Bluebird
+district.procgen.prefix.com	Cardinal
+district.procgen.prefix.com	Cedar
+district.procgen.prefix.com	Cherry
+district.procgen.prefix.com	Chestnut
+district.procgen.prefix.com	Eagle
+district.procgen.prefix.com	Elm
+district.procgen.prefix.com	Falcon
+district.procgen.prefix.com	Finch
+district.procgen.prefix.com	Hawk
+district.procgen.prefix.com	Holly
+district.procgen.prefix.com	Iris
+district.procgen.prefix.com	Lark
+district.procgen.prefix.com	Laurel
+district.procgen.prefix.com	Magnolia
+district.procgen.prefix.com	Maple
+district.procgen.prefix.com	Oak
+district.procgen.prefix.com	Orchid
+district.procgen.prefix.com	Parrot
+district.procgen.prefix.com	Pine
+district.procgen.prefix.com	Poppy
+district.procgen.prefix.com	Robin
+district.procgen.prefix.com	Rose
+district.procgen.prefix.com	Sage
+district.procgen.prefix.com	Sparrow
+district.procgen.prefix.com	Spruce
+district.procgen.prefix.com	Swallow
+district.procgen.prefix.com	Swan
+district.procgen.prefix.com	Swift
+district.procgen.prefix.com	Tulip
+district.procgen.prefix.com	Turkey
+district.procgen.prefix.com	Violet
+district.procgen.prefix.com	Walnut
+district.procgen.prefix.com	Willow
+district.procgen.suffix.com	{noun} Brook
+district.procgen.suffix.com	{noun} Canal
+district.procgen.suffix.com	{noun} Ferry
+district.procgen.suffix.com	{noun} Forest
+district.procgen.suffix.com	{noun} Garden
+district.procgen.suffix.com	{noun} Greens
+district.procgen.suffix.com	{noun} Grove
+district.procgen.suffix.com	{noun} Park
+district.procgen.suffix.com	{noun} River
+district.procgen.suffix.com	{noun} Spring
+district.procgen.suffix.com	{noun} Square
+district.procgen.suffix.com	{noun} Terrace
+district.procgen.prefix.ind	Carbon
+district.procgen.prefix.ind	Chimney
+district.procgen.prefix.ind	Coal
+district.procgen.prefix.ind	Commercial
+district.procgen.prefix.ind	Factory
+district.procgen.prefix.ind	Furnace
+district.procgen.prefix.ind	Industrial
+district.procgen.prefix.ind	Iron
+district.procgen.prefix.ind	Metal
+district.procgen.prefix.ind	Portage
+district.procgen.prefix.ind	Printers
+district.procgen.prefix.ind	Shipping
+district.procgen.prefix.ind	Steel
+district.procgen.prefix.ind	Storage
+district.procgen.prefix.ind	Warehouse
+district.procgen.suffix.ind	{noun} Central
+district.procgen.suffix.ind	{noun} Channel
+district.procgen.suffix.ind	{noun} Row
+district.procgen.suffix.ind	{noun} Block
+district.procgen.suffix.ind	{noun} Center
+district.procgen.suffix.ind	{noun} Park
+district.procgen.suffix.ind	{noun} River
+district.procgen.suffix.ind	{noun} Hill
+district.procgen.suffix.ind	{noun} Corner
+district.procgen.suffix.ind	{noun} Ridge
+district.procgen.suffix.ind	{noun} View
+convo-debt.any.beforechoice	A debt is a debt. But I'm willing to do you a favor and consider other forms of repayment than cash.
+convo-debt.any.beforechoice	Your debts have somehow become my problem・・and that makes me very unhappy. But there's something you can do to get on my good side again.
+convo-repayment.generic.npcintro	Yes?
+convo-repayment.generic.npcintro	What can I do for you?
+convo-repayment.generic.npcintro	How can I repay you?
+convo-repayment.grant-bottled-booze-cordials.ticker	{name} did as promised and a load of cordials is now available at your safehouse.
+convo-repayment.grant-bottled-booze-cordials.ticker	{name} did as promised and a load of bottled whiskey is now available at your safehouse.
