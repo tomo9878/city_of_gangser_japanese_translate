@@ -1,7 +1,7 @@
 KEY	VALUE	COMMENTS
 __id	jp
 
-﻿ui.rename.random-nickname.m	傷顔
+﻿﻿﻿ui.rename.random-nickname.m	傷顔
 ui.rename.random-nickname.m	恐怖
 ui.rename.random-nickname.m	賢者
 ui.rename.random-nickname.m	勇敢
@@ -133,54 +133,54 @@ module.bootlegger-home-brew-brick-wine.desc	この事業では、この界隈の
 module.bootlegger-home-brew-brick-wine.desc	この事業では、この界隈の地元の人たちに自家製ビールを少しばかり売っている。たくさん売れるわけでもなく、大金を手にするわけでもなく、かといって警察の目を引くわけでもなく......。
 module.production-beer-kegs.desc	大麦からビール樽を製造する小さなビール工場。
 module.production-beer-kegs.desc	Bottled beer is fine・・but kegs are much easier to distribute. This large brewery makes industrial quantities of suds.
-recipe.scopeout.illegal-homebrew	Regular malt syrup deliveries. Regular pick-ups of stone crocks. Something's brewing.
-recipe.scopeout.illegal-homebrew	The proprietor certainly enjoys these completely non-alcoholic malt beverages. Perhaps we should get a sip?
-recipe.scopeout.illegal-homebrew	The back room is full of stone crocks with hydrometers. Fascinating process for making sauerkraut.
-recipe.scopeout.illegal-cider	The owner makes the same error over and over again - leaving apple juice around until it goes 窶拊ad窶・
-recipe.scopeout.illegal-cider	Lots of neighbors seem to like coming here for the homemade applesauce. They often emphasize 窶捏auce窶・when ordering.
-recipe.scopeout.illegal-cider	No one likes apples this much.
-recipe.scopeout.illegal-moonshine	They seem to use a conspicuous amount of neutral alcohol here.
-recipe.scopeout.illegal-moonshine	They have stoneware crocks labeled XXX in the back. Curious.
-recipe.scopeout.illegal-moonshine	The crocks they sell here contain a remarkably clear and potent liquid.
-recipe.scopeout.illegal-homewine	We've heard they specialize in spiced grape juice. Perhaps it's a new trend? Or maybe they mean something else by 窶捏piced窶・
-recipe.scopeout.illegal-homewine	The garbage out back always includes a conspicuous number of crates from California・・stained purple.
-recipe.scopeout.illegal-homewine	Everyone in the neighborhood raves about the grape juice they make here. No one's grape juice is that good.
-recipe.scopeout.illegal-neutral-alcohol	The cases being delivered say 窶扼eutral Alcohol - Industrial Use Only窶・ This doesn't appear to be a factory.
-recipe.scopeout.illegal-neutral-alcohol	They use grain alcohol for 窶捏terilizing things窶・ It must be very・・very sterile in there.
-recipe.scopeout.illegal-fruit	We can probably talk them into selling some fruit as long as we assure them it will definitely not end up in a still. 
-recipe.scopeout.illegal-fruit	We may be able to arrange for some fresh fruits. Mind you・・strictly for the vitamins and health benefits...
-recipe.scopeout.illegal-source-warehouse-small	The inventory control at this warehouse is apparently not the tightest. We should see if they might lose some things onto our trucks.
-recipe.scopeout.illegal-source-warehouse-small	We've heard that when asked nicely・・the owner of this warehouse will show anyone around. And then conveniently leave you alone for a while to 窶挈ook around.窶・
-recipe.scopeout.illegal-source-warehouse-small	The proprietor of this warehouse has a reputation for losing things. There seems to be a correlation between forgetfulness and cash payments.
-recipe.scopeout.illegal-source-warehouse-medium	Employees at this sizable warehouse seem accident prone with goods being frequently misrouted. With the right motivation・・they may misroute things our way.
-recipe.scopeout.illegal-source-warehouse-medium	This warehouse is often very busy and sometimes doesn't really examine the paperwork very carefully. Sometimes they don't seem to read it at all for the right price.
-recipe.scopeout.illegal-source-warehouse-medium	Owners of warehouses understand that some product loss happens. Neighborhood gossip is that these owners are very understanding about losing products.
-recipe.scopeout.illegal-consume-homebrew	This establishment does a brisk business selling small packages. From the back door. In small・・dark bottles without labels.
-recipe.scopeout.illegal-consume-homebrew	Customers here frequently order 窶抖he Special窶・which comes from a hidden cupboard. Perhaps we could supply a new 窶抓pecial窶・for them to sell?
-recipe.scopeout.illegal-consume-homebrew	This business frequently has a lot of customers after their posted business hours. And they all seem quite happy. We could perhaps help them by furnishing some bottled happiness?
-recipe.scopeout.illegal-consume-booze-small	Unsurprisingly・・this establishment gets a lot of deliveries. Surprisingly・・lots of these deliveries happen at 2 am. Do we have things we could deliver in cases at 2 am?
-recipe.scopeout.illegal-consume-booze-small	Option one: they go through a lot of milk here. Option two: the crates that say 窶扨ILK窶・which arrive regularly don't actually contain milk.
-recipe.scopeout.illegal-consume-booze-small	Locals coming and going from this business leave with carefully guarded packages and always seem to look both ways before exiting. 
-recipe.scopeout.illegal-consume-booze-small	There is very little foot traffic in and out of the front door. The back door・・however・・seems more heavily used by bottle-toting patrons.
-recipe.scopeout.illegal-consume-booze-small	The glass bottles in their trash attract a lot of fruit flies. We may have some fruit fly feed that would could sell them?
-recipe.scopeout.illegal-consume-booze-small	A very brisk trade in 窶扎ealth Potions窶・is done here. If we get a line on a new supply of health potions・・we should keep them in mind.
-recipe.scopeout.legal-consume-tobacco	They move a lot of tobacco here. Perhaps they'd welcome a cheaper source?
-recipe.scopeout.legal-consume-tobacco	Cigarettes and cigars aplenty get sold here - a possible opportunity given the right circumstances.
-recipe.scopeout.legal-cafe	Coffee. Black as Hell. Strong as Death. Sweet as Love.
-recipe.scopeout.legal-cafe	Cakes and pies here are top-rate・・say the locals.
-recipe.scopeout.legal-cafe	Coffee and a pastry here can help with a long day of scoping out.
-recipe.scopeout.legal-restaurant	A wide variety of foodstuffs arrive at this restaurant every day.
-recipe.scopeout.legal-restaurant	Might be a good place for dinner after a long day of scoping out.
-recipe.scopeout.legal-restaurant	Locals rave about the menu here.
-recipe.scopeout.flavor-club	They consume a vast amount of ice here. This place is cool・・but that's likely because of the wide variety of liquids chilled by ice available here.
-recipe.scopeout.flavor-club	Rumor has it that you want to ask about the special coat check area at this club. The one in the basement next to the glassware and bottles.
-recipe.scopeout.flavor-club	Locals say that you should ask for a bartender named Phil here. And it turns out that every bartender is named Phil. What are the chances?
-recipe.scopeout.legal-flowers	Pretty posies and beautiful bouquets purveyed.
-recipe.scopeout.legal-flowers	Fine flowers and potted plants are sold here.
-recipe.scopeout.flavor-funeral	No one would stop a hearse bearing the dearly departed to their final resting place. Wait. That sounds like good cover...
-recipe.scopeout.flavor-funeral	So we suspect that they're moving more than mortal remains in their hearses.
-recipe.scopeout.flavor-funeral	We've tracked the hearses from this funeral home. They don't seem to visit the cemetery as often as you'd think.
-recipe.scopeout.legal-furniture	Settees. Sofas. Chaises. Lots of options for home lounging on sale at this shop.
+recipe.scopeout.illegal-homebrew	モルトシロップの定期配送やせっ器の壺の定期的な引き取り。何かが生まれようとしている。
+recipe.scopeout.illegal-homebrew	店主は、この完全ノンアルコールのモルト飲料を楽しんでいるようです。一口飲んでみようか？
+recipe.scopeout.illegal-homebrew	奥の部屋には、比重計のついた石桶がたくさん。ザワークラウトの魅力的な製造工程。
+recipe.scopeout.illegal-cider	オーナーは何度も同じ過ちを犯す。リンゴジュースを放置しておくと、リンゴが腐ってしまう。
+recipe.scopeout.illegal-cider	自家製アップルソースを目当てに来るご近所さんも多いようです。注文の際も「ソース」を強調することが多いです。
+recipe.scopeout.illegal-cider	こんなにリンゴが好きな人はいない。
+recipe.scopeout.illegal-moonshine	ここでは、中性アルコールが目立って使われているようです。
+recipe.scopeout.illegal-moonshine	奥にXXXと書かれた石器製のクロックを置いている。不思議ですね。
+recipe.scopeout.illegal-moonshine	ここで売られている壷には、驚くほど透明で強力な液体が入っている。
+recipe.scopeout.illegal-homewine	スパイスの効いたグレープジュースの専門店だと聞いています。新しいトレンドなのだろうか。それとも「スパイスの効いた」というのは別の意味なのでしょうか。
+recipe.scopeout.illegal-homewine	裏のゴミ箱には、いつもカリフォルニア産の木箱が目立つ・・・紫色に染まっている。
+recipe.scopeout.illegal-homewine	近所の人はみんな、ここで作ったぶどうジュースを絶賛しています。あんなにおいしいブドウジュースはない。
+recipe.scopeout.illegal-neutral-alcohol	運ばれてくるケースには「中性アルコール - 工業用のみ」と書かれており、これは工場ではないようだ。
+recipe.scopeout.illegal-neutral-alcohol	滅菌のために穀物アルコールを使っているのだから、さぞかし無菌状態なのだろう。
+recipe.scopeout.illegal-fruit	果物は絶対に売らないと約束すれば、売るように説得できるかもしれない。
+recipe.scopeout.illegal-fruit	新鮮な果物を手配することができるかもしれません。ただし、ビタミンや健康に良いものを...。
+recipe.scopeout.illegal-source-warehouse-small	この倉庫の在庫管理は、どうやら厳しくないようだ。私たちのトラックに何か紛れ込まないか、確認する必要があります。
+recipe.scopeout.illegal-source-warehouse-small	この倉庫の主人は、うまく頼めば誰でも案内してくれるそうです。そして、便利なことに、しばらく放っておいてくれるそうです。
+recipe.scopeout.illegal-source-warehouse-small	この倉庫の主人は、物をなくすことに定評がある。物忘れと現金払いには相関関係があるようだ。
+recipe.scopeout.illegal-source-warehouse-medium	この大きな倉庫の従業員は事故が多いようで、商品のルートがよく間違っている。やる気さえあれば、彼らは私たちのやり方を変えるかもしれません。
+recipe.scopeout.illegal-source-warehouse-medium	この倉庫は非常に忙しいことが多く、時には書類をあまりよく吟味してくれないこともあります。適正価格のために全く読まないこともあるようです。
+recipe.scopeout.illegal-source-warehouse-medium	倉庫のオーナーは、商品のロスが発生することを理解しています。近所の噂では、これらのオーナーは製品の紛失について非常に理解があるそうです。
+recipe.scopeout.illegal-consume-homebrew	この店は、小包の販売で活況を呈している。裏口から。ラベルのない小さな・暗いボトルで。
+recipe.scopeout.illegal-consume-homebrew	この店のお客さんは、隠し戸棚からよく「スペシャル」を注文する。もしかしたら、新しいスペシャルを提供し、販売することができるかもしれません。
+recipe.scopeout.illegal-consume-homebrew	このお店は、営業時間外でもよくお客さんが来てくれます。そして、みんなとても楽しそうです。私たちも、幸せの瓶詰めを用意することで、彼らの助けになれるかもしれませんね。
+recipe.scopeout.illegal-consume-booze-small	当然のことながら・・・この店には、たくさんの配達がある。意外と・・・夜中の2時の配達が多いんです。夜中の2時に届けられるものはあるのだろうか？
+recipe.scopeout.illegal-consume-booze-small	"選択肢1：ここで大量の牛乳を消費している。選択肢2：定期的に届く ""Ilk ""と書かれた木箱には、実はミルクが入っていない。"
+recipe.scopeout.illegal-consume-booze-small	この店に出入りする地元の人たちは、大事な荷物を抱えて出て行き、必ず左右を確認してから出て行くようです。
+recipe.scopeout.illegal-consume-booze-small	正面玄関の出入りはほとんどありません。しかし、裏口は一升瓶を持った常連客に多く利用されているようだ。
+recipe.scopeout.illegal-consume-booze-small	ゴミ箱のガラス瓶にコバエが大量に集まってくるのです。コバエのエサがあれば売れるかも？
+recipe.scopeout.illegal-consume-booze-small	ここでは、健康薬の取引が盛んに行われている。もし、新しいヘルスポーションが手に入ったら、覚えておこう。
+recipe.scopeout.legal-consume-tobacco	ここではタバコを大量に移動させています。もしかしたら、もっと安い供給元を歓迎するかもしれませんよ？
+recipe.scopeout.legal-consume-tobacco	タバコや葉巻がたくさん売られていて、状況次第ではチャンスかもしれない。
+recipe.scopeout.legal-cafe	コーヒーです。地獄のようにブラックで 死のように強く 愛のように甘く
+recipe.scopeout.legal-cafe	ここのケーキとパイは最高だ・・・と地元の人は言っている。
+recipe.scopeout.legal-cafe	ここでコーヒーとペストリーを食べれば、長い一日の探索の助けになる。
+recipe.scopeout.legal-restaurant	毎日、さまざまな食材が入荷します。
+recipe.scopeout.legal-restaurant	一日中探し回ったあとの夕食にいいかもしれない。
+recipe.scopeout.legal-restaurant	地元の人が絶賛するメニューです。
+recipe.scopeout.flavor-club	ここでは膨大な量の氷を消費している。ここは涼しい・・・でも、それは氷で冷やされた様々な液体が手に入るからでしょう。
+recipe.scopeout.flavor-club	噂によると、このクラブの特別なコートチェックエリアについて聞いてみたいということです。地下のガラス製品やボトルの横にあるものです。
+recipe.scopeout.flavor-club	地元では、「ここではフィルという名のバーテンダーを頼むといい」と言われています。そして、すべてのバーテンダーがフィルという名前であることが判明したのです。確率は？
+recipe.scopeout.legal-flowers	可愛いポーズと美しいブーケを御用意しました。
+recipe.scopeout.legal-flowers	高級な花や鉢植えを販売しています。
+recipe.scopeout.flavor-funeral	親愛なる故人を乗せた霊柩車を、最後の安息の地へ運ぶのを止める者はいない。待てよ それは良いカバーのように聞こえる...
+recipe.scopeout.flavor-funeral	つまり、遺体以上のものを霊柩車で運んでいるのだと思われます。
+recipe.scopeout.flavor-funeral	この葬儀社の霊柩車を追跡してみました。思っているほど頻繁に墓地を訪れないようだ。
+recipe.scopeout.legal-furniture	セティ ソファー チェイス このショップでは、自宅でのくつろぎのためのオプションがたくさん販売されています。
 recipe.scopeout.legal-furniture	Beds. Dressers. Wardrobes. Armoires. Lots of furnishing options available here.
 recipe.scopeout.legal-jewelry	Watches sold and repaired. Brooches and pendants. Lots of fine jewelry sold here.
 recipe.scopeout.legal-jewelry	Sparkling rings. Glistening earrings. Fine watches and fobs. This store has some lovely gems and jewels.
@@ -305,12 +305,12 @@ building.biz-cafe.bizname	{#urban-features} {#cafe-name}
 building.biz-cafe.bizname	{#flower-names} {#cafe-name}
 building.biz-cafe.bizname	Cafe {#eth-city}
 building.biz-cafe.bizname	Cafe {#zodiac-signs}
-building.biz-dairy.icon	<sprite name="biz dairy">
+building.biz-dairy.icon	"<sprite name=""biz dairy"">"
 building.biz-dairy.bizname	{#flower-names} Dairy
 building.biz-dairy.bizname	{$lastname} Family Dairy
 building.biz-dairy.bizname	{#geographic-features} Farms Dairy
 building.biz-dairy.bizname	{#midwestern-places} Creamery
-building.biz-dairy.icon	<sprite name="biz dairy">
+building.biz-dairy.icon	"<sprite name=""biz dairy"">"
 building.biz-dairy.bizname	{#flower-names} Dairy
 building.biz-dairy.bizname	{$lastname} Family Dairy
 building.biz-dairy.bizname	{#geographic-features} Farms Dairy
@@ -783,52 +783,52 @@ bookstore-name	Book {#other-store}
 cafe-name	Cafe
 cafe-name	Tea {#store-names}
 cafe-name	Coffee & Tea {#store-names}
-cafe-name	Tea Room
-cafe-name	Coffee Shop
-steel-mill-name	Steel Mill
-steel-mill-name	Iron Works
-steel-mill-name	Steel Co.
-steel-mill-name	Works
-steel-mill-name	Smelting Co.
-sawmill-name	Sawmill
-sawmill-name	Lumber Co.
-sawmill-name	Lumber Company
-sawmill-name	Wood Products
-sawmill-name	Sawmills
-printer-name	Press
-printer-name	Printing
-printer-name	Printing Co.
-printer-name	Printers
-meat-packing-name	Packing Co.
-meat-packing-name	Packing House
-meat-packing-name	Meat Packers・・Inc.
-meat-packing-name	Meat Co.
-meat-packing-name	Packers
-biz-butcher-name	Butchers
-biz-butcher-name	Butcher Shop
-biz-butcher-name	Meat Company
-biz-butcher-name	Products
-biz-butcher-name	Meat Co.
-laundry-name	Laundry Co.
-laundry-name	Hand Washing
-laundry-name	Cleaners
-laundry-name	Laundromat
-laundry-name	Laundry Service
-metalsmith-name	Smiths
-metalsmith-name	Metalworks
-metalsmith-name	Metal Co.
-metalsmith-name	Metalsmith
+cafe-name	ティールーム
+cafe-name	コーヒーショップ
+steel-mill-name	製鉄所
+steel-mill-name	鉄工所
+steel-mill-name	製鉄会社
+steel-mill-name	ワーク
+steel-mill-name	製錬会社
+sawmill-name	製材所
+sawmill-name	木工会社
+sawmill-name	木工会社
+sawmill-name	木材製品
+sawmill-name	製材所
+printer-name	印刷
+printer-name	印刷
+printer-name	印刷会社
+printer-name	印刷
+meat-packing-name	梱包会社
+meat-packing-name	梱包ハウス
+meat-packing-name	精肉出荷会社
+meat-packing-name	精肉会社
+meat-packing-name	梱包
+biz-butcher-name	精肉
+biz-butcher-name	精肉店
+biz-butcher-name	食肉会社
+biz-butcher-name	製品
+biz-butcher-name	精肉会社
+laundry-name	洗濯会社
+laundry-name	手洗い
+laundry-name	掃除
+laundry-name	コインランドリー
+laundry-name	洗濯サービス
+metalsmith-name	鍛冶屋
+metalsmith-name	金属加工
+metalsmith-name	金属加工会社
+metalsmith-name	金具
 mason-name	Masons
-mason-name	Bricklayers
-mason-name	Brickyard
-mason-name	Stonework and Masonry
-painters-name	House Painting
-painters-name	Home Renovation
-painters-name	Painting and Construction
-painters-name	Painters
-painters-name	Painting Co.
+mason-name	レンガ職人
+mason-name	ブリックヤード
+mason-name	レンガ職人・石工
+painters-name	住宅塗装
+painters-name	住宅リフォーム
+painters-name	塗装・建設
+painters-name	ペインター
+painters-name	塗装会社
 forge-name	Foundry
-forge-name	Metalworks
+forge-name	金属加工
 forge-name	Blacksmith
 forge-name	Casting Co.
 forge-name	Die Casting Co.
@@ -1179,139 +1179,139 @@ streets.usfounders	Lincoln
 streets.usfounders	Johnson
 streets.usfounders	Grant
 streets.usfounders	Hayes
-streets.usfounders	Garfield
-streets.usfounders	Arthur
-streets.usfounders	Cleveland
-streets.usfounders	McKinley
-streets.usfounders	Roosevelt
-streets.famouspeople	Magellan
-streets.famouspeople	Galileo
-streets.famouspeople	Copernicus
-streets.famouspeople	Columbus
-streets.famouspeople	Marco Polo
-streets.famouspeople	Morse
-streets.famouspeople	Bell
-streets.famouspeople	Gutenberg
-streets.famouspeople	Pascal
-streets.famouspeople	Euclid
-streets.famouspeople	Pasteur
-streets.famouspeople	Curie
-streets.famouspeople	Da Vinci
-streets.famouspeople	Shakespeare
-streets.famouspeople	Bacon
-streets.famouspeople	Austen
-streets.famouspeople	Dickens
-streets.famouspeople	Chaucer
-streets.usstates	Alabama
-streets.usstates	Alaska
-streets.usstates	Arizona
-streets.usstates	Arkansas
-streets.usstates	California
-streets.usstates	Carolina
-streets.usstates	Colorado
-streets.usstates	Connecticut
-streets.usstates	Delaware
-streets.usstates	Florida
-streets.usstates	Georgia
-streets.usstates	Hawaii
-streets.usstates	Idaho
-streets.usstates	Illinois
-streets.usstates	Indiana
-streets.usstates	Iowa
-streets.usstates	Kansas
-streets.usstates	Kentucky
-streets.usstates	Louisiana
-streets.usstates	Maine
-streets.usstates	Maryland
-streets.usstates	Massachusetts
-streets.usstates	Michigan
-streets.usstates	Minnesota
-streets.usstates	Mississippi
-streets.usstates	Missouri
-streets.usstates	Montana
-streets.usstates	Nebraska
-streets.usstates	Nevada
-streets.usstates	New Hampshire
-streets.usstates	New Jersey
-streets.usstates	New Mexico
-streets.usstates	New York
-streets.usstates	North Carolina
-streets.usstates	North Dakota
-streets.usstates	Ohio
-streets.usstates	Oklahoma
-streets.usstates	Oregon
-streets.usstates	Pennsylvania
-streets.usstates	South Carolina
-streets.usstates	South Dakota
-streets.usstates	Tennessee
-streets.usstates	Texas
-streets.usstates	Vermont
-streets.usstates	Virginia
-streets.usstates	West Virginia
-streets.usstates	Wisconsin
-streets.usstates	Wyoming
-streets.usstates	Rhode Island
-streets.uscities	Plymouth
-streets.uscities	Philadelphia
-streets.uscities	New York
-streets.uscities	Chicago
-streets.uscities	Detroit
-streets.uscities	Cleveland
-streets.uscities	St Louis
-streets.uscities	Boston
-streets.uscities	Baltimore
-streets.uscities	Pittsburgh
-streets.uscities	Los Angeles
-streets.uscities	Buffalo
-streets.uscities	Cincinnati
-streets.uscities	Brooklyn
-streets.uscities	San Francisco
-streets.uscities	New Orleans
-streets.uscities	Milwaukee
-streets.smalltown	Bay
-streets.smalltown	Central
-streets.smalltown	Church
-streets.smalltown	County
-streets.smalltown	Division
-streets.smalltown	Evergreen
-streets.smalltown	Highland
-streets.smalltown	Hill
-streets.smalltown	Hillside
-streets.smalltown	Lake
-streets.smalltown	Main
-streets.smalltown	Meadow
-streets.smalltown	Park
-streets.smalltown	Pleasant
-streets.smalltown	Ridge
-streets.smalltown	River
-streets.smalltown	Sunrise
-streets.smalltown	Sunset
-streets.smalltown	View
-streets.generic	College
-streets.generic	Forest
-streets.generic	Timber
-streets.generic	Union
-streets.generic	Green
-streets.generic	River
-streets.generic	Bridge
-streets.generic	Ferry
-streets.generic	Church
-streets.generic	State
-streets.generic	North
-streets.generic	East
-streets.generic	South
-streets.generic	West
-streets.generic	Water
-streets.generic	School
-streets.generic	Canal
-streets.generic	Brook
-streets.generic	Liberty
-streets.generic	Grove
-streets.generic	Fairview
-streets.generic	Spring
-streets.generic	Terrace
-streets.generic	Garden
-streets.trees	Ash
+streets.usfounders	ガーフィールド
+streets.usfounders	アーサー
+streets.usfounders	クリーブランド
+streets.usfounders	マッキンリー
+streets.usfounders	ルーズベルト
+streets.famouspeople	マゼラン
+streets.famouspeople	ガリレオ
+streets.famouspeople	コペルニクス
+streets.famouspeople	コロンブス
+streets.famouspeople	マルコポーロ
+streets.famouspeople	モーセ
+streets.famouspeople	ベル
+streets.famouspeople	グーテンベルク
+streets.famouspeople	パスカル
+streets.famouspeople	ユークリッド
+streets.famouspeople	パスツール
+streets.famouspeople	キュリー
+streets.famouspeople	ダビンチ
+streets.famouspeople	シェイクスピア
+streets.famouspeople	ベーコン
+streets.famouspeople	オースティン
+streets.famouspeople	ディケンズ
+streets.famouspeople	チョーサー
+streets.usstates	アラバマ州
+streets.usstates	アラスカ州
+streets.usstates	アリゾナ州
+streets.usstates	アーカンソー州
+streets.usstates	カルフォルニア州
+streets.usstates	キャロライナ州
+streets.usstates	コロラド州
+streets.usstates	コネチカット州
+streets.usstates	デラウェア州
+streets.usstates	フロリダ州
+streets.usstates	ジョージア州
+streets.usstates	ハワイ州
+streets.usstates	アイダホ州
+streets.usstates	イリノイ州
+streets.usstates	インディアナ州
+streets.usstates	アイオワ州
+streets.usstates	カンザス州
+streets.usstates	ケンタッキー州
+streets.usstates	ルイジアナ州
+streets.usstates	メイン州
+streets.usstates	メリーランド州
+streets.usstates	マサチューセッツ州
+streets.usstates	ミシガン州
+streets.usstates	ミネソタ州
+streets.usstates	ミシシッピ州
+streets.usstates	ミズーリ州
+streets.usstates	モンタナ州
+streets.usstates	ネブラスカ州
+streets.usstates	ネヴァダ州
+streets.usstates	ニューハンプシャー州
+streets.usstates	ニュージャージー州
+streets.usstates	ニューメキシコ州
+streets.usstates	ニューヨーク州
+streets.usstates	ノースキャロライナ州
+streets.usstates	ノースダコタ州
+streets.usstates	オハイオ州
+streets.usstates	オクラホマ州
+streets.usstates	オレゴン州
+streets.usstates	ペンシルベニア州
+streets.usstates	サウスキャロライナ州
+streets.usstates	サウスダコタ州
+streets.usstates	テネシー州
+streets.usstates	テキサス州
+streets.usstates	ヴァーモント州
+streets.usstates	ヴァージニア州
+streets.usstates	ウエストバージニア州
+streets.usstates	ウィスコンシン州
+streets.usstates	ワイオミング州
+streets.usstates	ロードアイランド州
+streets.uscities	プリマス
+streets.uscities	フィラデルフィア
+streets.uscities	ニューヨーク
+streets.uscities	シカゴ
+streets.uscities	デトロイト
+streets.uscities	クリーブランド
+streets.uscities	セントルイス
+streets.uscities	ボストン
+streets.uscities	ボルチモア
+streets.uscities	ピッツバーグ
+streets.uscities	ロサンゼルス
+streets.uscities	バッファロー
+streets.uscities	シンシナティ
+streets.uscities	ブルックリン
+streets.uscities	サンフランシスコ
+streets.uscities	ニューオーリンズ
+streets.uscities	ミルウォーキー
+streets.smalltown	ベイ
+streets.smalltown	セントラル
+streets.smalltown	チャーチ
+streets.smalltown	カウンティ
+streets.smalltown	ディビジョン
+streets.smalltown	エバーグリーン
+streets.smalltown	ハイランド
+streets.smalltown	ヒル
+streets.smalltown	ヒルサイド
+streets.smalltown	レイク
+streets.smalltown	メイン
+streets.smalltown	メドウ
+streets.smalltown	パーク
+streets.smalltown	プレザント
+streets.smalltown	リッジ
+streets.smalltown	リヴァー
+streets.smalltown	サンライズ
+streets.smalltown	サンセット
+streets.smalltown	ビュー
+streets.generic	カレッジ
+streets.generic	フォレスト
+streets.generic	ティンバー
+streets.generic	ユニオン
+streets.generic	グリーン
+streets.generic	リヴァー
+streets.generic	ブリッジ
+streets.generic	フェリー
+streets.generic	チャーチ
+streets.generic	ステート
+streets.generic	北
+streets.generic	東
+streets.generic	南
+streets.generic	西
+streets.generic	ウォーター
+streets.generic	スクール
+streets.generic	キャナル
+streets.generic	ブルック
+streets.generic	リバティー
+streets.generic	グローヴ
+streets.generic	フェアビュー
+streets.generic	スプリング
+streets.generic	テラス
+streets.generic	ガーデン
+streets.trees	アッシュ
 streets.trees	Birch
 streets.trees	Cedar
 streets.trees	Cherry
@@ -1667,26 +1667,26 @@ streets.atlantic-city	Garfield
 streets.atlantic-city	George
 streets.atlantic-city	Grafton
 streets.atlantic-city	Grammercy
-streets.atlantic-city	Grant
-streets.atlantic-city	Green
+streets.atlantic-city	グラント
+streets.atlantic-city	グリーン
 streets.atlantic-city	Greenbriar
 streets.atlantic-city	Halyard
-streets.atlantic-city	Hamilton
-streets.atlantic-city	Harbor
-streets.atlantic-city	Harlem
-streets.atlantic-city	Hartford
-streets.atlantic-city	Hillside
-streets.atlantic-city	Hobart
-streets.atlantic-city	Hobson
-streets.atlantic-city	Horace
-streets.atlantic-city	Howard
-streets.atlantic-city	Hummock
-streets.atlantic-city	Huron
-streets.atlantic-city	Illinois
-streets.atlantic-city	Island
-streets.atlantic-city	Jackson
-streets.atlantic-city	James
-streets.atlantic-city	Jefferson
+streets.atlantic-city	ハミルトン
+streets.atlantic-city	ハーバー
+streets.atlantic-city	ハーレム
+streets.atlantic-city	ハートフォード
+streets.atlantic-city	ヒルサイド
+streets.atlantic-city	ホバート
+streets.atlantic-city	ホブソン
+streets.atlantic-city	ホレイス
+streets.atlantic-city	ホワード
+streets.atlantic-city	フンモック
+streets.atlantic-city	ヒューロン
+streets.atlantic-city	イリノイ
+streets.atlantic-city	アイランド
+streets.atlantic-city	ジャクソン
+streets.atlantic-city	ジェームズ
+streets.atlantic-city	ジェファーソン
 streets.atlantic-city	Keener
 streets.atlantic-city	Lafferty
 streets.atlantic-city	Landmark
@@ -1707,15 +1707,15 @@ streets.atlantic-city	Memorial
 streets.atlantic-city	Michigan
 streets.atlantic-city	Missouri
 streets.atlantic-city	Monroe
-streets.atlantic-city	Monterey
-streets.atlantic-city	Montgomery
-streets.atlantic-city	Morgan
-streets.atlantic-city	Morningside
-streets.atlantic-city	Murray
-streets.atlantic-city	Ocean
-streets.atlantic-city	Oceanic
-streets.atlantic-city	Ontario
-streets.atlantic-city	Oriental
+streets.atlantic-city	モンテレー
+streets.atlantic-city	モンゴメリー
+streets.atlantic-city	モーガン
+streets.atlantic-city	モーニングサイド
+streets.atlantic-city	ミューレイ
+streets.atlantic-city	オーシャン
+streets.atlantic-city	オセニック
+streets.atlantic-city	オンタリオ
+streets.atlantic-city	オリエンタル
 streets.atlantic-city	Pacific
 streets.atlantic-city	Park Place
 streets.atlantic-city	Pearl
@@ -1864,3 +1864,5 @@ convo-repayment.generic.npcintro	What can I do for you?
 convo-repayment.generic.npcintro	How can I repay you?
 convo-repayment.grant-bottled-booze-cordials.ticker	{name} did as promised and a load of cordials is now available at your safehouse.
 convo-repayment.grant-bottled-booze-cordials.ticker	{name} did as promised and a load of bottled whiskey is now available at your safehouse.
+
+

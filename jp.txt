@@ -2,8 +2,7 @@
 __id	jp	en
 __name	日本語	English
 
-﻿﻿__id	jp
-__name	日本語
+﻿﻿﻿﻿__name	日本語
 button.play	プレイ
 button.ok	OK
 button.cancel	キャンセル
@@ -75,7 +74,7 @@ datetime.day.30	30日
 datetime.day.31	31日
 ui.check	<sprite name="ui check">
 ui.cross	<sprite name="ui cross">
-ui.dot	·
+ui.dot	?
 ui.clock	<sprite name="ui clock">
 ui.iconline	{icon}<indent=20>{text}</indent>
 ui.convoline	{icon}<indent=40>{text}</indent>
@@ -617,7 +616,6 @@ ui.fight-unhurt.3	{name}は今回、より傷つくことがなかった
 ui.fight-unhurt.4	{name}が殺された
 ui.fight	{aname} ({agroup})\nが {tname} ({tgroup})を攻撃した
 ui.fight.quotewrap	<b><i>{quote}</i></b>
-ui.fight.quote	""This town ain't big enough for the two of us""
 ui.fight.damage.miss	失敗
 ui.fight.damage.total	{dealt}
 ui.fight.crewdeath.header	<b>構成員の死亡: {name}</b>\n\nあなたの構成員の一人が勤務中に死亡した。\n\nその家族は取り乱して、静かにあなたを責めている。あなたは彼らの絶望を和らげるために何かする必要がある。
@@ -759,7 +757,7 @@ ui.pipicon.biz-expand	<sprite name="ui pip biz">
 ui.pipicon.biz-stalled	<sprite name="ui pip biz stalled">
 ui.pipicon.biz-upgrade	<sprite name="ui pip biz upgrade">
 ui.pipicon.biz-recent-trade-ai	<sprite name="ui npc ai biz">
-ui.pipicon.biz-recent-trade-human	;; not currently used
+ui.pipicon.biz-recent-trade-human	?
 ui.pipicon.damaged	<sprite name="ui ai building attack">
 ui.pipicon.cops	<sprite name="ui pip cops">
 ui.pipicon.cops-heat-down	<sprite name="ui pip cops heat down">
@@ -843,7 +841,6 @@ ui.customgame.demodisable	<color=#808080>{text}</color>
 ui.customcity.entry	カスタムマップ
 ui.customcity.desc	未知の挑戦を持つランダムな都市マップを作成する。\n\n都市地図の地形、ライバルやトラブルメーカーの数などを調整するためにアドバンスカスタマイズ設定にスイッチするには<b>コンティニュー</b>を押す。
 ui.customcity.header	都市をカスタマイズする
-ui.customcity.newname	新しい{name}
 ui.customcity.basedon	基礎ベース：
 ui.customcity.basedon.mo	この都市のベースとなるオリジナルの都市を選びます。これにより、どのような資源が利用できるか、どのようなスキルやミッションが開放されるか、などの情報が得られます。
 ui.customcity.random	ランダムシード値：
@@ -948,8 +945,8 @@ ui.options.resolution.format	{width} x {height} ({refreshRate}{hz})
 ui.options.language	言語
 ui.options.dates	日程フォーマット
 ui.options.dates.0	1月 17日， 1920年
-ui.options.dates.1	17-Jan-20
-ui.options.dates.2	17-Jan-20
+ui.options.dates.1	January 17，1920
+ui.options.dates.2	January 17，1920
 ui.options.timeofday	昼夜の描写
 ui.options.timeofday.0	いつも昼間
 ui.options.timeofday.1	いつも夕方
@@ -1439,7 +1436,6 @@ ui.tickers.category.default	イベントのアップデート
 ui.tickers.category.deliveries	配達の問題
 ui.tickers.category.demands	ステータスアップデート
 ui.tickers.category.levelup	構成員がレベルアップ
-ui.tickers.category.loot-available	オファーがある
 ui.tickers.category.loot-expired	オファーが期限切れ
 ui.tickers.category.outpost-start	新しいフロントの開始
 ui.tickers.category.outpost-notice	フロントの一つが緊急の注目を必要
@@ -1569,7 +1565,6 @@ ui.tickers.debtor-escape.debtor	あなたのギャンブル場の常連だった
 ui.tickers-list.title	通知履歴
 ui.tickers-list.subtitle	最近30日間の出来事をタイムラインで表示
 ui.tickers-list.entry	<b>{title}</b>\n{date}\n\n{description}
-;; requirements	0
 ui.requirements.gameturn	必要なゲームターン: {value}
 ui.requirements.city.true	この都市で利用可能
 ui.requirements.city.false	この都市では使用できません
@@ -1665,11 +1660,6 @@ ui.requirements.player.skills.unexpected	技術を持っていてはいけない
 ui.requirements.player.skills.all	必要な技術 (すべて)
 ui.requirements.player.skills.any	必要な技術 (どれか)
 ui.requirements.player.skills.none	技術を持っていてはいけない
-ui.requirements.biz.player.territory.expected	プレイヤーのテリトリーの中に無いといけない
-ui.requirements.biz.player.territory.unexpected	プレイヤーのテリトリーの中にあってはいけない
-ui.requirements.biz.player.territory.all	プレイヤーのテリトリーの中に無いといけない（全て）
-ui.requirements.biz.player.territory.any	プレイヤーのテリトリーの中に無いといけない（どれか）
-ui.requirements.biz.player.territory.none	プレイヤーのテリトリーの中にあってはいけない
 ui.requirements.modules.player.territory.expected	プレイヤーのテリトリーの中に無いといけない
 ui.requirements.modules.player.territory.unexpected	プレイヤーのテリトリーの中にあってはいけない
 ui.requirements.modules.player.territory.all	プレイヤーのテリトリーの中に無いといけない（全て）
@@ -2180,13 +2170,10 @@ convo.icon-leave	<sprite name="ui convo leave">
 convo.icon-confirm	<sprite name="ui convo confirm">
 convo.icon-repayment-confirm	<sprite name="ui debtor paid back">
 convo.toplevel-start-blurb	<i>{scopeOut}</i>\n<b>{ownerName}:</b> {msg}
-convo.toplevel-start.pos.1	お会いできてうれしいです。何か用ですか？
 convo.toplevel-start.neg.1	何が欲しいんだ？
 convo.toplevel-start.any.1	どのようなご用件でしょうか？
-convo.toplevel-train-passenger.pos.1	お会いできてうれしいです。私は駅長です。来るのがわかっていたら、部屋を掃除していたのに\n\n<i>自分の組織のテリトリーに旅客駅があると、構成員の定員が1人増え、全構成員にアクションポイントが1点追加されます。</i>
 convo.toplevel-train-passenger.neg.1	で、この施設で何をしてるんだ？列車から落ちるものを探しているなら、私は駅の運営で忙しいんだ。\n\n<i>自分の組織のテリトリーに旅客駅があると、構成員の定員が1人増え、全構成員にアクションポイントが1点追加されます。</i>
 convo.toplevel-train-passenger.any.1	電車をお探しですか？こんな駅の話をいろいろと聞いたことがあるのではないでしょうか？車両から物が落ちること。密輸。でも、ここは違う。誰も疑う理由はないはずです。\n\n<i>自分の組織のテリトリーに旅客駅があると、構成員の定員が1人増え、全構成員にアクションポイントが1点追加されます。</i>
-convo.toplevel-train-freight.pos.1	お会いできてうれしいです。私は駅長です。来るのがわかっていたら、部屋を掃除していたのに\n\n<i>自組織のテリトリーに貨物駅があると、トラックの容量が2増加し、全構成員に移動ポイントが2ポイント加算されます。</i>
 convo.toplevel-train-freight.neg.1	で、この施設で何をしてるんだ？列車から落ちるものを探しているなら、私は駅の運営で忙しいんだ。\n\n<i>自軍のテリトリーに貨物駅があると、トラックの容量が2増加し、全構成員に移動ポイントが2ポイント加算されます。</i>
 convo.toplevel-train-freight.any.1	電車をお探しですか？こんな駅の話をいろいろと聞いたことがあるのではないでしょうか？車両から物が落ちること。密輸。でも、ここは違う。そして、そう疑う理由もない。\n\n<i>自軍のテリトリーに貨物駅があると、トラックの容量が2増加し、全構成員に移動ポイントが2ポイント加算されます。</i>
 convo.toplevel-train-passenger.pos	こんにちは、私の友人。私のオフィスに行って、個人的に話しましょう。\n\n<i>自軍のテリトリーに旅客駅があると、トラックの容量が2増加し、全構成員に移動ポイントが2ポイント加算されます。</i>
@@ -2324,7 +2311,6 @@ convo.social.debtor-payother-inf.f	{$firstname} {$lastname}との話を聞いた
 convo.social.history.none.pc-npc.blurb	どこにいくんだ？この辺りではあまり見かけないな。
 convo.social.history.none.npc-npc.blurb	身寄りがないんです。この町には知り合いがいない。
 convo.social.history.none.attackers-target.blurb	私はこの人たちのことをよく知らない。私はほとんど自分の中に閉じこもっています
-convo.buysell-button	では、ここで何を買うのか、何を売るのか。
 convo.buysell-button.icon	<sprite name="ui buy sell">
 convo.buysell-button.dis.mo	これを行うのに十分な<sprite name="ui action pts">アクションポイントがありません。
 convo.buysell-failed-state	あなたのような方とは取引しません。
@@ -2366,7 +2352,6 @@ convo.buysell.notrust-resunknown.mo	人間関係を良くして、闇市の商�
 convo.buysell.buys	購入
 convo.buysell.sells	売却
 convo.buysell.type-and-resource	{prefix}: {resource}
-convo.buysell-state.any	いつもお買い得品に目を光らせています:{details}
 convo.buysell-state.neg	あなたのビジネスへの取り組み方が好きとは思えませんが、ここで何ができるか考えてみましょう:{details}
 convo.buysell-state.pos	ぜひ、興味のあるものがあれば見てみましょう:{details}
 convo.buysell-details-buying	実は、今、買いたいものがあるんです:{blist}
@@ -2374,7 +2359,6 @@ convo.buysell-details-selling	興味があれば、売りますよ：{slist}。
 convo.buysell-details-buysell	もし興味があれば、私は次のものを売ります：{slist}。もしこちらがあれば買取します:{blist}
 convo.buysell-button-header.0	あまりないですね、ここは。
 convo.buysell-button-header.1	こちらはどうでしょう:
-convo.buysell-button-header	いくつかアイデアがあります:
 convo.buysell-button-sell	売りたい<sprite name="ui sell">：{items}
 convo.buysell-button-buy	買いたい<sprite name="ui buy">：{items}
 convo.buysell-button-footer	気にしないでください。
@@ -2413,7 +2397,6 @@ convo.buy-price-pos-button.mo	希望価格より高い価格を提示する
 convo.buy-territory-problem-npc	しかし、ここでひっかかることがある。今更、違法なものを買うのは不安だ。誤解しないでください、あなたを信頼しています、でも、外にはたくさんの詮索好きな人がいるんですよ、ね？あなたがこのコーナーを任されていないのなら、このままでは問題が起こるのではないかと心配しています。
 convo.buy-territory-problem-say	どうしたら安心してもらえるか、考えてみます。
 convo.buy-territory-problem-say.mo	彼らはあなたのテリトリーにこのコーナーが含まれない限り違法なアイテムを売りません。近くに<i>フロント</i>を作る必要があります
-convo.sell-select-npc	使えると思うんだけどな。\n<indent=15><i>({unitname}{priceshift}あたりの{unitprice}での購入を提案。)</i></indent>
 convo.sell-select-button-now	今、車の中にあるかもしれない。
 convo.sell-select-button-tied	独占取引の取り決めについて話そう。お互いの利益になると思うんだ。
 convo.sell-select-button-price	コストの話をしよう。
@@ -2561,7 +2544,6 @@ convo.outpost.nonhuman-back	どんな人たちなのか、ちょっと考えて�
 convo.outpost.nonhuman-complies-npc	あなたと{gangname}のどちらかを 選ばなければならないの？困ったなぁ。\n<indent=15><i>(彼らは応じる。)</i></indent>
 convo.outpost.nonhuman-complies-say	心配しないでください。すべてうまくいくよ。
 convo.outpost.nonhuman-epi	<i>*ため息*</i>
-convo.outpost.nonhuman-defies-npc	ばかも休み休み言え？{gangname}この地域を支配している！私は首を突っ込まないんだ。
 convo.outpost.nonhuman-defies-bribe	もし私が、{price}とあなたの名前が書かれた封筒を持っていると言ったらどうでしょう。\n<indent=15><i>(賄賂)</i></indent>
 convo.outpost.nonhuman-defies-attack	もし、この申し出を断ったら、守るべきものがなくなってしまう、と言ったらどうする？\n<indent=15><i>(攻撃する)</i></indent>
 convo.outpost.nonhuman-defies-later	これについては、また後日改めて。
@@ -2767,7 +2749,6 @@ convo.imported-booze-favor-option-pass	面白い。ただ私は将来的な好�
 convo.imported-booze-favor-active	今は他の人の手伝いで手一杯なんだ、一段落したらまた来るかもしれません。
 convo.imported-booze-favor-friends-npc	商品はもうすぐ届くだろう友人よ。私はあなたとの友情が深まったように感じている。もしあなたの助けが必要なときは、あなたができる限り手助けしてくれると期待しているよ。
 convo.imported-booze-favor-friends	私はいつでも友人のためにできることをしたいと思っています。
-;; goon intros	;; goon intros
 convo.ticket-boost.goon.button	地元のギャング団と接触させてくれないか？
 convo.ticket-boost.goon.button.mo	地元のギャング団との関係を改善する。
 convo.ticket-boost.goon.start.blurb	{relationship} 私は良い言葉をかけることができる。 {outofcharacter}
@@ -2778,7 +2759,6 @@ convo.ticket-boost.goon.leader	\n<indent=15><i>({name}は{groupname}という名
 convo.ticket-boost.goon.flavor.business	トラックの荷台から何か落ちると、たいてい彼らの手に渡るんです。
 convo.ticket-boost.goon.flavor.resource	彼らは他の誰よりもこの街を知っています。もし興味があるなら、入手困難なアイテムの情報を教えてくれるかもしれません。
 convo.ticket-boost.goon.flavor.obstacle-goon	彼らはできることなら毎日プール場で過ごすような、ただのローファーの集まりです。でも、もし彼らに気に入られたら、もしかしたら助けてもらえるかもしれない。それ以外にすることがないんだ。
-;; npc intros	;; npc intros
 convo.ticket-intro-none-npc	あなたがまだ知らない人はいないと思う。
 convo.ticket-intro-none-button	それなら気にしないでください。
 convo.ticket-intro-confirm-npc	{introflavor}{relationship}二人は意気投合する気がします。{outofcharacter}
@@ -2857,7 +2837,6 @@ convo.ticket-intro-flavor.module.production-aged-whiskey	あなたが作って�
 convo.ticket-intro-flavor.module.production-cordials	あなたのコーディアルは、この辺りのカクテルにとてもよく合うんですよ。私の友人と会って、彼らがどのような手助けをするか相談してみてはどうだろう。
 convo.ticket-intro-flavor.module.production-gin	ジン作りのお手伝いが必要ですか？もしそうなら、ぜひ会ってほしい人がいます。
 convo.ticket-intro-flavor.module.supper-club-player	あなたの酒場の一角で販売するものをお探しですか？
-convo.moduleintro.inventory	最近、処分しにくいかもしれない在庫があるそうですね。
 convo.moduleintro.unknown-consumes.m	私に考えがあります、あそこに顔を出してみてください。きっと喜んであなたの在庫品を買い取ってくれるでしょう。
 convo.moduleintro.unknown-consumes.f	私に考えがあります、あそこに顔を出してみてください。きっと喜んであなたの在庫品を買い取ってくれるでしょう。
 convo.moduleintro.unknown-produces.m	ぜひ会ってみてください。彼はあなたが興味を持ちそうな在庫を持っていますよ。
@@ -3024,9 +3003,7 @@ convo.ticket-hirecrew-epilogue-npc.f	すぐに知らせます。そして、お�
 convo.ticket-skills-start-npc	{introflavor}
 convo.ticket-skills-select-npc	いくつかお手伝いできることがあるんです。知りたいことは何ですか？
 convo.ticket-skills-select-npc.skillchoice	{skillname}について教えてください。
-convo.ticket-skills-details-button	もっと教えてください。
 convo.ticket-skills-details-button.mo	このスキルがどのようなものか、具体的にご覧ください。
-convo.ticket-skills-tellmore-button	これは便利そうですね。何が必要なのでしょうか？
 convo.ticket-skills-cancel-button	気が変わったんです。
 convo.ticket-skills-confirm-quest-npc	まず、いくつか必要なものがありますね。{prereqs}
 convo.ticket-skills-confirm-quest-button	これは取引だ。必要なものを用意する\n<indent=15><i>( 1 <sprite name="ui tickets"> 恩義使用する。)</i></indent>
@@ -3050,7 +3027,7 @@ convo.delivery-quest-pending-button	やります
 convo.delivery-quest-pending-epilogue-npc	いい感じですね。居場所は分かりますよね？
 convo.delivery-quest-done-npc	決まりました！今度は私が約束を守ります。
 convo.delivery-quest-done-button	このような取り決めができてよかったです。
-convo.delivery-quest-grant	   ·<indent=15><i>{item}</i></indent>
+convo.delivery-quest-grant	·<indent=15><i>{item}</i></indent>
 convo-ticket-building-prefix	そういえば、これはお互いに助け合える状況かもしれませんね。
 convo.ticket-building-start-npc.child.m	{#convo-ticket-building-prefix} 私の息子{$firstname}は、自分でビジネスをすることを夢見ています。もちろん、私は彼を助けるためなら何でもします。
 convo.ticket-building-start-npc.child.f	{#convo-ticket-building-prefix} 私の娘{$firstname}は、自分でビジネスをすることを夢見ています。もちろん、私は彼を助けるためなら何でもします。
@@ -3070,7 +3047,6 @@ convo.ticket-building-start-npc.m	{#convo-ticket-building-prefix} 私の親戚�
 convo.ticket-building-start-npc.f	{#convo-ticket-building-prefix} 私の親戚の {$firstname} はビジネスを始める方法を探しています。私は彼女を助けたいと考えているんだ。
 convo.ticket-building-tellmore-button	このプランについて教えてください。
 convo.ticket-building-cancel-button	興味ないな。
-convo.ticket-building-details-npc	近所に{bizname}という会社があるんです。今のオーナーは倒産したらしい・・・で、全部売るらしい。
 convo.ticket-building-details-button	助け合うとか言ってたよね。それがどうした？
 convo.ticket-building-details2-npc.child.m	ああ、そうなんです。私の息子である{$firstname}は合法的なビジネスを立ち上げる予定です。\n出資の見返りとして、建物の裏側を使って、あなたの組織が好きなビジネスを行うことができると思います。{size-and-vertical}
 convo.ticket-building-details2-npc.child.f	ああ、そうなんです。私の娘である{$firstname}は合法的なビジネスを立ち上げる予定です。\n出資の見返りとして、建物の裏側を使って、あなたの組織が好きなビジネスを行うことができると思います。{size-and-vertical}
@@ -3095,7 +3071,6 @@ convo.ticket-building-request-ok-button	このアイデアが好きだ。実現�
 convo.ticket-building-request-ok-button.mo	このビジネスに投資することで、さまざまな試みのフロントとなる。
 convo.ticket-building-request-later-button	考えておきます。
 convo.ticket-building-done-npc	素晴らしいニュースです！書類整理をしてきます。それまでくつろいでいてください、これもあなたの仕事です。
-convo.ticket-building-done-ok-button	成功する未来に乾杯
 convo.cop-effect.at-node.icon	<color=#a0a0a0><sprite name="ui buy sell" tint=1></color>
 convo.cop-effect.at-node.button	では、仕事の話をしましょう。
 convo.cop-effect.at-node.blurb	話をしたいが、近くに警官がいるので緊張している。もう少し後で話さないか？
@@ -3111,7 +3086,6 @@ convo.initiative-qreq-notnow-button.mo	この要求を後回しにする
 convo.initiative-qreq-notnow-npc	了解だ。
 convo.initiative-qreq-no-button	いいえ、結構です。
 convo.initiative-qreq-no-button.mo	要求を拒否する
-convo.initiative-qreq-no-npc	聞いてみようと思ったんだ。
 convo.initiative-qreqdone-npc	助けてもらってよかったです。
 convo.initiative-qreqdone-ok-button	いつも友人を助けるのが嬉しい。
 convo.initiative-qreqdone-npc-unhappy	その言葉、本当ですか？
@@ -3183,39 +3157,26 @@ convo.outpost-inside1-npc.old	ええ、もちろんです。
 convo.outpost-inside1-say.old	やはり、この地域は私たちが守らないといけないと思います。
 convo.goons.toplevel.start.pos.1	やあ、君のことは聞いているよ。もちろんいい話だけだけどね。
 convo.goons.toplevel.start.neg.1	何を見てるんだ？
-convo.goons.toplevel.start.any.1	見覚えがあるね どこかで会ったような？
 convo.goons.toplevel.start.pos	どうしたんだ？
 convo.goons.toplevel.start.neg	はい？
-convo.goons.toplevel.start.any	調子はどうですか？
 convo.goons.toplevel.state.pos	他に何かありますか？
 convo.goons.toplevel.state.neg	他には？
 convo.goons.toplevel.state.any	他に何か？
 convo.goons.goodbye	忘れてください。じゃあまた。
 convo.goons.allowbiz-ask.icon	<sprite name="ui pip goon biz access">
-convo.goons.allowbiz-ask	あなたの街のお店をひいきにしてあげたいんです。彼らは、あなたがそれを快く思わないことを恐れているのでしょう。
-convo.goons.allowbiz-npc	遠くへ来たもんだ。ここは私のコーナーです。誰がボスか、みんな知ってる。
 convo.goons.allowbiz-say	いいか、俺はお前が気に入っているから優しく頼んでるんだ。ただ今回だけだ。今度からはそんな頼み方はしない。\n<indent=15><i>(<sprite name="ui convo random">脅す)</i></indent>
-convo.goons.stopaggro-ask	私のクルーを標的にするな さもなくば代償を払え
-convo.goons.stopaggro-npc	そうなんですか？それとも何？
 convo.goons.stopaggro-say	本当は見せたくないんだろうけど。\n<indent=15><i>(<sprite name="ui convo random">脅す)</i></indent>
-convo.goons.stopharassing-ask	この辺りの企業に嫌がらせをするのはやめてほしい。あんたがいると取引ができない。
-convo.goons.stopharassing-npc	そうなんですか？それともどうするんだ？
 convo.goons.stopharassing-say	一度しか言わないぞ。私に逆らわないほうがいい。\n<indent=15><i>(<sprite name="ui convo random">脅す)</i></indent>
 convo.goons.stopstealing-ask	私のフロントに閉鎖するよう脅したのか？止めてくれないか。私に逆らわないほうがいい。
-convo.goons.stopstealing-npc	そうなんですか？それとも何？
 convo.goons.stopstealing-say	私を信じてくれないか、揉め事は避けたいんだが。\n<indent=15><i>(<sprite name="ui convo random">脅す)</i></indent>
-convo.goons.defiant-npc	いやぁ、怖いですねぇ。
 convo.goons.defiant-say	尊敬の念を教えなければならないようだ。
 convo.goons.defiant-later	後で取引しよう。
 convo.goons.later	また来るよ。
-convo.goons.compliant-npc	待てよ、お前もその手の組織なのか？ほら、面倒なことは嫌なんだ。\n<indent=15><i>(要求に応えてくれる。オーナーが安心できるようになれば、近くのコーナーで商売ができるようになります。)</i></indent>
 convo.goons.compliant-say	あなたなら私の考えを理解してくれると思ったのですが。
 convo.goons.paymore-npc	これは以前の契約にはなかったことです。
 convo.goons.paymore-say	どうしたらいいんだ？
 convo.goons.paymore-later	それなら、気にしないでください。他の話をしましょう。
-convo.goons.paymore-2-npc	あなたの影響力の増大が、私の収益を圧迫しているんだ。ほら、誰だって食っていかなきゃならないだろ。
 convo.goons.paymore-2-say	いくらなんだ？
-convo.goons.paymore-3-npc	細かいことは言わずに、全部で{price}としましょう。
 convo.goons.paymore-3-agree	わかった、いいだろう。私たちはお互いに助け合える、そうだろ？\n<indent=15><i>({price} 払う)</i></indent>
 convo.goons.paymore-3-favor	私のために、これをやってくれ。\n<indent=15><i>(<sprite name="ui tickets">恩義を使用する)</i></indent>
 convo.goons.paymore-3-fail	自分を何様だと思ってるんだ？
@@ -3241,7 +3202,6 @@ convo.goons.paytomove-1-npc	そうなんですか？
 convo.goons.paytomove-1-say	あなたが事業へ嫌がらせするせいで私の経営に影響を及ぼしているんだ、到底許すことはできない。だが私は君たちを敵に回したいわけではないんだ。よければ取引しないか。
 convo.goons.paytomove-2-npc	聞いてやるよ。
 convo.goons.paytomove-2-say	ここで自分のボクシングクラブを運営するのはどうだろう？費用は援助するし、地域に良い影響を与えられる。その代わりこのコーナーを完全に諦めてくれないか。
-convo.goons.paytomove-3-npc	私を買収したいのか？その響きはいいね ボクシングクラブも悪くないな。\n面白いとは思うが、金は払ってもらうぞ{amt}
 convo.goons.paytomove-3-agree	いいだろう。これでいいかな {amt}。あなたは約束を守ってくれると信じているよ。\n<indent=15><i>({amt}払う。{name}はコーナーを離れる。)</i></indent>
 convo.goons.paytomove-3-fail	現金があるか確認してくるよ。
 convo.goons.paytomove-3-fail-epilogue	もちろんです。
@@ -3258,7 +3218,6 @@ convo.goons.hirehitman-3-fail	現金があるか確認してくるよ。
 convo.goons.hirehitman-3-fail-epilogue	ここにいるよ。
 convo.goons.fight.button	なんだ？なぜ私を見ているんだ。
 convo.goons.fight.icon	<sprite name="ui weapon fist">
-convo.goons.fight.blurb	そうなのか？喧嘩したいのか？後悔することになるぞ
 convo.goons.fight.confirm	あなたはトラブルを求めているだけだな。\n<indent=15><i>(すぐに攻撃する)</i></indent>
 convo.goons.fight.confirm.mo	現在この場所にいる構成員で攻撃する。結果的に彼らの反感を買ったり、なにか他の結果を招くかもしれない。
 convo.goons.fight.cancel	後で取引しよう。
@@ -3321,13 +3280,11 @@ convo.goons.cop-effect.at-node.button	このコーナーは今日は少し忙し
 convo.goons.cop-effect.at-node.button.mo	現在の警察の存在について議論する
 convo.goons.cop-effect.at-node.blurb	シーッ！目立たないようにしないと 警察がどっかに行ったら戻って来い。
 convo.goons.cop-effect.at-node.leave.button	そうだな、注意を引かないようにしないとな。また後で来るよ。
-;; canada	;; canada
 convo.goons.rewards.offer.blurb.business-entry.canada-money	川に浮かぶフェリーで働く友人がいます。彼女はカナダにいます。頻繁に。もし向こうで現金が必要なら、彼女が助けてくれるよ。500ドルでいいんだけど、ちょっと経費が必要なんだ。どうする？
 convo.goons.rewards.offer.blurb.business-entry.canada-goods	私のいとこは、鉄道会社で働いています。デトロイト行きの列車に荷を積んでるんだ。もしデトロイトにもって行くのに必要なものが あったら- 車に積んで持って来てくれ。後は従兄弟に任せよう。やるか？
 convo.gangs.goodbye	また会おう。
 convo.gangs.fight.button	お前の存在はもう十分だ
 convo.gangs.fight.icon	<sprite name="ui weapon fist">
-convo.gangs.fight.blurb	<i>*笑い*</i>。
 convo.gangs.fight.confirm	これ以上、我慢できない。\n<indent=15><i>(今すぐ攻撃する。)</i></indent>
 convo.gangs.fight.confirm.mo	現在この場所にいるクルーで攻撃する。その結果、敵に回ったりする可能性がある。
 convo.gangs.fight.cancel	後で対処します。
@@ -3479,7 +3436,6 @@ convo.resevents.toplevel.state.neg	それでは。
 convo.resevents.toplevel.state.any	他に何か？
 convo.resevents.goodbye	また今度。
 convo.resevents.seeyouthen	では、また。
-;; talking to a civic building NPC	;; talking to a civic building NPC
 convo.train-station.icon	<sprite name="ui convo train">
 convo.train-station-start-good	この駅ではいろいろなことが起こっているようですが、あなたが責任者なんですね。その話をするために、よければあなたのオフィスへ案内してくれないか。
 convo.train-station-start-bad	誰も疑う気はないよ。ただ興味深いですね。私のことをもっとよく知ってくれれば、違った結果だったかもしれませんね。それでは良い一日を。
@@ -4025,14 +3981,11 @@ relbuff.goons.demand.favors	あなたの巧みな話術に魅了され、喜ん�
 relbuff.goons.wrong-foot	ただ、あなたの顔が好きではないだけで、少しは暖かくなるかもしれませんよ。
 relbuff.goons.loot-table.buy-in	二人とも犯罪に手を染め、それが二人を結びつけた
 relbuff.goons.loot-table.on-finish	あなた方二人は泥棒のように厚かましい、おそらく<i>あなた方が泥棒であるからでしょう</i>。
-relbuff.gang.injury	あなたは彼らの1人を病院送りにした
-relbuff.gang.death	あなたは彼らの1人を安置所に送った
 relbuff.gang.truce	あなたは互恵的な停戦に合意した
 relbuff.cop-compliment	感謝の言葉で喜んでいただきました
 relbuff.cop-donation	自分たちの大切な目的のために寄付をすると感謝される
 relbuff.cop-afterdonation	寄付を覚えていてくれて、次の寄付を歓迎してくれています。
 relbuff.cop-weapon-drop	最近武器をプレゼントされたばかりで、しばらくはそのようなプレゼントをもらうリスクは避けたほうがいい。
-relbuff.quest-same-biz	あなたは同じ違法行為に関心を持っているように見える。
 relbuff.quest-bottled-booze	お客さんに喜ばれるお酒のサンプルボトルを置いていった。
 relbuff-quest-bottled-booze-skill	新しいタイプの醸造酒の作り方を紹介された。
 relbuff.quest-bottled-partners	一緒に醸造酒の事業をやっていた。
@@ -4406,7 +4359,6 @@ module.flavor-car-shop-small.name	ローカル自動車整備
 module.flavor-car-shop-small.desc	車を修理する小さな店。
 module.flavor-bowling.name	ボウリング場
 module.flavor-bowling.desc	地域のボウリングリーグなどの親睦会に利用できるローカルレーン。
-module.flavor-bank	お金の流れを止めず、金庫を満杯にする金融機関。
 module.production-homebooze-moonshine.name	密造ムーンシャイン製造
 module.production-homebooze-moonshine.desc	飲めない変性アルコール、工業用アルコールを飲めるムーンシャインにする
 module.production-homebooze-moonshine.details	工業用アルコールとせっ器製の壷が手に入れば、小さなムーンシャイン製造工場ができる。工業用アルコールをムーンシャインに変換したら、小さな酒場や密造酒販売者に卸し、一般大衆に販売することができる。
@@ -4434,8 +4386,8 @@ module.production-homebooze-home-brew-improved.desc	通常の自家製ビール�
 module.production-homebooze-home-brew-improved.details	ノウハウを得たことで、自家製ビールづくりの生産量が増えた。
 module.production-homebooze-home-brew-dock.name	ガレージ自家製ビール製造
 module.production-homebooze-brick-wine.name	密造ブリックワイン事業
-module.production-homebooze-brick-wine.desc	濃縮ぶどうジュースと水を入れて少し時間を置くと、ワインのようなものができあがる。
-module.production-homebooze-brick-wine.details	濃縮ぶどうジュースは完全に合法だ。ただ、水を加えて放置しないように注意。アルコールに変わる可能性があり、それは違法となる。
+module.production-homebooze-brick-wine.desc	ぶどう濃縮物と水を入れて少し時間を置くと、ワインのようなものができあがる。
+module.production-homebooze-brick-wine.details	ぶどう濃縮物は完全に合法だ。ただ、水を加えて放置しないように注意。アルコールに変わる可能性があり、それは違法となる。
 module.production-homebooze-brick-wine-improved.name	発展したブリックワイン製造
 module.production-homebooze-brick-wine-improved.desc	通常のブリックワイン製造所に比べて50％製造量が増加
 module.production-homebooze-brick-wine-improved.details	ノウハウが身についたことで、ブリックワイン製造所のキャパシティが広がった。
@@ -4463,7 +4415,7 @@ module.source-apple-juice.desc	このビジネスはリンゴジュースを作�
 module.source-malt-small.name	モルトシロップの販売
 module.source-malt-small.desc	この施設では、余ったモルトシロップを譲ってくれるらしい。
 module.source-grape-juice.name	ぶどう濃縮物の販売
-module.source-grape-juice.desc	こちらでは濃縮ぶどうジュースが売られている。水に混ぜて2週間ほど放置しないように注意しなさい。
+module.source-grape-juice.desc	こちらではぶどう濃縮物が売られている。水に混ぜて2週間ほど放置しないように注意しなさい。
 module.source-paper-small.name	紙のアウトレット
 module.source-paper-small.desc	様々な用途や目的に合わせたロール紙をこちらでご用意している。
 module.conversion-apple-juice.name	りんごジュース圧搾
@@ -4492,7 +4444,6 @@ module.bootlegger-home-brew-return.desc	この密造酒事業には蒸気殺菌�
 module.bootlegger-home-brew-return.details	この事業は、いくつかのパイプを使って小型の除菌ユニットを設置する。これにより、一度中身を空にしたせっ器の壺が再利用できるようになる。
 module.bootlegger-home-brew-brick-wine.name	密造ブリックワイン密売店
 module.bootlegger-home-brew-brick-wine-return.name	発展型密造ブリックワイン密売店
-module.bootlegger-home-brew-brick-wine.desc	近隣の人たちに少量の自家製ビールを販売する。たくさん売れるわけでも、大金を手にするわけでもないが、警察の注意を引くこともあまりないだろう。
 module.bootlegger-home-brew-cider.name	密造シードル密売店
 module.bootlegger-home-brew-cider-return.name	発展型密造シードル密売店
 module.bootlegger-home-brew-cider.desc	この事業は、この界隈で地元の人に少しだけハードシードルを売っています。たくさん売れるわけでもなく、大金を手にするわけでもないが、警察の注意を引くこともないだろう。
@@ -4575,7 +4526,6 @@ module.source-cold-storage-small.name	小型冷凍倉庫
 module.source-cold-storage-small.desc	この工業用建物は壁が厚く、中身を冷やし、使うまで鮮度を保つことができます。
 module.production-beer-small.name	小規模醸造所
 module.production-beer-bottled.desc	大麦から瓶ビールを製造する小さな醸造所です。
-module.production-beer-kegs.desc	瓶ビールもいいが、樽生は流通がもっと楽だ。この大きな醸造所では、大量のビールを製造している。
 module.production-beer-small.desc	大麦を原料にしたビールを製造する小さな醸造所。
 module.production-wine-barrels.name	小さなワインメーカー
 module.production-wine-barrels.desc	この小さなワイナリーは、ぶどうの果汁からワインを製造しています。
@@ -4807,7 +4757,6 @@ module.canada-barrels.name	カナダの倉庫
 module.canada-barrels.desc	卸売倉庫です。ここカナダでは、合法的なものをいろいろと卸しています。こちらでは合法的なもの、です。
 module.source-canadaian-whiskey.name	カナダのホテル
 module.source-canadaian-whiskey.desc	デトロイト川のカナダ側にあるこの立派な宿泊施設は、いくつかのチャンスを与えてくれます。
-;; module icons	;; module icons
 module.icons.storage-general	<sprite name="module storage general">
 module.icons.garage-small	<sprite name="module garage small">
 module.icons.apple-juice	<sprite name="res apple-juice">
@@ -5039,81 +4988,43 @@ recipe.production-beer-kegs	この醸造所では、樽でビールを製造し�
 recipe.production-aged-whiskey	オーク樽などを使って熟成させたウイスキーを作り、バリエーションも多くできます。
 recipe.production-gin	既存のスピリッツに様々なハーブや植物の要素を加え、高い人気を誇るジンを作る。
 recipe.production-cordials	フルーツなどのフレーバーを使って、カクテルや食前酒用のコーディアルを作る。
-recipe.scopeout.illegal-homebrew	奥の部屋には、比重計のついた石桶がたくさん。ザワークラウトの魅力的な製造工程。
 recipe.scopeout.illegal-homebrew-combo	定期的にモルトが届けられ、裏の樽が泡立っている理由は1つでしょう。ただ2～3週間に1度、特別な配達があるようです。
-recipe.scopeout.illegal-cider	こんなにリンゴが好きな人はいない。
 recipe.scopeout.illegal-cider-combo	りんごジュース。よし。せっ器の壺の容器。よし。これはシードルのことだろう。しかし、リンゴジュースと同じトラックで、もうひとつ不思議なことが起こっていることに気づきました。
-recipe.scopeout.illegal-moonshine	ここで売られている壷には、驚くほど透明で強力な液体が入っている。
 recipe.scopeout.illegal-moonshine-combo	ここで売られている壷には、驚くほど透明で強力な液体が入っている。また、瓶に粗雑なラベルを貼って隠している人も見かけた。ラベルに書かれていることはよくわからないが、VかWで始まっているようだ。
-recipe.scopeout.illegal-homewine	近所の人はみんな、ここで作ったぶどうジュースを絶賛しています。あんなにおいしいブドウジュースはない。
 recipe.scopeout.illegal-apple-jack	ここでは氷とリンゴを大量に使って何かを作っているようです。
-recipe.scopeout.illegal-neutral-alcohol	穀物アルコールを「モノの滅菌」に使っている。さぞかし無菌状態なんでしょうね。
 recipe.scopeout.illegal-source-apples	うまく頼めば、「りんごジュース」を作るためのりんごを売ってくれるかもしれませんよ。
 recipe.scopeout.illegal-source-grapes	カリフォルニアなど、ブドウ栽培の盛んな地域から定期的にブドウを入荷しているようだ。
 recipe.scopeout.illegal-source-grape-juice	ぶどう濃縮物も売っていますが注意書きのラベルを良く確認して、誤ってワインにならないように気をつけましょう。
-recipe.scopeout.illegal-fruit	新鮮なフルーツを手配できるかもしれません。ただし、ビタミンや健康に良いものを...。
 recipe.scopeout.illegal-source-plums	紫色に染まったカゴとその香りから、おそらくプラムやその他の核果が手に入るのだろう。
-recipe.scopeout.illegal-source-warehouse-small	この倉庫の主人は、物をなくすことに定評がある。物忘れと現金払いには相関関係があるようだ。
-recipe.scopeout.illegal-source-warehouse-medium	倉庫のオーナーは、商品のロスが発生することを理解しています。近所の噂では、これらのオーナーは製品の紛失について非常に理解があるそうです。
 recipe.scopeout.illegal-source-bottles-small	お客様からお預かりしたボトルは、この場所に返却し再利用しています。もし、私たちがボトルを必要としているのであれば、こちらに回していただけるかもしれません。
 recipe.scopeout.illegal-source-crocks	この辺りの住民は自家製ピクルス作りに凝っているんでしょうね。せっ器の壺が飛ぶように売れています。
 recipe.scopeout.illegal-source-citrus	壊血病を防ぐためのビタミンCや、ノンアルコールの飲み物に添えるための柑橘類を手に入れることができるかもしれません。
 recipe.scopeout.legal-grocery	近所の食料品店で、さまざまな食材を販売しています。
 recipe.scopeout.legal-grocery-medium	この辺りでは人気の大型食料品店です。
-recipe.scopeout.illegal-consume-homebrew	このお店は、営業時間外でもよくお客さんが来てくれます。そして、みんなとても楽しそうです。私たちも、幸せの瓶詰めを用意することで、彼らの助けになれるかもしれませんね。
-recipe.scopeout.illegal-consume-booze-small	ここでは「ヘルスポーション」の取引が盛んに行われている。もし、新しい健康食品を手に入れることができたら、覚えておくといいでしょう。
-recipe.scopeout.legal-consume-tobacco	タバコや葉巻がたくさん売られている - 状況によってはチャンスかもしれない
-recipe.scopeout.legal-cafe	ここでコーヒーとペストリーを食べれば、長い一日の探索の助けになる。
-recipe.scopeout.legal-restaurant	地元の人が絶賛するメニューです。
-recipe.scopeout.flavor-club	地元では、「ここではフィルという名のバーテンダーを頼むといい」と言われています。そして、すべてのバーテンダーがフィルという名前であることが判明したのです。確率は？
-recipe.scopeout.legal-flowers	高級な花や鉢植えを販売しています。
-recipe.scopeout.flavor-funeral	この葬儀社の霊柩車を追跡してみました。思っているほど頻繁に墓地を訪れないようだ。
 recipe.scopeout.flavor-bowling	ピンが倒れる音、重いボールが硬い木に当たる柔らかい音から、ここはボーリング場でだろう。
 recipe.scopeout.flavor-bank	警備員、装甲車、気難しいスーツに身を包んだ人たち。まるで銀行のようでしょう？
-recipe.scopeout.legal-furniture	ベッド ドレッサー ワードローブ 収納家具。さまざまな家具をご用意しています。
-recipe.scopeout.legal-jewelry	きらめくリング。輝くピアス。上質な時計やフォブ。このお店には、素敵な宝石やジュエリーがあります。
 recipe.scopeout.legal-hats	あらゆるスタイルのための素敵な帽子。
 recipe.scoepout.legal-hats	羽のついた帽子。リボン付き帽子。文明的な服装に必要なすべての色とモデル。
-recipe.scopeout.legal-newspapers	プレス、新聞、雑誌、各種印刷物を販売しています。
-recipe.scopeout.legal-candy	香ばしい匂いといい、ウィンドウに並んだ色とりどりのお菓子といい、ここはお菓子屋さんなのでしょう。
-recipe.scopeout.legal-shoes	ドレスシューズからワークブーツまで、あらゆるタイプの靴を販売しています。
 recipe.scopeout.legal-drugs	薬、軟膏、軟膏など、医療に必要なものを販売しています。
 recipe.scopeout.leagl-drugs	この店で処方箋を記入し、その他の医薬品を入手することができます。
-recipe.scopeout.legal-books	最新のベストセラーが飛ぶように売れている書店。
 recipe.scopeout.source-paper-small	このビジネスでは、包装用や筆記用など、たくさんの紙が使われます。
-recipe.scopeout.legal-clothing	仕事用の服や特別な日のためのおしゃれな服は、在庫があり、すぐに着ることができます。
-recipe.scopeout.flavor-laundry	石けんです。お湯 アイロン。業務用洗濯機のようだ。
 recipe.scopeout.source-apple-juice	ここでもりんごジュースを作っているようです。使い道があれば購入してもよさそうです。
 recipe.scopeout.source-apple-juice-combo	彼らが販売しているリンゴジュースは役に立つかもしれない。 それより気になるのは、合言葉を知っている人が何か別のものを買っている、ということです。
-recipe.scopeout.source-malt-small	この企業には、大量のモルトシロップが眠っている。お願いすれば、売ってくれるかもしれない。
 recipe.scopeout.source-malt-small-combo	モルトシロップでビールに近づけることができる。でもビールではないものが販売される可能性もあるようです。
-recipe.scopeout.building-materials-small	ここで建築資材を調達して、いろいろなものを作ったり拡張したりすることができるだろう。
-recipe.scopeout.source-tobacco-small	深夜に南部ナンバーのトラックが現れ、大きな木箱を降ろしていく。間違いなく生タバコだ。
-recipe.scopeout.source-labels	気ままな店主のいる印刷屋さん。もしかしたら、説得力のある偽ラベルなどを確保できるかもしれない。
 recipe.scopeout.source-hops	裏のゴミ箱にある空袋には、ドイツ語で「ホップ」の文字が大きく印刷されています。
-recipe.scopeout.source-farm	市外の農場に出向くことが多いため、有用な農産物を入手することができます。
-recipe.scopeout.illegal-bottles	ミネラルウォーターのケース？知られざる都市型アルテシアン泉？中の液体が透明なこともあるが、水でないことは確かだ。
 recipe.source-booze-barrels-small	この店の主人からは、瓶に詰める前の酒樽を数個手に入れることができる。
 recipe.source-industrial-alcohol	ここでは工業用アルコールの樽を合法的かつ公正な目的で使用している。
 recipe.scopeout.source-industrial-alcohol	ここで使っている工業用アルコールが、無認可の用途に流用されることもあるようです。
 recipe.small-sawmill	この小さな工房では、生の木材をさまざまな便利な道具に加工しています。
 recipe.scopeout.small-sawmill	この製材所は、田舎から材木を調達しています。他の材料の丸太もトラックで運ばれてくるようです。
 recipe.flavorcopy.small-sawmill	この製材所の主人は、市外の人脈を利用して、有用な農村の産物を持ち込んでいる。
-recipe.scopeout.small-lumberyard	材木屋は配達が多い。その際、いつも不思議な液体が入った陶器の壺を持っているようなのですが...。
 recipe.flavorcopy.small-lumberyard	この材木屋の主人は、材木や建築資材の配達以外に何か専門的な仕事をしているようだ。
 recipe.meat-packer	この事業では、肉の切れ端を仕入れ、カットハムや生ハムなどの製品に加工し、地元の店舗や飲食店などに流通させています。
 recipe.scopeout.meat-packer	街中を移動するこの冷凍トラックは、肉だけを運んでいるんだろうか？怪しい。
 recipe.scopeout.something-wrong	このモジュールはプレイヤーによって誰でも利用できるものではないはずなので、このメッセージは表示されないはずです。ゲーム内で読まれているとしたら問題ですね。
-recipe.scopeout.conversion-backroom-distillery	この奥に、ちょっと基本的な蒸留器のような不思議な装置があります。
-recipe.scopeout.source-bakery-small	パン屋さんは、イーストと水と穀物を使ってパンを作ります。同じ材料で、より収益性の高い別の製品を作ることができるのです。
-recipe.scopeout.legal-soda-fountain	ソーダファウンテン（炭酸泉）は、地元の人たちの間でいつも人気のある場所です。
 recipe.scopeout.flavor-barber	バーバーポール。椅子。カミソリ。そしてアルコールを大量に使用する。「衛生的な理由」で。
 recipe.scopeout.source-gasoline-small	バレル。ポンプ。炭化水素の匂い。地元の質素なガソリンスタンドのようだ。
 recipe.scopeout.source-cold-storage-small	冷蔵倉庫のようで、酒造りに役立つ材料がありそうだ。
-recipe.scopeout.source-warehouse-homebooze	この倉庫の奥の部屋は、石器の壺を保管しているだけではないと思われます。
-recipe.scopeout.illegal-beer	大麦、水、酵母、ホップから作られる液体。これは何だろう？
-recipe.scopeout.illegal-wine	もしかしたら、レーズンを作っているのだろうか？あんなにたくさんのブドウ、他にどんな使い道があるんだろう？
-recipe.scopeout.illegal-source-booze-small-bulk	数日に一度、特異なピックアップがあるんです。同じトラック。同じ樽。同じ角の2つの見張り番。
 recipe.biz-flavor	特に興味を引くものはありません。
 recipe.flavorcopy.legal-books	この建物には小さな書店があります。\n\n書籍やプレスの品揃えはそこそこだが、それ以外には特筆すべきことはない地味な店構えだ。
 recipe.flavorcopy.legal-newspapers	店先には小さなニューススタンドがある。\n\n古新聞、タバコの缶、その他いろいろなものが置いてある、何の変哲もない店である。
@@ -5145,14 +5056,12 @@ recipe.flavorcopy.tobacconist-small	地元の愛煙家のためのタバコ関�
 module.source-grocery-small.details	小さな店内に、棚やクーラー、テーブル、ショベルが所狭しと並んでいる。\n\n地元の人たちは、この小さな商店を頼りにしている。
 recipe.supper-club	サパークラブでは、料理を提供する。そして、地元のお客様を満足させる上質なスピリッツを。
 recipe.flavorcopy.supper-club	より良いテーブル。ディナージャケットを着たスタッフ。プライムリブ。このサパークラブは他の店より人気があるようです。ステムウェアがたくさんあるのもそのせいかもしれません。
-recipe.scopeout.supper-club	このサパークラブには、かなりの数のフードサービス以外の業者から、深夜や早朝に配達が来るんです。
 recipe.flavorcopy.restaurant-supply-bakery	街中のレストランに様々な食材を供給するビジネスです。また、仕入先が確保できれば、あまり合法的でない酒類も提供する可能性が高い。
 recipe.flavorcopy.restaurant-supply-linens	リネン類。テーブルクロス シェフハット。この企業は、市内の高級レストランにサービスを提供している。彼らは最近、それらのレストランの多くが、洗濯物と一緒にボトルや40本を見つけても気にしないことを発見しました。
 recipe.flavorcopy.restaurant-supply-ice	中が見えない保冷車で、町中のレストランやクラブを回っている。噂によると、彼らは氷を運ぶだけではないらしい。
 recipe.flavorcopy.restaurant-supply-cans	シーフード 肉類 コールドカット。たくさんの木箱がここから近所にある店へと運ばれていく。新鮮な牡蠣やステーキだけでなく、もっといろいろなものを配達しているのだろう。
 recipe.dance-hall	立派なハウスバンドとそれに見合った酒メニューがあるダンスホール。
 recipe.flavorcopy.dance-hall	いつも音楽が流れていて、お酒が流れている。
-recipe.scopeout.illegal-consume-booze-large	ここで廃棄されるボトルの多くは、最初は他の国で使われていたものが、この国で消費されるために持ち込まれたようなものです。
 recipe.hotel	このリッチなホテルには、ロビーのすぐそばにリッチなレストランがあります。
 recipe.hotel-player	シックなメニューとトレンディなカクテルを提供するリッチなレストラン。
 recipe.flavorcopy.hotel	このレストランのウェイトスタッフは、常にゲストに特別な日を祝うかどうか、 もしそうなら、「特別な日のメニュー」を見せていただけますか？を尋ねています
@@ -5168,40 +5077,25 @@ recipe.paint-shop	地元の画家がこのスペースで制作しています�
 recipe.scopeout.paint-shop	化学薬品や塗料から見て、地元のペンキ屋の仕事場兼事務所と思われる。
 recipe.flavorcopy.paint-shop	このペインターは、顧客層から見て、住宅や地元企業の塗装にとどまらないようです。
 recipe.sink-homebooze-industrial	この店のオーナーはトラックを持っていて、それを使って違法な自家製酒を街中のお客に運んでいる。
-recipe.scopeout.sink-homebooze-industrial	社員と話した。オーナーは、作業用トラックから販売する自家製酒を探しているそうです。彼らと知り合いになるべきだ。
 recipe.sink-booze-industrial	この店のオーナーはトラックを持っていて、それを使って違法な酒瓶を街のあちこちの客に運んでいる。
-recipe.scopeout.sink-booze-industrial	従業員と話した。オーナーは、作業用トラックから販売する瓶入りの酒を探しているそうです。彼らと知り合いになるべきだ。
 recipe.sink-industrial-barrels	この組合会館は、他の地域の組合と地域的・全国的なつながりがある。そして、トラックも持っている。なんて便利なんでしょう。
-recipe.scopeout.sink-industrial-barrels	トラックや船、列車などの荷物の積み下ろしは、この組合に所属する労働者が行っています。もしかしたら、彼らのコネクションを利用して、有益なものの積み下ろしをすることができるかもしれません。
-recipe.scopeout.legal-coal	石炭を大量に売る。でも、配達のトラックにはたいてい「おまけ」のためのスペースがあるんです。
 recipe.flavorcopy.legal-coal	石炭は闇のビジネスです。
-recipe.scopeout.flavor-candy	カラフルな箱、包装紙、パッケージは、ここがお菓子工場であることを示しています。
 recipe.flavorcopy.flavor-candy	お菓子は、時に甘いビジネスチャンスを与えてくれます。
 recipe.cigarette-bootlegger	密輸されたタバコが定期的に届く
-recipe.scopeout.cigarette-bootlegger	店主は、お客さんにどんなタバコを探しているのか尋ねますが、それは銘柄を意味しているのではありません。
 recipe.source-carshop-small	カーショップには、溶剤などの貯蔵容器という有用な材料がある可能性があります。
-recipe.scopeout.source-carshop-small	この車屋さんは、たくさんの車を手早く修理しているようです。そして、ボンネットの中をごくざっと見ただけで、トランクに荷物をいくつも入れて終了することが多いようです。
 recipe.conversion-malt-syrup	大きな袋に入った大麦は、モルトに加工される。モルトは健康に良いので、健康食品として、またはお菓子作りのためにのみお召し上がりください。
-recipe.scopeout.conversion-malt-syrup	この事業は、市内のホームベーカリーで急増する麦芽の需要に対応するものであるようだ。最近、不思議なことに麦芽を使ったパン作りが非常に流行っている。
 recipe.conversion-ice-house	寒そうですね。
-recipe.scopeout.conversion-ice-house	ここで働く人たちは皆、いつもとても暖かい格好をしています。7月でもね。
 recipe.scopeout.car-dealer-garage	窓には「あらゆる車の買取、販売、修理」と書かれている。
 recipe.flavorcopy.car-dealer-garage	油の匂いと、くぐもった罵声の音が充満している。この小さな自動車販売店には、何の変哲もない。
 recipe.scopeout.garage-small-car-repair	ここに小さなガレージがあるみたいで、オンボロ車を修理してくれるかもしれませんね。
 recipe.scopeout.car-shop	オイルのバレル。レンチ グリースピット ジャッキ タイヤ 車の部品 金属を叩く音。ここは車屋さんでしょうか。
 recipe.flavorcopy.car-shop	Parts and other tools fill this industrial garage space.
 recipe.scopeout.car-dealer-used-car-lot	派手な垂れ幕に囲まれて、おしゃべり好きなスタッフが車の周りに立って、誰かが興味を示してくれるのを待っています。
-recipe.scopeout.junkyard	車の部品や故障車の山には、何らかの整理が必要なのだろう。
 recipe.flavorcopy.junkyard	自動車部品の山の周りを、数匹の犬がうろうろしています。自動車やトラックが分解され、有用な部品や鉄くずが取り除かれると、金属音が響く。
-recipe.scopeout.junkyard-module	ある人のガラクタは、別の人の宝物。その逆もまた然り。
 junkyard-module.details	エンジン部品。ドア ホイール タイヤ。中には使えるものもあります。
-recipe.scopeout.car-dealer-regular	ピカピカの金属ボディ。きれいなゴムタイヤ。ここでは新車が売られているようだ。
 recipe.flavorcopy.car-dealer-regular	新しいオーナーを待つクルマが整然と並んでいる。
-recipe.scopeout.truck-garage	トラックはいいですよね。結構あるんですよ。
 truck-garage.details	この奥にあるガレージでは、トラックの積み込みや修理を行っている。
 recipe.scopeout.truck-dispatch	ここから配達のトラックもたくさん出ているようだ。
-recipe.scopout.deli	冷蔵陳列棚には、肉やチーズなどの食材がたくさん並んでいます。
-recipe.scopeout.illegal-booze	夜中にトラックがやってきて、樽のような形の貨物を積み込む。なぜ、夜中に樽を積んでいるのでしょうか？
 recipe.canada.scopeout	この店舗は、適正な価格でアルコール類の在庫をデトロイト川の対岸に横流ししてくれるかもしれない。
 recipe.canada.desc	酒が完全に合法であるカナダへようこそ。
 res.any-resource.batch	次のバッチ
@@ -5417,7 +5311,7 @@ res.permits.desc	正規の書類ではないもの
 res.permits.icon	<sprite name="ui info" tint>
 res.champagne.name	シャンパン
 res.champagne.listname	シャンパン
-res.champagne.desc	大小のイベントを祝うために輸入された発泡酒（できればフランス産）。A votre santé!
+res.champagne.desc	大小のイベントを祝うために輸入された発泡酒（できればフランス産）。A votre sant!
 res.champagne.icon	<sprite name="res champagne" tint>
 res.english-gin.name	イングリッシュ・ジン
 res.english-gin.listname	イングリッシュ・ジン
@@ -5559,33 +5453,25 @@ building.biz-speakeasy.bizname	エントランスではありません
 building.biz-poolhall.icon	<sprite name="biz pool hall">
 building.biz-poolhall.locname	プールホール
 building.biz-poolhall.locdesc	最新情報を得るには良い場所です。
-building.biz-poolhall.bizname	{#urban-features} {#pool-hall}
 building.biz-supperclub.icon	<sprite name="biz restaurant">
 building.biz-supperclub.locname	サパークラブ
 building.biz-supperclub.locdesc	友人たちと夕食を共にする
-building.biz-supperclub.bizname	The {#club-names} Room
 building.biz-drugstore.icon	<sprite name="biz druggist">
 building.biz-drugstore.locname	薬局
 building.biz-drugstore.locdesc	医薬品、軟膏、チンキ剤、その他治療用物質
-building.biz-drugstore.bizname	{#directions} {#drug-store-two}
 building.biz-restaurant.icon	<sprite name="biz restaurant">
 building.biz-restaurant.locname	レストラン
 building.biz-restaurant.locdesc	入って、座って、食事をしてください。
-building.biz-restaurant.bizname	The {#colors} {#rest-fixture}
 building.biz-cafe.icon	<sprite name="biz cafe">
 building.biz-cafe.locname	カフェ
 building.biz-cafe.locdesc	近所のカフェや喫茶店
-building.biz-cafe.bizname	Cafe {#zodiac-signs}
-building.biz-dairy.icon	<sprite name="biz dairy">
 building.biz-dairy.locname	Dairy
 building.biz-dairy.locdesc	乳製品を販売する地元のお店
-building.biz-dairy.bizname	{#midwestern-places} Creamery
 building.biz-dairy-medium.locname	大型酪農
 building.biz-dairy-medium.locdesc	市内の広い範囲で乳製品を製造・販売している事業所です
 building.biz-laundromat.icon	<sprite name="biz tailor">
 building.biz-laundromat.locname	コインランドリー
 building.biz-laundromat.locdesc	衣類などをクリーニングする
-building.biz-laundromat.bizname	{#pattern-initials} {#laundry-name}
 building.biz-warehouse-small.icon	<sprite name="biz storage">
 building.biz-warehouse-small.locname	小型倉庫
 building.biz-warehouse-medium.icon	<sprite name="biz storage">
@@ -5593,241 +5479,182 @@ building.biz-warehouse-medium.locname	中型倉庫
 building.biz-warehouse-large.icon	<sprite name="biz storage">
 building.biz-warehouse-large.locname	大型倉庫
 building.biz-warehouse.locdesc	倉庫は、さまざまな商品を保管し、流通させ、時には置き忘れることもあります。
-building.biz-warehouse.bizname	{#midwestern-places} {#storage.names}
 building.biz-deli.icon	<sprite name="biz deli">
 building.biz-deli.locname	デリ
 building.biz-deli.locdesc	本国さながらの肉料理、チーズなどのデリカシー
-building.biz-deli.bizname	{#midwestern-places} {#deli-name}
 building.biz-tobacconist.icon	<sprite name="biz tobacconist">
 building.biz-tobacconist.locname	タバコ屋
 building.biz-tobacconist.locdesc	タバコ、パイプタバコ、葉巻、その他タバコに関連する装身具
-building.biz-tobacconist.bizname	{#urban-features} {#tobacconist-name}
 building.biz-carshop.icon	<sprite name="biz mechanic">
 building.biz-carshop.locname	カーショップ
 building.biz-carshop.locdesc	自動車、小型トラックの修理・整備
-building.biz-carshop.bizname	{#urban-features} {#carshop-name}
 building.biz-lumberyard.icon	<sprite name="biz lumber yard">
 building.biz-lumberyard.locname	製材所
 building.biz-lumberyard.locdesc	木材・建材、小売・貿易業
-building.biz-lumberyard.bizname	{#biz-names-one} {#lumber-yard-name}
 building.biz-lumberyard.binzame	{#tree-names} {#lumber-yard-name}
 building.biz-construction.icon	<sprite name="biz steel mill">
 building.biz-construction.locname	建設会社
 building.biz-construction.locdesc	あらゆる種類の建物を建設し、様々なものにアクセスすることができる
-building.biz-construction.bizname	{#biz-names-one} {#construction-name}
 building.biz-coalyard.icon	<sprite name="biz hardware">
 building.biz-coalyard.locname	石炭ヤード
 building.biz-coalyard.locdesc	石炭の貯蔵と流通のための広大な敷地
-building.biz-coalyard.bizname	{#pattern-initials} 石炭会社
 building.biz-cardealer.icon	<sprite name="biz car-dealer">
 building.biz-cardealer.locname	カーディーラー
 building.biz-cardealer.locdesc	新車・中古車販売店
-building.biz-cardealer.bizname	{#directions} {#cardealer-name}
 building.biz-truck-garage.icon	<sprite name="biz truck garage">
 building.biz-truck-garage.locname	トラックガレージ
 building.biz-truck-garage.locdesc	大型商用車向け修理・サービス
-building.biz-truck-garage.bizname	{#midwestern-places} {#truck-repair-name}
 building.biz-taxi-garage.icon	<sprite name="biz car garage">
 building.biz-taxi-garage.locname	タクシーガレージ
 building.biz-taxi-garage.locdesc	タクシーおよび配車車両の配車、駐車、修理等
-building.biz-taxi-garage.bizname	{#tree-names} {#taxi-name}
 building.biz-tire-store.icon	<sprite name="biz tires">
 building.biz-tire-store.locname	タイヤ販売店
 building.biz-tire-store.locdesc	自動車用タイヤ小売店
-building.biz-tire-store.bizname	{#urban-features} {#tire-name}
 building.biz-gas-station.icon	<sprite name="biz gas">
 building.biz-gas-station.locname	ガソリンスタンド
 building.biz-gas-station.locdesc	燃料およびその他の自動車用品
-building.biz-gas-station.bizname	{#directions} {#gas-station}
 building.biz-mechanic-small.icon	<sprite name="biz mechanic">
 building.biz-auto-body.icon	<sprite name="biz auto body">
 building.biz-mechanic-small.locname	ローカル自動車整備
 building.biz-mechanic-small.locdesc	この地域の整備工場は、車の修理に対応しています
-building.biz-mechanic-small.bizname	{#midwestern-places} {#car-repair-name}
 building.biz-still.icon	<sprite name="factory whiskey">
 building.biz-still.locname	リカー・スティル
 building.biz-still.locdesc	何もありません、お先にどうぞ
-building.biz-still.bizname	{$lastname} Inc.
 building.biz-grocery.icon	<sprite name="biz grocer">
 building.biz-grocery.locname	食料品店
 building.biz-grocery.locdesc	食品、野菜、果物、その他食料品の必需品
-building.biz-grocery.bizname	{#directions} Market {$eth} Grocers
 building.biz-bakery.icon	<sprite name="biz bakery">
 building.biz-bakery.locname	ベーカリー
 building.biz-bakery.locdesc	パンやお菓子などの必需品を購入することができます。
-building.biz-bakery.bizname	{#colors} {#misc-names-colored} {#bakery-name}
 building.biz-hardware.icon	<sprite name="biz hardware">
 building.biz-hardware.locname	ハードウエア・ストア
 building.biz-hardware.locdesc	工具などハードウェアの購入
-building.biz-hardware.bizname	{#midwestern-places} {#hardware-name}
 building.biz-haberdasher.icon	<sprite name="biz haberdashery">
 building.biz-haberdasher.locname	帽子商
 building.biz-haberdasher.locdesc	帽子を扱う者は、誰よりも信頼できる男である
-building.biz-haberdasher.bizname	{#biz-names-one} {#hat-shop}
 building.biz-bookstore.icon	<sprite name="biz book store">
 building.biz-bookstore.locname	本屋
 building.biz-bookstore.locdesc	書籍・印刷物等の販売
-building.biz-bookstore.bizname	{#biz-names-one} {#bookstore-name}
 building.biz-florist.icon	<sprite name="biz florist">
 building.biz-florist.locname	花屋
 building.biz-florist.locdesc	花束、装飾品などの販売・配達。
-building.biz-florist.bizname	{#pattern-possessive-first} {$eth} {#flower-shop}
 building.biz-newsstand.icon	<sprite name="res newspaper">
 building.biz-newsstand.locname	ニューススタンド
 building.biz-newsstand.locdesc	日刊紙などの必需品を手に取る
-building.biz-newsstand.bizname	Little {#eth-city} {#newsstand}
 building.biz-meatpacker.icon	<sprite name="biz deli">
 building.biz-meatpacker.locname	精肉出荷業者
 building.biz-meatpacker.locdesc	食肉加工品および保存食を生産しています。
-building.biz-meatpacker.bizname	{#midwestern-places} {#meat-packing-name}
 building.biz-meatmacker.bizname	{$lastname} {#meat-packing-name}
 building.biz-butcher.icon	<sprite name="biz butcher shop">
 building.biz-butcher.locname	精肉店
-building.biz-butcher.bizname	{$lastname} {#biz-butcher-name}
 building.biz-forge.icon	<sprite name="biz smith">
 building.biz-forge.locname	金具屋
 building.biz-forge.locdesc	金属部品を加工・修理する小さな店
-building.biz-forge.bizname	{#midwestern-places} {#metalsmith-name}
 building.biz-mason.icon	<sprite name="biz concrete">
 building.biz-mason.locname	レンガ職人・石工
 building.biz-mason.locdesc	石工・レンガ積みの会社の現地作業所
-building.biz-mason.bizname	{#urban-features} {#mason-name}
 building.biz-painters.icon	<sprite name="biz painter">
 building.biz-painters.locname	ペンキ屋と住宅建設
 building.biz-painters.locdesc	塗装と住宅リフォームを専門に行う会社です
-building.biz-painters.bizname	{#urban-features} {#painters-name}
 building.biz-sawmill.icon	<sprite name="factory sawmill">
 building.biz-sawmill.locname	製材所
 building.biz-sawmill.locdesc	原木から木材などの建材に加工される
-building.biz-sawmill.bizname	{#pattern-double-amp} {#sawmill-name}
 building.biz-textilemill.icon	<sprite name="biz tailor">
 building.biz-textilemill.locname	繊維工場
 building.biz-textilemill.locdesc	原反を布に織り上げる
-building.biz-textilemill.bizname	{#directions} {#textile-name}
 building.biz-steelmill.icon	<sprite name="biz steel mill">
 building.biz-steelmill.locname	製鉄所
 building.biz-steelmill.locdesc	鉄を鉄鋼に変える大規模な工業団地
-building.biz-steelmill.bizname	{$lastname} {#steel-mill-name}
 building.biz-printer.icon	<sprite name="factory paper">
 building.biz-printer.locname	印刷工場
 building.biz-printer.locdesc	書籍、カタログ、ディレクトリー、その他印刷物全般
-building.biz-printer.bizname	{#pattern-initials} {#printer-name}
 building.biz-five-and-dime.icon	<sprite name="biz fiveanddime">
 building.biz-five-and-dime.locname	均一雑貨店
 building.biz-five-and-dime.locdesc	生活雑貨、ギフト、小物などを販売。
-building.biz-five-and-dime.bizname	{#midwestern-places} 5¢ and 10¢ {#store-names}
 building.biz-funeral-home.icon	<sprite name="biz funeral">
 building.biz-funeral-home.locname	葬儀社
 building.biz-funeral-home.locdesc	最後に利用する店舗
-building.biz-funeral-home.bizname	{#pattern-full-name} {#funeral-home}
 building.biz-furniture-store.icon	<sprite name="biz furniture">
 building.biz-furniture-store.locname	家具店
 building.biz-furniture-store.locdesc	ホームファニシングの専門店
-building.biz-furniture-store.bizname	{#pattern-possessive} Furniture {#other-store}
 building.biz-jeweler.icon	<sprite name="biz jeweler">
 building.biz-jeweler.locname	宝石商
 building.biz-jeweler.locdesc	高級宝飾品、時計、その他の貴重な品物を購入する場所です。
-building.biz-jeweler.bizname	{#pattern-possessive} {$eth} {#jeweler}
 building.biz-pawn-shop.icon	<sprite name="biz pawn shop">
 building.biz-pawn-shop.locname	質屋
 building.biz-pawn-shop.locdesc	品物を渡して、お金を貸してもらう
-building.biz-pawn-shop.bizname	{#pattern-possessive-first} {#pawn-shop}
 building.biz-shoe-store.icon	<sprite name="biz tailor">
 building.biz-shoe-store.locname	靴屋
 building.biz-shoe-store.locdesc	ショッピングや修理など、靴のことなら何でも揃うお店です。
-building.biz-shoe-store.bizname	{#pattern-two-name-biz}， Shoe {#other-store}
 building.biz-restaurant-buffet.icon	<sprite name="biz restaurant">
 building.biz-restaurant-buffet.locname	ビュッフェレストラン
 building.biz-restaurant-buffet.locdesc	自分のペースで、美味しい料理の数々をお楽しみください。
-building.biz-restaurant-buffet.bizname	{#pattern-possessive-first}'s {$eth} {#buffet-rest}
 building.biz-lunch-counter.icon	<sprite name="biz lunch counter">
 building.biz-lunch-counter.locname	ランチカウンター
 building.biz-lunch-counter.locdesc	昼休みに軽く食べられる店
-building.biz-lunch-counter.bizname	{#pattern-possessive-first} コーナー
 building.biz-cafeteria.icon	<sprite name="biz cafeteria">
 building.biz-cafeteria.locname	カフェテリア
 building.biz-cafeteria.locdesc	労働者向けのセルフサービス型レストラン
-building.biz-cafeteria.bizname	{#letter} & {#letter} Cafeteria
 building.biz-sandwich-shop.icon	<sprite name="biz restaurant">
 building.biz-sandwich-shop.locname	サンドウィッチショップ
 building.biz-sandwich-shop.locdesc	パンに挟んだり、ロールケーキに詰めたりといろいろと
-building.biz-sandwich-shop.bizname	{#pattern-possessive} {#sandwich-rest}
 building.biz-jazz-club.icon	<sprite name="biz club">
 building.biz-jazz-club.locname	ジャズクラブ
 building.biz-jazz-club.locdesc	音楽とダンスが楽しめるスウィングスポット
-building.biz-jazz-club.bizname	{#club-names} Lounge
 building.biz-dance-hall.icon	<sprite name="biz dance hall">
 building.biz-dance-hall.locname	ダンスホール
 building.biz-dance-hall.locdesc	ダンスシューズを履いて、夜の街に繰り出そう
-building.biz-dance-hall.bizname	{#club-names} ダンスホール
 building.biz-theater.icon	<sprite name="biz theater">
 building.biz-theater-medium.locname	近隣劇場
 building.biz-theater-medium.locdesc	地元の映画館で、ライブや映画を楽しむ。
 buidling.biz-theater-large.locname	大型シアター
 buidling.biz-theater-large.locdesc	最高のライブと最新の国産映画を上映する大劇場
-building.biz-theater.bizname	The {#biz-names-one}
 building.biz-hotel.icon	<sprite name="biz hotel">
 building.biz-downtown-hotel.icon	<sprite name="biz downtown hotel">
 building.biz-hotel.locname	ホテル
 building.biz-hotel.locdesc	宿泊はもちろん、食事やエンターテインメントを楽しむこともできます。
-building.biz-hotel.bizname	{#hotel.names} ホテル
 building.biz-bank.icon	<sprite name="biz bank">
 building.biz-bank.locname	銀行
 building.biz-bank.locdesc	地元に密着した銀行支店
-building.biz-bank.bizname	The {#cardinals} {$eth} Union
 building.biz-barber-shop.icon	<sprite name="biz barber">
 building.biz-barber-shop.locname	理容室
 building.biz-barber-shop.locdesc	散髪、ひげ剃り、そして近所の噂話
-building.biz-barber-shop.bizname	{#pattern-possessive-first} Beauty Shop
 building.biz-clothing.icon	<sprite name="biz clothing">
 building.biz-clothing.locname	衣料品店
 building.biz-clothing.locdesc	人・季節を問わないアパレル
-building.biz-clothing.bizname	{#pattern-two-name-biz}
 building.biz-fruit-stand.icon	<sprite name="biz fruit stand">
 building.biz-fruit-stand.locname	フルーツスタンド
 building.biz-fruit-stand.locdesc	フレッシュフルーツ各種
-building.biz-fruit-stand.bizname	{#midwestern-places} Fruit {#other-store}
 building.biz-junkyard.icon	<sprite name="biz junkyard">
 building.biz-junkyard.locname	ストックヤード
 building.biz-junkyard.locdesc	内はジャングル
-building.biz-junkyard.bizname	{#industrial-adj} Scrapyard
 building.biz-cold-storage.icon	<sprite name="biz produce-warehouse">
 building.biz-cold-storage.locname	冷凍倉庫
 building.biz-cold-storage.locdesc	生ものを氷で冷やす
-building.biz-cold-storage.bizname	{#cardinals} {$cityname} Cold Storage
 building.biz-candy-factory.icon	<sprite name="biz candy store">
 building.biz-candy-factory.locname	キャンディー工場
 building.biz-candy-factory.locdesc	工業製品として大量に生産されるキャンディーやお菓子の製造工場
-building.biz-candy-factory.bizname	{#pattern-possessive} {#candy-name}
 building.biz-candy-store.icon	<sprite name="biz candy store">
 building.biz-candy-store.locname	菓子屋
 buidling.biz-candy-store.locdesc	ショコラ ボンボン トリュフ。ハードキャンディ。この地元のお菓子屋さんでは、あらゆる種類の魅力的なスイーツが作られ、売られています。
-building.biz-candy-store.bizname	{#midwestern-places} {#candy-store}
-buidling.biz-candy-store.bizname	{#urban-features} {#candy-store}
 building.biz-factory-mill.icon	<sprite name="biz cannery">
 building.biz-factory-mill.locname	製粉所
 building.biz-factory-mill.locdesc	さまざまな穀物をさまざまな粉に変えることができる
-building.biz-factory-mill.bizname	{#pattern-one-name-biz}
 building.biz-cannery.icon	<sprite name="biz cannery">
 building.biz-cannery.locname	缶詰工場
 building.biz-cannery.locdesc	さまざまな種類の食品をさまざまな容器に封じ込める
-building.biz-cannery.bizname	{#letter} $ {#letter} {#cannery-name}
 building.biz-glass-works.icon	<sprite name="factory glass">
 building.biz-glass-works.locname	ガラス工場
 building.biz-glass-works.locdesc	窓ガラスからボトルまで、ガラスにまつわるあらゆるものを製造
-building.biz-glass-works.bizname	{#industrial-adj} Works #{#number}
 building.biz-concrete.icon	<sprite name="biz concrete">
 building.biz-concrete.locname	コンクリート工場
 building.biz-concrete.locdesc	コンクリートヤードでは不審なことは起きない
-building.biz-concrete.bizname	{#midwestern-places} {#concrete-name}
 building.biz-bowling-alley.icon	<sprite name="biz bowling alley">
 building.biz-bowling-alley.locname	ボウリング場
 building.biz-bowling-alley.locdesc	ピンの栄枯盛衰
-building.biz-bowling-alley.bizname	{#geographic-features} {#bowling-alley-name}
 building.biz-soda-fountain.icon	<sprite name="biz soda fountain">
 building.biz-soda-fountain.locname	ソーダファウンテン
 building.biz-soda-fountain.locdesc	ソーダ、ミルクセーキ、モルトなどの甘いもの
-building.biz-soda-fountain.bizname	{#colors} Cone
 building.biz-restaurant-supply.locname	レストラン用品販売会社
 building.biz-restaurant-supply.locdesc	レストラン経営に必要なあらゆるものを提供する
 building.train-station-passenger.icon	<sprite name="biz passenger station">
@@ -5836,18 +5663,12 @@ building.train-station-passenger.name	旅客鉄道駅
 building.train-station-freight.name	貨物鉄道駅
 building.train-station-passenger.desc	大量の荷物とともに大勢の人が行き交う大きな旅客駅
 building.train-station-freight.desc	無数にあるように見える鉄道車両を積み下ろしする貨物駅
-building.train-station.bizname	The {#metal-names} Plate Road {#rail-station}
 building.boxing-gym.icon	<sprite name="biz boxing gym">
 building.boxing-gym.locname	ボクシングジム
 building.boxing-gym.locdesc	地元出身の格闘家を育成するための小さなジム
-building.boxing-gym.bizname	{$firstname}'s Training Center
 building.biz-union-hall.icon	<sprite name="biz union hall">
 building.biz-union-hall.locname	港湾労働組合会館
 building.biz-union-hall.locdesc	地元の港湾労働組合の集会所と事務所。
-building.biz-union-hall.bizname	{#union-adj} Longshoreman's {#union-noun}
-letter	Z
-lowercase	z
-number	9
 dlc-panel.name.deluxe	City of Gangsters: Bourbon Bootlegging
 dlc-panel.icon.deluxe	<sprite name="ui main menu bourbon dlc" tint=1>
 dlc-panel.name.atlantic-city	City of Gangsters: Atlantic City
@@ -5873,90 +5694,13 @@ city-desc.detroit	<i>モーターシティ</i>は、古くから自動車産業�
 city-desc.pittsburgh	禁酒法が始まった当時、<i>鋼鉄の街</i>は産業大国であると同時に、ヨーロッパ人のるつぼであった。移民労働者の多くにとってアルコールが文化的に重要であったこともあり、ピッツバーグはすぐに禁酒法の指導者によって「米国で最も湿気の多い場所」と宣言された。シチリアとナポリの犯罪組織が、街の北と南の縄張りをめぐって激しく争った。\n\nピッツバーグには、<i>アップルジャック</i>と<i>ラキヤ</i>というユニークな飲み物がある。この2つのお酒が加わったことで、他の都市よりもはるかに大きく多様なお酒の市場を持つことになり、全体としてより早いスタートを切り、より多くの収入を得ることができるようになる。ただし、3つの川と豊富な丘陵地があるため、領域を拡大する際に障害となるポイントがたくさん存在している。
 city-desc.cincinnati	禁酒法施行以前、<i>クイーンシティ</i>にはビール醸造とコーンウィスキー蒸留の誇り高き伝統があり、隣州のケンタッキーからは世界的に有名なバーボンの十分な供給があった。弁護士で薬剤師だったジョージ・リーマスは、ボルステッド法の抜け穴を利用して犯罪帝国を築き、蒸留所を再利用して保税酒を生産することを許した。そして、薬局の広範なネットワークを通じて、このアルコールを「薬用」として販売することができたのだ。\n\nシンシナティでは、密造酒や街の名物である<i>コーンウィスキー</i>の新しい原料として、<i>トウモロコシ</i>を入手することができる。しかし、いったん<i>ケンタッキーバーボン</i>を手に入れたら、それを密造酒場やクラブに売って、もっと高い値段で売ることができるようになるのだ。\n
 city-desc.atlantic-city	禁酒法時代、<i>アメリカの遊び場</i>は密造酒とギャンブルの天国だった。アトランティックシティの観光経済は、娯楽とアルコールへの高い需要を生み出し、その沿岸のロケーションは酒の密輸に最適な環境を提供た。\n\nアトランティックシティでは、高級カジノや高額賞金ゲームなどのユニークな機会を含む、より自由なギャンブル事業を構築することができる。また、スコッチウイスキーやカリビアンラムなど、都市に在住する様々な民族から、有利な新しいアルコール類も学ぶことができる。\n\n湾や河口に挟まれた近隣の町が緩やかにつながっているため、近隣のノースフィールドやエッグハーバーにある工業団地や駅にアクセスするためには、慎重に人的ネットワークを広げていく必要がある。
-store-names	店
-other-store	エンポリアム
-generic-biz-endings	会社
-generic-ind-endings	Works
-funeral-home	， 葬儀屋
-furniture-store	家具店{#store-names}
-jeweler	ジュエリー＆ファインウォッチ
-pawn-shop	ローンオフィス
-shoe-store	Boot and Shoe {#store-names}
-buffet-rest	Buffet
-lunch-rest	Sausage Stand
-sandwich-rest	Joint
-club-names	Solar
-hotel.names	Congress
-storage.names	Fireproof Storage Co.
-candy-name	Chocolate
-candy-store	Candies and Gifts
-cannery-name	Food Co.
-glass-name	Glass Factory
-concrete-name	Concrete， Yard {#number}
-bowling-alley-name	Lanes & Lounge
-bakery-name	Bake Shop
-hardware-name	Hardware Supply
-deli-name	Meat Counter
-flower-shop	Flowers
-hat-shop	Milliners
-newsstand	Newspapers & Magazines
-grocery-stores	Produce & Grocery
-drug-store-one	Prescription Druggist
-drug-store-two	Drug Co.
-tobacconist-name	Tobacco {#store-names}
-bookstore-name	Book {#other-store}
-cafe-name	Coffee Shop
-steel-mill-name	Smelting Co.
-sawmill-name	Sawmills
-printer-name	Printers
-meat-packing-name	Packers
-biz-butcher-name	Meat Co.
-laundry-name	Laundry Service
-metalsmith-name	Metalsmith
-mason-name	Stonework and Masonry
-painters-name	Painting Co.
-forge-name	Die Casting Co.
-textile-name	Woolen Mill
-lumber-yard-name	Lumber & Supply Co.
-construction-name	Builders
+generic-ind-endings	ワーク
 consrruction-name	建設工事
-carshop-name	Service Center
-cardealer-name	Car Co.
-taxi-name	Taxi
-tire-name	Tires
-truck-repair-name	Truck Body Co.
-car-repair-name	Auto Body Co.
-gas-station	Stations， Inc.
-pool-hall	Snooker & Billiards
-industrial-adj	Associated
-car-adj	Speedy
-region	National
-geographic-features	Valley
-urban-features	Midtown
-biz-names-one	Millennium
-midwestern-places	Park
-directions	Northern
-zodiac-signs	Virgo
-cardinals	Ninth
-colors	Orange
-flower-names	Orchid
-tree-names	Birch
-metal-names	Tin
-misc-names-colored	Circle
-rest-fixture	Knife
-eth-city	Oslo
-union-adj	North American
-union-noun	Organization
-rail-station	Depot
 pattern-three-letters	{#letter}{#letter}{#letter}
 pattern-double-amp	{#letter} & {#letter}
-pattern-one-name-biz	{#pattern-initials} {#generic-biz-endings}
-pattern-full-name	{$firstname} {$lastname}
 pattern-initials	{#letter}. {#letter}. {$lastname}
-pattern-two-name-biz	{#pattern-double-amp} {$lastname} & カンパニー
 pattern-possessive	{$lastname}の
 pattern-possessive-first	{$firstname}の
-pattern-loafers	{$lastname}'s Crew
 pattern-gang	{$lastname} 組織
 pattern-cops	{$cityname} 警察署
 pattern-precinct	管区#{number}
@@ -6131,7 +5875,7 @@ trait-irritable.icon	<sprite name="trait irritable">
 trait-mellow.name	穏健
 trait-mellow.desc	警察との交渉や住民とのディナーパーティーで、あなたの組織を代表する人が必要ですか？その寛容な態度は皆を和ませ、より多くの情報を引き出すことでしょう。
 trait-mellow.short	<sprite name="trait mellow"> ポジティブな社会的アクションをより長い時間記憶してくれるようになります。
-trait-mellow.gambling	<sprite name="trait mellow"> Prefers to play slow and steady - won't bet quite as much as other patrons all at once.
+trait-mellow.gambling	<sprite name="trait mellow"> ゆっくりと着実にプレイすることを好み、他の常連客ほど一度にたくさんは賭けない。
 trait-mellow.icon	<sprite name="trait mellow">
 trait-intelligent.name	知的
 trait-intelligent.desc	マネージャーを必要とする事業をお持ちですか？この頭脳の持ち主なら、すぐに仕事を覚え、他の人より早く経験を積めるでしょう。
@@ -6367,7 +6111,7 @@ skill.improved-homebooze-moonshine-quest.desc	{$firstname} {$lastname}に支払�
 skill.improved-homebooze-corn-moonshine.name	高性能な蒸留器
 skill.improved-homebooze-corn-moonshine.desc	このスキルを習得すると、既存の「密造ムーンシャイン事業」を「拡張ムーンシャイン事業」に<b>アップグレード</b>することができるようになる。アップグレードすると、ムーンシャインの生産量が50％増加する。
 skill.improved-homebooze-corn-moonshine.conv	今、あなたが行っている簡易ムーンシャインの蒸留器について少しわかったので、もしご興味があれば、私の家族は蒸留器を拡張するためのノウハウを教えることができます。
-skill.improved-homebooze-corn-moonshine-quest.name	Superior Stills
+skill.improved-homebooze-corn-moonshine-quest.name	高性能な蒸留器
 skill.improved-homebooze-corn-moonshine-quest.desc	{$firstname} {$lastname}に支払うことで、ムーンシャインの生産量を50%増やすことができる。
 skill.improved-homebooze-home-brew.name	もっとたくさんのモルト
 skill.improved-homebooze-home-brew.icon	<sprite name="skill more-malt">
@@ -6442,7 +6186,6 @@ skill.truck-garage-cider.conv	もっとトラックを走らせたい？ちょ�
 skill.truck-garage-home-brew.conv	もっとトラックを走らせたい？ちょっとお願いがあるんだ。自家製ビールを作っているのは知っているし、あなたのものが美味しいことも知っている。十分な量を送ってくれ 俺の部下にも分けてやる。彼らは喜んで トラックを修理する場所を作る方法を教えるだろう。あんたがもっとトラックを走らせられるようにな
 skill.truck-garage-moonshine.conv	もっとトラックを走らせたい？ちょっとお願いがあるんだ。ムーンシャインを持ってるんだろう？良い物なんだろう？十分な量を送ってくれ 俺の仲間と共有できる 彼らは喜んで トラックを修理する場所を作る方法を教える。あんたがもっと多くトラックを 運べるようにな
 skill.truck-garage-apple-jack.conv	もっとトラックを走らせたい？ちょっとお願いがあるんだ。アップルジャックを持ってるのは知ってるし、いい物も持ってる。十分な量を送ってくれ。俺の仲間と共有したいんだ 彼らは喜んで トラックを修理する場所を作る方法を教える 。もっと多くトラックを運べるようにね
-skill.truck-garage-fruit-wine.conv	Want to run more trucks? I just a favor. I know you've got homemade brandy and that your stuff is good. Send over enough so that I can share it with my work crew and they'll be happy to show you how to build places to fix your trucks so that you can get more of them.
 skill.truck-garage-quest.name	トラック修理ベイ
 skill.truck-garage-quest.desc	{$firstname} {$lastname}に酒を送れば、彼らの労働者がトラック修理ベイの置き方を考えてくれるだろう。
 skill.truck-garage-improved.name	拡張修理ベイ
@@ -7084,7 +6827,6 @@ quest.cider-producer-bonus.c2	普通のハードシードルでいいんです�
 quest.cider-producer-bonus.c3	スパークリングシードルはもうわかったよ。でも、そのための材料を送ってくれるのはどう？
 quest.apple-jack-producer-bonus.name	ジャックを知るということ
 quest.apple-jack-producer-bonus.desc	アップルジャック製造の事業を改善・増強する方法について学びます。
-quest.apple-jack-producer.npc1	I've got a very chatty customer who grew up on an apple farm. She says that her family made a lot of applejack， but the hard times mean that they need to sell off a lot of their equipment. Since you're making applejack， perhaps you'd want to buy it and get her help?
 quest.apple-jack-producer.npc2	あ、そうだ！提案だ！アップルジャックを置いていってくれたら、信頼できる常連客に持っていってみるよ。
 quest.apple-jack-producer.c4	今のスペースでもっとアップルジャックを作るにはどうしたらいいか、考えてみたんだ。無菌状態を保つことについて学ぶことは、もしお役に立てるなら重要なことかもしれません。
 quest.apple-jack-producer.human1	彼女の機材とノウハウがあれば、私のアップルジャックの事業を拡大することができそうです。手配してくれるか？
@@ -7187,7 +6929,6 @@ quest.homebooze-starter.c3	モルトシロップがあるんですが 自家製�
 quest.homebooze-starter.c4	小鳥さんが中性アルコールの入手先を教えてくれました。飲めるムーンシャインにする方法を教えてくれませんか？
 quest.homebooze-starter.c6	氷を使って、りんごやりんごジュースからお酒を作る秘訣をぜひ教えてほしいです。
 quest.homebooze-starter.c7	この町には果樹園がたくさんありますから、フルーツワインを作るのもいいかもしれませんね。
- 	 
 quest.brick-wine-bonus.name	ワインの絞りカス
 quest.brick-wine-bonus.desc	人脈にボトルワイン製造のラインがあるかどうかを確認。
 quest.brick-wine-bonus.npc1	私が作るブリックワインもいいのですが、本物にはかないませんよね？
@@ -7411,7 +7152,6 @@ quest.crew-family-one.human2	早速その壺を持ってくるよ。
 quest.crew-family-one.introending	やっぱり頼りになりますね！
 quest.crew-family-one.c1	今はちょっと不正な配送をするので精一杯なんです。
 quest.crew-family-one.c2	もちろん、私も会場を借りるためにお金を出すことはできますよ。そして、イベントに参加した人が、何らかの形で私にお金を返してくれるかもしれません。
-quest.crew-family-one.afterchoice	It's good that our family sticks together.
 quest.crew-family-one-cider.desc	従兄弟の娘の洗礼式に、おもてなしの飲み物としてハードシードルを届けよう。
 quest.crew-family-one-cider.npc1	立ち寄ってくれて嬉しいよ！ いとこの子供がもうすぐ洗礼を受けるんだけど、パーティーのためにハードシードルが欲しいって言ってたんだ。
 quest.crew-family-one-cider.npc2	ハードシードルがあれば、大勢の幼児や子供たちに耐えることができると思うんだ。
@@ -7473,7 +7213,6 @@ quest.crew-family-three.c13	街に入荷したフルーツワインとフルー�
 quest.protected-disliked-one.name	現地でのトラブル
 quest.protected-disliked-one.npc1	この界隈に強引に入り込めるとでも思っているのか？
 quest.protected-disliked-one.human1	友よ、君は誤解している。私たちは皆、この地域のために最善を尽くしているんです。
-quest.protected-disliked-one.npc2	Oh is that so? Then why don't you sponsor our next block party if you're so into local spirit?
 quest.protected-disliked-one.human2	近隣住民のために協力できるのは嬉しいことだよ。
 quest.protected-disliked-two.name	信頼関係の構築
 quest.protected-disliked-two.npc1	ええ、あなたはこの辺りを少し良くしてくれたかもしれませんが、私たちはまだあなたが私たちの近所にとってプラスの力になるとは確信していません。
@@ -7714,7 +7453,6 @@ quest.vehicle-quest-pickup-one-ethnic.c1	私たちの友人に感謝してくだ
 quest.vehicle-quest-pickup-one-family.desc	従兄弟を説得して、配達用自動車の取得と運行を可能にするための書類を、いくらかの資金で手配してもらう。
 quest.vehicle-quest-pickup-one-family.npc1	遠縁の従兄弟が、ある運送会社で配送車の配車をしていて、よく知り合うようになりました。彼女は家族を助けることを望んでおり、おそらく彼女の配送車に関するコネクションがあなたを助けることができるでしょう。
 quest.vehicle-quest-pickup-one-family.npc2	わかりました、ご心配なく。私たちの友人は、彼女の会社を通してそれらのすべてを手配することもできます。全ては料金の一部です。宅配便のトラックは、彼女の力を借りれば何台でも用意できますよ。
-quest.vehicle-quest-pickup-one-family.beforechoice	Our cousin dropped off this envelope. It has everything you'll need. But because of our family connection， it's been made clear to me that there are definitely other opportunities to be had with this delivery operation if you can provide some assistance.
 quest.vehicle-quest-pickup-one-family.c1	彼女にお礼を言わなくては。家族の絆を大切にする人なんだなと実感したよ。ただ私は個人的に彼女を知らないので、私はこの書類を受け取って帰りますね。
 quest.vehicle-quest-pickup-one-natives.desc	現金を使って新しい知人を説得し、配送車の取得と運行を可能にするための書類を手配してもらう。
 quest.vehicle-quest-pickup-one-natives.npc1	皆さんは見たことがあるかどうかわかりませんが、数日おきにある女性が立ち寄ってくれています。それで、彼女のことをよく知るようになったんです。彼女は運送会社の配達トラックを配車しているのですが、何か…副収入を得ようと思っているようなのです。配送車とのコネクションを生かしたいそうですが、あなたなら協力できるんじゃないかな？
@@ -7974,19 +7712,15 @@ quest.barrel-upgrade.human1	あともし私たちの仕事に投資してくれ�
 quest.barrel-upgrade.npc2	というのが大筋だと思います、はい。
 quest.barrel-upgrade.c1	これはかなり便利だと思うよ。
 quest.barrel-upgrade.afterchoice	私たちがお役に立ててうれしいです。増産することで私たち全員が利益を得られることを願っていますよ。
-quest.skill-upgrade-rum-barrel.name	See if your loyal customer of bottled rum can help you increase production.
 quest.skill-upgrade-rum-barrel.npc1	少し前からあなたの組織の瓶詰めのラム酒を購入しています。 私たちにはジャネットと呼んでいる友人がいます。彼女が言うには、もし我々が現金と砂糖を用意すれば、一度に一瓶ではなく、樽でラム酒を作る方法を考えてくれるそうです。
 quest.skill-upgrade-rum-barrel.human2	ふむふむ。樽詰めのラム酒、ですか？儲かりそうだ。その話に乗りましょう。
 quest.skill-upgrade-rum-barrel.beforechoice	彼女の頑張りによってラム酒の蒸留の方法が分かりました。きっと簡単に生産レベルにスケールアップできるはずです。
-quest.skill-upgrade-brandy-barrel.name	See if your loyal customer of bottled brandy can help you increase production.
 quest.skill-upgrade-brandy-barrel.npc1	少し前からあなたの組織の瓶詰めのブランデーを購入しています。 私たちにはスティーヴンという友人がいます。彼が言うには、もし我々が現金と果実を用意すれば、一度に一瓶ではなく、樽でブランデーを作る方法を考えてくれるそうです。
 quest.skill-upgrade-brandy-barrel.human2	ふむふむ。樽詰めのブランデー、ですか？儲かりそうだ。その話に乗りましょう。
 quest.skill-upgrade-brandy-barrel.beforechoice	彼の頑張りによってブランデーの蒸留の方法が分かりました。きっと簡単に生産レベルにスケールアップできるはずです。
-quest.skill-upgrade-whiskey-barrel.name	See if your loyal customer of bottled whiskey can help you increase production.
 quest.skill-upgrade-whiskey-barrel.npc1	少し前からあなたの組織の瓶詰めのウイスキーを購入しています。 私たちにはルークという友人がいます。彼が言うには、もし我々が現金とムーンシャインを用意すれば、一度に一瓶ではなく、樽でウイスキーを作る方法を考えてくれるそうです。
 quest.skill-upgrade-whiskey-barrel.human2	ふむふむ。樽詰めのウイスキー、ですか？儲かりそうだ。その話に乗りましょう。
 quest.skill-upgrade-whiskey-barrel.beforechoice	彼の頑張りによってウイスキーの蒸留の方法が分かりました。きっと簡単に生産レベルにスケールアップできるはずです。
-quest.skill-upgrade-vodka-barrel.name	See if your loyal customer of bottled vodka can help you increase production.
 quest.skill-upgrade-vodka-barrel.npc1	少し前からあなたの組織の瓶詰めのウォッカを購入しています。 私たちにはアンナという友人がいます。彼女が言うには、もし我々が現金とコーンシロップを用意すれば、一度に一瓶ではなく、樽でウォッカを作る方法を考えてくれるそうです。
 quest.skill-upgrade-vodka-barrel.human2	ふむふむ。樽詰めのウォッカ、ですか？儲かりそうだ。その話に乗りましょう。
 quest.skill-upgrade-vodka-barrel.beforechoice	彼女の頑張りによってウォッカの蒸留の方法が分かりました。きっと簡単に生産レベルにスケールアップできるはずです。
@@ -8157,7 +7891,7 @@ quest.booze-surplus-apple-jack.c3	アップルジャックよりもっと収益�
 quest.booze-surplus-fruit-wine.name	液体余剰：フルーツワイン
 quest.booze-surplus-fruit-wine.npc1	最近の配送で、ドライバーが「フルーツワインの中を泳いでいるみたいだ」と漏らした。
 quest.booze-surplus-fruit-wine.npc2	実はその逆です。フルーツワインの大量仕入れのために頼みたいことがあるんだ。君がいろいろと知ってることは知ってる。お互いに役立つはずだ。
-quest.booze-surplus-fruit-wine.c3	Maybe it's time to see about moving beyond this fruit wine into some more profitable production. Know about anything useful?
+quest.booze-surplus-fruit-wine.c3	フルーツワインよりもっと収益性の高い製品に移行することを検討する時期かもしれません。何か役に立つことをご存知ですか？
 quest.booze-surplus.desc	余った自家製酒の一部を、あなたのコネクションに届ける。
 quest.booze-surplus.human1	あの運転手と共有しすぎることの危険性について話し合う必要があるのだろうか？
 quest.booze-surplus.human2	便利だと思いますか？それならこっちで調達してみるよ。非常に便利なはずだからね。
@@ -8193,10 +7927,6 @@ quest.booze-surplus-apple-jack-bonus.desc	アップルジャックの余剰生�
 quest.booze-surplus-apple-jack-bonus.npc1	アップルジャックの供給がまた相当増えたと聞いています。もしよろしければ、また海外の友人と話をして、何かアレンジできないか考えてみます。
 quest.booze-surplus-apple-jack-bonus.npc2	正直なところ、この程度の信頼関係でよかったと思います。アップルジャックをこちらに送ってもらいましょう。
 quest.booze-surplus-apple-jack-bonus.c2	ラキヤの作り方を教えてもらうのはどうでしょう？
-quest.booze-surplus-fruit-wine-bonus.name	Excess Homemade Brandy
-quest.booze-surplus-fruit-wine-bonus.desc	Deliver more of your excess production of homemade brandy to see what else your friend's connection can get for you.
-quest.booze-surplus-fruit-wine-bonus.npc1	I hear that your supply of homemade brandy has one again grown considerable. If you'd like， I can speak to my out of state friends again and see what we can arrange.
-quest.booze-surplus-fruit-wine-bonus.npc2	I'm glad we have this level of trust， to be honest. Have your homemade brandy sent over here when you can.
 quest.booze-surplus-fruit-wine-bonus.c2	ブランデーはいかがですか？
 quest.booze-surplus-bonus.human1	はい、そうです。また手配していただければと思います。また、ドライバーの皆さんには、仕事中に会社の仕事の話をすることについて、一言、二言、お話しする必要があるかもしれませんね。
 quest.booze-surplus-bonus.human2	前回の余った自家製酒の取引と同じように、儲かることを期待したい。
@@ -8275,13 +8005,10 @@ quest.goon-trouble.beforechoice	嫌がらせを受け続けているんだ！止
 quest.goon-trouble.c1	ただ、うまくいかなかっただけなんです。どうなるか分かるでしょ？
 quest.goon-trouble.afterchoice	この辺りでは大物だと思ってたんだけどな。
 quest.goon-trouble.ticker-body	{ownername}は、あなたが彼らに肩入れしていると思った。あなたは彼らを失望させ、彼らはそのことに満足していない。
-postcard.protection	Later that day， someone drove by and threw a bottle filled with gasoline right through the front window. Only a faulty wick stopped this from turning into a fiery disaster.
-postcard.gangaggro	Later that day， someone knocked on your door and left a package: some dead fish rolled in newspaper. You get a feeling someone has it out for you.
 postcard.building-human-attacked	あなたの攻撃は成功しました。この組織の事業はダメージを受けたので、しばらくは使えないだろう。
 postcard.building-human-destroyed	あなたは彼らの業務を破壊しました！あなたの攻撃で電気火災が発生し、すべての在庫とともに事業が破壊されました。
 postcard.building-gang-attacked	誰かがあなたの事業を攻撃しようとしています。損傷しており、修復されるまで再開できません。
 postcard.building-gang-destroyed	火事だ！貴社の事業が全焼し、在庫もすべて焼失しました！これは事故ではないだろう。
-postcard.arrested	The heat in the area attracted police attention. One of your people has been taken into custody， but there was nothing to pin on them， so they got released later that day， minus cash and possessions.
 postcard.fedsraid	あなたの事業のひとつが酒類取締局のガサ入れされた！
 postcard.fedarrest	構成員の一人が連邦捜査局に逮捕されたんだ！
 postcard.corner.need	事業はあなたのテリトリー内にいないと違法な取引はできないのです。テリトリーを拡大するために新しい<i>フロント</i>を設定する必要があります。自分の隠れ家に設置してみましょう。
@@ -8400,7 +8127,6 @@ quest.fake-wine-delivery-two.npc2	さて、私は別の街で第二のビジネ�
 quest.fake-wine-delivery-three.npc2	さて、私は別の街で第二のビジネスを始めようとしています。そのためにあなたの偽造ワインを使わせていただきたいのです。それと、出来るのならあなたが見つけたバスタブ・ジンも。
 quest.fake-wine-delivery-four.npc2	さて、私は別の街で第二のビジネスを始めようとしています。そのためにあなたの偽造ワインを使わせていただきたいのです。それと、出来るのならあなたが見つけたラキアも。
 quest.fake-wine-delivery-five.npc2	さて、私は別の街で第二のビジネスを始めようとしています。そのためにあなたの偽造ワインを使わせていただきたいのです。それと、出来るのならあなたが見つけたコーンウイスキーも。
-quest.fake-beer-delivery.c3	Well， I've never figured out how to properly turn barley into more useful malt syrup. If I could do that， I could expand my counterfeit beer operation.
 quest.fake-beer-delivery.name	ビールを一杯飲む
 quest.fake-beer-delivery.desc	常連客のビジネス拡大のために、偽物のビールを追加で納品する。
 quest.fake-beer-delivery.npc1	友人よ、我々は共に成功していると思う。あなたの偽造ビールをお客さんが喜んでくれて、お互いうまくいっている。だが今私は自分のビジネスを少し大きくしたいと思ってるんだ。
@@ -8491,7 +8217,6 @@ quest.build-small-garage-bonus-crew.name	自分でやる：構成員
 quest.build-small-garage-bonus-crew.desc	メカニックの友人に現金を渡し、ガレージにオフィスを構えてもらい、構成員のキャパシティを拡大する。
 quest.build-small-garage-bonus-crew.beforechoice	どうやら、新しいメカニックを雇うことになりそうです。
 quest.build-small-garage-bonus-crew.c1	素晴らしい。今度は参加する人を探します。
-;; civic building quests	;; civic building quests
 quest.train-station-bribe.name	鉄道の仕事
 quest.train-station-bribe.desc	必要な場所に賄賂を支払うために、駅長用の現金を手配する。
 quest.train-station-bribe.beforechoice	とても良いことです。駅構内では何でも手に入るが、あまり欲張らないように慎重になるべきだ。この事業は非常に儲かるだろう。ちょっと書類をまとめないといけないので、後で来てください、また話しましょう。
@@ -8579,7 +8304,6 @@ quest.player-expand-three.c8	集めてください、あなたが思いつくも
 quest.player-expand.introending	もちろんです。拡大したらまた来てね。
 quest.player-expand.beforechoice	街のさらに多くの場所を支配するために、この組織が成長するのを見るのは良いことです。では、どのようにあなたの成長する帝国を支援できるかを話し合いましょう。
 quest.player-expand.afterchoice	この街の未来のために、ビジョンを持つ人のお手伝いができてうれしいです。
-;; staircases for refined booze	;; staircases for refined booze
 quest.refined-booze-unlock.human1	はい、その通りです。ちょっと見つけたんですが、まだどうしたらいいのかよくわからないんです。
 quest.refined-booze-unlock.npc2	では、1本持ってきてください。うちのお客さんにも試してもらうし、もし合格だったら、あなたが見つけた商品で何かできるかもしれないわ。
 quest.refined-booze-unlock.human2	ええ、できますよ。損をすることはないでしょう？
@@ -8705,13 +8429,11 @@ quest.corn-whiskey-hint-supplies.name	物資の要求：コーンウィスキー
 quest.corn-whiskey-hint-supplies.npc1	コーンウィスキーの運営に必要な物資が足りない？
 quest.corn-whiskey-hint-supplies.introending	素晴らしい。支払いが済んだら、コーンと瓶をお持ちしますよ。
 quest.corn-whiskey-hint-supplies.beforechoice	お約束のコーンとボトルです！
-;; city specific quests: pittsburgh	;; city specific quests: pittsburgh
 quest.bottle-rack-build.name	ラックエムアップ
 quest.bottle-rack-build.desc	フロントのオーナーに現金と建設資材を提供する。
 quest.bottle-rack-build.beforechoice	よし、誰かにラックを組み立ててもらい寄付を集めよう。最初の小瓶は1ヶ月くらいで集まるとおもう。
 quest.bottle-rack-build.c1	オッケーです。工事を始めて、地元の人たちに小瓶はここに返すようにと伝えておいてください。あとで第1弾を取りに来るよ。
 quest.bottle-rack-build.afterchoice	それではまた！
-;; city specific quests: Cincinnati	;; city specific quests: Cincinnati
 quest.bourbon-unlock.name	ケンタッキー州のスピリッツ
 quest.bourbon-unlock.desc	地元の特産品の需要について教えてほしいという友人のリクエストに応えよう。
 quest.bourbon-unlock.human1	バーボンですか？はい、需要があるのか調べてみたいですね。検討する価値があるかどうか分かるかもしれない。何か手伝えることは？
@@ -8767,7 +8489,6 @@ quest.bourbon-drop-repeat.beforechoice	ボトルは満タンで、すでにあ�
 quest.bourbon-drop-repeat.c1	この調子でいきましょう。\n<b>この事業でこれまでのバーボンのミッションを再スタートします</b>
 quest.bourbon-drop-repeat.c2	そろそろ増産してもいい頃だと思う。\n<b>インプットとアウトプットを増やしたこの事業で、新たなバーボンのミッションが始まるのです。</b>
 quest.bourbon-drop-repeat.c3	あなたは私を裏切ったな。バーボン全てと金を返せ。もうたくさんだ。\n<b>今後このオーナーとバーボンの取引は不可能になる</b>
-quest.bourbon-drop-repeat-one.npc2	Great. Just the $750 and the materials and we'll be moving the bourbon in no time.
 quest.bourbon-drop-ohio-repeat.c2	バーボンの偽造方法は自分で考えたから、この手の取引はこれで最後だ。
 quest.bourbon-dump.desc	秘密の顧客に大量のバーボンを捌ける方法を知っている家族がいる。
 quest.bourbon-dump.human1	私を信じてください。何を作ってるんだ？
@@ -8945,9 +8666,7 @@ quest.amenity-upgrades.c2	ギャンブラーに提供するサービスを追加
 quest.amenity-upgrades.c3	本当に差が出るのは、スタッフの対応と細部へのこだわりです。そのあたりを改善していきたいですね。
 quest.amenity-upgrades.c4	どうやら恩を仇で返されたわけではなさそうだ。今はそうなんだろうけど。
 quest.amenity-upgrades.afterchoice	私もそこのゲーム施設を訪れるのを楽しみにしています。ではまた。
-newspaper-headline.murder	Police Investigating Shocking Violence Targeting {groupname}
 newspaper-headline.outfitboss	裏社会に激震！ {bossname}が{groupname}の手綱を握る
-newspaper-headline.outfitgone	{groupname} Eliminated By Rivals! Gangland Murders A New Police Priority
 newspaper-headline.trial-human	バレルハウスが強制捜査された! 禁酒局は有名な密造者{crewname}を起訴する。裁判は{date}に設定されている
 newspaper-headline.trial-ai	バレルハウスが壊された！{groupname}事業が禁酒局のガサ入れを受ける
 newspaper-headline.release-random	驚きの評決! 同情的な陪審員が有名な密造者{crewname}の釈放につながる。
@@ -8955,23 +8674,10 @@ newspaper-headline.release-paidoff	正義の茶番劇! 消えた証拠が有名�
 newspaper-headline.startprison	正義の鉄槌が下される! 有名な密造者{crewname}は懲役{years}年を得る。
 newspaper-headline.endprison	社会への負債を返済。有名な密輸業者{crewname}が{years}年後に釈放された。
 newspaper-headline.prohibition-ends	ついに禁酒法終了！14年間の禁酒時代が今日終わる
-newspaper-general	Church Wine Sales Soar; "The City Is Not Seeing A Religious Revival" Say Feds 
-newspaper-chicago	Feds Beef Up Agricultural Inspections At Stockyards After Bad Meat Sickens Hundreds
-newspaper-pittsburgh	Moonshine Shack Explosions In Rural Allegheny County Skyrocket
-newspaper-dated-general.1920	Traffic Cops File Complaint As City Installs First Automatic Traffic Signal
-newspaper-dated-general.1921	Criminals Beware! Scientists Reveal New Lie Detecting Contraption
 newspaper-dated-general.1922	ボートの後ろに引きずり込まれて楽しむ - 水上スキーの奇妙な流行
-newspaper-dated-general.1923	Clear Out! First Bulldozers Debut In City
-newspaper-dated-general.1924	New Self-Locking Pliers Ease Pulling Things Out Of Other Things
-newspaper-dated-general.1925	Adhesive Miracle: Masking Tape Sales Start
-newspaper-dated-general.1926	Eat In Your Car! Pull Up Drive Thru Restaurant Wows Driving Diners
-newspaper-dated-general.1927	Self-Playing Record Machine Debuts With Silly Name: Jukebox
-newspaper-dated-general.1928	Barbers Report Spiking Demand As Bubblegum Mania Grips City Kids
-newspaper-dated-general.1929	Fresh Peas In January! Frozen Food Craze Sweeps City
 newspaper-dated-pittsburgh.1920	アメリカ初のラジオ局「KDKA」が開局
 newspaper-dated-chicago.1922	フラッパー：現代ファッションを紹介する新雑誌
 newspaper-dated-chicago.1927	飛行の奇跡！ 市営空港がオープン
-newspaper-dated-chicago.1925	The New Union Station Ushers In The Age of High Speed Rail Travel
 newspaper-dated-chicago.1930	世界最大のビル マーチャンダイズ・マート」がオープン
 newspaper-seq-general-elephant.1	サーカスの列車からゾウが消えたと報告される
 newspaper-seq-general-elephant.2	ゾウの足跡が学校の校庭で発見される
@@ -9032,25 +8738,7 @@ districts.egg-harbor	エッグ\nハーバー
 districts.linwood	リンウッド
 districts.somers-point	サマーズ\nポイント
 districts.northfield	ノースフィールド
-streets.usfounders	Roosevelt
-streets.famouspeople	Chaucer
-streets.usstates	Rhode Island
-streets.uscities	Milwaukee
-streets.smalltown	View
-streets.generic	Garden
-streets.trees	Wood
-streets.plants	Violet
-streets.birds	Owl
-streets.lastnames	Wright
-streets.pitt	Windgap
-streets.chicago	Wrightwood
-streets.atlantic-city	Wine
-streets.atlantic-city.connections	Route 6
 streets.boardwalk	ボードウォーク
-district.procgen.prefix.com	Willow
-district.procgen.suffix.com	{noun} Terrace
-district.procgen.prefix.ind	Warehouse
-district.procgen.suffix.ind	{noun} View
 amenity.slot-machines.icon	<sprite name="amenity slot machines">
 amenity.slot-machines.name	スロットマシン
 amenity.slot-machines.desc	ペニースロットマシンをはじめとする機械式アミューズメント。これはひどい確率で小銭を賭ける小額プレーヤーから、安定した収入を得ることができます。\n\n<i>少額の賭け事で、近隣から多くの飛び込み客が集まり時々ベットする</i>
@@ -9130,7 +8818,6 @@ convo-debt.level3.npcintro	{name}？聞いたことがない…。ああ、{name
 convo-debt.level3.humanblurb	かわいい！かわいいのは嫌いだ 大金を貸してるんだぞ どうする気だ？
 convo-debt.level3.npc	だから、こうなんです。仲直りするのはいいんだけどね。本当にそうだ 約束する でも、選択肢を検討できないか？
 convo-debt.response	必要なもの、何でもあります
-convo-debt.any.beforechoice	Your debts have somehow become my problem， and that makes me very unhappy. But there's something you can do to get on my good side again.
 convo-debt.any.beforechoice.mo	現物支給の要求
 convo-debt.repayment-pending	約束通り、約束の日までに用意する。
 convo-debt.repayment-ready	ほら、頼まれたことはやったよ。これを持って行って、もう一人にしてくれ。
@@ -9142,7 +8829,6 @@ convo-debt.repayment-cash.human-less	いいよ、これはもらうよ、でも�
 convo-debt.repayment-cash.human-full	私をバカにしているのか？金を返せと言ったんだ。金が返ってこないんだ、当然怒る必要がある。ただあんたは私が怒ることを望んでいないよな。\n<indent=15><i>(脅迫する)</i></indent>
 convo-debt.repayment-cash.npc-full	わかった、わかった、傷つけないでくれ！母の古い宝石を捜して質に入れてみるよ。それで残りの借金は必ず返せる。
 convo-debt.repayment-cash.human-full.epilogue	ほらね？私たちは合意に達することができると思った。
-convo-repayment.generic.npcintro	How can I repay you?
 convo-repayment.generic.confirm.mo	どのように返済してほしいかを確認する。
 convo-repayment.pay-cash.humanintro	<i>現金</i>の話をしよう。
 convo-repayment.get-biz-intro.humanintro	あなたの<i>人脈</i>について話しましょう。
@@ -9294,7 +8980,6 @@ convo-repayment.grant-bottled-booze-vodka.ticker	{name}が瓶詰めのウォッ�
 convo-repayment.grant-bottled-booze-champagne.ticker	{name}がシャンパンをあなたの隠れ家に届けた。
 convo-repayment.grant-bottled-booze-aged-whiskey.ticker	{name}が年代物ウィスキーをあなたの隠れ家に届けた。
 convo-repayment.grant-bottled-booze-dark-rum.ticker	{name}がスパイス・ラムをあなたの隠れ家に届けた。
-convo-repayment.grant-bottled-booze-cordials.ticker	{name} did as promised and a load of bottled whiskey is now available at your safehouse.
 convo-repayment.reveal-imports-canadian.humanblurb	カナダ人なんでしょ？この街で本物のカナディアンウイスキーが手に入る場所を知っているに違いない。その人たちと知り合いたいから、誰が買ってくれるのか調べてみてよ、それでおあいこってことにしよう。
 convo-repayment.reveal-imports-canadian.ticker	{name}は、誰がカナダのウイスキーを買っているかを見つけるという約束を守った。
 convo-repayment.reveal-imports-scottish.humanblurb	スコットランドから来たんだろう？この街で本物のスコッチ・ウィスキーが手に入る場所を知っているに違いない。その人たちと知り合いたいから、誰が買ってくれるのか調べてみてよ、それでおあいこってことにしよう。
@@ -9383,224 +9068,220 @@ module.casino-large.desc	ここは今やあなたの街です。海岸で最も�
 module.casino-large.install-convo	{cost}を払っても良い。欲望に忠実なんでね。大きくて豪華なカジノを作る準備はできている。
 debtor-house.icon	<sprite name="ui debtor house" tint=1>
 debtor-house.name	あなたの店によく出入りするギャンブラーとして知られる{name}の住宅。
-button.throne	Go to Your Office
+button.throne	あなたのオフィスに移動
 ui.checkline-subitem	<indent=20><sprite name="ui check"></indent><indent=40>{text}</indent>
 ui.crossline-subitem	<indent=20><sprite name="ui cross"></indent><indent=40>{text}</indent>
 ui.length.in	{num} in
 ui.length.ft	{big}'{small}"
 ui.length.m	{big}.{small}m
-ui.rename.random-nickname.m	Scarface
-ui.rename.random-nickname.f	Dangerous
-ui.crewinfo.scheme.mo	Open this crew's current scheme
-ui.crewinfo.edit-button.mo	Reorganize entries
-ui.crewinfo.edit-card.mo	Click on this entry to move it
-ui.crewinfo.building.mo.cycletime-with-progress	\nevery {consumeDays} days ({consumeTurns} turns). {percentage} done.
-ui.crewinfo.scheming	On a Scheme
-ui.crewinfo.crewtype.in-scheme	Scheming
-ui.crewinfo.stat.peepskilled	People Killed {value}
-ui.crewinfo.stat.boozesold	Booze Sold {value}
-ui.crewinfo.stat.boozeproduced	Booze Produced {value}
-ui.crewinfo.stat.totaltransactions	Total Transactions {value}
-ui.crewinfo.stat.convos	Conversations {value}
-ui.crewinfo.stat.goondeals	Business Deals With Goons {value}
-ui.crewinfo.stat.gamblersextorted	Gamblers Extorted {value}
-ui.crewinfo.stat.gamblersforgiven	Gamblers Forgiven {value}
-ui.crewinfo.stat.gamblerskicked	Gamblers Kicked {value}
-ui.crewinfo.stat.businessesextorted	Businesses Extorted {value}
-ui.crewinfo.stat.frontsprotected	Fronts Protected {value}
-ui.crewinfo.stat.frontsattacked	Fronts Subverted {value}
-ui.crewinfo.stat.buildingsattacked	Buildings Attacked {value}
-ui.crewinfo.stat.buildingsrepaired	Buildings Repaired {value}
-ui.crewinfo.stat.copsbribed	Cops Bribed {value}
-ui.crewinfo.stat.arrested	Times Arrested {value}
-ui.crewinfo.stat.drivedistance	Distance Driven {value}
-ui.crewinfo.stat.nodescouted	Corners Scouted {value}
-ui.crewinfo.stat.bizscouted	Businesses Discovered {value}
-ui.crewinfo.stat.gangtruces	Truces Brokered {value}
-ui.crewinfo.stat.resvisited	Residential Events Attended {value}
-ui.crewinfo.stat.outpostsstarted	Fronts Established {value}
-ui.crewinfo.stat.safehouseraids	Safehouses Looted {value}
-ui.crewinfo.stat.peepsthreatened	People Threatened {value}
-ui.crewinfo.stat.timesfought	Times Fought {value}
-ui.crewinfo.stat.favorsredeemed	Favors Redeemed {value}
-ui.crewinfo.stat.expansionsupgradesbuilt	Expansions/Upgrades Built {value}
-ui.crewinfo.stat.fame	People Befriended {value}
-ui.crewinfo.stat.unit.corners	{value} corners
-ui.crewinfo.stat.unit.corners.1	{value} corner
-ui.crewinfo.stat.unit.people.1	{value} person
-ui.crewinfo.stat.unit.people	{value} people
-ui.crewinfo.stat.unit.units	{value} units
-ui.crewinfo.stat.unit.units.1	{value} unit
+ui.crewinfo.scheme.mo	この構成員の現在のスキームを開く
+ui.crewinfo.edit-button.mo	エントリーの再編成
+ui.crewinfo.edit-card.mo	エントリーをクリックすると移動
+ui.crewinfo.building.mo.cycletime-with-progress	\n{consumeDays}日ごと（{consumeTurns}ターン）。{percentage} 終了。
+ui.crewinfo.scheming	スキームについて
+ui.crewinfo.crewtype.in-scheme	策謀
+ui.crewinfo.stat.peepskilled	殺した人数 {value}
+ui.crewinfo.stat.boozesold	売った酒の量 {value}
+ui.crewinfo.stat.boozeproduced	製造した酒の量 {value}
+ui.crewinfo.stat.totaltransactions	取引の総量 {value}
+ui.crewinfo.stat.convos	会話 {value}
+ui.crewinfo.stat.goondeals	チンピラとのビジネス {value}
+ui.crewinfo.stat.gamblersextorted	支払いを強要したギャンブラー {value}
+ui.crewinfo.stat.gamblersforgiven	支払いを許したギャンブラー {value}
+ui.crewinfo.stat.gamblerskicked	追い出されたギャンブラー {value}
+ui.crewinfo.stat.businessesextorted	強要したビジネス{value}
+ui.crewinfo.stat.frontsprotected	フロントの保護{value}
+ui.crewinfo.stat.frontsattacked	フロントの崩壊{value}
+ui.crewinfo.stat.buildingsattacked	攻撃された建物 {value}
+ui.crewinfo.stat.buildingsrepaired	修理した建物 {value}
+ui.crewinfo.stat.copsbribed	賄賂を送った警察 {value}
+ui.crewinfo.stat.arrested	逮捕された回数 {value}
+ui.crewinfo.stat.drivedistance	運転した距離 {value}
+ui.crewinfo.stat.nodescouted	偵察したコーナー {value}
+ui.crewinfo.stat.bizscouted	発見したビジネス {value}
+ui.crewinfo.stat.gangtruces	破棄された停戦 {value}
+ui.crewinfo.stat.resvisited	参加したレジデンシャルイベント {value}
+ui.crewinfo.stat.outpostsstarted	設立したフロント {value}
+ui.crewinfo.stat.safehouseraids	略奪された隠れ家 {value}
+ui.crewinfo.stat.peepsthreatened	脅した人々 {value}
+ui.crewinfo.stat.timesfought	戦った回数 {value}
+ui.crewinfo.stat.favorsredeemed	使用した恩義 {value}
+ui.crewinfo.stat.expansionsupgradesbuilt	建物のアップグレード/拡張 {value}
+ui.crewinfo.stat.fame	仲良しになった人々 {value}
+ui.crewinfo.stat.unit.corners	{value}コーナー
+ui.crewinfo.stat.unit.corners.1	{value}コーナー
+ui.crewinfo.stat.unit.people.1	{value}人
+ui.crewinfo.stat.unit.people	{value}人
+ui.crewinfo.stat.unit.units	{value}ユニット
+ui.crewinfo.stat.unit.units.1	{value}ユニット
 ui.crewinfo.stat.unit.none	{value}
-ui.crewinfo.stat.category.business	BUSINESS
-ui.crewinfo.stat.category.warfare	GANG WARFARE
-ui.crewinfo.stat.category.exploration	EXPLORATION
-ui.crewinfo.stat.category.social	SOCIAL
-ui.crewinfo.stat.category.gambling	GAMBLING
+ui.crewinfo.stat.category.business	ビジネス
+ui.crewinfo.stat.category.warfare	ギャング抗争
+ui.crewinfo.stat.category.exploration	探索
+ui.crewinfo.stat.category.social	社会
+ui.crewinfo.stat.category.gambling	ギャンブル
 ui.crewinfo.roles.persuader.icon	<sprite name="scheme intimidator">
-ui.crewinfo.roles.persuader.title	Intimidator
-ui.crewinfo.roles.persuader.desc	One look from this crew member and people just fold and do what is asked. They've got a look and demeanor that says that they mean business. Send them out when you need to convince someone to do something they may not want to do on their own.
-ui.crewinfo.roles.persuader.short	The intimidator can find out what hooligans have stashed in their safehouse and can get business owners to get you supplies your operations need.
+ui.crewinfo.roles.persuader.title	脅迫者
+ui.crewinfo.roles.persuader.desc	このクルーの顔を見れば、人々はただ折れて、言われたことをやるだけだ。彼らは本気だと言わんばかりの表情と態度だ。自分ではやりたがらないようなことを説得するときに、彼らを送り出すとよいだろう。
+ui.crewinfo.roles.persuader.short	脅迫者は、フーリガンが隠れ家に隠しているものを見つけ出し、企業オーナーにオペレーションに必要な物資を調達してもらうことができる。
 ui.crewinfo.roles.enforcer.icon	<sprite name="scheme enforcer">
-ui.crewinfo.roles.enforcer.title	Enforcer
-ui.crewinfo.roles.enforcer.desc	This crew member knows their way with all kinds of weapons. They know when to use them and when just having one is enough. Send them out when something more than a show of force is required.
-ui.crewinfo.roles.enforcer.short	An enforcer makes new fronts less expensive and can organize heists.
+ui.crewinfo.roles.enforcer.title	エンフォーサー
+ui.crewinfo.roles.enforcer.desc	あらゆる武器の扱いを熟知しているクルー。使うべきときと、持っているだけで十分なときを心得ている。武力を誇示する以上のことが必要なときに送り出す。
+ui.crewinfo.roles.enforcer.short	エンフォーサーは、新しいフロントをより安価にし、強盗を組織することができます。
 ui.crewinfo.roles.convict.icon	<sprite name="scheme jailbird">
-ui.crewinfo.roles.convict.title	Jailbird
-ui.crewinfo.roles.convict.desc	Their loyalty is unquestioned. When asked to solve a problem in a very permanent way， they didn't hesitate. When asked to settle a score in a fight， they got it done. When asked to keep quiet and to a stint in the can， they went. And during all of this， they've acuired a unique， valuable skill set.
-ui.crewinfo.roles.convict.short	A jailbird excels at using non-firearm weapons and can use connections to have the Feds swoop in on a rival.
+ui.crewinfo.roles.convict.title	牢屋番
+ui.crewinfo.roles.convict.desc	彼らの忠誠心は疑う余地がない。ある問題を永久に解決するよう求められたとき、彼らは迷わなかった。ケンカで決着をつけろと言われても、彼らはそれをやってのけた。黙っていろと言われれば、黙って缶詰になる。そして、その過程で、彼らはユニークで貴重なスキルを身につけたのだ。
+ui.crewinfo.roles.convict.short	牢屋番は銃器以外の武器の使用に長けており、コネを使ってFBIにライバルを急襲させることができる。
 ui.crewinfo.roles.driver.icon	<sprite name="scheme lookout">
-ui.crewinfo.roles.driver.title	Lookout
-ui.crewinfo.roles.driver.desc	This crew member can drive anything anywhere. They know how to handle every kind of vehicle and they know this city's streets backwards and forwards. Send them when you need to secure an area or expand into a new neighborhood or to deal with anything on wheels.
-ui.crewinfo.roles.driver.short	A lookout can drive 50% farther each turn and can spread your territory easily into new areas.
+ui.crewinfo.roles.driver.title	見張り番
+ui.crewinfo.roles.driver.desc	このクルーは、どこでも何でも運転できる。どんな車種にも対応でき、この街の道も知り尽くしている。ある場所を確保するとき、新しい地域に進出するとき、車輪のついたものを扱うとき、彼らを派遣してください。
+ui.crewinfo.roles.driver.short	見張り番は毎ターン50％ずつ遠くまで移動することができ、新しい地域に簡単に領土を広げることができる。
 ui.crewinfo.roles.negotiator.icon	<sprite name="scheme mouthpiece">
-ui.crewinfo.roles.negotiator.title	Mouthpiece
-ui.crewinfo.roles.negotiator.desc	This crew member can talk the feathers off of a chicken. Send them out when something needs to be put just so， delicately yet forcefully.
-ui.crewinfo.roles.negotiator.short	Your mouthpiece crew member can pay off cops more cheaply and gather blackmail on various people in town.
+ui.crewinfo.roles.negotiator.title	口入れ屋
+ui.crewinfo.roles.negotiator.desc	ニワトリの羽を説得することができるクルー。繊細に、しかし力強く、何かを成し遂げなければならないときに、彼らを送り出す。
+ui.crewinfo.roles.negotiator.short	口入れ屋のクルーは、より安く警官に賄賂金を払ったり、町のいろいろな人の脅迫状を集めたりすることができます。
 ui.crewinfo.roles.deal-maker.icon	<sprite name="scheme closer">
-ui.crewinfo.roles.deal-maker.title	Closer
-ui.crewinfo.roles.deal-maker.desc	There's an art to closing a deal， to making the other party feel they made out well while they actually lost big. After making so many of these arrangements， this crew member is perfect to send out when anything needs a bit of negotiation.
-ui.crewinfo.roles.deal-maker.short	The closer takes over buildings at a steep discount and can make deals with outfits outside of town.
+ui.crewinfo.roles.deal-maker.title	クローザー
+ui.crewinfo.roles.deal-maker.desc	取引を成立させるためには、相手が損をしているのに、自分だけは得をしたと思わせる術がある。そんなアレンジをたくさんしてきたこのクルーは、何かと交渉が必要なときに派遣するのに最適な存在だ。
+ui.crewinfo.roles.deal-maker.short	クローザーは、建物を格安で譲り受け、町外の業者と取引することができる。
 ui.crewinfo.roles.accountant.icon	<sprite name="scheme accountant">
-ui.crewinfo.roles.accountant.title	Accountant
-ui.crewinfo.roles.accountant.desc	Sitting in the backroom making sure things get made， bought and sold may not be the most glamorous of gigs， but it's what makes the rest happen. This crew member knows how to run an operation. Having trouble at one? Need to upgrade or start a new one? Get them over there!
-ui.crewinfo.roles.accountant.short	Your accountant can build operation expansions very cheaply and assist you with taking over new buildings.
-ui.crewmgmt.scheming	{crewname} is currently busy participating in a scheme.
-ui.crewmgmt.offboard	{crewname} is away on outfit business.
-ui.crewinspect.title	Crew Member Info
-ui.crewinspect.experience-header	EXPERIENCE
-ui.crewinspect.history-header	CRIMINAL HISTORY
-ui.crewinspect.buttons.org-chart	Your Outfit
-ui.crewinspect.city	CITY OF {city}
-ui.crewinspect.officer	Officer
-ui.crewinspect.police	POLICE DEPARTMENT
+ui.crewinfo.roles.accountant.title	会計士
+ui.crewinfo.roles.accountant.desc	裏方として、モノを作り、買い、売るという仕事は、決して華やかな仕事ではないかもしれない。このクルーは、オペレーションをどう動かすかを知っている。何かお困りですか？アップグレードや新規事業の立ち上げが必要ですか？そんなときは、このクルーを呼ぼう。
+ui.crewinfo.roles.accountant.short	会計士は、オペレーション拡張を非常に安く構築し、新しい建物の引き継ぎをサポートする。
+ui.crewmgmt.scheming	{crewname}は現在、スキームへの参加で忙しい。
+ui.crewmgmt.offboard	{crewname}は組織の仕事で不在。
+ui.crewinspect.title	クルーメンバー情報
+ui.crewinspect.experience-header	経験
+ui.crewinspect.history-header	犯罪歴
+ui.crewinspect.buttons.org-chart	あなたの組織
+ui.crewinspect.city	{city}市
+ui.crewinspect.officer	警察官
+ui.crewinspect.police	警察署
 ui.crewinspect.buttons.interact.speak	<sprite name="ui pip social">
 ui.crewinspect.buttons.interact.scheme	<sprite name="ui schemes">
-ui.crewinspect.buttons.interact.rel	Relationships
-ui.crewinspect.bio.name	Name
-ui.crewinspect.bio.alias	Alias
-ui.crewinspect.bio.relationship	Relationship
-ui.crewinspect.bio.nationality	Nationality
-ui.crewinspect.bio.age	Age
-ui.crewinspect.bio.height	Height
-ui.crewinspect.bio.occupation	Occupation
-ui.crewinspect.bio.traits	Traits
-ui.crewinspect.role.boss	Boss
-ui.crewinspect.role.boss.mo	The head of the whole operation. Has their hand in a little bit of everything.
-ui.crewinspect.role.captain	Captain
-ui.crewinspect.role.captain.mo	Experienced enough to be reliable， but not specialized yet.
-ui.crewinspect.role.muscle	Muscle
-ui.crewinspect.role.muscle.mo	Your run of the mill gang muscle. Not much yet， but with aspirations to much bigger crimes.
+ui.crewinspect.buttons.interact.rel	関係性
+ui.crewinspect.bio.name	名前
+ui.crewinspect.bio.alias	別名
+ui.crewinspect.bio.relationship	関係性
+ui.crewinspect.bio.nationality	国籍
+ui.crewinspect.bio.age	年齢
+ui.crewinspect.bio.height	身長
+ui.crewinspect.bio.occupation	職業
+ui.crewinspect.bio.traits	特性
+ui.crewinspect.role.boss	ボス
+ui.crewinspect.role.boss.mo	全体の統括者。あらゆることに少しずつ手を出す。
+ui.crewinspect.role.captain	キャプテン
+ui.crewinspect.role.captain.mo	信頼に足る十分な経験を積んでいるが、まだ専門的な知識はない。
+ui.crewinspect.role.muscle	メンバー
+ui.crewinspect.role.muscle.mo	ありふれたギャングのメンバー。まだ大したことはしていないが、もっと大きな犯罪に手を染めようと思っている。
 ui.crewinspect.orgchart-icon	<sprite name="ui org chart">
 ui.crewinspect.crew-info-icon	<sprite name="ui crew info">
-ui.ownedcasino.amenity.mo-extra.rake	You scraped {income} from the final players winnings， with {players} players at the table.
+ui.ownedcasino.amenity.mo-extra.rake	あなたはプレイヤー{players}のテーブルで、最終プレイヤーの賞金から{income}を掻き集めた。
 ui.crewpick.state-automated	<sprite name="ui gear">
-ui.command.teleport.action	Waiting
-ui.pick.scheme	This building is the target of an ongoing scheme!
-ui.pick.production	Production in this building:\n{production}
-ui.pip.canada-related	This business and its owner are relevant to your interests in Canada.
+ui.command.teleport.action	待機中
+ui.pick.scheme	この建物は、現在進行中の計画の対象になっている。
+ui.pick.production	このビルでの生産:\n{production}
+ui.pip.canada-related	このビジネスとその所有者は、カナダでのあなたの興味に関連している。
 ui.pipicon.canada-related	<sprite name="quest canada">
-ui.options.keyaction.openorgchart	Open Your Outfit UI
-ui.reports.shelf.button.orgchart	Your Outfit
-ui.reports.shelf.button.orgchart.mo	See an chart detailing the structure of your organization
+ui.options.keyaction.openorgchart	あなたの組織UIを開く
+ui.reports.shelf.button.orgchart	あなたの組織
+ui.reports.shelf.button.orgchart.mo	組織構成図が確認できる。
 ui.tickers.icon.scheme-update	<sprite name="ui scheme step">
 ui.tickers.icon.scheme-available	<sprite name="ui schemes">
 ui.tickers.icon.throne	<sprite name="ui office button">
 ui.tickers.icon.throne-unlock	<sprite name="ui office button">
 ui.tickers.icon.promote	<sprite name="ui roles">
-ui.tickers.category.scheme-update	Scheme update
-ui.tickers.category.throne	Office update
-ui.tickers.category.promote	Promotion update
-ui.tickers.scheme-decision	{name} is awaiting your instructions about their current scheme.
-ui.tickers.captain-promote	{name} is now a captain! They can now be promoted to a specialized role， provided they have the right experience.
-ui.tickers.scheme-available	{title} scheme is now available for the {role} role. Talk to your specialized captains about getting it started.
-ui.tickers.throne-added	A new memento has been added to your office!
-ui.tickers.throne-select	You have unlocked the office! Click here to select the style of it.
-ui.tickers.promote-close	{name} is nearly ready for promotion to the {roleName} role!
-ui.tickers.promote-ready	{name} is ready for a promotion to the {roleName} role!
-ui.requirements.scheme.canpay	Must have the following materials in your safehouse:\n{reqs}
-ui.requirements.scheme.concurrent-max	Cannot have more than {max} schemes in progress at the same time
-ui.requirements.scheme.concurrent-max.1	Cannot have more than {max} scheme in progress at the same time
-ui.requirements.crewinfo.stat	Must have experience {stat}. Currently: {current}.
-ui.requirements.met-fed	Must have met a Federal Officer of Prohibition
-ui.requirements.aggro-gang	Must be in war with another gang
-ui.scheme.selections.cost	Cost: {cost}
+ui.tickers.category.scheme-update	スキームアップデート
+ui.tickers.category.throne	オフィスアップデート
+ui.tickers.category.promote	昇進アップデート
+ui.tickers.scheme-decision	{name}は、現在の計画についてあなたの指示を待っている。
+ui.tickers.captain-promote	{name}がキャプテンになった。経験さえ積めば、専門職への昇進も可能だ。
+ui.tickers.scheme-available	{role}の役割に{title}スキームが有効になりました。開始するには、専門のキャプテンに相談してください。
+ui.tickers.throne-added	オフィスに新しい記念品が加わりました！
+ui.tickers.throne-select	オフィスのロックを解除しました！スタイルを選択するにはここをクリックする。
+ui.tickers.promote-close	{name}は{roleName}へ昇格する準備ができました！
+ui.tickers.promote-ready	{name}は{roleName}へ昇格する準備ができています！
+ui.requirements.scheme.canpay	隠れ家に以下の材料があること：\n{reqs}
+ui.requirements.scheme.concurrent-max	同時に複数の{max}スキームを進行させることはできない
+ui.requirements.scheme.concurrent-max.1	同時に複数の{max}スキームを進行させることはできない
+ui.requirements.crewinfo.stat	{stat}を経験していること。現在：{current}。
+ui.requirements.met-fed	酒類取締局の職員に会ったことがあること
+ui.requirements.aggro-gang	他のギャングと戦争をしている必要がある
+ui.scheme.selections.cost	費用：{cost}
 ui.scheme.selections.formatting	<i>{text}</i>
-ui.scheme.end-scheme	End Scheme
-ui.scheme.emergency-cancel	Call off the scheme immediately.
-ui.scheme.progress.days-left	Days Left: {days}
-ui.scheme.call-off	End the Scheme.
+ui.scheme.end-scheme	スキーム終了
+ui.scheme.emergency-cancel	すぐに計画を中止してください。
+ui.scheme.progress.days-left	残り日数：{days}
+ui.scheme.call-off	スキームを終了する。
 ui.scheme.chapter-tab	{num}
 ui.scheme.ic-formatting	<i>{text}</i>
 ui.scheme.dec-formatting	<indent=40><b>{text}</b></indent>
 ui.scheme.date-formatting	<b>{text}</b>
-ui.scheme.cancel.confirm	Are you sure you would like to end this scheme?
-ui.scheme.stage-title	Stage {number}: {title}
-ui.scheme.death-summary	Killed while running a scheme.
-ui.grants.fed-tip-off	Calls the feds on you
-ui.grants.fed-tip-off-rival	Call the feds on {rival}
-ui.grants.kill-crew	{name} has been killed while pursuing a scheme
-ui.grants.arrest-crew	{name} has been arrested by the {city} Police Department
-ui.grants.building-from-scheme	Take over this building
-ui.grants.production-required-resources	Gain the resources required for the selected operation
+ui.scheme.cancel.confirm	本当にこの計画を終了させますか？
+ui.scheme.stage-title	ステージ {number}：{title}
+ui.scheme.death-summary	計画実行中に殺害された。
+ui.grants.fed-tip-off	FBIに通報された
+ui.grants.fed-tip-off-rival	{rival}をFBIに通報
+ui.grants.kill-crew	{name}は計画を進めている間に死亡しました
+ui.grants.arrest-crew	{name}が{city}警察署に逮捕された
+ui.grants.building-from-scheme	このビルを引き継ぐ
+ui.grants.production-required-resources	選択した事業に必要なリソースを獲得する
 ui.orgchart.dek	{city}， {time}
 ui.orgchart.role-header	<size=200%>{icon}</size>\n{title}
 ui.orgchart.peep-block.has-scheme	<sprite name="ui schemes">
 ui.orgchart.peep-block.no-scheme	<sprite name="ui pip social">
 ui.orgchart.peep-block.name	<i>{name}</i>
-ui.orgchart.entity-select	Select crew member to promote.
+ui.orgchart.entity-select	昇格させる構成員を選択する。
 ui.orgchart.crew.mo	{name}\n\n{traits}\n\n{topStats}
-ui.orgchart.role-reqs.header	<b>Promotion Requirements</b>
+ui.orgchart.role-reqs.header	<b>昇格条件</b>
 ui.orgchart.role-reqs.item.formatting	<i>{item}</i>
 ui.orgchart.role-reqs.item.formatting.sub-item	<indent=20><i>{item}</indent></i>
-ui.orgchart.role-reqs.best-crew	Highest amongst captains: {score}， by {name}
-ui.orgchart.role-reqs.captain	Must be a captain.
+ui.orgchart.role-reqs.best-crew	キャプテンの中で最高：{score}， {name}
+ui.orgchart.role-reqs.captain	キャプテンである必要があります。
 ui.orgchart.role-reqs.title	<b>{name}</b>
-ui.orgchart.role-reqs.eligible.1	There is {count} crew member eligible for promotion to this role.
-ui.orgchart.role-reqs.eligible	There are {count} crew members eligible for promotion to this role.
-ui.orgchart.block-header.special	Specialists
-ui.orgchart.block-header.muscle	Muscle
-ui.orgchart.block-header.captains	Captains
-ui.orgchart.role.add-confirm	Are you sure you would like to assign {name} to the {role} role?
-ui.orgchart.button.interact.mo	Interact with this crew member
-ui.orgchart.button.inspect.mo	See this crew member's criminal record
-ui.orgchart.button.relationships.mo	See this crew member's relationships
-ui.orgchart.role-assign	<b>Promotion Eligibility:</b>\n\n{promoteInfo}
-ui.orgchart.add-popup	Assign a <sprite name="ui player captain"> captain to the {roleName} role.
-ui.select-throne.header	Select the style of your office.
-ui.select-throne.confirm-button	Confirm
-ui.throne.new-trophy-text	<i>This memento is new since your last visit to your office.</i>
+ui.orgchart.role-reqs.eligible.1	この役割への昇進資格がある{count}人の構成員がいます。
+ui.orgchart.role-reqs.eligible	この役割への昇進資格がある{count}人の構成員がいます。
+ui.orgchart.block-header.special	スペシャリスト
+ui.orgchart.block-header.muscle	マッスル
+ui.orgchart.block-header.captains	キャプテン
+ui.orgchart.role.add-confirm	{name}を{role}の役割に割り当てますか？
+ui.orgchart.button.interact.mo	この構成員と対話する
+ui.orgchart.button.inspect.mo	この構成員の犯罪歴を見る
+ui.orgchart.button.relationships.mo	この構成員の関係性を見る
+ui.orgchart.role-assign	<b>昇格資格：</b>\n\n{promoteInfo}
+ui.orgchart.add-popup	{roleName}の役割に<sprite name="ui player captain">キャプテンを割り当てる。
+ui.select-throne.header	オフィスのスタイルを選択する。
+ui.select-throne.confirm-button	OK
+ui.throne.new-trophy-text	<i>この記念品は、前回の訪問より後に追加されたものです。</i>
 ui.throne.title-formatting	<b>{text}</b>
-ui.throne.not-selected	You have not unlocked the office yet!
-ui.throne.info	This is your office! It is a visual record of your accomplishments in this play through - as your gang achieves greater and greater feats of criminal legend， keep checking back for mementos representing those moments of your history.
-moneyreason.scheme	Scheme Costs
-convo.ticket-intro-flavor.module.homemade-brandy.starter	Looking for anything to help with homemade brandy production? Might know some people.
-convo.expired.result-add-fireplace-quest.finish.blurb	So changed your mind about the fireplace， it appears. Unfortunate. Especially considering that agreements were made.
-convo.goons.persuader-option-ask	What do you have stashed in your safehouse? I'm only going to ask this once because I will only need to ask it once. You're aware that I always find out what I need to know.
-convo.goons.persuader-option-ask.mo	Find out what this local troublemaker has stored in their safehouse
-convo.goons.persuader-option-ask-npc	Back here， oh， not a lot. Probably nothing that interests you or your outfit. But I could give you a list if you want. Just a moment.
-convo.goons.persuader-option-ask-player	Yes， I'll take that list.
-convo.goons.persuader-reveal-resources-npc	This is what I've got laying around:\n<indent=30><i>{safehouseInfo}</i></indent>
-convo.goons.persuader-reveal-resources-player	Hmm. I'll show my boss and we'll decide what interests our outfit. Good day.
-convo.gambling.heal-ok-button	I'm pretty busted up. I'm going to hang around here for awhile to recover.
-convo.force-deposit-button	Maybe you've heard that we're running a bank now? Just asking my friends to make a deposit with us. As a sign of respect and trust.
-convo.force-deposit-button.mo	Acquire some cash from this business.
-convo.ticket-force-loan-start-npc	Why do I feel that this is the kind of deposit that will be more or less permanent?
-convo.ticket-force-loan-start-button	You say permanent. I say secure. Let's not argue. Cash is fine.
-convo.ticket-force-loan-start-cancel	On second thought， keep your money. But remember our conversation.
-convo.crew.hello	Hey boss， whats the newest?
-convo.crew.searching-scheme	Hey boss. Not a whole lot going on out there， but I'm keeping my ear to the ground.\n<indent=15><i>(Continue growing your empire and your operations to discover new scheme opportunities.)</i></indent>
+ui.throne.not-selected	オフィスのロックはまだ解除されていません！
+ui.throne.info	ここがあなたのオフィスだ。このプレイであなたが達成したことを視覚的に記録する。あなたがギャングとして伝説的な犯罪を達成するにつれ、あなたの歴史の瞬間を表す記念品をチェックし続けることができる。
+moneyreason.scheme	スキームコスト
+convo.ticket-intro-flavor.module.homemade-brandy.starter	自家製ブランデーの製造に役立つものをお探しですか？知り合いがお役に立てるかもしれません。
+convo.expired.result-add-fireplace-quest.finish.blurb	暖炉の件、どうやら気が変わったようですね。残念です。特に合意したことを考えると。
+convo.goons.persuader-option-ask	隠れ家には何を隠しているのですか？これは一度しか聞かない。一度しか聞かなければならないからだ。私がいつも必要なことを見つけ出しているのは ご存知でしょう？
+convo.goons.persuader-option-ask.mo	この地域のトラブルメーカーが、自分たちの隠れ家に何を保管しているのかを知ることができる。
+convo.goons.persuader-option-ask-npc	こっちは、あまりないですね。おそらく、あなたやあなたの組織に興味のあるものはないでしょう。でも、もしあなたが望むなら、リストを差し上げますよ。ちょっとお待ちください。
+convo.goons.persuader-option-ask-player	はい、お預かりします。
+convo.goons.persuader-reveal-resources-npc	これが、私の手元にあるもの:\n<indent=30><i>{safehouseInfo}</i></indent>
+convo.goons.persuader-reveal-resources-player	ふむ。上司に見せて、私たちの組織の興味を引くものを決めましょう。ではでは。
+convo.gambling.heal-ok-button	かなりぶっ壊れました。しばらくはこの辺で回復に努めます。
+convo.force-deposit-button	もしかして、私たちが今、銀行を経営していることをご存知ですか？ただ、友人に預金をお願いしているんだ。尊敬と信頼の証としてね
+convo.force-deposit-button.mo	このビジネスで現金を手に入れる。
+convo.ticket-force-loan-start-npc	なぜ、このような預金は多かれ少なかれ永久に続くと感じるのでしょうか。
+convo.ticket-force-loan-start-button	あなたは永久と言う。私は安全だと言っています 議論はやめましょう。現金でいい。
+convo.ticket-force-loan-start-cancel	よく考えたら、お金は持っていてください。でも、私たちの会話を思い出してください。
+convo.crew.searching-scheme	ボス、こんにちは。大したことはないんだが......耳を傾けています。\n<indent=15><i>(自分の帝国とオペレーションを成長させ続けることで、新たなスキームを発見することができる。)</i></indent>
 convo.crew.start-scheme.icon	<sprite name="ui schemes">
-convo.crew.start-scheme.human	I'm thinking of running a scheme.
-convo.crew.start-scheme.select.npc	I can start up on that， yeah. What specifically do you want me to do?
-convo.crew.confirm-scheme.npc	Got it. I'll make it happen.
-convo.crew.confirm-scheme.human	You do that. Report back if you need anything.
-convo.crew.scheme-cost.money	<indent=18><i>Costs: {cash}</i></indent>
-convo.crew.scheme-cost.res	<indent=18><i>Consumes: {resAndQty}</i></indent>
-convo.crew.back-button	Actually， I think I need something else.
-convo.crew.nevermind	Nevermind.
-resresults.result-add-fireplace.eventresult.m	During after dinner drinks， you mentioned that you'd like our fireplace and that something like it would really add to your office. Well， {othername} overheard that and he just happens to know about a particularly elegant fireplace that a cousin is restoring for a wealthy client. If you'd like， he could， say， misplace it into your office. He'd just need some materials to insall it.
-resresults.result-add-fireplace.you-yes	Correct. I'm imagining warming myself on a cold evening after a day of， um， business. And just in case some things need to be quickly and convenient burned.
+convo.crew.start-scheme.human	スキームを実行しようと考えています。
+convo.crew.start-scheme.select.npc	その辺の事情もありますしね。具体的に何をすればいいんですか？
+convo.crew.confirm-scheme.npc	了解です。必ず成功さませす。
+convo.crew.confirm-scheme.human	そうしてください。何かあったら報告するように。
+convo.crew.scheme-cost.money	<indent=18><i>費用: {cash}</i></indent>
+convo.crew.scheme-cost.res	<indent=18><i>消費: {resAndQty}</i></indent>
+convo.crew.back-button	実は、もうひとつ必要なものがあるんです。
+convo.crew.nevermind	ネバーマインド
+resresults.result-add-fireplace.you-yes	正しい。仕事終わりの寒い夜に、体を温めるイメージです。そして、万が一、すぐに燃やしたいものがあったときのために。
 resresults.result-add-fireplace.npc-yes	I'll let them know. With the owners being out of town， it will be a bit until they come asking about their property.
 resresults.result-add-fireplace.you-no	Eh. Not right now. Seems like a hassle to deal with a fireplace.
 resresults.result-add-fireplace.npc-no	Well， then I'd just ask that you forget that I mentioned it. Just in case.
@@ -9630,94 +9311,93 @@ module.bootlegger-home-brew-homemade-brandy.details	Establish a bootlegging oper
 module.conversion-backroom-distillery-improved.details	We can install a larger still back here that can turn corn syrup into neutral alcohol or convert industrial alcohol to neutral alcohol for further uses.
 convo.ticket-intro-flavor.module.production-homebooze-homemade-brandy	Need any materials for your homemade brandy still? I might know someone who could help out.
 module.icons.homemade-brandy	<sprite name="res homemade-brandy">
-res.jewelry.name	Gemstones
-res.jewelry.listname	gemstones
+res.jewelry.name	原石
+res.jewelry.listname	原石
 res.jewelry.icon	<sprite name="res jewelry" tint>
-res.jewelry.desc	Glistening jewels set in finely crafted precious metals. Very valuable.
-res.homemade-brandy.name	Homemade Brandy
-res.homemade-brandy.desc	The product of a simple home-crafted still， this potent substance comes from taking a mash made from fruit or citrus and leaving it in small barrels for a while before basic distillation.
-res.homemade-brandy.listname	homemade brandy
+res.jewelry.desc	精巧に作られた貴金属に、きらびやかな宝石をセット。非常に価値のあるもの。
+res.homemade-brandy.name	自家製ブランデー
+res.homemade-brandy.desc	果実や柑橘類から作ったもろみを小さな樽にしばらく寝かせてから基礎蒸留する、自家製の簡易蒸留器から生まれる強力な物質である。
+res.homemade-brandy.listname	自家製ブランデー
 res.homemade-brandy.icon	<sprite name="res homemade-brandy" tint>
-throne.generic.defaultsig	<i>Earned through the expansion of your criminal empire.</i>
-throne.cheat-sig	<i>Added by Debug Console</i>
-throne.lodge.title	Country Lodge
-throne.lodge.defaultsig	<i>Added to your Country Lodge as a result of your empire's great strength.</i>
-throne.skyscraper.title	The Penthouse
-throne.skyscraper.defaultsig	<i>Added to your Office as a symbol of your greatness.</i>
-trophy.basic-desk.title	Boss' Desk
-trophy.basic-desk.desc	An imposing workspace for an impressive boss. No one will doubt that you're in charge when you're behind this desk.
-trophy.basic-chair.title	Boss' Chair
-trophy.basic-chair.desc	Without too much flair， but plenty imposing enough to let everyone know their place.
-trophy.fancy-chair.title	Luxury Desk Chair
-trophy.fancy-chair.desc	Your crew is becoming the premiere outfit in town. A real empire. So how about a plush leather throne suitable for your awe-inspiring presence?
-trophy.fancy-desk.title	Executive Desk
-trophy.fancy-desk.desc	With all of the businesses you're running， you've become quite the executive. And the head of any suitably large organization requires a suitably impressive desk whence orders to run the empire emit.
-trophy.initial-unlock.title	This should be invisible and off screen.
-trophy.initial-unlock.desc	This should be invisible and off screen.
-trophy.visitor-chairs.title	Guest Chairs
-trophy.visitor-chairs.desc	Now that you have a larger crew， you need a proper place to meet with crew members and other visitors.
-trophy.drapes.title	Velvet Curtains
-trophy.drapes.desc	Knowing that there are quite a few rival outfits around， you could use some added privacy. These thick， heavy velvet drapes not only improve the interior appearance of your office， they can be easily closed to keep eyes on the exterior from peering in.
-trophy.persian-rug.title	Persian Rug
-trophy.persian-rug.desc	This hand-crafted beauty was imported from Persia. It was being delivered by train， but now that there's a train station in your territory， you can help yourself to certain things.
-trophy.persian-rug-skyscraper.title	Moderne Rug
-trophy.persian-rug-skyscraper.desc	A hand-crafted carpet from an upscale European artist. It was being delivered by train， but now that there's a train station in your territory， you can help yourself to certain things.
-trophy.bear-skin-rug.title	Bear Skin Rug
-trophy.bear-skin-rug.desc	During that scheme in the country， your loyal crew member went on a hunting trip and brought this back for you. This awesome predator was once king of his forest. Now he's a decoration in front of your fireplace. A metaphor for something or other， so you've been told.
-trophy.caesar.title	The Empire
-trophy.caesar.desc	You captains all got together and bought you a bust of Julius Caesar as a token of respect. How thoughtful.
-trophy.chess-set.title	Checking on the Neighborhoods
-trophy.chess-set.desc	You've got pawns running fronts for you all over the city. Now invite visitors to play a game of chess against the boss. Maybe advise them that it's best to let the boss win.
-trophy.landscape-paintings.title	Landscape Paintings
-trophy.landscape-paintings.desc	The things you find that local hooligans have got their mitts on. An appraiser said these were by a famous artist. And worth a fortune. These lovely scenes of bucolic winter are yours to suitably impress visitors to your inner sanctum.
-trophy.figurine.title	Good Luck Figurine
-trophy.figurine.desc	You've shaken down quite a few gamblers. Their bad luck has been your good fortune. To promote your continued success in gambling， your crew got you this good luck figurine for your office.
-trophy.modern-paintings.title	Contemporary Art
-trophy.modern-paintings.desc	The things you find that local hooligans have got their mitts on. Seems that some struggling artst got on their bad side and they took these as some sort of repayment. There's a gallery owner who says that the artist， despite the poor choice in friends， is an up and comer.
-trophy.bar.title	Deluxe Bar Set
-trophy.bar.desc	Now that you're running speakeasies with the good stuff， it's time to stock your office accordingly.
-trophy.lounge.title	Highrise Lounge
-trophy.hunting-trophy.title	Mounted Stag Head
-trophy.hunting-trophy.desc	In gratitude for helping to save the farm， they've sent you this stuffed head that once rested above the main hall in the farmhouse. Now， it's yours as an expression of gratitude.
-trophy.grandfather-clock.title	Antique Case Clock
-trophy.grandfather-clock.desc	You've been running things for about 8 years now. This timepiece from days gone by reminds that time is money. And always has been.
-trophy.chandelier.title	Chic Chandelier
-trophy.chandelier.desc	As a token of respect， your new partners at the fancy hotel sent this over. It was destined for the Presidential Suite.
-trophy.souvenirs.title	Souvenirs of Home
-trophy.souvenirs.desc	 In exchange for helping to build a civic club， they've given you these souvenirs of the homeland collected from various members as a token of respect.
-trophy.fireplace.title	Fireplace
-trophy.fireplace.desc	Installed after an enlightening dinner party conversation. It adds warmth to the room. And it's there just in case something things need burned. Quickly.
-trophy.baseball-bat.title	Lucky Bat
-trophy.baseball-bat.desc	You persuaded someone running a front for a rival that it was best not to be doing that. Maybe it was your convincing oratory. Or maybe it was this bat. Either way， it's now a lucky bat in your office should your oratory again prove insufficient.
-trophy.telephone.title	Desk Phone
-trophy.telephone.desc	With so many business deals under your belt， maybe it's time to have a more direct method of communication with the outide world in your office.
-trophy.hat-tree.title	Coat Rack
-trophy.hat-tree.desc	It's not just you and a friend anymore. With your third crew member， maybe it's time to act more civilized and stop throwning coats on chairs or on the floor. 
-trophy.photos.title	Influential Photos
-trophy.photos.desc	You've called in a lot of favors now. But that also means that a lot of people around town owe you. In fact， some of them are fairly famous and these photos with you will make it very obvious who some of your powerful friends are.
-trophy.books.title	Your Personal Library
-trophy.books.desc	As you've attended several dinner parties and other social events， you've found it's helpful to know about the latest novels and other books to augment your conversational arsenal. Plus， displaying these lets visitors know that you're more than just a street brawler.
-trophy.tommy-guy.title	Your Very Favorite Tommy Gun
-trophy.tommy-guy.desc	Now that your outfit knows about several types of firearms and has been in a few altercations， this mounted Thompson Submachine Gun behind you will remind visitors that if things get complicated， you're willing to do whatever it takes. But it's just decoration. Or is it?
-trophy.liquor-stash.title	Stash of the Good Stuff
-trophy.liquor-stash.desc	Since your outfit knows all about the wide array of fine alcholic beverages that you can acquire and provide to discerning customers， you've kept some of the best stuff for your own enjoyment.
-trophy.liquor-stash-cincinnati.desc	With all of the bourbon you've deal， you've come to appreciate the subtle notes of a well-crafted Kentucky whiskey. These excellent examples are from your newly established private reserve.
-trophy.fishing-trip.title	Seaside Mementos
-trophy.fishing-trip.desc	After cementing your relationship with the local longshoremen's union， you went out on a fishing trip with the union leadership and brought back some nautical knick-knacks.
-trophy.business-awards.title	Entrepreneur of the Year
-trophy.business-awards.desc	With so many business people considering you to be a partner， the local chapter of the Chamber of Commerce made you "Entrepreneur of the Year" and you received some lovely gifts at the gala luncheon.
-trophy.wall-safe.title	Wall Safe
-trophy.wall-safe.desc	With a successful bank robbery under your outfit's belt， this wall safe will demonstrate that you've got items worth protecting with a bit of extra security. 
+throne.generic.defaultsig	<i>犯罪者帝国の拡大により獲得した。</i>
+throne.cheat-sig	<i>デバッグコンソールで追加</i>
+throne.lodge.title	カントリーロッジ
+throne.lodge.defaultsig	<i>あなたの帝国が大きな力を発揮した結果、あなたのカントリーロッジに追加されました。</i>
+throne.skyscraper.title	ペントハウス
+throne.skyscraper.defaultsig	<i>あなたの偉大さを象徴するものとして、オフィスに追加されました。</i>
+trophy.basic-desk.title	ボスのデスク
+trophy.basic-desk.desc	堂々としたワークスペースは、優れたボスのためにある。このデスクに座れば、誰もあなたが責任者であることを疑わないだろう。
+trophy.basic-chair.title	ボスの椅子
+trophy.basic-chair.desc	派手さはないが、自分の居場所を知らせるには十分な堂々としたものだ。
+trophy.fancy-chair.title	高級デスクチェア
+trophy.fancy-chair.desc	あなたの組織の構成員は、街で一番有名になりつつある。まさに真の帝国だ。あなたの畏敬の念にふさわしい豪華な革の玉座はいかがだろうか。
+trophy.fancy-desk.title	経営者のデスク
+trophy.fancy-desk.desc	あなたは経営者としての自覚を持ち、さまざまな事業を展開している。それなりに大きな組織のトップには、それなりに立派なデスクが必要で、そこから帝国の運営を命じる。
+trophy.initial-unlock.title	これは目に見えない、画面の外にあるべきものだ。
+trophy.initial-unlock.desc	これは目に見えない、画面の外にあるべきものだ。
+trophy.visitor-chairs.title	ゲストチェア
+trophy.visitor-chairs.desc	構成員の人数が増えたので、構成員や来客と打ち合わせをするための適切な場所が必要です。
+trophy.drapes.title	ベルベットカーテン
+trophy.drapes.desc	周囲にライバルが多いからこそ、プライバシーを守りたいでしょう。優雅な厚手のベルベットは、オフィスのインテリア性を高めるだけでなく、簡単に閉めることができるので、外からの視線を気にすることなく利用できます。
+trophy.persian-rug.title	ペルシャ絨毯
+trophy.persian-rug.desc	この手作りの美しさはペルシャから輸入されたものです。汽車で運ばれていましたが、テリトリーに駅ができたので、自給自足できるようになった。
+trophy.persian-rug-skyscraper.title	モダンな絨毯
+trophy.persian-rug-skyscraper.desc	ヨーロッパの高級作家の手による絨毯。汽車で運ばれていましたが、テリトリーに駅ができたので、自給自足できるようになった。
+trophy.bear-skin-rug.title	熊皮の絨毯
+trophy.bear-skin-rug.desc	その国での計画の合間に、あなたの忠実な構成員が狩りに出かけ、あなたのためにこれを持ち帰ってきました。この素晴らしい肉食獣は、かつては森の王者でした。今は暖炉の前の飾りになっている。何かの比喩なのだと、あなたは言っていましたね。
+trophy.caesar.title	帝国
+trophy.caesar.desc	キャプテン全員が集まり、敬意の印としてジュリアスシーザーの胸像を購入しました。 なんて思慮深いんだ。
+trophy.chess-set.title	周辺地域の確認
+trophy.chess-set.desc	あなたは街のあちこちにある手先を使って、あなたのためにフロントを張っています。ボスとチェスをするよう誘ってみよう。あと多分ボスを勝たせるのが一番だとアドバイスしてあげてください。
+trophy.landscape-paintings.title	風景画
+trophy.landscape-paintings.desc	地元のフーリガンが手に入れたもの。鑑定士が言うには、これは有名な画家の作品だそうです。一攫千金のチャンスだ。この美しい田舎の冬の風景は、君の聖域への訪問者に相応しく感銘を与えることだろう。
+trophy.figurine.title	幸運の置物
+trophy.figurine.desc	あなたはかなりの数のギャンブラーを陥れましたね。彼らの不運があなたの幸運につながったのです。ギャンブルでの継続的な成功を促進するために、あなたの仲間はオフィスにこの幸運の置物をプレゼントしました。
+trophy.modern-paintings.title	現代アート
+trophy.modern-paintings.desc	地元のフーリガンが手に入れたもの。どうやら、ある売れないアーティストが彼らに気に入られ、ある種の返済としてこれを手に入れたようだ。ギャラリーのオーナーが言うには、そのアーティストは友人には恵まれなかったが、新進気鋭のアーティストだという。
+trophy.bar.title	デラックスバーセット
+trophy.bar.desc	酒場を経営しているのだから、それなりのものをオフィスに置くべきでしょう。
+trophy.lounge.title	高層ラウンジ
+trophy.hunting-trophy.title	鹿の頭
+trophy.hunting-trophy.desc	農場を救ってくれたお礼にと、かつて農家の大広間の上にあったこの頭の剥製を送ってくれたのです。感謝の気持ちを込めて、あなたのものに。
+trophy.grandfather-clock.title	アンティークケース時計
+trophy.grandfather-clock.desc	もう8年ぐらい経営しているんですね。過ぎし日のこの時計は、「時は金なり」を思い起こさせる。そして常にそうであった。
+trophy.chandelier.title	シックなシャンデリア
+trophy.chandelier.desc	あなたの新しいパートナーである高級ホテルが、敬意を表してこれを送ってきたのです。プレジデンシャル・スイート向けのものです。
+trophy.souvenirs.title	故郷のお土産
+trophy.souvenirs.desc	市民クラブづくりに協力する代わりに、尊敬の念を込めて、さまざまなメンバーから集めた故郷のおみやげをプレゼントしてくれたそうです。
+trophy.fireplace.title	暖炉
+trophy.fireplace.desc	啓発的な食事会の後に設置。部屋に温かみを添えてくれます。それと万が一何かを燃やす必要がある場合に備えています。素早くね。
+trophy.baseball-bat.title	ラッキーバッド
+trophy.baseball-bat.desc	ライバルの隠れ蓑になっている人を説得して、そんなことはしないほうがいいと言わせたんですね。あなたの説得力のある弁舌のおかげかもしれません。あるいはこのバットのおかげかもしれない。いずれにせよ、あなたの弁舌が不十分であることが再び証明された場合、これは今あなたのオフィスにある幸運のバットになるはずです。
+trophy.telephone.title	卓上電話
+trophy.telephone.desc	多くの商談をこなすうちに、そろそろオフィスでも外部との直接的なコミュニケーション手段を持つべきかもしれません。
+trophy.hat-tree.title	コートラック
+trophy.hat-tree.desc	もう自分と友達だけではありません。構成員が3人になったら、もっと礼儀正しくして、コートを椅子や床に投げ捨てるのをやめるべきかもしれませんね。
+trophy.photos.title	インフルエンサーの写真
+trophy.photos.desc	あなたは今多くの好意を受けています。しかしそれは、街中の多くの人があなたに借りがあることも意味しています。実際その中にはかなり有名な人もいて、あなたと一緒に写っているこの写真で、あなたの強力な友人が誰なのかが非常によくわかるでしょう。
+trophy.books.title	個人用ライブラリー
+trophy.books.desc	食事会や社交の場に何度か参加するうちに、最新の小説などの本を知っていると、会話の幅が広がりますよね。また、これらの本は、あなたが単なるストリートファイターではないことを訪問者に伝えることができます。
+trophy.tommy-guy.title	お気に入りのトミーガン
+trophy.tommy-guy.desc	数種類の銃器に精通し、何度か口論になったこともあるあなたのコートの後ろにトンプソンサブマシンガンを持っておけば、物事が複雑になったとき、あなたは必要なことは何でもするということを訪問者に示すことができます。でもこれはただの飾りです。それとも…？
+trophy.liquor-stash.title	いいモノの隠し場所
+trophy.liquor-stash.desc	あなたの会社は目の肥えたお客さんに提供できる、さまざまな上質なアルコール飲料を知り尽くしているので、自分たちが楽しむために最高のものをいくつか持っているのです。
+trophy.liquor-stash-cincinnati.desc	バーボンを飲み続けているうちに、よくできたケンタッキーウイスキーの微妙なニュアンスを理解できるようになりました。これはあなたが新たに設立したプライベートリザーブからの逸品です。
+trophy.fishing-trip.title	海辺の記念品
+trophy.fishing-trip.desc	地元の港湾労働組合との関係を固めた後、組合の幹部と釣りに出かけ、航海用の小物を持ち帰りました。
+trophy.business-awards.title	アントレプレナー・オブ・ザ・イヤー
+trophy.business-awards.desc	多くのビジネスパーソンからパートナーとして認められ、地元商工会議所から「アントレプレナー・オブ・ザ・イヤー」を受賞し、祝賀会では素敵なプレゼントが贈られましたね。
+trophy.wall-safe.title	壁掛け式金庫
+trophy.wall-safe.desc	銀行強盗を成功させたように、この壁掛け式金庫は、あなたの持ち物を守るに値するセキュリティであることを証明するものです。
 dlc-panel.name.criminal-record	City of Gangsters: Criminal Record
 dlc-panel.icon.criminal-record	<sprite name="ui main menu criminal record dlc" tint=1>
-city-name.philadelphia	Philadelphia
+city-name.philadelphia	フィラデルフィア
 city-icon.philadelphia	<sprite name="ui main menu criminal record dlc">
-city-desc.philadelphia	At the confluence of the Delaware and Schuylkill Rivers， William Penn's <i>City of Brotherly Love</i> was founded in 1682 as a beacon for tolerance and freedom. This cradle of American independence extended this tolerance into Prohibition. Before the Volstead act came into effect in 1921， there were an estimated 1，700 saloons laced through Philadelphia's street and neighborhoods. By 1930， estimates were that roughly 1，200 still existed more or less in the open.\n\nPhilly's famous bootleggers like Max “Boo Boo" Hoff and Mickey Duffy were key players in the East Coast booze trade， brining illegal alcohol up from the New Jersey coast and along road and rail networks from the city's rural hinterlands. And they became staggeringly rich from the industrial alcohol produced in the Delaware Valley's sprawling chemical industry. So wealthy did Max Hoff become that he founded numerous financial institutions such as the infamous Franklin Mortgage & Investment Company， a money laundering front for what became the most lucrative bootlegging operation in the USA.\n\nAll of this fills the streets of Philadelphia with huge variety of schemes to pursue once your outfit has the captains to do it. Use the homemade brandy that you can manufacture and build up a new criminal empire.\n\n<b>So large are the opportunities here， you'll need some help. Outfits in Philadelphia start with a second crew member - a seasoned captain to help you take over Pennsylvania's largest city.</b>
+city-desc.philadelphia	"デラウェア川とシュイルキル川の合流点にあるウィリアム・ペンの<i>兄弟愛の町</i>は、寛容と自由の標識として1682年に設立された。このアメリカ独立の発祥地は、この寛容さを禁酒法にも拡大した。1921年にボルステッド法が施行される前、フィラデルフィアの街角や近隣には1,700軒もの酒場があったと推定されている。1930年までには、およそ1,200軒がまだ野放しの状態であったと推定される。\n\nフィラデルフィアの有名な密造者、マックス ""ブーブー ""ホフやミッキー・ダフィーは、東海岸の酒貿易の中心人物で、ニュージャージー州の海岸から、また街の後背地から道路や鉄道網を使って違法酒を持ち込んでいたのである。そして、デラウェア渓谷の化学工業地帯で生産される工業用アルコールから、莫大な富を手に入れた。マックス・ホフは、悪名高いフランクリン・モーゲージ＆インベストメント・カンパニーをはじめとする数々の金融機関を設立し、アメリカで最も儲かる密造酒の資金洗浄の隠れ蓑としたほど裕福になったのである。\n\nこのように、フィラデルフィアの街には様々な陰謀が渦巻いており、それを実行するキャプテンがいれば、あなたの組織はそれを追求することができる。自家製のブランデーを使って、新たな犯罪帝国を築き上げよう。\n\n<b>そのため、この地には大きなチャンスがあり、そのためには誰かの手助けが必要です。ペンシルバニア最大の都市、フィラデルフィアの街は、経験豊富な船長の手によって支えられています。</b>"
 skill.homebooze-homemade-brandy.name	Homemade Brandy Production
 skill.homebooze-homemade-brandy.icon	<sprite name="skill homemade-brandy">
 skill.homebooze-homemade-brandy.desc	If you learn this skill， you'll be able to make a very basic homemade brandy from fruit or citrus using small barrels and stoneware crocks.
 skill.homebooze-homemade-brandy.conv	We've got lots of experience making homemade booze. Particularly using fruit or citrus to make homemade brandy. Get me some materials and I'll show you how to set up a very simple still.
-skill.homebooze-homemade-brandy-quest.name	Homemade Brandy Production
 levelup.homemade-brandy-maker.name	Distillation: Homemade Brandy
 levelup.homemade-brandy-maker.desc	Increase the amount of homemade brandy from each production cycle
 levelup.homemade-brandy-maker.icon	<sprite name="res homemade-brandy">
@@ -9789,11 +9469,6 @@ chapter.general.fail.epilogue	<i>Have {name} do what's necessary and then let us
 chapter.general.trait-fail	Something fishy is going on
 chapter.general.trait-fail.epilogue	<i>{name}</i> is perhaps being overly careful， but something about this smells rotten， so they've decided to stop the whole affair.
 chapter.general.arrest.fail.epilogue	<i>{name} knew the risks. Now they'll have some time to reflect in the clink.</i>
-chapter.arrest.ic-end.fail	I just couldn't shake the tail， boss. But you know me. I'll never squawk.
-chapter.arrest-or-kill.fail	The cops! They're here with guns. Lots of guns!
-chapter.justfail.ic-end.fail	Turns out there's nothing here， boss.
-chapter.kill-crew.fail	I think I might need to go to the hospital.
-chapter.fail-general.ic-end.fail	Well， that didn't pan out.
 scheme.bank-heist.title	Bank Heist
 scheme.bank-heist.desc	{name} is working on a major score at one of the city's financial institutions.
 convo.scheme.bank-heist	Some of the banks around here look vulnerable and I think it's time that start preparing a heist. Start scouting a few out and get me a target or two. I've got some cash for you to spread around as you see fit and a revolver to keep yourself safe out there. Report back soon.
@@ -9861,63 +9536,62 @@ chapter.gain-bank.decide.epilogue	You'll now find that you can demand cash "depo
 chapter.gain-bank.decide.fail-traits	The Skin of Their Teeth
 chapter.gain-bank.decide.fail-traits.epilogue	They did not take kindly to your efforts to undermine their hold on the bank. It's only because {name} possesses some helpful traits that they were able to escape. Barely.
 chapter.gain-bank.decide.fail-death.epilogue	They did not take kindly to your efforts to undermine their hold on the bank. In fact， as {name} was going to what was supposed to be a final meeting， they were met with a hail of gunfire. They did not survive the encounter.
-chapter.inside-job.title	The Inside Job
-chapter.inside-job.ic-start	{name} is working on finding an approach to the heist from the inside of the bank.
-chapter.inside-job.oc-start	After some observation， {name} realizes that maybe guns blaring isn't the best approach to relieving this bank of its cash.
-chapter.inside-job.ic-end.success	Boss， I think we can get in and out quietly. We'll be in， out and long gone before anyone's the wiser. What do you think?
-chapter.inside-job.oc-end.success	{name} has found a weakness in the bank's security that can be easily exploited.
-chapter.inside-job.oc-end.fail	Next time， we should try to be a bit more stealthy while casing a bank.
-chapter.inside-job.decide.turn-guards	Use some cash to show the guards a good time and try to get something valuable for blackmail.
-chapter.inside-job.decide.get-plans	Have your crew pretent they're shopping for an alarm system - coincidentally the same one this bank uses.
-chapter.inside-job.decide.fail	Your crew's questions got the wrong kind of attention.
-chapter.turn-guards.title	Creating a Diversion
-chapter.turn-guards.ic-start	I've got to know these two guards. Brothers， I think. With some enticement， I'm sure that can be pursuaded to be elsewhere for a bit while we visit the vault.
-chapter.turn-guards.oc-start	{name} is trying to figure out how the bank's guards can enticed to be elsewhere at a particularly convenient time.
-chapter.turn-guards.oc-end.success	{name} has convinced the guards to cooperate in our heist scheme.
-chapter.turn-guards.oc-end.fail	Looks like the guards were actually guarding after all and just leading {name} along.
-chapter.turn-guards.ic-end.success	Well， boss， these guys are on board， but we'll need to reward them for their lack of attention.
-chapter.turn-guards.cash	Just throw them some cash and they can buy whatever they want to drink the night away. And every night for quite a while after that.
-chapter.turn-guards.fake-wine	Get the guards a large delivery of counterfeit wine in exchange for their timely absence.
-chapter.turn-guards.sparkling-cider	Get the guards a large delivery of sparkling cider in exchange for their timely absence.
-chapter.turn-guards.fake-beer	Get the guards a large delivery of backroom beer in exchange for their timely absence.
-chapter.turn-guards.bathtub-gin	Get the guards a large delivery of bathtub gin in exchange for their timely absence.
-chapter.turn-guards.fruit-brandy	Get the guards a large delivery of rakija in exchange for their timely absence.
-chapter.turn-guards.corn-whiskey	Get the guards a large delivery of corn whiskey in exchange for their timely absence.
-chapter.midnight-visit.title	Late Night Banking
-chapter.midnight-visit.ic-start	We've got a solid plan to bypass securty， it's only a matter of time until we get into the bank vault unnoticed. Just waiting for the signal.
-chapter.midnight-visit.oc-start	{name} is waiting for the agreed upon sign to move in and take the score.
-chapter.midnight-visit.oc-end.success	Things have turned out well.
-chapter.midnight-visit.oc-end.fail	Well， that didn't pan out.
-chapter.midnight-visit.ic-end.success	We did it， boss. I love it when a plan comes together. Especially when the end of the plan involves us getting rich.
-chapter.midnight-visit.decide.scheme-end	Jackpot.
-chapter.midnight-visit.decide.epilogue	Just drive away slowly. Nonchalantly. With bags full of cash.
-chapter.midnight-visit.decide.fail	A trap!
-chapter.midnight-visit.decide.fail-traits.epilogue	{name} just felt that this was off， so they called a halt to the scheme. Good thing， too. A quick drive by the bank showed cops being not so subtle with guns drawn inside the bank.
-chapter.midnight-visit.decide.fail-death.epilogue	{name} was supposed to just walk into the vault after bypassing bank securty. Seemed all too easy. And that's because the cops were waiting. And {name} isn't the type to go down without a fight. They just picked the wrong fight this time.
-chapter.midnight-visit.decide.fail-arrest.epilogue	{name} walked right into the trap. Seeing all the cops， they decide that it's best to just clam up and take the fall. Not the outcome sought.
-chapter.bank-robbery.title	The Robbery
-chapter.bank-robbery.ic-start	I think that the most direct way to relieve a bank of their cash involuntarily is with a clear note and a gun. So I will case the joint， yeah? Find out when we should go in， guns blazing!
-chapter.bank-robbery.oc-start	{name} is casing out a bank in preparation for a good， old-fashioned robbery.
-chapter.bank-robbery.ic-end.success	This knock-over should be a pushover. How should be go in， boss?
-chapter.bank-robbery.oc-end.success	Time to lock and load.
-chapter.bank-robbery.oc-end.fail	Even on these mean streets， sometimes looking for weapons still draws police attention.
-chapter.bank-robbery.decide.guns-blazing-colt	Use these colt revolvers in the robbery.
-chapter.bank-robbery.decide.guns-blazing-winchester	Use these Winchesters. They'll show we mean business.
-chapter.bank-robbery.decide.guns-blazing-thompson	These submachine guns should put the fear in everyone in the bank.
-chapter.bank-robbery.decide.guns-blazing-pistol	Let's be quiet and stealthy on entering with these pistols.
-chapter.bank-robbery.decide.weapons-buy	I'll let you decide what weapons to buy once you've cased the joint.
-chapter.bank-robbery.decide.safe-cracker	We could also use a safe cracker. Use one of our garages to get equipment ready to blow the vault.
-chapter.bank-take-over-fail	One of the bank guards earned their keep - they noticed your crew hanging around and called the cops.
+chapter.inside-job.title	内部からの手引
+chapter.inside-job.ic-start	{name}は、銀行内部から強盗に必要な情報を見つけることに取り組んでいます。
+chapter.inside-job.oc-start	その結果、{name}はこの銀行から現金を引き出すには、銃を乱射するのが最適な方法ではないことに気づく。
+chapter.inside-job.ic-end.success	ボス、私たちなら静かに乗り込むことができると思うんです。誰にも気づかれないように入って、出て、去る。どう思いますか？
+chapter.inside-job.oc-end.success	{name}は、銀行のセキュリティに簡単に悪用できる弱点を発見しました。
+chapter.inside-job.oc-end.fail	次回は、もう少しこっそり銀行の下見をするようにしよう。
+chapter.inside-job.decide.turn-guards	現金を使って警備員に甘い時間を与え、なにかしらの脅迫材料を手に入れようとしています。
+chapter.inside-job.decide.get-plans	スタッフに警報システムを買いに行くふりをさせ、偶然にもこの銀行が使っているものと同じものを買わせる。
+chapter.inside-job.decide.fail	あなたの構成員の質問は、間違った方向に伝わってしまった。
+chapter.turn-guards.title	陽動作戦の展開
+chapter.turn-guards.ic-start	彼ら2人の警備員を知る必要がありました。兄弟だと思います。うまい話で釣って、私たちが金庫室を訪問している間、ちょっと間別の場所にいるように説得できると思います。
+chapter.turn-guards.oc-start	{name}は、銀行の警備員が特に都合の良い時間に他の場所にいるように誘導する方法を考えています。
+chapter.turn-guards.oc-end.success	{name}は我々の強盗計画に協力するよう警備員を説得しています。
+chapter.turn-guards.oc-end.fail	結局、警備員は実際に警備をしていて、{name}を誘導していただけだったようだ。
+chapter.turn-guards.ic-end.success	ボス、こいつらは乗り気ですが、注意力が足りないので、ご褒美が必要そうです。
+chapter.turn-guards.cash	彼らにいくらかの現金を渡せば、好きなものを買って一晩中飲み明かすでしょう。その後もしばらくは毎晩のようにね。
+chapter.turn-guards.fake-wine	警備員に偽造ワインを大量に配達させ、その代わり必要な時に不在にさせる。
+chapter.turn-guards.sparkling-cider	警備員にスパークリングシードルを大量に配達させ、その代わり必要な時に不在にさせる。
+chapter.turn-guards.fake-beer	警備員に密造ビールを大量に配達させ、その代わり必要な時に不在にさせる。
+chapter.turn-guards.bathtub-gin	警備員にバスタブ・ジンを大量に配達させ、その代わり必要な時に不在にさせる。
+chapter.turn-guards.fruit-brandy	警備員にラキヤを大量に配達させ、その代わり必要な時に不在にさせる。
+chapter.turn-guards.corn-whiskey	警備員にコーンウィスキーを大量に配達させ、その代わり必要な時に不在にさせる。
+chapter.midnight-visit.title	深夜の銀行
+chapter.midnight-visit.ic-start	セキュリティを確実に回避する計画があるんだ。気づかれずに銀行の金庫室に侵入するのは時間の問題だと思っています。あとは合図を待っています。
+chapter.midnight-visit.oc-start	{name}は、合意されると同時に移動して実行に移します。
+chapter.midnight-visit.oc-end.success	物事はうまくいった。
+chapter.midnight-visit.oc-end.fail	まあ、うまくはいきませんでした。
+chapter.midnight-visit.ic-end.success	やりましたね、ボス。計画が実現するのは、とても嬉しいことです。特にこの計画の最後に、私たちが金持ちになることが含まれている場合はね。
+chapter.midnight-visit.decide.scheme-end	ジャックポットだ。
+chapter.midnight-visit.decide.epilogue	ゆっくり走り去ればいい。淡々と。現金の詰まったバッグを持って。
+chapter.midnight-visit.decide.fail	罠だ！
+chapter.midnight-visit.decide.fail-traits.epilogue	{name}は、なにかおかしいと思い計画を中止させたのです。いい考えだった。その銀行の近くを車で通ると、銀行内で銃を構えている警官がいて、微妙な感じだった。
+chapter.midnight-visit.decide.fail-death.epilogue	{name}は、銀行のセキュリティを回避した後、金庫室に入ることになっていた。あまりにも簡単そうに思えた。それは警察が待っていたからだ。{name}は戦わずに倒れるタイプじゃないしね。今回は相手を間違えただけだ。
+chapter.midnight-visit.decide.fail-arrest.epilogue	{name}はまんまと罠にはまった。警察を見た彼らは、ただ黙って降伏するのが一番だと判断した。期待した結果ではありませんね。
+chapter.bank-robbery.title	強盗
+chapter.bank-robbery.ic-start	銀行から現金を強制的に引き出すには、明確な下調べと銃が最も直接的な方法だと思うんだ。だから私はその場所を確認すべきだと思う。いつ突入するか見定めろ、銃撃戦だ！
+chapter.bank-robbery.oc-start	{name}は昔ながらの強盗の準備のために、銀行を下見しています。
+chapter.bank-robbery.ic-end.success	ここの強盗は朝飯前ですね。ボス、どうやって入るんです？
+chapter.bank-robbery.oc-end.success	時を待つんだ、装填しておけ。
+chapter.bank-robbery.oc-end.fail	こんな汚い道でも、武器を探すと警察の注意を引くことがある。
+chapter.bank-robbery.decide.guns-blazing-colt	このコルトリボルバーを強盗に使うんだ。
+chapter.bank-robbery.decide.guns-blazing-winchester	このウィンチェスターを使うんだ。私たちの本気度を示すことができる。
+chapter.bank-robbery.decide.guns-blazing-thompson	このサブマシンガンは、銀行内の全員に恐怖を与えるはずだ。
+chapter.bank-robbery.decide.guns-blazing-pistol	このピストルで静かにステルスで入ろう。
+chapter.bank-robbery.decide.weapons-buy	どんな武器を買うかは、下見の結果を元に決めればいい。
+chapter.bank-robbery.decide.safe-cracker	金庫破りも使える。金庫を破るための装備を準備するために、我々のガレージの一つを使う。
 chapter.guns-blazing.title	Trigger Fingers
-chapter.guns-blazing.ic-start	Now that there's a plan for the robbery， time to get some bodies to carry the guns. I'll be back in a bit with some ideas.
-chapter.guns-blazing.oc-start	{name} is putting together the people for the upcoming bank robbery.
-chapter.guns-blazing.oc-end.success	{name} is ready to hire the crew he's put together.
-chapter.guns-blazing.ic-end.success	Here's who I think we need to pull this heist off， boss. We just need to advance them a bit. We'll make this back once we get an， um， loan from the bank.
-chapter.guns-blazing.oc-end.fail	Always be careful about inviting an unknown person to hear about a scheme.
-chapter.guns-blazing.decide.crew-gather-leader	{name} is a natural leader who everyone likes， so they can recruit a crew on the cheap.
-chapter.guns-blazing.decide.crew-gather-bad-leader	{name} can sometimes be difficult to work with， so you'll need some extra cash incentives for the robbery crew.
-chapter.guns-blazing.decide.crew-gather	Use some cash to gather some people for the robbery.
-chapter.guns-blazing.trait-fail	{name} is just hard to work with. No one wanted to join up， so we've got to call this off.
+chapter.guns-blazing.ic-start	さて強盗の計画も決まったことだし、そろそろ銃を運ぶための人数を集めないとね。またアイデアを練ってきます。
+chapter.guns-blazing.oc-start	{name}は今度の銀行強盗のために人を集めている。
+chapter.guns-blazing.oc-end.success	{name}は集めた構成員を雇う準備ができています。
+chapter.guns-blazing.ic-end.success	この強盗を成功させるために必要な人物はこれです、ボス。少し前払いしてくれませんか。この分は銀行から融資を受けたら必ず返します。
+chapter.guns-blazing.oc-end.fail	計画について聞くために見知らぬ人を招待することには常に注意してください。
+chapter.guns-blazing.decide.crew-gather-leader	{name}は誰からも好かれる天性のリーダーなので、安くスタッフを集めることができます。
+chapter.guns-blazing.decide.crew-gather-bad-leader	{name}は気難しいところがあるので、強盗団のために特別な現金のインセンティブが必要です。
+chapter.guns-blazing.decide.crew-gather	現金を使って強盗の仲間を集める。
+chapter.guns-blazing.trait-fail	{name}とは一緒に仕事をするのが難しいでしょう。誰も参加したがらないので、中止することにしました。
 chapter.crew-gather.title	Share the Plan
 chapter.crew-gather.ic-start	So boss， we're having a gathering. We'll call it a picnic with the crew I've got for our "visit" to the bank. I'll be driving around a bit getting that together.
 chapter.crew-gather.oc-start	{name} is preparing for one more get-together to finalize the heist.
@@ -9969,7 +9643,6 @@ chapter.get-plans.ocend.fail	Things have not gone well at the alarm company. Not
 chapter.get-plans.ic-end.success	I can get the plans， boss. Just need a bit of cash， boss. Money talks here.
 chapter.get-plans.decide.charmed-plans	{name} just has a way with people and usually merely has to ask nicely and pay the usual fees.
 chapter.get-plans.decide.bribed-plans	{name} will need a big bribe to get their hands on the alarm system plans.
-chapter.get-plans.decide.fail	As soon as {name} started talking about getting plans， some literal alarm bells went off.
 chapter.plans-timing.title	The Bypass
 chapter.plans-timing.ic-start	We've got the plans， now we just need to figure out to do with them. I'll study up and see what the best approach might be.
 chapter.plans-timing.oc-start	 Now that you've got the plans， what to do with them?
@@ -10056,9 +9729,7 @@ chapter.late-night-delivery.ic-start	All set， boss. See you soon. You'll be pl
 chapter.late-night-delivery.oc-start	{name} is heading back to town with a big score.
 chapter.late-night-delivery.oc-end.success	{name} has indeed pulled off a major score with the "sort of" friends from the suburbs.
 chapter.late-night-delivery.ic-end.success	All unloaded boss. It was even more than I thought! This stuff sure will be fetch a pretty penny!
-chapter.late-night-delivery.inprogress	chapter.late-night-delivery.inprogress
 chapter.late-night-delivery.decision.success	<i>"Got the stuff， boss. And it's good stuff."</i>
-chapter.late-night-delivery.decision.fail	chapter.late-night-delivery.decision.fail
 chapter.late-night-delivery.decide.bottles	Case and cases
 chapter.late-night-delivery.epilogue	{name} secured a substantial delivery of booze as a result of this deal with our suburban friends.
 chapter.late-night-delivery.decide.bottles-discovery	In addition to the booze we wanted， we've also found out about something new and potentially lucrative for the future.
@@ -10225,89 +9896,91 @@ chapter.get-building.oc-end.success	A new building is ready.
 chapter.get-building.ic-end.success	Should I show you around， boss?
 chapter.get-building.scheme-end	Sure - let's see what we got!
 chapter.get-building.scheme-end.epilogue	Your outfit has acquired a new building.
-scheme.distant-outpost.title	Distant Outposts
-scheme.distant-outpost.desc	Use your lookout's knowledge of the city to spread your outfit into an entirely new area.
-convo.scheme.distant-outpost	You know this city real well. How about you try to set up a new front for our outfit in a distant neighborhood?
-chapter.secret-recon.title	Secret Reconnaissance
-chapter.secret-recon.ic-start	I'll be unavailable. Undercover， like. But then I'll let you know where I want to set up a new front. Copacetic?
-chapter.secret-recon.oc-start	{name} is off on a secret trip to find a far-off possibility for a new front.
-chapter.secret-recon.oc-end.success	{name} thinks that your outfit can expand here.
-chapter.secret-recon.ic-end.success	How about here， boss?
-chapter.secret-recon.decide.outpost-deal	Yeah， you've set up a front before. And it looks like you've figured out how to make the locals fall in line. Go for it.
-chapter.secret-recon.decide.area-recon	Good spot. Let's see if we can figure out how to convince the locals that our outfit is worth siding with. Check around.
-chapter.area-recon.title	Checking Around
-chapter.area-recon.ic-start	Got it. I'll find out how we can impress the locals， get them on our side and convince our new friend to start a front.
-chapter.area-recon.oc-start	{name} is talking to folks in the area， looking for avenues to get their support.
-chapter.area-recon.oc-end.success	{name} thinks that they've found a way to make a hit with the locals.
-chapter.area-recon.oc-end.fail	It's dangerous poking around in unfriendly territory.
-chapter.area-recon.ic-end.success	So boss， here's my idea. A block party. Furnished by yours truly.
-chapter.area-recon.decide.outpost-deal	No need. You're plenty persuasive on your own， no party required. Go ahead and start up the deal.
-chapter.area-recon.decide.block-party-cash	Make it happen. Here's some cash for supplies and iced cream for the kiddos.
-chapter.area-recon.decide.block-party	We'd be happy to provide the refreshments.
-chapter.area-recon.fail	Maybe our reconnaissance wasn't up to par?
-chapter.area-recon.fail.epilogue	In any case， no new front for us.
-chapter.area-recon.fail-death.epilogue	Very dangerous out here indeed!
-chapter.block-party.title	A Block Party
-chapter.block-party.ic-start	It's going to be a rollicking great party， boss!
-chapter.block-party.oc-start	{name} is putting on a block party.
-chapter.block-party.oc-end.success	The block party was a runaway success.
-chapter.block-party.oc-end.fail	The block party was one for the record books. And not a good record.
-chapter.block-party.ic-end.success	Well， the locals are all on board. Should be easy to convince them to start up a front now.
-chapter.block-party.decide.outpost-deal	Then let's set it up!
-chapter.block-party.fail.arrest	The block party got way out of hand and it seems like all the cops showed up. All of them.
-chapter.outpost-deal.title	Frontage
-chapter.outpost-deal.ic-start	They're ready to agree， boss. I'll close the deal this week.
-chapter.outpost-deal.oc-start	{name} is completing the deal to start a new front in this faraway corner.
-chapter.outpost-deal.ic-end.success	All we need is your final go-ahead， boss.
-chapter.outpost-deal.oc-end.fail	Maybe you didn't properly check these new front people out?
-chapter.outpost-deal.oc-end.success	A new front beckons.
-chapter.outpost-deal.decide.small-territory	Since you don't control that many corners， they'll want a down payment.
-chapter.outpost-deal.decide.large-territory	They say it's an honor to join up with your outfit.
-chapter.outpost-deal.justfail	Cold feet?
-chapter.outpost-deal.justfail.epilogue	They backed out at the last moment. Shame.
-chapter.outpost-deal.fail-arrest	They sold us out!
-chapter.outpost-deal.fail.epilogue	{name} is headed off for a "rest". They've been arrested.
-chapter.outpost-deal.scheme-end.epilogue	{name} was right， and now a new home for your illegal activities has opened up across the city.
-scheme.jewel-heist.title	Jewelry Heist
-scheme.jewel-heist.desc	Banks aren't the only thing that your enforcer can rob.
-convo.scheme.jewel-heist	There are some jewelry stores in the area that are just ripe for the taking. I'd like for you to go after one. What do you say?
-chapter.jewel-search.title	Jewelry Appraisal
-chapter.jewel-search.ic-start	I'll have a look around and see if there are any jewelry stores or gem dealers that we know about that are ripe for the picking， boss.
-chapter.jewel-search.oc-start	Send {name} to look and see if there are any jewelry outlets worth robbing.
-chapter.jewel-search.oc-end.success	{name} has found something that could be worth robbing.
-chapter.jewel-search.oc-end.fail	{name} reports that now might not be the right time for a jewelry heist.
-chapter.jewel-search.ic-end.success	Yeah， boss. So looks like we've got an opportunity to make a score. How you want to do it?
-chapter.jewel-search.ic-end.fail	I think I got made， boss. So let's put the plans to score some ice on ice. I'll drop my gun off at the safehouse. Sorry， boss.
-chapter.jewel-search.decide.cat-burglary	Let's sneak in at night. The score won't be as big， but it's safer. More surgical.
-chapter.jewel-search.decide.daylight-robbery	Go in in broad daylight. Scare the tar out of them. Go for the big score no matter the risks.
-chapter.jewel-search.fail	If you think it's best to wait， then we wait.
-chapter.jewel-search.fail.epilogue	The scheme to pull off a jewelry heist will be set aside. For now.
-chapter.cat-burglary.title	Cat Burglary
-chapter.cat-burglary.ic-start	Then it's quiet and surgical， boss. We'll help ourselves in some night in the next week and let you know what we get.
-chapter.cat-burglary.oc-start	Send {name} in on a nighttime heist to acquire some jewelry and gemstones.
-chapter.cat-burglary.oc-end.success	{name} has succeded in the jewelry heist.
-chapter.cat-burglary.oc-end.fail	{name} tripped the alarms. The cops arrived quickly with predictable results.
-chapter.cat-burglary.decide.epilogue	The cat burglary succeeded. We've got some stones to fence.
-chapter.cat-burglary.fail	Next time， check for the alarm and maybe plan a better escape when the sirens blare.
-chapter.cat-burglary.fail.epilogue	{name} was arrested while trying to pull off a jewelry heist.
-chapter.daylight-robbery.title	Broad Daylight
-chapter.daylight-robbery.ic-start	Yeah， boss. We're going during the day. Guns loaded. Strike hard and grab all we can， that's the plan. It will be in the next two weeks.
-chapter.daylight-robbery.oc-start	{name} is getting ready for a brazen daylight robbery.
-chapter.daylight-robbery.ic-end.success	Fast and without hesitation is the way to go， I always say. And it worked like a charm， boss.
-chapter.daylight-robbery.oc-end.success	Despite the risks， the daylight robbery went off to plan.
-chapter.daylight-robbery.oc-end.fail	It appears the store owner was also armed. And had good aim.
-chapter.daylight-robbery.decide.epilogue	Jewelry and gems acquired. Now to fence the loot.
-chapter.daylight-robbery.fail	The owner was a quick draw. Very quick.
-chapter.daylight-robbery.fail.epilogue	{name} knew the risks of a daylight assault.
-chapter.jewel-heist.decide.scheme-end-low	We came away with a pretty sad score， didn't we? Maybe they knew we were coming? Maybe we just grabbed some bad stones?
-chapter.jewel-heist.decide.scheme-end-jewels-med	Not a bad score， all things considered.
-chapter.jewel-heist.decide.scheme-end-hi	Now that's what I call a robbery! A massive score.
-districts.center-city	CENTER\nCITY
-districts.lansdowne	LANSDOWNE
-districts.navy-yard	NAVY\nYARD
-districts.west-philly	WEST\nPHILADELPHIA
-districts.camden	CAMDEN，\nNEW JERSEY
-districts.north-philly	NORTH\nPHILADELPHIA
-districts.south-philly	SOUTH\nPHILADELPHIA
-districts.port-richmond	PORT\nRICHMOND
+scheme.distant-outpost.title	遠くの前哨基地
+scheme.distant-outpost.desc	監視の知識を活かして、組織を新しいエリアに広げよう。
+convo.scheme.distant-outpost	あなたはこの街をよく知っている。遠くの街で我々の組織のために新しい隠れ家を作るのはどうかな？
+chapter.secret-recon.title	密偵
+chapter.secret-recon.ic-start	私とは連絡が取れなくなると思います。潜入捜査のようなものです。でも新しいフロントを張れる所があれば知らせますよ。問題ないでしょうか？
+chapter.secret-recon.oc-start	{name}は新たなフロントの可能性を求めて、遥か彼方へ極秘の旅に出る。
+chapter.secret-recon.oc-end.success	{name}は組織がここで展開できると考えています。
+chapter.secret-recon.ic-end.success	ボス、ここはどうでしょうか？
+chapter.secret-recon.decide.outpost-deal	ああ、以前にもフロントを張ったことがあるんだな。地元住民を味方につける方法も理解しているようだ。やってみてくれ。
+chapter.secret-recon.decide.area-recon	良いところだ。地元の人たちを説得する方法を考えよう。我々の組織には味方する価値がある。辺りを見てくるよ。
+chapter.area-recon.title	周辺環境の確認
+chapter.area-recon.ic-start	了解です。私は地元の人々を感化させ味方につける方法を探します。そして新しい友人を説得してフロントに参加させますよ。
+chapter.area-recon.oc-start	{name}は、地域の人々に声をかけ、支持を得るための手段を模索しています。
+chapter.area-recon.oc-end.success	{name}は、地元の人たちの支持を得る方法を見つけたと考えている。
+chapter.area-recon.oc-end.fail	非友好的な領域に入り込むのは危険です。
+chapter.area-recon.ic-end.success	ボス、私のアイデアはこうです。ブロック・パーティーです。あなたの提供でね。
+chapter.area-recon.decide.outpost-deal	必要ない。君一人で十分説得力があるはずだ、パーティは必要ない。さあ取引を始めてくれ。
+chapter.area-recon.decide.block-party-cash	実現してみよう。これは必要なものと子供向けアイスクリームのを用意するための現金だ。
+chapter.area-recon.decide.block-party	軽食も用意させていただきます。
+chapter.area-recon.fail	偵察が不十分だったのでは？
+chapter.area-recon.fail.epilogue	いずれにせよ、新しいフロントはありません。
+chapter.area-recon.fail-death.epilogue	ここはとても危険な場所です！
+chapter.block-party.title	ブロック・パーティー
+chapter.block-party.ic-start	盛り上がること間違いなしです、ボス！
+chapter.block-party.oc-start	{name}はブロック・パーティーを開催している。
+chapter.block-party.oc-end.success	ブロックパーティーは大成功だった。
+chapter.block-party.oc-end.fail	ブロック・パーティーは記録に残るものとなった。それは良い記録ではありません。
+chapter.block-party.ic-end.success	それで地元の人たちは皆、支持してくれていますよ。今ならフロントを張るように説得するのは簡単なはずです。
+chapter.block-party.decide.outpost-deal	それなら計画してみよう！
+chapter.block-party.fail.arrest	ブロック・パーティーは手に負えなくなりました、警官が集まってきました。全員です。
+chapter.outpost-deal.title	空き地
+chapter.outpost-deal.ic-start	ボス、彼らは同意する準備ができています。今週中に契約を成立させますよ。
+chapter.outpost-deal.oc-start	{name}は、この遠い片隅で新しいフロントを開始するための取引を完了させている。
+chapter.outpost-deal.ic-end.success	あとはボスのゴーサインだけです。
+chapter.outpost-deal.oc-end.fail	もしかして、この新しいフロントの人達をちゃんとチェックしてないんじゃないですか？
+chapter.outpost-deal.oc-end.success	新たなフロントが稼働する。
+chapter.outpost-deal.decide.small-territory	それほど多くのコーナーを管理しないので、彼らは頭金を要求すると思います。
+chapter.outpost-deal.decide.large-territory	あなたの組織に合流するのは名誉なことだそうですよ。
+chapter.outpost-deal.justfail	冷やかしですか？
+chapter.outpost-deal.justfail.epilogue	最後の最後で手を引いてしまいましたね。残念です。
+chapter.outpost-deal.fail-arrest	彼らに売られたんだ！
+chapter.outpost-deal.fail.epilogue	{name}は「休養」に向かう。逮捕されました。
+chapter.outpost-deal.scheme-end.epilogue	{name}は正しかった、そして今あなたの違法行為のための新しい拠点が、街のあちこちにオープンしました。
+scheme.jewel-heist.title	宝石強盗
+scheme.jewel-heist.desc	エンフォーサーが奪えるのは銀行だけではありません。
+convo.scheme.jewel-heist	この地域には、まさに機が熟した宝石店がいくつかある。ぜひ狙ってほしいんだが。どうだ？
+chapter.jewel-search.title	宝飾品の鑑定
+chapter.jewel-search.ic-start	私たちが知っている宝石店や宝石商で、機が熟したものがないか見てきますよ、ボス。
+chapter.jewel-search.oc-start	{name}を派遣して、強盗する価値のある宝石店がないかどうか見てきてもらう。
+chapter.jewel-search.oc-end.success	{name}は強盗に値するものを発見した。
+chapter.jewel-search.oc-end.fail	{name}によると、今は宝石強盗に適した時期ではないかもしれないと報告を受けた。
+chapter.jewel-search.ic-end.success	ああ、ボス。どうやら手に入れるチャンスにはいいタイミングのようです。どうしましょうか？
+chapter.jewel-search.ic-end.fail	ボス、私は成功したと思ったんですが。宝石を見つける計画は置いておこうと思います。銃は隠れ家に預けておきます。すみません、ボス。
+chapter.jewel-search.decide.cat-burglary	夜に忍び込もう。スコアはそれほど大きくないが、でも安全だ。もっと正確にだ。
+chapter.jewel-search.decide.daylight-robbery	白昼堂々突入する。怖がらせてやれ。危険を顧みず大勝負に出よう。
+chapter.jewel-search.fail	もしあなたが待ったほうがベストだと考えているなら、私達は待ちますよ。
+chapter.jewel-search.fail.epilogue	宝石強盗の計画は中止しよう。今のところはね。
+chapter.cat-burglary.title	忍び込み泥棒
+chapter.cat-burglary.ic-start	それでいて静かで正確なんです、ボス。私たちは来週のある夜に行動を起こします、自分たち為になるものが入手できたか報告しますね。
+chapter.cat-burglary.oc-start	{name}を夜間強盗に送り込み、宝石や原石を手に入れる。
+chapter.cat-burglary.oc-end.success	{name}は宝石強盗を成功させた。
+chapter.cat-burglary.oc-end.fail	{name}がアラームを作動させた。警察はすぐに到着し、予想通りの結果になってしまった。
+chapter.cat-burglary.decide.epilogue	忍び込み泥棒は成功した。盗品として売れる石をいくつか入手した。
+chapter.cat-burglary.fail	次回はアラームを確認し、サイレンが鳴ったときにうまく逃げられるような計画を立てましょう。
+chapter.cat-burglary.fail.epilogue	{name}は宝石強盗をしようとして逮捕された。
+chapter.daylight-robbery.title	白昼堂々
+chapter.daylight-robbery.ic-start	ああ、ボス。昼間に行くつもりです。銃は装填済み。徹底的に叩いて奪い取る、それが計画です。2週間でね。
+chapter.daylight-robbery.oc-start	{name}は大胆な昼間の強盗の準備をしている。
+chapter.daylight-robbery.ic-end.success	私は「迅速に、判断を早く」が口癖なんです。そのおかげか見事に成功しましたよ、ボス。
+chapter.daylight-robbery.oc-end.success	危険はあったが、昼間の強盗は計画通りに進んだ。
+chapter.daylight-robbery.oc-end.fail	店主も武装していたようだ。それに腕も良かった。
+chapter.daylight-robbery.decide.epilogue	宝石類を入手した。さあ盗品を売りにいこう。
+chapter.daylight-robbery.fail	オーナーは早撃ちだった。ものすごくね。
+chapter.daylight-robbery.fail.epilogue	{name}は昼間に襲撃があることを知っていた。
+chapter.jewel-heist.decide.scheme-end-low	かなり微妙な結果だったようだね、そうだろ？多分私たちが来ることを知っていたんじゃないか？もしくは偶然良くない宝石を掴まされた？
+chapter.jewel-heist.decide.scheme-end-jewels-med	悪くない点数だと思う。
+chapter.jewel-heist.decide.scheme-end-hi	これぞ強盗！？大量得点だ！
+districts.center-city	センター\nシティー
+districts.lansdowne	ランズドウイン
+districts.navy-yard	ネイビー\nヤード
+districts.west-philly	西\nフィラデルフィア
+districts.camden	カムデン\nニュージャージー州
+districts.north-philly	北\nフィラデルフィア
+districts.south-philly	南\nフィラデルフィア
+districts.port-richmond	ポート\nリッチモンド
+?__id	en
+
 
