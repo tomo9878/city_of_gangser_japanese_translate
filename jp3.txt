@@ -1,7 +1,7 @@
 KEY	VALUE	COMMENTS
 __id	jp
 
-﻿﻿﻿ui.rename.random-nickname.m	傷顔
+﻿﻿﻿﻿ui.rename.random-nickname.m	傷顔
 ui.rename.random-nickname.m	恐怖
 ui.rename.random-nickname.m	賢者
 ui.rename.random-nickname.m	勇敢
@@ -74,7 +74,7 @@ convo.ticket-building-details-npc	近所に{bizname}という会社がありま�
 convo.ticket-building-details-npc	近所に{bizname}という会社があるんです。今のオーナーは倒産したらしい・・・で、全部売るらしい。
 convo.ticket-building-done-ok-button	一緒にビジネスをしていきましょう。
 convo.ticket-building-done-ok-button	Here's to a successful future.
-convo.initiative-qreq-no-npc	Ah・・that is too bad.
+convo.initiative-qreq-no-npc	あぁ…　それは残念です。
 convo.initiative-qreq-no-npc	残念なことです。
 convo.initiative-qreq-no-npc	聞いてみようと思ったんだ。
 convo.goons.toplevel.start.any.1	あなたを知っているかしら？見かけたことがあるような
@@ -181,58 +181,58 @@ recipe.scopeout.flavor-funeral	親愛なる故人を乗せた霊柩車を、最�
 recipe.scopeout.flavor-funeral	つまり、遺体以上のものを霊柩車で運んでいるのだと思われます。
 recipe.scopeout.flavor-funeral	この葬儀社の霊柩車を追跡してみました。思っているほど頻繁に墓地を訪れないようだ。
 recipe.scopeout.legal-furniture	セティ ソファー チェイス このショップでは、自宅でのくつろぎのためのオプションがたくさん販売されています。
-recipe.scopeout.legal-furniture	Beds. Dressers. Wardrobes. Armoires. Lots of furnishing options available here.
-recipe.scopeout.legal-jewelry	Watches sold and repaired. Brooches and pendants. Lots of fine jewelry sold here.
-recipe.scopeout.legal-jewelry	Sparkling rings. Glistening earrings. Fine watches and fobs. This store has some lovely gems and jewels.
-recipe.scopeout.legal-newspapers	All editions of the latest local news.
-recipe.scopeout.legal-newspapers	Press・・papers・・magazines and types of printed matter for sale here.
-recipe.scopeout.legal-candy	Bags of sugar. Boxes of chocolate. Things tied in ribbons carefully arranged in the storefront window.
-recipe.scopeout.legal-candy	From the aroma and the assortment of colorful treats in the windows・・this is likely a candy store.
-recipe.scopeout.legal-shoes	Fine footwear sold and serviced at this establishment.
-recipe.scopeout.legal-shoes	Dress shoes to work boots - all types and styles of footwear sold here.
-recipe.scopeout.legal-books	Fiction to reference works・・poetry to philosophy. This bookseller has it all.
-recipe.scopeout.legal-books	The latest bestsellers fly off the well-stocked shelves of this fine bookstore. 
-recipe.scopeout.legal-clothing	The latest styles of apparel fill the racks at this clothing shop.
-recipe.scopeout.legal-clothing	Clothes for work and fancy outfits for special occasions are in-stock and ready to wear.
-recipe.scopeout.flavor-laundry	This business specializes in the boring kind of laundering.
-recipe.scopeout.flavor-laundry	Soap. Hot water. Irons. Looks like some type of commercial laundry operation.
-recipe.scopeout.source-malt-small	We might be able to get our hands on malt syrup here that we'll only use for baking. Just baking.
-recipe.scopeout.source-malt-small	This business has excessive amounts of malt syrup just sitting around. If we ask nicely・・they may sell it to us.
-recipe.scopeout.building-materials-small	This business store doesn't appear too particular about permits to sell materials.
-recipe.scopeout.building-materials-small	We can probably get some construction materials here for building and expanding things.
-recipe.scopeout.source-tobacco-small	The large crates that move in at night smell suspiciously like raw tobacco even though the crates are labeled 窶戮OTTON窶・
-recipe.scopeout.source-tobacco-small	Trucks with license plates from the south show up and unload large crates late at night. Pretty sure it's raw tobacco.
-recipe.scopeout.source-labels	The owner of this print shop isn't too concerned about copyright laws and might be willing to sell us some convincing fake labels.
-recipe.scopeout.source-labels	A print shop with a pliable owner. Perhaps we could secure some convincing fake labels or other counterfeits.
+recipe.scopeout.legal-furniture	ベッド ドレッサー ワードローブ 収納家具。さまざまな家具をご用意しています。
+recipe.scopeout.legal-jewelry	時計の販売、修理。ブローチ、ペンダント。たくさんの高級ジュエリーが売られています。
+recipe.scopeout.legal-jewelry	きらめくリング。輝くピアス。上質な時計やフォブ。このお店には、素敵な宝石やジュエリーがあります。
+recipe.scopeout.legal-newspapers	最新のローカルニュースを全編掲載。
+recipe.scopeout.legal-newspapers	プレス・新聞・雑誌、各種印刷物の販売はこちら。
+recipe.scopeout.legal-candy	砂糖の袋 チョコレートの箱 リボンで結ばれたものが、店先のウィンドウに丁寧に並べられている。
+recipe.scopeout.legal-candy	香りやウィンドウに並んだ色とりどりのお菓子の数々から、ここはお菓子屋さんなのだろう。
+recipe.scopeout.legal-shoes	高級靴の販売とサービスを行っています。
+recipe.scopeout.legal-shoes	ドレスシューズからワークブーツまで、あらゆるタイプの靴を販売しています。
+recipe.scopeout.legal-books	小説から参考書・・・詩から哲学まで。この書店には、すべてが揃っている。
+recipe.scopeout.legal-books	最新のベストセラーが飛ぶように売れている書店。
+recipe.scopeout.legal-clothing	最新のファッションを取り揃えたアパレルショップ。
+recipe.scopeout.legal-clothing	仕事用の服や特別な日のためのおしゃれな服は、在庫があり、すぐに着ることができます。
+recipe.scopeout.flavor-laundry	このビジネスは、つまらないロンダリングに特化しているのです。
+recipe.scopeout.flavor-laundry	石けんです。お湯 アイロン。業務用洗濯機のようだ。
+recipe.scopeout.source-malt-small	お菓子作りにしか使わないモルトシロップをここで手に入れることができるかもしれません。焼くだけ
+recipe.scopeout.source-malt-small	このビジネスでは、モルトシロップが大量に眠っているのです。うまく頼めば、売ってくれるかもしれない。
+recipe.scopeout.building-materials-small	このビジネスショップは、素材販売の許可にあまりこだわっていないようだ。
+recipe.scopeout.building-materials-small	ここで建築資材を調達して、いろいろなものを作ったり拡張したりすることができるだろう。
+recipe.scopeout.source-tobacco-small	夜中に移動してくる大きな木箱は、「COTTON」と書かれているにもかかわらず、生タバコのような怪しい匂いがする。
+recipe.scopeout.source-tobacco-small	深夜に南部ナンバーのトラックが現れ、大きな木箱を降ろしていく。間違いなく生タバコだ。
+recipe.scopeout.source-labels	この印刷所のオーナーは著作権法をあまり気にしないので、納得のいく偽ラベルを売ってくれるかもしれない。
+recipe.scopeout.source-labels	気ままな店主のいる印刷屋さん。もしかしたら、説得力のある偽ラベルなどを確保できるかもしれない。
 recipe.scopeout.source-farm	The owner of this business gets lots of produce from the countryside that could be useful.
 recipe.scopeout.source-farm	Because of frequent trips to farms outside of the city・・this business can access some potentially useful produce.
 recipe.scopeout.illegal-bottles	They move cases out with prominent Frank's Milk labels. We've never seen Frank's Milk in a store. Does milk usually come in dark bottles? Maybe we get in the dairy racket?
 recipe.scopeout.illegal-bottles	They bring in barrels that say Florida Orange Juice. They appear to be producing bottles without labels. Why would they skip labeling?
-recipe.scopeout.illegal-bottles	Cases of mineral water? Is this an unknown urban artesian spring? The liquid inside is sometimes clear・・but it's definitely not water.
-recipe.scopeout.illegal-bottles	Some nights trucks unload empty glass bottles. The bottles are being filled from barrels in the back room and then put back on the trucks. It's strangely well-guarded.
+recipe.scopeout.illegal-bottles	ミネラルウォーターのケース？これが知られざる都会の井戸水？中身の液体は透明な時もある…　だがこれは明らかに水ではない。
+recipe.scopeout.illegal-bottles	時々、夜にトラックが空のガラス瓶を下ろしている。ボトルは奥の部屋で樽の中身を詰められた後、再びトラックへと積み込まれる。奇妙なほどに厳重な警備を布いている。
 recipe.scopeout.small-lumberyard	Lumberyards have lots of convenient hiding places. At this one・・they seem to be filled with stoneware. And that stoneware in turn is filled with interesting concoctions.
 recipe.scopeout.small-lumberyard	Lumberyards make lots of deliveries. In this particular case・・they seem to always have some stoneware crocks with curious liquids on their routes...
 recipe.scopeout.conversion-backroom-distillery	They use a conspicuous amount of corn syrup in this building and we can't figure out what they're making.
 recipe.scopeout.conversion-backroom-distillery	There is some strange equipment in the back of this building that looks a bit like a basic still.
-recipe.scopeout.source-bakery-small	Bakeries produce bread and other baked goods. Baking often involves yeast and fermentation just like making booze. Interesting.
+recipe.scopeout.source-bakery-small	パン屋ではパンや、その他の焼き物を生産している。パン作りには酒を造るときと同じように、酵母の発酵がかかわっている。興味深い。
 recipe.scopeout.source-bakery-small	The baked goods made here have ingredients that can be used for other fermented products.
-recipe.scopeout.source-bakery-small	Bakeries use yeast・・water and some grain to make bread. Those same ingredients can be used for other・・more lucrative products.
+recipe.scopeout.source-bakery-small	パン屋では酵母と…　水といくらかの穀物がパンを作るために使われる。同じ材料を使って他の…　もっと利益のある製品を造ることが出来る。
 recipe.scopeout.legal-soda-fountain	Fizzy drinks・・fruity malts・・creamy milkshakes are served from behind this soda fountain counter.
 recipe.scopeout.legal-soda-fountain	Soda fountains are always popular with locals seeking a bit of refreshment.
-recipe.scopeout.source-warehouse-homebooze	Several of the back rooms of this warehouse have 窶扛eep Out窶・signs. People go in and out with various sacks・・crates and stoneware crocks.
+recipe.scopeout.source-warehouse-homebooze	この倉庫の奥の部屋のいくつかは立ち入り禁止の表示がされている。その部屋を出入りする人々は様々な袋や箱、そしてせっ器の壺を抱えている。
 recipe.scopeout.source-warehouse-homebooze	We stopped someone coming out with a few stoneware crocks and asked what goes on in there. Their slurred reply was that they didn't come for the pickles. Then they staggered off.
 recipe.scopeout.source-warehouse-homebooze	We suspect that the back rooms of this warehouse are doing more than storing stoneware crocks...
-recipe.scopeout.illegal-beer	At night・・they load cargo into delivery vehicles. Hey wait - is that smell... beer?
-recipe.scopeout.illegal-beer	In the middle of the night・・trucks pull up. A few have spilled and the contents look suspiciously amber-colored and fizzy.
-recipe.scopeout.illegal-beer	A liquid made from barley・・water・・yeast and hops. What could that be?
+recipe.scopeout.illegal-beer	夜、配達用の車両へ荷物を積み込んでいる。ちょっと待った、この匂いは…　ビール？
+recipe.scopeout.illegal-beer	真夜中、トラックが止まる。何台かから零れた積み荷と思しき液体は、琥珀色で泡立っている。
+recipe.scopeout.illegal-beer	大麦、水、酵母とホップから造られた液体。何だろうか？
 recipe.scopeout.illegal-wine	The boxes coming in read 窶戮alifornia Grapes窶・ The barrels out the back curiously have no labels.
-recipe.scopeout.illegal-wine	Crates of grapes go in. Then trucks pick up barrels labeled 窶抉ICKLES窶・ Ever heard of pickled grapes? Maybe we should by some pickled grapes?
-recipe.scopeout.illegal-wine	Perhaps they're making raisins? What other uses could they have for that many grapes?
-recipe.scopeout.illegal-source-booze-small-bulk	A garbage truck stops here frequently. It picks up barrels and doesn't seem interested in collecting trash. Those must be some interesting barrels.
-recipe.scopeout.illegal-source-booze-small-bulk	Every few days・・a barrel is rolled out of the basement onto a waiting truck. At 3 am. With armed guards.
+recipe.scopeout.illegal-wine	ブドウの箱が運び込まれる。それからトラックは「ピクルス」と書かれた樽を積み込んでいく。ブドウのピクルスなんて聞いたことがあるだろうか？我々にもいくらかブドウのピクルスを分けてもらえるだろうか？
+recipe.scopeout.illegal-wine	ひょっとして彼らはレーズンを造っているのだろうか？それとも他にこんなに沢山のブドウを使うものがあるのだろうか？
+recipe.scopeout.illegal-source-booze-small-bulk	ゴミ収集車がここに頻繁に止まる。樽を回収していくが、どうにもゴミを集めるためのようには見えない。あの樽の中には興味深いものが入っているに違いない。
+recipe.scopeout.illegal-source-booze-small-bulk	数日おきに、地下室から運び出された樽が待機しているトラックに積み込まれている。それも午前3時に、武装した護衛付きで。
 recipe.scopeout.illegal-source-booze-small-bulk	There's a peculiar pick up every few days. Same truck. Same barrels. Same two lookouts on the corner.
 recipe.scopeout.illegal-bottles	They bring in barrels that say Florida Orange Juice. They appear to be producing bottles without labels. Why would they skip labeling?
-recipe.scopeout.illegal-bottles	Cases of mineral water? Is this an unknown urban artesian spring? The liquid inside is sometimes clear・・but it's definitely not water.
+recipe.scopeout.illegal-bottles	ミネラルウォーターのケース？これが知られざる都会の井戸水？中身の液体は透明な時もある…　だがこれは明らかに水ではない。
 recipe.scopeout.supper-club	This establishment appears to be more popular than others. The fine stemware・・corkscrews and other things indicate they serve more than iced tea.
 recipe.scopeout.supper-club	The linens that get picked up for cleaning have purple stains and sometimes smell a bit like beer. This supper club is clearly popular for a reason.
 recipe.scopeout.supper-club	This supper club gets a lot of late night and early morning deliveries from quite a few non-food service vendors.
@@ -994,8 +994,8 @@ misc-names-colored	Door
 misc-names-colored	Roof
 misc-names-colored	Leaf
 misc-names-colored	Wheel
-misc-names-colored	Circle
-rest-fixture	Table
+misc-names-colored	サークル
+rest-fixture	テーブル
 rest-fixture	Plate
 rest-fixture	Fork
 rest-fixture	Spoon
@@ -1146,12 +1146,12 @@ newspaper-dated-general.1921	New Electric Hair Dryer Blows Into Stores
 newspaper-dated-general.1921	Criminals Beware! Scientists Reveal New Lie Detecting Contraption
 newspaper-dated-general.1923	Smile! Instant Camera With Self-Developing Film Coming Soon
 newspaper-dated-general.1923	Clear Out! First Bulldozers Debut In City
-newspaper-dated-general.1924	Culinary Breakthrough: Cheese Melts On Ground Beef Patty
-newspaper-dated-general.1924	New Self-Locking Pliers Ease Pulling Things Out Of Other Things
-newspaper-dated-general.1925	Corny Reuben Sandwich Craze Causes Sauerkraut Shortage Pickle
-newspaper-dated-general.1925	Adhesive Miracle: Masking Tape Sales Start
-newspaper-dated-general.1926	Self-Rising Garage Door Wows Consumers
-newspaper-dated-general.1926	Eat In Your Car! Pull Up Drive Thru Restaurant Wows Driving Diners
+newspaper-dated-general.1924	料理の常識を覆す。ひき肉の上にチーズがとろけるパティ
+newspaper-dated-general.1924	新しいセルフロッキングプライヤーは、他の物から物を引き抜くのを容易にします。
+newspaper-dated-general.1925	ザウアークラウト不足の原因となるコーニー・ルーベン・サンドイッチの流行 ピクルス
+newspaper-dated-general.1925	粘着剤のミラクル マスキングテープの販売開始
+newspaper-dated-general.1926	消費者を驚かせた自動昇降式ガレージドア
+newspaper-dated-general.1926	クルマで食べる！？ドライブスルーのレストラン「プルアップ」、ドライブ中のダイナーを魅了
 newspaper-dated-general.1927	Automatic Bread Slicer Cuts Into Knife Market
 newspaper-dated-general.1927	Self-Playing Record Machine Debuts With Silly Name: Jukebox
 newspaper-dated-general.1928	Barbers Facing Competition From New Electric Shavers
@@ -1378,42 +1378,42 @@ streets.lastnames	Carter
 streets.lastnames	Chapin
 streets.lastnames	Crawford
 streets.lastnames	Cutler
-streets.lastnames	Dewey
-streets.lastnames	Dwight
-streets.lastnames	Finley
-streets.lastnames	Fisk
-streets.lastnames	Geary
-streets.lastnames	Harris
-streets.lastnames	Howard
-streets.lastnames	Judah
-streets.lastnames	Kane
-streets.lastnames	King
-streets.lastnames	Logan
-streets.lastnames	McArthur
-streets.lastnames	Meade
-streets.lastnames	Morgan
-streets.lastnames	Morton
-streets.lastnames	Nagle
-streets.lastnames	Osborn
-streets.lastnames	Patterson
-streets.lastnames	Potts
-streets.lastnames	Rice
-streets.lastnames	Reynolds
-streets.lastnames	Seward
-streets.lastnames	Shields
-streets.lastnames	Sullivan
-streets.lastnames	Tower
-streets.lastnames	Upton
-streets.lastnames	Ward
-streets.lastnames	Warren
-streets.lastnames	Whipple
-streets.lastnames	Wright
-streets.pitt	Allegheny
-streets.pitt	Allentown
-streets.pitt	Arlington
-streets.pitt	Banksville
-streets.pitt	Bedford
-streets.pitt	Beechview
+streets.lastnames	デューイ
+streets.lastnames	ドワイト
+streets.lastnames	フィンレー
+streets.lastnames	フィスク
+streets.lastnames	ギアリー
+streets.lastnames	ハリス
+streets.lastnames	ホワード
+streets.lastnames	ジュダ
+streets.lastnames	ケーン
+streets.lastnames	キング
+streets.lastnames	ローガン
+streets.lastnames	マッカーサー
+streets.lastnames	ミード
+streets.lastnames	モーガン
+streets.lastnames	モートン
+streets.lastnames	ナグル
+streets.lastnames	オズボーン
+streets.lastnames	パターソン
+streets.lastnames	ポッツ
+streets.lastnames	ライス
+streets.lastnames	レイノルズ
+streets.lastnames	スワード
+streets.lastnames	シールド
+streets.lastnames	サリバン
+streets.lastnames	タワー
+streets.lastnames	アップトン
+streets.lastnames	ワード
+streets.lastnames	ウォーレン
+streets.lastnames	ホイップル
+streets.lastnames	ライト
+streets.pitt	アレゲーニー
+streets.pitt	アレンタウン
+streets.pitt	アーリントン
+streets.pitt	バンクスビル
+streets.pitt	ベッドフォード
+streets.pitt	ビーチビュー
 streets.pitt	Beltzhoover
 streets.pitt	Bloomfield
 streets.pitt	Bluff
@@ -1578,39 +1578,39 @@ streets.chicago	O'Hare
 streets.chicago	Oakland
 streets.chicago	Oriole Park
 streets.chicago	Palmer
-streets.chicago	Parkview
-streets.chicago	Peterson
-streets.chicago	Portage
-streets.chicago	Prairie
-streets.chicago	Princeton
-streets.chicago	Pulaski
-streets.chicago	Pullman
-streets.chicago	Ravenswood
-streets.chicago	River
-streets.chicago	Riverdale
-streets.chicago	Rogers Park
-streets.chicago	Roscoe
-streets.chicago	Rosehill
-streets.chicago	Roseland
-streets.chicago	Rosemoor
-streets.chicago	Sauganash
-streets.chicago	Scottsdale
-streets.chicago	Sheffield
-streets.chicago	South Shore
-streets.chicago	State
-streets.chicago	Stony Island
-streets.chicago	Union
-streets.chicago	University
-streets.chicago	Vittum Park
-streets.chicago	Wentworth
-streets.chicago	DePaul
-streets.chicago	West Elsdon
-streets.chicago	Ridge
-streets.chicago	West Woodlawn
-streets.chicago	Wildwood
-streets.chicago	Woodlawn
-streets.chicago	Wrightwood
-streets.atlantic-city	Absecon
+streets.chicago	パークビュー
+streets.chicago	ピーターソン
+streets.chicago	ポーテージ
+streets.chicago	プレーリー
+streets.chicago	プリンストン
+streets.chicago	プラスキー
+streets.chicago	プルマン
+streets.chicago	レイベンズウッド
+streets.chicago	リヴァー
+streets.chicago	リバーデール
+streets.chicago	ロジャースパーク
+streets.chicago	ロスコ
+streets.chicago	ローズヒル
+streets.chicago	ローズランド
+streets.chicago	ローズモア
+streets.chicago	サウガナッシュ
+streets.chicago	スコッツデール
+streets.chicago	シェフィールド
+streets.chicago	サウスショア
+streets.chicago	ステート
+streets.chicago	ストーニーアイランド
+streets.chicago	ユニオン
+streets.chicago	ユニバーシティ
+streets.chicago	ヴィッタムパーク
+streets.chicago	ウェントワース
+streets.chicago	デポール
+streets.chicago	ウエストエルスドン
+streets.chicago	リッジ
+streets.chicago	ウエストウッドローン
+streets.chicago	ワイルドウッド
+streets.chicago	ウッドローン
+streets.chicago	ライトウッド
+streets.atlantic-city	アブセコン
 streets.atlantic-city	Adriatic
 streets.atlantic-city	Albany
 streets.atlantic-city	Aliantro
@@ -1846,7 +1846,7 @@ district.procgen.prefix.ind	Shipping
 district.procgen.prefix.ind	Steel
 district.procgen.prefix.ind	Storage
 district.procgen.prefix.ind	Warehouse
-district.procgen.suffix.ind	{noun} Central
+district.procgen.suffix.ind	{noun}　セントラル
 district.procgen.suffix.ind	{noun} Channel
 district.procgen.suffix.ind	{noun} Row
 district.procgen.suffix.ind	{noun} Block
@@ -1857,12 +1857,13 @@ district.procgen.suffix.ind	{noun} Hill
 district.procgen.suffix.ind	{noun} Corner
 district.procgen.suffix.ind	{noun} Ridge
 district.procgen.suffix.ind	{noun} View
-convo-debt.any.beforechoice	A debt is a debt. But I'm willing to do you a favor and consider other forms of repayment than cash.
-convo-debt.any.beforechoice	Your debts have somehow become my problem・・and that makes me very unhappy. But there's something you can do to get on my good side again.
-convo-repayment.generic.npcintro	Yes?
-convo-repayment.generic.npcintro	What can I do for you?
-convo-repayment.generic.npcintro	How can I repay you?
-convo-repayment.grant-bottled-booze-cordials.ticker	{name} did as promised and a load of cordials is now available at your safehouse.
-convo-repayment.grant-bottled-booze-cordials.ticker	{name} did as promised and a load of bottled whiskey is now available at your safehouse.
+convo-debt.any.beforechoice	借金は借金です。でも、あなたのためを思って、現金以外の返済方法も考えています。
+convo-debt.any.beforechoice	あなたの借金がいつのまにか私の問題になり、私はとても不愉快です。でも、また私のいいなりになるためにできることがあるはずだ。
+convo-repayment.generic.npcintro	はい？
+convo-repayment.generic.npcintro	ご用件は何でしょうか？
+convo-repayment.generic.npcintro	どうお返ししたらいいのでしょうか？
+convo-repayment.grant-bottled-booze-cordials.ticker	{name}は約束通り実行し、コーディアは今あなたのセーフハウスにあります。
+convo-repayment.grant-bottled-booze-cordials.ticker	{name}は約束通り実行し、瓶入りのウイスキーをあなたの隠れ家で手に入れることができる。
+
 
 

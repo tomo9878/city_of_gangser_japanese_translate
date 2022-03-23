@@ -1,8 +1,9 @@
 ﻿Key	German	English
-__id	jp	en
-__name	日本語	English
+__id	jp	en		
+__name	日本語	English	
 
-﻿﻿﻿﻿__name	日本語
+
+﻿__name	日本語
 button.play	プレイ
 button.ok	OK
 button.cancel	キャンセル
@@ -2480,7 +2481,7 @@ convo.tribute-forced-button.pos	そんな大げさなことを言わないでく
 convo.tribute-forced-button.neg	見てください。
 convo.tribute-forced-button.any	そして、あなたは本当に黙るタイミングを知らないんですね。
 convo.tribute-forced-epilogue-npc	<i>(静かな眼差し)</i>
-convo.tribute-refuse-2-npc	私は、あなたやあなたの種族を恐れていません。
+convo.tribute-refuse-2-npc	私は、あなたやあなたのような人々を恐れていません。
 convo.tribute-refuse-2-button	それは見てのお楽しみ。
 convo.cancel-tribute-npc.pos	何か情報は？
 convo.cancel-tribute-npc.neg	今はどうなっているのでしょうか？
@@ -3012,7 +3013,7 @@ convo.ticket-skills-info.tmpl	新しい技術を習得: <b>{name}</b>\n\n{desc}\
 convo.ticket-skills-info.unlocks	モジュールをアンロック：{list}\n\n
 convo.ticket-skills-info.explanation	\n<indent=15><i>({exp})</i></indent>
 convo.ticket-skills-info.short	{line}\n<indent=15><i>(習得: {name})</i></indent>
-convo.delivery-button	私が持っているよ。
+convo.delivery-button	お望みのブツを持ってきたぜ
 convo.delivery-button.mo	先に約束した商品を届ける。
 convo.delivery-items-npc	それは素晴らしい。
 convo.delivery-items-all-button	残りの{icon-and-res}を持ってきた。\n<indent=15><i>配達 {current-resources}</i></indent>
@@ -3452,7 +3453,7 @@ convo.train-station-cops-pass	この辺りはすぐに片付けます。そう�
 convo.train-station-cops-pass.mo	このコーナーを自組織のテリトリーに置くと、この建物で可能なアクションが解放される
 convo.train-station-all-pass	小さな問題？その言い方だと、小さな問題には聞こえない。どうしたんですか？
 convo.train-station-bribe-frieght	それは、労働組合です。電車に物を積んだり下ろしたりしているのは彼らです。彼らを味方につければ、駅や操車場は思いのままだ。だから、資金を用意してくれれば、組合の幹部をうまく取り込める。
-convo.train-station-bribe-passenger	それは鉄道警察です。鉄道の違法行為に反対しているわけではなく、自分たちの取り分が減らないことに反対しているんです。だから、もしあなたが現金を置いていってくれたら、彼らの面倒をよく見てあげられると思うんだ。
+convo.train-station-bribe-passenger	それは鉄道警察です。鉄道での違法行為ではなく、自分たちの取り分がないことに反対しているんです。だから、もしあなたが現金を置いていってくれたら、彼らの面倒をよく見てあげられると思うんだ。
 convo.train-station-bribe-confirm-freight	貨物を特定の方向にルーティングし、鉄道を使って自分の組織を発展させるというアイデアはいいな。現金を用意しよう。
 convo.train-station-bribe-confirm-passenger	通行人の喧騒を利用して、いくらでも違法行為を偽装できると思うのですが。これは使える 現金を用意するよ。
 convo.train-station-bribe-confirm-freight.mo	駅長に相当額の賄賂を払うことに同意する。
@@ -3463,7 +3464,7 @@ convo.train-station-bribe-outro-bye	きっとそうなる。では、失礼し�
 convo.train-station-mission-start	駅での新たな機会について話し合わないか？
 convo.train-station-mission-start-passenger	さて、鉄道警察隊に新しい仲間ができたわけですが、駅ではどんなことに興味があるのですか？鉄道警察隊は、私たちの違法行為に気づかず、捜査のふりをすることがないようにとお願いしてきたところです。
 convo.train-station-mission-start-cargo	この貨物列車で原料を大量に運び出し、いくつかの小さな町に郊外生産を設置すればいいのです。警官も少ない。ヒートも少ない。より多くのスペース。何が気に入らないんだ？それをはじめましょうか？
-convo.train-station-mission-start-both-fail-npc	かつて、あなたの組織はこのコーナーを支配し、警察を管理していた。それが実現するまでは、お取引を控えさせていただきます。
+convo.train-station-mission-start-both-fail-npc	かつて、あなたの組織はこのコーナーを支配し、警察を管理していた。それが再び実現するまでは、お取引を控えさせていただきます。
 convo.train-station-mission-start-territory-fail-npc	警察はまだ買収しているかもしれないが、このコーナーはもう君の組織の管理下にはないんだ。この辺りを任せられると確信するまでは、今後の協力関係を止めざるを得ない。
 convo.train-station-mission-start-cops-fail-npc	地元警察との協定は、もう無効のようですね。警官に監視されないのは危険だと思う。
 convo.train-station-mission-fail	了解しました。私は事態を収拾し、その後ビジネスに戻ることができるようにするよ。
@@ -5142,7 +5143,7 @@ res.sugar.desc	とても甘い
 res.tobacco.icon	<sprite name="res tobacco" tint>
 res.tobacco.name	煙草
 res.tobacco.listname	煙草
-res.tobacco.desc	あらゆる種類の煙草に対応する強大なタバコの葉。
+res.tobacco.desc	あらゆる種類の喫煙方法に対応する強大なタバコの葉。
 res.cigarettes.icon	<sprite name="res cigarettes" tint>
 res.cigarettes.name	巻きたばこ
 res.cigarettes.listname	巻きたばこ
@@ -5201,7 +5202,7 @@ res.cigars.icon	<sprite name="res cigars" tint>
 res.rum.icon	<sprite name="res rum" tint>
 res.rum-bottled.name	瓶詰めラム酒
 res.rum-bottled.listname	瓶詰めラム酒
-res.rum-bottled.desc	ラムネケース、砂糖から醸造されてカクテルの材料だ
+res.rum-bottled.desc	1ケースのラム酒。砂糖から蒸留され、カクテルになるのを待っている。
 res.rum-barrel.name	ラム樽
 res.rum-barrel.listname	ラム樽
 res.rum-barrel.desc	瓶に小分けされるラム酒の樽
@@ -6393,7 +6394,7 @@ skill.upgraded-bootlegging.desc	拡張した密売店を学ぶことで、自家
 skill.upgraded-bootlegging.conv	私はここで自分の事業の拡張工事をするのですが、私の請負業者があなたのお手伝いもできるかもしれません。もしあなたが建築資材を調達してくれるなら、密造酒製造事業を拡大し、1種類だけでなく2種類の自家製酒を販売する方法を見つけることができます。興味あるかな？
 skill.upgraded-bootlegging-quest.name	拡張した密売
 skill.upgraded-bootlegging-quest.desc	{$firstname} {$lastname} の事業を拡大するのを手伝えば、自分の密造事業を拡大する方法を教えてくれるだろう。
-skill.local-speakeasies.name	角の酒場
+skill.local-speakeasies.name	角の潜り酒場
 skill.local-speakeasies.icon	<sprite name="skill speakeasy">
 skill.local-speakeasies.desc	酒密売事業をアップグレードして、あらゆる種類の自家製酒を販売できるようにしましょう。さらに他のものも少し。\n\nこのスキルを習得すると、自分の組織でコントロールされている建物の<i>一角</i>に潜り酒場を<b>建設</b>したり、拡張された裏スペースの密造酒事業を<b>アップグレード</b>したりすることができます。
 skill.local-speakeasies.conv	この禁酒法の暗黒時代が始まる前、我が家はバーや酒場を経営していました。もし、あなたが酒場を始めたいのなら、私はその裏技を教えることができます。
@@ -6401,7 +6402,7 @@ skill.local-speakeasies-quest.name	あなたの居場所
 skill.local-speakeasies-quest.desc	{$firstname} {$lastname} は、自分の酒場を経営する方法を学ぶために、現金を持参するよう求めています。
 skill.better-bartending.name	より良いバーテンディング
 skill.better-bartending.icon	<sprite name="skill better-bartending">
-skill.better-bartending.desc	バーテンダーの腕が上がると、酒場で売れるお酒の種類が増えます。\n\nこのスキルを取得することで、<i>角の酒場</i>を<b>アップグレード</b>することができます。
+skill.better-bartending.desc	バーテンダーの腕が上がると、酒場で売れるお酒の種類が増えます。\n\nこのスキルを取得することで、<i>角の潜り酒場</i>を<b>アップグレード</b>することができます。
 skill.better-bartending.conv	私は、この地獄のような法律ができる前から食堂を経営していました。今、あなたも同じようですね。もしちょっと支払いしてもらえれば、販売できる酒の種類を増やす方法を喜んでお教えしましょう。。
 skill.better-bartending-quest.name	より良いバーテンディング
 skill.better-bartending-quest.desc	要求された金額を{$firstname} {$lastname}に渡せば、あなたの酒場でより多くの酒を売ることができるようになる。
@@ -6929,6 +6930,7 @@ quest.homebooze-starter.c3	モルトシロップがあるんですが 自家製�
 quest.homebooze-starter.c4	小鳥さんが中性アルコールの入手先を教えてくれました。飲めるムーンシャインにする方法を教えてくれませんか？
 quest.homebooze-starter.c6	氷を使って、りんごやりんごジュースからお酒を作る秘訣をぜひ教えてほしいです。
 quest.homebooze-starter.c7	この町には果樹園がたくさんありますから、フルーツワインを作るのもいいかもしれませんね。
+ 	
 quest.brick-wine-bonus.name	ワインの絞りカス
 quest.brick-wine-bonus.desc	人脈にボトルワイン製造のラインがあるかどうかを確認。
 quest.brick-wine-bonus.npc1	私が作るブリックワインもいいのですが、本物にはかないませんよね？
@@ -7356,7 +7358,7 @@ quest.tutorial-building.c1	使わないで済むと良いのですが、でも�
 quest.tutorial-building.afterchoice	私もそう願っています。でもここは物騒な街かもしれませんよ。
 quest.outpost-building-takeover.name	近隣地域との連携
 quest.outpost-building-takeover.desc	友人の新しいファミリービジネスベンチャーに投資し、さらなる事業のために新しいスペースを手に入れる。
-quest.outpost-building-takeover.npc1	やあ私の友人、私たち家族はこの近辺で一緒に働いているんだ。我々は寄付を着実に集め誰がこの地域の責任者かを周知徹底してきた。そろそろ両家の協力関係を深めてもいいのでは？
+quest.outpost-building-takeover.npc1	やあ友よ、私たち家族はこの近辺で一緒に働いているんだ。我々は寄付を着実に集め誰がこの地域の責任者かを周知徹底してきた。そろそろ両家の協力関係を深めてみないか？
 quest.outpost-building-takeover.human1	確かにその通りだ、これまでの助けに感謝しているよ。ちなみに具体的にはどんなことを考えているんだ？
 quest.outpost-building-takeover.npc2	地元の企業が売りに出されていると聞いたので購入したい。ただちょっと足りないんです。もし、あなたが協力してくれるなら、とてもありがたい。あなたの利益を拡大するために、裏スペースを1つか2つ使ってもらうこともできると思う。
 quest.outpost-building-takeover.human2	拡大する、だと？まあ、これは私にはいい取引だと思うよ。できるだけ早く現金を用意する。
@@ -7971,7 +7973,7 @@ quest.delivery-protection.afterchoice	ただ、弾が出る方向はみんなに
 quest.delivery-van.name	大型トラック
 quest.delivery-van.desc	いつも事業で世話になっている企業の大型トラックを用意する。
 quest.delivery-van.human1	はい、たくさんあります。どんなものですか？
-quest.delivery-van.npc2	そういえば、不要になった配送車があるんです。よかったら売ってくれませんか？駐車場もお貸ししますよ。荷物の運搬が楽になるし、在庫も減らせるはずだ。
+quest.delivery-van.npc2	それで不要になった配送車があるんです。よかったら買ってくれませんか？駐車場もお貸ししますよ。荷物の運搬が楽になるし、在庫も減らせると思います。
 quest.delivery-van.human2	ええ、もちろんです。すぐにお金を用意します。そして、君が正式にオーナーとして預かってはどうだろう。
 quest.delivery-van.introending	取引しよう。洗車してから渡すよ。
 quest.delivery-van.beforechoice	キーはエンジンにあるよ。楽しいドライブを。
@@ -8743,8 +8745,8 @@ amenity.slot-machines.icon	<sprite name="amenity slot machines">
 amenity.slot-machines.name	スロットマシン
 amenity.slot-machines.desc	ペニースロットマシンをはじめとする機械式アミューズメント。これはひどい確率で小銭を賭ける小額プレーヤーから、安定した収入を得ることができます。\n\n<i>少額の賭け事で、近隣から多くの飛び込み客が集まり時々ベットする</i>
 amenity.policy-game.icon	<sprite name="amenity numbers game">
-amenity.policy-game.name	抽選クジショップ
-amenity.policy-game.desc	回転するポリシーホイールから抽選された数字に賭けるベットを回収する。メーカーは、このホイールに重りや磁石を取り付け、結果を不正に操作しているという噂を一切否定している。\n\n<i>このローステークスには、近隣の住宅から多くの飛び込み客が集まり時々ベットする</i>
+amenity.policy-game.name	富くじ店
+amenity.policy-game.desc	回転する電動風車式抽せん機で選ばれた数字に賭ける賭け金を回収する。メーカーは、この抽せん機に重りや磁石を取り付け、結果を不正に操作しているという噂を一切否定している。\n\n<i>このローステークスには、近隣の住宅から多くの飛び込み客が集まり時々かけを行う。</i>
 amenity.bookmaker.icon	<sprite name="amenity sports betting">
 amenity.bookmaker.name	馬券予想
 amenity.bookmaker.desc	毎日の競馬場の結果を予想して賭けるシンプルなゲーム。このゲームは修正が難しいので、ハウスはオッズを考えると実に高い掛け金を設定することでそれを補っている。\n\n<i>この機能により、近くの常連さんが席を取ってしばらく遊んでくれるようになります</i>
@@ -9071,7 +9073,7 @@ debtor-house.name	あなたの店によく出入りするギャンブラーと�
 button.throne	あなたのオフィスに移動
 ui.checkline-subitem	<indent=20><sprite name="ui check"></indent><indent=40>{text}</indent>
 ui.crossline-subitem	<indent=20><sprite name="ui cross"></indent><indent=40>{text}</indent>
-ui.length.in	{num} in
+ui.length.in	{num}以内
 ui.length.ft	{big}'{small}"
 ui.length.m	{big}.{small}m
 ui.crewinfo.scheme.mo	この構成員の現在のスキームを開く
@@ -9282,34 +9284,34 @@ convo.crew.scheme-cost.res	<indent=18><i>消費: {resAndQty}</i></indent>
 convo.crew.back-button	実は、もうひとつ必要なものがあるんです。
 convo.crew.nevermind	ネバーマインド
 resresults.result-add-fireplace.you-yes	正しい。仕事終わりの寒い夜に、体を温めるイメージです。そして、万が一、すぐに燃やしたいものがあったときのために。
-resresults.result-add-fireplace.npc-yes	I'll let them know. With the owners being out of town， it will be a bit until they come asking about their property.
-resresults.result-add-fireplace.you-no	Eh. Not right now. Seems like a hassle to deal with a fireplace.
-resresults.result-add-fireplace.npc-no	Well， then I'd just ask that you forget that I mentioned it. Just in case.
-resultquest.result-add-fireplace.name	Burning Desires
-resultquest.result-add-fireplace.desc	Deliver materials to have a fireplace installed in your office.
-resultquest.result-add-fireplace.choice	The fireplace will certainly be impressive once it's added.
-resultquest.result-add-fireplace.beforechoice	Ready to warm your bones by a roaring fire?
-resultquest.result-add-fireplace.afterchoice	Enjoy the hearth!
-relbuff.cop-blackmail	They were told by local police that you are a trustworthy business partner
-relbuff.forced-loan	You forced them to make a "deposit" into the bank run by your outfit.
-mod.crew-role	{delta} from crew member's role as {role} in your organization
-mod.manager-role	{delta} from manager's role as {role} in your organization
-mod.chapter-success	{delta} from having completed the {chapter} stage in a scheme
-module.production-homebooze-homemade-brandy.name	Homemade Brandy Still
-module.production-homebooze-homemade-brandy.desc	Use a basic homemade still to make brandy from fruit or citrus.
-module.production-homebooze-homemade-brandy.details	With just the most basic of knowhow， you can take mash made from fruit or citrus， leave it in small barrels and then distill it into something that while not quite brandy is close enough for the era of Prohibition.
-module.production-homebooze-homemade-brandy-improved.name	Improved Homemade Brandy Stills
-module.production-homebooze-homemade-brandy-improved.desc	Generate more than 50% more homemade brandy than a regular Homemade Brandy Still
-module.production-homebooze-homemade-brandy-improved.details	Since your operation manager is now an expert at running a single still， you can invest in expanding to a second one to expand production.
-module.bootlegger-home-brew-homemade-brandy.name	Backroom Homemade Brandy Bootlegger
-module.bootlegger-home-brew-homemade-brandy.desc	This operation sells a bit of homemade brandy to locals in this neighborhood. It's not going to sell a lot or rake in piles of cash， but it's also not likely to attract much police attention， either.
-module.bootlegger-homebooze-upgrade-fifteen.details	Put in some tables and chairs and expand your homebooze operation to sell both moonshine and homemade brandy to the thirsty locals.
-module.bootlegger-homebooze-upgrade-sixteen.details	Put in some tables and chairs and expand your homebooze operation to sell both brick wine and homemade brandy to the thirsty locals.
-module.bootlegger-homebooze-upgrade-seventeen.details	Put in some tables and chairs and expand your homebooze operation to sell both homemade beer and homemade brandy to the thirsty locals.
-module.bootlegger-homebooze-upgrade-eightteen.details	Put in some tables and chairs and expand your homebooze operation to sell both hard cider and homemade brandy to the thirsty locals.
-module.bootlegger-home-brew-homemade-brandy.details	Establish a bootlegging operation to sell homemade brandy here. Unlike a speakeasy， this is more of a grab and go operation. While it won't have an impact on your local respect， the simplicity of the operation makes it more profitable than a corner speakeasy.
-module.conversion-backroom-distillery-improved.details	We can install a larger still back here that can turn corn syrup into neutral alcohol or convert industrial alcohol to neutral alcohol for further uses.
-convo.ticket-intro-flavor.module.production-homebooze-homemade-brandy	Need any materials for your homemade brandy still? I might know someone who could help out.
+resresults.result-add-fireplace.npc-yes	伝えておきます。オーナーが留守のため、問い合わせが来るのはもう少し先になると思います。
+resresults.result-add-fireplace.you-no	えー。今すぐじゃない。暖炉を扱うのは面倒臭そうだ。
+resresults.result-add-fireplace.npc-no	それなら、私が言ったことは忘れてください。念のため。
+resultquest.result-add-fireplace.name	燃える欲望
+resultquest.result-add-fireplace.desc	オフィスに暖炉を設置するための材料を納品する。
+resultquest.result-add-fireplace.choice	暖炉が加われば、確かに印象的なものになりますね。
+resultquest.result-add-fireplace.beforechoice	燃え盛る炎で骨まで温まる準備はできましたか？
+resultquest.result-add-fireplace.afterchoice	暖炉を楽しもう
+relbuff.cop-blackmail	地元の警察から、あなたが信頼できるビジネスパートナーであると言われた。
+relbuff.forced-loan	自分の団体が運営する銀行に「預金」をさせたんですね。
+mod.crew-role	構成員が所属する組織での役割{role}からの{delta}。
+mod.manager-role	マネージャが所属する組織での役割{role}からの{delta}。
+mod.chapter-success	計画で{chapter}ステージを完了したことによる{delta}
+module.production-homebooze-homemade-brandy.name	自家製ブランデー蒸留
+module.production-homebooze-homemade-brandy.desc	基本的な自家製スチルを使って、果物や柑橘類からブランデーを作る。
+module.production-homebooze-homemade-brandy.details	果実や柑橘類からつくったもろみを小さな樽に入れ、蒸留すると、ブランデーとまではいかないが、禁酒法時代のお酒に近いものができる。
+module.production-homebooze-homemade-brandy-improved.name	自家製ブランデー蒸留器の改良
+module.production-homebooze-homemade-brandy-improved.desc	通常の自家製ブランデー蒸留器に比べ、50％以上多く自家製ブランデーを生成することができる。
+module.production-homebooze-homemade-brandy-improved.details	このように、マネージャーが1基のスチルを使いこなすことができるようになったので、2基目のスチルに投資して生産量を拡大することができる。
+module.bootlegger-home-brew-homemade-brandy.name	密造自家製ブランデー密売店
+module.bootlegger-home-brew-homemade-brandy.desc	この界隈では、自家製のブランデーを少しずつ売っている。大量に売れるわけでもなく、大金を手にするわけでもないが、警察の目を引くこともないだろう。
+module.bootlegger-homebooze-upgrade-fifteen.details	テーブルと椅子を置いて、密造酒と自家製ブランデーを販売し、喉の渇いた地元の人たちに自家製酒を提供する事業を拡大する。
+module.bootlegger-homebooze-upgrade-sixteen.details	テーブルと椅子を置いて、自家製ワインと自家製ブランデーを販売し、喉の渇いた地元の人たちにお酒を楽しんでもらおう。
+module.bootlegger-homebooze-upgrade-seventeen.details	テーブルと椅子を置いて、自家製ビールと自家製ブランデーを販売し、喉の渇いた地元の人たちに自家製酒を提供するビジネスを展開する。
+module.bootlegger-homebooze-upgrade-eightteen.details	テーブルと椅子を置いて、ハードシードルと自家製ブランデーを販売し、喉の渇いた地元の人たちに自家製酒を提供しましょう。
+module.bootlegger-home-brew-homemade-brandy.details	ここで自家製ブランデーを販売する密造酒オペレーションを確立する。酒場とは違い、持ち帰りができる。酒場とは違い、手づかみで飲めるので、地元でのリスペクトはあまりあがらないが、手軽な分、街角の潜り酒場よりも収益性は高いだろう。
+module.conversion-backroom-distillery-improved.details	コーンシロップを中性アルコールに変換したり、工業用アルコールを中性アルコールに変換してさらに使用できるような大きなスチルをここに設置することができる。
+convo.ticket-intro-flavor.module.production-homebooze-homemade-brandy	自家製ブランデースチルの材料が必要か？手伝ってくれる人を知っているかもしれない。
 module.icons.homemade-brandy	<sprite name="res homemade-brandy">
 res.jewelry.name	原石
 res.jewelry.listname	原石
@@ -9394,148 +9396,148 @@ dlc-panel.icon.criminal-record	<sprite name="ui main menu criminal record dlc" t
 city-name.philadelphia	フィラデルフィア
 city-icon.philadelphia	<sprite name="ui main menu criminal record dlc">
 city-desc.philadelphia	"デラウェア川とシュイルキル川の合流点にあるウィリアム・ペンの<i>兄弟愛の町</i>は、寛容と自由の標識として1682年に設立された。このアメリカ独立の発祥地は、この寛容さを禁酒法にも拡大した。1921年にボルステッド法が施行される前、フィラデルフィアの街角や近隣には1,700軒もの酒場があったと推定されている。1930年までには、およそ1,200軒がまだ野放しの状態であったと推定される。\n\nフィラデルフィアの有名な密造者、マックス ""ブーブー ""ホフやミッキー・ダフィーは、東海岸の酒貿易の中心人物で、ニュージャージー州の海岸から、また街の後背地から道路や鉄道網を使って違法酒を持ち込んでいたのである。そして、デラウェア渓谷の化学工業地帯で生産される工業用アルコールから、莫大な富を手に入れた。マックス・ホフは、悪名高いフランクリン・モーゲージ＆インベストメント・カンパニーをはじめとする数々の金融機関を設立し、アメリカで最も儲かる密造酒の資金洗浄の隠れ蓑としたほど裕福になったのである。\n\nこのように、フィラデルフィアの街には様々な陰謀が渦巻いており、それを実行するキャプテンがいれば、あなたの組織はそれを追求することができる。自家製のブランデーを使って、新たな犯罪帝国を築き上げよう。\n\n<b>そのため、この地には大きなチャンスがあり、そのためには誰かの手助けが必要です。ペンシルバニア最大の都市、フィラデルフィアの街は、経験豊富な船長の手によって支えられています。</b>"
-skill.homebooze-homemade-brandy.name	Homemade Brandy Production
+skill.homebooze-homemade-brandy.name	自家製ブランデーの製造
 skill.homebooze-homemade-brandy.icon	<sprite name="skill homemade-brandy">
-skill.homebooze-homemade-brandy.desc	If you learn this skill， you'll be able to make a very basic homemade brandy from fruit or citrus using small barrels and stoneware crocks.
-skill.homebooze-homemade-brandy.conv	We've got lots of experience making homemade booze. Particularly using fruit or citrus to make homemade brandy. Get me some materials and I'll show you how to set up a very simple still.
-levelup.homemade-brandy-maker.name	Distillation: Homemade Brandy
-levelup.homemade-brandy-maker.desc	Increase the amount of homemade brandy from each production cycle
+skill.homebooze-homemade-brandy.desc	この技術を習得すれば、小さな樽や陶器の壷を使って、果物や柑橘類からごく基本的な自家製ブランデーを作ることができるようになる。
+skill.homebooze-homemade-brandy.conv	私たちは、自家製酒を作る経験をたくさん積んできました。特に、果物や柑橘類を使って自家製ブランデーを作るのが得意です。材料があれば、簡単な蒸留器を作る方法をお教えしますよ。
+levelup.homemade-brandy-maker.name	蒸留: 自家製ブランデー
+levelup.homemade-brandy-maker.desc	各生産サイクルでの自家製ブランデーの生産量を増やす。
 levelup.homemade-brandy-maker.icon	<sprite name="res homemade-brandy">
-victory.specialists.goal.name	Steaking Your Claim
-victory.specialists.goal.desc	Goal: your captains have pulled off epic scores and your exploits will be the stuff of legend for future gangsters. Run {goal} unique schemes.
-victory.specialists.1sub.desc	Number of different schemes completed
+victory.specialists.goal.name	主張を貫く
+victory.specialists.goal.desc	ゴール：あなたのキャプテンは最高の業績を叩き出した、そしてあなたの功績は未来のギャングたちの伝説となる。{goal}独自の計画を実行します。
+victory.specialists.1sub.desc	完了した計画の種類
 quest.philadelphia.icon	<sprite name="quest gambling">
-quest.homemade-brandy-producer.npc1	News has spread that you're making homemade brandy. And news has also spread that we're on good terms.
-quest.homemade-brandy-producer.npc2	Ah， yes! A proposition! If you drop off some homemade brandy， I'll move it among my regular， trusted customers.
-quest.homemade-brandy-producer.c4	I've been trying to figure out how to make more homemade brandy in my current space. Perhaps you know how to improve that operation?
-quest.homemade-brandy-producer-bonus.name	Mash Up
-quest.homemade-brandy-producer-bonus.desc	Learn about ways to augment your homemade brandy operations.
-quest.homemade-brandy-producer-bonus.npc1	My family has been involved in wholesaling fruit for a few generations now. And before those people passed this infernal law， we sold a lot of it to people who lawfully turned it into booze. I still have some of those connections and could provide you with some valuable information.
-quest.homemade-brandy-producer-bonus.human1	I've been wanting to expand my little homemade brandy operation. So yes， tell your family I'd be happy to get my hands on that knowledge.
-quest.homebooze-starter.c8	I have an idea that here in the City of Brotherly Love， there's an unmet desire for homemade brandy.
-quest.bootlegger-build-homemade-brandy.npc1	Everyone raves about the homemade brandy you've been making. It's in high demand around the neighborhood. I have friends who could help someone with your skill advance upward. Should I keep talking?
-quest.bootlegger-build-homemade-brandy.beforechoice	My friends were very impressed with your homemade brandy. In fact， they'd like to help you open your own speakeasy. Or if you're thinking something else? They just want to join up with an up and comer like you. All that my friends ask is that you remember who helped you out when you're running this town.
-quest.crew-family-one-homemade-brandy.desc	Deliver some homemade brandy to make sure that a family gathering has the proper levity.
-quest.crew-family-one-homemade-brandy.npc1	You got the invitation to my sister's wedding， right? You have to come. And could you bring some homemade brandy? I can't face some of the future in-laws alone. Or sober.
-quest.crew-family-one-homemade-brandy.npc2	I might be able to help on both fronts. I can make sure the in-laws are properly lubricated.
-quest.crew-family-one-homemade-brandy.introending	Wonderful. I'm glad to know that the refreshments are taken care of.
-quest.crew-family-one-homemade-brandy.beforechoice	Thank you! I'll store the homemade brandy here until the big day. However， they've come up a bit short on the rent for the wedding hall. I hate to ask， but...
-quest.homemade-brandy-sink-one.name	Illicit Operations: Homemade Brandy
-quest.homemade-brandy-sink-one.desc	Deliver some homemade brandy to demonstrate your homemade booze making mettle.
-quest.homemade-brandy-sink-one.human1	Yes， I could probably get my hands on some homemade brandy. Do you think it's something that might interest your regular customers?
-quest.homemade-brandy-sink-one.beforechoice	Almost drinkable， your homemade brandy. I'm sure I can sell it if you're interested in doing business with us.
-quest.homebooze-homemade-brandy-flip.desc	If it seems that your neighborhood isn't quite into the homemade brandy you know how to make， perhaps one of your early acquaintances can help you adjust to something that is more appropriate to local tastes.
-quest.homebooze-homemade-brandy-flip.npc1	So maybe you've noticed that this neighborhood isn't that thirsty for homemade brandy?
-quest.homebooze-homemade-brandy-flip.npc2	Well， I've been around here a while and I've known your family for more that a bit of time. I reckon I could help you learn something that's more to the local liking. Just get me some homemade brandy to， um， help me think.
-quest.homebooze-flip.homemade-brandy	I think I've picked up on local demand for homemade brandy， so let's look into making that.
-quest.vehicle-quest-pickup-two.c10	I have been looking to sell more homemade brandy. And they do work for a delivery company.
-quest.vehicle-quest-pickup-three-homemade-brandy.name	New Customers: Homemade Brandy
-quest.vehicle-quest-pickup-three-homemade-brandy.desc	Drop off homemade brandy to see how your new friends at the delivery company can help expand your operations.
-quest.vehicle-quest-pickup-three-homemade-brandy.beforechoice	This city is indeed thirsty for more homemade brandy like you've got. While our new friends were driving it around town， they had some generous offers to help you expand your operations.
-quest.vehicle-quest-pickup-three-homemade-brandy.c3	Since I'm already working with distilled booze， it would make sense to expand into making moonshine as well.
-quest.booze-surplus-homemade-brandy.name	Liquid Surplus: Homemade Brandy
-quest.booze-surplus-homemade-brandy.npc1	During a recent delivery， your driver let slip that you're swimming in homemade brandy with a lot laying around.
-quest.booze-surplus-homemade-brandy.npc2	Quite the contrary， actually. I have some， um connections out of state that could use a large delivery of homemade brandy and knowing that you've got a lot about， well， this could be useful for both of us.
-quest.booze-surplus-bathtub-gin.c3	Maybe it's time to see about moving beyond this homemade brandy stuff into some more profitable production. Know about anything useful?
-quest.delivery-van-homemade-brandy.npc1	Your driver has mentioned that you seem to be producing a lot of homemade brandy and that it's starting to fill up your operation.
-postcard.levelup.homemade-brandy-maker	A crew member's abilities in production homemade brandy are moving upward.
-quest.player-expand-one.c6	Our family is in the business of making homemade brandy， right? Well， we went through our new territory and took up a collection of what people were making in their cellars and garages. A tribute of sorts， I guess.
-quest.jewelry-fence-intro.name	Hot Jewelry
-quest.jewelry-fence-intro.desc	See if a trusted business associate can set up a deal to sell some of the jewelry that you "found" in a bank vault.
-quest.jewelry-fence-intro.npc1	I hear you've found  yourself in possession of some jewelry. I might know someone who could facilitate a deal to take that off your hands in exchange for some cash.
-quest.jewelry-fence-intro.human1	You mean a fence?
-quest.jewelry-fence-intro.npc2	Well， to be blunt， yes. I'd just need a piece to show them what you've got.
-quest.jewelry-fence-intro.human2	So I drop off a sample and you see if your fence is interested?
-quest.jewelry-fence-intro.introending	Pretty much. Shall we?
-quest.jewelry-fence-intro.beforechoice	Well， my fence is interested. What are you looking to move?
-quest.jewelry-fence-intro.c1	Just a few pieces right now.
-quest.jewelry-fence-intro.c2	I've got a pretty good stash that needs to go.
-quest.jewelry-fence-intro.c3	Oh， I've got the crown jewels to off-load. And soon.
-quest.jewelry-fence-intro.c4	Not sure that our relationship is such that I'd trust you to act on our behalf. Just have your fence pay me for the sample.
-quest.jewelry-fence-intro.c5	Don't really have enough jewelry to move anymore. I'll just take the sample that I left.
-quest.jewelry-fence-intro.c6	Nevermind. Just pay for the sample that I gave you.
-quest.jewelry-fence-intro.afterchoice	I'll relay that to my fence friend.
-quest.jewelry-fence.name	Fences Make Good Neighbors
-quest.jewelry-fence.desc	Deliver jewelry to have an associate move it to a fence.
-quest.jewelry-fence-complete.beforechoice	I've got the cash if you've got the stuff.
-quest.jewelry-fence-complete.c1	Here you go. Good doing business with you.
-quest.jewelry-fence-complete.c2	Thank you. Why don't you take a small cut for your trouble and in consideration of future endeavors?
-quest.jewelry-fence-complete.afterchoice	Appreciate the business， my friend.
-chapter.schemes-general.decide.cancel	Call it off
-chapter.schemes-general-weapons.decide.cancel.epilogue	"<i>You get back some of the weapons that {name} took with them. "I'll get any weapons that didn't get damaged or could be used as evidence of something back to the safehouse</i>"
-chapter.schemes-general-cash.decide.cancel.epilogue	"<i>You get back a portion of the cash that {name} had on them. "Got it， boss!" is the obedient reply. "That will be back in your coffers before you know it.""</i>
-chapter.schemes-general-nothing.decide.cancel.epilogue	"<i>Have {name} stop this hair-brained scheme right away and get back to real work."Whatever you say， boss."</i>"
-chapter.general.fail.epilogue	<i>Have {name} do what's necessary and then let us never speak of this again. And so ends this sordid tale of crime and villainy.</i>
-chapter.general.trait-fail	Something fishy is going on
-chapter.general.trait-fail.epilogue	<i>{name}</i> is perhaps being overly careful， but something about this smells rotten， so they've decided to stop the whole affair.
-chapter.general.arrest.fail.epilogue	<i>{name} knew the risks. Now they'll have some time to reflect in the clink.</i>
-scheme.bank-heist.title	Bank Heist
-scheme.bank-heist.desc	{name} is working on a major score at one of the city's financial institutions.
-convo.scheme.bank-heist	Some of the banks around here look vulnerable and I think it's time that start preparing a heist. Start scouting a few out and get me a target or two. I've got some cash for you to spread around as you see fit and a revolver to keep yourself safe out there. Report back soon.
-chapter.find-banks.title	Casing the Joint
-chapter.find-banks.ic-start	"Will do boss. Lets see who ain't holdin' so tight to their cash."
-chapter.find-banks.oc-start	Your crewmember {name} is driving around nearby banks， looking for weaknesses and opportunities that may be out there.
-chapter.find-banks.oc-end.success	After some time driving around and observing the comings and goings and various banks， your enforcer has come up with a few options for you to consider.
-chapter.find-banks.ic-end.success	"What do you think， boss? The way I see it， we've got a few things we could do here. Your call."
-chapter.find-banks.decide.bank-take-over	That bank is in our territory. You can rob a bank once. But if we take it over， well， then we <b>are</b> the bank. Find a way to get to management.
-chapter.find-banks.decide.inside-job	Find some guards or employees to enlist the scheme. Work on an inside job.
-chapter.find-banks.decide.bank-robbery	Get a crew together. Lookouts. Safecrackers. Drivers. We go in and take what we want.
-chapter.bank-take-over.title	Nice Bank You've Got There
-chapter.bank-take-over.ic-start	"I'm pretty certain I've seen some strange - and by strange I mean illegal - things going on at this bank while I was casing it out. I sense an opportunity， boss."
-chapter.bank-take-over.oc-start	{name} is working on finding some weaknesses among the bank's management that we might be able to exploit to our advantage.
-chapter.bank-take-over.oc-end.success	While observing some of the bank staff at work and， well， not at work， your enforcer thinks that there's an employee who might be rather useful.
-chapter.bank-take-over.ic-end.success	I think that given the right liquid enticement， there's the manager whose knowledge could be very valuable. Get me the booze and I'll find out what they know!
-chapter.bank-take-over.oc-end.fail	{name} really thought that they were sneaking around prety well. Turns out that they were made by the authorities from the get go.
-chapter.bank-take-over.decide.talkative-executive	Some homemade booze should help extract some useful information.
-chapter.bank-take-over.decide.drunken-accident	Send some booze along and have a bender with our new friend and see what shakes loose.
-chapter.bank-take-over.fail.bribe	You got made - and not in a good way. By the Feds. But even Feds can be bought these days.
-chapter.bank-take-over.fail.lay-low	The Feds， they've discoverd what {name} is up to. Probably best if they get out of town for a spell.
-chapter.bank-take-over.lay-low.epilogue	<i>Have {name} spend some time looking to your outfit's interests somewhere out of town until the Feds lose their scent.</i>
-chapter.talkative-executive.title	Truth Potion
-chapter.talkative-executive.ic-start	As you know， I can be rather convincing. With a lot of booze， I can make sure we find out what's really going on in this bank.
-chapter.talkative-executive.oc-start	{name} is plying a bank manager with booze to try and expose the bank's secret business dealings.
-chapter.talkative-executive.oc-end.success	{name} had a few drinks with one of the bank's managers after work. Afer a few swigs， the manager just started talking about quite a few illegal goings on at the bank by the owners and their family.
-chapter.talkative-executive.ic-end.success	Should I spend some time and investigate these supposed crimes? Could be some opportunities for good old fashioned blackmail here.
-chapter.talkative-executive.oc-end.fail	Seems that on one of his trips to the bathroom， our manager friend got suspicious and called the cops.
-chapter.talkative-executive.inprogress	{name} is seeing whether the drunken rambling of some upper manager at the bank is accurate.
-chapter.talkative-executive.decide.follow-executive	Follow up on those drunken ramblings and see if any of them are true.
-chapter.talkative-executive.decide.fail	Well， next time maybe you should be more careful about who you have drinks with.
-chapter.drunken-accident.title	An Incident
-chapter.drunken-accident.ic-start	Well， our friend at the bank really couldn't handle the booze. After we had a very revealing talk， the drive home didn't really end well for him.
-chapter.drunken-accident.oc-start	{name} is "helping" a bank manager out of an automotive jam.
-chapter.drunken-accident.oc-end.success	The bank manager insisted he could drive home. But he seems to have confused his gears.
-chapter.drunken-accident.ic-end.success	Instead of going backwards， he went into the wall. Hard. It was pretty funny， boss. He's pretty panicked about the car.
-chapter.drunken-accident.oc-end.fail	Our manager friend was panicked about the accident. And by our questions. Seems they've informed the authorities.
-chapter.drunken-accident.decide.repair-favor-basic	They shouldn't worry. We'll pay to have the car fixed. They can repay us in other ways.
-chapter.drunken-accident.decide.repair-favor-metal	We'll a mechanic come by with some metal and do the body work quietly.
-chapter.drunken-accident.decide.repair-favor-garage	We've got garages. We'll take care of the damage ourselves.
-chapter.drunken-accident.decide.fail	And let me guess， he called the cops?
-chapter.follow-executive.title	Intereseting Details
-chapter.follow-executive.ic-start	The owners of this bank have been backing some fairly illegal businesses with their funds. Mabye it's time to let them know that they have a new partner?
-chapter.follow-executive.oc-start	{name} is working on convincing the bank's owners that they could use a new partner.
-chapter.follow-executive.oc-end.success	They're scared of your or their greed is taking over. Either way， looks like there's room to move in on this bank.
-chapter.follow-executive.ic-end.success	Boss， I think with the right approach， we could run this bank. What do you think?
-chapter.follow-executive.decide.inside-job-crew	Actually let's use the manager's knowledge to bypass security and just rob the place.
-chapter.follow-executive.decide.gain-bank	Here's some cash to show the owners that we're serious players.
-chapter.follow-executive.decide.fail	Turns out the cops were in on this all along and now there have been arrests.
-chapter.repair-favor.ic-start	Boss， these guys， they're writing loans to themselves! With some pressure to reveal their illegal activities， we should be able to convince them that they have a new partner.
-chapter.repair-favor.oc-start	After helping out with some vehicle repairs， our new manager friend told us how the bank is writing lots of loans for cars. For cars that don't exist. We should exploit that.
-chapter.repair-favor.oc-end.success	Have {name} explain just how our new banker freinds will be working with us.
-chapter.repair-favor.ic-end.success	Got it. They'll surely regret those fake books now， right?
-chapter.repair-favor.decide.get-vehicles	Take some real vehicles
-chapter.repair-favor.decide.get-vehicles-epilogue	To make things look copacetic， they've got a bunch of trucks in a lot. We'll just take those and call it even.
-chapter.gain-bank.title	Banked
-chapter.gain-bank.ic-start	They'll fold pretty quick once they find out what kind of dirt we've got on them.
-chapter.gain-bank.oc-start	The compromising material that you've dug up on the bank's management should be enough to convince them that you're now running the bank.
-chapter.gain-bank.oc-end.success	Congratulations. You're a banker.
-chapter.gain-bank.ic-end.success	Which office do you want， boss? I've got mine picked out.
-chapter.gain-bank.oc-end.fail	Turns out that some of the backers of this bank's illicit activities were members of an out of town outfit.
-chapter.gain-bank.ic-end.fail	We perhaps should have looked into the bank's owners a bit more carefully.
-chapter.gain-bank.decide.scheme-end	Take over the bank. 
-chapter.gain-bank.decide.epilogue	You'll now find that you can demand cash "deposits" in your new bank in exchange for a favor. Also gamblers will fall into debt faster at your gaming establishments now that you can issue your own formal credit.
-chapter.gain-bank.decide.fail-traits	The Skin of Their Teeth
-chapter.gain-bank.decide.fail-traits.epilogue	They did not take kindly to your efforts to undermine their hold on the bank. It's only because {name} possesses some helpful traits that they were able to escape. Barely.
-chapter.gain-bank.decide.fail-death.epilogue	They did not take kindly to your efforts to undermine their hold on the bank. In fact， as {name} was going to what was supposed to be a final meeting， they were met with a hail of gunfire. They did not survive the encounter.
+quest.homemade-brandy-producer.npc1	自家製ブランデーを作っているというニュースが流れた。そして、私たちが仲良くしていることも広まりました。
+quest.homemade-brandy-producer.npc2	あ、そうだ。提案だ! 自家製のブランデーを置いていってくれれば、私の信頼する常連客に渡すよ。
+quest.homemade-brandy-producer.c4	今のスペースでもっと自家製ブランデーを作るにはどうしたらいいかと考えていたんです。もしかして、その運用を改善する方法をご存知ですか？
+quest.homemade-brandy-producer-bonus.name	組み合わせる
+quest.homemade-brandy-producer-bonus.desc	自家製ブランデーの運用を強化する方法について学ぶ。
+quest.homemade-brandy-producer-bonus.npc1	私の家は、数代前から果物の卸売りに携わっています。この忌まわしい法律ができる前は、合法的に酒に変える人たちにたくさん売っていたんだ。私はまだそのコネクションを持っているので、貴重な情報を提供することができます。
+quest.homemade-brandy-producer-bonus.human1	小さな自家製ブランデーの事業を拡大したいと思っていたんだ。そうだ、家族に伝えてくれ、その知識を手に入れることができたら幸せだ。
+quest.homebooze-starter.c8	私は、ここ兄弟愛の街では、自家製ブランデーを作りたいという欲求が満たされていないのでは、と考えています。
+quest.bootlegger-build-homemade-brandy.npc1	あなたが作った自家製ブランデーは、みんなが絶賛しています。近所では引っ張りだこだ。君のような腕の持ち主が上に行くのを助けてくれる友人もいる。このまま話を続けるべきでしょうか？
+quest.bootlegger-build-homemade-brandy.beforechoice	私の友人は、あなたの自家製ブランデーにとても感動していました。実は、彼らはあなたが酒場を開くのを手伝いたいと言っているんだ。それとも、別のことを考えているのか？彼らはただ、あなたのような新進気鋭の人物と手を組みたいだけなのです。私の友人からのお願いは、あなたがこの町を運営するときに、誰が助けてくれたかを覚えていてほしいということです。
+quest.crew-family-one-homemade-brandy.desc	自家製のブランデーを届けて、家族の団らんに適度な明るさを。
+quest.crew-family-one-homemade-brandy.npc1	妹の結婚式の招待状を受け取ったんだろう？来てください あと、自家製のブランデーも持ってきてくれない？義理の家族がいるから一人じゃ無理だ シラフでもいい
+quest.crew-family-one-homemade-brandy.npc2	私は両方の面で協力できるかもしれません。義理でもちゃんと潤滑油になる。
+quest.crew-family-one-homemade-brandy.introending	素晴らしい。リフレッシュのための配慮が嬉しいですね。
+quest.crew-family-one-homemade-brandy.beforechoice	ありがとうございました！自家製ブランデーはここで大事な日まで保管しておきます。しかし、結婚式場の家賃が少し足りないそうです。申し訳ないんですが...
+quest.homemade-brandy-sink-one.name	違法事業:自家製ブランデー
+quest.homemade-brandy-sink-one.desc	自家製ブランデーを届けて、自家製酒造りの腕前を披露する。
+quest.homemade-brandy-sink-one.human1	そうですね、自家製のブランデーが手に入るかもしれませんね。常連客の興味を引くようなものですか？
+quest.homemade-brandy-sink-one.beforechoice	非常にいい線いってますね、あなたの自家製ブランデー。取引していただけるのなら、販売できると思います。
+quest.homebooze-homemade-brandy-flip.desc	もし、あなたが作った自家製ブランデーが近所で評判が悪いようであれば、初期の知り合いがその地域の味覚に合ったものを作ってくれるかもしれません。
+quest.homebooze-homemade-brandy-flip.npc1	ということは、この界隈は自家製ブランデーにそれほど喉が渇いていないことにお気づきでしょうか。
+quest.homebooze-homemade-brandy-flip.npc2	私はこの町に長く住んでいて、あなたの家族も少しばかり知っています。この土地に合ったものを教えてやれるよ。自家製ブランデーが欲しいな
+quest.homebooze-flip.homemade-brandy	自家製ブランデーの需要もあると思うので、作ってみましょう。
+quest.vehicle-quest-pickup-two.c10	もっと自家製ブランデーを売りたいと考えていたのです。しかも、宅配便の会社で働いているのです。
+quest.vehicle-quest-pickup-three-homemade-brandy.name	新たな客：自家製ブランデー
+quest.vehicle-quest-pickup-three-homemade-brandy.desc	自家製のブランデーを持参して、宅配業の新しい友人がどのようにあなたの業務を拡大するのに役立つか見てみよう。
+quest.vehicle-quest-pickup-three-homemade-brandy.beforechoice	この街は、あなたが作っている様な自家製ブランデーをもっと求めているんです。私たちの新しい友人がこの辺りを車で街中で走らせている間に、彼らはあなたの事業を拡大するためにいい話を持ってきたんだ。
+quest.vehicle-quest-pickup-three-homemade-brandy.c3	すでに蒸留酒を手がけているので、自家製ブランデーの製造にも手を広げるのは理にかなっていると思います。
+quest.booze-surplus-homemade-brandy.name	液体余剰：自家製ブランデー
+quest.booze-surplus-homemade-brandy.npc1	最近の配送で、ドライバーが「自家製ブランデーの中を泳いでいるみたいだ」と漏らした。
+quest.booze-surplus-homemade-brandy.npc2	実はその逆です。自家製ブランデーの大量仕入れのために頼みたいことがあるんだ。君がいろいろと知ってることは知ってる。お互いに役立つはずだ。
+quest.booze-surplus-bathtub-gin.c3	自家製ブランデーよりもっと収益性の高い製品に移行することを検討する時期かもしれません。何か役に立つことをご存知ですか？
+quest.delivery-van-homemade-brandy.npc1	運転手から自家製ブランデーをたくさん生産していて、事業が手一杯になってきたと聞いたよ。
+postcard.levelup.homemade-brandy-maker	自家製ブランデー作りの構成員の能力がものすごく上がっている。
+quest.player-expand-one.c6	我が家は自家製ブランデーを作るのが仕事なんですよね。それで新しいテリトリーでみんなが地下室やガレージで作っているものを集めてみたんです。ある意味、オマージュですね。
+quest.jewelry-fence-intro.name	くすねてきたばかりの宝石
+quest.jewelry-fence-intro.desc	信頼できる仕事仲間に、銀行の金庫で「見つけた」宝石の一部を売る契約を結んでもらえるかどうか聞いてみる。
+quest.jewelry-fence-intro.npc1	宝石を手に入れたようですね？現金に替えてくれる人を知っているかもしれません。
+quest.jewelry-fence-intro.human1	盗品売買者のことか？
+quest.jewelry-fence-intro.npc2	まあ、率直に言うとそうです。ただあなたが持っているものを彼らに示すために、1つ渡してくれないか。
+quest.jewelry-fence-intro.human2	私がサンプルを渡して、盗品売買者が興味を持つかどうか見てみるってことか？
+quest.jewelry-fence-intro.introending	まあそんなところです。どうかな？
+quest.jewelry-fence-intro.beforechoice	さて、私の盗品売買者も興味津々です。何を動かしたいんだ？
+quest.jewelry-fence-intro.c1	今は少しだけです。
+quest.jewelry-fence-intro.c2	かなり溜め込んでるから、取りに行かないとな。
+quest.jewelry-fence-intro.c3	ああ、私は王冠の宝石を降ろさないといけないな。すぐにね。
+quest.jewelry-fence-intro.c4	私たちのために行動してくれると言っているが、信頼できるような関係ではないと思う。ただ、サンプルは盗品売買者に渡してもらって構わないよ。
+quest.jewelry-fence-intro.c5	もう渡せるほどの宝石はないんだ。サンプルだけ持っていってよ。
+quest.jewelry-fence-intro.c6	気にしないでくれ。渡したサンプルだけの代金を払ってくれればいいんだ。
+quest.jewelry-fence-intro.afterchoice	盗品売買の友人に伝えておくよ。
+quest.jewelry-fence.name	盗品売買者は良き隣人を作る
+quest.jewelry-fence.desc	アソシエイトに頼んで、ジュエリーを盗品売買者に届けてもらう。
+quest.jewelry-fence-complete.beforechoice	ブツがあるなら現金を手に入れられるぞ。
+quest.jewelry-fence-complete.c1	どうぞ。取引できてよかったです。
+quest.jewelry-fence-complete.c2	ありがとう。苦労した分、今後のことも考えて、少しカットしてもらったらどうだろう？
+quest.jewelry-fence-complete.afterchoice	取引に感謝します。
+chapter.schemes-general.decide.cancel	中止する
+chapter.schemes-general-weapons.decide.cancel.epilogue	"<i>{name}が持っていった武器の一部を取り戻す。傷がついていなかったり、何かの証拠になりそうな武器は隠れ家に持ち帰るんだ</i>"
+chapter.schemes-general-cash.decide.cancel.epilogue	""<i>{name}が持っていた現金の一部を取り戻す。""了解です、ボス！"" と素直な返事。""それがいつの間にか自分の懐に戻っている。""と。"</i>"
+chapter.schemes-general-nothing.decide.cancel.epilogue	"<i>{name}には、この無鉄砲な計画を直ちに中止して、本業に復帰してもらう。"ボスの言葉のままに。"</i>"
+chapter.general.fail.epilogue	<i>{name}に必要なことをさせ、このことは二度と口外させないようにする。そして、この犯罪と悪党の卑劣な物語を終わらせるのだ。</i>
+chapter.general.trait-fail	何か怪しい
+chapter.general.trait-fail.epilogue	<i>{name}</i>としては慎重すぎるくらいなのだが、何か胡散臭いので、この件は中止することにした。
+chapter.general.arrest.fail.epilogue	<i>{name}はリスクを予期していた。彼らは今、刑務所で過ごす時間が必要だろう。</i>
+scheme.bank-heist.title	銀行強盗
+scheme.bank-heist.desc	{name}は、市内の金融機関の一つで大規模な強奪に取り組んでいます。
+convo.scheme.bank-heist	この辺りの銀行のいくつかは脆弱に見える、そろそろ強盗の準備を始めないとな。いくつか偵察してターゲットを見つけてくれ。適当にばら撒けるようにいくらかの現金も用意した。それと安全のためにリボルバーもな。すぐに報告してくれ。
+chapter.find-banks.title	下見をする
+chapter.find-banks.ic-start	"了解です、ボス。誰が金を持ってるか見てみましょう"
+chapter.find-banks.oc-start	構成員である{name}は、近隣の銀行を車で回り、そこに弱点やチャンスがないかを探しています。
+chapter.find-banks.oc-end.success	車で移動しながら、様々な銀行の出入りを観察した結果、あなたの執行官はいくつかの選択肢を考えてくれたようだ。
+chapter.find-banks.ic-end.success	"どうですか、ボス？私が思うに、ここでできることがいくつかあると思うんです。あなたに従いますよ"
+chapter.find-banks.decide.bank-take-over	あの銀行は我々のテリトリーにある。銀行を襲うのは一度だけでいいんだ。もし俺たちが引き継げれば…俺たち<b>が</b>銀行だ。経営陣に接触する方法を見つけよう。
+chapter.find-banks.decide.inside-job	警備員や従業員を見つけて、この計画に参加させる。内部からの手引させる。
+chapter.find-banks.decide.bank-robbery	構成員を集めろ。見張り役。金庫破り。運転手。侵入して欲しいものを奪おう。
+chapter.bank-take-over.title	辿り着いた素敵な銀行
+chapter.bank-take-over.ic-start	"この銀行を下見していたとき、確かに奇妙な…つまり違法なことが行われているのを見たんだ。チャンスだと思いますよボス。"
+chapter.bank-take-over.oc-start	{name}は、銀行の経営陣の中で、私たちが有利になるような弱みを見つけることに取り組んでいます。
+chapter.bank-take-over.oc-end.success	銀行員の仕事ぶりや、仕事をしていない時を観察していたエンフォーサーは、ある行員が役に立つかもしれないと気が付きました。
+chapter.bank-take-over.ic-end.success	好みの飲み物で誘惑できれば、その知識を利用できる経営者がいると思うんです。酒を飲めば、そいつから色々聞き出せるはずです。
+chapter.bank-take-over.oc-end.fail	{name}は、本当にうまく気付かれないようにやっていると思っていた。最初から当局の手によって仕組まれていたことが判明した。
+chapter.bank-take-over.decide.talkative-executive	自家製の酒があれば、有益な情報を聞き出せるはずだ。
+chapter.bank-take-over.decide.drunken-accident	酒を送り込んで、新しい友人と酒盛りをさせて、何が起きるか見てみよう。
+chapter.bank-take-over.fail.bribe	いい意味で期待を裏切られました。FBIにとってはね。しかし最近はFBIでさえ買収することができる。
+chapter.bank-take-over.fail.lay-low	FBIが{name}を見つけたようだ。しばらく街から出た方がいい。
+chapter.bank-take-over.lay-low.epilogue	<i>{name}には、FBIの匂いが消えるまで、郊外のどこかであなたの組織の利権を守るために時間を使ってもらう。</i>
+chapter.talkative-executive.title	真実の薬
+chapter.talkative-executive.ic-start	知っての通り、私はかなり口に自信があります。たくさんのお酒があれば、この銀行で実際に何が起こっているのかを暴くことができますよ。
+chapter.talkative-executive.oc-start	{name}は銀行の支店長に酒を飲ませ、銀行の秘密の取引を暴こうとする。
+chapter.talkative-executive.oc-end.success	{name}は仕事の後、ある銀行のマネージャーと何杯か飲んだ。何杯か飲んだ後、そのマネージャーは、銀行のオーナーとその家族が行っているかなり違法行為について話し始めたんだ。
+chapter.talkative-executive.ic-end.success	時間をかけてこの犯罪と思われるものを調査すべきだろうか？古き良き時代の脅迫のチャンスかもしれない。
+chapter.talkative-executive.oc-end.fail	どうやらトイレに行った時に、マネージャーが不審に思い、警察に通報したようです。
+chapter.talkative-executive.inprogress	{name}は、銀行上層部から聞き出した内容が酔っぱらいの戯言かどうか確認している。
+chapter.talkative-executive.decide.follow-executive	酔っぱらいの戯言を追って、その中に真実があるかどうかを確認する。
+chapter.talkative-executive.decide.fail	さて、次回は誰と一緒に飲むかについてもっと注意する必要があるかもしれません。
+chapter.drunken-accident.title	ある出来事
+chapter.drunken-accident.ic-start	さて、銀行の友人は、本当に酒に弱かった。私たちに洗いざらい話した後、帰りのドライブは彼にとって本当に良い結果にならなかっただろう。
+chapter.drunken-accident.oc-start	{name}は、自動車のトラブルから銀行のマネージャーを「助けて」いる。
+chapter.drunken-accident.oc-end.success	銀行のマネージャーは、車で帰宅すると言い出した。ただ彼はギアに細工したようだ。
+chapter.drunken-accident.ic-end.success	バックするのではなく、壁にぶつかったんです。もの凄い勢いでね。かなりおかしかったですよ、ボス。彼は車のことで、かなりパニックになっています。
+chapter.drunken-accident.oc-end.fail	マネージャーの友人は、事故のことでパニックになっていました。そして私たちがした質問に関してどうやら当局に通報したようです。
+chapter.drunken-accident.decide.repair-favor-basic	心配することはありません。車の修理代はこちらで負担します。返済は別の方法ですればいい。
+chapter.drunken-accident.decide.repair-favor-metal	メカニックが金属を持ってやってきて、静かに車体の修理をしてくれるよ。
+chapter.drunken-accident.decide.repair-favor-garage	車庫があるんだ。ダメージは私達で何とかしよう。
+chapter.drunken-accident.decide.fail	察するに、警察を呼んだのか？
+chapter.follow-executive.title	興味深い内容
+chapter.follow-executive.ic-start	この銀行のオーナーは、その資金でかなり違法なビジネスをバックアップしてきました。そろそろ新しい相棒が必要だと知らせるべきなんじゃないか？
+chapter.follow-executive.oc-start	{name}は、銀行のオーナーに新しいパートナーが必要だと説得しているところです。
+chapter.follow-executive.oc-end.success	彼らはあなたを恐れているか、欲に支配されている。いずれにせよ、この銀行には参入の余地があるようだ。
+chapter.follow-executive.ic-end.success	ボス、やり方次第では、この銀行を経営することも可能だと思いますよ。どうでしょうか？
+chapter.follow-executive.decide.inside-job-crew	マネージャーの知識を使用しセキュリティを回避して強盗しよう。
+chapter.follow-executive.decide.gain-bank	オーナーに本気であることを示すための現金だ。
+chapter.follow-executive.decide.fail	警察が最初から関与していたことが判明し、現在では逮捕者が出ている。
+chapter.repair-favor.ic-start	ボス、こいつら、自分たちに借金してるんですよ！違法行為をバラすと圧力をかければいいんです。彼らに新しいパートナーがいることを納得させることができるはずです。
+chapter.repair-favor.oc-start	車の修理を手伝った後、新しいマネージャーの友人が、銀行が車のローンをたくさん書いていることを教えてくれました。存在しない車に対してね。それを利用するんです。
+chapter.repair-favor.oc-end.success	{name}に、私たちの新しい銀行家の友人が私たちにどのように協力してくれるかを説明してもらう。
+chapter.repair-favor.ic-end.success	了解です。きっと今頃、あの偽物の本を後悔していることでしょう。
+chapter.repair-favor.decide.get-vehicles	実車を持っていく
+chapter.repair-favor.decide.get-vehicles-epilogue	うまくごまかすために、トラックを大量に置いているようだ。それをもらって、おあいこということにしよう。
+chapter.gain-bank.title	銀行
+chapter.gain-bank.ic-start	私たちがどんな汚いことやってきたかを知ったら、彼らはすぐに折れるでしょう。
+chapter.gain-bank.oc-start	あなたが見つけ出した銀行の経営陣にかかわる危険な資料で十分に納得できるはずです。
+chapter.gain-bank.oc-end.success	おめでとうございます。あなたは銀行員ですよ。
+chapter.gain-bank.ic-end.success	ボスはどのオフィスがいいですか？私はもう決めちゃいましたよ。
+chapter.gain-bank.oc-end.fail	この銀行の不正の裏には、ある外部組織のメンバーがいたことが判明しました。
+chapter.gain-bank.ic-end.fail	銀行のオーナーをもう少しよく調べておくべきだったかもしれません。
+chapter.gain-bank.decide.scheme-end	銀行を乗っ取る。
+chapter.gain-bank.decide.epilogue	あなたの好意と引き換えに新しい銀行に現金「預金」を要求することができることに気がつくでしょう。また、あなたが正式なクレジットを発行できるようになったことで、ギャンブラーはあなたのゲーム施設でより早いペースで借金をするようになります。
+chapter.gain-bank.decide.fail-traits	辛うじて
+chapter.gain-bank.decide.fail-traits.epilogue	彼らは銀行への支配を弱めようとするあなたの行動を快く思っていませんでした。{name}が役に立つ特性を持っていたからこそ、彼らを追い込むことができたのです。辛うじてね。
+chapter.gain-bank.decide.fail-death.epilogue	彼らは銀行への支配を弱めようとするあなたの行動を快く思っていませんでした。実際、最終会合に向かおうとしていた{name}は、銃声に晒されました。彼らは生き残ることができませんでした。
 chapter.inside-job.title	内部からの手引
 chapter.inside-job.ic-start	{name}は、銀行内部から強盗に必要な情報を見つけることに取り組んでいます。
 chapter.inside-job.oc-start	その結果、{name}はこの銀行から現金を引き出すには、銃を乱射するのが最適な方法ではないことに気づく。
@@ -9582,7 +9584,7 @@ chapter.bank-robbery.decide.guns-blazing-thompson	このサブマシンガンは
 chapter.bank-robbery.decide.guns-blazing-pistol	このピストルで静かにステルスで入ろう。
 chapter.bank-robbery.decide.weapons-buy	どんな武器を買うかは、下見の結果を元に決めればいい。
 chapter.bank-robbery.decide.safe-cracker	金庫破りも使える。金庫を破るための装備を準備するために、我々のガレージの一つを使う。
-chapter.guns-blazing.title	Trigger Fingers
+chapter.guns-blazing.title	撃ちたがり
 chapter.guns-blazing.ic-start	さて強盗の計画も決まったことだし、そろそろ銃を運ぶための人数を集めないとね。またアイデアを練ってきます。
 chapter.guns-blazing.oc-start	{name}は今度の銀行強盗のために人を集めている。
 chapter.guns-blazing.oc-end.success	{name}は集めた構成員を雇う準備ができています。
@@ -9592,310 +9594,312 @@ chapter.guns-blazing.decide.crew-gather-leader	{name}は誰からも好かれる
 chapter.guns-blazing.decide.crew-gather-bad-leader	{name}は気難しいところがあるので、強盗団のために特別な現金のインセンティブが必要です。
 chapter.guns-blazing.decide.crew-gather	現金を使って強盗の仲間を集める。
 chapter.guns-blazing.trait-fail	{name}とは一緒に仕事をするのが難しいでしょう。誰も参加したがらないので、中止することにしました。
-chapter.crew-gather.title	Share the Plan
-chapter.crew-gather.ic-start	So boss， we're having a gathering. We'll call it a picnic with the crew I've got for our "visit" to the bank. I'll be driving around a bit getting that together.
-chapter.crew-gather.oc-start	{name} is preparing for one more get-together to finalize the heist.
-chapter.crew-gather.oc-end.success	Time for the， uh， picnic.
-chapter.crew-gather.oc-end.fail	Someone blabbed about our planned rendezvous.
-chapter.crew-gather.ic-end.success	Hey boss， can I get some help to make this meeting of trigger fingers and muscle go a bit more smoothly?
-chapter.crew-gather.decide.crew-meeting-brick-wine	Supply some brick wine to improve everyone's spirits.
-chapter.crew-gather.decide.crew-meeting-cider	Supply some cider to improve everyone's spirits.
-chapter.crew-gather.decide.crew-meeting-home-brew	Supply some homemade beer to improve everyone's spirits.
-chapter.crew-gather.decide.crew-meeting-moonshine	Supply some moonshine to improve everyone's spirits.
-chapter.crew-gather.decide.crew-meeting-apple-jack	Supply some applejack to improve everyone's spirits.
-chapter.crew-gather.decide.crew-meeting-fruit-wine	Supply some fruit wine to improve everyone's spirits.
-chapter.crew-gather.decide.crew-meeting	Provide a final payment to properly incentivize everyone involved in the upcoming heist.
-chapter.crew-crew-gather.fail-death.epilogue	{name} was getting ready for everyone to arrive. They thought that a delivery was arriving， but it was a shadowy figure with a submachine gun. The expected followed.
-chapter.crew-meeting.title	Go or No-go?
-chapter.crew-meeting.ic-start	Picnic is wrapped. Everyone's ready. Final plans are ready. We'll just need your final OK once we do one more drive by of the bank.
-chapter.crew-meeting.oc-start	{name} is locked and loaded once you say the word.
-chapter.crew-meeting.oc-end.success	{name} reports that everything is a go for the， um， withdrawal.
-chapter.crew-meeting.ic-end.success	Do we go， boss? Everyone's ready， just need your final go ahead and we'll go as planned.
-chapter.crew-meeting.oc-end.fail	No one noticed the cops out back?
-chapter.crew-meeting.decide.roll-out	Go.
-chapter.crew-meeting.fail	Turns out， the cops were just waiting for you give the final approval for they moved in for an arrest.
-chapter.roll-out.title	Keep Calm and Nobody Gets Hurt
-chapter.roll-out.oc-start	The robbery is happening.
-chapter.roll-out.ic-start	I love robbing banks.
-chapter.roll-out.oc-end.success	The robbery part was a success. Now to find out if it was worth the effort and risk.
-chapter.roll-out.oc-end.fail	The greater the reward， the higher the risk. This time， it might have been too high.
-chapter.roll-out.ic-end.success	It's done， boss.
-chapter.roll-out.decide.scheme-end-hi	Jackpot. The safe was full and we made out.
-chapter.roll-out.decide.scheme-end-med	We did pretty well. We could've timed it better， but not a bad haul.
-chapter.roll-out.decide.scheme-end-low	The haul， well， it wasn't great. Maybe we picked the wrong bank? Maybe they knew we were coming?
-chapter.roll-out.decide.scheme-end-jewels-hi	Jackpot. The safe was full and we made out. And we broke into the safety deposit boxes and found a load of jewels.
-chapter.roll-out.decide.scheme-end-jewels-med	We did pretty well. We could've timed it better， but not a bad haul. And after we opened the vault， we grabbed some nice jewelry.
-chapter.roll-out.decide.scheme-end-jewels-low	A bit disappointing. Some cash. Some jewelry. Not what we hoped for.
-chapter.roll-out.decide.epilogue	{name} did it. We robbed a bank.
-chapter.roll-out.fail-death	Things， well， they went sideways. It turned into a shoot-out. Get out the black suit and get ready for a funeral.
-chapter.safe-cracker.title	Safe Cracking
-chapter.safe-cracker.ic-start	Instead of relying on the bank staff to open the safe for us， let's build a rig to blast the thing open ourselves， yeah?
-chapter.safe-cracker.oc-start	{name} is working on buildng a rig to blow the safe wide open during the robbery.
-chapter.safe-cracker.oc-end.success	We're all set to make a big boom boom in the bank， boss. Just need some more supplies.
-chapter.safe-cracker.oc-end.fail	Playing with matches. Not safe.
-chapter.safe-cracker.decide.crew-gather	{name} juse needs some cash to get some， as they call it， "boom boom stuff".
-chapter.safe-cracker.fail-death	Boom boom， indeed. While trying to figure out how to blow up a safe， they， well， blew themselves up.
-chapter.get-plans.title	Solid Plans
-chapter.get-plans.ic-start	So， you know the best way to avoid setting off the alarms? Turn them off. I'm sure I can get my hands on the specs for the alarm system.
-chapter.get-plans.oc-start	{nane} is acquiring plans for the alarm system at the bank.
-chapter.get-plans.oc-end.success	{name} got an in with staff at the alarm company. Plans should be forthcoming.
-chapter.get-plans.ocend.fail	Things have not gone well at the alarm company. Not well at all.
-chapter.get-plans.ic-end.success	I can get the plans， boss. Just need a bit of cash， boss. Money talks here.
-chapter.get-plans.decide.charmed-plans	{name} just has a way with people and usually merely has to ask nicely and pay the usual fees.
-chapter.get-plans.decide.bribed-plans	{name} will need a big bribe to get their hands on the alarm system plans.
-chapter.plans-timing.title	The Bypass
-chapter.plans-timing.ic-start	We've got the plans， now we just need to figure out to do with them. I'll study up and see what the best approach might be.
-chapter.plans-timing.oc-start	 Now that you've got the plans， what to do with them?
-chapter.plans-timing.oc-end.success	{name} has some ideas how the plans might be used to access the cash and valuables in the bank.
-chapter.plans-timing.oc-end.fail	Doing research on the plans has tipped off a few of the wrong people.
-chapter.plans-timing.ic-end.success	Two options， boss. One， we build a bypass box to get past the alarm and go in at night. Two， we pay off the local operators and just go in during the day.
-chapter.plans-timing.decide.midnight-visit	We build the bypass box and go in at night.
-chapter.plans-timing.decide.crew-meeting	Pay off who needs paid off and we go in through the front door.
-scheme.warehouse-pressure.title	Industrial Infiltration
-scheme.warehouse-pressure.desc	{name} is infiltrating a local branch of the truck drivers' union.
-scheme.stalled-production.generic	Lets get the resources to help with this production:\n<indent=30><i>{module}</i></indent>
-convo.scheme.warehouse-pressure	The warehouses in this city are teeming with useful materials. The truck drivers that move the goods around， they're our key to getting access to some of it. See if you can quietly get in control of one of their local unions. Take some cash for suggestions and a few bats should you need to convince.
-chapter.find-warehouses.title	Warehouse Searches
-chapter.find-warehouses.ic-start	Some of the wokers around here might be willing to accept a payment in order to look the other way while we help ourselves to some things that we need.
-chapter.find-warehouses.oc-start	{name} looking for warehouse that we might be able to infiltrate to acquire supplies for one of our operations.
-chapter.find-warehouses.oc-end.success	It appears that there are some warehouses with some workers of flexible morals that we can exploit.
-chapter.find-warehouses.oc-end.fail	Our search for supplies has been interrupted， boss.
-chapter.find-warehouses.ic-end.success	We've had a word with the truck drivers and loading dock hands at this warehouse. For a fee， they can arrange for supplies that we need to end up at one of our operations.
-chapter.find-warehouses.decide.warehouse-intercept	Let us know when you've got supplies set aside for delivery to us.
-chapter.find-warehouses.fail-driver	While searching for supplies， {name} found a suitcase.
-chapter.general.fail-xp-driving.epilogue	It was full of cash. Small bills. Impossible to trace. Insticnt kicked in and they grabbed it and drove away as fast as possible. Unfortunately， this means that we'll have to avoid that warehouse for a while.
-chapter.find-warehouses.fail-combat	A shot rang out in the night
-chapter.find-warehouses.fail-death.epilogue	While rummaging through a warehouse late at night for valuable materials， {name} came across a guard. Rather than sneak away， they tried to subdue the guard. They did not succeed.
-chapter.find-warehouses.fail.nothing	Driver got skittish， it seems.
-chapter.find-warehouses.fail.nothing.epilogue	The driver we were talking to go scared off by something. Best we move on from this warehouse. We're not necessarily interested in finding out who or what scared them off the scheme.
-chapter.warehouse-intercept.title	Snagging the Shipment
-chapter.warehouse-intercept.ic-start	I'm going to ride along with some of the drivers and find out what we can get our hands on. I'll handle making sure we get what we sort of paid for.
-chapter.warehouse-intercept.oc-start	{name} is riding along with the driver to make sure that your supplies get delivered.
-chapter.warehouse-intercept.oc-end.success	Your driver was able to secure a valuable shipment of raw materials.
-chapter.warehouse-intercept.oc-end.fail	This city's streets can be dangerous and unpredictable.
-chapter.warehouse-intercept.ic-end.success	Good news! Shipment of supplies coming in! Should I see if I can arrange for the same deal?
-chapter.warehouse-intercept.decide.warehouse-wait	Lets keep this tap running. Here's some money， run it again.
-chapter.warehouse-intercept.decide.end-scheme	No need， we got what we wanted.
-chapter.warehouse-intercept.decide.end-scheme-no-space	We've got as much stuff in storage at that operation as we can handle. No point running it again.
-chapter.warehouse-intercept.end-scheme.epilogue	Your outfit has successfully relieved a nearby warehouse of all the materials needed by one of your operations. Big profits await.
-chapter.warehouse-intercept.decide.fail-end	Throw it in the dump.
-chapter.warehouse-intercept.decide.fail-end.epilogue	Get rid of the merchandise. Make sure the driver doesn't talk. Walk away non-chalantly.
-chapter.warehouse-intercept.decide.fail-arrest	More than a ticket this time
-chapter.warehouse-intercept.decide.fail-death	Supply Crash
-chapter.warehouse-intercept.decide.fail-death.epilogue	While fleeing the cops， {name} lost control of the truck and did not survive the resulting crash.
-chapter.warehouse-wait.title	Operation Resupply
-chapter.warehouse-wait.ic-start	That went well， right? I can see what else we can get from these warehouses.
-chapter.warehouse-wait.oc-start	{name} is working on relieving another warehouse of their supplies.
-chapter.warehouse-wait.ic-end.success	Got another truck full of supplies for our operation ready to go， boss.
-chapter.warehouse-wait.decide.repeat	Have {name} bring in another truckload of supplies.
-scheme.speakeasy-pressure.title	Suburban Sojourn
-scheme.speakeasy-pressure.desc	{name} is headed out of the city to seek out suburban sources of booze.
-convo.scheme.speakeasy-pressure	There are rumors that some of the small-time operators in the suburbs are looking from some partners in the city to distribute some supply they've found. See if there's a deal to be made.
-chapter.find-connections.title	Scheming Up Deals
-chapter.find-connections.ic-start	So boss， I know some people out in the suburbs. Friends. Sort of. They run a small time operation out there and they've got word of a score that's too big for them. Should I go check it out?
-chapter.find-connections.oc-start	{name} is in the suburbs trying to make contact with one of the small-time operators out there.
-chapter.find-connections.oc-end.success	{name} had a very interesting meeting with the sort of friends in the suburbs.
-chapter.find-connections.oc-end.fail	The other "outfit" in the burbs turned out to be a Federal dragnet. "Sort of" friends， indeed!
-chapter.find-connections.ic-end.success	I think I've got a nibble， boss. I just need a bit more bait， if you know what I mean.
-chapter.find-connections.decide.secret-delivery	How's this wad of cash for bait?
-chapter.find-connections.fail.arrest	{name} got caught up in some sort of Federal operation in the burbs. Better there than here.
-chapter.secret-delivery.title	A New Partner
-chapter.secret-delivery.ic-start	Well， our new friends have some good connections and they're prepared to make a big delivery. Just need to work out some logistics and the like.
-chapter.secret-delivery.oc-start	{name} is working out the details for a new partnership with a small， suburban outfit.
-chapter.secret-delivery.oc-end.success	Logistics and the like are arranged. Now to see to getting the stuff into the city.
-chapter.secret-delivery.oc-end.fail	On the last trip back into the city， {name} got pulled over and had some， um， samples and other incriminating evidence.
-chapter.secret-delivery.ic-end.success	So， to receive the delivery， we just need to build out a secure and private space there for them to operate in the city. I know just the place.
-chapter.secret-delivery.decide.suburban-supplies	Well， then， let's build it.
-chapter.secret-delivery.fail.arrest	It's fine. {name} isn't going to tell anyone where that stuff came from. But our suburban friends are spooked.
-chapter.suburban-supplies.title	Special Deliveries
-chapter.suburban-supplies.ic-start	Heading back out. I'll drive into the city with our score， boss.
-chapter.suburban-supplies.oc-start	{name} is back in the suburbs arranging for a big shipment.
-chapter.suburban-supplies.oc-end.success	{name} is all ready to make the final arrangements for the big delivery.
-chapter.suburban-supplies.oc-end.fail	No one has been able to reach {name} for the last week or so.
-chapter.suburban-supplies.ic-end.success	We've got enough tranport to bring one， big load into the city. What'll it be， boss?
-chapter.suburban-supplies.decide.late-night-delivery.bottles	Bring in some bottled booze. And as much as you can bring in.
-chapter.suburban-supplies.decide.late-night-delivery.barrels	Bring it in by the barrel. We'll bottle it up in the city.
-chapter.suburban-supplies.decide.late-night-delivery.champagne	You said champagne? Like the good stuff from before Prohibition? Bring that load in.
-chapter.suburban-supplies.decide.late-night-delivery.cordials	You said cordials? Like the good stuff from before Prohibition? Bring that load in.
-chapter.suburban-supplies.decide.late-night-delivery.aged-whiskey	You said aged whiskey? Like the good stuff from before Prohibition? Bring that load in.
-chapter.suburban-supplies.decide.late-night-delivery.dark-rum	You said spiced rum? Like the good stuff from before Prohibition? Bring that load in.
-chapter.suburban-supplies.decide.late-night-delivery.gin	You said real gin? Like the good stuff from before Prohibition? Bring that load in.
-chapter.suburban-supplies.fail.runaway-crew	It looks like {name} absconded with a vehicle and is up to something. What that something is， well， that's not clear yet.
-chapter.suburban-supplies.fail.dumb-crew	{name}， yeah， well， they've never been the brightest light in the sky. But we're getting word that they've done something remarkably stupid， even by their standards.
-chapter.suburban-supplies.fail.no-traits	Feds in Wrong Places
-chapter.suburban-supplies.fail.no-traits.epilogue	{name} was just avoiding some inconvenient Feds. Don't know how they found out about our plans， but best to call it off with the suburbans. Just to be safe.
-chapter.late-night-delivery.title	Late Night Deliveries
-chapter.late-night-delivery.ic-start	All set， boss. See you soon. You'll be pleased with the stuff I've got.
-chapter.late-night-delivery.oc-start	{name} is heading back to town with a big score.
-chapter.late-night-delivery.oc-end.success	{name} has indeed pulled off a major score with the "sort of" friends from the suburbs.
-chapter.late-night-delivery.ic-end.success	All unloaded boss. It was even more than I thought! This stuff sure will be fetch a pretty penny!
-chapter.late-night-delivery.decision.success	<i>"Got the stuff， boss. And it's good stuff."</i>
-chapter.late-night-delivery.decide.bottles	Case and cases
-chapter.late-night-delivery.epilogue	{name} secured a substantial delivery of booze as a result of this deal with our suburban friends.
-chapter.late-night-delivery.decide.bottles-discovery	In addition to the booze we wanted， we've also found out about something new and potentially lucrative for the future.
-chapter.late-night-delivery.fail-traits	Bad news. We got made by some local cops on the way into town.
-chapter.late-night-delivery.fail-traits.epilogue	But， while {name} was savvy enough to talk them out of arresting anyone， they did have to dump the whole load. Our suburban friends are not pleased.
-chapter.late-night-delivery.fail-death	Bad news. We got made by some local cops on the way into town. And some gunfire was exhanged.
-chapter.late-night-delivery.fail-death.epilogue	Turns out some of those suburban cops can shoot straight after all.
-chapter.late-night-delivery.decide.barrels	The barrels have arrived.
-chapter.late-night-delivery.decide.barrels.epilogue	As we arranged， we've now got some bottling to do.
-chapter.runaway-crew.title	<b>Missing in the Suburbs</b>
-chapter.runaway-crew.inprogress	{name} was last seen near a suburban parking lot.
-chapter.runaway-crew.decision.success	<i>"{name} has been located. Let's seee what they've got to say for themselves."</i>
-chapter.runaway-crew.decide.theft	That's not the car they left in.
-chapter.runaway-crew.decide.van-theft.epilogue	The deal with the suburbans turned out to be a lot of hot air， but they did have these two delivery vans that we， um， borrowed.
-chapter.runaway-crew.decide.car-theft.epilogue	The deal with the suburbans turned out to be a lot of hot air. Their boss， he had this shiny new sports car. We told him that giving us the keys would help us forget that he wasted our time.
-chapter.runaway-crew.decide.dead	Something turned a friendly conversation into a shoot-out in a parking lot.
-chapter.runaway-crew.decide.dead.epilogue	Not sure what happened or who shot first， but we found {name} riddled with bullets in the trunk of a car in the parking lot.
-chapter.dumb-crew.title	<b>A Dim Bulb</b>
-chapter.dumb-crew.oc-start	{name} got into trouble. Again.
-chapter.dumb-crew.ic-start	"I swear this isn't my fault， boss! Sometimes I just get arrested for no reason."
-chapter.dumb-crew.oc-end.success	Decide what to do with a careless crew member.
-chapter.dumb-crew.ic-end.success	What am I going to do with you? I just don't know.
-chapter.dumb-crew.decide.bribe.epilogue	Pay a bribe to get {name} out of trouble in the burbs and back into the city.
-chapter.dumb-crew.decide.arrest	Maybe this will be a lesson?
-chapter.dumb-crew.decide.arrest.epilogue	Let them spend some time in jail. Maybe they'll be more careful next time.
-scheme.tip-off.title	Calling in a Raid
-scheme.tip-off.desc	{name} got to know some Federal Agents while behind bars and thinks that they can be of use.
-convo.scheme.tip-off	While you were in the can， the Feds were always hounding you for info， yes? Like who do you know? Or where is so and so? And what goes on at such and such a place? I know that you always gave 'em squat. But now that you're out and we've got some rivals that need dealt with， I had an idea.
-scheme.rival-tip-off.generic	Let's rain the feds down on {rival}.
-chapter.connection-from-prison.title	The Tip Off
-chapter.connection-from-prison.ic-start	So I'm thinking we make an arrangement with the Feds. I'll find out what the Feds are looking for. See if we can get them to help us out.
-chapter.connection-from-prison.oc-start	{name} is spreading some cash around to see what can be found out about a rival outfit's activities.
-chapter.connection-from-prison.oc-end.success	{name} got a lead on where a rival is running a major operation.
-chapter.connection-from-prison.ic-end.success	Got a lead， boss. I'll talk to the local cops and see if I can get a meeting with an Agent. Just need some axel grease， if you know what I mean.
-chapter.connection-from-prison.nerves	{name} has always been a bit skittish. Their time in the can hasn't helped， so offer some protection and cash to get a cop to arrange a meeting with the Feds.
-chapter.connection-from-prison.chatty	{name} could talk the feathers off a parrot. Just give them some cash to take a city cop out for a nice meal or two and you'll get your in with the Feds.
-chapter.connection-from-prison.bad-guy	{name} has quite the foul rep while they were on ice. It's going to take some greenbacks to convince the locals that this is on the up and up.
-chapter.connection-from-prison.regular	Here's some product for the local police union's next celebration. A donation in exchange for a meeting.
-chapter.connection-from-prison.decide.fail	{name} was not convincing anyone of anything. Other than their lack of rehabilitation. Back to the slammer for them.
-chapter.secret-meeting.title	A Secret Meeting
-chapter.secret-meeting.ic-start	Got the meeting all set， boss. The Feds seem keen to play ball and take credit for the bust. And we have one fewer rival to deal with.
-chapter.secret-meeting.oc-start	{name} is on their way to a secret audience with a Federal Agent.
-chapter.secret-meeting.oc-end.success	The meeting went as planned. The Feds took the bait and they're rolling out.
-chapter.secret-meeting.oc-end.fail	Seems that your rival found out about your erstwhile agreement and did something permanent to stop the meeting.
-chapter.secret-meeting.ic-end.success	They bought it all， boss. They've said that they're "acting on new intelligence" to move against one of the city's criminal outits. 
-chapter.secret-meeting.decide.fail-death	That is not going to help relations with our rivals.
-chapter.secret-meeting.decide.fail-death.epilogue	{name} never made it to their meeting with the Feds.
-chapter.secret-spoils.title	Just Desserts
-chapter.secret-spoils.ic-start	Seems the Feds found all kinds of interesting stuff at the safehouse belonging to our "friends." I'm going to take a look and see I can make any of it quietly appear at our doorstep.
-chapter.secret-spoils.oc-start	{name} is working their relationships with local law enforcement to skim off some of their recent criminal windfall.
-chapter.secret-spoils.oc-end.success	Turns out a great success makes even the Feds generous. {name} is back with some options on what we can take.
-chapter.secret-spoils.oc-end.fail	Sometimes its worth it to push your luck. Sometimes it isn't. {name} will have to learn the difference in the can.
-chapter.secret-spoils.ic-end.success	I got an agent kind enough to share some of the spoils. Says it can't be the whole haul though， so we're gonna have to pick. What do you think?
-chapter.secret-spoils.decide.reward-money	Wasn't there a reward or something for information leading to arrest?
-chapter.secret-spoils.decide.reward-money.epilogue	Collect a portion of the reward money.
-chapter.secret-spoils.decide.bottles	It would be a shame to destroy all of that inventory. What if a transport truck got lost?
-chapter.secret-spoils.decide.epilogue	You got a portion of the goods seized by the Feds during the raid.
-scheme.cop-blackmail.title	Dirty Cops
-scheme.cop-blackmail.desc	{name} thinks that a cop at the local precinct could be convinced to help furhter our outfit's goals.
-convo.scheme.cop-blackmail	You've done a lot of negotiating and probably got a pretty fair idea when there's a weakness that can be turned to our advantage. There's this cop we know who has a whole lot of weakness. Can you go check it out?
-chapter.digging-for-dirt.title	Digging for Dirt
-chapter.digging-for-dirt.ic-start	Our cop friend， they seem to make some stops in some pretty odd places and be up to some， well， not very cop-like things. I want to follow them for a few weeks. Find out what's going on.
-chapter.digging-for-dirt.oc-start	{name} is tracking a cop to see if they're behaving or being bad. With a camera.
-chapter.digging-for-dirt.oc-end.success	{name} found quite a few things that don't match up of our friend is a good cop.
-chapter.digging-for-dirt.oc-end.fail	{name} didn't find anything untoward to pin on our cop friend. But that doesn't mean their month was wasted.
-chapter.digging-for-dirt.ic-end.success	Yeah， boss， good news. We've got a rotten cop. Now I want to find out exactly what's going on， to reall pin them in a corner.
-chapter.digging-for-dirt.decide.keep-following	Sure. Here's some cash. Buy a camera and catch them in the act.
-chapter.digging-for-dirt.decide.fail-early	A good cop in this town? Stranger things have been reported， I guess. But hopefully it wasn't a complete waste of time.
-chapter.digging-for-dirt.decide.get-xp	All of the driving experience was a positive.
-chapter.digging-for-dirt.decide.reveal-booze	You found some possible new business opportunities.
-chapter.digging-for-dirt.decide.arrest	Looks like there was some kind of internal police investigation we got caught up in.
-chapter.keep-following.title	On the Hunt
-chapter.keep-following.ic-start	Let's see just how bad our cop friend is being， ok boss?
-chapter.keep-following.oc-start	{name} is figuring out just what exactly this crooked cop is up to. With a camera.
-chapter.keep-following.oc-end.success	{name} took lots of photos of our cop friend picking up envelopes around town. These envelopes appear to full of cash.
-chapter.keep-following.oc-end.fail	The cop， he surprised us by confronting {name} in the street.
-chapter.keep-following.ic-end.success	Got 'em， boss. Our cop friend was strong arming locals for cash. That's our job. I think it's time for me to go do some show and tell.
-chapter.keep-following.decide.plant-evidence-weapon	Make them squirm more. Plant these weapons in their squad car. Leave them no way out.
-chapter.keep-following.decide.confront-cop	Do it. You show. Then tell them how they're now doing a few things for us.
-chapter.keep-following.fail	The watcher became the watched， and they weren't amused. {name} will serve some time and hopefully learn to be sneaky.
-chapter.plant-evidence.title	Planting Evidence
-chapter.plant-evidence.ic-start	Good idea， boss. Once we have them with photos and a weapon that was used in a crime， we'll own them.
-chapter.plant-evidence.oc-start	{name} is planting evidence on a cop for added leverage.
-chapter.plant-evidence.oc-end.success	Evidence planted. Time to harvest. Cops can be rational sometimes. {name} demanded that they let you know about all of the illegal businesses in their precinct who they've been taking these envelopes from. And they'll stay out of your businesses for a year.
-chapter.plant-evidence.oc-end.fail	{name} go the feeling that someone was watching while trying to plant our evidence on the cop.
-chapter.plant-evidence.ic-end.success	Ok， boss. They're squirming on the hook now. Time to set up a meeting to let them onto a new hook?
-chapter.plant-evidence.decide.payoff-meeting	Yes. Get a nice suit and make sure you make a suitably imposing impression to make sure that they don't back out.
-chapter.plant-evidence.decide.payoff-meeting-downtown	Yeah， while you're downtown， just pull them into a convenient dark alley and scare the tar out of them.
-chapter.plant-evidence.decide.vehicle	This has gone far enough. Tell the cop that we'll just help ourselves to a few vehicles from the impound and we'll be square.
-chapter.plant-evidence.decide.vehicle.epilogue	End this scheme and gain new vehicles.
-chapter.plant-evidence.decide.fail-nice	Well， at least while they were working on the cop， {name} picked up a lot of experience.
-chapter.plant-evidence.decide.fail-mean	Oh really? Take all of their envelopes of cash from the past few weeks.
-chapter.plant-evidence.decide.fail.epilogue	It doesn't seem like this cop is willing to play ball any more.
-chapter.plant-evidence.decide.fail	Too bad. What a waste of time.
-chapter.confront-cop.title	Confronting the Cops
-chapter.confront-cop.ic-start	It's time for me to have a serious conversation with our cop friend.
-chapter.confront-cop.oc-start	{name} is off to explain some things to our cop friend.
-chapter.confront-cop.oc-end.success	Cops can be rational sometimes. {name} demanded that they let you know about all of the illegal businesses in their precinct who they've been taking these envelopes from. And they'll stay out of your businesses for a year.
-chapter.confront-cop.oc-end.fail	Our corrupt cop friend was more corrupt that we thought.
-chapter.confront-cop.ic-end.success	I've confronted our cop friend and told them they have a week to deliver on our demands.
-chapter.confront-cop.fail	The conversation with the cop did not go as planned.
-chapter.payoff-meeting.title	A New Partner
-chapter.payoff-meeting.ic-start	I guess the copper's got a new partner， right， boss?
-chapter.payoff-meeting.oc-start	{name} is completing our deal with a crooked cop.
-chapter.payoff-meeting.oc-end.success	The cop has acquiesced to our demands.
-chapter.payoff-meeting.oc-end.fail	The copper never showed up. What do they know that we don't?
-chapter.payoff-meeting.ic-end.fail	I think we got double-crossed， boss.
-chapter.payoff-meeting.ic-end.success	Everything's gone to plan， boss.
-chapter.payoff-meeting.decide.end-scheme	Good work.
-chapter.payoff-meeting.decide.end-scheme.epilogue	The cop has revealed much useful information and shouldn't bother you for a year or so.
-chapter.payoff-meeting.fail	The crooked cop wasn't the only cop to arrive at the meeting.
-scheme.real-estate-deal.title	Real Estate Ventures
-scheme.real-estate-deal.desc	{name} is working to acquire a new building for your outfit.
-convo.scheme.real-estate-deal	I know that you spend most of your time in the back. By doing the books and paying the bills， you get to know things about the neighborhood， right? Think that you can track down new space on the cheap? I'll even let you borrow a car for a while.
-scheme.takeover-option.generic	Let's get the building with these specifications:\n{specifications}
-chapter.neighborhood-tour.title	Neighborhood Tour
-chapter.neighborhood-tour.ic-start	I'll drive around and see where I can get us the best deal and then let you know what I've found out.
-chapter.neighborhood-tour.oc-start	{name} is looking around your territory for a potential building to take over.
-chapter.neighborhood-tour.oc-end.success	{name} has a list of properties for you to consider "acquiring".
-chapter.neighborhood-tour.ic-end.success	Okay， boss. Here's the deal on the， um， deals? I'm sure that we can talk these one of these fine folks into letting us acquiring their building. For the good of the neighborhood.
-chapter.negotiation-style.title	Negotiation Tactics
-chapter.negotiation-style.ic-start	Let me do some research， see what kinds of talk they might be amenable to.
-chapter.negotiation-style.oc-start	{name} is investigating the owner of the building you chose.
-chapter.negotiation-style.oc-end.success	{name} is back with a negotiation strategy.
-chapter.negotiation-style.ic-end.success	I think I've got a bead on them， boss. Waiting on your go ahead.
-chapter.negotiation-style.decide.negotiate-building	{name} knows how to move a deal along， lets start with an offer they should consider.
-chapter.negotiation-style.decide.find-deal	{name} is going to have a sit down and see what kind of deal can be made here. Just need some cash to show interest.
-chapter.find-deal.title	Finding Common Ground
-chapter.find-deal.ic-start	I'll head over and see what kind of deal they're looking to make， ok boss?
-chapter.find-deal.oc-start	{name} is talking to the building owners of the property you want to acquire.
-chapter.find-deal.oc-end.success	There is interest in signing the building over to your outfit. But they remain a bit hesitant.
-chapter.find-deal.oc-end.fail	They got cold feet about dealing with your outfit.
-chapter.find-deal.ic-end.success	So here's the thing. I've got them where I want them， but I think some liquid assets would help close the deal， if you know what I mean.
-chapter.find-deal.decide.negotiate-building	Provide some booze to help smooth out the last detail of the building acquisition.
-chapter.find-deal.fail	They backed out.
-chapter.find-deal.fail-traits.epilogue	But at least {name} was able to recover your deposit money.
-chapter.find-deal.fail.epilogue	All this talking and nothing to show for it.
-chapter.negotiate-building.title	Sealing the Deal
-chapter.negotiate-building.ic-start	That booze should do the trick and I can close this deal soon， I think.
-chapter.negotiate-building.oc-start	{name} is having a drinking bout with a business owner. Let's see what comes of it?
-chapter.negotiate-building.oc-end.success	{name} was able to convince the owners that you'll be a good caretaker of their property.
-chapter.negotiate-building.oc-end.fail	Not quite a done deal.
-chapter.negotiate-building.ic-end.success	I think we've got the outlines of a deal， here boss.
-chapter.negotiate-building.ic-end.fail	They didn't quite go for it， but I think they were close.
-chapter.negotiate-building.decide.get-building	So they stay on the deed and we get to use the back. Good work.
-chapter.negotiate-building.decide.build-out	They're going to let us use some unfinished space. We just need to build it out.
-chapter.negotiate-building.decide.fail.retry	Make another run at them.
-chapter.negotiate-building.fail	If they're not convinced， they're not convinced.
-chapter.negotiate-building.fail.epilogue	There are other buildings in town， after all.
-chapter.build-out.title	The Build Out
-chapter.build-out.ic-start	I'll supervise construction， boss. Make sure it all goes to plan.
-chapter.build-out.oc-start	{name} is overseeing building at a potential new operation site.
-chapter.build-out.oc-end.success	Construction has completed.
-chapter.build-out.oc-end.fail	Building inspectors who won't take a bribe?
-chapter.build-out.ic-end.success	We're wrapping up， boss. But there's this city building inspector who showed up.
-chapter.build-out.decide.get-building.traits	I'm sure you can charm your way out of a proper inspection.
-chapter.build-out.decide.get-building	This envelope of cash should make sure that we pass inspection.
-chapter.build-out.decide.fail	The building inspector proved to be a nuisance.
-chapter.build-out.decide.fail-traits.epilogue	But {name} was able to convince that your outfit was not involved.
-chapter.get-building.title	Move-in Week
-chapter.get-building.ic-start	All done， boss. Time to take over.
-chapter.get-building.oc-start	{name} is moving some stuff into the new building.
-chapter.get-building.oc-end.success	A new building is ready.
-chapter.get-building.ic-end.success	Should I show you around， boss?
-chapter.get-building.scheme-end	Sure - let's see what we got!
-chapter.get-building.scheme-end.epilogue	Your outfit has acquired a new building.
+chapter.crew-gather.title	計画の共有
+chapter.crew-gather.ic-start	それでなんですが、ボス、集まりがあるんです。集めたメンバーで銀行を訪問するピクニックといこう。そのためにちょっと車を走らせますよ。
+chapter.crew-gather.oc-start	{name}は強盗の最終確認のため、もう一回集まる準備をしています。
+chapter.crew-gather.oc-end.success	さあ、ピクニックの時間だ。
+chapter.crew-gather.oc-end.fail	誰かが、私たちの待ち合わせをバラしたようだ。
+chapter.crew-gather.ic-end.success	ボス、この撃ちたがりとマッスルの出会いを、もう少しスムーズにするために、何かお手伝いできることはないでしょうか？
+chapter.crew-gather.decide.crew-meeting-brick-wine	ブリックワインを用意して、みんなのテンションを上げる。
+chapter.crew-gather.decide.crew-meeting-cider	シードルを用意して、みんなのテンションを上げる。
+chapter.crew-gather.decide.crew-meeting-home-brew	自家製ビールを用意して、みんなのテンションを上げる。
+chapter.crew-gather.decide.crew-meeting-moonshine	ムーンシャインを用意して、みんなのテンションを上げる。
+chapter.crew-gather.decide.crew-meeting-apple-jack	アップルジャックを用意して、みんなのテンションを上げる。
+chapter.crew-gather.decide.crew-meeting-fruit-wine	フルーツワインを用意して、みんなのテンションを上げる。
+chapter.crew-gather.decide.crew-meeting	最終的な報酬を払い、今後の強盗に関わる全員に適切なインセンティブを与える。
+chapter.crew-crew-gather.fail-death.epilogue	{name}はみんなが来るのを待っていた。配達が来たと思ったが、それはサブマシンガンを持った人影だった。あとは予想通りの展開になった。
+chapter.crew-meeting.title	行くか、行かないか
+chapter.crew-meeting.ic-start	お弁当を包む。みんな準備万端。最終的な計画の準備もできた。銀行をもう一回ドライブしたら、あとはOKをもらうだけです。
+chapter.crew-meeting.oc-start	{name}は、あなたが言葉を発した時点で行動は制限され、準備を開始します。
+chapter.crew-meeting.oc-end.success	{name}によると、撤退はすべて順調とのこと。
+chapter.crew-meeting.ic-end.success	ボス、行きますか？みんな準備できた、あとはあなたの最終的なゴーサインが出すだけです、計画通りにやりますよ。
+chapter.crew-meeting.oc-end.fail	誰も裏の警官に気づかなかったのか？
+chapter.crew-meeting.decide.roll-out	行け。
+chapter.crew-meeting.fail	警察はあなたが最終的に承認するのを待って、逮捕のために動き出したことが分かった。
+chapter.roll-out.title	冷静になれば誰も傷つかない
+chapter.roll-out.oc-start	強盗が発生した。
+chapter.roll-out.ic-start	銀行強盗が大好きなんです。
+chapter.roll-out.oc-end.success	強盗自体は成功した。あとは努力とリスクに見合うだけの価値があったかどうかだ。
+chapter.roll-out.oc-end.fail	報酬が大きければ大きいほど、リスクも大きくなる。今回はそれが高すぎたのかもしれません。
+chapter.roll-out.ic-end.success	完了です、ボス。
+chapter.roll-out.decide.scheme-end-hi	大当たりです。金庫は満杯で私たちは歓喜していますよ。
+chapter.roll-out.decide.scheme-end-med	かなり頑張りました。もっといいタイミングがあったはずですが、悪い収穫ではなかったと思います。
+chapter.roll-out.decide.scheme-end-low	収穫はまあ…イマイチでしたね。銀行を間違えた？私たちが来るのを知っていたのかも？
+chapter.roll-out.decide.scheme-end-jewels-hi	大当たりです。金庫は満杯で私たちは歓喜していますよ。あと貸金庫にも侵入し、宝石を大量に見つけました。
+chapter.roll-out.decide.scheme-end-jewels-med	かなり頑張りました。もっといいタイミングがあったはずですが、悪い収穫ではなかったと思います。それに金庫を開けた後、いい宝石も手に入れたんだ。
+chapter.roll-out.decide.scheme-end-jewels-low	ちょっと残念な感じです。現金も少しだけ。いくつかの宝石。期待したものではありませんね。
+chapter.roll-out.decide.epilogue	{name}が実行した。私達は銀行を襲った。
+chapter.roll-out.fail-death	事態はまあ予想外の展開になった。銃撃戦になったんだ。黒いスーツを出して葬儀の準備をしないといけない。
+chapter.safe-cracker.title	金庫破り
+chapter.safe-cracker.ic-start	銀行員に金庫を開けてもらうことを当てにするより、自分達で装置を作らないか？
+chapter.safe-cracker.oc-start	{name}は強盗の時に金庫を爆破する仕掛けを作ってる。
+chapter.safe-cracker.oc-end.success	銀行で大儲けするための準備は万端だ、ボス。ただ、もう少し物資が必要だ。
+chapter.safe-cracker.oc-end.fail	マッチで遊ぶ。安全ではない。
+chapter.safe-cracker.decide.crew-gather	"{name}は、""爆発物""と呼ばれているものを手に入れるための資金が必要なようです。"
+chapter.safe-cracker.fail-death	まさにドカンという感じでした。金庫をどう爆破するか考えているうちに自爆してしまいました。
+chapter.get-plans.title	堅実な計画
+chapter.get-plans.ic-start	それで、アラームを鳴らさないようにする一番いい方法を知っていますか？電源を切るんです。警報システムの仕様書を手に入れることができるんだ。
+chapter.get-plans.oc-start	{nane}は銀行のアラームシステムの図面を入手しています。
+chapter.get-plans.oc-end.success	{name}が警報会社のスタッフと連絡を取りました。計画は近々発表されるはずです。
+chapter.get-plans.ocend.fail	警備会社でうまくいっていないようだ。全然ダメです。
+chapter.get-plans.ic-end.success	ボス、設計図を手に入れることができます。ただ少し金が必要です、ここでは金がものを言うんです。
+chapter.get-plans.decide.charmed-plans	{name}は人と接するのが上手いので、大体はうまく頼み込んで、通常の料金を支払うだけでいいはずです。
+chapter.get-plans.decide.bribed-plans	{name}が警報システムの設計図を手に入れるには、大量の賄賂が必要です。
+chapter.plans-timing.title	バイパス
+chapter.plans-timing.ic-start	図面は手に入ったので、あとはそれをどう使用するか。どのような方法があるのか、検討してみますよ。
+chapter.plans-timing.oc-start	さて図面は手に入ったが、どうしようか？
+chapter.plans-timing.oc-end.success	{name}は、この計画を利用して、銀行内の現金や貴重品に到達する方法を考えています。
+chapter.plans-timing.oc-end.fail	計画について調べると、都合の悪い人物が何人もいることがわかった。
+chapter.plans-timing.ic-end.success	2つオプションがあります、ボス。1つ目は、警報機を突破するためのバイパスボックスを作り、夜間に侵入することです。2つ目は、現地のオペレーターに金を払って、日中に侵入する方法です。
+chapter.plans-timing.decide.midnight-visit	バイパスボックスを作り、夜間に入ろう。
+chapter.plans-timing.decide.crew-meeting	必要な人に金を払って、正面玄関から入る。
+scheme.warehouse-pressure.title	産業への浸透
+scheme.warehouse-pressure.desc	{name}はトラック運転手労働組合の地方支部に潜入している。
+scheme.stalled-production.generic	この製造を支援するためのリソースを確保しよう：\n<indent=30><i>{module}</i></indent>
+convo.scheme.warehouse-pressure	この街の倉庫には、有用な素材があふれている。その物資を運ぶトラックドライバーは、その一部を手に入れるための重要な存在だ。彼らの労働組合を取り仕切れないか？提案のための現金と説得のためにバットを持っていけ。
+chapter.find-warehouses.title	倉庫内を探す
+chapter.find-warehouses.ic-start	この辺りの店員さんなら、私たちが必要なものを手に入れるのを見逃してくれるために、喜んでお金を受け取ってくれるかもしれません。
+chapter.find-warehouses.oc-start	{name}は、ある作戦に必要な物資を調達するために潜入できそうな倉庫を探しています。
+chapter.find-warehouses.oc-end.success	いくつかの倉庫で、私たちに協力してくれそうな柔軟な考え方を持った労働者いるようです。
+chapter.find-warehouses.oc-end.fail	ボス、私たちの物資の捜索は中断されました。
+chapter.find-warehouses.ic-end.success	この倉庫のトラックドライバーや荷役作業員と話をしたんだ。この倉庫のトラック運転手や荷役作業員には、私たちが必要とする物資を有料で手配してもらえることになりました。
+chapter.find-warehouses.decide.warehouse-intercept	弊社に納入するための物資が準備できたら教えてください。
+chapter.find-warehouses.fail-driver	物資を探していた{name}は、スーツケースを発見した。
+chapter.general.fail-xp-driving.epilogue	現金でいっぱいだった。小額紙幣です。追跡は不可能だ。彼らは即座にそれを掴んで、できるだけ早く車を走らせた。これはしばらくの間あの倉庫を避けなければならないことを意味します。
+chapter.find-warehouses.fail-combat	夜中に銃声が鳴り響いた
+chapter.find-warehouses.fail-death.epilogue	深夜の倉庫で貴重な資材を物色していた{name}は、警備員に遭遇した。こそこそと逃げるのではなく、警備員を取り押さえようとした。しかし、うまくいかなかった。
+chapter.find-warehouses.fail.nothing	ドライバーは怖じ気ついたようだ。
+chapter.find-warehouses.fail.nothing.epilogue	話をしていた運転手が何かに怯えて行ってしまった。この倉庫から移動した方が良さそうだ。私たちは、誰が、何に驚いて、この計画を中止するべきなのか、必ずしも知りたいわけではありません。
+chapter.warehouse-intercept.title	出荷時の梱包
+chapter.warehouse-intercept.ic-start	私は何人かのドライバーに同乗して、何を手に入れることができるか調査するつもりです。 それに対して何らかの形で支払い確実に手に入れるように処理します。
+chapter.warehouse-intercept.oc-start	{name}がドライバーに同乗して、物資の配達を確認します。
+chapter.warehouse-intercept.oc-end.success	あなたのドライバーは、貴重な原材料の出荷を確保することができたようだ。
+chapter.warehouse-intercept.oc-end.fail	この街の通りは危険で、予測不可能なこともあります。
+chapter.warehouse-intercept.ic-end.success	朗報です！物資が輸送されてくる！同じ取引で手配できるか確認した方が良いでしょうか？
+chapter.warehouse-intercept.decide.warehouse-wait	この取引を続けよう。お金ならある、もう一度頼むよ。
+chapter.warehouse-intercept.decide.end-scheme	必要ない、欲しいものは手に入れた。
+chapter.warehouse-intercept.decide.end-scheme-no-space	この事業で扱えるだけの材料が確保できています。もう取引する意味はない。
+chapter.warehouse-intercept.end-scheme.epilogue	あなたの会社は、ある事業で必要なすべての材料を近くの倉庫から救い出すことに成功しました。大きな利益が待っているでしょう。
+chapter.warehouse-intercept.decide.fail-end	ゴミ捨て場に捨てる。
+chapter.warehouse-intercept.decide.fail-end.epilogue	商品を処分してください。運転手に口止めする。淡々と立ち去る。
+chapter.warehouse-intercept.decide.fail-arrest	今回はチケットよりも
+chapter.warehouse-intercept.decide.fail-death	供給品クラッシュ
+chapter.warehouse-intercept.decide.fail-death.epilogue	警察から逃げる途中、{name}はトラックのコントロールを失い、その結果、事故から生き延びることはできなかった。
+chapter.warehouse-wait.title	オペレーション・リサプライ
+chapter.warehouse-wait.ic-start	うまくいったでしょう？この倉庫から他に何が手に入るかわかるよ。
+chapter.warehouse-wait.oc-start	{name}は、別の倉庫の物資を取り除くことができないか働きかけています。
+chapter.warehouse-wait.ic-end.success	ボス、私たちの事業に使える物資で一杯のトラックを準備できましたよ。
+chapter.warehouse-wait.decide.repeat	{name}にトラックで物資を運ばせてください。
+scheme.speakeasy-pressure.title	郊外での滞在
+scheme.speakeasy-pressure.desc	{name}は、郊外の酒どころを求めて都会へ向かう。
+convo.scheme.speakeasy-pressure	郊外の小規模な事業者が、自分たちが見つけた供給品を流通させるために、都内の提携先を探しているという噂があるんだ。取引きがあるかどうか調べてみてください。
+chapter.find-connections.title	お得なキャンペーン
+chapter.find-connections.ic-start	ボス、郊外に知り合いがいるんです。友達です。ある種のね。小規模な商売をしてるんですが…その人たちには手に余るブツがあるそうなんです。調べに行ってみませんか？
+chapter.find-connections.oc-start	{name}は郊外で、そこにいる小規模なオペレーターの1人と連絡を取ろうとしています。
+chapter.find-connections.oc-end.success	{name}は、郊外にいる友人の類と非常に興味深いミーティングを行いました。
+chapter.find-connections.oc-end.fail	"郊外にあるもう1つの「組織」は、FBIの捜査網であることが判明しました。まさに ""ある種の ""友人ですね！"
+chapter.find-connections.ic-end.success	ボス、何か掴めそうです。ただ少し餌が必要です。
+chapter.find-connections.decide.secret-delivery	この札束をエサにどうだ？
+chapter.find-connections.fail.arrest	{name}は郊外のFBIの作戦に巻き込まれたんだ。ここよりマシだ。
+chapter.secret-delivery.title	新しいパートナー
+chapter.secret-delivery.ic-start	さて、この新しい仲間は良いコネクションを持っていて、大きな配達をする用意があるそうです。あとは物流をどうするかだ。
+chapter.secret-delivery.oc-start	{name}は、郊外の小さな会社と新しいパートナーシップを組むために詳細を詰めています。
+chapter.secret-delivery.oc-end.success	物流などは手配済みです。あとは、荷物を街に運ぶのを見るだけです。
+chapter.secret-delivery.oc-end.fail	最後に街に戻ったとき、{name}は車を止められ、サンプルやその他の証拠となるものを発見されました。
+chapter.secret-delivery.ic-end.success	それで配達を受けるためには、安全でプライベートな空間を作り上げ、街中で活動できるようにすればいいのです。ちょうどその場所を知っていますよ。
+chapter.secret-delivery.decide.suburban-supplies	じゃあ、作ってみようか。
+chapter.secret-delivery.fail.arrest	大丈夫です。{name}は、その原料がどこから来たのか誰にも言わないよ。でも、郊外の友達はビクビクしています。
+chapter.suburban-supplies.title	スペシャルな配達
+chapter.suburban-supplies.ic-start	戻って行きます。私はブツのために市内を回りますよ、ボス。
+chapter.suburban-supplies.oc-start	{name}は郊外に戻り、大きな荷物の手配をしています。
+chapter.suburban-supplies.oc-end.success	{name}は、大きな配達のために最後の手配をする準備ができています。
+chapter.suburban-supplies.oc-end.fail	先週あたりから誰も{name}と連絡が取れなくなった。
+chapter.suburban-supplies.ic-end.success	大きな荷物を運ぶのに十分な輸送手段が必要なんです。それはなんだと思いますか、ボス？
+chapter.suburban-supplies.decide.late-night-delivery.bottles	瓶のお酒を積み込んでください。そして持ち込めるだけ持ち込んでください。
+chapter.suburban-supplies.decide.late-night-delivery.barrels	樽で持ってきてください。市内で瓶詰めにします。
+chapter.suburban-supplies.decide.late-night-delivery.champagne	シャンパンって言った？禁酒法以前の上物とか？それを運んでくれ。
+chapter.suburban-supplies.decide.late-night-delivery.cordials	コーディアルって言った？禁酒法以前の上物とか？それを運んでくれ。
+chapter.suburban-supplies.decide.late-night-delivery.aged-whiskey	年代物ウィスキーって言った？禁酒法以前の上物とか？それを運んでくれ。
+chapter.suburban-supplies.decide.late-night-delivery.dark-rum	スパイスラムって言った？禁酒法以前の上物とか？それを運んでくれ。
+chapter.suburban-supplies.decide.late-night-delivery.gin	本物のジンって言った？禁酒法以前の上物とか？それを運んでくれ。
+chapter.suburban-supplies.fail.runaway-crew	{name}が車を持ち逃げして、何か企んでいるようです。それが何なのかまだわかりません。
+chapter.suburban-supplies.fail.dumb-crew	{name}、そうなんです、彼らは決して明るい存在ではありません。しかし、彼らの基準からしても、驚くほど愚かなことをしたという知らせを受けている。
+chapter.suburban-supplies.fail.no-traits	間違った場所にいるFBI
+chapter.suburban-supplies.fail.no-traits.epilogue	{name}は都合の悪いFBIを避けただけです。どうやって我々の計画を知ったかは知らないが、口外のは中止させるのが一番だ。念のためね。
+chapter.late-night-delivery.title	深夜の配達
+chapter.late-night-delivery.ic-start	了解です、ボス。ではまた。 私が持ってくるもので満足してくれると思います。
+chapter.late-night-delivery.oc-start	{name}は大きなブツを持って街に戻ってくる。
+chapter.late-night-delivery.oc-end.success	{name}は、郊外の「ある種の」友人たちと、確かに大成功を収めました。
+chapter.late-night-delivery.ic-end.success	全部降ろしたよボス。思ったより多いな！こんなの絶対高値で売れるよ！
+chapter.late-night-delivery.inprogress	
+chapter.late-night-delivery.decision.success	<i>"ボス、了解しました。それにそれは良いものですよ。"</i>
+chapter.late-night-delivery.decision.fail	
+chapter.late-night-delivery.decide.bottles	時と場合
+chapter.late-night-delivery.epilogue	{name}は、この郊外の友人との取引の結果、かなりの量の酒を確保した。
+chapter.late-night-delivery.decide.bottles-discovery	また、私たちが欲しかったお酒に加えて、将来的に儲かる可能性のある新たな発見もありました。
+chapter.late-night-delivery.fail-traits	悪い知らせだ。町に行く途中、地元の警官に見つかった。
+chapter.late-night-delivery.fail-traits.epilogue	しかし、{name}がうまく説得して逮捕を免れたものの、荷物を全部渡さなければなりませんでした。郊外の友人たちは喜んでいませんね。
+chapter.late-night-delivery.fail-death	悪い知らせだ。町に行く途中、地元の警官に見つかった。銃声も聞こえました。
+chapter.late-night-delivery.fail-death.epilogue	結局のところ、郊外に住む警官の中には、まっすぐ撃つことができる人がいることが判明した。
+chapter.late-night-delivery.decide.barrels	樽が到着した。
+chapter.late-night-delivery.decide.barrels.epilogue	そして、これから瓶詰めを行う予定です。
+chapter.runaway-crew.title	<b>郊外での行方</b>
+chapter.runaway-crew.inprogress	{name}が最後に目撃されたのは、郊外の駐車場付近でした。
+chapter.runaway-crew.decision.success	<i>"{name}を見つけました。では彼らの言い分をご覧ください。"</i>
+chapter.runaway-crew.decide.theft	あれは彼らが乗っていった車じゃない。
+chapter.runaway-crew.decide.van-theft.epilogue	郊外での件は、大げさな話になってしまいましたが、配送用のバンが2台あって、それを借りたんです。
+chapter.runaway-crew.decide.car-theft.epilogue	郊外での契約は、結局のところ大風呂敷を広げることになった。彼らの上司は、新車のスポーツカーを持っていた。私たちにキーを渡せば、我々の時間を無駄にしたことを忘れてもいいと言いました。
+chapter.runaway-crew.decide.dead	何かの拍子に、駐車場での銃撃戦に発展してしまいました。
+chapter.runaway-crew.decide.dead.epilogue	何が起こったのか、誰が先に撃ったのかわからないが、駐車場にあった車のトランクの中で弾丸にまみれた{name}を発見した。
+chapter.dumb-crew.title	<b>薄暗い電球</b>
+chapter.dumb-crew.oc-start	{name}はトラブルに巻き込まれました。 また。
+chapter.dumb-crew.ic-start	"これは私のせいではありません。時々、理由もなく逮捕されるんです"
+chapter.dumb-crew.oc-end.success	不注意な構成員への対処を決める。
+chapter.dumb-crew.ic-end.success	私をどうするつもりですか？わかっていないんだ。
+chapter.dumb-crew.decide.bribe.epilogue	賄賂を払って{name}を郊外のトラブルから解放し、市内に戻す。
+chapter.dumb-crew.decide.arrest	もしかしたら、これが教訓になるかも？
+chapter.dumb-crew.decide.arrest.epilogue	刑務所で過ごさせればいい。そうすれば、次からはもっと気をつけるようになるかもしれない。
+scheme.tip-off.title	強制捜査への呼びかけ
+scheme.tip-off.desc	{name}は獄中でFBIと知り合いになり、彼らの力を借りようと考えている。
+convo.scheme.tip-off	君が刑務所にいる間、FBIはいつも君の情報を追いかけていたんだろう？例えば、誰を知ってる？どこにいる？どこで何が起こってるんだ？何も話さなかったと思うが、君がいなくなって処理が必要なライバルがいることに気がついたんだ。私にはアイデアがある。
+scheme.rival-tip-off.generic	{rival}にFBIの雨を降らそう。
+chapter.connection-from-prison.title	密告する
+chapter.connection-from-prison.ic-start	それでFBIと協定を結ぼうと思うんだ。FBIが何を探しているのか調べてみる。協力してもらえるか確認してみよう。
+chapter.connection-from-prison.oc-start	{name}は、ライバル会社の活動状況を調べるために、資金をばらまいている。
+chapter.connection-from-prison.oc-end.success	{name}は、ライバルが大規模な作戦を展開している場所の手がかりを得た。
+chapter.connection-from-prison.ic-end.success	手がかりを掴みましたよ、ボス。地元警察と話して、捜査官と面会できるようにします。ただ、そのためには、少し潤滑油が必要なんです。
+chapter.connection-from-prison.nerves	{name}は常に少し巧妙でした。刑務所では時間の無駄になってしまったので、FBIとの会合を手配する警官を雇うために、いくらかの保護と現金を提供する。
+chapter.connection-from-prison.chatty	{name}は適当に言葉を繰り返し、言いくるめることができる。市警を外食に誘う金を渡せば、FBIに取り入ることができる。
+chapter.connection-from-prison.bad-guy	{name}は何もできなかった期間の評判がかなり悪い。地元の人たちを納得させるためには、ある程度の資金が必要になりそうです。
+chapter.connection-from-prison.regular	これが地元の警察組合の次の祝賀会のための商品です。 会議と引き換えに寄付する。
+chapter.connection-from-prison.decide.fail	{name}は誰にも説得力がなかった。更生していないこと以外は。ムショに逆戻りだ。
+chapter.secret-meeting.title	密会
+chapter.secret-meeting.ic-start	会議の準備は整いましたよ、ボス。FBIは逮捕に前向きで自分の手柄にしたいようです。ライバルが1人減りますね。
+chapter.secret-meeting.oc-start	{name}はFBIとの秘密の謁見に向かう途中です。
+chapter.secret-meeting.oc-end.success	会議は予定通り行われました。FBIは餌に食いついたんだ、そして彼らは実行に移したようです。
+chapter.secret-meeting.oc-end.fail	どうやらあなたのライバルが、あなたの先日の合意を知って、会議を止めるために何か余計なことをしたようです。
+chapter.secret-meeting.ic-end.success	彼らはすべて買ったよ、ボス。都市の犯罪組織の1つに対抗するために、「新しい情報に基づいて行動している」と述べていました。
+chapter.secret-meeting.decide.fail-death	これでは、ライバルとの関係も悪くなる。
+chapter.secret-meeting.decide.fail-death.epilogue	{name}はFBIとの会合に間に合わなかった。
+chapter.secret-spoils.title	因果応報
+chapter.secret-spoils.ic-start	"FBIが ""友人 ""の隠れ家で面白いものを見つけたようだ、見てみよう。そのうちのどれかを、私たちの戸口に静かに置いてくれるように誘導できるかもしれない。"
+chapter.secret-spoils.oc-start	{name}は、地元の警察と協力して、最近得た犯罪収益の一部をかすめ取ろうとしています。
+chapter.secret-spoils.oc-end.success	大成功を収めれば、連邦政府さえも寛大になることが判明した。{name}は、私たちが取ることのできる選択肢をいくつか持って戻ってきました。
+chapter.secret-spoils.oc-end.fail	時には自分の運に賭ける価値があります。ただそうでないときもある。{name}はその違いを刑務所の中で学ばなければならないでしょう。
+chapter.secret-spoils.ic-end.success	捜査官が親切にも戦利品の一部を分けてくれるようです。でも全部は無理だそうで。なので選ぶ必要があります。どれがいいでしょう？
+chapter.secret-spoils.decide.reward-money	逮捕につながる情報には、報奨金とかが出るんじゃなかったっけ？
+chapter.secret-spoils.decide.reward-money.epilogue	報酬金の一部を回収する。
+chapter.secret-spoils.decide.bottles	その在庫をすべて破棄してしまうのはもったいない。輸送トラックが迷子になったとしたらどうだろう？
+chapter.secret-spoils.decide.epilogue	捜査中にFBIに押収された商品の一部を手に入れた。
+scheme.cop-blackmail.title	汚職警官
+scheme.cop-blackmail.desc	{name}は、地元の警察署にいる警官を説得して、この組織の目標を達成するために、協力させることができると考えています。
+convo.scheme.cop-blackmail	あなたは交渉の経験が豊富で、こちらに有利になるような弱点をかなり見抜いていると思う。知り合いの警官に弱点がたくさんある。確認してきてくれないか？
+chapter.digging-for-dirt.title	土を掘るということ
+chapter.digging-for-dirt.ic-start	私たちの友人の警官は、かなり奇妙な場所に立ち寄って、まあ、あまり警官らしくないことをやっているようです。数週間、彼らを尾行したい。何が起こっているのか調べてみたいんです。
+chapter.digging-for-dirt.oc-start	{name}が警官を追跡しているのは、彼らが真面目に仕事をしているか、悪いことをしているかを確認しようとしています。カメラでね。
+chapter.digging-for-dirt.oc-end.success	{name}は、良い警官ではないと証拠付けるかなりのものを見つけました。
+chapter.digging-for-dirt.oc-end.fail	{name}は、この警官の友人について、何も不都合なことは発見していません。しかし、それは彼らの月が無駄であったことを意味するものではありません。
+chapter.digging-for-dirt.ic-end.success	ああ、ボス、いい知らせです。腐った警官を見つけました。何が起こっているのか正確に把握し、彼らを追い詰めたい。
+chapter.digging-for-dirt.decide.keep-following	いいね、じゃあ現金を渡すよ。カメラを買って現場を押さえるんだ。
+chapter.digging-for-dirt.decide.fail-early	この街で優秀な警官？奇妙なことが報告されているようだ。でも、時間の無駄でなければいいのですが。
+chapter.digging-for-dirt.decide.get-xp	運転の経験はすべてプラスになった。
+chapter.digging-for-dirt.decide.reveal-booze	新たなビジネスチャンスが見つかったんですね。
+chapter.digging-for-dirt.decide.arrest	警察の内部調査があったようで、それに巻き込まれたようです。
+chapter.keep-following.title	狩りをする
+chapter.keep-following.ic-start	警官の悪事を暴いてやろう、いいですかボス？
+chapter.keep-following.oc-start	{name}は、この悪徳警官が何を企んでいるのかを探っています。カメラでね。
+chapter.keep-following.oc-end.success	{name}は、警官の友人が街中で封筒を拾っている写真をたくさん撮りました。これらの封筒は現金で一杯のようです。
+chapter.keep-following.oc-end.fail	あの警官、{name}と路上で対峙して私たちを脅してきました。
+chapter.keep-following.ic-end.success	了解です、ボス。警官の友人は現金を得るために、地元の人達を武装させていました。私達の仕事のようですね。そろそろ発表の時間だ。
+chapter.keep-following.decide.plant-evidence-weapon	もっと念入りにしよう。この武器をパトカーに仕掛けろ。逃げ場がないようにする。
+chapter.keep-following.decide.confront-cop	やろう。見せつけるんだ。彼らがなにをしているか知らしめる必要がある。
+chapter.keep-following.fail	監視する側がされる側になり、彼らは面白くなかった。{name}はしばらく服役し、うまくいけば卑劣であることを学ぶでしょう。
+chapter.plant-evidence.title	証拠を捏造する
+chapter.plant-evidence.ic-start	いい考えですね、ボス。犯罪に使われた武器と写真を手に入れたら、我々のものになるでしょう。
+chapter.plant-evidence.oc-start	{name}が警官に証拠を仕込んでいる。
+chapter.plant-evidence.oc-end.success	証拠を仕込んできました。収穫の時です。警官は時に理性的だ。{name}はあなたに知らせるよう要求した管区内のすべての違法なビジネスからこの封筒を奪った奴らを1年間ビジネスに干渉しないようにできました。
+chapter.plant-evidence.oc-end.fail	{name}は、警察に証拠を仕込んでいる際に、誰かに見られているような感覚を味わっていました。
+chapter.plant-evidence.ic-end.success	了解です、ボス。彼らは今、釣り針の上でもがき苦しんでいますよ。そろそろ新しい針に付け替える会議を開きませんか？
+chapter.plant-evidence.decide.payoff-meeting	そうですね。いいスーツを着て、それなりに堂々とした印象を与えて、相手が引き下がれないようにするんだ。
+chapter.plant-evidence.decide.payoff-meeting-downtown	そうだ、繁華街にいる間に、都合のいい暗い路地に引き込んで、汚名を着せると脅すんだ。
+chapter.plant-evidence.decide.vehicle	もう十分だろう。警官に言ってくれ、押収された車を自分たちに何台か渡せば助けてやるって、それで丸く収まる。
+chapter.plant-evidence.decide.vehicle.epilogue	この計画を停止して、新しい車両を手に入れる。
+chapter.plant-evidence.decide.fail-nice	まあ、少なくとも警官とやりあっている間に、{name}は多くの経験を積んだと思います。
+chapter.plant-evidence.decide.fail-mean	そうなのか？ここ数週間の現金の入った封筒を全部持って行け。
+chapter.plant-evidence.decide.fail.epilogue	この警官は、もうボール遊びをする気はないようだ。
+chapter.plant-evidence.decide.fail	残念だ。もったいないことをした。
+chapter.confront-cop.title	警官と対峙する
+chapter.confront-cop.ic-start	そろそろ警官の友人と真剣に話をする時期だ。
+chapter.confront-cop.oc-start	{name}は警官の友人に説明するために行っています。
+chapter.confront-cop.oc-end.success	警官は時に理性的です。{name}は、この封筒を奪った管区内の違法企業をすべて知らせろと要求した。そして1年間はあなたのビジネスに関わらないと約束させた。
+chapter.confront-cop.oc-end.fail	腐敗した警官の友人は、我々が思っている以上に腐敗していました。
+chapter.confront-cop.ic-end.success	私は警官の友人と対決し、彼らが我々の要求を実現するのに1週間かかると告げました。
+chapter.confront-cop.fail	警官との会話は予定通りには進まなかった。
+chapter.payoff-meeting.title	新しいパートナー
+chapter.payoff-meeting.ic-start	ボス、カッコイイ新しい相棒ができたんでしょう？
+chapter.payoff-meeting.oc-start	{name}は悪徳警官との取引を完了させる。
+chapter.payoff-meeting.oc-end.success	警官は私たちの要求を受け入れた。
+chapter.payoff-meeting.oc-end.fail	警官は現れなかった。私たちが知らないことを、彼らは知っているのでしょうか？
+chapter.payoff-meeting.ic-end.fail	裏をかかれたようです、ボス。
+chapter.payoff-meeting.ic-end.success	すべて計画通りです、ボス。
+chapter.payoff-meeting.decide.end-scheme	よくやった。
+chapter.payoff-meeting.decide.end-scheme.epilogue	警官は多くの有益な情報を明らかにしてくれたので、1年ぐらいは悩まないはずです。
+chapter.payoff-meeting.fail	会議に来た警官は、悪徳警官だけではなかった。
+scheme.real-estate-deal.title	不動産ベンチャー
+scheme.real-estate-deal.desc	{name}は、あなたの組織のために新しい建物を取得するために取り組んでいます。
+convo.scheme.real-estate-deal	あなたがほとんど時間を後ろで過ごすことを知っています。 帳簿を書いて請求書を払うことで、近所のことを知ることができますよね？新しいスペースを安く手に入ると思っていますか？しばらく車も貸してあげるよ。
+scheme.takeover-option.generic	この条件で建物を手に入れよう：\n{specifications}
+chapter.neighborhood-tour.title	ご近所ツアー
+chapter.neighborhood-tour.ic-start	車で回ってみて、どこが一番お得なのか報告しますね。
+chapter.neighborhood-tour.oc-start	{name}があなたのテリトリーを見回り、引き継げそうな建物の候補を探しています。
+chapter.neighborhood-tour.oc-end.success	{name}は、あなたが「取得」を検討するためのリストを用意できたようです。
+chapter.neighborhood-tour.ic-end.success	よし、ボス。ここで、ええと、取引について？ここの良い人そうな人たちを説得して、建物を譲ってもらうことができると思うんです。近隣の住民のためにもね。
+chapter.negotiation-style.title	交渉術
+chapter.negotiation-style.ic-start	私がいくつか調査してみて、彼らがどんな話なら受け入れやすいか考えてみますよ。
+chapter.negotiation-style.oc-start	{name}はあなたが選んだ建物の所有者を調査しています。
+chapter.negotiation-style.oc-end.success	{name}が交渉材料を持って戻ってきた。
+chapter.negotiation-style.ic-end.success	ボス、狙いが定まりましたよ。お待たせしました。
+chapter.negotiation-style.decide.negotiate-building	{name}は取引の進め方を知っているので、彼らが受け入れそうなオファーから始めましょう。
+chapter.negotiation-style.decide.find-deal	{name}は、ここでどんな取引ができるか、腰を据えて検討するつもりです。ただ興味を持ってもらうために現金が必要なんだ。
+chapter.find-deal.title	共通点を見つける
+chapter.find-deal.ic-start	彼らがどんな取引をしているか見てくるよ、いいでしょうか、ボス？
+chapter.find-deal.oc-start	{name}が取得したい物件のビルのオーナーに声をかけています。
+chapter.find-deal.oc-end.success	建物をあなたの組織に譲ることに関心がある。しかし、彼らは少しためらっています。
+chapter.find-deal.oc-end.fail	彼らはあなたの組織から受けた扱いを快く思っていません。
+chapter.find-deal.ic-end.success	それで…こういうことなんです。欲しいものは入りそうですが、現金化しやすいモノがあれば取引は成立すると思うんです。
+chapter.find-deal.decide.negotiate-building	建物を取得する最後の交渉をスムーズにするために、お酒を用意する。
+chapter.find-deal.fail	彼らは手を引いた。
+chapter.find-deal.fail-traits.epilogue	ただ、少なくとも{name}はあなたの資金を回収することができました。
+chapter.find-deal.fail.epilogue	これだけ話しても、何も出てきません。
+chapter.negotiate-building.title	契約の締結
+chapter.negotiate-building.ic-start	この酒があれば、すぐにでも契約は成立すると思う。
+chapter.negotiate-building.oc-start	{name}は経営者と酒盛りをしている。どうなるか見てみましょうか。
+chapter.negotiate-building.oc-end.success	{name}は、オーナーに「あなたは良い管理人になってくれる」と説得することができました。
+chapter.negotiate-building.oc-end.fail	まだ決まったわけではありません。
+chapter.negotiate-building.ic-end.success	取引の概要がわかりましたよ、ボス。
+chapter.negotiate-building.ic-end.fail	狙っていたわけではないのですが、惜しかったと思います。
+chapter.negotiate-building.decide.get-building	それで彼らは建物に留まりますが、私たちは裏のスペースを使うことができるようになりました。よくやったよ。
+chapter.negotiate-building.decide.build-out	未完成のスペースを使わせてもらえることになりました。あとはそこに建てるだけですよ。
+chapter.negotiate-building.decide.fail.retry	もう一度やりなおせ。
+chapter.negotiate-building.fail	納得できないなら、納得できないでいいんです。
+chapter.negotiate-building.fail.epilogue	街には他の建物もありますから。
+chapter.build-out.title	構築
+chapter.build-out.ic-start	ボス、私は工事の監督をします。計画通りに進むか確認しますよ。
+chapter.build-out.oc-start	{name}は、新しい事業候補地の建築を監督しています。
+chapter.build-out.oc-end.success	工事が完了しました。
+chapter.build-out.oc-end.fail	賄賂を受け取らない建築検査官？
+chapter.build-out.ic-end.success	もう終わりますよ、ボス。しかし、この街の建築検査官が現れました。
+chapter.build-out.decide.get-building.traits	検査を受けても私がちゃんとしているように見せますよ。
+chapter.build-out.decide.get-building	この現金の封筒があれば、検査に合格できるはずだ。
+chapter.build-out.decide.fail	建築検査官は厄介者であることがわかった。
+chapter.build-out.decide.fail-traits.epilogue	しかし、{name}はあなたの組織が関係ないと納得させることができました。
+chapter.get-building.title	引っ越し期間
+chapter.get-building.ic-start	完了です、ボス。引き継ぎの時間ですよ。
+chapter.get-building.oc-start	{name}は新しい建物に荷物を運び込んでいます。
+chapter.get-building.oc-end.success	新しい建物ができました。
+chapter.get-building.ic-end.success	ボス、ご案内しましょうか？
+chapter.get-building.scheme-end	もちろんだ、さっそく見せてくれ！
+chapter.get-building.scheme-end.epilogue	あなたの組織は新しい建物を手に入れました。
 scheme.distant-outpost.title	遠くの前哨基地
 scheme.distant-outpost.desc	監視の知識を活かして、組織を新しいエリアに広げよう。
 convo.scheme.distant-outpost	あなたはこの街をよく知っている。遠くの街で我々の組織のために新しい隠れ家を作るのはどうかな？
@@ -9981,6 +9985,6 @@ districts.camden	カムデン\nニュージャージー州
 districts.north-philly	北\nフィラデルフィア
 districts.south-philly	南\nフィラデルフィア
 districts.port-richmond	ポート\nリッチモンド
-?__id	en
+?__id	
 
 
