@@ -5,7 +5,7 @@ __name	日本語	English
 button.play	プレイ
 button.ok	OK
 button.cancel	キャンセル
-button.loc	<sprite name=”ui location”>
+button.loc	<sprite name="ui location">
 button.close	閉じる
 button.continue	コンティニュー
 button.install	インストール
@@ -71,34 +71,34 @@ datetime.day.28	28日
 datetime.day.29	29日
 datetime.day.30	30日
 datetime.day.31	31日
-ui.check	<sprite name=”ui check”>
-ui.cross	<sprite name=”ui cross”>
+ui.check	<sprite name="ui check">
+ui.cross	<sprite name="ui cross">
 ui.dot	","
-ui.clock	<sprite name=”ui clock”>
+ui.clock	<sprite name="ui clock">
 ui.iconline	{icon}<indent=20>{text}</indent>
 ui.convoline	{icon}<indent=40>{text}</indent>
-ui.checkline	<sprite name=”ui check”><indent=20>{text}</indent>
-ui.crossline	<sprite name=”ui cross”><indent=20>{text}</indent>
-ui.cash	<sprite name=”res cash”>
-ui.ticket	<sprite name=”ui tickets”>
-ui.ticketsp	<sprite name=”ui tickets special”>
-ui.affiliate	<sprite name=”ui biz associate”>
+ui.checkline	<sprite name="ui check"><indent=20>{text}</indent>
+ui.crossline	<sprite name="ui cross"><indent=20>{text}</indent>
+ui.cash	<sprite name="res cash">
+ui.ticket	<sprite name="ui tickets">
+ui.ticketsp	<sprite name="ui tickets special">
+ui.affiliate	<sprite name="ui biz associate">
 ui.affiliate.desc	アフィリエイター。この人物はあなたと長い間取引をしており、長年にわたって少なくとも{level}の恩義があります。
-ui.favors-avail	+{num} <sprite name=”ui tickets”> 恩義
-ui.favors-avail.1	+{num} <sprite name=”ui tickets”> 恩義
+ui.favors-avail	+{num} <sprite name="ui tickets"> 恩義
+ui.favors-avail.1	+{num} <sprite name="ui tickets"> 恩義
 ui.favors-accrued	<b>恩義を獲得: {favors}</b>
-ui.skill-favor	<sprite name=”ui skills”>
-ui.crew-boss	<sprite name=”ui boss”>
-ui.crew-captain	<sprite name=”ui player captain”>
-ui.copicon	<sprite name=”ui pip cops”>
-ui.copicon.paidyes	<sprite name=”ui cop paid”>
-ui.copicon.paidno	<sprite name=”ui cop not paid”>
-ui.copicon.waiting	<sprite name=”ui cop not paid”> <sprite name=”ui clock”>
-ui.heatlevel	<sprite name=”ui heat level 0”>
-ui.heatlevel.1	<sprite name=”ui heat level 1”>
-ui.heatlevel.2	<sprite name=”ui heat level 2”>
-ui.heatlevel.3	<sprite name=”ui heat level 3”>
-ui.heatlevel.4	<sprite name=”ui heat level 4”>
+ui.skill-favor	<sprite name="ui skills">
+ui.crew-boss	<sprite name="ui boss">
+ui.crew-captain	<sprite name="ui player captain">
+ui.copicon	<sprite name="ui pip cops">
+ui.copicon.paidyes	<sprite name="ui cop paid">
+ui.copicon.paidno	<sprite name="ui cop not paid">
+ui.copicon.waiting	<sprite name="ui cop not paid"> <sprite name="ui clock">
+ui.heatlevel	<sprite name="ui heat level 0">
+ui.heatlevel.1	<sprite name="ui heat level 1">
+ui.heatlevel.2	<sprite name="ui heat level 2">
+ui.heatlevel.3	<sprite name="ui heat level 3">
+ui.heatlevel.4	<sprite name="ui heat level 4">
 ui.heatleveltext	ヒートレベル: <i>なし</i>
 ui.heatlevelexpn	この街は静かで、誰も目立った活動をしていない。今の所はだが。
 ui.heatleveltext.1	ヒートレベルl: <i>ほとんどなし</i>
@@ -115,15 +115,15 @@ ui.days	{num}日間
 ui.days.1	{num}日間
 ui.turns	{num}ターン
 ui.turns.1	{num}ターン
-ui.trade.sellonce	<sprite name=”ui sell”>
+ui.trade.sellonce	<sprite name="ui sell">
 ui.trade.sellonce.text	売却する
 ui.trade.sellonce.up-to	({qtyString}個まで購入可)
 ui.trade.sellonce.sales	販売価格: {price}
-ui.trade.buyonce	<sprite name=”ui buy”>
+ui.trade.buyonce	<sprite name="ui buy">
 ui.trade.buyonce.text	購入
 ui.trade.buyonce.up-to	({qtyString}個まで売却可)
 ui.trade.buyonce.costvcash	価格: {price}.   現金: {cash}
-ui.trade.buysell	<sprite name=”ui buy sell”>
+ui.trade.buysell	<sprite name="ui buy sell">
 ui.trade.delivery.sell	予定通り{resdesc}を{bizdesc}に販売した。
 ui.trade.delivery.sinfo	{status} {extra}\n\n{cash}受け取った。
 ui.trade.delivery.buy	予定通り{bizdesc}から{resdesc}を購入した。
@@ -180,13 +180,13 @@ ui.hud.nextturn	次のターン
 ui.hud.player	AI: {percent}
 ui.hud.money-turn	{money}   <size=75%>({deltaString} このターン)</size>
 ui.hud.money-turn-short	{money}   <size=75%>{deltaString}</size>
-ui.hud.saving.up	<sprite name=”ui clock”>セーブ中
-ui.hud.writing.up	<sprite name=”ui clock”>ディスクに書き込み中
+ui.hud.saving.up	<sprite name="ui clock">セーブ中
+ui.hud.writing.up	<sprite name="ui clock">ディスクに書き込み中
 ui.hud.saving	セーブ中・・・しばらくお待ち下さい
-ui.hud.peeps	<sprite name=”ui peep”>: {num}/{max}
-ui.hud.cars	<sprite name=”ui car”>: {num}/{max}
-ui.hud.trucks	<sprite name=”ui truck”>: {num}/{max}
-ui.hud.corners	<sprite name=”ui corner”> : {num}
+ui.hud.peeps	<sprite name="ui peep">: {num}/{max}
+ui.hud.cars	<sprite name="ui car">: {num}/{max}
+ui.hud.trucks	<sprite name="ui truck">: {num}/{max}
+ui.hud.corners	<sprite name="ui corner"> : {num}
 ui.hud.peeps.mo	構成員の最大数: {max} まで\n構成員の最大数はテリトリーのサイズによって決まる。\n\n{explanation}
 ui.hud.cars.mo	乗用車数の上限: {max} まで\n乗用車数の上限は構成員のサイズと利用できる駐車場によって決まる。\n\n{explanation}
 ui.hud.trucks.mo	トラックの最大数: {max} まで\nトラックの最大数はスキルと利用できる駐車場によって決まる。\n\n{explanation}
@@ -206,10 +206,10 @@ ui.rename.header.you	あなたはこのあたりではちょっと名のしれ�
 ui.rename.header.m	あなたの構成員{name}はこのあたりではちょっと名のしれた存在になった。今からストリートネームをつけよう：
 ui.rename.header.f	あなたの構成員{name}はこのあたりではちょっと名のしれた存在になった。今からストリートネームをつけよう：
 ui.rename.example-nickname	Scarface
-ui.rename.describe	名前はあなたの構成員リストに\n<align=center><b>{longname}</b></align>\nまたは ”{shortname}”と表示される。
+ui.rename.describe	名前はあなたの構成員リストに\n<align=center><b>{longname}</b></align>\nまたは "{shortname}"と表示される。
 ui.rename.footer	一度しか付けられない名前なので、慎重に検討しよう。却下することも可能です。
 ui.name.simple	{title} {first} {last}
-ui.name.nicklong	{title} {first} ”{nickname}” {last}
+ui.name.nicklong	{title} {first} "{nickname}" {last}
 ui.name.nickshort	{title} {nickname} {last}
 ui.name.title-cops	警察官
 ui.name.title-feds	捜査官
@@ -232,10 +232,10 @@ ui.personinfo.age-eth	{age}. {eth}.
 ui.personinfo.crew.you	あなたはボスです
 ui.personinfo.crew.peep	{name} はあなたの構成員に属している
 ui.personinfo.crew.action	今のアクション: {action}
-ui.personinfo.crew.skills	シェアされたスキル: {num} <sprite name=”ui skills”>
-ui.personinfo.crew.skills.1	シェアされたスキル: {num} <sprite name=”ui skills”>
+ui.personinfo.crew.skills	シェアされたスキル: {num} <sprite name="ui skills">
+ui.personinfo.crew.skills.1	シェアされたスキル: {num} <sprite name="ui skills">
 ui.personinfo.crew.skills.mo	これらのスキルは、クルー全員に共有されます。\n詳しくは「クルースキル」レポートをご覧ください。\n
-ui.personinfo.crew.levelups	新しい<sprite name=”ui level up”>レベルアップ!
+ui.personinfo.crew.levelups	新しい<sprite name="ui level up">レベルアップ!
 ui.personinfo.crew.levelups.mo	乗組員は、自分が行う仕事から経験を積んでいく。
 ui.personinfo.conn.yours	あなたの人脈
 ui.personinfo.conn.common	共通で持っている人脈:
@@ -288,7 +288,7 @@ ui.stationinfo.status.noop	ステータス:\n非協力的
 ui.stationinfo.officers	巡回中の警官:
 ui.stationinfo.officers.card.influenced	\n<i>(あなたの影響下)</i>
 ui.stationinfo.officers.card.name	{name} {influenced}
-ui.icon.movement	<sprite name=”ui movement pts”>
+ui.icon.movement	<sprite name="ui movement pts">
 ui.icon.actions	"<sprite name=""ui action pts"">"
 ui.icon.health	"<sprite name=""ui health"">"
 ui.icon.car	"<sprite name=""ui car"">"
@@ -342,9 +342,9 @@ ui.crewinfo.module	{name}
 ui.crewinfo.nomodule	<i>事業なし</i>
 ui.crewinfo.manager	<b>{name}</b>， マネージャー.
 ui.crewinfo.nomanager.desc	マネージャーなし
-ui.crewinfo.nomanager.gambling	<sprite name=”ui gambling unfunded”> マネージャーなし
+ui.crewinfo.nomanager.gambling	<sprite name="ui gambling unfunded"> マネージャーなし
 ui.crewinfo.building.mo	<b>{bizname}</b>\n仕事: {opname}\nマネージャー: {peepname}
-ui.crewinfo.building.mo.none	;; e.g. ”Manager: none” or ”Operation: none”
+ui.crewinfo.building.mo.none	;; e.g. "Manager: none" or "Operation: none"
 ui.crewinfo.building.mo.nooperation	\n\n裏稼業なし。この建物に裏稼業を追加することができる。
 ui.crewinfo.building.mo.nomanager	\n\nNo 管理者がいない。構成員から1人、この建物の管理者を任命する。
 ui.crewinfo.building.mo.resultcash	"<sprite name=""ui arr big right""> <sprite name=""res cash"">"
@@ -1124,7 +1124,7 @@ ui.saveload.header.load	直近のセーブデータをロード
 ui.saveload.header.save	ゲームをセーブ
 ui.saveload.autosave.new	(新)
 ui.saveload.autosave.autosave	(オートセーブ)
-ui.saveload.savecard	{prefix} {ethFlag}{playername}、E{mapname}\n{mapdate}
+ui.saveload.savecard	{prefix} {ethFlag}{playername}、{mapname}\n{mapdate}
 ui.saveload.playerdesc	"{groupname}\n{cash}， {people} <sprite name=""ui peep"">構成員， {corners}<sprite name=""ui pip territory expand"">  コーナー"
 ui.saveload.timestring	セーブ完了:\n{savedate}， {savetime}\n\n{warning}
 ui.saveload.warning	"<sprite name=""ui cross""> <i>古いセーブファイルです. {version} バージョンでセーブされていますが、開くとエラーが発生する可能性があります。</i>"
@@ -1805,7 +1805,7 @@ ui.viewdescribemodule.opdetails.front	合法ビジネス
 ui.viewdescribemodule.opdetails.back	密造ビジネス
 ui.viewdescribemodule.frontpage.header	支配下の建物
 ui.viewdescribemodule.frontpage.text	このビルはあなたのコントロール下にある。書面上では<b>{owner}</b>がオーナーになっているが、本当の所有者はあなただ。
-ui.viewdescribemodule.frontpage.frontbiz	·<indent=10>建物の正面にはこう書かれています: <b>”{name}”</b> この住所に登録されている正式な事業で、{owner}が管理しています。あまり儲からないのですが、その役割はカバーをすることです。</indent>
+ui.viewdescribemodule.frontpage.frontbiz	·<indent=10>建物の正面にはこう書かれています: <b>"{name}"</b> この住所に登録されている正式な事業で、{owner}が管理しています。あまり儲からないのですが、その役割はカバーをすることです。</indent>
 ui.viewdescribemodule.frontpage.backbiz	·<indent=10><b>{name}</b>は、人目を避けるために事業を裏側に設置した、あまり合法的でない事業です。</indent>
 ui.viewdescribemodule.frontpage.empty	·<indent=10> <b>裏側には空きスペース</b>があり、違法事業の拠点として利用できます。</indent>
 ui.viewdescribemodule.frontpage.inventory	·<indent=10><b>{desc}</b>使い方は自由です。</indent>
@@ -1888,10 +1888,10 @@ demand.types.list-empty	(none)
 demand.types.list-wrapper	{header}\n\n{rest}
 moneyreason.summary.block	現在の資金: {money}\n\n{stored}\n\n{changes}
 moneyreason.summary.stored.header	保管されている資金:
-moneyreason.summary.stored.line	”  {amount}: {name}”
+moneyreason.summary.stored.line	"  {amount}: {name}"
 moneyreason.summary.stored.unassigned-vehicle	未割当の車両
 moneyreason.summary.changes.header	このターンの変更点:
-moneyreason.summary.changes.line	”  {amount}: {explanation}”
+moneyreason.summary.changes.line	"  {amount}: {explanation}"
 moneyreason.unknown	不明
 moneyreason.crewsalary	構成員給与
 moneyreason.ownedbizcosts	事業拡大
@@ -7962,7 +7962,7 @@ quest.delivery-van-apple-jack.npc1	運転手からアップルジャックをた
 quest.delivery-van-fruit-wine.npc1	運転手からフルーツワインをたくさん生産していて、事業が手一杯になってきたと聞いたよ。
 quest.protection-broken	もしもの時のため
 quest.protection-broken.desc	あなたは誰かに「保護」を約束したのだから、その約束を果たす必要があるのです。
-quest.protection-broken.npc1	確かに保護費は払っているんだ。だが私は毎日のように嫌がらせを受けているんだ。\n<indent=15><i>(地元のギャング団による嫌がらせに憤慨している。詳しくは、彼らの<sprite name=”ui pip social”>ヒストリーを確認する)</i></indent>
+quest.protection-broken.npc1	確かに保護費は払っているんだ。だが私は毎日のように嫌がらせを受けているんだ。\n<indent=15><i>(地元のギャング団による嫌がらせに憤慨している。詳しくは、彼らの<sprite name="ui pip social">ヒストリーを確認する)</i></indent>
 quest.protection-broken.human1	落ち着け、落ちつくんだ。責任者と話してみるよ。
 quest.protection-broken.npc2	そうしてくれると助かるよ。あなたにお金を払っていたっけ？
 quest.protection-broken.human2	まだ失望させてないよな？
@@ -7973,7 +7973,7 @@ quest.protection-broken.afterchoice	この辺りはあなたが仕切ってい�
 quest.protection-broken.ticker-body	{ownername}は、あなたが彼らの背中を見ていると思った。あなたが彼らを失望させたので、彼らは報復として保護金の支払いをやめてしまった。
 quest.goon-trouble	助け合いと、膝の故障
 quest.goon-trouble.desc	あなたの友人が、地元のフーリガンとトラブルがあったそうです。あなたがそれを止めさせることができないか？
-quest.goon-trouble.npc1	聞いてくれ、この辺のフーリガンに困ってるんだ。あなたなら助けられるかもしれないんだ！私は誓って嫌がらせを受けるようなことはしていないんだ。\n<i>(地元のギャング団による嫌がらせに憤慨している。詳しくは、彼らの<sprite name=”ui pip social”>ヒストリーを確認する)</i>
+quest.goon-trouble.npc1	聞いてくれ、この辺のフーリガンに困ってるんだ。あなたなら助けられるかもしれないんだ！私は誓って嫌がらせを受けるようなことはしていないんだ。\n<i>(地元のギャング団による嫌がらせに憤慨している。詳しくは、彼らの<sprite name="ui pip social">ヒストリーを確認する)</i>
 quest.goon-trouble.human1	私に解決してほしいのか？
 quest.goon-trouble.npc2	そうですか？この辺りではとても迷惑をかけているんだ。私が最も感謝すると思う。
 quest.goon-trouble.human2	そうすれば解決です。もう気にしないでください。
@@ -10703,7 +10703,7 @@ quest.politics.icon	"<sprite name=""quest politics"">"
 quest.repeal-grapes-law.name	ぶどう濃縮物の使用禁止を撤回
 quest.repeal-grapes-law.desc	ブドウの濃縮物の取引を禁止している市の法律を削除してもらう。
 quest.repeal-grapes-law.npc1	私の友人、他の都市では、ブドウの濃縮液は完全に合法です。しかし、市役所の友人たちはそれを禁止した。そのため商売にならない どうにかしてくれないか？
-quest.repeal-grapes-law.npc2	この街でブドウの濃縮液を売っている他の商人に相談して、あなたの服のためにもっと商品を用意してもらうこともできるはずです。それに、Eさんには個人的にもお世話になるしね。
+quest.repeal-grapes-law.npc2	この街でブドウの濃縮液を売っている他の商人に相談し、あなたの組織のためにもっと商品を用意してもらうこともできるはずです。それに、個人的にも恩義がある。
 quest.repeal-grapes-law.beforechoice	友よ - やったな! あの最も厄介な法律は廃止された。これでブドウの濃縮物の量を増やしてくれる商人もいることだろう。この多大なる恩に、他にどう報いればよいのだ？
 quest.repeal-grapes-law.c1	私たちがあなたのために費やした費用の一部を、あなたは現金で返済することができるのです。そして、ブドウの濃縮液から利益を得るにはどうすればいいのか、具体的に教えていただけませんか？
 quest.repeal-grapes-law.c1-detroit	私たちがこの製品を作るために費やした費用の一部を、あなたにも寄付していただけませんか？他にワインを作る方法を知ってるか？果物からとか？
@@ -10713,7 +10713,7 @@ quest.repeal-grapes-law.c4	協力関係を深めよう。私は、その新し�
 quest.repeal-apples-law.name	りんごジュース禁止令を廃止
 quest.repeal-apples-law.desc	りんごジュースの売買を禁止する市の法律を削除してもらう。
 quest.repeal-apples-law.npc1	そこで、リンゴジュースを使って大量のサイダーを作る人が現れ、市はリンゴジュースの大量取引を禁止したのです。なんて迷惑なんだ。そして、我々のビジネスにも悪影響が出る。どうにかしてくれませんか？
-quest.repeal-apples-law.npc2	街でリンゴジュースを売っている他の商人にも声をかけて、あなたの服のためにもっと商品を用意してもらうことができると思います。それに、Eさんには個人的にもお世話になるしね。
+quest.repeal-apples-law.npc2	街でリンゴジュースを売っている他の商人に相談して、あなたの組織のためにもっと商品を用意してもらうこともできるはずです。それに、個人的にも恩義がある。
 quest.repeal-apples-law.beforechoice	友よ - やったな! あの最も厄介な法律は廃止された。商人の中には、もっと多くのリンゴジュースを用意しているところもあるでしょう。この多大なる恩に、他にどう報いればよいのだ？
 quest.repeal-apples-law.c1	私たちがあなたのために費やした費用の一部を、あなたは現金で返済することができるのです。そして、リンゴジュースで利益を得るためにはどうすればいいのか、具体的に示してみてはどうでしょうか？
 quest.repeal-apples-law.c1-pittsburgh	このために使ったお金を 少しでも返済してください アップルジャックの作り方を知っていると聞いたが？
