@@ -673,18 +673,18 @@ ui.deliveries.cash.all-available	すべての現金
 ui.deliveries.cash.exact	正確に {amount}
 ui.deliveries.cash.up-to	最大 {quantity} まで
 ui.deliveries.cash.excess	{quantity} を残してすべて
-ui.deliveries.cash.ensure	対象が {quantity} になるまで
+ui.deliveries.cash.ensure	{target} が {quantity} になるまで
 ui.deliveries.confirm.clear-steps	この配送予定にあるすべての工程を消去しますか？
 ui.deliveries.confirm.clear	この配送予定自体を削除しますか？
 ui.deliveries.res.max-possible	{icon&name}、可能な限りすべて
 ui.deliveries.res.up-to	{icon&name}、最大 {quantity} まで
 ui.deliveries.res.excess	{icon&name}、{quantity} を残してすべて
-ui.deliveries.res.ensure	{icon&name}、対象が {quantity} になるまで
+ui.deliveries.res.ensure	{icon&name}、{target} が {quantity} になるまで
 ui.deliveries.action-qty	{action}：{qtyres}
 ui.deliveries.res.max-possible.1	{icon&name}\n可能な限りすべて
 ui.deliveries.res.up-to.1	{icon&name}\n最大 {quantity} まで
 ui.deliveries.res.excess.1	{icon&name}\n{quantity} を残してすべて
-ui.deliveries.res.ensure.1	{icon&name}\n対象が {quantity} になるまで
+ui.deliveries.res.ensure.1	{icon&name}\n{target} が {quantity} になるまで
 ui.deliveries.res.mo.agreed	合意に従う
 ui.deliveries.res.mo.all	すべて
 ui.deliveries.res.mo.qty	数量
@@ -1406,7 +1406,7 @@ ui.corner.ethnicity	主要民族：{ethadj}
 ui.corner.controller	支配者：{name}
 ui.corner.respect.header	敬意
 ui.corner.respect.default	街の静かな一角だ。まだ誰の目にも留まっていない。
-ui.corner.respect.row.desc	現在：<indent=40>{name}</indent>
+ui.corner.respect.row.desc	{current}：<indent=40>{name}</indent>
 ui.corner.respect.row.mouseover	支配組織：{groupname}\nリーダー：{peepname}
 ui.corner.respect.human.mouseover	敬意
 ui.corner.heat.human.mouseover	警戒
@@ -2348,7 +2348,7 @@ ui.election-day.winner	<b>当選者：</b> {winner}
 ui.election-day.votes-counted	<b>開票数：</b> {counted}/{total}
 ui.election-day.total-wins	当選回数：{num} 回！
 ui.election-day.total-wins.1	当選回数：{num} 回！
-ui.election-day.influence-gained	影響力 <b>+{influence}</b> 獲得
+ui.election-day.influence-gained	<sprite name="ui influence"> 影響力 <b>+{influence}</b> 獲得
 demand.type.none	なし
 demand.type.protection	月々のみかじめ料を支払う
 demand.type.closeoutpost	拠点の運営を停止する
@@ -3209,7 +3209,7 @@ convo.resources-reveal.request	近所で誰が何を売っているか情報が�
 convo.resources-reveal.request.mo	近隣の供給者（サプライヤー）についての情報を得る。
 convo.ticket-resources-reveal-npc	この辺りで商売をしているからな、いくつか名前は知っている。何を探しているんだ？
 convo.ticket-resources-reveal-containers-button	シノギで「容器（ボトル）」が足りなくなっている。売ってくれる奴を見つけてくれ。
-convo.ticket-resources-reveal-construction-button	裏稼業を拡張しようと思っているんだ。建設資材（資材）を扱っている奴を知らないか？
+convo.ticket-resources-reveal-construction-button	裏稼業を拡張しようと思っているんだ。建設資材を扱っている奴を知らないか？
 convo.ticket-resources-reveal-cancel-button	なんでもない。
 convo.ticket-resources-reveal-epilogue-npc	分かった。\n<indent=15><i>（物資オーバーレイを確認して、新しく判明した店舗をチェックしてください。）</i></indent>
 convo.ticket.imported-booze-reveal-same-same	俺たちは同郷だ。故郷の味がどこで求められているか、心当たりはないか？
@@ -4869,7 +4869,7 @@ mod.player-deliveries.true	定期配送による修正：{delta}
 mod.player-deliveries.false	定期配送がないことによる修正：{delta}
 mod.in-player-territory.human	あなたのナワバリ内であることによる修正：{delta}
 mod.in-player-territory.nonhuman	他者のナワバリ内であることによる修正：{delta}
-mod.random-value	不明なソースからの修正：{管理者の存在による修正}：{delta}
+mod.random-value	不明な要因による修正：{delta}
 mod.manager-exists	管理者の存在による修正：{delta}
 mod.manager-experience	管理者の経験（{details}）による修正：{delta}
 mod.crew-experience	一味の経験（{details}）による修正：{delta}
@@ -5637,7 +5637,7 @@ module.icons.fruit-wine	<sprite name="res fruit-wine">
 module.icons.homemade-brandy	<sprite name="res homemade-brandy">
 module.icons.consume	<sprite name="module produce general">
 module.icons.corner-speakeasy	<sprite name="module consume general">
-module.icons.small-speakeasy	<sprite name="biz printer">
+module.icons.small-speakeasy	<sprite name="biz bar">
 module.icons.sparkling-cider	<sprite name="res sparkling-cider">
 module.icons.bathtub-gin	<sprite name="res bathtub-gin">
 module.icons.amaretto	<sprite name="res amaretto">
@@ -7757,9 +7757,9 @@ trait-organized.gambling	<sprite name="trait organized"> 計算や計画を必�
 trait-organized.icon	<sprite name="trait organized">
 trait-careless.name	不注意
 trait-careless.desc	細かいことに無頓着なタイプです。管理者としては不向きですが、その無鉄砲さは喧嘩の場では価値を持ちます。
-trait-careless.short	<sprite name="trait organized"> 裏稼業の管理中の経験値獲得が遅くなります。
-trait-careless.gambling	<sprite name="trait organized"> 平均的なプレイヤーよりも多額の賭けをしがちです。技術を要するゲームのほとんどを苦手とします。
-trait-careless.icon	<sprite name="trait organized">
+trait-careless.short	<sprite name="trait careless"> 裏稼業の管理中の経験値獲得が遅くなります。
+trait-careless.gambling	<sprite name="trait careless"> 平均的なプレイヤーよりも多額の賭けをしがちです。技術を要するゲームのほとんどを苦手とします。
+trait-careless.icon	<sprite name="trait careless">
 trait-sociable.name	社交的
 trait-sociable.desc	運転手やバーテンダーのように接客が多い仕事なら、社交的な人物が適任です。
 trait-sociable.short	<sprite name="trait sociable"> 販売業務での経験値獲得が早くなり、また「貸し（フェイバー）」をより早く獲得できます。
@@ -10760,7 +10760,7 @@ quest.canada-bottling-unlock.beforechoice	これが、自前の瓶詰めライ�
 quest.canada-bottling-unlock.c1	素晴らしい。感謝するよ。
 quest.canada-bottling-unlock.afterchoice	瓶詰めがうまくいくよう祈っているよ。
 quest.canada-barrels.name	樽で前進
-quest.canada-barrels.desc	潜在的なカナダ人パートナーを説得し、樽出しの酒を譲ってもらえないか交渉します。
+quest.canada-barrels.desc	取引相手になりそうなカナダ人を説得し、酒の樽を譲ってもらえないか交渉します。
 quest.canadian-whiskey.name	カナディアン・ウィスキー評議会からのメッセージ
 quest.canadian-whiskey.desc	カナディアン・ウィスキー評議会の地元支部と取引を行い、本物の酒へのアクセスを確保します。
 quest.canadian-whiskey.npc1	デトロイトやオンタリオでのあんたの一味の活躍は耳に入っている。私はカナディアン・ウィスキー評議会の地元支部の者だ。あんたに検討してほしい提案がある。続けてもいいかな？
@@ -11244,7 +11244,7 @@ chapter.get-plans.oc-end.success	{name} は警報会社のスタッフとコネ�
 chapter.get-plans.ocend.fail	警報会社での工作はうまくいきませんでした。全く、最悪の結果です。
 chapter.get-plans.ic-end.success	設計図は手に入りますよ、ボス。ただ、現金が少し必要です。ここでは金がモノを言いますから。
 chapter.get-plans.decide.charmed-plans	{name} は人付き合いが上手く、通常は丁寧にお願いして所定の手数料を払うだけで済みます。
-chapter.get-plans.decide.bribed-plans	警報システムの設計図を手に入れるには、多額の賄賂が必要です。
+chapter.get-plans.decide.bribed-plans	{name} が警報システムの設計図を手に入れるには、多額の賄賂が必要です。
 chapter.get-plans.decide.fail	{name} が設計図の話を持ち出した途端、文字通り「警告ベル」が鳴り響きました。
 chapter.plans-timing.title	バイパス（回避）
 chapter.plans-timing.ic-start	設計図は手に入った。あとはどう使うかだ。じっくり勉強して、最善のアプローチを見極めてやるよ。
